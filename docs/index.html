@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Radar de Subidas</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%2316a34a'/><path d='M7 22l7-7 4 4 7-8' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><rect width="32" height="32" rx="7" fill="var(--up)"/><path d="M7 22l7-7 4 4 7-8" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div>
+        <h1>Radar de Subidas</h1>
+        <p class="sub">Top acciones EE.UU. con subida fuerte y catalizador</p>
+      </div>
+    </div>
+    <div class="controls">
+      <label for="date-select" class="visually-hidden">Fecha</label>
+      <select id="date-select"></select>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-tab="today" aria-selected="true">Top del día</button>
+    <button role="tab" data-tab="tracking" aria-selected="false">Seguimiento</button>
+    <button role="tab" data-tab="stats" aria-selected="false">Estadísticas</button>
+    <button role="tab" data-tab="help" aria-selected="false">Cómo funciona</button>
+  </nav>
+
+  <main>
+    <section id="tab-today" class="tab-panel">
+      <div id="summary" class="summary"></div>
+      <div id="cards" class="cards"></div>
+
+      <h2 class="section-title">Aguantan la subida</h2>
+      <p class="hint" id="holders-hint"></p>
+      <div class="table-wrap"><table id="holders-table"></table></div>
+    </section>
+
+    <section id="tab-tracking" class="tab-panel" hidden>
+      <p class="hint">Qué pasó con cada selección 1, 5 y 20 sesiones después (cierre a cierre). Entre paréntesis: diferencia frente al S&amp;P 500 (SPY).</p>
+      <div class="table-wrap"><table id="tracking-table"></table></div>
+    </section>
+
+    <section id="tab-stats" class="tab-panel" hidden>
+      <p class="hint">Tus propias estadísticas. Con pocas muestras no son fiables: necesitan semanas o meses de datos (como mínimo 30 casos por fila para empezar a fiarse).</p>
+
+      <h2 class="section-title">Por tipo de catalizador</h2>
+      <div class="table-wrap"><table id="stats-table"></table></div>
+
+      <h2 class="section-title">¿Rinden mejor las repetidoras?</h2>
+      <p class="hint">Compara las acciones que salían en el top por primera vez con las que ya habían salido en las sesiones anteriores.</p>
+      <div class="table-wrap"><table id="stats-appearance"></table></div>
+
+      <h2 class="section-title">¿Aguantar la subida predice que siga subiendo?</h2>
+      <p class="hint">Separa las selecciones según si a las 5 sesiones seguían por encima o por debajo del precio del día en que salieron, y mide lo que hicieron <b>después</b>: de la sesión 5 a la 20. Si las que aguantaban rinden claramente mejor, la sección «Aguantan la subida» es una señal útil.</p>
+      <div class="table-wrap"><table id="stats-hold"></table></div>
+    </section>
+
+    <section id="tab-help" class="tab-panel prose" hidden>
+      <h2>Qué hace</h2>
+      <p>Cada día de mercado, tras el cierre de Wall Street, un proceso automático busca las acciones de NYSE y Nasdaq que suben más de un <b id="h-min"></b>, descarta las de poca calidad, busca las noticias que explican la subida y ordena las candidatas con una puntuación de 0 a 100.</p>
+      <h2>Filtros de calidad</h2>
+      <ul id="h-filters"></ul>
+      <h2>Puntuación (0–100)</h2>
+      <ul>
+        <li><b>Volumen relativo (30)</b>: volumen de hoy frente a su media de 3 meses. Una subida sin volumen no se sostiene.</li>
+        <li><b>Catalizador (30)</b>: resultados con mejora de previsiones &gt; resultados &gt; analistas / contratos &gt; biotech &gt; sector &gt; OPA &gt; sin noticia.</li>
+        <li><b>Subida (20)</b>: más subida suma, con tope en +26 % (más allá suele ser euforia).</li>
+        <li><b>Cierre fuerte (10)</b>: cerrar cerca del máximo del día indica que nadie vendió la subida.</li>
+        <li><b>Tamaño (10)</b>: las empresas grandes son más difíciles de manipular.</li>
+      </ul>
+      <h2>Repetidoras y «Aguantan la subida»</h2>
+      <ul>
+        <li><b>🔁 Repetidora</b>: la acción ya había salido en el top en las últimas sesiones. Puede indicar un movimiento con fuerza (momentum), pero de momento <b>no suma puntos</b>: primero las estadísticas tienen que demostrar que rinde mejor.</li>
+        <li><b>Aguantan la subida</b>: acciones que salieron en el top en las últimas sesiones y siguen por encima del cierre de aquel día. Subir fuerte y no devolver la subida indica que nadie tiene prisa por vender.</li>
+      </ul>
+      <h2>Cómo usarlo</h2>
+      <p>No es una lista de compra. Es un radar para saber <b>qué se mueve y por qué</b>, y la pestaña de Estadísticas te dirá con el tiempo qué tipo de subidas suelen continuar y cuáles se desinflan.</p>
+      <p class="disclaimer">Herramienta personal de análisis. No es asesoramiento financiero. Datos gratuitos de Yahoo Finance y Google News con posible retraso o errores.</p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span id="updated"></span>
+    <span>Uso personal · No es asesoramiento financiero</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,234 @@
+{
+ "picks": [
+  {
+   "date": "2026-10-15",
+   "symbol": "ERIC",
+   "name": "Telefonaktiebolaget LM Ericsson (publ)",
+   "rank": 1,
+   "score": 70.6,
+   "price": 10.41,
+   "change_pct": 8.66,
+   "rvol": 7.57,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "QNT",
+   "name": "Quantinuum Inc.",
+   "rank": 2,
+   "score": 59.5,
+   "price": 36.65,
+   "change_pct": 10.94,
+   "rvol": 5.01,
+   "catalyst": "analyst",
+   "catalyst_label": "Mejora de analista",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "PAG",
+   "name": "Penske Automotive Group, Inc.",
+   "rank": 3,
+   "score": 53.2,
+   "price": 211.19,
+   "change_pct": 8.42,
+   "rvol": 14.1,
+   "catalyst": "takeover",
+   "catalyst_label": "OPA / la compran",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "MRSH",
+   "name": "Marsh & McLennan Companies, Inc.",
+   "rank": 4,
+   "score": 46.1,
+   "price": 189.64,
+   "change_pct": 6.3,
+   "rvol": 1.83,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "BSP",
+   "name": "Bending Spoons S.p.A.",
+   "rank": 5,
+   "score": 42.5,
+   "price": 57.58,
+   "change_pct": 7.71,
+   "rvol": 4.78,
+   "catalyst": "none",
+   "catalyst_label": "Sin noticia clara",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "APPN",
+   "name": "Appian Corporation",
+   "rank": 6,
+   "score": 37.1,
+   "price": 42.16,
+   "change_pct": 9.65,
+   "rvol": 2.03,
+   "catalyst": "analyst",
+   "catalyst_label": "Mejora de analista",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "PATK",
+   "name": "Patrick Industries, Inc.",
+   "rank": 7,
+   "score": 35.5,
+   "price": 67.66,
+   "change_pct": 6.87,
+   "rvol": 2.78,
+   "catalyst": "acquisition",
+   "catalyst_label": "Compra / fusión con otra empresa",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "REAL",
+   "name": "The RealReal, Inc.",
+   "rank": 8,
+   "score": 33.7,
+   "price": 10.29,
+   "change_pct": 13.02,
+   "rvol": 1.92,
+   "catalyst": "capital",
+   "catalyst_label": "Financiación / recompra",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "ARQT",
+   "name": "Arcutis Biotherapeutics, Inc.",
+   "rank": 9,
+   "score": 30.1,
+   "price": 28.33,
+   "change_pct": 7.27,
+   "rvol": 1.63,
+   "catalyst": "analyst",
+   "catalyst_label": "Mejora de analista",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "VKTX",
+   "name": "Viking Therapeutics, Inc.",
+   "rank": 10,
+   "score": 29.2,
+   "price": 27.08,
+   "change_pct": 6.32,
+   "rvol": 1.79,
+   "catalyst": "fda",
+   "catalyst_label": "Biotech / FDA / ensayo",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  }
+ ]
+}

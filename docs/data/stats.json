@@ -1,0 +1,106 @@
+{
+ "catalysts": {
+  "all": {
+   "label": "Todas",
+   "count": 10,
+   "horizons": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  "earnings": {
+   "label": "Resultados trimestrales",
+   "count": 2,
+   "horizons": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  "analyst": {
+   "label": "Mejora de analista",
+   "count": 3,
+   "horizons": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  "takeover": {
+   "label": "OPA / la compran",
+   "count": 1,
+   "horizons": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  "none": {
+   "label": "Sin noticia clara",
+   "count": 1,
+   "horizons": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  "acquisition": {
+   "label": "Compra / fusión con otra empresa",
+   "count": 1,
+   "horizons": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  "capital": {
+   "label": "Financiación / recompra",
+   "count": 1,
+   "horizons": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  "fda": {
+   "label": "Biotech / FDA / ensayo",
+   "count": 1,
+   "horizons": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  }
+ },
+ "appearance": {
+  "first": {
+   "label": "Primera aparición",
+   "count": 10,
+   "horizons": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  "repeat": {
+   "label": "Repetidora (2ª vez o más)",
+   "count": 0,
+   "horizons": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  }
+ },
+ "hold_signal": {
+  "held": {
+   "label": "Aguantaban a las 5 sesiones",
+   "stats": null
+  },
+  "faded": {
+   "label": "Habían devuelto la subida",
+   "stats": null
+  }
+ }
+}
