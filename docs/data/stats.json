@@ -9,18 +9,18 @@
     "20": null
    }
   },
-  "earnings": {
-   "label": "Resultados trimestrales",
-   "count": 2,
+  "sector": {
+   "label": "Movimiento sectorial / macro",
+   "count": 1,
    "horizons": {
     "1": null,
     "5": null,
     "20": null
    }
   },
-  "analyst": {
-   "label": "Mejora de analista",
-   "count": 3,
+  "earnings": {
+   "label": "Resultados trimestrales",
+   "count": 1,
    "horizons": {
     "1": null,
     "5": null,
@@ -36,17 +36,17 @@
     "20": null
    }
   },
-  "none": {
-   "label": "Sin noticia clara",
-   "count": 1,
+  "analyst": {
+   "label": "Mejora de analista",
+   "count": 4,
    "horizons": {
     "1": null,
     "5": null,
     "20": null
    }
   },
-  "acquisition": {
-   "label": "Compra / fusión con otra empresa",
+  "contract": {
+   "label": "Contrato / alianza",
    "count": 1,
    "horizons": {
     "1": null,
@@ -63,8 +63,8 @@
     "20": null
    }
   },
-  "fda": {
-   "label": "Biotech / FDA / ensayo",
+  "acquisition": {
+   "label": "Compra / fusión con otra empresa",
    "count": 1,
    "horizons": {
     "1": null,
