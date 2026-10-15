@@ -9,8 +9,8 @@
     "20": null
    }
   },
-  "sector": {
-   "label": "Movimiento sectorial / macro",
+  "earnings": {
+   "label": "Resultados trimestrales",
    "count": 1,
    "horizons": {
     "1": null,
@@ -18,9 +18,9 @@
     "20": null
    }
   },
-  "earnings": {
-   "label": "Resultados trimestrales",
-   "count": 1,
+  "sector": {
+   "label": "Movimiento sectorial / macro",
+   "count": 3,
    "horizons": {
     "1": null,
     "5": null,
@@ -38,7 +38,16 @@
   },
   "analyst": {
    "label": "Mejora de analista",
-   "count": 5,
+   "count": 3,
+   "horizons": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  "none": {
+   "label": "Sin noticia clara",
+   "count": 1,
    "horizons": {
     "1": null,
     "5": null,
@@ -47,15 +56,6 @@
   },
   "contract": {
    "label": "Contrato / alianza",
-   "count": 1,
-   "horizons": {
-    "1": null,
-    "5": null,
-    "20": null
-   }
-  },
-  "capital": {
-   "label": "Financiación / recompra",
    "count": 1,
    "horizons": {
     "1": null,
