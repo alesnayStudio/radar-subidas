@@ -38,7 +38,7 @@
   },
   "analyst": {
    "label": "Mejora de analista",
-   "count": 4,
+   "count": 5,
    "horizons": {
     "1": null,
     "5": null,
@@ -56,15 +56,6 @@
   },
   "capital": {
    "label": "Financiación / recompra",
-   "count": 1,
-   "horizons": {
-    "1": null,
-    "5": null,
-    "20": null
-   }
-  },
-  "acquisition": {
-   "label": "Compra / fusión con otra empresa",
    "count": 1,
    "horizons": {
     "1": null,

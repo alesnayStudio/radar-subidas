@@ -1,6 +1,6 @@
 {
  "date": "2026-10-15",
- "generated_at": "2026-10-15T18:37:54+00:00",
+ "generated_at": "2026-10-15T18:42:21+00:00",
  "market_state": "REGULAR",
  "filters": {
   "min_change_pct": 6.0,
@@ -10,7 +10,7 @@
   "min_rvol": 1.5
  },
  "universe": {
-  "raw_gainers": 73,
+  "raw_gainers": 74,
   "passed_filters": 13
  },
  "score_weights": {
@@ -25,25 +25,25 @@
    "symbol": "RGC",
    "name": "Regencell Bioscience Holdings Limited",
    "exchange": "NasdaqCM",
-   "price": 10.43,
+   "price": 10.5,
    "prev_close": 8.11,
-   "change_pct": 28.61,
+   "change_pct": 29.47,
    "gap_pct": -1.6,
-   "close_strength": 0.8,
-   "volume": 1610916,
+   "close_strength": 0.82,
+   "volume": 1631161,
    "avg_volume": 197307,
-   "rvol": 10.37,
-   "dollar_volume": 16801854,
-   "market_cap": 5172074496,
+   "rvol": 10.33,
+   "dollar_volume": 17127190,
+   "market_cap": 5206786048,
    "pe": null,
    "pct_from_52w_high": -0.85,
    "above_sma50": true,
    "above_sma200": false,
    "earnings_ts": 1793217600,
-   "market_time": 1792089456,
+   "market_time": 1792089718,
    "market_date": "2026-10-15",
    "market_state": "REGULAR",
-   "score": 73.6,
+   "score": 73.8,
    "news": [
     {
      "title": "US Top Movers: Energy Stocks Surge as Bioscience and Crypto Names Slide – 13 October 2026",
@@ -75,7 +75,7 @@
     "move": 20.0,
     "rvol": 30.0,
     "catalyst": 12.0,
-    "close": 8.0,
+    "close": 8.2,
     "size": 3.6
    },
    "appearance": {
@@ -90,23 +90,23 @@
    "exchange": "NasdaqGS",
    "price": 10.54,
    "prev_close": 9.58,
-   "change_pct": 9.97,
+   "change_pct": 10.02,
    "gap_pct": 11.16,
-   "close_strength": 0.74,
-   "volume": 32883030,
+   "close_strength": 0.75,
+   "volume": 32938621,
    "avg_volume": 9954287,
-   "rvol": 4.2,
-   "dollar_volume": 346422721,
-   "market_cap": 34191822848,
-   "pe": 13.506411,
+   "rvol": 4.14,
+   "dollar_volume": 347173065,
+   "market_cap": 34208051200,
+   "pe": 13.512821,
    "pct_from_52w_high": -0.23,
    "above_sma50": true,
    "above_sma200": false,
    "earnings_ts": 1792067400,
-   "market_time": 1792089460,
+   "market_time": 1792089724,
    "market_date": "2026-10-15",
    "market_state": "REGULAR",
-   "score": 62.6,
+   "score": 62.3,
    "news": [
     {
      "title": "Telefonaktiebolaget L M Ericsson (ERIC) (Q3 2026) Earnings Call Highlights: Solid Organic ...",
@@ -128,9 +128,9 @@
     },
     {
      "title": "Why Ericsson Stock Soared Today",
-     "source": "The Globe and Mail",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORlRWR0l1ZDgwR0tqTUNTalJtM2xUcDNHLXJCeXlzNUdEbUZzblFodDRyc1AwbnlpSkxiVUxOVjRxQmlwZElsYmVsMkl4QW9jam1UUmYwRGhfeWhQNmE4OHNSam45MHQ3b3ZxZTI2Vm5ZRlA0ZmJzcTZrdFoxZWpmNm1zLTlEcndOc1RzVzJuQ1k1ajg1ekdlTmZYcTRYWXlBSU1nY3g3MFd2TDBWNlg4ZTBnQTY5ekRj?oc=5",
-     "published": "2026-10-15T18:17:16+00:00"
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMzlnb0gtcjhZZHBiaDhrSGNmS3ppdmJXTFF4dHB5TlZBX2gzaXZqSHR2Y1FpMGtZRkpBTzhYSHhDTXNUdmRLTXdGYUlRcC1SVTdNSEctNFJDZU00NXcxSU9ob0tsdVRLZ3EwdmpWeUVRa2RONlI3WXk5UlZ1QjUzYlh5UkZYeTZWdG9JZ1lyajdnOXZYTHBmNEJqcnI?oc=5",
+     "published": "2026-10-15T18:17:01+00:00"
     },
     {
      "title": "Ericsson (NASDAQ:ERIC) Stock Sees Heavy Call Option Buying",
@@ -166,9 +166,9 @@
    },
    "score_parts": {
     "move": 4.0,
-    "rvol": 18.0,
+    "rvol": 17.6,
     "catalyst": 25.5,
-    "close": 7.4,
+    "close": 7.5,
     "size": 7.7
    },
    "appearance": {
@@ -181,25 +181,25 @@
    "symbol": "PAG",
    "name": "Penske Automotive Group, Inc.",
    "exchange": "NYSE",
-   "price": 211.95,
+   "price": 211.81,
    "prev_close": 194.79,
-   "change_pct": 8.81,
+   "change_pct": 8.74,
    "gap_pct": 8.32,
-   "close_strength": 0.94,
-   "volume": 2596468,
+   "close_strength": 0.85,
+   "volume": 2609950,
    "avg_volume": 437228,
-   "rvol": 7.54,
-   "dollar_volume": 550321393,
-   "market_cap": 13917245440,
-   "pe": 14.968221,
+   "rvol": 7.46,
+   "dollar_volume": 552826559,
+   "market_cap": 13908381696,
+   "pe": 14.958687,
    "pct_from_52w_high": -0.07,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1793190600,
-   "market_time": 1792089438,
+   "market_time": 1792089689,
    "market_date": "2026-10-15",
    "market_state": "REGULAR",
-   "score": 56.9,
+   "score": 55.9,
    "news": [
     {
      "title": "Penske Automotive goes private at $16.3B valuation",
@@ -258,10 +258,10 @@
     "confidence": 0.5
    },
    "score_parts": {
-    "move": 2.8,
+    "move": 2.7,
     "rvol": 30.0,
     "catalyst": 9.0,
-    "close": 9.4,
+    "close": 8.5,
     "size": 5.7
    },
    "appearance": {
@@ -274,25 +274,25 @@
    "symbol": "QNT",
    "name": "Quantinuum Inc.",
    "exchange": "NasdaqGM",
-   "price": 36.27,
+   "price": 36.15,
    "prev_close": 33.03,
-   "change_pct": 9.8,
+   "change_pct": 9.45,
    "gap_pct": 3.81,
-   "close_strength": 0.72,
-   "volume": 4205601,
+   "close_strength": 0.69,
+   "volume": 4218903,
    "avg_volume": 1705092,
-   "rvol": 3.13,
-   "dollar_volume": 152520746,
-   "market_cap": 9635093504,
+   "rvol": 3.09,
+   "dollar_volume": 152513343,
+   "market_cap": 9604247552,
    "pe": null,
    "pct_from_52w_high": -0.58,
    "above_sma50": false,
    "above_sma200": false,
    "earnings_ts": 1794254400,
-   "market_time": 1792089452,
+   "market_time": 1792089726,
    "market_date": "2026-10-15",
    "market_state": "REGULAR",
-   "score": 44.8,
+   "score": 43.8,
    "news": [
     {
      "title": "Quantinuum Upgraded On Valuation, Tech Road Map Vs. Other Quantum Computing Stocks",
@@ -351,11 +351,104 @@
     "confidence": 0.8
    },
    "score_parts": {
-    "move": 3.8,
-    "rvol": 10.9,
+    "move": 3.4,
+    "rvol": 10.6,
     "catalyst": 18.0,
-    "close": 7.2,
+    "close": 6.9,
     "size": 4.9
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "WULF",
+   "name": "TeraWulf Inc.",
+   "exchange": "NasdaqCM",
+   "price": 12.27,
+   "prev_close": 11.54,
+   "change_pct": 6.33,
+   "gap_pct": -5.2,
+   "close_strength": 0.97,
+   "volume": 79416489,
+   "avg_volume": 30683601,
+   "rvol": 3.24,
+   "dollar_volume": 974440320,
+   "market_cap": 6122345984,
+   "pe": null,
+   "pct_from_52w_high": -0.59,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1793968200,
+   "market_time": 1792089726,
+   "market_date": "2026-10-15",
+   "market_state": "REGULAR",
+   "score": 43.5,
+   "news": [
+    {
+     "title": "Morgan Stanley Maintains TeraWulf(WULF.US) With Buy Rating, Maintains Target Price $65",
+     "source": "Moomoo",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOc3I2SmR6MDBtNHNqanBLUjdYM0dmZDdSTzc3cEdPa3JTbmpSclUzVWdxOEoyUjMtYm1sVHBxX2lXRThZTWhRZmR3cV9HS2o5OWpJZ0FEZ1Y0LU5KalFRWGIyeld5VWV2RmVDeDFwMU1SeS1tMGJkOUdLcktVVzYzSVVnbXl3eERuUEVITHpfRWpMbm4xZnZ4N2pHVFVxcGtoNjBhMHFRUFMtZEw5WlNZZDZBS1pyRWhO?oc=5",
+     "published": "2026-10-15T14:40:24+00:00"
+    },
+    {
+     "title": "WULF Stock Set For Biggest Weekly Loss Of 2026, Morgan Stanley Says Shares Are ‘Mispriced’",
+     "source": "Asianet Newsable",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWkQxTDg1dVV1bFBESHhEOWtCRGtiRHltVXNhWUpyaVAxQURlZmRhRThkRHZ6djJUY2hfUk9aNlpoTzlHRE82cUtDMU83dThWVGF1VUdjUHFWdEVhZFFOb2ZjdEFPZ2VDT1JRc0FaVjd0NkhWYU9EMm91R0xCU3U1WFpubUxIM1lOLW02c2ZSMTNoSWhsNVVWWlJOckdDUmpoNi1TQzI2eXNkYzZOTWRQeHdfVzBBU2RzTm4xMm9aVmZJTkt2SjhjNWtZbGhWRXNRM3g2QS1jbXhGOEY2Z3h3U1FB0gHnAUFVX3lxTE1uMkVCMFZmOEIyTFZ2a25nRXdjbmltTGFrWndKWlluMzZNZ0RQOHJWcF9hdzhUaG1YaXU3cHV6TVFSOHh1TEdweTN3Vl9qckc1aXFSZkFKMUI3T0ZhczZERVBwdGhWenJ1Y0Rpc3NEYXFIU2sxdWF5cFVnWWNvOXEwYTZmdi13Y29DbUZaWWdVYi1CaVBlcko3MzZ4MjBLWkFpMTBjc1l5d0dwRGdrdVNialVDb2VPWWpjWFpxUEdkcDl2aVNXLWhQUk1TaUV3dGdCMDhxMlhyNVNVVFBkdWk3UjlvQk01Zw?oc=5",
+     "published": "2026-10-15T17:45:01+00:00"
+    },
+    {
+     "title": "TeraWulf (NASDAQ:WULF) Sets New 52-Week Low - Here's Why",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYTlEcGdRellMbEx0dW9tc3BhdHY3eThNQ3NzVVphTU5kWTNNTWh6YTNwTV9aZDlsQW5XX0V1UW5aeDVEeVpqUmY0Ri1CUFNCVG5TWE55WFhaS3l6c2owcV9Ha0twalhheFZETTJBRHVRODZqNXRtWFdHdEtCN0RiVTA5OFRxNUFoWmlZREJHaGlna1p0cnFWVmQtZmowbEluU1hDeXZld0pmOGNGS2F2bQ?oc=5",
+     "published": "2026-10-15T16:45:21+00:00"
+    },
+    {
+     "title": "TeraWulf Stock Keeps Falling, but Morgan Stanley Sees 463% Upside",
+     "source": "Barron's",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQU5nVmVkSWxWN19ndDJIY25WNHN4cjRETHgtdHhSM1lZaGJmVHRhbTZkcDhQNmJmRG1JU2FMU21EblQzN2x6QUdEMWxYWVJJU2FoOFFmY1R0NDN2WkhOWTRLQ1hUbFNfUEdVaVNyZEYxVzZyelJ6WHNMbVZkeWJXeEhjMnhxOGY3emlsZ2F0NGlIYlVIMTQxcQ?oc=5",
+     "published": "2026-10-15T15:57:00+00:00"
+    },
+    {
+     "title": "TeraWulf (NASDAQ:WULF) Stock Gets Downgrade from Zacks Research",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeXFzbk5mNWhabGdLVGEyTThsVnNmV3FDcUttMXBUMTZGMEdCRTBWUUR2MlFGTmFzZ2diaVUwMGJDWkdaMFh6Y2VkQmlLRkFLbTFMZTFEZVRLTGtQTTVob0w5XzRSdDd5ZnIwQ3JJUjRYbVdXa0JULU5aMi1rTG9HVVZWbmFWWW1VUEZ2SXU1X1VQZUs1WVNIU05uOEdWUklWcmpmcHZrVWdMbDdmNEd5VnV2aFVORWlPWV9hX2x0ZjA?oc=5",
+     "published": "2026-10-15T12:32:00+00:00"
+    },
+    {
+     "title": "Form PRE 14A Terawulf Inc For: 15 October By Investing.com",
+     "source": "Investing.com UK",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY2NURVV2dldXdkRpUzFPM3ZOTXFaLTlUZzJNRW1mWnA4WkxVd1dObmNNcTN2UWJPZDdjUmlDSV8yamIzSzJpVzVtd1dhdHZtcXlGRTUxc2lnaUluQjQ3cXhWQ0NoOVozRElVMzcyLXVlWURJNHVOYWhNUm5vU01zWjIwcjlwNWRCa0M5ZWRJU3JKTE1HbG1mX2JLaVhMOXhURmp3?oc=5",
+     "published": "2026-10-15T04:02:00+00:00"
+    },
+    {
+     "title": "TeraWulf Inc (WULF) Shares Fall 12.6% -- What GF Score of 39 Tel",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUWhua2YzUG9CVlIzQlFmLTFuNF9URUowaFZoTGpZMUs1UHRXU0FVM2RDcmlCN080MHlNbTNYYS03bmFVR1RmU1hRQlhJWm9xQUFmTzhCaV9jYTA3SVZhRjc5OGczM1NMNS1QOXk2Y0Jab1UtWFM4TGRSbHViaVRXSU82eHJYMGRMMmk5MFR6czU0TGhPb0NHcVpBdHFOdGsyaE0zZTh4OEhRazdo?oc=5",
+     "published": "2026-10-14T23:32:14+00:00"
+    },
+    {
+     "title": "WULF Stock Jumps 7% — TeraWulf’s $3.5B AI Data Centre Plan Has Retail Investors Watching",
+     "source": "Stocktwits",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZmVwcGUxR3ZtaVFHVW1Ya2JteUx0djNYQWRtWUxxeHlJZE02akFoZklzelNWTHBNVjloUVFNeGFQdnhLTDBwTVppZHlWWjRrSW83Y1o0eEpBTlFPUEpkRC1lNGdLdFM1TlZ6VjJEMWsxOHZDOEdreExJRVRLV2NlSXRSQXFQNDlkRGpqdXJ3SXRSR1ZVTU02LUpUbTdEU1FCUkN6MGFFeEdNYUdsV3FJOUI4N3NWTHEtNm5iNUoxY090QWMzNHhwQ2FPWFU4RWhrQ0FfR2pLOXE?oc=5",
+     "published": "2026-10-14T22:44:47+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "analyst",
+    "label": "Mejora de analista",
+    "quality": 0.6,
+    "note": "Impulso moderado; suele diluirse si no hay más noticias.",
+    "confidence": 0.2
+   },
+   "score_parts": {
+    "move": 0.3,
+    "rvol": 11.6,
+    "catalyst": 18.0,
+    "close": 9.7,
+    "size": 3.9
    },
    "appearance": {
     "count": 1,
@@ -367,22 +460,22 @@
    "symbol": "ALMR",
    "name": "Alamar Biosciences, Inc.",
    "exchange": "NasdaqGS",
-   "price": 28.05,
+   "price": 28.08,
    "prev_close": 25.37,
-   "change_pct": 10.58,
+   "change_pct": 10.68,
    "gap_pct": -0.91,
-   "close_strength": 0.94,
-   "volume": 582397,
+   "close_strength": 0.95,
+   "volume": 586376,
    "avg_volume": 446776,
-   "rvol": 1.66,
-   "dollar_volume": 16339148,
-   "market_cap": 1946814080,
+   "rvol": 1.64,
+   "dollar_volume": 16465438,
+   "market_cap": 1948548864,
    "pe": null,
    "pct_from_52w_high": -0.29,
    "above_sma50": false,
    "above_sma200": true,
    "earnings_ts": 1793736000,
-   "market_time": 1792089446,
+   "market_time": 1792089725,
    "market_date": "2026-10-15",
    "market_state": "REGULAR",
    "score": 34.5,
@@ -426,104 +519,11 @@
     "confidence": 0.2
    },
    "score_parts": {
-    "move": 4.6,
-    "rvol": 1.1,
+    "move": 4.7,
+    "rvol": 0.9,
     "catalyst": 18.0,
-    "close": 9.4,
+    "close": 9.5,
     "size": 1.4
-   },
-   "appearance": {
-    "count": 1,
-    "previous": [],
-    "window": 10
-   }
-  },
-  {
-   "symbol": "PEGA",
-   "name": "Pegasystems Inc.",
-   "exchange": "NasdaqGS",
-   "price": 36.06,
-   "prev_close": 33.83,
-   "change_pct": 6.59,
-   "gap_pct": 0.18,
-   "close_strength": 0.94,
-   "volume": 3491599,
-   "avg_volume": 2565584,
-   "rvol": 1.73,
-   "dollar_volume": 125907060,
-   "market_cap": 5928442368,
-   "pe": 20.724138,
-   "pct_from_52w_high": -0.47,
-   "above_sma50": true,
-   "above_sma200": false,
-   "earnings_ts": 1792526400,
-   "market_time": 1792089449,
-   "market_date": "2026-10-15",
-   "market_state": "REGULAR",
-   "score": 33.4,
-   "news": [
-    {
-     "title": "Rosenblatt Securities Reaffirms Buy Rating for Pegasystems (NASDAQ:PEGA)",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUG9faWZWZ1UyZTRBczNvbWRNcFRHd2gtanpkRWo3N1FEdzJwa04xMEcwSGpfVWpSZjNxWmpjTkNyd1B1c3FXUkZqMHhxZGwtRVV1Nm0zN0lZNnlGYjhNN2ZiRjJVaFkzd29id2d4TzJqV1VRTUJsVzFDdzItUGVUZGV6YzNfZUw4S0lmTmNQU0VnbDRBdDEzYUwzWVJnbVJjV1ZPLW1mZ2RQZzdtRXlEaWJhOVlWNnEwVGhiM0J1WUo2bnhGT2cteWhYWjg?oc=5",
-     "published": "2026-10-15T12:37:56+00:00"
-    },
-    {
-     "title": "Rosenblatt maintains Buy rating on Pegasystems, $47 price target",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcmFjT2I0NU9vRUZhTUpLVGRfRW5rTVY1X0tDdm9idk02b1hBYWdIeUN3eW1PZDZSX2paWHAyMTZaMUNrUjEzNy0yWXJfOGhBRElfRjl1SWhQZXNMcWdsTF9xZ2ZvczZKVGRtTUd4T3NQdVZuTnpBOHhaRF9vQ01sVEp5NVFYZGdYVllkNmxYSXNFVjBJT3k2TG5xOG5CZU9jaWxVcHpwaUltZlJ2TC01d0pzRHhwS3JKaTZfck9LOVc4QQ?oc=5",
-     "published": "2026-10-15T12:16:43+00:00"
-    },
-    {
-     "title": "Pegasystems Pops As Analysts Double Down On Upside",
-     "source": "TipRanks",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPS3FxalRUbVo3MkduSmM4UGZWV2hmMkt0S2ZJdlJCNjFnWjYxX3dpTXJiQXdfYmgxRXBoYy1TVVk2UC1fcU9tbnFrYnIySzJrTTdUSUpXX2gzWVM5eElUdTRNaVdQc2t0bWk4Z0dpSVktLXh0dXpkc1pwdzdCMHVmR004ZXlZbU9Dc09SZUZycVFQN1E?oc=5",
-     "published": "2026-10-15T17:30:59+00:00"
-    },
-    {
-     "title": "Stay Ahead of the Game With Pegasystems (PEGA) Q3 Earnings: Wall Street's Insights on Key Metrics",
-     "source": "Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUjhDTjV2MW1qZGpLVmZqQWNGa0M0bHRyOHZpcXNzNUJ5cWZpcGdzZ0RwYjNnb0cxZVVSVmRVSjlIODFmX0tLbzlJemJEeFNvWDdCcU1Ua2hEazJWNlUzaDlSeUtPQjJZQzdaTmNWdmNhb3RqSENLQ3QzendFcWtEck44cHZCUEg0Tmg1VnM2UGs2RmM4eVhZWVVJSjZBUQ?oc=5",
-     "published": "2026-10-15T12:15:16+00:00"
-    },
-    {
-     "title": "Why Pegasystems Fell Even As Sales Rose",
-     "source": "Simply Wall Street",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQzZUVnp6Y0R4aXNLUmQ4MTJkU0VtdE1RM0F6bGpFRm1qRkg5cS1vOWVzWVlIMEFXV01XaGFJeldjV05sVU1ZMUg3S3Q4WTRhcjg4SWxQbHV0SlViMUVTdVdrMHFJNVh4ODBsdnItMkh0ZjBuU2U3SFFLVmZqQ29OTHl4TTR0LWVJN3lkeEh0LTB1RTducF91YmtDR1Roekt4NUJRYWZMdHJ5dXg4VDB3enZnNNIBswFBVV95cUxNQzZUVnp6Y0R4aXNLUmQ4MTJkU0VtdE1RM0F6bGpFRm1qRkg5cS1vOWVzWVlIMEFXV01XaGFJeldjV05sVU1ZMUg3S3Q4WTRhcjg4SWxQbHV0SlViMUVTdVdrMHFJNVh4ODBsdnItMkh0ZjBuU2U3SFFLVmZqQ29OTHl4TTR0LWVJN3lkeEh0LTB1RTducF91YmtDR1Roekt4NUJRYWZMdHJ5dXg4VDB3enZnNA?oc=5",
-     "published": "2026-10-15T07:38:57+00:00"
-    },
-    {
-     "title": "Pegasystems Inc. (PEGA) Stock Forecasts",
-     "source": "Yahoo! Finance Canada",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRVpOcjQ3YWFWVDdzRzZkLXRJRjNwM0hxYnQyWFRHcWI1V18yMHdTenlreWtuTkNRcktaaWM1MXp0TjdPYTNiWmRKX0pzY3pyZi1IZmlSUjFFaXNvSGNYcGpoWTBVWDd5X2ZvWVFBek5xX0c4bERNNmFoMGRSU3hzZFhMMzNnSExKWVktOEJ1ZWM0Zk0?oc=5",
-     "published": "2026-10-15T03:52:01+00:00"
-    },
-    {
-     "title": "PEGA: AI Execution Looks Stronger, Sales Friction Still Holds Back The Upside",
-     "source": "Simply Wall Street",
-     "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOWFVxY2liUUp6Z2FZamZNd3Y0WTZYQnRBSktOQm9QdkRwemduNExjeml1WW54RVZOeGRqNG4tMktPMDZrek1XMWRSSXM3UnBpVFZ5aUFQNXNhTjJIVDBrdTdxelRzV25SaFVJb1VYZFlLRkJhTFBkWFhWdFcyd0hRd01ldC1xYjNiUGFSWUo4UHl0cGo2ZVY0Q0dtTGo2Y3JudS1JZ0FEeWl1VUpMbHc1MlRwZ1M3ekk4MmhiMWtUQVppWXAza3NDZzRkd2c3aEhhMjdnblZFM21jd2h0SDBtX1REd092STNXZGoxV01WWnpUM2NIR3NqbFRyWjJGTWZ3Y3g4bGxpamh2blVWYjhMUVRHRlROaXFfZUp1T1Z6VU12M0phckVPbnM0bklSS2NtSHkzZlg1RU9vd0VSVXpkVG1TNERwMGZUVV9aVg?oc=5",
-     "published": "2026-10-14T21:12:26+00:00"
-    },
-    {
-     "title": "PEGA: Pegasystems Inc. Latest Stock Price, Analysis, News and Trading Ideas",
-     "source": "Stocktwits",
-     "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1NYVNZMlg2SzJmTC1Kb3ZFODdmUEVDNnNOX3JjLU5hbTFPLWtlV21rMzJsZEk3NlFsdzJhWmVsMWE3LUZ1aWE1ZTVB?oc=5",
-     "published": "2026-10-14T13:07:54+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "analyst",
-    "label": "Mejora de analista",
-    "quality": 0.6,
-    "note": "Impulso moderado; suele diluirse si no hay más noticias.",
-    "confidence": 0.6
-   },
-   "score_parts": {
-    "move": 0.6,
-    "rvol": 1.5,
-    "catalyst": 18.0,
-    "close": 9.4,
-    "size": 3.9
    },
    "appearance": {
     "count": 1,
@@ -535,25 +535,25 @@
    "symbol": "REAL",
    "name": "The RealReal, Inc.",
    "exchange": "NasdaqGS",
-   "price": 10.43,
+   "price": 10.46,
    "prev_close": 9.1,
-   "change_pct": 14.62,
+   "change_pct": 14.89,
    "gap_pct": 3.74,
-   "close_strength": 0.94,
-   "volume": 3827846,
+   "close_strength": 0.96,
+   "volume": 3881167,
    "avg_volume": 2912168,
    "rvol": 1.67,
-   "dollar_volume": 39924434,
-   "market_cap": 1269029760,
+   "dollar_volume": 40577601,
+   "market_cap": 1272071424,
    "pe": null,
    "pct_from_52w_high": -0.4,
    "above_sma50": true,
    "above_sma200": false,
    "earnings_ts": 1793304000,
-   "market_time": 1792089386,
+   "market_time": 1792089727,
    "market_date": "2026-10-15",
    "market_state": "REGULAR",
-   "score": 33.1,
+   "score": 33.6,
    "news": [
     {
      "title": "The Realreal, Inc. Announces Refinancing of 2029 Senior Secured Notes with New $150 Million Term Loan and $25 Million Revolving Credit Facility",
@@ -612,11 +612,104 @@
     "confidence": 1
    },
    "score_parts": {
-    "move": 8.6,
+    "move": 8.9,
     "rvol": 1.1,
     "catalyst": 13.5,
-    "close": 9.4,
+    "close": 9.6,
     "size": 0.5
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "PEGA",
+   "name": "Pegasystems Inc.",
+   "exchange": "NasdaqGS",
+   "price": 36.05,
+   "prev_close": 33.83,
+   "change_pct": 6.56,
+   "gap_pct": 0.18,
+   "close_strength": 0.93,
+   "volume": 3506986,
+   "avg_volume": 2565584,
+   "rvol": 1.71,
+   "dollar_volume": 126426845,
+   "market_cap": 5926798336,
+   "pe": 20.71839,
+   "pct_from_52w_high": -0.47,
+   "above_sma50": true,
+   "above_sma200": false,
+   "earnings_ts": 1792526400,
+   "market_time": 1792089686,
+   "market_date": "2026-10-15",
+   "market_state": "REGULAR",
+   "score": 33.2,
+   "news": [
+    {
+     "title": "Rosenblatt Securities Reaffirms Buy Rating for Pegasystems (NASDAQ:PEGA)",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUG9faWZWZ1UyZTRBczNvbWRNcFRHd2gtanpkRWo3N1FEdzJwa04xMEcwSGpfVWpSZjNxWmpjTkNyd1B1c3FXUkZqMHhxZGwtRVV1Nm0zN0lZNnlGYjhNN2ZiRjJVaFkzd29id2d4TzJqV1VRTUJsVzFDdzItUGVUZGV6YzNfZUw4S0lmTmNQU0VnbDRBdDEzYUwzWVJnbVJjV1ZPLW1mZ2RQZzdtRXlEaWJhOVlWNnEwVGhiM0J1WUo2bnhGT2cteWhYWjg?oc=5",
+     "published": "2026-10-15T12:37:56+00:00"
+    },
+    {
+     "title": "Rosenblatt maintains Buy rating on Pegasystems, $47 price target",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcmFjT2I0NU9vRUZhTUpLVGRfRW5rTVY1X0tDdm9idk02b1hBYWdIeUN3eW1PZDZSX2paWHAyMTZaMUNrUjEzNy0yWXJfOGhBRElfRjl1SWhQZXNMcWdsTF9xZ2ZvczZKVGRtTUd4T3NQdVZuTnpBOHhaRF9vQ01sVEp5NVFYZGdYVllkNmxYSXNFVjBJT3k2TG5xOG5CZU9jaWxVcHpwaUltZlJ2TC01d0pzRHhwS3JKaTZfck9LOVc4QQ?oc=5",
+     "published": "2026-10-15T12:16:43+00:00"
+    },
+    {
+     "title": "Pegasystems Pops As Analysts Double Down On Upside",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPS3FxalRUbVo3MkduSmM4UGZWV2hmMkt0S2ZJdlJCNjFnWjYxX3dpTXJiQXdfYmgxRXBoYy1TVVk2UC1fcU9tbnFrYnIySzJrTTdUSUpXX2gzWVM5eElUdTRNaVdQc2t0bWk4Z0dpSVktLXh0dXpkc1pwdzdCMHVmR004ZXlZbU9Dc09SZUZycVFQN1E?oc=5",
+     "published": "2026-10-15T17:30:59+00:00"
+    },
+    {
+     "title": "Stay Ahead of the Game With Pegasystems (PEGA) Q3 Earnings: Wall Street's Insights on Key Metrics",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUjhDTjV2MW1qZGpLVmZqQWNGa0M0bHRyOHZpcXNzNUJ5cWZpcGdzZ0RwYjNnb0cxZVVSVmRVSjlIODFmX0tLbzlJemJEeFNvWDdCcU1Ua2hEazJWNlUzaDlSeUtPQjJZQzdaTmNWdmNhb3RqSENLQ3QzendFcWtEck44cHZCUEg0Tmg1VnM2UGs2RmM4eVhZWVVJSjZBUQ?oc=5",
+     "published": "2026-10-15T12:15:16+00:00"
+    },
+    {
+     "title": "Why Pegasystems Fell Even As Sales Rose",
+     "source": "Simply Wall Street",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQzZUVnp6Y0R4aXNLUmQ4MTJkU0VtdE1RM0F6bGpFRm1qRkg5cS1vOWVzWVlIMEFXV01XaGFJeldjV05sVU1ZMUg3S3Q4WTRhcjg4SWxQbHV0SlViMUVTdVdrMHFJNVh4ODBsdnItMkh0ZjBuU2U3SFFLVmZqQ29OTHl4TTR0LWVJN3lkeEh0LTB1RTducF91YmtDR1Roekt4NUJRYWZMdHJ5dXg4VDB3enZnNNIBswFBVV95cUxNQzZUVnp6Y0R4aXNLUmQ4MTJkU0VtdE1RM0F6bGpFRm1qRkg5cS1vOWVzWVlIMEFXV01XaGFJeldjV05sVU1ZMUg3S3Q4WTRhcjg4SWxQbHV0SlViMUVTdVdrMHFJNVh4ODBsdnItMkh0ZjBuU2U3SFFLVmZqQ29OTHl4TTR0LWVJN3lkeEh0LTB1RTducF91YmtDR1Roekt4NUJRYWZMdHJ5dXg4VDB3enZnNA?oc=5",
+     "published": "2026-10-15T07:38:57+00:00"
+    },
+    {
+     "title": "Pegasystems Inc. (PEGA) Stock Forecasts",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdkpjbXdrbXNZeXhRa1Z1UVhrTGRhQ01VWl96QlowbzJ4ZzJONl9XWkI2cUdBVWxkcWxYdDY3aEJwdUFzY3NrMThVSnZFd1IwY0lBbmNNbDcwSXpvZGFVbnZRRWVvZ1IxeVZJRkVyUkFKVVhETm15Mk5YYWJ5NzFIMnFWUDRKQ0FzYTQ1bmU5dw?oc=5",
+     "published": "2026-10-14T23:09:18+00:00"
+    },
+    {
+     "title": "PEGA: AI Execution Looks Stronger, Sales Friction Still Holds Back The Upside",
+     "source": "Simply Wall Street",
+     "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOWFVxY2liUUp6Z2FZamZNd3Y0WTZYQnRBSktOQm9QdkRwemduNExjeml1WW54RVZOeGRqNG4tMktPMDZrek1XMWRSSXM3UnBpVFZ5aUFQNXNhTjJIVDBrdTdxelRzV25SaFVJb1VYZFlLRkJhTFBkWFhWdFcyd0hRd01ldC1xYjNiUGFSWUo4UHl0cGo2ZVY0Q0dtTGo2Y3JudS1JZ0FEeWl1VUpMbHc1MlRwZ1M3ekk4MmhiMWtUQVppWXAza3NDZzRkd2c3aEhhMjdnblZFM21jd2h0SDBtX1REd092STNXZGoxV01WWnpUM2NIR3NqbFRyWjJGTWZ3Y3g4bGxpamh2blVWYjhMUVRHRlROaXFfZUp1T1Z6VU12M0phckVPbnM0bklSS2NtSHkzZlg1RU9vd0VSVXpkVG1TNERwMGZUVV9aVg?oc=5",
+     "published": "2026-10-14T21:12:26+00:00"
+    },
+    {
+     "title": "PEGA: Pegasystems Inc. Latest Stock Price, Analysis, News and Trading Ideas",
+     "source": "Stocktwits",
+     "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1NYVNZMlg2SzJmTC1Kb3ZFODdmUEVDNnNOX3JjLU5hbTFPLWtlV21rMzJsZEk3NlFsdzJhWmVsMWE3LUZ1aWE1ZTVB?oc=5",
+     "published": "2026-10-14T13:07:54+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "analyst",
+    "label": "Mejora de analista",
+    "quality": 0.6,
+    "note": "Impulso moderado; suele diluirse si no hay más noticias.",
+    "confidence": 0.6
+   },
+   "score_parts": {
+    "move": 0.6,
+    "rvol": 1.4,
+    "catalyst": 18.0,
+    "close": 9.3,
+    "size": 3.9
    },
    "appearance": {
     "count": 1,
@@ -628,25 +721,25 @@
    "symbol": "ETSY",
    "name": "Etsy, Inc.",
    "exchange": "NYSE",
-   "price": 89.05,
+   "price": 88.73,
    "prev_close": 82.93,
-   "change_pct": 7.38,
+   "change_pct": 6.99,
    "gap_pct": 1.86,
-   "close_strength": 0.82,
-   "volume": 3909438,
+   "close_strength": 0.76,
+   "volume": 3945477,
    "avg_volume": 3042540,
-   "rvol": 1.63,
-   "dollar_volume": 348135454,
-   "market_cap": 8173164544,
-   "pe": 24.874304,
-   "pct_from_52w_high": -0.01,
+   "rvol": 1.62,
+   "dollar_volume": 350082174,
+   "market_cap": 8143794688,
+   "pe": 24.784918,
+   "pct_from_52w_high": -0.02,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1793190600,
-   "market_time": 1792089451,
+   "market_time": 1792089723,
    "market_date": "2026-10-15",
    "market_state": "REGULAR",
-   "score": 33.1,
+   "score": 32.0,
    "news": [
     {
      "title": "ETSY Stock Rallies As Upgrades And Payoneer Deal Boost Bulls",
@@ -691,10 +784,10 @@
      "published": "2026-10-15T15:07:57+00:00"
     },
     {
-     "title": "ETSY Oct 2026 69.000 put (ETSY261016P00069000) Interactive Stock Chart",
-     "source": "Yahoo! Finance Canada",
-     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVc1U2UGNKZ3NuOVBfemM1UHE2aDF4QnhpSmIyYWRrNVhtRGtqNlY3VnBObmtISFpoaC03MV92ZXV2dERQUlN3TUc2QU4xZF82WjhIQW83VDZ0cFpOZWlvQS1hVG5HMjRxSmVFalpB?oc=5",
-     "published": "2026-10-15T13:57:49+00:00"
+     "title": "Florida Man Tries an \"Etsy Witch\" For Job Hunting. Five Days Later, He Says He Has 9 Interviews",
+     "source": "Yahoo",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTlVHek1HNmU1b3lpeVg2Qm8zdDJHTXJod3cwNHV3T3Nrc1l3LW5ISVZQUnhMTXpTQm9GbWhlWlhKdG1RWWtGczQwZ25OdHdqZVRiY0ZsRlJWUVJnVk5GYXpvUmZrQjhYcThrMGlhTWNpUko5N2g0c2RxNFVWWXBlY0pLdllMQ2FSTGlUOA?oc=5",
+     "published": "2026-10-15T13:30:35+00:00"
     }
    ],
    "catalyst": {
@@ -705,10 +798,10 @@
     "confidence": 0.4
    },
    "score_parts": {
-    "move": 1.4,
-    "rvol": 0.9,
+    "move": 1.0,
+    "rvol": 0.8,
     "catalyst": 18.0,
-    "close": 8.2,
+    "close": 7.6,
     "size": 4.6
    },
    "appearance": {
@@ -721,25 +814,25 @@
    "symbol": "RSKD",
    "name": "Riskified Ltd.",
    "exchange": "NYSE",
-   "price": 8.74,
+   "price": 8.71,
    "prev_close": 8.09,
-   "change_pct": 8.03,
+   "change_pct": 7.6,
    "gap_pct": -4.08,
-   "close_strength": 0.99,
-   "volume": 2783366,
+   "close_strength": 0.96,
+   "volume": 2823893,
    "avg_volume": 1907785,
    "rvol": 1.85,
-   "dollar_volume": 24325505,
-   "market_cap": 1153956992,
+   "dollar_volume": 24581989,
+   "market_cap": 1149388544,
    "pe": null,
-   "pct_from_52w_high": -0.0,
+   "pct_from_52w_high": -0.01,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1794400200,
-   "market_time": 1792089368,
+   "market_time": 1792089694,
    "market_date": "2026-10-15",
    "market_state": "REGULAR",
-   "score": 32.5,
+   "score": 31.8,
    "news": [
     {
      "title": "Goldman Sachs Maintains Riskified(RSKD.US) With Sell Rating, Raises Target Price to $7.5",
@@ -780,104 +873,11 @@
     "confidence": 0.3
    },
    "score_parts": {
-    "move": 2.0,
+    "move": 1.6,
     "rvol": 2.3,
     "catalyst": 18.0,
-    "close": 9.9,
+    "close": 9.6,
     "size": 0.3
-   },
-   "appearance": {
-    "count": 1,
-    "previous": [],
-    "window": 10
-   }
-  },
-  {
-   "symbol": "PATK",
-   "name": "Patrick Industries, Inc.",
-   "exchange": "NasdaqGS",
-   "price": 67.44,
-   "prev_close": 63.31,
-   "change_pct": 6.52,
-   "gap_pct": 1.53,
-   "close_strength": 0.88,
-   "volume": 780332,
-   "avg_volume": 548792,
-   "rvol": 1.81,
-   "dollar_volume": 52625590,
-   "market_cap": 2166055680,
-   "pe": 16.289856,
-   "pct_from_52w_high": -0.55,
-   "above_sma50": false,
-   "above_sma200": false,
-   "earnings_ts": 1793277000,
-   "market_time": 1792089295,
-   "market_date": "2026-10-15",
-   "market_state": "REGULAR",
-   "score": 28.1,
-   "news": [
-    {
-     "title": "DOJ requests more merger documents from Patrick Industries (PATK) and LCI on October 9, 2026.",
-     "source": "Stock Titan",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZzFOYnplUThtLXNnbUc4UTYwaWU4b0tFZ3RjWkZQQUdjTnpwMThnTExHZkV5emRxNHRrb0hwM00weU4zY19oN0Q2dUxOYnFod3U4cmVuRVA0bHBfZmhPV3Y5cS12SWFrMHFWQkUzdFlfUTJyQ29fMl91OV9ZN0FBdUdkMHpORnp6Tmh5aWdaYTNGNEZST1d6UUhkSmRXM0NBcHlxSW5ORzJmVFdfUjNSeGRRRU5uV2JsT05KUWRVOWQ?oc=5",
-     "published": "2026-10-13T22:06:19+00:00"
-    },
-    {
-     "title": "Patrick Industries faces DOJ review of LCI merger",
-     "source": "TipRanks",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObF9wd3c3ekFXU1R5RHNWTXJRYlUwYU44Z2NCYkE3X1pONnlZOHlqQ3hHSUxnd05IelVWMnVHVTZhVnc2NENFS0VtMC1ZdE50aDFFajVDQkVLa3I5T3lrdGJPX3pwWVE2dlBLTlhSR0ZUbTJoRjd6c0V2Zm1vWHV2ZVRsMWF1cnl3OVRkYmVkemRHdkc4SmthRTY3TldVVUh0Zk5V?oc=5",
-     "published": "2026-10-13T21:55:42+00:00"
-    },
-    {
-     "title": "Patrick Industries receives DOJ second request in proposed LCI merger, extending HSR waiting period",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNakc5M3kzdW05a0ViVmE1MnBRYTlfN2Y5UUlabVU3dWl3dG1YYVNMTl9zaU1LS1dQRWJRRVZJd1hzaHAzV2RfdEg1ZTVqUTFxS0lxb1p1WElxOURPTEsyZkJ3NkF3ZEptZno0UXVzLWFfNTkxd190QTdJM1pBQllCMVpzTVVzd1o3RURwYkFDTlJRWFBBSjlZeXhScW9yNWFwRFltMmkzSU1hVHRxUjhlN2lHMDM3b3IxRkZsa0R1RVNIdW4wX1loV0VCZ1BWbS1sak9nY0dITHJtOG1sOXVFeldwOW5ISlJ6UFhRbEdTN3V0QQ?oc=5",
-     "published": "2026-10-13T21:23:00+00:00"
-    },
-    {
-     "title": "Patrick Industries - Co And LCI Receive DOJ Second Request For Merger Review On Oct 9, 2026",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRjZZUUJicm5fWjhnajIxejlXREpTeDU3YWNVN1RYRDh2dDZDSEJWTVpTX0JxQTZyVzRaZU9UTXpUX3NwS0pQRFRBNkhDUGNFSEo5WS1nSVRKbDJ0bHlyZ1hnclRpWWNoSGxIOVhnUGZNTG42RHhWeTFTNWc2a1BTbVRBS2lqNVA2bVI2TFp1RmJhUU9sM2VrN1psMnAzT2tMUk5CRjVkVmtmdWVQYXRNY1dBamtoVUtOZnBKbzIzSnY3bWY4T3RpUFRBNmYzdjh5ZVFOTklQeVhfcDRidXJBY05pUHdvbl9UWHI4Z2ZmYw?oc=5",
-     "published": "2026-10-13T21:19:34+00:00"
-    },
-    {
-     "title": "LCI faces DOJ second request in Patrick Industries merger review",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQU1Ec1RqUE44amRwUnZKQ295a3dNa0dhR1V1bWV2OEVYcW9iSnFQXzhPam5uRDN6a2tfczkwNUhzbl9BaU5RbFhBNTRaNjd5SjZBQ1puNzVUQTgzU3RUdlBTTElZZmJDa29EZF9RZWJZbDhMTGh4ZHpZazhObHh3OGMxVWxHQkNzdDYyc01ZVkdFZWtYSzhVZmhENmdsZVBRNzNVYUdQcThSU1ptMlRnNWN0M2dsOUxjazFHdjBYSWlXSWpR?oc=5",
-     "published": "2026-10-13T20:33:00+00:00"
-    },
-    {
-     "title": "Patrick Industries, Inc. (PATK) Stock Forecasts",
-     "source": "Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcmRIb0NqWmhwMlpxc19jazh0Y1lxdWkxalRsZXZFdUI4b01RZ0Q3TjFHYmNiVXVpd0NBS2Q4MHlUMVhySHR5M3NlclNKWU9tSGdTcV83ZjFtNndtRmhqX0hudkcyX09TYnBFTjc4U19YWVVJalpoeVRwXzhLT1VxZ0tyc21BN2x0cjFOdlhaYw?oc=5",
-     "published": "2026-10-14T23:54:45+00:00"
-    },
-    {
-     "title": "Awaken RV Announces Partnership with Patrick Industries",
-     "source": "RVBusiness",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTVjUEw5X001bnZENnlGYzdyTURBSTZ2VS1ITGlVZVd2MnlReDMtcks1amZMQVIzbTV0Wm90VmFUSHViNWhCMERaT0I0WVppR1R1VlRDQk44YnZBTlhfay1KNUF1OFhOUzZYc3c0amVSbGd0NnQ0cnNrSDRnOEZMclJwNEJfZw?oc=5",
-     "published": "2026-10-13T15:29:12+00:00"
-    },
-    {
-     "title": "StoneX cuts Patrick Industries stock price target on weaker RV outlook",
-     "source": "Investing.com",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVlJicVhkVG54SldRLU5SeUJJTEtaY2R5U0JfZmk2a3NFRzFqMmZ3d1RQbndfSXExaGg5WjZDVGQzSERSVV83SEZKVXkwTjVWYzhXdGxaMmtHNkdXdU9ZdWlCQUpDWHZ5VWZ5cFVEcS1KaVY2eHVzeGhVZXRpd3RsVUthb1RpbFhaenNwQmU3OG1ZY1RTc1dkalNremJZejhET2ZVS1RCdHY4WkRjVmdmV0FJRVZlZ0tvRVpnMnUxck4wQmlIUVlfanJB?oc=5",
-     "published": "2026-10-13T13:02:17+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "acquisition",
-    "label": "Compra / fusión con otra empresa",
-    "quality": 0.5,
-    "note": "El mercado premia la operación; vigila cómo se financia y si la aprueban reguladores.",
-    "confidence": 1
-   },
-   "score_parts": {
-    "move": 0.5,
-    "rvol": 2.1,
-    "catalyst": 15.0,
-    "close": 8.8,
-    "size": 1.7
    },
    "appearance": {
     "count": 1,
