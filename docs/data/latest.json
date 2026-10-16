@@ -1,6 +1,6 @@
 {
- "date": "2026-10-15",
- "generated_at": "2026-10-15T23:44:59+00:00",
+ "date": "2026-10-16",
+ "generated_at": "2026-10-16T23:45:03+00:00",
  "market_state": "POST",
  "filters": {
   "min_change_pct": 6.0,
@@ -10,8 +10,8 @@
   "min_rvol": 1.5
  },
  "universe": {
-  "raw_gainers": 147,
-  "passed_filters": 42
+  "raw_gainers": 7,
+  "passed_filters": 3
  },
  "score_weights": {
   "move": 20,
@@ -22,802 +22,76 @@
  },
  "top": [
   {
-   "symbol": "ERIC",
-   "name": "Telefonaktiebolaget LM Ericsson (publ)",
-   "exchange": "NasdaqGS",
-   "price": 10.71,
-   "prev_close": 9.58,
-   "change_pct": 11.8,
-   "gap_pct": 11.16,
-   "close_strength": 0.97,
-   "volume": 41035194,
-   "avg_volume": 9954287,
-   "rvol": 4.12,
-   "dollar_volume": 439486928,
-   "market_cap": 34759794688,
-   "pe": 13.73077,
-   "pct_from_52w_high": -0.22,
-   "above_sma50": true,
-   "above_sma200": false,
-   "earnings_ts": 1792067400,
-   "market_time": 1792094401,
-   "market_date": "2026-10-15",
-   "market_state": "POST",
-   "score": 66.2,
-   "news": [
-    {
-     "title": "Why Ericsson Rose 8% After The Q3 Report (NASDAQ:ERIC)",
-     "source": "Seeking Alpha",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPT0Q3QTRhV1BUQUM1S1dEcl95U2Z5UVduV2Y0Z2U3UDZ5NlNvWkdpdm1MZDhxeERCWFlJSU8tV0RTc1JWY3RVWWlWU2hGYWFkTDVoZXlZTm5PYklTRFFteWJpRXVrS0pUNjB5c1RadEZFVEp0dGRVU3ByeERUVHAxS3lIem5sekotZEU3VA?oc=5",
-     "published": "2026-10-15T18:42:49+00:00"
-    },
-    {
-     "title": "Ericsson Q3 2026 Earnings Results and Report",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdFN4WlBlNXQ2ZFVwWmZYT1lhMUFfMi1uV2pwd0VhTHZIOHFEX21QcnZzRGFxQ2s0dG5kZmhVX0J5UVZCZzdxbUR3UWtuT1VqdjVwdkNnSWNxdzhaMDBPc21OVl81blRWczFidFNrRUlvbDdFU3BaMWViMFNueEVGZGRoU2ozb2pYdHZTYWNxVkFwMEFEamw1OEdRaFlZUnM?oc=5",
-     "published": "2026-10-15T17:08:50+00:00"
-    },
-    {
-     "title": "Telefonaktiebolaget L M Ericsson (ERIC) (Q3 2026) Earnings Call Highlights: Solid Organic ...",
-     "source": "GuruFocus.com",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/telefonaktiebolaget-l-m-ericsson-eric-170025184.html",
-     "published": "2026-10-15T17:00:25+00:00"
-    },
-    {
-     "title": "Ericsson Q3 2026: I Was Wrong About Margins, But I'm Not Buying (NASDAQ:ERIC)",
-     "source": "Seeking Alpha",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNT3RwVjNTMlRxNmcxaFpzUFVpUmYtdG93ckp5dDFfaDFiQ0JJX2p2MG5VV053OU50RTlJUHFZcUNZb1FjTnhNZURzQjBNbFM2WnZZMHJwaHZFa3JVMGdpNFBtbG9aeXV0eERLazhmRGxfbkNrYk9ndG9xNmNMNUxYN1I2U0ZiUmdvUWV3WjRrbWR2UUNrcUtEczRKTmd4QlBiUkhN?oc=5",
-     "published": "2026-10-15T16:43:33+00:00"
-    },
-    {
-     "title": "Ericsson (ERIC) Q3 2026 Earnings Call Transcript",
-     "source": "Motley Fool",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/ericsson-eric-q3-2026-earnings-155843658.html",
-     "published": "2026-10-15T15:58:43+00:00"
-    },
-    {
-     "title": "Ericsson (ERIC) Stock Forecasts",
-     "source": "Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOd1NxblNUOGFrNnBvR01xSmJqbGZsTV82UGxkbk1yNndxbnk2OFdtTTV5SmFua1JfVVQzNmRVdTR0MGphN1N2UTFtZVhsVnhhYW1STTZqSWpCWTFPeDJRTk1BMWhBZ3VlY1YxQjlQTFpDLWNQU2huSVdLVGt4Vm05R1U3U21rc2xPYTBWWA?oc=5",
-     "published": "2026-10-15T22:22:39+00:00"
-    },
-    {
-     "title": "Why Ericsson Stock Soared Today",
-     "source": "The Globe and Mail",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONEcwTmRpSHlQbWg1aVZ6aW0wLWo2cTdfQ3dGWWdNd1B4SEFjYlhIcDFZREZHQ1I0TEN6bnBfdG10cHJfMWxSOGxKZ0Z0a3Fpczh0dWFWSGxWTlNRcnpnSXBBVkRndkc5VXNtaC1EM1JZS0hFWmh2a2RxYnJJMUtCdGFORFptNU0xZEUwZ05XazVIa3h4c3pnSTlpZG5HNmM5Q2Jwa2hFN2tPREJjbFlYVXc4Snh1ems?oc=5",
-     "published": "2026-10-15T18:26:55+00:00"
-    },
-    {
-     "title": "Ericsson (NASDAQ:ERIC) Stock Sees Heavy Call Option Buying",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLW1DN0U5aWRMazBISGhTdUZGZDU2Q2F4WUJFd0hfX3ViVE5tZ2JsVXJmYldZOTFjUHBkQkRwdXY0ck42OFRRLVFfWi0yaXJvZE45NjQ1N3dCa0E5dGVQNURDeG1pSFVIcUtHRGtkQlIxMjhkU01BYWhyajdWUklFS1VhYWxyYzJldTIxUDNrUFBjUEtwWGJNSmlqclRxT2hVY1pwQThsY2JIcXZhRE5pYnpKRkdrRFJoWFE?oc=5",
-     "published": "2026-10-15T17:24:02+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "earnings",
-    "label": "Resultados trimestrales",
-    "quality": 0.85,
-    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 1
-   },
-   "score_parts": {
-    "move": 5.8,
-    "rvol": 17.5,
-    "catalyst": 25.5,
-    "close": 9.7,
-    "size": 7.7
-   },
-   "appearance": {
-    "count": 1,
-    "previous": [],
-    "window": 10
-   }
-  },
-  {
-   "symbol": "RGC",
-   "name": "Regencell Bioscience Holdings Limited",
-   "exchange": "NasdaqCM",
-   "price": 9.52,
-   "prev_close": 8.11,
-   "change_pct": 17.39,
-   "gap_pct": -1.6,
-   "close_strength": 0.53,
-   "volume": 1901928,
-   "avg_volume": 197307,
-   "rvol": 9.64,
-   "dollar_volume": 18106355,
-   "market_cap": 4720819712,
-   "pe": null,
-   "pct_from_52w_high": -0.86,
-   "above_sma50": true,
-   "above_sma200": false,
-   "earnings_ts": 1793217600,
-   "market_time": 1792094400,
-   "market_date": "2026-10-15",
-   "market_state": "POST",
-   "score": 62.1,
-   "news": [
-    {
-     "title": "US Top Movers: Energy Stocks Surge as Bioscience and Crypto Names Slide – 13 October 2026",
-     "source": "Business Upturn",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWlUwanhhaUw0VjdBbVNIanJDSFhfRnZ3MjJVYnBuc0swRlo3MW9IVWlDTUNxRF9uR0R5akZQS3J3NkJYQkZFNTViczVNdE1ob05ob29rVjBwY0pxWWlSSU5kRThpNkMwNTAySVBFSWluQS1BX0NkUGNyVkhUb1dGbHdDOXlpcTFndUhJNVB6NVZPZ0hwRm1GU2tOTzVKVFRMQ3BuSEMzZm83NGRxU0VCUnpZVGFQcW1ZaUtNdGpCNm84RlZyU2VoTktOMHlBYVk4?oc=5",
-     "published": "2026-10-13T20:25:00+00:00"
-    },
-    {
-     "title": "Top Movers: RGC and APPN Lead Gains as MAN Slumps on Thursday",
-     "source": "Business Upturn",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWXI4NDFTR21BamdJM2I3LXNWUHpzZTVOVVZBdHQ2TkFkcmV5N3ZQZDlzUXB2T1lnN3FYMGV4UzZjWlpxSmZDVUQ2bi1aV0c3bC1vbXVBSWJYUko1Y0hwSXBOTl9VZENVcEx2ZXZab1FzWHpGM28yejRncm1hWE5RaWwxRW1LMFJsNnFmODVpUGtOVVBHVXdqYjJ0XzJ5NHY2WTdHcjQxd2psZGtPX2hSZnZ6QQ?oc=5",
-     "published": "2026-10-15T20:25:00+00:00"
-    },
-    {
-     "title": "Regencell Bioscience RGC Stock and Hims Attempt Bullish Breakout as Healthcare Stocks Revive",
-     "source": "FXLeaders",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZ3JNZ2NaQzBVS2JMWC1vRHk3R00yZUFTTzlaOHU5OHhOVHJkUEZfZ0tCSEdqTXdFYVBDbTFoMk5oZjdSakVBQS02b1g0SUh4RWlrMEZSbWVZWFpOX3pMZ1ZqbllYZE1PUW56TTQzdG5ZX3JXQzR4TWc5WlJHWm9NZGxOR05Nd0JXYzdpelpleXZsZmVsUkRUd3A0cjk5cWQtWHlCMGNsNm1RVnlDcmprSE9tbHNEQzN1V0haOEFIb29ZUkZFeU5TSmNrV1A0WjB6?oc=5",
-     "published": "2026-10-15T19:45:57+00:00"
-    },
-    {
-     "title": "US Midday Movers: RGC Surges 16% as ManpowerGroup and Vicor Tumble",
-     "source": "Business Upturn",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSUZZVzVwLXBiMm1yMzJqenRLZDRaNzNTSGFiUGFnUmFCWmgtRnJidWNJZEp1OEJfdWZiM0lRSjRvQ214cEdXWktLLWh2SlNvaVlMbUFha3hiWFZmTHRGRzBjNXlVUnN5c2I5NkVpWUhiSkZtVHJwX1RsSU9BdlJIQnFJNUJXdUFiZWR3SG94ZG9MMVZhN1NsZGcxdjU0MWhrYWY5WFdZU2JKb2h4R3NHbjhUWQ?oc=5",
-     "published": "2026-10-15T16:25:00+00:00"
-    },
-    {
-     "title": "Has Regencell Bioscience Holdings (RGC) Run Too Far Ahead Following Its Widening Loss?",
-     "source": "Simply Wall Street",
-     "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPN3hYaVY3V3NSdmtWSFJrMFBGRFl3aHdWUUQ2S3hTWmZTZUMzNl94aDJIYnpxUkI5Z05iMmJPRmNVT3VuWEhVbU1EdkF2MmxCZGFxYlBCRDZpeVNWd1g0cE9RODlnNFdPdWtuQWg1a2t2MVdzUUYzU1lhdmVNZUtIWWpfSDhzT1ZicmdxTFNIUWx4MGZmaGVmSXE1TUJITFpJQzY5SW5maWUwX0ZlY2FONkFSSEhabmpyRm1TSEZwTDBqSFBXb2JlVWE2RlYweDNSMHRSWGFES0tUdkFxa2xScDhJeVZ6X3FYcTBDMEFXUmE1N3F60gH6AUFVX3lxTE9CSWgwZTFzblpOa3lscGNzdzhka0tPNXR2bExPdFM4b3VIZzFPLWd6cUc0cHR4RlE4XzB3eVlZME5iRVZmdEp4VmI0Z3lLUVFYMlpzOFptYV9HS1NZdVBNVHRVdzBVQ2wxLVZ4azZtaXdLdEdBZlkzcDBoZmpaTjU4OGh1RDFXUzhrd3pkZ0tCUFNkQTNkNXVxekRaTGFhWXhyNHdFQ1I2N3J6V0NCY1B3OGx0U0hQcEJ0VE9EdmJNQXdoZVJPbHNXNVBUTy1OMjF3TXhKQkExSkNWZnNQNk91YjdkMm1oWHAzMGwtaWlSbFNNa1BOeDY2Q1E?oc=5",
-     "published": "2026-10-15T13:46:31+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "sector",
-    "label": "Movimiento sectorial / macro",
-    "quality": 0.4,
-    "note": "Sube con su sector; depende del contexto general.",
-    "confidence": 0.2
-   },
-   "score_parts": {
-    "move": 11.4,
-    "rvol": 30.0,
-    "catalyst": 12.0,
-    "close": 5.3,
-    "size": 3.4
-   },
-   "appearance": {
-    "count": 1,
-    "previous": [],
-    "window": 10
-   }
-  },
-  {
-   "symbol": "PAG",
-   "name": "Penske Automotive Group, Inc.",
+   "symbol": "CRGY",
+   "name": "Crescent Energy Company",
    "exchange": "NYSE",
-   "price": 212.0,
-   "prev_close": 194.79,
-   "change_pct": 8.84,
-   "gap_pct": 8.32,
-   "close_strength": 0.89,
-   "volume": 3240535,
-   "avg_volume": 437228,
-   "rvol": 7.41,
-   "dollar_volume": 686993420,
-   "market_cap": 13920528384,
-   "pe": 14.971751,
-   "pct_from_52w_high": -0.07,
+   "price": 13.77,
+   "prev_close": 12.51,
+   "change_pct": 10.07,
+   "gap_pct": 1.52,
+   "close_strength": 0.98,
+   "volume": 22337914,
+   "avg_volume": 7178276,
+   "rvol": 3.11,
+   "dollar_volume": 307593076,
+   "market_cap": 4549659136,
+   "pe": 125.18182,
+   "pct_from_52w_high": -0.11,
    "above_sma50": true,
    "above_sma200": true,
-   "earnings_ts": 1793190600,
-   "market_time": 1792094402,
-   "market_date": "2026-10-15",
+   "earnings_ts": 1793649600,
+   "market_time": 1792180802,
+   "market_date": "2026-10-16",
    "market_state": "POST",
-   "score": 56.4,
+   "score": 45.9,
    "news": [
     {
-     "title": "Penske Automotive Group Going Private in $16.3B Deal",
-     "source": "Hoodline",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTkNMV2diSENOTW9JLWRJQXRkOGRjV1FCejBJcWZaRjhzd2h5aHl5U2N3b0g0SVA5YnRYeXNQS0N4d1pLN0p1cC1LNXhfaFNFUjFmWWp4MmM3dDdVVks2bVlhMW9YVF9rd2N6YWxFdWg2R0FnVlVRMHQ4c1BQWVd2NVZ3Ui0xWl9OWkVRUlRMcWZEbFFBV0tOcTBjTVpDb0F1bmtF?oc=5",
-     "published": "2026-10-15T22:18:09+00:00"
+     "title": "Crescent Energy Co - Unit Enters Sixteenth Amendment To Credit Agreement On Oct 14, 2026 - SEC Filing",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNeDlwY0FDTVVidlJGYnQ1dE1SN0pmeC12MU9HNUVjUHFjVFVzc21HLXBYS0VkazVsYUpLM0RVTFBBal9yNndlNGVQRGNUcGhkNnVnaVQtc3pBRjdXckNyY2VWQndCWXVyRzgtR2lEYldjNXVTd0dSdkRPb1prQnh4ZFBVLUFkRXZjVzl4dW5nbVpwd0ROT3pwV0F4UjJpYVJ2cG1ZVlA1a0w5ZTd1T1d6TFVKYlBHemVGeEluUm1oZkJpTDFfWFZkZGxHZFp1WDFCUU01bEpUU0dpUGRLWTMzb2F0eWJTaWxvZlQ1dDlQdGNQSkZPcU9vLUFR?oc=5",
+     "published": "2026-10-15T21:15:29+00:00"
     },
     {
-     "title": "Penske Automotive to go private in $16.3 billion deal",
-     "source": "CBT News",
-     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVM1BMbUJqTmlnM285N1FncHJqdWVHVFNUMDlXNnByVEhoUXVDdDQxbmVYZ3hvQ19vMXNKc3N5dW41YlNjdTVqbXRFX2tUY01jelozRnpBRWpkdDUzWFhEZnFnTm40bkU?oc=5",
-     "published": "2026-10-15T20:53:53+00:00"
+     "title": "Crescent Energy Amends Credit Agreement to Back Devon Eagle Ford Deal; Commitments Hold at $2.0B",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOc0MzSkxOUFZzbUpBbWtUWFN5aFFKUVRmRmRoRDljaXJDWGVXVU9GSHFsSXFxTGdfMVBoSkF0bXZHS09rS29majE3bm1lQnlScE1IUjhVQTdTSkZsa0x2Njd2cGctZ19MT24tdmh5WFRGdU0yOVVCWEVDWERlOExtdllJS0xleFI1RVlvQ1N5U29kcm1oc2RCR0lkRVF4TTRMM1M0NFBVRFAxMVljTjllblRtcmxKUnFoTkd5bGpKWkx5MFJFSHAtQkpQRVhnb2gzdkFQcjV4b3hXMS1qXzZHRkhidHRCalBsdlVadw?oc=5",
+     "published": "2026-10-15T20:33:00+00:00"
     },
     {
-     "title": "Roger Penske’s Automotive Empire Agrees to $16.3 Billion Buyout",
-     "source": "Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVE5pZk83N2ZVUkdnRWxleXIxdWhGMEJhTGpmdmNSVVhoRnVybmY2VXAyMEdxYVdfYy0za1Q3dXBFU1JrRTFsN1VDc0EyaEhOeUtaWlQ5YURTUmY2N29yNjdBVUN0djdJREJ0TGFkaDhzU2xGakZqVHc0ejZXSDgwQXkwcXIxTy1wM1pCMkR6RHN6c0FZQTROcXRqbDlZV0NkYThsdA?oc=5",
-     "published": "2026-10-15T23:07:36+00:00"
+     "title": "Crescent Energy Jumps as Investors Digest Deal Financing and a Stronger Oil Tape",
+     "source": "Quiver Quantitative",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcTFIdlRsaHpJU3FJSTZkYVJOUmdlZWprU19hS19xM3RZRFRncUxJSVF6c3pnLVgydGxxYl9oMGE3bTZJakpQTGwwQ3dZa01RQ3hHckdQMDlpb1hNS3VDeUVtVktZbnpQMm1FZjVZYmN0WUNNc2QwdE1janRCTy1wRk9IRmlBS1JCdm9RRVE3U1c1WmotSDZDVGg1bFlsdXltYXN5V2F0akhOYlp1dHdGUXJxSQ?oc=5",
+     "published": "2026-10-16T21:20:00+00:00"
     },
     {
-     "title": "Penske Automotive Group, Inc. (NYSE:PAG) Declares Quarterly Dividend of $1.46",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSDNUR0pDb2xRLVU1dlBiSzdvZTZ3OUdEc25yVUo0SnM2U3ZTak1oX2tqeXlKZFduNGszMlZnMFVVQUR3UWcwQjhaU3JXSDVkaENkejVrWjJsVV9lZUNKRzNDMlY0UDE2c0dWU1g4WkIxQXZzMk1WX3JVQ29mUDExcjhjdlZ5dy12SDN5NEJ3bmc5cHhZNHRISlNIdklpTEJJalRsUlprczBHRzNGVnBhdy1XV1k4NkZZcmpVMy1tQndWM1dLYm9MLWt5UVNNRWs?oc=5",
-     "published": "2026-10-15T22:34:29+00:00"
-    },
-    {
-     "title": "NASCAR Team Penske: What Does $16 Billion Corporate Buyout Mean for Racing?",
-     "source": "Yahoo Sports",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZGFxVUpCQ1Q1RGRRYjg3dS03SnlpX3doY3l5S1JDNHd3aXBSVFB5STlrangxTFFFTXd1NERqNlIwUy1iWWJRWm5NM2tWRHp4dXJIZFVTelFLYnl3MV94Rkc5cFBzZDg3YXdpUDZsbkRqZmZPcU5VWFMwNy1mYUhXUQ?oc=5",
-     "published": "2026-10-15T21:34:48+00:00"
-    },
-    {
-     "title": "Penske Automotive agrees to be taken private by Penske, Mitsui",
-     "source": "CNBC",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVndiTll2c001SEMybktDVmdJenN4b3NNM3RYYnVEOXhmaGotYW1UNTJ6X3B0Q25VZ0tfWjNTVEcwa0NtV3JjQzRhekpjQkFBMDFXazFHM1M4X3A3MmpfNGNtclJnYUN0YjkyUUI4bTBzNm5WbWF2Rm9VaWJoRHFvZWNGRjUwYUNQNTdjZlhFaE1DTVVsVEJfY1ZPTllvejjSAaQBQVVfeXFMTklFQUNSUzFpWkZaUGctbUJfNmRSUFZqOURUY2JZMm85RTFsWjBocWpTU0N6NXNlU1hWVlVmNTFTbFh1cHpPSVN4SEhkSWpNUEZpTV9mcXVCaVZ3cEVCbDgtbVVfam93YzgzbDBGOXozdUdBbWY2a0Nualp1T2hBLXFjMmh0S0ZtWDRTT3ZFd0pnM25EWHVmLTA3amItY09zbGtXTVo?oc=5",
-     "published": "2026-10-15T21:08:24+00:00"
-    },
-    {
-     "title": "Japan's Mitsui to spend $1.5bn on bid to take Penske Automotive private",
-     "source": "Nikkei Asia",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPR2Vqbm5LN1RTSHYyeWdxV18xb1AtQWsyXzhURzlZUEYzNmVucmdYWXZjWWg0OXJ2a0NWaWRvSjVtSHFpMG5rME9LWExhNDZrYW1DOG52UGdiQUhZa3BYUmkzSlRXUWhhTHRsNjJ6R0tLbGw2T01nci15dDRyS2llbVphYmU5YVJkMEtBQW5GVmRFY0hqRDJMaXdNS0xWNjU4bHdNRlB2Y1psamhTVlpYRUg0YkNEUFpNTEE?oc=5",
-     "published": "2026-10-15T21:06:00+00:00"
-    },
-    {
-     "title": "Penske Automotive Group jumps 9% on go-private agreement (PAG:NYSE)",
+     "title": "Crescent Energy rallies 10% amid broader energy rally (CRGY:NYSE)",
      "source": "Seeking Alpha",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeGh1VUZkOTNIQTVvR0luLVZLQlE0OFFRVGlIUmJTclVQaG15Mm1KbDF0YVVnNG1pOEo0S00tck5nSEdjVGNyZXU0amxfU0NXa2FUR3RtanhXT1dENW5RTkZsVmFkdTJJTXljUlg5MGVqNVFwS2dMLWlkN1pha1ZFSEdrR3R5X0tuRk5yTmZ5a213Ump5a2pXMg?oc=5",
-     "published": "2026-10-15T21:03:20+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "takeover",
-    "label": "OPA / la compran",
-    "quality": 0.3,
-    "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
-    "confidence": 0.5
-   },
-   "score_parts": {
-    "move": 2.8,
-    "rvol": 30.0,
-    "catalyst": 9.0,
-    "close": 8.9,
-    "size": 5.7
-   },
-   "appearance": {
-    "count": 1,
-    "previous": [],
-    "window": 10
-   }
-  },
-  {
-   "symbol": "QNT",
-   "name": "Quantinuum Inc.",
-   "exchange": "NasdaqGM",
-   "price": 36.68,
-   "prev_close": 33.03,
-   "change_pct": 11.05,
-   "gap_pct": 3.81,
-   "close_strength": 0.84,
-   "volume": 5871486,
-   "avg_volume": 1705092,
-   "rvol": 3.44,
-   "dollar_volume": 215366106,
-   "market_cap": 9745056768,
-   "pe": null,
-   "pct_from_52w_high": -0.58,
-   "above_sma50": false,
-   "above_sma200": false,
-   "earnings_ts": 1794254400,
-   "market_time": 1792094400,
-   "market_date": "2026-10-15",
-   "market_state": "POST",
-   "score": 49.3,
-   "news": [
-    {
-     "title": "Morgan Stanley Just Upgraded Quantinuum Stock. Here's Why.",
-     "source": "Barchart.com",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVGFXc2Z3QVVVSUVxaDhlckVRUnNiVzlVeE9KZ1FzNnYwS2V4VDJRa2dZSjFxWV9TR2FPc1JNYjNEZ0VvQ1k4T1h6SUNSYmdWdTM4ZU55MjBRXzlwc1JNQ3QySFlVcWdBMXhsS1RIR1NlX2FrT0hLci0zbjI0emRESTA1aExoanp2SV9JNTNDQVM0NU12NnM1dDBZdWlqTUIxakE?oc=5",
-     "published": "2026-10-15T21:01:10+00:00"
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZWhxa0p4T25BbnpQS0sxdXFCeG9Ya0hMdjhuNlFnenFGT21tanJaYVhHdlBnZU41cjgzWHNybmlaaVRJdElwbndKd1FKS3pMVHNYVjZtczdySXlJRVJXUTVGRFA0UWtGNjNVSjE0T2VqV2RnYVRMVFBqbE0tNUV4SThIamtrQTNOYWwxemlONnNmS3ZC?oc=5",
+     "published": "2026-10-16T20:41:12+00:00"
     },
     {
-     "title": "Morgan Stanley upgrades Quantinuum to Overweight on technology edge; shares rise",
-     "source": "Investing.com",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSWtsenVIYi1va1ZDSHhUUTE5a0UyWERZVHl5eGhEUEdvUVd6SmxJdHhUbzl1X29WN0g3UDlvY1FpOVN5OVdjc2FRWkJEVU9ucGpvdnJWeXpOdUhiakhBbURqcU9DNWF0OG1EYWdHYkQ0Nl9JeExSYVVfS0IyQndVdWY4S25GNEEyaFYzMS11cUw4cmVNY0NxUzljSmVQR0x3R1R3VFN0VXJkZlhNQk5mel9QSngyNml3SHMzMzN0SkF5eXZoMjRXNEQ5YURuckhFc2c?oc=5",
-     "published": "2026-10-15T18:46:35+00:00"
-    },
-    {
-     "title": "Quantinuum Upgraded On Valuation, Tech Road Map Vs. Other Quantum Computing Stocks",
-     "source": "Investor's Business Daily",
-     "link": "https://finance.yahoo.com/m/8f45b4f1-a6c5-32ab-a2cb-ae0f602c7eeb/quantinuum-upgraded-on.html",
-     "published": "2026-10-15T17:10:24+00:00"
-    },
-    {
-     "title": "Morgan Stanley Names Quantinuum Top Pick in Quantum Computing, Upgrades to Overweight",
-     "source": "BigGo Finance",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40aVhFYlpHdTNvcGROemdhdnlSam84WEE5enVSTnR4Z2p6YUpDbW1xNDVtSmVhdFl0dy16X0Y5LTBiSTVyLXZTOFBQU3JFMmZ6WG9WLU1OckQxUzJidFgtOHdxT3c2SEdhRGU2RjJpRUd3dHdjWUE?oc=5",
-     "published": "2026-10-15T14:05:00+00:00"
-    },
-    {
-     "title": "Why Quantinuum Stock Is a ‘Top Quantum Play’ While IonQ and Infleqtion Fall Short",
-     "source": "Barron's",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUjlZTFNMNTlXeEVzbGVlYUxTa19QM19HVzZmQ1VGRXcwUUhyRUZZU2JUd1VwN1VFeFJVYkkzUVVuU1JWWi1pa05iM1psS0dyQjZtLUE3a0tTMm90NUR4VjF2SWNpZGFmT0dfOXJNRVpJYWhqQXN6dWo3TTFQaUU1UkZablhjdGhISEV3?oc=5",
-     "published": "2026-10-15T20:29:00+00:00"
-    },
-    {
-     "title": "Why is Quantinuum stock rallying today?",
-     "source": "Investing.com",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcklrNzNPdFI1Z01kdEVDaEthNFcxelQ3Z01RQVYyQW82b2lwbmRhZS1IRHNBZUhwT3FYVGF3R1ZZMXF0dVZBTzc4TlF4dGVyc19GX2F6S19TZ203YkRwaVlmSVJZRWpmZnVadWtRMzFZVjREbGxJekZXLUVSMUR5eVNVcFA0YU41NGlrSnVxNTVXSVFaMTlEX2IwV3k0RHBtdHc?oc=5",
-     "published": "2026-10-15T18:09:20+00:00"
-    },
-    {
-     "title": "Morgan Stanley backs Quantinuum as top quantum computing stock pick",
-     "source": "Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdHYxbFhoR2tiQnpDa2ZqX09yUnVrOEJwSWttM2J6U1Q2ZzdUMVlfY1FjeWlaal9TRHBVX1A4NExsdGkwekVXSGhZeFhnNE1OSHB1SGJPOHFOMEZGcmJVMVF4dkdRdGVvY19oS0RsbW9oTExpc29wZ2dHVzl2S1VNYzJ1SXVETUdSOGNGbE1oUkVjSUpyWjYxSWdvMA?oc=5",
-     "published": "2026-10-15T17:25:40+00:00"
-    },
-    {
-     "title": "Quantinuum (NASDAQ:QNT) Shares Up 7.4% - Time to Buy?",
+     "title": "Crescent Energy (NYSE:CRGY) Stock Price Up 4.4% - Here's Why",
      "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWEdBWGRJX0puV05DMWZ5cnMxdEVxRXZ2WkZvTUdTQWdacFhhMm1OWUp0dDBGb084NzZFRUl4c1FKeVdySkN6YkpoZVZ6cUhvanFRZERLSUFUX1BhbXJBVGU0cU95OURReGhKdXkxVnNKX2ptb0FuOHBoWjVoZmtJUlFIYmJZQjBIbmxQYjdldi1DM2JJTUJVS0xISVBjRXpvS3RrTHF3MzktQQ?oc=5",
-     "published": "2026-10-15T17:24:07+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "analyst",
-    "label": "Mejora de analista",
-    "quality": 0.6,
-    "note": "Impulso moderado; suele diluirse si no hay más noticias.",
-    "confidence": 1.0
-   },
-   "score_parts": {
-    "move": 5.1,
-    "rvol": 12.9,
-    "catalyst": 18.0,
-    "close": 8.4,
-    "size": 4.9
-   },
-   "appearance": {
-    "count": 1,
-    "previous": [],
-    "window": 10
-   }
-  },
-  {
-   "symbol": "Z",
-   "name": "Zillow Group, Inc.",
-   "exchange": "NasdaqGS",
-   "price": 31.46,
-   "prev_close": 28.33,
-   "change_pct": 11.05,
-   "gap_pct": 2.33,
-   "close_strength": 0.96,
-   "volume": 13188501,
-   "avg_volume": 3910360,
-   "rvol": 3.37,
-   "dollar_volume": 414910241,
-   "market_cap": 7074566144,
-   "pe": 136.78261,
-   "pct_from_52w_high": -0.6,
-   "above_sma50": false,
-   "above_sma200": false,
-   "earnings_ts": 1793822400,
-   "market_time": 1792094400,
-   "market_date": "2026-10-15",
-   "market_state": "POST",
-   "score": 43.4,
-   "news": [
-    {
-     "title": "TeraWulf, Opendoor, and Zillow Stocks Surged Today — but Only One Is a Strong Buy on Wall Street",
-     "source": "TipRanks",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM293b2xLc1A5REZwVDhHREVva2hRUjVINURSVEFjd3N1RG8tU1luTHQtc1FZQ0NWWUdLVXA3MmozN21GakxfdE1WZC1IVmtrZDFveUhFZmV6RHEtUEc4al8wXzhaWENVcEMzRmhPNEw2MExKTXpKLTlBWEN0bEFINU00VjRaYmNHYlVSbGVhb1NaTTk1T09CWndRVmtDNjBfSFpMcnRHa3l1WXZUdE94UjFsS0hVbFFOVURPdFFkOA?oc=5",
-     "published": "2026-10-15T20:31:45+00:00"
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPREZPMllIMHZuVTgyZVRGQ3FFUTlnU3pSZ2R2NlZnTHZfaXY3b0hUMTNaZ3E2LXlSblVORndtQU0yVE1DaDB2c3IxMDJ6YW14SDIySHlOODJwejcyRGNCMGhDaWNISVRweUlvLXZRdWNqd0ZJVlpmdmtSTGprWTlfTzl5UFhyOVA4SmVQLU5kcnhFeEtRamlyZXE5ZTN0N1ZrMnVFRUVIQ3dFd3BVOWRkM2pwSQ?oc=5",
+     "published": "2026-10-16T18:04:39+00:00"
     },
     {
-     "title": "Why Are Opendoor (OPEN) and Zillow (Z) Stocks Jumping Today, October 15?",
-     "source": "TipRanks",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTnVSbkJsbnJLWXdHQmhWYnd5X1MwWVZaaHJucDdoeHc2QURwQUE4cmVmdEZjdFVuODkxR0d1TFBkaHNpSXRxZHhWLXUtLXFzcmZ5eEtfRGcxUVUyYWRzQ1FFNU1odW5qUU9fWlg3LUZKS1ZURUdpNU5nLS1EZG1WanpvX0tTWHlucUJWSklBc1U5Zno3amtsSlVvWlE?oc=5",
-     "published": "2026-10-15T18:24:46+00:00"
+     "title": "What Is Driving Record Cash Flow at Crescent Energy Company (NYSE:CRGY)?",
+     "source": "Kalkine Media",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMGZBQmlabFdBQ1J5aGRwclZSeENNQl92ekdGR1dtelZGajJVbWw4emZ5dG9TZlNrdUlCYkdLVE9tV213a2Y5QlE2VGIyQ3ZNMUczWjF0bW9RZWJzVlFZR2VZei1JZHdRUm4xdUM5eGRoUDZLM3RFcmN1ZUY5RGh1Nnh3a2pWeXpUc0NNcHVtMzg4V2p2OTA1OHR1N2REMVFyR2dyX1lpeG1pRVJoOVM3Uw?oc=5",
+     "published": "2026-10-16T15:43:00+00:00"
     },
     {
-     "title": "Here’s why Zillow Group, Better Home, and Opendoor stocks are rising today",
-     "source": "Invezz",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaXdfcWZHWno2X1VIQUpCdVR2UExDZUx2a25pVVphaWlpYXJEUGp4WWpha0g4bmEtVUFXQ05wVVJxc0lRc09RM0NhV0dXM2xPUDA5QkNZamVhRlNPelVlT0xJaHNJMHVfRmZqaXc5QXhQWlViN3ZZOHVtekNUcXBwYi1DUUpJOHlrY0lxYURTR3ZnV05LbEJBZTByU0RHVm5QYVptaDRFVlJYRlU?oc=5",
-     "published": "2026-10-15T21:44:12+00:00"
+     "title": "Evercore cuts target to USD 17.00 for Crescent Energy stock",
+     "source": "ad-hoc-news.de",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcmlXakFDUF9hOHF3T0lkUHoxb1VjN1pWeElWaWhtTTRiVEE0aS1fRXNUTktkNmxuakdvNlRfV0tqLTIxajJjVy1MeXZFWVNmZF9Za1ZrUmh1VEd0emRITDVIekpHSTZQRzZ1eDNwNlc2aFZXaWxfREx3alJBXzBJa0RsZWJkMGFUQjFTdmYtY3M3ZWp2UktrYTNjUHN6ek1YamJrdUFoWTl0OFp4RldDMUpjR2lFcUxNZlE?oc=5",
+     "published": "2026-10-15T20:41:12+00:00"
     },
     {
-     "title": "Ohio home with unusual kitchen features goes viral on Zillow Gone Wild",
-     "source": "NewsNation",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRnpEanQxQnluM3haQTRRdkNXVTgwRi1JcV9YM2lpOHFHTHV4ZTM0NW01eWo4U05WaW1fUzhGYVhJM3VTTXdxN3VJNW5mTG5SX3FqLTNUQ0ppZHhHUE1JUmw4VmtEazdkdTU5ejBOLWRCaVJjZ3BMWHhPSEhsLWZWeUMxNlJ0dGw4X21QSHpNbFpsd9IBlwFBVV95cUxQZlVqMHZrelpndzJ0cHk3N1hOMm1ZYzF5d09EaDJxdFlSZTJMcnpsX19RZWdKaDB3b0tpUkFVY3pGajZDZkl0cGNBQjVhanN2T3FObTJhMnFlNzdSV1Y3RWRRQmJBZVpjMUJ4QlpMU19JYm1kX1VqNld1bzhlOTB6ZFhsdHBXc0RXOWZLLXMxVEc2cjZqZlNz?oc=5",
-     "published": "2026-10-15T20:32:49+00:00"
-    },
-    {
-     "title": "Zillow Group, Inc. $Z Stock: Ninety One North America Inc. Lowers Holdings",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPekRQcG5UeHFlN0dhZEQtRWtXUjBHZC1SNDYxTnJfMXpmQ091MS1kSEpRWTd6RzNqbm8wZW5nSjVjbnJmYWVUM2UxZmthRHR1c2R2X2RMeFdET2EyLWloUTFHNWJjbXp2MmlGTTQ4MktFQUdVTGlUV2Y0NUt1T2JYdWZNanNGMmZZNGlZcHIzTlR5bHJUbThGODJDRWpLV3VjRm9zWDVCdURQVlhRVmFtQmtJd2xmQWladnZWTEFmNVVEek1OZ3JOTUZR?oc=5",
-     "published": "2026-10-15T17:44:15+00:00"
-    },
-    {
-     "title": "Zillow Up Nearly 9%, on Pace for Largest Percent Increase Since November 2024 -- Data Talk",
-     "source": "Moomoo",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQa0FEX2NiSXFnVG5fRlZDR19UYkwzMVQ2NjVEalZQbWhGMmp3NkRscjdtYi1saDk4WVZtdUJubnNMMmdQTUVxcW1kZEVtRlVxS1lmT3FqZVhOcnEyQ21sbTZMMFNvV3BRaDhFUU5Ta1p3REF1a2JEa0RaTC16OEV0WWlrMUFfcUU4RGhEWHlTM2JzZi1FdEc1ZjRxM21JOXYw?oc=5",
-     "published": "2026-10-15T17:27:00+00:00"
-    },
-    {
-     "title": "These 2 bathroom colors could knock thousands off your home's value, according to a new Zillow analysis",
-     "source": "Yahoo Creators",
-     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUGRoNGxPTV9DU0FoZDI3c2loLXN1ZmdseFVydUM4VjRGMm9oVTBVYThMOUo1YTlzWEhmemlyckVIMTlqNDN3WlhNdnVQR1VVS2xGQlczV2xfdlBqSnlnSEpMZzBoYmJTbFZzeVY3ZnB6THA3X1VoSGFnajVJdnNCbFJvVFc2S3c1dndJSEhFZ0hGeElMRWFpbVdPSjVvV0o0UGV5dnRacVk0cEc2RXBYa3hKVkhhN1FFSVpxUDRvTnlvYkhrV191MmV0NXhNZmJ1WmxpQkR2N0pNUFVHS0ZqRWxteHNRV1dwNjFXVnNqUHU?oc=5",
-     "published": "2026-10-15T17:10:22+00:00"
-    },
-    {
-     "title": "Zillow alum raises $5M seed to rebate homebuyers' commissions",
-     "source": "Dealroom",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRjMyU2stMEFXcGlaNTZVM205c0RSMEZfVHNFSUpZVk5FVnNQbEZXTWVTamEzb0tnQWxYQ1E5Zld3SkhzZktZSVRHOGJQVlBNLWtpS2g1R29VdE1PZEpGWXFXZFpLZ0JtZWJBV2VqNHMtQ1RCSGR4R3lrMTBVbDZ5Y0pFNWcxUVFrT2ExWXdMOGF2NUJ0Q0xVOQ?oc=5",
-     "published": "2026-10-15T16:37:36+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "sector",
-    "label": "Movimiento sectorial / macro",
-    "quality": 0.4,
-    "note": "Sube con su sector; depende del contexto general.",
-    "confidence": 0.5
-   },
-   "score_parts": {
-    "move": 5.1,
-    "rvol": 12.5,
-    "catalyst": 12.0,
-    "close": 9.6,
-    "size": 4.2
-   },
-   "appearance": {
-    "count": 1,
-    "previous": [],
-    "window": 10
-   }
-  },
-  {
-   "symbol": "MMED",
-   "name": "MiniMed Group, Inc.",
-   "exchange": "NasdaqGS",
-   "price": 18.0,
-   "prev_close": 16.81,
-   "change_pct": 7.08,
-   "gap_pct": -1.25,
-   "close_strength": 0.95,
-   "volume": 27731697,
-   "avg_volume": 5244540,
-   "rvol": 5.29,
-   "dollar_volume": 499170546,
-   "market_cap": 5064298496,
-   "pe": null,
-   "pct_from_52w_high": -0.26,
-   "above_sma50": false,
-   "above_sma200": true,
-   "earnings_ts": 1794832200,
-   "market_time": 1792094401,
-   "market_date": "2026-10-15",
-   "market_state": "POST",
-   "score": 42.4,
-   "news": [
-    {
-     "title": "MiniMed Completes Separation From Medtronic, Begins Operations as Independent Company",
-     "source": "citybiz",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTzlOQjM1VGlHdkVVUnVxcVJ4T0poU0hQRUl4RWJPbGQ2NmVucU93UzQ0VjVtSlR4RFpvYmQ0NTkwcTlQRjJZdlRBNzlkYThSQXNaTENxajVtVFBjZmV5SWwzZFFLcFFya3Z5N2FvN01aZzRSYlFPb2JTOWRkT0ljdjlZb0E4dm82RHZLcjVRX3NrY2QzaGlaYVN6V3RCQTV5RkZ2THdhZnZXbF9Lc0VFUlRBZWFtZHVvOEJNbmdvNFc?oc=5",
-     "published": "2026-10-15T21:19:36+00:00"
-    },
-    {
-     "title": "MiniMed forms new board as independent diabetes tech company post-Medtronic separation",
-     "source": "Pluang",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTFZJdGNZc2FrT0FGWnFvQUIySjU3OHJnck44dFJEZTEtbzhXaGlRdEFsaVdPY3JRSnlmSzFta3RnR2pYNEcxcmoxUlNiWFpqWUh6d3QyMXFBems4Y1ZfVmpiNjdlTGRDTlJuQWVYWm1sczc3QXRrQ1pNUllRLW5qdEd5WVZrMndab05n?oc=5",
-     "published": "2026-10-15T20:40:35+00:00"
-    },
-    {
-     "title": "MiniMed names nine-member board after Medtronic separation",
-     "source": "StreetInsider",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWkVvaDJPLTFneTBhUFhERnZFU3ZJOTdXZXJJaHZsUHhuVmktWGg5d2NvanJ4Z3FuOEVTTEJpMFF0WklJUFhOVE9xbklJaV91VlNReTVvaFUtTnF1aS1yN1JFZ2JaZW9rUzlWMF9tNWtERHYzYml3TVFlRURub2l1RjBkc2hjd3Atbm5pTnBuRXd2Mm9iTkY1eDJIYTczZXBjdHE0RjFuUzNBcThwZUNPMWFEamstVFpK?oc=5",
-     "published": "2026-10-15T20:12:58+00:00"
-    },
-    {
-     "title": "MiniMed Announces Board of Directors for its Next Chapter as an Independent Company",
-     "source": "PR Newswire",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeHdJWnJsanhwcFdSVjFZdlVCUEJqbFBGYjZ0LW1FcHpWRUxUSC0wU3V4eHV0bEp5OVN0alZ1MVdlcUFuQy16bHl6WUlobTlsOUZDUE9ERTRQWFVXWHVfVmdfTFdWWHk5RmtPTHphWFRDdjJRLW94TnFYX3ZON21hcWdnRV9qc2MxVUdpTGNoRExITEo3WEkzVElaTnpwSkZHd2J1YW1PRTdNNU9zSVdoRUViaDdtSkxPZTBMOWxrOWN5WFVZdzVjb1BudmpxaWM2eWVTYlB3?oc=5",
-     "published": "2026-10-15T20:10:00+00:00"
-    },
-    {
-     "title": "DELETED: MiniMed Announces Board of Directors for its Next Chapter as an Independent Company",
-     "source": "Stock Titan",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPckY3NW9JM3h6a29pd09PczhMRFpUMkRyRkM4Ql93bUpYLURCcTdpRHE3TGc4NWVBWHBIUnhXT1Nrb3J5WTVlLWlMVlFfd1dCV0VCRDF0M2pzdnpaMGZnMlFUSnRHSG1PeXU3ZUo5bjcyMHR5TXdvem1FYTJGZDh5QUFMWk85Q0pSYk9ISDFPVTVnRmV1TFhvcUxHSkpwelNTemFHSFVmSEY5MUM2SXZBQ0RZamZtZXA3N3VycF93?oc=5",
-     "published": "2026-10-15T20:10:00+00:00"
-    },
-    {
-     "title": "MiniMed (MMED) Finalizes Post-Separation Board; Lofton Chair, Bricker and Main Join",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUVJSajRmeERENmN3cEdGbTdqTVJOMS13MmxTd1RHY2MxSS1Cb1RuVDBueVEzV3UyVHptZG1rX2d2Tmx4VnhoS2IyR2htczNNTVdmak14UjBhMlh5WkczOG5YOXVTZUdEb3l2UUVTTWl2TDFoQ25MbVlOSDJ3aWxieU1OZm5vdm93UnZjNmpiTmNJUHd0T2tPVFVBTWY0bmxQVlJ2U1hTajZWZmZDSHYtcUlSZW9NaXRsVUZsak5NV29tTE0xT0JOd2EwQ2lxa0tFb2Y5ZVk5ZTc?oc=5",
-     "published": "2026-10-15T20:10:00+00:00"
-    },
-    {
-     "title": "MiniMed Completes Separation From Medtronic And Begins Trading As Independent Company",
-     "source": "Pulse 2.0",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLXRCSWtBU3UtUk43SWI1TXdnUW90cEdXX1BFNFJPRnhEVGFhR2t0a2JwZWxBLUp2cVA0VUpwQ2k4X3R4TzQ2ZEQ5TjVZWjJJc3QzVHhra2dxY0o3VVVEcmxlc0djR1g0dzI1dmh1elZVNTRPQXk4SWczVVVqaVY0cG1kd3lJc09hb3RhdmdpS29qZ2E5ZloyTVhqcUJMWk9lanpXYWlRUk0?oc=5",
-     "published": "2026-10-15T17:49:37+00:00"
-    },
-    {
-     "title": "MiniMed completes split from Medtronic",
-     "source": "Drug Delivery Business",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRnZkOXJzZW53MkZKaW52Q2l2dm1neHl4eHVTTXZPelNkRURVYk4tZ3h4eHhObGFmUnAzZzBVWGpvSUlSNDgzTzdnNFFZYmNURVNabDlHd1A2NEhEU2NFSEZhOENOWXQ5X2VKMnBDNkQ4Q1pxVHNWc3hFU3paNlBwXy1R?oc=5",
-     "published": "2026-10-15T17:04:55+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "none",
-    "label": "Sin noticia clara",
-    "quality": 0.1,
-    "note": "Precaución: subida sin catalizador identificable.",
-    "confidence": 0.0
-   },
-   "score_parts": {
-    "move": 1.1,
-    "rvol": 25.3,
-    "catalyst": 3.0,
-    "close": 9.5,
-    "size": 3.5
-   },
-   "appearance": {
-    "count": 1,
-    "previous": [],
-    "window": 10
-   }
-  },
-  {
-   "symbol": "WULF",
-   "name": "TeraWulf Inc.",
-   "exchange": "NasdaqCM",
-   "price": 12.62,
-   "prev_close": 11.54,
-   "change_pct": 9.36,
-   "gap_pct": -5.2,
-   "close_strength": 0.92,
-   "volume": 107552186,
-   "avg_volume": 30683601,
-   "rvol": 3.51,
-   "dollar_volume": 1357308587,
-   "market_cap": 6296984576,
-   "pe": null,
-   "pct_from_52w_high": -0.58,
-   "above_sma50": false,
-   "above_sma200": false,
-   "earnings_ts": 1793968200,
-   "market_time": 1792094400,
-   "market_date": "2026-10-15",
-   "market_state": "POST",
-   "score": 42.0,
-   "news": [
-    {
-     "title": "TeraWulf, Opendoor, and Zillow Stocks Surged Today — but Only One Is a Strong Buy on Wall Street",
-     "source": "TipRanks",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM293b2xLc1A5REZwVDhHREVva2hRUjVINURSVEFjd3N1RG8tU1luTHQtc1FZQ0NWWUdLVXA3MmozN21GakxfdE1WZC1IVmtrZDFveUhFZmV6RHEtUEc4al8wXzhaWENVcEMzRmhPNEw2MExKTXpKLTlBWEN0bEFINU00VjRaYmNHYlVSbGVhb1NaTTk1T09CWndRVmtDNjBfSFpMcnRHa3l1WXZUdE94UjFsS0hVbFFOVURPdFFkOA?oc=5",
-     "published": "2026-10-15T20:31:45+00:00"
-    },
-    {
-     "title": "Morgan Stanley Call Sends TeraWulf Stock Surging",
-     "source": "TipRanks",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQVl4TzBEMHBEOU1OMm5leVhrVTBTRFh2amxsSU96bXVRYkxaZks2aU80MEk0clh5eWR4aENKbl9NRHg5eDhtZ056cHJlYWcyblVoTXdudktrVEFnenZ3OWZ2NV90MjZsaDhsVkJPUWdtZzdvQ0RsbEExVGFVZzJQZmY1Vk1ZVXJQcng3UjVJdDA?oc=5",
-     "published": "2026-10-15T18:53:44+00:00"
-    },
-    {
-     "title": "Terawulf CEO Prager: We're on schedule; we're on track to deliver within a timely fashion",
-     "source": "CNBC",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaFU5MnJIRERsZ3d0bHFaS1NIUzJUWUVySVNkeXJmRzdmaFg3WWVrUC1PX3NYQVE2UXoydGpsakxwSG45d2FaWS1ZQmpRLTM2UmZKVmVWV1BHNkFudFBPQ0ZJM2JSdGl3WXJ4NE1oOXc5aFNiMW9tTHhnR19IYmttcGYyZkFHaWx3dXc3bmU2bEVpeWhVWk16N25UYWlzUm9VUzI4U0RqWm5yNUUyTEdnQXl5alJaYlJxRXlmUUVZMUF3dl9TNjNF?oc=5",
-     "published": "2026-10-15T18:37:26+00:00"
-    },
-    {
-     "title": "Watch CNBC's full interview with Terawulf CEO Paul Prager",
-     "source": "CNBC",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPR2dORHN2YTVXZER3Umo4T0xzOGtjZnpvTU9TcW1BV1lPRkRaQTM0TmdlcFNBN0pTVXZmQlVhcGNpMUZJcHpyWTJ4UkFCRVExX3RBQ1lZYTNNRjI4YXlnaklKZTVBSENWXzBrRzhZR3lHMTN3dlhRV2J0aXF6ZlhvOUJ0NUU2UXZULUhUaXl0TS11UDRVUFNmQlVSbUlydzVp?oc=5",
-     "published": "2026-10-15T18:30:31+00:00"
-    },
-    {
-     "title": "TeraWulf (NASDAQ:WULF) Sets New 52-Week Low - Here's Why",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYTlEcGdRellMbEx0dW9tc3BhdHY3eThNQ3NzVVphTU5kWTNNTWh6YTNwTV9aZDlsQW5XX0V1UW5aeDVEeVpqUmY0Ri1CUFNCVG5TWE55WFhaS3l6c2owcV9Ha0twalhheFZETTJBRHVRODZqNXRtWFdHdEtCN0RiVTA5OFRxNUFoWmlZREJHaGlna1p0cnFWVmQtZmowbEluU1hDeXZld0pmOGNGS2F2bQ?oc=5",
-     "published": "2026-10-15T16:45:21+00:00"
-    },
-    {
-     "title": "WULF Stock Set For Biggest Weekly Loss Of 2026, Morgan Stanley Says Shares Are ‘Mispriced’",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZVpDMjRkUDFtaTFubmlVUVZUMG9fOURsWXRkamZiSTJEcTdSa29vWDROVmJDOVZBdVNtX3hrR2d5SWdoWUFqRGNqZFFyWF9OaEp4TTNFNUhaNkQyWmZKUlVsM0xFTGE0aDRUVEtXNWExM0pXLUluVC1XaGRvNG9iY0NIZHo3OWFheVU1RTdCbUl3Mm8xVmRURnd5a2hhb0txd2VBVzFvWlo2RVRZdmhBcFBWdURfMG5YNVNqc2xGVFkwVDVrQkFhdjFGWlllcFd0UUxaWS00eGlPRmMtcUxzZA?oc=5",
-     "published": "2026-10-15T16:45:09+00:00"
-    },
-    {
-     "title": "TeraWulf Stock Keeps Falling, but Morgan Stanley Sees 463% Upside",
-     "source": "Barron's",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQU5nVmVkSWxWN19ndDJIY25WNHN4cjRETHgtdHhSM1lZaGJmVHRhbTZkcDhQNmJmRG1JU2FMU21EblQzN2x6QUdEMWxYWVJJU2FoOFFmY1R0NDN2WkhOWTRLQ1hUbFNfUEdVaVNyZEYxVzZyelJ6WHNMbVZkeWJXeEhjMnhxOGY3emlsZ2F0NGlIYlVIMTQxcQ?oc=5",
-     "published": "2026-10-15T15:57:00+00:00"
-    },
-    {
-     "title": "Bearish options flow identified in TeraWulf with shares down 8.58%",
-     "source": "TipRanks",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRHlOWFFodHBaSkxUZ0Q4WkQ2WE8zRHhQam1PWjRjS0FvZnBfQVpZRjB0NzZwSXh1WlRlRkhzZk9SMUZ3aUtWYUxyaTVmNUNfZlBYczFDMzhZNGRKbV9oTkh5UXotMThCeTNVMjZhb2VJbnc1Vnl4b1c1LVczbW02UmRGaUktdHhWd212VE45a1JWcU1Ba1E5czM4dGx4U1ROSzBEQWNBUFRZRk14SUYtM1N6cEcyZw?oc=5",
-     "published": "2026-10-15T15:24:33+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "sector",
-    "label": "Movimiento sectorial / macro",
-    "quality": 0.4,
-    "note": "Sube con su sector; depende del contexto general.",
-    "confidence": 0.3
-   },
-   "score_parts": {
-    "move": 3.4,
-    "rvol": 13.4,
-    "catalyst": 12.0,
-    "close": 9.2,
-    "size": 4.0
-   },
-   "appearance": {
-    "count": 1,
-    "previous": [],
-    "window": 10
-   }
-  },
-  {
-   "symbol": "CORZ",
-   "name": "Core Scientific, Inc.",
-   "exchange": "NasdaqGS",
-   "price": 14.46,
-   "prev_close": 13.51,
-   "change_pct": 6.99,
-   "gap_pct": -4.63,
-   "close_strength": 0.99,
-   "volume": 33718858,
-   "avg_volume": 12343776,
-   "rvol": 2.73,
-   "dollar_volume": 487406092,
-   "market_cap": 4644976128,
-   "pe": null,
-   "pct_from_52w_high": -0.53,
-   "above_sma50": false,
-   "above_sma200": false,
-   "earnings_ts": 1793881800,
-   "market_time": 1792094401,
-   "market_date": "2026-10-15",
-   "market_state": "POST",
-   "score": 40.4,
-   "news": [
-    {
-     "title": "BTIG Maintains Core Scientific(CORZ.US) With Buy Rating, Maintains Target Price $38",
-     "source": "Moomoo",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNjFsS3daQVMwMVNyc2ZpNUpUYVAxU01UNm9aN21RT001Yk03OUMyQkdqRGlfYXlkWDJ6bmtuZS1hb3pBaVJidFRXd2FzNklQSXp3MVc4T1ZTX2dFeTRGZnhqYUpVSE9PMkJFUGdYcTNzVl9nUUJZZ3M0WTBHQW9uaGJJZkdxOFAwUUtWbl9EUWRhRi1PTFY5OXlhRUEwWXdqcVpMVElWd2JYZWtWVG8weVpyYS0?oc=5",
-     "published": "2026-10-15T11:41:54+00:00"
-    },
-    {
-     "title": "BTIG reiterates Buy rating on Core Scientific, $38 price target",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSEVaY2NEU3RwcjVfdDVaZW1hM2NKWUJBaTdZaEVBS01BNGpXSnVMT3JQb0pfeGpzSnpNWm5jVmU5VExtUW9zR2g1WGowc2FkdjE1Y0pTQ0xuT2ZYNW1FS1R1bXV1cUliNVhGc0tveFpqTE4zRG9RNGNTdHZ2N3Iza2VTaTJVR2E5RllJc1VkTDFaWXZpc1BJMGh5SDlLWjdPclRhVUttTkRmUXpZYkhkQy0xSXEyT2VkTU9MOUhyWVU?oc=5",
-     "published": "2026-10-15T09:55:31+00:00"
-    },
-    {
-     "title": "Why is Core Scientific stock down 7.3% today?",
-     "source": "Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdjZERmtSb1BpNGp1bmF2Rzl1cW4zQ2hVTUZXS1FNZ2ZQWUlGalZDRWNfYVBJOHpVaVpNQW1nRlp6cEdEamlaQmF4SVlkcFA4bWZ0Vi1OY3BFYXl3U0VDdWstUllyZjFjQ0dnMWgtNFp0X045Vmp5VE0zZVR0R01oNHpuM3hUdlp0N3hscnU1RnBNeG5La3c?oc=5",
-     "published": "2026-10-15T18:11:03+00:00"
-    },
-    {
-     "title": "Can Q3 FY26 earnings spark further gains for Core Scientific stock?",
-     "source": "Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPV3d4RjlMbWR0d0RVZlVVQjdDZWM2T0I5S1ZwWDlZdXIxVDhMYXUtXzBMZnJ4WXBnU3p3cjVVX3FUMUt3NDZibGV5X0ZHYUVRQlBNdHZEeWxWZ2UwSlNLZi1ZNmxsSWh4aU90VzFBRmw3Ql8zM0RxaFFRZTY2dzJGWnpkc0ZRY1EwM2RFX01RRFY?oc=5",
-     "published": "2026-10-15T18:00:42+00:00"
-    },
-    {
-     "title": "Core Scientific stock hits 52-week low at 12.79 USD By Investing.com",
-     "source": "Investing.com UK",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPR2JYa0l3N0xJTDItVDFNMVZxOGtxR1ZxaTY1RGFIVC13azJ6WW1aSjJabE1rYWZ1eGEzdmxMaC1fQkNoM3RWODA4aUtiQkU4cS02WnkxR2xSUnVjVy1HSW9CUVAycjh6TV9tUmVQdkNjcEJhaUZFLXp0Y0tpNWI1cFZSOHdielNxUFhoTndoX01XRjM3NTNNT3ZKR2cxZUJLVDFFUENuUHBrdWJEYnlN?oc=5",
-     "published": "2026-10-15T13:32:00+00:00"
-    },
-    {
-     "title": "Core Scientific, Inc. Schedules Third Quarter Fiscal Year 2026 Earnings Release, Conference Call and Webcast",
-     "source": "Business Wire",
-     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOQkp1MjJ4SFl5Y21iX05GODM2a3RWZEZ5RDNlQ0pnRW93clFjZ1ZYMHZKY291Q2otdnNsSDE5MENnU2NueERUY3RrdTFpSjlFS0dnZXF6TEdGM2V5dXRsZXBTSW9sNTQ2c09vd3l2UmV1Rkdod1FDMWRfV1dhaTg4Wm1XT1FLSWJsNFFCYm1YZWZaOUFVeVNKcHhZcE1IUTREQTNuZGxrOUZPakNOT2V3c1JMUWhTYktabUpfNFQ0Z2N6UkdvY0IxWkZrS0xUZEU4bWJvQVZ2czhwTTQybDNnd3A2RHMwNHNaUGNSQ0lEdWV6Q3Q3Tmc?oc=5",
-     "published": "2026-10-15T11:00:00+00:00"
-    },
-    {
-     "title": "CORZ, CIFR, WULF, HUT Stocks Get Wells Fargo Nod As Bitcoin Miners Push Into AI Infrastructure",
-     "source": "Stocktwits",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcTdpYzQtLWhaMFRwai1jT1dSbFpoM214NmYxYmJ3Z1pGOUYtSnNzNlBiaTFJc0dUa05zYjV5SC1qaGhjTkJUN2NJSFRYMFdncHEwN3B6eU1DMXgyUEJDWTBUY3NVb05BWlBMWmQyZUQ2RkZsZHVSbGFjaWRWek14Q1R3cEh3OXAxT3dGRnNVNzduT1g4Yll4dG8yTzV1eG11ODNnX3g5UXZjVGZ0N1RMLVo5bEFZSWExZnZPM1hoMTRjSmNjOTdEWHBONA?oc=5",
-     "published": "2026-10-15T10:09:26+00:00"
-    },
-    {
-     "title": "What Does Core Scientific (CORZ) Need To Prove As Customer Risk Shifts?",
-     "source": "Simply Wall Street",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNUJsOGRrTDdrMnFKdHFkdFRGbllkME95QlF4QlhLVTJYN1hhM1hROHNDRzRPSGpxZm5IZjBQT3Q4cmpab1dMd0pRWnp3eTI1RGxZNWw3SzBLVm5DTERmT0Zkd2NIal9FdjFKZnhuSW81ejZoNVZDWG5EODdwbkktYjNSZHFTSGpDby1UcHFJN2tPZWR6R3JlMWZVSVVQSlJybGlDalZiUWF5bTJYbGxLUHZhTG1tS2VVc19fUG16OUhsdFRYN2RvbU1ZTWhpV2vSAdQBQVVfeXFMTk9GYkVpQ3Bvd0wwaFJMSGFtTGlOQ016TUtwTjhVOFl5WGVocW4yUjdfaVozOUxLS0JONHg2WXFQSl8waW5VUjhCMGJyelRkN3F0QVdzdzZlNV8xODN2SmJnUm14YWl3SWllWmExMDJZMkcxMnVpdzlxVzNKVlFtbFpPVVl4cmZvSmNuRU9ndWNTQlpWTTAtaFdTbDBfb3ppQkhValFrcWRMMklSaThOVTdtNTFfekdPOWxmX3JvbUR5c2RKdzRtV1IyemcxX1lmcjVKcG0?oc=5",
-     "published": "2026-10-15T09:42:26+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "analyst",
-    "label": "Mejora de analista",
-    "quality": 0.6,
-    "note": "Impulso moderado; suele diluirse si no hay más noticias.",
-    "confidence": 0.4
-   },
-   "score_parts": {
-    "move": 1.0,
-    "rvol": 8.2,
-    "catalyst": 18.0,
-    "close": 9.9,
-    "size": 3.3
-   },
-   "appearance": {
-    "count": 1,
-    "previous": [],
-    "window": 10
-   }
-  },
-  {
-   "symbol": "WMG",
-   "name": "Warner Music Group Corp.",
-   "exchange": "NasdaqGS",
-   "price": 30.69,
-   "prev_close": 28.91,
-   "change_pct": 6.16,
-   "gap_pct": 1.94,
-   "close_strength": 0.94,
-   "volume": 4762444,
-   "avg_volume": 2073590,
-   "rvol": 2.3,
-   "dollar_volume": 146159406,
-   "market_cap": 16054239232,
-   "pe": 24.552,
-   "pct_from_52w_high": -0.13,
-   "above_sma50": true,
-   "above_sma200": true,
-   "earnings_ts": 1795118400,
-   "market_time": 1792094400,
-   "market_date": "2026-10-15",
-   "market_state": "POST",
-   "score": 38.9,
-   "news": [
-    {
-     "title": "WARNER CHAPPELL MUSIC SIGNS GLOBAL DEAL WITH MY CHEMICAL ROMANCE",
-     "source": "Warner Music Group",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU1FLdnZKclhKSy0xU1pXbVZJWEhLdF9kNDE0SldRNS1lN2R6dlRZNVJ3bHlJbzZNcGJ6RzdCWE1DaThBZXp1a3RmRE9waWpVMEJxcGN5NWZvbnBwWjR3UG9iNEhFeVhESDFTMFoxeGRNc1JER2tqN2lXVlR2cU80Mmh6SmxzYXIwOFoxSlBlU01KR2c?oc=5",
-     "published": "2026-10-15T16:47:26+00:00"
-    },
-    {
-     "title": "My Chemical Romance Signs Global Publishing Deal With Warner Chappell Music",
-     "source": "K-Jewel 99.3 FM",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONVg2QTVIY2NLLWhVSXA0REhiSmV1aDNDRnhvQ0pMbGNBUF8zd3M1R3RnQlZCVmlxMW1MRk01Ym4yWW8xU2ZQT1J3TEZFUkl1SWVtd0ZmZWpEX2N4NUhzRVZZd0lVNUg2TDVXTTJrX2FWZk0yRVktVS1pMzRRSl9Bd3dUWlRCX1pzb05lLXIyVzNxZ1hIZEFHZTlKYkx6UlpzVi1JcFNxY21zclpu?oc=5",
-     "published": "2026-10-15T16:13:09+00:00"
-    },
-    {
-     "title": "Is It Too Late to Buy Warner Music Group Corp (WMG) After 6.2% R",
-     "source": "GuruFocus",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX0U2YkdJZEJDbzl0aGJ1dFNBXzZXMTRxdk9aN0dxRWdkTXBJTkxuc0hvZXRJMTFuaUdObVlDTEMxdWQxRDlqQUN6SjRDUV96MUE4X1Q1UmtTaUhQUEZnSDFXZk1SZTB1Q2tYcS1KUTZLZTI3N2UzUFNiNFFUWENsZElPcGN4SlIzbktadjZwazE4Z3JHSFdSMDNzR2xxbGNCN3VnY1FBQUthdU0xWm1CTVpGa2FDOWdCd0lSU2JyQ2p1SUpEN3ZDcg?oc=5",
-     "published": "2026-10-15T23:34:21+00:00"
-    },
-    {
-     "title": "Music Companies Fight To Continue Influencer Ad Claims",
-     "source": "Law360",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT2QwZ2ZNZm05aVR1WHQxQWIxWVZDQjF0a2QwcExpcE9fblNWYVBZSEpETUtLeEZOdElMVlhDazdBemljejRrdlRtQ1R6MXVicWVORTVkblZ1UFhqNVR5UmpDazZRTXhWM0dPbWpYQmFZajF5MDN2NlV1anRwMTQ3dGtKWEl4T2x6M0Y1VzhaNkJUTmJoeml5eF9R0gFWQVVfeXFMT1JCM0xtZWtNV09CbTZXV2NBNlBSLUZtUXhmajBrXy1pMkRGZmRBU0hON3Mzd3ZPaW9wSlpINDlPRHdJb3lZRWZUZEhTM0VjLVNPSnM0QUE?oc=5",
-     "published": "2026-10-15T22:45:21+00:00"
-    },
-    {
-     "title": "Top Music Stocks To Watch Today - October 15th",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNN25aVVpwcTVSbEJkV1d1Q096NHM4X1c3VWx6ajZKTXU0clR6Q1pGXzNqUFBPMFd4czBvekhuQ3pfY1h5NmtGdWt5SUpCUVhNUHU5TFhlcFMtNFFSbkd5d2swRWtGUDg5R3IweVFrbk5kazk4RVNGeTFiNlMxZzlNc1BBZG1rOHNLM01ybXBjbVVFcm1wX00zcEtiX3o0RlpDZHR0RmJR?oc=5",
-     "published": "2026-10-15T18:22:50+00:00"
-    },
-    {
-     "title": "JPMorgan reports sole votes on 7.52M Warner Music Group (WMG) shares within its passive stake.",
-     "source": "Stock Titan",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcFNDWDdMbFNzOUo3VmZUUFpYcUJYTTIwdGgySGRFR2c1Ync4X2xaTXRLYjZzMnc1aXFZcUtaaFZ4TmVSOFA4NVZQUXNUeXlSYW95Uk5RT09zV3BJTEtnQUNpeUNTNUJrNXZNcGpNbkpSVEF2dVp6Qm5yVl8zMDRDZjA2ckZqUEc3Zm45VkJJdnRWcnNsdEtQSkk3S3FJZlJQOU1BZVM1VDJMZ3NsTlljb3J4ZEZDLUprU09lQXotVTZUZ1pTczk3bFFR?oc=5",
-     "published": "2026-10-15T17:40:34+00:00"
-    },
-    {
-     "title": "Warner Chappell Music signs My Chemical Romance to exclusive worldwide publishing deal",
-     "source": "Music Business Worldwide",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa0RjZDdIbVI5bEVYNkRLVDVscWtubkdkZUJMTF9yOW5aZkh0a3k4YkExRjF6blotM1RtMDQ3QWVhYnpFdzBRLV9rdU5jUjFRdXRsWk9KdHprdGJnRGM1NWppYm9IQTYzU0VRdTBnZEZTRzZtOUYyV0RaMVY1dUJBWWtoVGdzS2Y4c3JzczM2SF9qV0s0Z0lqWl9UcUlYSTFZNm95YkhHQkNUQmFuRlRHMThJZ3ZXZVItRzRiUi1wekFQYThS?oc=5",
-     "published": "2026-10-15T17:35:20+00:00"
-    },
-    {
-     "title": "StoneX initiates coverage of Warner Music Gr with Buy rating, $41 price target",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONEhaUk1lOGUyVXdYbDdpQ3hfTE05QUEwUmo1WXlYQWYtTXJCWHg5djIwck9OZnYwRmhsZGx1MW1SYXF6R181YlkxOVRCamlfV2hVR0E2Z2FuNjFaTnN3Ulg4ckVDYUwtZnRZN2lzSWx2UVI5NHBSel9PYUZIRFJEWExVZVhjOV8xMjhsdnJ5a2JLWmFxT0taOVpwWjBwR194cVFham0zeXVsaWdVT0NIM25VZXplTlVWQ3B2X0lTUDlCYlRJell0ZDB1TkYtbXFramtrWA?oc=5",
-     "published": "2026-10-15T13:00:35+00:00"
+     "title": "Crescent Energy Schedules Third Quarter 2026 Earnings Release and Conference Call",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMjZJcjJIZWY0RS1uQzJac2Y0bHdES3FVeGtvQU1iMW41X0lmQXo2Zjc2ZjBBRW83ZC1wZkRya3NPQkNLZS1hTzhNeVZfLVNLZ1pEbW9OWjNmQWhiZnZWa2NDUzMxU0M2SkFkODZYYUJKZ0w0VmRacENpSTJZN0JaZnlzRVd2SFA5NWR3UkI0aGozOHA2YXJVdk1MUVY?oc=5",
+     "published": "2026-10-15T20:30:00+00:00"
     }
    ],
    "catalyst": {
@@ -828,11 +102,11 @@
     "confidence": 0.4
    },
    "score_parts": {
-    "move": 0.2,
-    "rvol": 5.3,
+    "move": 4.1,
+    "rvol": 10.7,
     "catalyst": 18.0,
-    "close": 9.4,
-    "size": 6.0
+    "close": 9.8,
+    "size": 3.3
    },
    "appearance": {
     "count": 1,
@@ -841,91 +115,184 @@
    }
   },
   {
-   "symbol": "ONC",
-   "name": "BeOne Medicines AG",
-   "exchange": "NasdaqGS",
-   "price": 374.08,
-   "prev_close": 351.48,
-   "change_pct": 6.43,
-   "gap_pct": 1.57,
-   "close_strength": 0.92,
-   "volume": 720559,
-   "avg_volume": 384404,
-   "rvol": 1.87,
-   "dollar_volume": 269546711,
-   "market_cap": 42558517248,
-   "pe": 66.444046,
+   "symbol": "HPK",
+   "name": "HighPeak Energy, Inc.",
+   "exchange": "NasdaqGM",
+   "price": 10.55,
+   "prev_close": 9.95,
+   "change_pct": 6.03,
+   "gap_pct": 1.91,
+   "close_strength": 0.64,
+   "volume": 1010424,
+   "avg_volume": 510753,
+   "rvol": 1.98,
+   "dollar_volume": 10659973,
+   "market_cap": 1334077056,
+   "pe": null,
    "pct_from_52w_high": -0.03,
    "above_sma50": true,
    "above_sma200": true,
-   "earnings_ts": 1793881800,
-   "market_time": 1792094401,
-   "market_date": "2026-10-15",
+   "earnings_ts": 1793822400,
+   "market_time": 1792180801,
+   "market_date": "2026-10-16",
    "market_state": "POST",
-   "score": 38.2,
+   "score": 23.7,
    "news": [
     {
-     "title": "All You Need to Know About BeOne Medicines Ltd. - Sponsored ADR (ONC) Rating Upgrade to Strong Buy",
+     "title": "HighPeak Energy: Debt Refinancing Reduces Interest Costs And Gives It More Flexibility",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUmtHaS1CQzhjckRickQ2djkzbUplYVFfM0EwZDJ2SjFaQk05a2hyamVaZXJ0M19FbEsyMU1qRjVjRXlLNkoycllTczlpWGVRa0VHVUhOU1IwU1NrMjNBZGtMem1Gb1FMYm5sVXN1MldUVHJweXJNX0t5akpKMFhvZ1dRX1duVjVtNnZLWjFDX0NvbEZPM2FYUjJXcTR1MGRNX1Z3REZVdGIxeUxrYklvckZQLTlXLUVxY29tOFJ5WDA4Sm96?oc=5",
+     "published": "2026-10-16T02:42:04+00:00"
+    },
+    {
+     "title": "HighPeak Energy (NASDAQ:HPK) Reaches New 52-Week High - Here's Why",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNTRGNFJsS0tpUExBaXdnNFFEVnhKbVJHT3RIYVowUEpRWFJqMUJPdloxa2tsTU50YW1aQmhmT2pYdHhheE5KN25UenZwdlJLYnZ2WHhZSm56WkV4blhEOU4yYXVxbkJ5NkdFczBsNWtWU3pUNnQ3cF9fckNrclpJQ1lQck1mZWk5dXVfeEQ1TGY2MzA3QlZrZ3BJRWpNb0lGUUhiNW9FdHpwWmp0NjBIZURKZHBybDNWSl9ZRWdB?oc=5",
+     "published": "2026-10-16T18:04:39+00:00"
+    },
+    {
+     "title": "Highpeak Energy stock hits 52-week high at 10.57 USD By Investing.com",
+     "source": "Investing.com India",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV01UQTVCZGhPVXU0eHQ5bFVVYjBqamtONGZoVWR4am13U2NhX3kzblJSc3Y1dmNDOWRmZWJiaHVvRENOcHFNYmw0WkZXYm92Wk04WnV6UE5vd3Z5M1ZMT1hGXzFhcUN2ck9yY3hiSms5bXVjMzhEM2RsLXNRQWZoR2hiMEFwS24yclEwVGgwaDFMQTBVTmlialNnYVF5NXJ3R2V5MjRkMnJvd3FGTjdlWQ?oc=5",
+     "published": "2026-10-16T16:28:29+00:00"
+    },
+    {
+     "title": "Analysts target USD 12.00 for HighPeak Energy stock",
+     "source": "ad-hoc-news.de",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNT0JhSHk4VW1GbnJISkVlWGR4eEE1RHhsZGJ4WVl6RjVleEQ3ZzVsSDB5WnNqLW1kOEJ0NFlQa3NOZkoyU191RDVBV28xTmV2djdXWDIzUXQwOFhGQ3QwS1RDaTMwSDBWY0xpVDU3UDJkUG4tU2tEZkh1c2tNNV80aVAyTUE3NmRXVUZwcE1WeElHR2RsNy11dFhvQmNhTHh4UkNJRXRFbTR2aVVfZUJR?oc=5",
+     "published": "2026-10-15T18:18:04+00:00"
+    },
+    {
+     "title": "Surging Earnings Estimates Signal Upside for HighPeak Energy (HPK) Stock",
      "source": "Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTnM2LUJac0ZYdng0NXNuUnZmLXlXdHBkTWVyTktuMlBxTDVpMlBzQXIteHE4RVFza3dvTlJLMEZYWTFCWERmZXI3SWNyMm1lVmtZbDB5UGRDdGNqeEVTOGNXRXJUc1Utbkx1UjVLZjRyUmozOV9KYUh4MFg1LVlPT21PU2hmM0R1TFVyUE0tc0ZwSlAwV2NneVVZMGltUmND?oc=5",
-     "published": "2026-10-15T15:00:03+00:00"
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdHVtWFdhSXY0ZUhmbktfemZ3cFJNdUhqVWloMldJYWZNZng0Tl9WSE8yQ3VXYnZDUGpmVkhHREtpbnFrLV9iWEc5Nm9nZE1yLW5IVmVueExJbm95NGR6RnRQdnAzbDY5cTMtSERWLVhiRGZGRTFNdVZnVmtwV0RyODhfR1U4eWU4NW1DUUJjbUQ2R2lDZDEzZEl6LWJqazZYaHhKSUtiMHA?oc=5",
+     "published": "2026-10-15T15:20:01+00:00"
     },
     {
-     "title": "BeOne Medicines (ONC) Surged on Strong Financial Performance and Upgraded Guidance",
-     "source": "Yahoo Finance Singapore",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRFE1R1c2QTdLbVhIRWlZbDBLdzVheHkwaUVuVDVhY1RVbmxxSHN0bmhzQTRBYWlhb095SnBXWWR6cFd6RjJ3NklGU3pKNmJPREhZa0VBWHV2bVQzb3hHM1BPS3ZUMGZLVmdWRmVTVklxQzFTWDlvNmtwdklyNldpbGM5NVNPc3Bqbnc?oc=5",
-     "published": "2026-10-13T11:58:00+00:00"
+     "title": "Milbank advises Danantara and EMP on HighPeak Energy deals",
+     "source": "Law.asia",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9xMXREZlBuVEo2TWhSUzVOM05OSVJ6RDRmc05oQ05JbzR6cVdqSzRQZFdNbXhpS1A3ZWx2dTAzZHJ0VUZWWTE3ckpmMHE0N3NmQVhWeEYxYw?oc=5",
+     "published": "2026-10-15T15:12:34+00:00"
     },
     {
-     "title": "BeOne Medicines (NASDAQ:ONC) Stock: Insider Xiaodong Wang Sells 31,027 Shares",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTzFKak0xLXhDNm5FUkdJaFk3OUFtYkl1QUE4RTRyZlBLTlhYV21ub2RZTDhMbG53cEhaX1IxVVgydFVESHN4c1g0WGZmdXhDQkdMWl9ScDZaaDhkeDd2bjFpRGlDcUlfWkw3WUhvUUY2NHR2QnVqUkpkM09LaWtJNWlJY2I3SjZlLURkd0xGYkRfNFR0anpLbHg0dGU1UkJNeXhxZHY3Z09hd09IRHZoYU9zLUNfX1BBWnBhamg3VkhVMTNGYXpyLXlqRlVBelVq?oc=5",
-     "published": "2026-10-15T23:18:09+00:00"
+     "title": "HighPeak Energy (HPK) Lands $450 Million Preferred Deal, Is The Stock Already Fully Valued?",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/highpeak-energy-hpk-lands-450-221512263.html",
+     "published": "2026-10-14T22:15:12+00:00"
     },
     {
-     "title": "Analysts Turbocharge BeOne Medicines As Oncology Hype Builds",
-     "source": "TipRanks",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd3EwMWlyMi1rR29sZ2c2dGx3bnZXbkJHdFB4d1g4X2V1Q3BDa1FUSjh2N04tNHY0SWJaUlJWZEFBb1dDZm1DRWdzVnVOXzhnVVdDTUZ6dEJpVXFNVEdCa01jMGhIUF9tM0gwOERxRTdpVTVjVHVwTk1zSVdvZXlaNVJ2elA3X1V6dXI4MHZnRUgtRGI5YzFPbTVuZDMxa0FX?oc=5",
-     "published": "2026-10-15T16:56:20+00:00"
-    },
-    {
-     "title": "BeOne Medicines’ Multi-Timeframe Setup Points to a Broader Bullish Re-Rating",
-     "source": "Investing.com",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPR2ROYTdXMWpsa182OWNXUzVrbENMakpuNFBJS29tS2V2Z1BIa21BUnVlMXhIVzJzNnVjaWNfTnFmWlRqaEM4UEEyU0RxZzhPQ3hVUjdkekptaHE5bDhONFEyNUpTcS1LalN1SjN2SDBTUE5SQ2YtWkVhYjJJZlY3d0ZqUkZLRlF0dDhvSUJObndUbk5WcW1kanVycENMWmk0V2M5Y2xYdFJraDdsYnUwZVNobkIzSlFDYkE?oc=5",
-     "published": "2026-10-15T16:37:38+00:00"
-    },
-    {
-     "title": "Why is BeOne Medicines stock up 5.1% today?",
-     "source": "Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPc21zX2VTSFRRYUhjN1BSNHcxbEhGZVFSczJjOHZWVDBzSlpmR0tnS0F5MjZCTWU3eTdCaER1WnliaTYxSW9DWWlqdTJOVENnRS13WjA3RW9QUWwwWWlwSnRKT1FzXzRhbGYtTFlNMWk1TEh3UzEyRnhCc1NKbkJia2J2YUY4RkpLRkhrZGZOaF9na0dKTHc?oc=5",
-     "published": "2026-10-15T15:26:35+00:00"
-    },
-    {
-     "title": "Sanders Morris Harris LLC Makes New Investment in BeOne Medicines Ltd. - Sponsored ADR $ONC",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOQmxudXh1ZFRRVktTbUlWSkNXRmZBaERhVTJWdmdpWjVxRXhoeVFmZmd3QUZJV3JpNWppcVRzNUNEYUlxSUloWFNISFF1TGxzZHhHQVpBaVQ3S3h6bUg4VUJLZHNwOHNBLUNYN3lkdTZlRG1nUnpaN29ubENUOE1zRmljQkd2MjJ3YUtNZmgyQkxqY2l3aEg1d2VlWmNwQjRlU3YxWkhjeU5EeDJsdVczNE0za0tlWThzVUZ6QUdTUG54VThYbFZfeGJpS011eFI2a1F6UEdVSzVMSS0xaUpuM2tB?oc=5",
-     "published": "2026-10-14T23:47:32+00:00"
-    },
-    {
-     "title": "BeOne Medicines (ONC) Stock Trades Above Fair Value Following Its 103% Run",
-     "source": "Simply Wall Street",
-     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNelE1YUtwbnNNTWFsQXNjd1FjbUFqNFVuQTl3dXdDdjJrbXc1NXBGMnN6bkZLZ2RsN3ZnM3JhUGlSZy12aFJZblpzblAyY2tyNEk5cklIMGE2YUVUOXN3eG5iY3o5YWNFUWFOOXBVZUNQYTM2cmVST2hVMGFWdU1PWk12MkFuZGJRX0FfVkpUandPSmdqN0g2SGc4V1gwZ3BsWHlQZFRuRnlqTDZkY3J0RmMzalB5azF6OGR5WTNlZ1Z0clVDQ2R4NGNxTlhtOW1mX1V4Ukl5YlpnZTdoOHFuZdIB5gFBVV95cUxOcktaZThMVXNkczVaRVRJU3A1TmREdnpQajZwS0dGem9jajU2cGRNTzNDV25RYVgtbTFSOTRyWFdBUkdSWXFSOExJcm5JOTQ2QVNocGhjLW02Z1BGZzg2cVFYU25zSVhoYmwyNlN6YTdQTEVNUVpmQTh4RzlRSnljVkFOWjZ6RzF6WXJRbFQyR05qWTJzckE4di0wN1F6a3JUNXo3N211ZUV4cmFpMUtJQVZmQjltSDVpSGJpMk94SUFQd2lzcG1qWmlBUW5rSENXS1BYc1FLSmQ1bXlmRTU3UzdWUXlxZw?oc=5",
-     "published": "2026-10-14T17:52:45+00:00"
+     "title": "U.S. Shale E&P Stocks Q2 Recap: Benchmarking HighPeak Energy (NASDAQ:HPK)",
+     "source": "StockStory",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/u-shale-e-p-stocks-165207951.html",
+     "published": "2026-10-14T16:52:07+00:00"
     }
    ],
    "catalyst": {
-    "type": "analyst",
-    "label": "Mejora de analista",
-    "quality": 0.6,
-    "note": "Impulso moderado; suele diluirse si no hay más noticias.",
-    "confidence": 0.4
+    "type": "capital",
+    "label": "Financiación / recompra",
+    "quality": 0.45,
+    "note": "Mejora del balance o recompra de acciones: impulso limitado salvo que cambie la tesis.",
+    "confidence": 0.3
    },
    "score_parts": {
-    "move": 0.4,
-    "rvol": 2.5,
-    "catalyst": 18.0,
-    "close": 9.2,
-    "size": 8.1
+    "move": 0.0,
+    "rvol": 3.2,
+    "catalyst": 13.5,
+    "close": 6.4,
+    "size": 0.6
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "PAYP",
+   "name": "PayPay Corporation",
+   "exchange": "NasdaqGS",
+   "price": 15.68,
+   "prev_close": 14.65,
+   "change_pct": 6.99,
+   "gap_pct": 0.92,
+   "close_strength": 0.8,
+   "volume": 1172790,
+   "avg_volume": 768304,
+   "rvol": 1.53,
+   "dollar_volume": 18389347,
+   "market_cap": 10617604096,
+   "pe": 13.17647,
+   "pct_from_52w_high": -0.37,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1793390400,
+   "market_time": 1792180800,
+   "market_date": "2026-10-16",
+   "market_state": "POST",
+   "score": 17.3,
+   "news": [
+    {
+     "title": "PayPay (NASDAQ:PAYP) Stock Price Up 5.6% - Still a Buy?",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZG1mbGx2TkJnUXJFUEdJc1dYeXp2Rl83WXVSS1ZUcDRpd1AyU01vUFNqNzZjU3hHTXo3eXJQVWJPQzlUXy1wcnBSTzRKRlJhQUxzTGRVYlZ1Y1U0Q2U2NGdzbjNKcE5SOFpNS1ZRLXFoSm9LZWNLNHBDa25wVm56eVYzQURWTHBuR09KT29BLXVfRThhLTZ4SlY4Rm9HZDRIVko0a0E1d3hLTE9O?oc=5",
+     "published": "2026-10-16T15:56:02+00:00"
+    },
+    {
+     "title": "Why is PayPay stock surging today?",
+     "source": "Investing.com",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM2hrNGNFcEgtS0VpNTAyaVc1UjY5NV9fUlM2R0NjTTRTc2RkZzVOREtSeE1Cbnc0X1Z3QlgzSUZMMTRkbjdIdUFXMVprTTVZVjJVUFhsVzBWQ2dSdmYzWW1HRlNxQ3BXZlRfRWI5bnlRYXd4RTN2NnBldXVfb2g2MU9qZ0M1SU1oaEJZcjA1YldZcVlLWEpLemxidw?oc=5",
+     "published": "2026-10-16T15:54:22+00:00"
+    },
+    {
+     "title": "PayPay Stock Jumps Nearly 7% as Japanese Payments Giant Rebounds Ahead of Late-October Earnings Report",
+     "source": "International Business Times Australia",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTk1tdlJpcnJ0N2g2Z01mZHZVMWc3TWhmczRTaE9yOVRDN1NNODB0LVpiWGlvTVN5bzBYZy1MLXN4OVo5bndNbTFhd1pKTW9yYzdYSTJMd2FnNXR6YTduNklWQjI0UmFmTHhvZTZ6eFVjdnFOdTE3SEY3MGNiQ0JRTA?oc=5",
+     "published": "2026-10-16T15:30:42+00:00"
+    },
+    {
+     "title": "PayPay Soars As Options Expire And Bulls Take Over",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd1NMZFZYVFcxOHVIMzVTWVhMcTJZb0gzUjBpakRHRVdJMWo4WEw5WkJ5MmVuRkxJUlZxa1BqVFY2eS02MHBULXNNMUxLNEJleEFSVl9uVlhIaWwwdzNudjNHUFJVcV93dm9FbThFOGE2UmltZmU5aXA3d1M1akFRb2hZVnJyR2ZIaDVsbUw3cEttaW8?oc=5",
+     "published": "2026-10-16T14:02:54+00:00"
+    },
+    {
+     "title": "PayPay Corporation - American D (PAYP) Stock Forecasts",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNllwZFpUb3VKWlFQT29hcGNxTmlZQjNzaXduOURIYlF3VjN4bWNnOVlRZmJhU3lxV1hORldIbmxVV2FaM2R0TWktY2J4SWVTVDZIaUhiS24xMmZLVDQyZFFROFBCdi1kSHFQTkpETkZlSG8xUVRGU01VellLTTZSVFIxLTNqXzlucUtkNQ?oc=5",
+     "published": "2026-10-16T01:58:46+00:00"
+    },
+    {
+     "title": "Top PayPay (PAYP) Competitors 2026",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZGp1Q0NiaHBVSktEN0lQNkdINWk3NkwySHE4UzhzZGJmbUV5MDlXZ0Z4M09PSlg3TmJta1lETEVrRFNJMDlGYWxpRGVTN0luX00wRW5RR2tIM0RyV1I5RDItcmh4TWJ2VnpqY3BQbUNjNlpiNjhxWU5QWkNnUWx4ZQ?oc=5",
+     "published": "2026-10-15T09:38:28+00:00"
+    },
+    {
+     "title": "PayPay Bank taps payments ecosystem to accelerate growth",
+     "source": "TheBanker.com",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9SZXhvQk5xTmQ0ZHZzdEZUbXRsLUFVb3BIZG9RaFlfRkVrekk0YnNUcThCSXc3dWVsM2lPTkxLM0E0UzVYQXEtaW9OVDRGUEp5b0lIY1hKY2RDU3lVYjVlcDFnZXRvS3g0QkczYVF3WTBUN2FSQzhNT3pB?oc=5",
+     "published": "2026-10-14T07:44:25+00:00"
+    },
+    {
+     "title": "[Persol CS Pacific League] Taisei Makihara hits .400 against them: Summary of player performance in Hokkaido Nippon-Ham games & at MIZUHO PayPay Dome | Pacific League.com | Professional baseball",
+     "source": "パ・リーグ.com",
+     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90MkVWdVBaUGxqd0tpZzUwUGlhRkVNUlZPY2paZ2JuTUFyM1VCYTlKLW13U0MzYjNuS3pvdENEWjg3Q0hmTzBldzVxeG1pWndIelZxMmZscVJ6a1U?oc=5",
+     "published": "2026-10-14T02:29:24+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
+   },
+   "score_parts": {
+    "move": 1.0,
+    "rvol": 0.2,
+    "catalyst": 3.0,
+    "close": 8.0,
+    "size": 5.1
    },
    "appearance": {
     "count": 1,
@@ -935,8 +302,48 @@
   }
  ],
  "holding_up": {
-  "tracked": 0,
-  "items": [],
+  "tracked": 10,
+  "items": [
+   {
+    "symbol": "WMG",
+    "name": "Warner Music Group Corp.",
+    "picked_on": "2026-10-15",
+    "picked_price": 30.69,
+    "price": 31.4,
+    "change_since_pct": 2.31,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 1.5,
+    "catalyst_label": "Contrato / alianza",
+    "appearances": 1
+   },
+   {
+    "symbol": "RGC",
+    "name": "Regencell Bioscience Holdings Limited",
+    "picked_on": "2026-10-15",
+    "picked_price": 9.52,
+    "price": 9.59,
+    "change_since_pct": 0.74,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 2.42,
+    "catalyst_label": "Movimiento sectorial / macro",
+    "appearances": 1
+   },
+   {
+    "symbol": "PAG",
+    "name": "Penske Automotive Group, Inc.",
+    "picked_on": "2026-10-15",
+    "picked_price": 212.0,
+    "price": 212.42,
+    "change_since_pct": 0.2,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 1.78,
+    "catalyst_label": "OPA / la compran",
+    "appearances": 1
+   }
+  ],
   "window": 10
  }
 }

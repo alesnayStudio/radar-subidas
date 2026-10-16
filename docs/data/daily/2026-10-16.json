@@ -1,0 +1,349 @@
+{
+ "date": "2026-10-16",
+ "generated_at": "2026-10-16T23:45:03+00:00",
+ "market_state": "POST",
+ "filters": {
+  "min_change_pct": 6.0,
+  "min_market_cap": 1000000000,
+  "min_price": 5.0,
+  "min_dollar_volume": 10000000,
+  "min_rvol": 1.5
+ },
+ "universe": {
+  "raw_gainers": 7,
+  "passed_filters": 3
+ },
+ "score_weights": {
+  "move": 20,
+  "rvol": 30,
+  "catalyst": 30,
+  "close": 10,
+  "size": 10
+ },
+ "top": [
+  {
+   "symbol": "CRGY",
+   "name": "Crescent Energy Company",
+   "exchange": "NYSE",
+   "price": 13.77,
+   "prev_close": 12.51,
+   "change_pct": 10.07,
+   "gap_pct": 1.52,
+   "close_strength": 0.98,
+   "volume": 22337914,
+   "avg_volume": 7178276,
+   "rvol": 3.11,
+   "dollar_volume": 307593076,
+   "market_cap": 4549659136,
+   "pe": 125.18182,
+   "pct_from_52w_high": -0.11,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1793649600,
+   "market_time": 1792180802,
+   "market_date": "2026-10-16",
+   "market_state": "POST",
+   "score": 45.9,
+   "news": [
+    {
+     "title": "Crescent Energy Co - Unit Enters Sixteenth Amendment To Credit Agreement On Oct 14, 2026 - SEC Filing",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNeDlwY0FDTVVidlJGYnQ1dE1SN0pmeC12MU9HNUVjUHFjVFVzc21HLXBYS0VkazVsYUpLM0RVTFBBal9yNndlNGVQRGNUcGhkNnVnaVQtc3pBRjdXckNyY2VWQndCWXVyRzgtR2lEYldjNXVTd0dSdkRPb1prQnh4ZFBVLUFkRXZjVzl4dW5nbVpwd0ROT3pwV0F4UjJpYVJ2cG1ZVlA1a0w5ZTd1T1d6TFVKYlBHemVGeEluUm1oZkJpTDFfWFZkZGxHZFp1WDFCUU01bEpUU0dpUGRLWTMzb2F0eWJTaWxvZlQ1dDlQdGNQSkZPcU9vLUFR?oc=5",
+     "published": "2026-10-15T21:15:29+00:00"
+    },
+    {
+     "title": "Crescent Energy Amends Credit Agreement to Back Devon Eagle Ford Deal; Commitments Hold at $2.0B",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOc0MzSkxOUFZzbUpBbWtUWFN5aFFKUVRmRmRoRDljaXJDWGVXVU9GSHFsSXFxTGdfMVBoSkF0bXZHS09rS29majE3bm1lQnlScE1IUjhVQTdTSkZsa0x2Njd2cGctZ19MT24tdmh5WFRGdU0yOVVCWEVDWERlOExtdllJS0xleFI1RVlvQ1N5U29kcm1oc2RCR0lkRVF4TTRMM1M0NFBVRFAxMVljTjllblRtcmxKUnFoTkd5bGpKWkx5MFJFSHAtQkpQRVhnb2gzdkFQcjV4b3hXMS1qXzZHRkhidHRCalBsdlVadw?oc=5",
+     "published": "2026-10-15T20:33:00+00:00"
+    },
+    {
+     "title": "Crescent Energy Jumps as Investors Digest Deal Financing and a Stronger Oil Tape",
+     "source": "Quiver Quantitative",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcTFIdlRsaHpJU3FJSTZkYVJOUmdlZWprU19hS19xM3RZRFRncUxJSVF6c3pnLVgydGxxYl9oMGE3bTZJakpQTGwwQ3dZa01RQ3hHckdQMDlpb1hNS3VDeUVtVktZbnpQMm1FZjVZYmN0WUNNc2QwdE1janRCTy1wRk9IRmlBS1JCdm9RRVE3U1c1WmotSDZDVGg1bFlsdXltYXN5V2F0akhOYlp1dHdGUXJxSQ?oc=5",
+     "published": "2026-10-16T21:20:00+00:00"
+    },
+    {
+     "title": "Crescent Energy rallies 10% amid broader energy rally (CRGY:NYSE)",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZWhxa0p4T25BbnpQS0sxdXFCeG9Ya0hMdjhuNlFnenFGT21tanJaYVhHdlBnZU41cjgzWHNybmlaaVRJdElwbndKd1FKS3pMVHNYVjZtczdySXlJRVJXUTVGRFA0UWtGNjNVSjE0T2VqV2RnYVRMVFBqbE0tNUV4SThIamtrQTNOYWwxemlONnNmS3ZC?oc=5",
+     "published": "2026-10-16T20:41:12+00:00"
+    },
+    {
+     "title": "Crescent Energy (NYSE:CRGY) Stock Price Up 4.4% - Here's Why",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPREZPMllIMHZuVTgyZVRGQ3FFUTlnU3pSZ2R2NlZnTHZfaXY3b0hUMTNaZ3E2LXlSblVORndtQU0yVE1DaDB2c3IxMDJ6YW14SDIySHlOODJwejcyRGNCMGhDaWNISVRweUlvLXZRdWNqd0ZJVlpmdmtSTGprWTlfTzl5UFhyOVA4SmVQLU5kcnhFeEtRamlyZXE5ZTN0N1ZrMnVFRUVIQ3dFd3BVOWRkM2pwSQ?oc=5",
+     "published": "2026-10-16T18:04:39+00:00"
+    },
+    {
+     "title": "What Is Driving Record Cash Flow at Crescent Energy Company (NYSE:CRGY)?",
+     "source": "Kalkine Media",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMGZBQmlabFdBQ1J5aGRwclZSeENNQl92ekdGR1dtelZGajJVbWw4emZ5dG9TZlNrdUlCYkdLVE9tV213a2Y5QlE2VGIyQ3ZNMUczWjF0bW9RZWJzVlFZR2VZei1JZHdRUm4xdUM5eGRoUDZLM3RFcmN1ZUY5RGh1Nnh3a2pWeXpUc0NNcHVtMzg4V2p2OTA1OHR1N2REMVFyR2dyX1lpeG1pRVJoOVM3Uw?oc=5",
+     "published": "2026-10-16T15:43:00+00:00"
+    },
+    {
+     "title": "Evercore cuts target to USD 17.00 for Crescent Energy stock",
+     "source": "ad-hoc-news.de",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcmlXakFDUF9hOHF3T0lkUHoxb1VjN1pWeElWaWhtTTRiVEE0aS1fRXNUTktkNmxuakdvNlRfV0tqLTIxajJjVy1MeXZFWVNmZF9Za1ZrUmh1VEd0emRITDVIekpHSTZQRzZ1eDNwNlc2aFZXaWxfREx3alJBXzBJa0RsZWJkMGFUQjFTdmYtY3M3ZWp2UktrYTNjUHN6ek1YamJrdUFoWTl0OFp4RldDMUpjR2lFcUxNZlE?oc=5",
+     "published": "2026-10-15T20:41:12+00:00"
+    },
+    {
+     "title": "Crescent Energy Schedules Third Quarter 2026 Earnings Release and Conference Call",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMjZJcjJIZWY0RS1uQzJac2Y0bHdES3FVeGtvQU1iMW41X0lmQXo2Zjc2ZjBBRW83ZC1wZkRya3NPQkNLZS1hTzhNeVZfLVNLZ1pEbW9OWjNmQWhiZnZWa2NDUzMxU0M2SkFkODZYYUJKZ0w0VmRacENpSTJZN0JaZnlzRVd2SFA5NWR3UkI0aGozOHA2YXJVdk1MUVY?oc=5",
+     "published": "2026-10-15T20:30:00+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "contract",
+    "label": "Contrato / alianza",
+    "quality": 0.6,
+    "note": "Valora el tamaño del contrato frente a los ingresos de la empresa.",
+    "confidence": 0.4
+   },
+   "score_parts": {
+    "move": 4.1,
+    "rvol": 10.7,
+    "catalyst": 18.0,
+    "close": 9.8,
+    "size": 3.3
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "HPK",
+   "name": "HighPeak Energy, Inc.",
+   "exchange": "NasdaqGM",
+   "price": 10.55,
+   "prev_close": 9.95,
+   "change_pct": 6.03,
+   "gap_pct": 1.91,
+   "close_strength": 0.64,
+   "volume": 1010424,
+   "avg_volume": 510753,
+   "rvol": 1.98,
+   "dollar_volume": 10659973,
+   "market_cap": 1334077056,
+   "pe": null,
+   "pct_from_52w_high": -0.03,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1793822400,
+   "market_time": 1792180801,
+   "market_date": "2026-10-16",
+   "market_state": "POST",
+   "score": 23.7,
+   "news": [
+    {
+     "title": "HighPeak Energy: Debt Refinancing Reduces Interest Costs And Gives It More Flexibility",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUmtHaS1CQzhjckRickQ2djkzbUplYVFfM0EwZDJ2SjFaQk05a2hyamVaZXJ0M19FbEsyMU1qRjVjRXlLNkoycllTczlpWGVRa0VHVUhOU1IwU1NrMjNBZGtMem1Gb1FMYm5sVXN1MldUVHJweXJNX0t5akpKMFhvZ1dRX1duVjVtNnZLWjFDX0NvbEZPM2FYUjJXcTR1MGRNX1Z3REZVdGIxeUxrYklvckZQLTlXLUVxY29tOFJ5WDA4Sm96?oc=5",
+     "published": "2026-10-16T02:42:04+00:00"
+    },
+    {
+     "title": "HighPeak Energy (NASDAQ:HPK) Reaches New 52-Week High - Here's Why",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNTRGNFJsS0tpUExBaXdnNFFEVnhKbVJHT3RIYVowUEpRWFJqMUJPdloxa2tsTU50YW1aQmhmT2pYdHhheE5KN25UenZwdlJLYnZ2WHhZSm56WkV4blhEOU4yYXVxbkJ5NkdFczBsNWtWU3pUNnQ3cF9fckNrclpJQ1lQck1mZWk5dXVfeEQ1TGY2MzA3QlZrZ3BJRWpNb0lGUUhiNW9FdHpwWmp0NjBIZURKZHBybDNWSl9ZRWdB?oc=5",
+     "published": "2026-10-16T18:04:39+00:00"
+    },
+    {
+     "title": "Highpeak Energy stock hits 52-week high at 10.57 USD By Investing.com",
+     "source": "Investing.com India",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV01UQTVCZGhPVXU0eHQ5bFVVYjBqamtONGZoVWR4am13U2NhX3kzblJSc3Y1dmNDOWRmZWJiaHVvRENOcHFNYmw0WkZXYm92Wk04WnV6UE5vd3Z5M1ZMT1hGXzFhcUN2ck9yY3hiSms5bXVjMzhEM2RsLXNRQWZoR2hiMEFwS24yclEwVGgwaDFMQTBVTmlialNnYVF5NXJ3R2V5MjRkMnJvd3FGTjdlWQ?oc=5",
+     "published": "2026-10-16T16:28:29+00:00"
+    },
+    {
+     "title": "Analysts target USD 12.00 for HighPeak Energy stock",
+     "source": "ad-hoc-news.de",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNT0JhSHk4VW1GbnJISkVlWGR4eEE1RHhsZGJ4WVl6RjVleEQ3ZzVsSDB5WnNqLW1kOEJ0NFlQa3NOZkoyU191RDVBV28xTmV2djdXWDIzUXQwOFhGQ3QwS1RDaTMwSDBWY0xpVDU3UDJkUG4tU2tEZkh1c2tNNV80aVAyTUE3NmRXVUZwcE1WeElHR2RsNy11dFhvQmNhTHh4UkNJRXRFbTR2aVVfZUJR?oc=5",
+     "published": "2026-10-15T18:18:04+00:00"
+    },
+    {
+     "title": "Surging Earnings Estimates Signal Upside for HighPeak Energy (HPK) Stock",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdHVtWFdhSXY0ZUhmbktfemZ3cFJNdUhqVWloMldJYWZNZng0Tl9WSE8yQ3VXYnZDUGpmVkhHREtpbnFrLV9iWEc5Nm9nZE1yLW5IVmVueExJbm95NGR6RnRQdnAzbDY5cTMtSERWLVhiRGZGRTFNdVZnVmtwV0RyODhfR1U4eWU4NW1DUUJjbUQ2R2lDZDEzZEl6LWJqazZYaHhKSUtiMHA?oc=5",
+     "published": "2026-10-15T15:20:01+00:00"
+    },
+    {
+     "title": "Milbank advises Danantara and EMP on HighPeak Energy deals",
+     "source": "Law.asia",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9xMXREZlBuVEo2TWhSUzVOM05OSVJ6RDRmc05oQ05JbzR6cVdqSzRQZFdNbXhpS1A3ZWx2dTAzZHJ0VUZWWTE3ckpmMHE0N3NmQVhWeEYxYw?oc=5",
+     "published": "2026-10-15T15:12:34+00:00"
+    },
+    {
+     "title": "HighPeak Energy (HPK) Lands $450 Million Preferred Deal, Is The Stock Already Fully Valued?",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/highpeak-energy-hpk-lands-450-221512263.html",
+     "published": "2026-10-14T22:15:12+00:00"
+    },
+    {
+     "title": "U.S. Shale E&P Stocks Q2 Recap: Benchmarking HighPeak Energy (NASDAQ:HPK)",
+     "source": "StockStory",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/u-shale-e-p-stocks-165207951.html",
+     "published": "2026-10-14T16:52:07+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "capital",
+    "label": "Financiación / recompra",
+    "quality": 0.45,
+    "note": "Mejora del balance o recompra de acciones: impulso limitado salvo que cambie la tesis.",
+    "confidence": 0.3
+   },
+   "score_parts": {
+    "move": 0.0,
+    "rvol": 3.2,
+    "catalyst": 13.5,
+    "close": 6.4,
+    "size": 0.6
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "PAYP",
+   "name": "PayPay Corporation",
+   "exchange": "NasdaqGS",
+   "price": 15.68,
+   "prev_close": 14.65,
+   "change_pct": 6.99,
+   "gap_pct": 0.92,
+   "close_strength": 0.8,
+   "volume": 1172790,
+   "avg_volume": 768304,
+   "rvol": 1.53,
+   "dollar_volume": 18389347,
+   "market_cap": 10617604096,
+   "pe": 13.17647,
+   "pct_from_52w_high": -0.37,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1793390400,
+   "market_time": 1792180800,
+   "market_date": "2026-10-16",
+   "market_state": "POST",
+   "score": 17.3,
+   "news": [
+    {
+     "title": "PayPay (NASDAQ:PAYP) Stock Price Up 5.6% - Still a Buy?",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZG1mbGx2TkJnUXJFUEdJc1dYeXp2Rl83WXVSS1ZUcDRpd1AyU01vUFNqNzZjU3hHTXo3eXJQVWJPQzlUXy1wcnBSTzRKRlJhQUxzTGRVYlZ1Y1U0Q2U2NGdzbjNKcE5SOFpNS1ZRLXFoSm9LZWNLNHBDa25wVm56eVYzQURWTHBuR09KT29BLXVfRThhLTZ4SlY4Rm9HZDRIVko0a0E1d3hLTE9O?oc=5",
+     "published": "2026-10-16T15:56:02+00:00"
+    },
+    {
+     "title": "Why is PayPay stock surging today?",
+     "source": "Investing.com",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM2hrNGNFcEgtS0VpNTAyaVc1UjY5NV9fUlM2R0NjTTRTc2RkZzVOREtSeE1Cbnc0X1Z3QlgzSUZMMTRkbjdIdUFXMVprTTVZVjJVUFhsVzBWQ2dSdmYzWW1HRlNxQ3BXZlRfRWI5bnlRYXd4RTN2NnBldXVfb2g2MU9qZ0M1SU1oaEJZcjA1YldZcVlLWEpLemxidw?oc=5",
+     "published": "2026-10-16T15:54:22+00:00"
+    },
+    {
+     "title": "PayPay Stock Jumps Nearly 7% as Japanese Payments Giant Rebounds Ahead of Late-October Earnings Report",
+     "source": "International Business Times Australia",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTk1tdlJpcnJ0N2g2Z01mZHZVMWc3TWhmczRTaE9yOVRDN1NNODB0LVpiWGlvTVN5bzBYZy1MLXN4OVo5bndNbTFhd1pKTW9yYzdYSTJMd2FnNXR6YTduNklWQjI0UmFmTHhvZTZ6eFVjdnFOdTE3SEY3MGNiQ0JRTA?oc=5",
+     "published": "2026-10-16T15:30:42+00:00"
+    },
+    {
+     "title": "PayPay Soars As Options Expire And Bulls Take Over",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd1NMZFZYVFcxOHVIMzVTWVhMcTJZb0gzUjBpakRHRVdJMWo4WEw5WkJ5MmVuRkxJUlZxa1BqVFY2eS02MHBULXNNMUxLNEJleEFSVl9uVlhIaWwwdzNudjNHUFJVcV93dm9FbThFOGE2UmltZmU5aXA3d1M1akFRb2hZVnJyR2ZIaDVsbUw3cEttaW8?oc=5",
+     "published": "2026-10-16T14:02:54+00:00"
+    },
+    {
+     "title": "PayPay Corporation - American D (PAYP) Stock Forecasts",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNllwZFpUb3VKWlFQT29hcGNxTmlZQjNzaXduOURIYlF3VjN4bWNnOVlRZmJhU3lxV1hORldIbmxVV2FaM2R0TWktY2J4SWVTVDZIaUhiS24xMmZLVDQyZFFROFBCdi1kSHFQTkpETkZlSG8xUVRGU01VellLTTZSVFIxLTNqXzlucUtkNQ?oc=5",
+     "published": "2026-10-16T01:58:46+00:00"
+    },
+    {
+     "title": "Top PayPay (PAYP) Competitors 2026",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZGp1Q0NiaHBVSktEN0lQNkdINWk3NkwySHE4UzhzZGJmbUV5MDlXZ0Z4M09PSlg3TmJta1lETEVrRFNJMDlGYWxpRGVTN0luX00wRW5RR2tIM0RyV1I5RDItcmh4TWJ2VnpqY3BQbUNjNlpiNjhxWU5QWkNnUWx4ZQ?oc=5",
+     "published": "2026-10-15T09:38:28+00:00"
+    },
+    {
+     "title": "PayPay Bank taps payments ecosystem to accelerate growth",
+     "source": "TheBanker.com",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9SZXhvQk5xTmQ0ZHZzdEZUbXRsLUFVb3BIZG9RaFlfRkVrekk0YnNUcThCSXc3dWVsM2lPTkxLM0E0UzVYQXEtaW9OVDRGUEp5b0lIY1hKY2RDU3lVYjVlcDFnZXRvS3g0QkczYVF3WTBUN2FSQzhNT3pB?oc=5",
+     "published": "2026-10-14T07:44:25+00:00"
+    },
+    {
+     "title": "[Persol CS Pacific League] Taisei Makihara hits .400 against them: Summary of player performance in Hokkaido Nippon-Ham games & at MIZUHO PayPay Dome | Pacific League.com | Professional baseball",
+     "source": "パ・リーグ.com",
+     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90MkVWdVBaUGxqd0tpZzUwUGlhRkVNUlZPY2paZ2JuTUFyM1VCYTlKLW13U0MzYjNuS3pvdENEWjg3Q0hmTzBldzVxeG1pWndIelZxMmZscVJ6a1U?oc=5",
+     "published": "2026-10-14T02:29:24+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
+   },
+   "score_parts": {
+    "move": 1.0,
+    "rvol": 0.2,
+    "catalyst": 3.0,
+    "close": 8.0,
+    "size": 5.1
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  }
+ ],
+ "holding_up": {
+  "tracked": 10,
+  "items": [
+   {
+    "symbol": "WMG",
+    "name": "Warner Music Group Corp.",
+    "picked_on": "2026-10-15",
+    "picked_price": 30.69,
+    "price": 31.4,
+    "change_since_pct": 2.31,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 1.5,
+    "catalyst_label": "Contrato / alianza",
+    "appearances": 1
+   },
+   {
+    "symbol": "RGC",
+    "name": "Regencell Bioscience Holdings Limited",
+    "picked_on": "2026-10-15",
+    "picked_price": 9.52,
+    "price": 9.59,
+    "change_since_pct": 0.74,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 2.42,
+    "catalyst_label": "Movimiento sectorial / macro",
+    "appearances": 1
+   },
+   {
+    "symbol": "PAG",
+    "name": "Penske Automotive Group, Inc.",
+    "picked_on": "2026-10-15",
+    "picked_price": 212.0,
+    "price": 212.42,
+    "change_since_pct": 0.2,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 1.78,
+    "catalyst_label": "OPA / la compran",
+    "appearances": 1
+   }
+  ],
+  "window": 10
+ }
+}
