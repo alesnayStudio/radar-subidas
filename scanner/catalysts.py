@@ -26,6 +26,10 @@ CATALYSTS = {
         "label": "Biotech / FDA / ensayo", "quality": 0.5,
         "note": "Muy volátil: puede revertir con fuerza.",
     },
+    "corporate": {
+        "label": "Evento corporativo (spin-off, índice, salida a bolsa)", "quality": 0.5,
+        "note": "Flujos de fondos que compran o venden por obligación: el efecto suele ser temporal.",
+    },
     "sector": {
         "label": "Movimiento sectorial / macro", "quality": 0.4,
         "note": "Sube con su sector; depende del contexto general.",
@@ -49,7 +53,7 @@ CATALYSTS = {
 }
 
 PATTERNS = {
-    "earnings_guidance": r"(raise[sd]?|lifts?|boosts?|hikes?|ups|increases?|upbeat|strong|above-consensus)\s+(its\s+)?(full[- ]year\s+|annual\s+|fy\s*\d*\s+|\d{4}\s+)?(guidance|outlook|forecast)",
+    "earnings_guidance": r"(raise[sd]?|lifts?|boosts?|hikes?|ups|upgrade[sd]?|increases?|upbeat|strong|above-consensus)\s+(its\s+)?(full[- ]year\s+|annual\s+|fy\s*\d*\s+|\d{4}\s+)?(guidance|outlook|forecast)",
     "earnings": r"\bearnings\b|\bresults\b|\bquarterly\b|\bq[1-4]\b|\beps\b|\bbeats?\b|tops?\s+(estimates|expectations|forecasts)|same-store sales|(revenue|sales|profit)s?\s+(beat|jump|surge|soar|rise|top|climb)",
     # Objetivo de una OPA (la compran a ella): sube hasta el precio ofrecido y se queda ahí
     "takeover": r"take[- ]private|go(ing|es)? private|to be (acquired|bought)|agrees? to be (acquired|bought)|acquired by|buyout (offer|deal|bid)|takeover (bid|offer)|tender offer|receives? .{0,30}(offer|bid|proposal)|explor\w+ (a )?sale",
@@ -57,10 +61,16 @@ PATTERNS = {
     "acquisition": r"\bacquires?\b|\bto acquire\b|acquisition of|\bmerger\b|\bmerge\b|\bto buy\b|\bbuys\b",
     "capital": r"refinanc|credit facilit|term loan|\bbuyback\b|repurchase|special dividend|debt (deal|reduction|paydown)",
     "fda": r"\bfda\b|approv(al|es|ed)|phase\s*(1|2|3|i{1,3})\b|\btrial\b|clinical|topline|breakthrough therapy|\bema\b",
-    "analyst": r"\bupgrad|price target (raise|hike|boost)|raises? (price )?target|initiat\w* (coverage|at)|overweight|outperform|buy rating|bullish (call|on)|top pick",
+    "analyst": r"\bupgrad|price target (raise|hike|boost)|raises? (price )?target|initiat\w* (coverage|at)|overweight|outperform|buy rating|bullish (call|on)|top pick"
+               # "Morgan Stanley Call Sends TeraWulf Stock Surging", "Goldman says ... mispriced"
+               r"|\b(morgan stanley|goldman|jpmorgan|j\.?p\.? ?morgan|bank of america|bofa|citi(group)?|ubs|barclays|wells fargo|jefferies|bernstein|deutsche bank|evercore|piper sandler|raymond james|mizuho|btig|needham|wedbush|oppenheimer|cantor|truist|stifel|hsbc|kepler)\b.{0,40}\b(call|says|sees|names|picks|bullish|upgrade)",
     "contract": r"contract|partnership|partners with|agreement|collaborat|awarded|\border\b|deal with|selected (by|as)",
+    "corporate": r"spin-?off|completes? (the )?separation|separation from|begins (trading|operations) as|\bipo\b|trading debut|debut|added to (the )?(s&p|nasdaq|russell)|join(s|ing)? (the )?(s&p|nasdaq-100|russell)|index (inclusion|addition)",
     "sector": r"sector|stocks (rally|surge|jump|soar)|peers|industry|rate cut|tariff|\bfed\b",
 }
+# Los titulares "sectoriales" suelen ser resúmenes de mercado que mencionan a muchas empresas a la vez:
+# pesan menos para que no tapen el motivo concreto (ni conviertan en "sector" una subida sin noticia)
+WEIGHT = {"sector": 0.6}
 _RX = {k: re.compile(v, re.I) for k, v in PATTERNS.items()}
 
 
@@ -78,7 +88,7 @@ def classify(headlines: list[dict], earnings_ts: int | None, market_date: str | 
         w = 1.5 if i < 3 else 1.0  # los titulares más recientes pesan más
         for k, rx in _RX.items():
             if rx.search(h["title"]):
-                scores[k] += w
+                scores[k] += w * WEIGHT.get(k, 1.0)
 
     # Fecha de resultados oficial muy cercana = señal fuerte de que el motivo son los resultados.
     # Si no la hay, los titulares de "earnings" suelen ser previas o transcripciones antiguas: pesan poco.

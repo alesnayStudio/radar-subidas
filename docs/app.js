@@ -47,11 +47,20 @@ function qualityClass(q) {
 
 /* ---------- Top del día ---------- */
 
+// Siguiente día laborable tras la sesión mostrada (no contempla festivos de EE.UU.)
+function nextSession(iso) {
+  const d = new Date(iso + "T12:00:00");
+  do d.setDate(d.getDate() + 1); while (d.getDay() === 0 || d.getDay() === 6);
+  return d.toISOString().slice(0, 10);
+}
+
 function renderSummary(d) {
   const f = d.filters;
   const provisional = d.market_state === "REGULAR" || d.market_state === "PRE";
+  const isLatest = $("#date-select").value === "" || $("#date-select").value === $("#date-select").options[0]?.value;
   $("#summary").innerHTML = `
-    <span class="pill">Sesión <b>${esc(fmtDate(d.date))}</b></span>
+    <span class="pill">Última sesión cerrada: <b>${esc(fmtDate(d.date))}</b></span>
+    ${isLatest && !provisional ? `<span class="pill" title="El escaneo se lanza tras el cierre de Wall Street (22:00 h España); GitHub puede retrasarlo un par de horas">Próxima: <b>${esc(fmtDate(nextSession(d.date)))}</b>, esa noche ≈ 23:30–01:30 h</span>` : ""}
     <span class="pill"><b>${d.universe.raw_gainers}</b> suben &gt;${f.min_change_pct}% · <b>${d.universe.passed_filters}</b> pasan filtros</span>
     <span class="pill">Cap. &gt; ${fmtMoney(f.min_market_cap)} · Precio &gt; ${f.min_price}$ · RVOL &gt; ${f.min_rvol}</span>
     ${provisional ? `<span class="pill warn">Datos provisionales: escaneo con el mercado abierto</span>` : ""}`;
