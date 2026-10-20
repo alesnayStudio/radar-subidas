@@ -298,6 +298,236 @@
     "5": null,
     "20": null
    }
+  },
+  {
+   "date": "2026-10-19",
+   "symbol": "IRON",
+   "name": "Disc Medicine, Inc.",
+   "rank": 1,
+   "score": 76.1,
+   "price": 78.93,
+   "change_pct": 38.86,
+   "rvol": 17.17,
+   "catalyst": "fda",
+   "catalyst_label": "Biotech / FDA / ensayo",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-19",
+   "symbol": "CLF",
+   "name": "Cleveland-Cliffs Inc.",
+   "rank": 2,
+   "score": 68.7,
+   "price": 14.1,
+   "change_pct": 16.34,
+   "rvol": 4.69,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-19",
+   "symbol": "SLN",
+   "name": "Silence Therapeutics plc",
+   "rank": 3,
+   "score": 63.4,
+   "price": 19.58,
+   "change_pct": 125.58,
+   "rvol": 59.12,
+   "catalyst": "takeover",
+   "catalyst_label": "OPA / la compran",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-19",
+   "symbol": "PBLS",
+   "name": "Parabilis Medicines, Inc.",
+   "rank": 4,
+   "score": 39.5,
+   "price": 25.35,
+   "change_pct": 11.43,
+   "rvol": 2.9,
+   "catalyst": "fda",
+   "catalyst_label": "Biotech / FDA / ensayo",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-19",
+   "symbol": "ARQT",
+   "name": "Arcutis Biotherapeutics, Inc.",
+   "rank": 5,
+   "score": 36.7,
+   "price": 31.89,
+   "change_pct": 10.65,
+   "rvol": 2.52,
+   "catalyst": "fda",
+   "catalyst_label": "Biotech / FDA / ensayo",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-19",
+   "symbol": "MANE",
+   "name": "Veradermics, Incorporated",
+   "rank": 6,
+   "score": 35.9,
+   "price": 122.28,
+   "change_pct": 12.37,
+   "rvol": 1.89,
+   "catalyst": "fda",
+   "catalyst_label": "Biotech / FDA / ensayo",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-19",
+   "symbol": "AGIO",
+   "name": "Agios Pharmaceuticals, Inc.",
+   "rank": 7,
+   "score": 33.5,
+   "price": 34.9,
+   "change_pct": 11.43,
+   "rvol": 1.78,
+   "catalyst": "fda",
+   "catalyst_label": "Biotech / FDA / ensayo",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-19",
+   "symbol": "PRAX",
+   "name": "Praxis Precision Medicines, Inc.",
+   "rank": 8,
+   "score": 32.0,
+   "price": 260.17,
+   "change_pct": 7.62,
+   "rvol": 1.79,
+   "catalyst": "fda",
+   "catalyst_label": "Biotech / FDA / ensayo",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-19",
+   "symbol": "WRBY",
+   "name": "Warby Parker Inc.",
+   "rank": 9,
+   "score": 30.5,
+   "price": 24.99,
+   "change_pct": 7.07,
+   "rvol": 1.52,
+   "catalyst": "contract",
+   "catalyst_label": "Contrato / alianza",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-19",
+   "symbol": "APLD",
+   "name": "Applied Digital Corporation",
+   "rank": 10,
+   "score": 24.4,
+   "price": 19.25,
+   "change_pct": 6.65,
+   "rvol": 1.83,
+   "catalyst": "acquisition",
+   "catalyst_label": "Compra / fusión con otra empresa",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
   }
  ]
 }

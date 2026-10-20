@@ -2,7 +2,7 @@
  "catalysts": {
   "all": {
    "label": "Todas",
-   "count": 13,
+   "count": 23,
    "horizons": {
     "1": {
      "n": 10,
@@ -17,7 +17,7 @@
   },
   "earnings": {
    "label": "Resultados trimestrales",
-   "count": 1,
+   "count": 2,
    "horizons": {
     "1": {
      "n": 1,
@@ -47,7 +47,7 @@
   },
   "takeover": {
    "label": "OPA / la compran",
-   "count": 1,
+   "count": 2,
    "horizons": {
     "1": {
      "n": 1,
@@ -92,7 +92,7 @@
   },
   "contract": {
    "label": "Contrato / alianza",
-   "count": 2,
+   "count": 3,
    "horizons": {
     "1": {
      "n": 1,
@@ -113,12 +113,30 @@
     "5": null,
     "20": null
    }
+  },
+  "fda": {
+   "label": "Biotech / FDA / ensayo",
+   "count": 6,
+   "horizons": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  "acquisition": {
+   "label": "Compra / fusión con otra empresa",
+   "count": 1,
+   "horizons": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
   }
  },
  "appearance": {
   "first": {
    "label": "Primera aparición",
-   "count": 13,
+   "count": 23,
    "horizons": {
     "1": {
      "n": 10,

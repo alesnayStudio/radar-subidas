@@ -1,7 +1,7 @@
 {
- "date": "2026-10-16",
- "generated_at": "2026-10-16T23:45:03+00:00",
- "market_state": "POST",
+ "date": "2026-10-19",
+ "generated_at": "2026-10-20T00:29:26+00:00",
+ "market_state": "POSTPOST",
  "filters": {
   "min_change_pct": 6.0,
   "min_market_cap": 1000000000,
@@ -10,8 +10,8 @@
   "min_rvol": 1.5
  },
  "universe": {
-  "raw_gainers": 7,
-  "passed_filters": 3
+  "raw_gainers": 34,
+  "passed_filters": 14
  },
  "score_weights": {
   "move": 20,
@@ -22,76 +22,706 @@
  },
  "top": [
   {
-   "symbol": "CRGY",
-   "name": "Crescent Energy Company",
+   "symbol": "IRON",
+   "name": "Disc Medicine, Inc.",
+   "exchange": "NasdaqGM",
+   "price": 78.93,
+   "prev_close": 56.84,
+   "change_pct": 38.86,
+   "gap_pct": 27.9,
+   "close_strength": 0.87,
+   "volume": 8475478,
+   "avg_volume": 493743,
+   "rvol": 17.17,
+   "dollar_volume": 668969479,
+   "market_cap": 3030347264,
+   "pe": null,
+   "pct_from_52w_high": -0.21,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1793881800,
+   "market_time": 1792440000,
+   "market_date": "2026-10-19",
+   "market_state": "POSTPOST",
+   "score": 76.1,
+   "news": [
+    {
+     "title": "Disc Medicine seeks $350M after positive Phase 3 result for lead drug",
+     "source": "Dealroom",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOV9KTmdrRnZrZkwxNl91a09Od0ZtUEZvSW9DSHlndzRpNzd2UER1Y2p3ajdRSzAxMXpQX0h4NjNDaHlVMTBXYWhlUDBNVnFYRm8xREZLV0FrYkQ5MU03blFDczM4ZXd4ZEEtcGxzb0NwbDh4ZDFTVl9NRDd6SWZKVVFlOW15NWRHZklOdzVPSjRoYnhBU1VBbEpoa2tlVzN1NmxTNg?oc=5",
+     "published": "2026-10-19T22:18:08+00:00"
+    },
+    {
+     "title": "Disc Medicine (IRON) Hits Phase 3 Goals, Is The Stock Still Cheap?",
+     "source": "Simply Wall Street",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPb3RLbjNkTVlfRW4zYlBEdkFDRTZveUVrUWJ2R2t2TjNmcFpKMjdjYUQ4NWFWOUFmbUFPODBXSWE4b3V4UzE5QXAwckZzbmxwWTR0NWxWaWdKamFkREo5RWgyZ3pxdlhfUldBZFpEeWo4OTJmQnNkVmJIYldPR0g5UDJOVWxNSEk1cEZKRlNta09LNlJuMUUxQVZfcWdnZ1ZrQnRhWUVGSXNld0UxMzRRLVdFSWszdzRiemttOHVDOWpYa2hRWTAwdUNEUHVWS3JQYllMVXE5WG1GNVZyMmNmRlducnZtUdIB5gFBVV95cUxPb3RLbjNkTVlfRW4zYlBEdkFDRTZveUVrUWJ2R2t2TjNmcFpKMjdjYUQ4NWFWOUFmbUFPODBXSWE4b3V4UzE5QXAwckZzbmxwWTR0NWxWaWdKamFkREo5RWgyZ3pxdlhfUldBZFpEeWo4OTJmQnNkVmJIYldPR0g5UDJOVWxNSEk1cEZKRlNta09LNlJuMUUxQVZfcWdnZ1ZrQnRhWUVGSXNld0UxMzRRLVdFSWszdzRiemttOHVDOWpYa2hRWTAwdUNEUHVWS3JQYllMVXE5WG1GNVZyMmNmRlducnZtUQ?oc=5",
+     "published": "2026-10-19T20:41:30+00:00"
+    },
+    {
+     "title": "Disc Medicine (IRON) Launches $350M Stock Offering to Fund Clini",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNC02YUQ5aTU1bVBreEFJOXFkOHNKZHdORU0yazMwU2tBVS1aU0lxdXVqeEQxV055aTBqN2RnNmkteXVxSkxNWXVFUk5vOU9hWUs5UzZ0STRjZkE1SVZVXzYyVkdfVkJZVVFJZUNtUUVjQTRhUVZjSnVRVTl5WkxrdEVaelBZM19weHhoN3FOWmZrV0liU0szR04xTm5IV3FvVE9Pb0FNUGxrQ00xcmpMaUJQNTlNUQ?oc=5",
+     "published": "2026-10-19T23:36:52+00:00"
+    },
+    {
+     "title": "Disc Medicine Announces Proposed $350 Million Public Offering Of Common Stock And Pre-Funded Warrants",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQY2ZSdUFqR3FqcC1zMGw4ZVp5ZlVBdG1MbEI0OENEZDJNV2RQZHJreVNvN0FBM1pLWlhoZmlBeEQ4S0ZSYVdaLWtOZlNnVXEzTS1oNjNYRVB0ZmpMaUEtQTAzcWVlVS0zUVdVel9LMVBTNmg0Z3R0VURfWFRGdV9pUHhyM09oMjlQZ0pISTdRd0lfQ0pmM1hETlBsc3lLX3E1UG14SzF2ZG5tbERaQVdDbjRaRXBlMzVnODAwVUNLd0lBTVpjQjVVd2JCck4zQVVEUmxQa2lpR2ZZeDNkcUJwTEJRdXhkRmgyLWpYcVJ1QlFyOF9aMmZ3OVFEcGVpUEU?oc=5",
+     "published": "2026-10-19T21:55:38+00:00"
+    },
+    {
+     "title": "Disc Medicine announces $350M common stock, warrants offering",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMm80OUc1S2poOTlZWXBtTUtwVHhRcEcyRzN6Zk5lWTFtMmdEcXJYN1p6SW1hQXkydHh4S3RmcW5Lem9pV0k0LXYzdllxXy1VcDZWcnBtM2VKSlpaeFBBUnBob1d3RFd2S2xhWlZOYmtRVEUtVU1fa1ZvYkdCMEp5ejdNSEJienJmMjRzQ05fZE5ZanVwTkJfV1Z3YVdJTnVlVGtCRUdzTWN4eG92YXc?oc=5",
+     "published": "2026-10-19T21:49:50+00:00"
+    },
+    {
+     "title": "Form 144 Disc Medicine, Inc. Filed by: Atlas Venture Opportunity Fund II, L.P.",
+     "source": "StreetInsider",
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQd2NGM0p2M09MWVNMY0J0RUlWSWJfUVJTQVdqOXctZXhxYjNubE5iREF2eWhjUUE2U0dEeG9wbjFwRVBQdGpQdTdWQzk0LTJYNTBiZFVVcFBmckRLUWtfRzQwYTdBRUJlM1JYa0ZUbWJXU1BqYTBWOUpDeVJyZW1veFhmVUZKSGxBWlF5OG51WWJIbml5QUV1ejF6WlZ4bS1QYjlYeEpPWDk4eVAzQkE0QXBfTXNSUVQ3dXN6OHhmOEw5cW4tQmxnM3BHbkpGRVB6SXVxNDJjcw?oc=5",
+     "published": "2026-10-19T20:45:52+00:00"
+    },
+    {
+     "title": "A shareholder proposes selling 14,414 Disc Medicine (IRON) shares through Merrill Lynch.",
+     "source": "Stock Titan",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcHN4aGFLN3RXYS0tblZsTkJWMlBBTjhLOEhsUGpiVWRZSTNVaWs3YnJReTl1R2hoSGs5c2hrbktFRnZKZFVuaTFwN0JybTBOLU1YTkJLOXhMamhkUmFtY0pseGRaMXRTTlJpeFVETFZhMi1wT2IwMU9ZUFVCQ2MyOVhhVDI1SjRBcFcwTnBHR2xLZmRuMUU5SGRB?oc=5",
+     "published": "2026-10-19T20:44:50+00:00"
+    },
+    {
+     "title": "A proposed sale of 115 Disc Medicine (IRON) shares comes from Atlas Venture Fund XII.",
+     "source": "Stock Titan",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVVZRaTl6eFRBLUo0QXczTnFoeW9GNk1FZkJRUER4NnI3S3VKZ2l2V2JBT19QRFZ6MnFqZFphQjRfUE9UYzdYSE5LWm5wREpmdHFDMDZWdFZoelZZSElDZXJZRDVJbXpzSFdOdFpUMThrdURESVhWRU9ZM3NoQ2lPT3NOdTdwc0xrSkJiZ3NmZWotWVBIay1qWlRB?oc=5",
+     "published": "2026-10-19T20:44:22+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "fda",
+    "label": "Biotech / FDA / ensayo",
+    "quality": 0.5,
+    "note": "Muy volátil: puede revertir con fuerza.",
+    "confidence": 0.5
+   },
+   "score_parts": {
+    "move": 20.0,
+    "rvol": 30.0,
+    "catalyst": 15.0,
+    "close": 8.7,
+    "size": 2.4
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "CLF",
+   "name": "Cleveland-Cliffs Inc.",
    "exchange": "NYSE",
-   "price": 13.77,
-   "prev_close": 12.51,
-   "change_pct": 10.07,
-   "gap_pct": 1.52,
-   "close_strength": 0.98,
-   "volume": 22337914,
-   "avg_volume": 7178276,
-   "rvol": 3.11,
-   "dollar_volume": 307593076,
-   "market_cap": 4549659136,
-   "pe": 125.18182,
+   "price": 14.1,
+   "prev_close": 12.12,
+   "change_pct": 16.34,
+   "gap_pct": 17.16,
+   "close_strength": 0.71,
+   "volume": 88331455,
+   "avg_volume": 18849264,
+   "rvol": 4.69,
+   "dollar_volume": 1245473516,
+   "market_cap": 8044614656,
+   "pe": null,
+   "pct_from_52w_high": -0.16,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1792413000,
+   "market_time": 1792440002,
+   "market_date": "2026-10-19",
+   "market_state": "POSTPOST",
+   "score": 68.7,
+   "news": [
+    {
+     "title": "Cleveland-Cliffs Reports Strong Q3 Results, Raises EBITDA Outlook",
+     "source": "Intellectia AI",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaEZNZ2R6aE03RktxOEJDOWVaZmsyN0NGSlFEdkRfWDlFbVVmSVQ3VVkxTEpIeG1zcDYtVHFHb1JMV09KYXhnN2RiUVg1ZTBKd0VaM0JWQWJ0N2U4TldnNTYycUkwVURHeVR3SzlpVlc2VksycnpBbHVNUF9VNUpIVlNCU1JyQlJacFBTYUVxYzVqWE9Ib25DdTRpeHRKQQ?oc=5",
+     "published": "2026-10-19T22:16:06+00:00"
+    },
+    {
+     "title": "Stock Market Today, Oct. 19: Cleveland-Cliffs Surges on Stronger Q3 Results and Raised 2027 EBITDA Outlook",
+     "source": "The Motley Fool",
+     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPai1KMkJSN1AxNDVoeEpVbzZJNXRlNlRyUVU2YURkeERkanJoRnpIdHUySTJfMG1ub2YwakNacFBiVHo3djUtZzJoMG1kdGo0bDV0MUtoS0lSTTJlRlBHUUpVbjBkc3EtUmk0ZDBFZHhhRWl3NUN6RkhBYWtxd0pFOFRlb1N2MTVZbmVVejVnYzNSYXdNU1NVQlNBRUdpWHZhQkFKd0FhRVloTWNoRzR3LXVMMEI2RjB5bHpSUUw2RlJRTVlUWnI5YThsaUpPaGlUYVkwZ0hoaDlfWS1CMnZ2X0J5WmRGQkk3clprbTJyWlBReHRyVnRv?oc=5",
+     "published": "2026-10-19T21:54:21+00:00"
+    },
+    {
+     "title": "Cleveland-Cliffs Inc. Q3 2026 Earnings Call Summary",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSWNMSU9XVDFSS05DdE1haW00MnVDTUR5X2tqR0w3b1o1ZjZYeWJVOGpxWTRjNVl3V25xTFpyNUVqVlZPZU40cnBhYWozUlVUQlA1X1BuMURSNEd5aUN4YW1BVUg1bFVsNnJNM0xDcFdyMFBFd3lRcnBBME1vdXE5X29TY3gzb1FJRHFUMVNIM1ppTVBXZXdfdg?oc=5",
+     "published": "2026-10-19T20:44:57+00:00"
+    },
+    {
+     "title": "Cleveland-Cliffs Inc. Stock 12‑Month Price Target Raised to $13.32, Implies 10% Upside",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWUhtS1BJZDl4bDJRMHFCZVdfaVVLeGs0MTlXdlZDNXFVM1UxbEE2Zk41U1p4MDhDMXljWlg1eVJib3NqRXFIempfWmpSTnhUa1FnQzZQTXJaTk4zLWMzMFByZFhVdnQ0cWJsZjViRmFqQzdiS1NYQjc0QkFSWmgyeEo5dFNhbm5oa24yYjNuaGp4RnhVV29CVnZtZmFnMnEtaEZyQ2p2dEpJbmtObE5RelZlTVprVDdZT2VCenJwRnpqTGFkMXZnVHktVVgwVTFPdmhJdU02YkZqSmNL?oc=5",
+     "published": "2026-10-19T22:20:00+00:00"
+    },
+    {
+     "title": "Cleveland-Cliffs: 3 Key Takeaways for Long-Term Investors",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQanFKcDFMOUgwb001eldkVlVIbmlyUTJZWUN4cFNiQWp0TzFvb1lCbUE0eWY0SmF5bVdxa3A3UGFub3hRYWM1UUdTRjR6OVdyYms2QzJITS13SE9RT25SMTUzN1lFcGJodDZqUjNVMXpTSTd5aHZGZTlsS0ZKUjI4bHlsYkxNdUZiaWJ2Q3ZUQU1jbW9ndWZsZFZ4UTEzUQ?oc=5",
+     "published": "2026-10-19T21:50:01+00:00"
+    },
+    {
+     "title": "Cleveland-Cliffs Expects 2027 Will Be a Very Good Year With Help From Tariffs",
+     "source": "Barron's",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRXBBaFZwYTc4RnF4ZEx3SnJmanFFcE9KQlZtMG9ZRWZKdU5JblZMRWRYNkJtM2VKOExiWDRFSjYtMmJIb2FKV1dLclRNbS1FYlVhUXZmMjRUZjhmdm5BRHNkRDB2NVhNTTNPYnpBelZzYXJKNXpla2t2SG1LNGxYdUJwX01lZw?oc=5",
+     "published": "2026-10-19T21:20:00+00:00"
+    },
+    {
+     "title": "Cleveland-Cliffs reports strongest third quarter in 3 years",
+     "source": "Journal-News.com",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQUVNbkU2OGY3SDZnMDZ3SDY0MnpteVlXTGRvVzdQSi1nNW52VG92d1AtdWF6d0RGMUJ5c0djV043WFZXVzJxOFBxTEdwd2xNMWxwYVhKN3QtTHdFeDljUm5YVlFUOHdLS045QUNGb19TRU5ZQXJsYnpxSUNGOXFocFhyYWI4WG43aUlRSFlJSGY?oc=5",
+     "published": "2026-10-19T21:15:18+00:00"
+    },
+    {
+     "title": "CEO of Cleveland-Cliffs weighs in on contract talks",
+     "source": "WDIO.com",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdjVOUko5ZEdZb2xzaXI1c29JemZwdnZ1WHlkV1MtSTI0dTR5SWpIY1hQMm9YQkJ0Q2hSdDZkSHFDNVlUSFpiVURoRTlZbjVsZFZJTFAxcmUwTVVuQTlvV3FhNkwyWWR6RFQ0QnpFUzhGMzlFcWlJSmlTZnNMOFVDZGZSNE5pX0drY2JiRENn?oc=5",
+     "published": "2026-10-19T20:47:36+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 1
+   },
+   "score_parts": {
+    "move": 10.3,
+    "rvol": 21.3,
+    "catalyst": 25.5,
+    "close": 7.1,
+    "size": 4.5
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "SLN",
+   "name": "Silence Therapeutics plc",
+   "exchange": "NasdaqGM",
+   "price": 19.58,
+   "prev_close": 8.68,
+   "change_pct": 125.58,
+   "gap_pct": 125.58,
+   "close_strength": 0.4,
+   "volume": 71905098,
+   "avg_volume": 1216328,
+   "rvol": 59.12,
+   "dollar_volume": 1407901819,
+   "market_cap": 1216977024,
+   "pe": null,
+   "pct_from_52w_high": -0.0,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1793881800,
+   "market_time": 1792440001,
+   "market_date": "2026-10-19",
+   "market_state": "POSTPOST",
+   "score": 63.4,
+   "news": [
+    {
+     "title": "Silence Therapeutics to Be Acquired by Germany's Merck in $1.3 Billion Deal; Shares Surge",
+     "source": "marketscreener.com",
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQlNOVDZ4UVN6NWx3RjdneDE5OTJrbUZhLU9RMDUtQy13bTJ3b0hCZDJSU3RkdENveDl6MmpSZnhNamxqQzBJcFphX3V4dDJVZWl6YmJIRWVQaEJmVU83TEx4emtvOWtLMXIxek5vaFFQR0twcGdWMFR1M1J5dG9ncnd2RjNjNVZ0WENHZzZ2MFBlVk1OdXAzREtGanRqeVJCQU52Y3MxOHVBU0JYX2JKSC1TZWhoeUFpcGhLVFJWSFppWDI1U0hpNW5rbkdJR09ZYTBnOWtiQQ?oc=5",
+     "published": "2026-10-19T19:33:16+00:00"
+    },
+    {
+     "title": "Silence Therapeutics (SLN) Gets 130% Premium Offer From Merck, Shares Surge Over 100%",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWDJDZXR3UjlKSTR0UWFNQW1HTDJ1eHhwUnYzTGhnZ3VWTWMxRS1YSkJuQXB1dE9kT08zMXVjTnNRSjMxME1LSnJhNFVSS1h0ZHpnREVXNWw5VkZsdkhYbm1ldTJmVU9ZaXFqSUJfMTZ4bm5BdG4yUFd3TFdvR1poaFhzSnV5cWdZZVowZE5Mc0ZINW1KNHE0MUtCSlRNY28?oc=5",
+     "published": "2026-10-19T23:41:19+00:00"
+    },
+    {
+     "title": "Silence Therapeutics: Downgrade To Hold On Merck KGaA Acquisition And PV siRNA (SLN)",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN3BrOHl0eVFyX0I3MmpKVmpoUWE2TDZubnpFcmtDblBxN2xYeTVtVVV0MHBUZHdPSDl2NWwwcEpoMWR5ZUlvUnhhVC1mbGRtLW9oQ2JwN1NUNGd1WkI5ZHNwckdORlMzLTV3Y0xEUm9EZlZSc2EyOGtaU0VJaFZncThwRVZrNVVGbWJ3ZzdwcjRQbmh2VkhCY0xLR01nYnp3X3pxQlViWGg1dmFBWG5IT2lyd2gwMk11VkE?oc=5",
+     "published": "2026-10-19T21:23:16+00:00"
+    },
+    {
+     "title": "Silence Therapeutics jumps 125% after $1.3B acq...",
+     "source": "Pluang",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcFVhQkkyV2IxZzBaclk1TFBfcnpIamtrWFhDbjlaVjg0U1pIX2I0RU1sTzRGMU11Z0l5WFpRT1JUeTNIYWdFNExyMTRlNXliTGdVWDdwS0lZMDlpOWUyeWwxdFRvMzI4R3ZxanhCRURtamFmWmVIeFczeUJQMzFhcnVRZw?oc=5",
+     "published": "2026-10-19T21:15:08+00:00"
+    },
+    {
+     "title": "Merck KGaA’s $1.1B Silence Therapeutics Buyout Brings RNA Drug for Rare Blood Cancer",
+     "source": "MedCity News",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZGtadzBGVG14Q1BvMTdtZFBmdnEzdklUZzFjdUJ1eGtBeHZQdWtwMXFHZHg0clFpVldvcU5wVTRFXzQ3NlladFhwNGZBQlgzeUFuOW5lUTFZb1pBclF3STJlVFdYY2N2d3A1VXVuX19YYXJKRm5JbGJ2Z1lqLTVwb1dRcGZUdjl5R25wLXNJQ2xqc3NMLXM2SUd5enoyaGFnQlhmYjFSa29JWnFQU01Qak1yVjQ1X0otYnVpQ3Fvb1U3SDhDNzhMVjNURQ?oc=5",
+     "published": "2026-10-19T20:28:14+00:00"
+    },
+    {
+     "title": "Merck KGaA to Buy Britain's Silence Therapeutics for $1.3 Billion in siRNA Push",
+     "source": "BigGo Finance",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE12aUFyck1TR2FXWXE3MmluV0gtd2hrNTZoYWJpeGRwMm01X1U4WFZLS2J0UVR0bXhvNkNuZ09Jb2ZkOXlSTGVwazc5SE5BaU1CY0lObDRRQWdMNnFxbjhGcmZWYjNtX3BUVUtZcHlfU1VuQVMyTUE?oc=5",
+     "published": "2026-10-19T20:05:00+00:00"
+    },
+    {
+     "title": "Recon: German Merck acquires Silence Therapeutics for $1.3B; China's Hansoh Pharma strikes $15B drug deal with Roche",
+     "source": "RAPS",
+     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQWjRBMWxGakJMd1ZrM2k2SVhRY3BpcU15SlpsUjRzMXpJb055SHVnc2lCeWVON3VvSlNZN1Vua2ZNdzFHeFgyNnRySlZYU0I5Qmh6RHJaSEZ3LVF2a0xzYWp1TlcwbF91eFFDRE1QMlB3aWRnVklleS16RjdzRWFDVHZucFZieUp0Y1pIRGJMM2FWaUJEVEI2NTR2bG1SWlpjTDZtR1dITmFFcmpPRU1VNlU2OWxoWUFLa3FXRzR3N0x4RlowblU4a21yMFZvdW1GTDlndVU2NzVZLTEycl8xUg?oc=5",
+     "published": "2026-10-19T19:59:00+00:00"
+    },
+    {
+     "title": "Silence Therapeutics Lands a 130% Takeover Premium",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRGhQY2VEdi1QV1JnRFRCUnpDMUNCU2toZENZQU4xcjdqMHhkWHUxWXhGbjVmaHVxNEl3enNxZnJqOWNhZjFLcDNwTjJ0cmZuaFJiTnVlRmRhYTA2STR0UmdPSTFhUDd4WkVVLWRJNklPM21hRDYzSlhQaTQ4YklfNkRtdlVVQTNjN2hvWjNrM1prLU9mRUV0NlVmZzJ6NGNnV2c?oc=5",
+     "published": "2026-10-19T19:49:04+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "takeover",
+    "label": "OPA / la compran",
+    "quality": 0.3,
+    "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
+    "confidence": 0.2
+   },
+   "score_parts": {
+    "move": 20.0,
+    "rvol": 30.0,
+    "catalyst": 9.0,
+    "close": 4.0,
+    "size": 0.4
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "PBLS",
+   "name": "Parabilis Medicines, Inc.",
+   "exchange": "NasdaqGS",
+   "price": 25.35,
+   "prev_close": 22.75,
+   "change_pct": 11.43,
+   "gap_pct": 1.01,
+   "close_strength": 0.73,
+   "volume": 2142521,
+   "avg_volume": 737532,
+   "rvol": 2.9,
+   "dollar_volume": 54312907,
+   "market_cap": 3131567616,
+   "pe": null,
+   "pct_from_52w_high": -0.4,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1794486600,
+   "market_time": 1792440000,
+   "market_date": "2026-10-19",
+   "market_state": "POSTPOST",
+   "score": 39.5,
+   "news": [
+    {
+     "title": "Parabilis Medicines to Present Updated Clinical Data for",
+     "source": "GlobeNewswire",
+     "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNMzNsUEpROUI4RGVCd0d1bkRNNC1pMUhGeGN5Mnk0LUMtTFRIUG8yRklYdm9pRXJaVW9uaEx5U0ctYzJmSkhWRklaOXNuOTV2ODNadXRBNktwMW44SjJnNWRxT3ZNYjJRQTJnOGI1bnAyR2hMUFNoaTNHcnVXa3B4X1ZsbmcwVTFrU2ptTEZ4eVhsbmd4MDZZSUZoYXpDekFpRmt3RFU0dWxHT2dCRXBmUjl1cE5jOEZlWlBncHNYYWNLTDYzZ0JPWHdKdkVkVkhScjVPYWJ5cXUwN2ZnZEpDWGtXYXpBVGQwZndJd2tFcGZXQkRlV3RmOXM5NEh0OWcyUzF6VkRVZmlwWVQtR2VNc2NYNVJvX2xvek0xNUpUcWk?oc=5",
+     "published": "2026-10-19T11:00:00+00:00"
+    },
+    {
+     "title": "Parabilis Medicines to Present Updated Clinical Data for Zolucatetide in Patients with Desmoid Tumors at ESMO Congress 2026",
+     "source": "GlobeNewswire",
+     "link": "https://finance.yahoo.com/healthcare/articles/parabilis-medicines-present-updated-clinical-110000347.html",
+     "published": "2026-10-19T11:00:00+00:00"
+    },
+    {
+     "title": "Why Is Parabilis Medicines Stock (PBLS) Up 11% Today?",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQR0tlYnpPYmMwZS1RR1JnWEVVMGRueENraThPRGRPU21RVDZ5Vk1vZmdHMUtyNGNDcmdxNzFfbzFJZ0RXT1U4UGJGdlNhMHNfOHRaUzByRk9QVnhObm9zMzVOc0gxekFTeUQ1dmRGaFZCRGdjQWkxMnNrdUktV0RDTmIwck4yZw?oc=5",
+     "published": "2026-10-19T18:25:27+00:00"
+    },
+    {
+     "title": "Parabilis Soars 13% on Upcoming ESMO Data for “First-in-Class” Desmoid Tumor Drug",
+     "source": "TIKR.com",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObU85T0x0WGM0ckZycVRBS3FsdnVSZWpoZFFCdXIxN29mdjJDSnBZclRyMi1zNW5mUExMMlJFbXA1SG9yNTJqVnFaVjhvbnNPMXczek9IcGozT2UxTUJaZ3dLRnpqRmNFcDdPLWo3MnF1T25hUHdPRW5ocW1scDJsTTg2WEptQWxfRktRTHNCU1ZRSnBKTEJac0FBSlNPM0VzLTRGZmlrUQ?oc=5",
+     "published": "2026-10-19T17:51:51+00:00"
+    },
+    {
+     "title": "Parabilis Medicines (NASDAQ:PBLS) Shares Up 4.9% - Here's What Happened",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRElfWmxyWTVjRnc5MU5MNG1JVWRVem9menZueVhNYkMyd0NnZ2dRWktnUjlsVzBiekxHVkhESWk2UWZPM1otajItaTNkQm5odjRwSXNQeWdPV3FJZXFhaDVnT2VoamgxZFJyX3hPZ0NEeTZ5RTRHdjNqMmdZeXdZLWJCUGtyblpVS2Fxc3YwbnpWT3h6NjdGZzM5MWQ1OWx6LTY5dndmZ05SSWJkTzZuQ0M4enhHUnplTGM2Um91T21UQQ?oc=5",
+     "published": "2026-10-19T15:47:32+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "fda",
+    "label": "Biotech / FDA / ensayo",
+    "quality": 0.5,
+    "note": "Muy volátil: puede revertir con fuerza.",
+    "confidence": 0.4
+   },
+   "score_parts": {
+    "move": 5.4,
+    "rvol": 9.3,
+    "catalyst": 15.0,
+    "close": 7.3,
+    "size": 2.5
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "ARQT",
+   "name": "Arcutis Biotherapeutics, Inc.",
+   "exchange": "NasdaqGS",
+   "price": 31.89,
+   "prev_close": 28.82,
+   "change_pct": 10.65,
+   "gap_pct": 2.05,
+   "close_strength": 0.72,
+   "volume": 5789790,
+   "avg_volume": 2295318,
+   "rvol": 2.52,
+   "dollar_volume": 184636403,
+   "market_cap": 4008316416,
+   "pe": 144.95454,
+   "pct_from_52w_high": -0.03,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1793131200,
+   "market_time": 1792440001,
+   "market_date": "2026-10-19",
+   "market_state": "POSTPOST",
+   "score": 36.7,
+   "news": [
+    {
+     "title": "Clinical Data Update Could Shape The Case For Arcutis Biotherapeutics Stock",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/healthcare/articles/clinical-data-could-shape-case-232120517.html",
+     "published": "2026-10-19T23:21:20+00:00"
+    },
+    {
+     "title": "Arcutis Biotherapeutics (ARQT) Shares Rally to 52-Week High Amid Strong Momentum",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbFZxbzBxQml4amVoQmZVUDNfNG1kcGpNZDVCX1lKd2R2Z3JqSDAwcTFBUG5ETlpoaXl6MXZSNVN6ZVY5NUJ6NGN6T3RpcmdwajBtcVgybXBhczdTVFM0QkpnVzJaUjJZM0RGWGdibmhEbTZ0LXBWLUZFN1N4YVBjOHNiZ09vZzdvR3p6cGwzT2lEM29QeU9WTUlwMnd2d2NBampjTE1BTXlNWGVXMWE3RG5CRE9XaE0?oc=5",
+     "published": "2026-10-19T22:16:20+00:00"
+    },
+    {
+     "title": "Arcutis Biotherapeutics advances 11% to new 52-week high (ARQT:NASDAQ)",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOR21BVU9BOXNqYzh2b1hNbHNhcUJjWnNSVDdzWFAxOVdwVjNFaUl0Y05zVU00cUVqb0gyRzRvWjFJaklibkFNMUlyeWRnNHl2TW53VVEyOWhXQTFmZUhDZUJlSzIyZkhoMjhCdjRtSlpNazdDOThYWVBpamNzNjF5aVVBUElrUjM0NEM2UWFXclZDQ1VuTHUtRw?oc=5",
+     "published": "2026-10-19T20:54:23+00:00"
+    },
+    {
+     "title": "ARQT Maintained by Guggenheim -- Price Target Raised to $44",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaERTZVRpZGJVOWV4NVNXcGdfVnExSUxtZ2dFcV9XbDdmN3ZyM2tlSnhyUWZNdzRIN0FPNURPZ25IQkV0WTFXenZiTm1pbjZNQndRN1o3MFpTVHlhN3k5b3RDbnRaUGZ3NmowWVZkbGJnbmlCSkRIYlpuRWFhWDhTSWlqSUZyNi00aTRZWHJLWkZzeTdkUl9TWWpn?oc=5",
+     "published": "2026-10-19T17:30:47+00:00"
+    },
+    {
+     "title": "Arcutis Soars 12% as Guggenheim Lifts Target to $44 on “Growing Conviction” in 2027",
+     "source": "TIKR",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/arcutis-soars-12-guggenheim-lifts-171326281.html",
+     "published": "2026-10-19T17:13:26+00:00"
+    },
+    {
+     "title": "Arcutis Biotherapeutics stock hits 52-week high at $31.80",
+     "source": "Investing.com",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSm5EOGMtdXpRM05yNDNMLW5scFFPa1dXYVcxMVc5a2c1VUM0WGFFOUpFVkIwdGpfT1pBc2hYbHdnY2dNa1M0Zl9PdDFNd1I4ZEFpcHo3Z0hzWi1OdUdKN2ZxR3lBOFd0OHR3NTlXY0plTy1NM0wtaWxwcXFYYnJvOGg2NFpDdV9xaGpVS0J3MlZHVVZnS1lmdFJhd3dQWXo0Y0NjdF9mZy01VWdIdElvbw?oc=5",
+     "published": "2026-10-19T15:48:06+00:00"
+    },
+    {
+     "title": "Simone Biles reveals how her embarrassing skin condition journey inspired Arcutis Biotherapeutics awarene",
+     "source": "The Times of India",
+     "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOOWhXSXAtc1RuUmVybDBmakhWdE8tendtOE9SQlZwR25pRnpDVWszZUZ2VXZ5djhVa1dMb2N0azhpNGVXbnBZYzh3LXhSbVB1Ym5CV0ZPMlpGNnIxSWROa1owNlZBSDBIVnI1aXoxUGtsZWU2T0lYU2hJNzV6WG9iY0xOQThqcjlGV1N2LWpFY2llOXFCV1FHUnpocTNPeWVoSk1wd0tQbTNkdXN4SFYxeWpSRVZWaHY5Y2t4V3BreW56RTBXVXJLellCRGZ4S1ctUTIwdlJMbVdzOXd5dEFUalRqLWIyZWtwMHJVczBwU1FuRUIwQk85NkZmQ0pRbUhieHhwM0RUNURWNmhQS25MSm9TUGVhX2w2WFVPRGJSb9IBpAJBVV95cUxQNDRkRUJGeWFnWkhNbEZtWTJ2VzdQX2pzaE96aF9XdF8xMzZkZzI4ZVJncWRYVXlDT2hjRXE3N2FUQmc1STgteXV3RGxHajlCMm0zbkw1ZWV2NWw4T1QxNEZwOW4zTXdZMTJadE1LVW9qOEM4RGpjNm8wQnlOOGFPVGZtaFpobFlsclQ1VEFrVFFSSXhTTFRZMm95NEt1alVHN1J4LU5MTmI0ZWdZamFGbGl2QTU1YkQwUGZuRDRrVzNEdmROeFl3bVVISlM2Z19kbDNsOEQ4YkZSbzhiMnduNDk4SHZITkdCWFU1ajlkZ204OVBYMHpWS0ljMHFqSDAtdk9tT3laMm5nM1Y5UWhNdUhfczV2ZVRDQmVyeWlia1V0LWxQ?oc=5",
+     "published": "2026-10-19T04:43:00+00:00"
+    },
+    {
+     "title": "Arcutis Biotherapeutics (ARQT) Unveiled Fresh ZORYVE Data, Is The Stock Still Below Fair Value?",
+     "source": "Simply Wall Street",
+     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOcVZnZ2xjYkF1NjRGTkZGVFFhVXJxeEN4b3Q0LS1nZ09yUTN1Mm1odG9RcG9tVEQwTzJBMHNjY01LTVRvZUxCZ3BvS2tXUEpPQzE1WmdwYjVlck81VjRvYU9XYWt5b3gtSVNpTGJ4WGZUU2ZZb1pNVUlhci1WbVFhMTJ2cXJ4bjVRTXVwR0tuU0lWcnRBYnpzWVk0TG1KbWxjSE5ndWpyVktyWllnNWRCOFBIOFBBV3lMUEVWSDFEc0NvVVJrNUNUcUg1YUJQdEQwTUlWSTdrOEFoZjBlcHZXZ25CMzYyajFZVUJ2LTBR0gHzAUFVX3lxTE1haVd0Y1BDak1PMkV3MmswOGFOQk05NFVzdzdWdTd3ZjIxZ3F2QWdfdDl4WEowMFMzbk9aV3hWbl9mZzRFM0tvYkNPUlVKX19rSkg0dnJNeTdXWElZQ2EwSU12Q0c2R2swVmNKbjBodnBwa3VDdm9sZ1hDbVIzRHFCRlFUb1FyZHBwRng4THZhNDlFRkFXd0htNXd6Z3RyTDBWd1VKVEtTelpma1AyOVZxR2FNZ2djMHN0M1VOZ1hDMG44ZktoaEs2Z3ZHS2JDZ0J1Q2llci1HM3lybm53NVBTOWNnRUhITjhTVF9MaFRSWTRiNA?oc=5",
+     "published": "2026-10-18T14:39:29+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "fda",
+    "label": "Biotech / FDA / ensayo",
+    "quality": 0.5,
+    "note": "Muy volátil: puede revertir con fuerza.",
+    "confidence": 0.3
+   },
+   "score_parts": {
+    "move": 4.7,
+    "rvol": 6.8,
+    "catalyst": 15.0,
+    "close": 7.2,
+    "size": 3.0
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "MANE",
+   "name": "Veradermics, Incorporated",
+   "exchange": "NYSE",
+   "price": 122.28,
+   "prev_close": 108.82,
+   "change_pct": 12.37,
+   "gap_pct": 5.99,
+   "close_strength": 0.84,
+   "volume": 1463236,
+   "avg_volume": 775056,
+   "rvol": 1.89,
+   "dollar_volume": 178924498,
+   "market_cap": 5108874752,
+   "pe": null,
    "pct_from_52w_high": -0.11,
    "above_sma50": true,
    "above_sma200": true,
-   "earnings_ts": 1793649600,
-   "market_time": 1792180802,
-   "market_date": "2026-10-16",
-   "market_state": "POST",
-   "score": 45.9,
+   "earnings_ts": 1794486600,
+   "market_time": 1792440002,
+   "market_date": "2026-10-19",
+   "market_state": "POSTPOST",
+   "score": 35.9,
    "news": [
     {
-     "title": "Crescent Energy Co - Unit Enters Sixteenth Amendment To Credit Agreement On Oct 14, 2026 - SEC Filing",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNeDlwY0FDTVVidlJGYnQ1dE1SN0pmeC12MU9HNUVjUHFjVFVzc21HLXBYS0VkazVsYUpLM0RVTFBBal9yNndlNGVQRGNUcGhkNnVnaVQtc3pBRjdXckNyY2VWQndCWXVyRzgtR2lEYldjNXVTd0dSdkRPb1prQnh4ZFBVLUFkRXZjVzl4dW5nbVpwd0ROT3pwV0F4UjJpYVJ2cG1ZVlA1a0w5ZTd1T1d6TFVKYlBHemVGeEluUm1oZkJpTDFfWFZkZGxHZFp1WDFCUU01bEpUU0dpUGRLWTMzb2F0eWJTaWxvZlQ1dDlQdGNQSkZPcU9vLUFR?oc=5",
-     "published": "2026-10-15T21:15:29+00:00"
+     "title": "Veradermics Phase 3 Trial Shows Oral Minoxidil Improves Hair Coverage in Men",
+     "source": "GeneOnline",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLVdsdWZPT2Vpc0lUY2l4WU00Vl83d0wwQ3lpdFVpY19Td1VVN2hUNnRUR2lGT1l3emJzTWlSNURFbHJSUkpFdjh6NlVJZ3YtWVVmSGFPUlNNMmdiWklkWkdJT2Z0amhIQzdUc0F0TGdFSlZJWEFFZmkzWjBrN1BMM1VVazgzRWc1OWNVVHliNEJCVmQ5alZKWjJGMkhNa2hHWi1rUTl4dw?oc=5",
+     "published": "2026-10-19T22:02:04+00:00"
     },
     {
-     "title": "Crescent Energy Amends Credit Agreement to Back Devon Eagle Ford Deal; Commitments Hold at $2.0B",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOc0MzSkxOUFZzbUpBbWtUWFN5aFFKUVRmRmRoRDljaXJDWGVXVU9GSHFsSXFxTGdfMVBoSkF0bXZHS09rS29majE3bm1lQnlScE1IUjhVQTdTSkZsa0x2Njd2cGctZ19MT24tdmh5WFRGdU0yOVVCWEVDWERlOExtdllJS0xleFI1RVlvQ1N5U29kcm1oc2RCR0lkRVF4TTRMM1M0NFBVRFAxMVljTjllblRtcmxKUnFoTkd5bGpKWkx5MFJFSHAtQkpQRVhnb2gzdkFQcjV4b3hXMS1qXzZHRkhidHRCalBsdlVadw?oc=5",
-     "published": "2026-10-15T20:33:00+00:00"
+     "title": "Oral Hair-Loss Drug Aces Phase 3 Trial, Veradermics Shares Jump More Than 11% Intraday",
+     "source": "BigGo Finance",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tUWwzSWFUU0ViR3JSYTdpYXdDRzQ3S1F2YW1aaEg3U0JfOGFsa2RDYmoyQl91eHIzNUFnMHZ0TlVaMUhQTnk5R3pMcFNxWjRTRDVsanFrS1dfRC1KQlJ2X3lZeFJFcUFhZ3hZd0psb3NrdURRUFE?oc=5",
+     "published": "2026-10-19T21:35:00+00:00"
     },
     {
-     "title": "Crescent Energy Jumps as Investors Digest Deal Financing and a Stronger Oil Tape",
-     "source": "Quiver Quantitative",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcTFIdlRsaHpJU3FJSTZkYVJOUmdlZWprU19hS19xM3RZRFRncUxJSVF6c3pnLVgydGxxYl9oMGE3bTZJakpQTGwwQ3dZa01RQ3hHckdQMDlpb1hNS3VDeUVtVktZbnpQMm1FZjVZYmN0WUNNc2QwdE1janRCTy1wRk9IRmlBS1JCdm9RRVE3U1c1WmotSDZDVGg1bFlsdXltYXN5V2F0akhOYlp1dHdGUXJxSQ?oc=5",
-     "published": "2026-10-16T21:20:00+00:00"
-    },
-    {
-     "title": "Crescent Energy rallies 10% amid broader energy rally (CRGY:NYSE)",
-     "source": "Seeking Alpha",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZWhxa0p4T25BbnpQS0sxdXFCeG9Ya0hMdjhuNlFnenFGT21tanJaYVhHdlBnZU41cjgzWHNybmlaaVRJdElwbndKd1FKS3pMVHNYVjZtczdySXlJRVJXUTVGRFA0UWtGNjNVSjE0T2VqV2RnYVRMVFBqbE0tNUV4SThIamtrQTNOYWwxemlONnNmS3ZC?oc=5",
-     "published": "2026-10-16T20:41:12+00:00"
-    },
-    {
-     "title": "Crescent Energy (NYSE:CRGY) Stock Price Up 4.4% - Here's Why",
+     "title": "Veradermics Phase III Hair Loss Trial Meets All Endpoints, Posts Strong Growth Results",
      "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPREZPMllIMHZuVTgyZVRGQ3FFUTlnU3pSZ2R2NlZnTHZfaXY3b0hUMTNaZ3E2LXlSblVORndtQU0yVE1DaDB2c3IxMDJ6YW14SDIySHlOODJwejcyRGNCMGhDaWNISVRweUlvLXZRdWNqd0ZJVlpmdmtSTGprWTlfTzl5UFhyOVA4SmVQLU5kcnhFeEtRamlyZXE5ZTN0N1ZrMnVFRUVIQ3dFd3BVOWRkM2pwSQ?oc=5",
-     "published": "2026-10-16T18:04:39+00:00"
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQl80UWkxcTVDWWJlb1lFb0RCbEozSXA0Zmpha3pBenFZT2VqOHNkd09kc3hEakJvT0tvb3U5Q0JMWlZwSk1CYnRWN2lhaTJhbS1rRE91SlRRdzZTUVd6UzJpSFNtNEQ2d2lkMmtSR2laSHR1U1Z4ZlZXeVlGbmR6eDlQeWZGUWlwX3BtRl9qT05PQ2kwZE5VcC1WcS1SaE1tWEp0UTB5U0NSRlEtSVRpTXVmQm55ckR6aUdUU2c3NThCUXA1RkFWcVdycTRnYmpKdVZuNWhpcWdacTJrc0E?oc=5",
+     "published": "2026-10-19T19:30:00+00:00"
     },
     {
-     "title": "What Is Driving Record Cash Flow at Crescent Energy Company (NYSE:CRGY)?",
-     "source": "Kalkine Media",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMGZBQmlabFdBQ1J5aGRwclZSeENNQl92ekdGR1dtelZGajJVbWw4emZ5dG9TZlNrdUlCYkdLVE9tV213a2Y5QlE2VGIyQ3ZNMUczWjF0bW9RZWJzVlFZR2VZei1JZHdRUm4xdUM5eGRoUDZLM3RFcmN1ZUY5RGh1Nnh3a2pWeXpUc0NNcHVtMzg4V2p2OTA1OHR1N2REMVFyR2dyX1lpeG1pRVJoOVM3Uw?oc=5",
-     "published": "2026-10-16T15:43:00+00:00"
+     "title": "Veradermics' oral hair-loss drug shown to boost hair growth in late-stage study",
+     "source": "Reuters",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUG9Sd25BdEpKc2wxMmRZYlEwSmlsd3QxRk51bEtZakZya2JITDlKWXIyb3RvR054YUxjSWRiMmJ6TnRnSk50dGFzQmZlUm90TzFHMTlPZjZYbnFERjZzXzM3ZE5hRFpmX1hEbDM0M1ltbXdKV2lGMnI4RjJ2NVg0MjdfaEQ4b01LOFlEcDhZV1pLTGU1eTdmNEZiejhpd0FHT2p5RGpxTkdEWmN2NnFhTjNWUkRtcG9MMFhaQjBxWkZQUDZjR1Y0UVhLdjFtaENiYU1TZlpqTzRTV05H?oc=5",
+     "published": "2026-10-19T22:04:09+00:00"
     },
     {
-     "title": "Evercore cuts target to USD 17.00 for Crescent Energy stock",
-     "source": "ad-hoc-news.de",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcmlXakFDUF9hOHF3T0lkUHoxb1VjN1pWeElWaWhtTTRiVEE0aS1fRXNUTktkNmxuakdvNlRfV0tqLTIxajJjVy1MeXZFWVNmZF9Za1ZrUmh1VEd0emRITDVIekpHSTZQRzZ1eDNwNlc2aFZXaWxfREx3alJBXzBJa0RsZWJkMGFUQjFTdmYtY3M3ZWp2UktrYTNjUHN6ek1YamJrdUFoWTl0OFp4RldDMUpjR2lFcUxNZlE?oc=5",
-     "published": "2026-10-15T20:41:12+00:00"
+     "title": "MANE News Today | Why did Veradermics stock go up today?",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5UMHlHbU91djByOUZXLWJqOE8zbHJhS2R3WEIxR3paQWtJOTNHaWc3S1FZQUI3TUd0Ym92MVVKazJyRzFpWTFBWlFfUXhZU0FCV0c3MTFxckdwWmFxOUE?oc=5",
+     "published": "2026-10-19T20:54:51+00:00"
     },
     {
-     "title": "Crescent Energy Schedules Third Quarter 2026 Earnings Release and Conference Call",
+     "title": "Veradermics posts another hair loss win",
+     "source": "FirstWord Pharma",
+     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjZ2pnZXdoamozVXpEaHlUaDBheEYtZWFGUWVwamRGbnVzMVNXd1BSdXFxdjBFM1kwN1g4cl9vWGxYSHN0enU5cldqZ3RDY2x4TWU0?oc=5",
+     "published": "2026-10-19T20:49:33+00:00"
+    },
+    {
+     "title": "MANE Stock Grinds Higher As Bulls Defend Key Levels",
+     "source": "StocksToTrade",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLXA5VUFOaU1TY3JUaUlnZGlVX2ZmVF92VHQ0OXpnVzRqVmVzQ1RXanFzY29qVFV3eS12RjA1Mm1vRlRLaDk3ZWlkLXdLVU9xTzRIcFlCa1ZKbXR2TEg0SDU0LXZSUEpsWUFIbmQ5aWtYaXQxaWo2ZGJSVWpjOGNCSFF6TQ?oc=5",
+     "published": "2026-10-19T19:03:00+00:00"
+    },
+    {
+     "title": "MANE Stock Holds Gains As Volatility Draws Active Traders",
+     "source": "Timothy Sykes",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMndXaVFDMnpGV0ZLYTNNOVNHLWVzMWRNUmdLOU44UVJRTWczNGRIemd1WW11d2tpdE9ZcXBMVXlhVU1sbmZWa1ptRmk2Tmg2UFZMQlJVNGxzYkhjcmV5TDhwcHR5TWtFVG9KV2kyNGctZXRmb0xXTVhPUGl1c0c3N2xhc0JRQWM?oc=5",
+     "published": "2026-10-19T19:02:00+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "fda",
+    "label": "Biotech / FDA / ensayo",
+    "quality": 0.5,
+    "note": "Muy volátil: puede revertir con fuerza.",
+    "confidence": 0.8
+   },
+   "score_parts": {
+    "move": 6.4,
+    "rvol": 2.6,
+    "catalyst": 15.0,
+    "close": 8.4,
+    "size": 3.5
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "AGIO",
+   "name": "Agios Pharmaceuticals, Inc.",
+   "exchange": "NasdaqGS",
+   "price": 34.9,
+   "prev_close": 31.32,
+   "change_pct": 11.43,
+   "gap_pct": 0.93,
+   "close_strength": 0.96,
+   "volume": 1972948,
+   "avg_volume": 1106617,
+   "rvol": 1.78,
+   "dollar_volume": 68855885,
+   "market_cap": 2083595648,
+   "pe": null,
+   "pct_from_52w_high": -0.24,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1793881800,
+   "market_time": 1792440000,
+   "market_date": "2026-10-19",
+   "market_state": "POSTPOST",
+   "score": 33.5,
+   "news": [
+    {
+     "title": "Is Agios Pharmaceuticals (AGIO) Undervalued On Hopes For A Mitapivat FDA Decision?",
+     "source": "Simply Wall Street",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPay0yRDZNUXZhYjNkMTRTX0xRRnQ2OWNVZy1SdEJucUE2T0gtYWFlYW95ZXQ0VXpqcmF3T3NrcFgzdnBubUp5NW9oWGExWDBFTGVqUnRxNlNxbzNtT2EyUXM2T2x1NUJYSDJDaFRPaUtVN0dVY1BKUEdyaERJVnAwcFZzYzhPalQ0cnhlOHBfdVZtTU9fSkZiRzlJVVhibUJjcmhubXdIYWtWYkUzbjRJRUhWcGpCcUMxaTZzc3hfdTZvSUtEZ3IxeS1OUFFEWVR5cjhHd29McjRETGFsS0gxdUt4QlJGRklnblRN0gHwAUFVX3lxTE9BdTZsSXc3YWN3SzgtVzA1Y3kwWEg2aFlmeF9hVTFfOWh2ZlRrZkh5UWlVNWtMNVVsU1F6ZXJNbmFZd0NCMVNQV2JHcUwwMzBPN2QteVQtWWowRG5KRkFuLXBwTTVnbzkxcUlOT3BsQmVnLVM2TXJ3dkJWLXpOZEpsUzhseFR3TG5hcjdEV0tEM0xNTlhQWWZvaVFfamUyRmh0bXFuekJ3aG5WelVWWHlMNlRXU3VjWl8xaHg5WXBqTE9wMkJtMWF6TkZUbC1MbWlOeExUX3dmV2QzTWJ1eDREdl93TF92SkU3UjdXM1o4TQ?oc=5",
+     "published": "2026-10-19T21:40:02+00:00"
+    },
+    {
+     "title": "Why Did Agios Pharmaceuticals (NASDAQ:AGIO) Rise 7.41% Before a November 1 FDA Decision on Mitapivat in Sickle Cell Disease?",
+     "source": "kalkine.ca",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOd1U2YUl5RnJWZXJMZTNHaFFxNDExdVVzTU5Wd2lxakZpeXU4SmhCLVY2Qi1FT29VLU5Jd3ZBLWJPZVlkWDdJbU5zNWpIbXNYS2NUaTk2NHh2QnRONHZyaC0wUTZXOU1Jd0piMWxOUFRCRUhiVVRRd1Q5SnRJS3dfVzVkQ0UwbFlfb3pPbWNvRUdPSldUNXdXaTQ2SWx4dDVTdnY5VzNNTDBlMmFXVWdWbUNLZE96bFhSekdqQ3EyNGlwZ2xMcXE1ZWg2SElLUVI2NHlOXzk0b0xHWUtqR0dmZlF2OC1xZ0tGenVj?oc=5",
+     "published": "2026-10-19T17:46:00+00:00"
+    },
+    {
+     "title": "Why Is AGIO Stock Falling Today?",
+     "source": "Stocktwits",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTWR0MlkxcVhMS3FjX0FtNGpsY0RZZkotUDMxeUpMY2hOUWFEaUd1TlE1YlY0NDExRHJRQVQwdkJUTUJOZGdyVzdlcWJDNl9Yd3FYb2ZEdlJ3YjJJVDVXeGZCUXhvM190MGM0QWVVU0JUTGI4bGgyTzUzNVVpTGxqdjhPeWJ3aExvY0tFNXdKb2prM1JrNmJ3enVjcw?oc=5",
+     "published": "2026-10-17T12:42:18+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "fda",
+    "label": "Biotech / FDA / ensayo",
+    "quality": 0.5,
+    "note": "Muy volátil: puede revertir con fuerza.",
+    "confidence": 0.6
+   },
+   "score_parts": {
+    "move": 5.4,
+    "rvol": 1.9,
+    "catalyst": 15.0,
+    "close": 9.6,
+    "size": 1.6
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "PRAX",
+   "name": "Praxis Precision Medicines, Inc.",
+   "exchange": "NasdaqGS",
+   "price": 260.17,
+   "prev_close": 241.76,
+   "change_pct": 7.62,
+   "gap_pct": 1.51,
+   "close_strength": 0.92,
+   "volume": 779914,
+   "avg_volume": 434892,
+   "rvol": 1.79,
+   "dollar_volume": 202910225,
+   "market_cap": 7263943680,
+   "pe": null,
+   "pct_from_52w_high": -0.34,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1794227400,
+   "market_time": 1792440001,
+   "market_date": "2026-10-19",
+   "market_state": "POSTPOST",
+   "score": 32.0,
+   "news": [
+    {
+     "title": "Praxis Precision Medicines Rises as Investors Revisit Late-2026 FDA Catalysts",
+     "source": "Quiver Quantitative",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRkF6bVJ6Z2xmWFhqTzgzR1BieWFyS1BiaTVwTTYzekZBQnV2bzZ0N1VodEdibDVwd2lRd0xCaHp0WVJka194SXhGdndmMkM4aXJGeVc3Q09VTGhoaGVhcGs3cnFQRXM3UElQbk5aZFhfU3phUGVXcEw3QmZ0Z3dBYWVQVnJmcTVSR3JzLUQ1RXhYNWxqenN3MEdwTVI0Z0tSSjU0WGNCXzFZY2hMS2NB?oc=5",
+     "published": "2026-10-19T21:21:00+00:00"
+    },
+    {
+     "title": "Is Praxis Precision Medicines (PRAX) Priced Too Highly On Book Value?",
      "source": "Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMjZJcjJIZWY0RS1uQzJac2Y0bHdES3FVeGtvQU1iMW41X0lmQXo2Zjc2ZjBBRW83ZC1wZkRya3NPQkNLZS1hTzhNeVZfLVNLZ1pEbW9OWjNmQWhiZnZWa2NDUzMxU0M2SkFkODZYYUJKZ0w0VmRacENpSTJZN0JaZnlzRVd2SFA5NWR3UkI0aGozOHA2YXJVdk1MUVY?oc=5",
-     "published": "2026-10-15T20:30:00+00:00"
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSG5fcVdYOTdTbUV4bWVCejBCeGJEUlhNS2F3ZExINExzTy1EVmJsbDZPV04ydzAtRjV4YkpJcExhSXNFay12YzdhSndGSmdlS2hFSktCLXB6YkFnY0hNRXlOUF82NEJXRHhleHZzSDJDTk4zd2R2azNqUTczbUlxSzdVRlRKeFFXaWkxM3hNeVVCbHBKak44M3ExUkYtSTZw?oc=5",
+     "published": "2026-10-18T21:12:06+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "fda",
+    "label": "Biotech / FDA / ensayo",
+    "quality": 0.5,
+    "note": "Muy volátil: puede revertir con fuerza.",
+    "confidence": 0.3
+   },
+   "score_parts": {
+    "move": 1.6,
+    "rvol": 1.9,
+    "catalyst": 15.0,
+    "close": 9.2,
+    "size": 4.3
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "WRBY",
+   "name": "Warby Parker Inc.",
+   "exchange": "NYSE",
+   "price": 24.99,
+   "prev_close": 23.34,
+   "change_pct": 7.07,
+   "gap_pct": 2.14,
+   "close_strength": 0.89,
+   "volume": 4401376,
+   "avg_volume": 2889014,
+   "rvol": 1.52,
+   "dollar_volume": 109990386,
+   "market_cap": 3088965376,
+   "pe": 416.5,
+   "pct_from_52w_high": -0.19,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1793881800,
+   "market_time": 1792440002,
+   "market_date": "2026-10-19",
+   "market_state": "POSTPOST",
+   "score": 30.5,
+   "news": [
+    {
+     "title": "Warby Parker Collaborates With Filmmaker Spike Jonze to Reissue Archival Pieces",
+     "source": "WWD",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdGFJYW9GbUU3VVFtVk5wWDc1aEFZRWw3bEhRQUN0dktnajJySnEwcHBMVWJsbmxnQVJjTVl1Sy1wTUNzT1IyQ2hKOE1ielhiVjA5dGFDQ20xcDFmUTJFMGQwVTFHQ2ctbzMtMVB4b3dxSDlXMkpad0dxWGhMaVZRYjdKcXY3U083SElhMmpfUlVvSk1TQjJDTGdJaW43QWVUSkFCTTRwYjZqWDVVcmhKaDZuWTg?oc=5",
+     "published": "2026-10-17T01:59:21+00:00"
+    },
+    {
+     "title": "Is Warby Parker Inc (WRBY) Overvalued After 7.1% Rally? GF Value",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZmNheGxUVlVjSEZQTUVKRE1oZ2FoSzVPOExLS2M5bGJNT3pLYzQ0dlcyWmpFc3BNMzJYdWI0YUdvdUJUeTlfODUzZk1XRFJLdENBVFU3MkxQUTVtRGR3RkRvUzZmWng1UWw3YkhVVm05NnB1MHFaeS1CcW5tS1Roemt1NXdFMFQ2eWNSTW9kZUxYRWRqa3dzQlJaZEVFSzA3NFFzNW9sMFAzdU9SMm8tcU55MGc?oc=5",
+     "published": "2026-10-19T23:34:08+00:00"
+    },
+    {
+     "title": "Form 144 Warby Parker Inc. For: 18 October By Investing.com",
+     "source": "Investing.com Australia",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPV19iSVZ2TzFqbVJadXpDMEpUc3VrT21mTDJNLTA5NWxNSkV1SjV0TUQ5UHk2MjRBSmQ0bFctQmUzbHZ1cGNPTkY3VmdnMUhnQV9tMGhmb0FLX0JTb2lSQUczVkEybm1qdEdseWZQZDkyQUdaWWdUdW1tS1U4c0VkUFQyTDg4bjVST0VkU0huaDZqbVpVLVk2azJiaWc2ekZ6dU5B?oc=5",
+     "published": "2026-10-19T02:39:28+00:00"
     }
    ],
    "catalyst": {
@@ -99,107 +729,14 @@
     "label": "Contrato / alianza",
     "quality": 0.6,
     "note": "Valora el tamaño del contrato frente a los ingresos de la empresa.",
-    "confidence": 0.4
-   },
-   "score_parts": {
-    "move": 4.1,
-    "rvol": 10.7,
-    "catalyst": 18.0,
-    "close": 9.8,
-    "size": 3.3
-   },
-   "appearance": {
-    "count": 1,
-    "previous": [],
-    "window": 10
-   }
-  },
-  {
-   "symbol": "HPK",
-   "name": "HighPeak Energy, Inc.",
-   "exchange": "NasdaqGM",
-   "price": 10.55,
-   "prev_close": 9.95,
-   "change_pct": 6.03,
-   "gap_pct": 1.91,
-   "close_strength": 0.64,
-   "volume": 1010424,
-   "avg_volume": 510753,
-   "rvol": 1.98,
-   "dollar_volume": 10659973,
-   "market_cap": 1334077056,
-   "pe": null,
-   "pct_from_52w_high": -0.03,
-   "above_sma50": true,
-   "above_sma200": true,
-   "earnings_ts": 1793822400,
-   "market_time": 1792180801,
-   "market_date": "2026-10-16",
-   "market_state": "POST",
-   "score": 23.7,
-   "news": [
-    {
-     "title": "HighPeak Energy: Debt Refinancing Reduces Interest Costs And Gives It More Flexibility",
-     "source": "Seeking Alpha",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUmtHaS1CQzhjckRickQ2djkzbUplYVFfM0EwZDJ2SjFaQk05a2hyamVaZXJ0M19FbEsyMU1qRjVjRXlLNkoycllTczlpWGVRa0VHVUhOU1IwU1NrMjNBZGtMem1Gb1FMYm5sVXN1MldUVHJweXJNX0t5akpKMFhvZ1dRX1duVjVtNnZLWjFDX0NvbEZPM2FYUjJXcTR1MGRNX1Z3REZVdGIxeUxrYklvckZQLTlXLUVxY29tOFJ5WDA4Sm96?oc=5",
-     "published": "2026-10-16T02:42:04+00:00"
-    },
-    {
-     "title": "HighPeak Energy (NASDAQ:HPK) Reaches New 52-Week High - Here's Why",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNTRGNFJsS0tpUExBaXdnNFFEVnhKbVJHT3RIYVowUEpRWFJqMUJPdloxa2tsTU50YW1aQmhmT2pYdHhheE5KN25UenZwdlJLYnZ2WHhZSm56WkV4blhEOU4yYXVxbkJ5NkdFczBsNWtWU3pUNnQ3cF9fckNrclpJQ1lQck1mZWk5dXVfeEQ1TGY2MzA3QlZrZ3BJRWpNb0lGUUhiNW9FdHpwWmp0NjBIZURKZHBybDNWSl9ZRWdB?oc=5",
-     "published": "2026-10-16T18:04:39+00:00"
-    },
-    {
-     "title": "Highpeak Energy stock hits 52-week high at 10.57 USD By Investing.com",
-     "source": "Investing.com India",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV01UQTVCZGhPVXU0eHQ5bFVVYjBqamtONGZoVWR4am13U2NhX3kzblJSc3Y1dmNDOWRmZWJiaHVvRENOcHFNYmw0WkZXYm92Wk04WnV6UE5vd3Z5M1ZMT1hGXzFhcUN2ck9yY3hiSms5bXVjMzhEM2RsLXNRQWZoR2hiMEFwS24yclEwVGgwaDFMQTBVTmlialNnYVF5NXJ3R2V5MjRkMnJvd3FGTjdlWQ?oc=5",
-     "published": "2026-10-16T16:28:29+00:00"
-    },
-    {
-     "title": "Analysts target USD 12.00 for HighPeak Energy stock",
-     "source": "ad-hoc-news.de",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNT0JhSHk4VW1GbnJISkVlWGR4eEE1RHhsZGJ4WVl6RjVleEQ3ZzVsSDB5WnNqLW1kOEJ0NFlQa3NOZkoyU191RDVBV28xTmV2djdXWDIzUXQwOFhGQ3QwS1RDaTMwSDBWY0xpVDU3UDJkUG4tU2tEZkh1c2tNNV80aVAyTUE3NmRXVUZwcE1WeElHR2RsNy11dFhvQmNhTHh4UkNJRXRFbTR2aVVfZUJR?oc=5",
-     "published": "2026-10-15T18:18:04+00:00"
-    },
-    {
-     "title": "Surging Earnings Estimates Signal Upside for HighPeak Energy (HPK) Stock",
-     "source": "Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdHVtWFdhSXY0ZUhmbktfemZ3cFJNdUhqVWloMldJYWZNZng0Tl9WSE8yQ3VXYnZDUGpmVkhHREtpbnFrLV9iWEc5Nm9nZE1yLW5IVmVueExJbm95NGR6RnRQdnAzbDY5cTMtSERWLVhiRGZGRTFNdVZnVmtwV0RyODhfR1U4eWU4NW1DUUJjbUQ2R2lDZDEzZEl6LWJqazZYaHhKSUtiMHA?oc=5",
-     "published": "2026-10-15T15:20:01+00:00"
-    },
-    {
-     "title": "Milbank advises Danantara and EMP on HighPeak Energy deals",
-     "source": "Law.asia",
-     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9xMXREZlBuVEo2TWhSUzVOM05OSVJ6RDRmc05oQ05JbzR6cVdqSzRQZFdNbXhpS1A3ZWx2dTAzZHJ0VUZWWTE3ckpmMHE0N3NmQVhWeEYxYw?oc=5",
-     "published": "2026-10-15T15:12:34+00:00"
-    },
-    {
-     "title": "HighPeak Energy (HPK) Lands $450 Million Preferred Deal, Is The Stock Already Fully Valued?",
-     "source": "Simply Wall St.",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/highpeak-energy-hpk-lands-450-221512263.html",
-     "published": "2026-10-14T22:15:12+00:00"
-    },
-    {
-     "title": "U.S. Shale E&P Stocks Q2 Recap: Benchmarking HighPeak Energy (NASDAQ:HPK)",
-     "source": "StockStory",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/u-shale-e-p-stocks-165207951.html",
-     "published": "2026-10-14T16:52:07+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "capital",
-    "label": "Financiación / recompra",
-    "quality": 0.45,
-    "note": "Mejora del balance o recompra de acciones: impulso limitado salvo que cambie la tesis.",
     "confidence": 0.3
    },
    "score_parts": {
-    "move": 0.0,
-    "rvol": 3.2,
-    "catalyst": 13.5,
-    "close": 6.4,
-    "size": 0.6
+    "move": 1.1,
+    "rvol": 0.1,
+    "catalyst": 18.0,
+    "close": 8.9,
+    "size": 2.4
    },
    "appearance": {
     "count": 1,
@@ -208,91 +745,91 @@
    }
   },
   {
-   "symbol": "PAYP",
-   "name": "PayPay Corporation",
+   "symbol": "APLD",
+   "name": "Applied Digital Corporation",
    "exchange": "NasdaqGS",
-   "price": 15.68,
-   "prev_close": 14.65,
-   "change_pct": 6.99,
-   "gap_pct": 0.92,
-   "close_strength": 0.8,
-   "volume": 1172790,
-   "avg_volume": 768304,
-   "rvol": 1.53,
-   "dollar_volume": 18389347,
-   "market_cap": 10617604096,
-   "pe": 13.17647,
-   "pct_from_52w_high": -0.37,
+   "price": 19.25,
+   "prev_close": 18.05,
+   "change_pct": 6.65,
+   "gap_pct": 7.42,
+   "close_strength": 0.27,
+   "volume": 36045947,
+   "avg_volume": 19731070,
+   "rvol": 1.83,
+   "dollar_volume": 693884480,
+   "market_cap": 5820952576,
+   "pe": null,
+   "pct_from_52w_high": -0.62,
    "above_sma50": false,
    "above_sma200": false,
-   "earnings_ts": 1793390400,
-   "market_time": 1792180800,
-   "market_date": "2026-10-16",
-   "market_state": "POST",
-   "score": 17.3,
+   "earnings_ts": 1799265600,
+   "market_time": 1792440000,
+   "market_date": "2026-10-19",
+   "market_state": "POSTPOST",
+   "score": 24.4,
    "news": [
     {
-     "title": "PayPay (NASDAQ:PAYP) Stock Price Up 5.6% - Still a Buy?",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZG1mbGx2TkJnUXJFUEdJc1dYeXp2Rl83WXVSS1ZUcDRpd1AyU01vUFNqNzZjU3hHTXo3eXJQVWJPQzlUXy1wcnBSTzRKRlJhQUxzTGRVYlZ1Y1U0Q2U2NGdzbjNKcE5SOFpNS1ZRLXFoSm9LZWNLNHBDa25wVm56eVYzQURWTHBuR09KT29BLXVfRThhLTZ4SlY4Rm9HZDRIVko0a0E1d3hLTE9O?oc=5",
-     "published": "2026-10-16T15:56:02+00:00"
+     "title": "Is It Too Late to Buy Applied Digital Corp (APLD) After 6.7% Rally? GF Value Says Undervalued",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYUdRcjB1b1gtck9GREIyVW55WmdSUmNYR0x2cUVTV2diNWdQemFWZFdRZnVPSFVlQ2dZUjBlUmNWcUZBODl3cmVCR2pYMUxHNy1qNGRmT0staGlETEdGTjFULVlOc1JPaUJ6U3kxOGJlSk9qZVBGZFBUOVl0UFF4azNRUXJVR3gtQzBiLXJLSl9tSUsyX3pneWZmWEgzWlBsMzA3UjFRSkZLNHF2bjFrVzA0SDU2T0Jwb25qRWFCMDVUczllX1E?oc=5",
+     "published": "2026-10-19T22:54:33+00:00"
     },
     {
-     "title": "Why is PayPay stock surging today?",
-     "source": "Investing.com",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM2hrNGNFcEgtS0VpNTAyaVc1UjY5NV9fUlM2R0NjTTRTc2RkZzVOREtSeE1Cbnc0X1Z3QlgzSUZMMTRkbjdIdUFXMVprTTVZVjJVUFhsVzBWQ2dSdmYzWW1HRlNxQ3BXZlRfRWI5bnlRYXd4RTN2NnBldXVfb2g2MU9qZ0M1SU1oaEJZcjA1YldZcVlLWEpLemxidw?oc=5",
-     "published": "2026-10-16T15:54:22+00:00"
+     "title": "Applied Digital Insiders Spend $6.7 Million as Stock Rebounds From 52-Week Low",
+     "source": "ad-hoc-news.de",
+     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSGxkS3Q2RzdnZ3JyQ21aakt2aFVuV1NtcUs4dFgxM3h3Qkp0OWw0ZDVfVldGZkRzbzU3cVIzeFNpaDEzbEVoWnhQQ290cEtPc2NsclZqN3FEUG9DWWxBdmVWcVV2V3VtNDNRUmk0NVlIdDhMelB5aDdCX3R3T3ZzbGNBR0tITnF4eFdWMWkyTlJoVnUtWUxCUUR3elVEOGJ4eUVIa0cxbnZ4cjBYY08wTkI3dVJVTzhSWE8zUGFYSlBnYWZ0MTlERmV0NHZYckNVdWhsdVl3RGZQU2JlSGJyVTczOA?oc=5",
+     "published": "2026-10-19T23:30:36+00:00"
     },
     {
-     "title": "PayPay Stock Jumps Nearly 7% as Japanese Payments Giant Rebounds Ahead of Late-October Earnings Report",
-     "source": "International Business Times Australia",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTk1tdlJpcnJ0N2g2Z01mZHZVMWc3TWhmczRTaE9yOVRDN1NNODB0LVpiWGlvTVN5bzBYZy1MLXN4OVo5bndNbTFhd1pKTW9yYzdYSTJMd2FnNXR6YTduNklWQjI0UmFmTHhvZTZ6eFVjdnFOdTE3SEY3MGNiQ0JRTA?oc=5",
-     "published": "2026-10-16T15:30:42+00:00"
-    },
-    {
-     "title": "PayPay Soars As Options Expire And Bulls Take Over",
-     "source": "TipRanks",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd1NMZFZYVFcxOHVIMzVTWVhMcTJZb0gzUjBpakRHRVdJMWo4WEw5WkJ5MmVuRkxJUlZxa1BqVFY2eS02MHBULXNNMUxLNEJleEFSVl9uVlhIaWwwdzNudjNHUFJVcV93dm9FbThFOGE2UmltZmU5aXA3d1M1akFRb2hZVnJyR2ZIaDVsbUw3cEttaW8?oc=5",
-     "published": "2026-10-16T14:02:54+00:00"
-    },
-    {
-     "title": "PayPay Corporation - American D (PAYP) Stock Forecasts",
+     "title": "Applied Digital Stock Gains Attention After CoreWeave Upgrade Lifts AI Infrastructure Sentiment",
      "source": "Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNllwZFpUb3VKWlFQT29hcGNxTmlZQjNzaXduOURIYlF3VjN4bWNnOVlRZmJhU3lxV1hORldIbmxVV2FaM2R0TWktY2J4SWVTVDZIaUhiS24xMmZLVDQyZFFROFBCdi1kSHFQTkpETkZlSG8xUVRGU01VellLTTZSVFIxLTNqXzlucUtkNQ?oc=5",
-     "published": "2026-10-16T01:58:46+00:00"
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSF91eFIxbktvTTU2WGFCdnY0LWZUMG91MTl3R2RjR3pDZHFEcnROaU1SdWIyXy04QTV1U1VJdk5kSWp5YjNNM01udVNILUVmZXU4OHQydDZIS3pfSkF1RHhuWExMTWVjc1FGRkhrRGhxYUVYNGE5dWkzTVMzeUtfakJuRWpyVVl5VEJFbVR5bS1GNklqeWFkTDNmYjU1OEVxbGl3?oc=5",
+     "published": "2026-10-19T23:22:19+00:00"
     },
     {
-     "title": "Top PayPay (PAYP) Competitors 2026",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZGp1Q0NiaHBVSktEN0lQNkdINWk3NkwySHE4UzhzZGJmbUV5MDlXZ0Z4M09PSlg3TmJta1lETEVrRFNJMDlGYWxpRGVTN0luX00wRW5RR2tIM0RyV1I5RDItcmh4TWJ2VnpqY3BQbUNjNlpiNjhxWU5QWkNnUWx4ZQ?oc=5",
-     "published": "2026-10-15T09:38:28+00:00"
+     "title": "Applied Digital Soars 10%, IREN Up 5%, CoreWeave Up 2% as AI Infrastructure Selloff Reverses",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONzhtc3lBWTZId1RydmMxQWtsNXZJaGZsWmI0eTdLSE5JY2h3VEFlOUhJS09BSlNzYnpCaXkybmVhZGtaWjlYQXA2YWZwQlhQR2FmY3JDTHhaYTIxREhmTGVseXg5Ukl2ZkttdTRmWXdpOU5WbHY3YjFDQjVLU3o5TzdBLUtEbGV1NGx1N0lzMDl2bVFLMmh3ZEh3?oc=5",
+     "published": "2026-10-19T20:51:14+00:00"
     },
     {
-     "title": "PayPay Bank taps payments ecosystem to accelerate growth",
-     "source": "TheBanker.com",
-     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9SZXhvQk5xTmQ0ZHZzdEZUbXRsLUFVb3BIZG9RaFlfRkVrekk0YnNUcThCSXc3dWVsM2lPTkxLM0E0UzVYQXEtaW9OVDRGUEp5b0lIY1hKY2RDU3lVYjVlcDFnZXRvS3g0QkczYVF3WTBUN2FSQzhNT3pB?oc=5",
-     "published": "2026-10-14T07:44:25+00:00"
+     "title": "APLD Stock Pops As AI Factory Growth And Earnings Beat Fuel Momentum",
+     "source": "Timothy Sykes",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQkIwd0kyWWExME1TTmJJcElQb3NsYm56NWk3UHhMZkFTZUtXVlhTaEljVkhxcEx0NEFPNGZEakhWdUV2UW5lazRYUWt6S3NJUXAxQ3kwUkZ3SnJya3hFMVB5OTZqa3hoYUl3c3NkU2U3b21vWE5kUlJtN1dFUGhUYmlEY2s?oc=5",
+     "published": "2026-10-19T20:47:00+00:00"
     },
     {
-     "title": "[Persol CS Pacific League] Taisei Makihara hits .400 against them: Summary of player performance in Hokkaido Nippon-Ham games & at MIZUHO PayPay Dome | Pacific League.com | Professional baseball",
-     "source": "パ・リーグ.com",
-     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90MkVWdVBaUGxqd0tpZzUwUGlhRkVNUlZPY2paZ2JuTUFyM1VCYTlKLW13U0MzYjNuS3pvdENEWjg3Q0hmTzBldzVxeG1pWndIelZxMmZscVJ6a1U?oc=5",
-     "published": "2026-10-14T02:29:24+00:00"
+     "title": "Applied Digital Led the Market on October 19, Closing Up 6.93%",
+     "source": "24/7 Wall St.",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVVhXOGktbzdQSEg2d3EzZjZTNVc1N0FMTy1MeGZ3bmtOeFhJWXBXVDNrMmJqaURXM0dqX0o3WkFSM1pwMWdEWVdXR09ETEZaZlU3X2FNZXBwM2ZUMXBhOUxwUzY0VkRVR3cyUzFGcTl1TkRna0JPWDV5RGZpdnVqbXl5OXBIMnN5X19HeTk3LUVZMnY5dV9IbXU2dmU5Y3IzTm53V1d3b0lxaE1mbzhZclBpUi02WTdCSmMyRjFfUTZISURsVG9sTVV1bHZVUQ?oc=5",
+     "published": "2026-10-19T20:17:45+00:00"
+    },
+    {
+     "title": "CoreWeave, Applied Digital, Nebius and IREN Stocks Rebound After AI Selloff",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWnZ3M2s2YUZPYzZGaUlWanZ5bG9FMFg5S0J6UjM5dURmOUhUYmFqc2hXUDFaamp0UHY4ZDBTUGlhejNNaHp3MlpHNnNzSFlCS1pPWDk2T0l0R2R4UTh2dUQwU3ItRy1mSUVTS2hIbFMzYzR1WEh5aHJtZVBqSi12dkhaM0lWaTlYTmNGYk14SjU3UG5SbEJFNk1HTjZzSTFYVF9RTV83QmVycUJZQ3FiZ0RRWjlXenN5bmpGXzd3bFdNRm5LRTdZaEhZNTZxQQ?oc=5",
+     "published": "2026-10-19T19:49:48+00:00"
+    },
+    {
+     "title": "Applied Digital Corporation (APLD) stock price, news, quote and history",
+     "source": "Yahoo Finance Singapore",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxc3NRbWF6cVdiYzEzUm41TXk0NlBTeHNuLWgtZzR6bTlqdkZFdC0td0pXR01Pa1VDc193YjdsYUxmcTRmRnV6VmZ2cjVjdWNkemc?oc=5",
+     "published": "2026-10-19T19:28:33+00:00"
     }
    ],
    "catalyst": {
-    "type": "none",
-    "label": "Sin noticia clara",
-    "quality": 0.1,
-    "note": "Precaución: subida sin catalizador identificable.",
-    "confidence": 0.0
+    "type": "acquisition",
+    "label": "Compra / fusión con otra empresa",
+    "quality": 0.5,
+    "note": "El mercado premia la operación; vigila cómo se financia y si la aprueban reguladores.",
+    "confidence": 0.3
    },
    "score_parts": {
-    "move": 1.0,
-    "rvol": 0.2,
-    "catalyst": 3.0,
-    "close": 8.0,
-    "size": 5.1
+    "move": 0.7,
+    "rvol": 2.2,
+    "catalyst": 15.0,
+    "close": 2.7,
+    "size": 3.8
    },
    "appearance": {
     "count": 1,
@@ -313,7 +850,7 @@
     "change_since_pct": 2.31,
     "from_peak_pct": 0.0,
     "sessions_since": 1,
-    "last_rvol": 1.5,
+    "last_rvol": 0.97,
     "catalyst_label": "Contrato / alianza",
     "appearances": 1
    },
@@ -326,7 +863,7 @@
     "change_since_pct": 0.74,
     "from_peak_pct": 0.0,
     "sessions_since": 1,
-    "last_rvol": 2.42,
+    "last_rvol": 2.69,
     "catalyst_label": "Movimiento sectorial / macro",
     "appearances": 1
    },
@@ -339,7 +876,7 @@
     "change_since_pct": 0.2,
     "from_peak_pct": 0.0,
     "sessions_since": 1,
-    "last_rvol": 1.78,
+    "last_rvol": 1.18,
     "catalyst_label": "OPA / la compran",
     "appearances": 1
    }
