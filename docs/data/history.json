@@ -243,12 +243,12 @@
    "catalyst_label": "Contrato / alianza",
    "appearance": 1,
    "returns": {
-    "1": null,
+    "1": -0.51,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -0.93,
     "5": null,
     "20": null
    }
@@ -266,12 +266,12 @@
    "catalyst_label": "Financiación / recompra",
    "appearance": 1,
    "returns": {
-    "1": null,
+    "1": 7.96,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 7.54,
     "5": null,
     "20": null
    }
@@ -289,12 +289,12 @@
    "catalyst_label": "Sin noticia clara",
    "appearance": 1,
    "returns": {
-    "1": null,
+    "1": -1.02,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -1.44,
     "5": null,
     "20": null
    }
@@ -515,6 +515,236 @@
    "price": 19.25,
    "change_pct": 6.65,
    "rvol": 1.83,
+   "catalyst": "acquisition",
+   "catalyst_label": "Compra / fusión con otra empresa",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "BRZE",
+   "name": "Braze, Inc.",
+   "rank": 1,
+   "score": 77.5,
+   "price": 45.57,
+   "change_pct": 51.7,
+   "rvol": 26.4,
+   "catalyst": "acquisition",
+   "catalyst_label": "Compra / fusión con otra empresa",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "HAS",
+   "name": "Hasbro, Inc.",
+   "rank": 2,
+   "score": 65.4,
+   "price": 109.52,
+   "change_pct": 11.2,
+   "rvol": 4.36,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "LION",
+   "name": "Lionsgate Studios Corp.",
+   "rank": 3,
+   "score": 53.7,
+   "price": 12.15,
+   "change_pct": 14.41,
+   "rvol": 5.5,
+   "catalyst": "takeover",
+   "catalyst_label": "OPA / la compran",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "EFX",
+   "name": "Equifax Inc.",
+   "rank": 4,
+   "score": 52.5,
+   "price": 176.54,
+   "change_pct": 11.33,
+   "rvol": 2.43,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "TLK",
+   "name": "Perusahaan Perseroan (Persero) PT Telekomunikasi Indonesia Tbk",
+   "rank": 5,
+   "score": 48.5,
+   "price": 11.64,
+   "change_pct": 11.39,
+   "rvol": 5.4,
+   "catalyst": "none",
+   "catalyst_label": "Sin noticia clara",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "RCUS",
+   "name": "Arcus Biosciences, Inc.",
+   "rank": 6,
+   "score": 45.7,
+   "price": 23.75,
+   "change_pct": 7.27,
+   "rvol": 4.42,
+   "catalyst": "fda",
+   "catalyst_label": "Biotech / FDA / ensayo",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "VICR",
+   "name": "Vicor Corporation",
+   "rank": 7,
+   "score": 44.1,
+   "price": 204.14,
+   "change_pct": 7.06,
+   "rvol": 2.1,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "HSAI",
+   "name": "Hesai Group",
+   "rank": 8,
+   "score": 43.7,
+   "price": 13.99,
+   "change_pct": 8.28,
+   "rvol": 1.89,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "MAZE",
+   "name": "Maze Therapeutics, Inc.",
+   "rank": 9,
+   "score": 39.3,
+   "price": 32.45,
+   "change_pct": 9.26,
+   "rvol": 2.58,
+   "catalyst": "analyst",
+   "catalyst_label": "Mejora de analista",
+   "appearance": 1,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "KVYO",
+   "name": "Klaviyo, Inc.",
+   "rank": 10,
+   "score": 36.1,
+   "price": 19.61,
+   "change_pct": 11.93,
+   "rvol": 2.08,
    "catalyst": "acquisition",
    "catalyst_label": "Compra / fusión con otra empresa",
    "appearance": 1,

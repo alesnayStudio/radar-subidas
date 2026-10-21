@@ -1,0 +1,977 @@
+{
+ "date": "2026-10-20",
+ "generated_at": "2026-10-21T00:00:16+00:00",
+ "market_state": "POST",
+ "filters": {
+  "min_change_pct": 6.0,
+  "min_market_cap": 1000000000,
+  "min_price": 5.0,
+  "min_dollar_volume": 10000000,
+  "min_rvol": 1.5
+ },
+ "universe": {
+  "raw_gainers": 69,
+  "passed_filters": 26
+ },
+ "score_weights": {
+  "move": 20,
+  "rvol": 30,
+  "catalyst": 30,
+  "close": 10,
+  "size": 10
+ },
+ "top": [
+  {
+   "symbol": "BRZE",
+   "name": "Braze, Inc.",
+   "exchange": "NasdaqGS",
+   "price": 45.57,
+   "prev_close": 30.04,
+   "change_pct": 51.7,
+   "gap_pct": 51.56,
+   "close_strength": 0.89,
+   "volume": 64608302,
+   "avg_volume": 2447365,
+   "rvol": 26.4,
+   "dollar_volume": 2944200322,
+   "market_cap": 5176041984,
+   "pe": null,
+   "pct_from_52w_high": -0.0,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1796760000,
+   "market_time": 1792526401,
+   "market_date": "2026-10-20",
+   "market_state": "POST",
+   "score": 77.5,
+   "news": [
+    {
+     "title": "A tale of two interfaces: Salesforce buys Braze for $US5.66bn, agentic marketing expands; One sees martech slipping beneath the prompt, the other isn't ready to surrender it; Token pricing remains a puzzle",
+     "source": "Mi-3.com.au.",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaHl5QWR2LTVWbllCNkE4UVRkdl9FM2dzcDlnYmlWSURpZGhxeW5KbThfcXhpNHdUVTU4NW1sTWZWM2drTHNWQk0yeW5sQU54YWM1eTZ4WnFuYWpXUG01TE1EUVlfT2NySWp4UG1EWFVoSEFPZHdkQUxwVmtvYVNqMnV0XzdjZmNDMEZ3d2Ffbzl1dFplYTA2dE0wMkJJWkxERWdTQkdlZ1Fyd0wxSVNmcllXNjJ2QVA5V1JB?oc=5",
+     "published": "2026-10-20T21:22:04+00:00"
+    },
+    {
+     "title": "Stock Market Today, Oct. 20: Salesforce Agrees to Acquire Braze for $5.66 Billion: BRZE Stock Soars 52%",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYlJtcVdLWWt5b0xJQ2NndDVjUTdELUN2X3lUcXh3d0RnbXlDUGg2dUhOdG5DRVI4RzFHUjlrUEQ2SjVDOVpORm9YQlBlQXdlcTNUcXIyUDVFdExyYVNJa3lVZUdHZ29jTFd0QzdtZDVEdF9iaFFzdnAzRXhLakhNaTkzN1A0Rl9RVzBLdDNtZElkYWJk?oc=5",
+     "published": "2026-10-20T21:09:42+00:00"
+    },
+    {
+     "title": "Salesforce's US$5.6bn Braze deal ramps up AI marketing ambitions",
+     "source": "Marketing-Interactive",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRVhWRThpbnU0eVRSd1pBLXlIMDZLUkRPbGEyMWFJX1pRLWJYak1CMXpMMHg4ampUenlnZzFYdTV5MEFRM0hNbS1uQXRNdWk5c3hnNEVNcWJkb2dOVDRyQlgtamlTa1Vubkc0TEtYeXNqcFlfZVktZ1Y0SjZEZldzWnMxT09DMHQ1Z1E?oc=5",
+     "published": "2026-10-20T22:40:58+00:00"
+    },
+    {
+     "title": "5 Interesting Learnings from Braze at $910 Million in Revenue: A $5.66B Sale to Salesforce, 26% Growth, and Operating Expenses Up Just 6%",
+     "source": "saastr.com",
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPQ21HTExxcE5EZFJKT21zcUZ0TVVvc3hQdjBUN21rUEx4ZUxNSTdNd1ZvYmZmdFZDaDIyR3NsME9TWFpOd0I0MUZjV3JYMEt2OXVXRzZrYUxWLVhEQkp5R3FDb2JCVE43TDVBTy1yN1JxaEx5czBVRXYyNzRhMnZTZDhjZUtGMlAxc1FRemJPc2M5bGVfVk05a0FoOWRQTjVOQlBZZU9tRU9xWXhzeUZwdHEzSElhYVp2cVdWLWRTY2J6cXdBb3MtcjdKRG95SkdlampJWklPVFJQWkZsY1d6TnB6ZE1VZXk2SXc?oc=5",
+     "published": "2026-10-20T21:00:00+00:00"
+    },
+    {
+     "title": "What Does Salesforce’s Braze Deal Mean for Marketing Cloud Customers?",
+     "source": "CMSWire",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeEY0SU9pVVRlMmUzWWpSRTR2NDhjazV0dUJiTkkxZEc5N1Yza3p1UDM4U0FJS2Mxbm5zRTdGZDlIQTJfTHlKWUloY0NsZ3FfV2I4LUl3ZWNOV1haZEdXX1IwaF8wZjRuU2RSX0p3TjE5dGlZTG5sVE1tVm93OTIxczRuM2RRc2VlbjZfa2t1VFJQYXp6Zk1wOEsxUUJOam5WUXZlVFdMS09JWFJuUldhcw?oc=5",
+     "published": "2026-10-20T20:58:13+00:00"
+    },
+    {
+     "title": "'Not ready to applaud this acquisition today': Dietze on Salesforce acquiring Braze",
+     "source": "BNN Bloomberg",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOakhPVXF1aWpIOFJSNWpWbU91UHFFaExYeVRGdERzak5zMDdqODNJQ1Nkalk0cllCZ2ExdXVIOS11OEpGMVhXN1JYbHhscnJ3MFpXNl9icU1yelJrbGJWT25yQXg4b2s3cmJQa1dVWTVFTHcxbUtkZlhCMEV5dm56UjVZLXNaWk5Hai0wQTVpVmRDNGRIWWtjYlJvaklxVVVKRlZ6aVM4UmNxMnpUMTd3Uk9qOHd1UGh3c1hfS1FfeTdKbFdxTW5OZFhxS2w1Ylo1UHZKTThIQk1fQQ?oc=5",
+     "published": "2026-10-20T20:40:45+00:00"
+    },
+    {
+     "title": "SpaceX, GE Aerospace, Micron, GM, CoreWeave, Braze, and More Stocks That Explain Today’s Market",
+     "source": "Barron's",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBleUVzUDRycy1NVnFrck9XZ0VKQlVYOWRBQ2hlYUI0RDRGNGtBMXZVbFMycHVIWmlNRzRBa29YWHNHNXRvaEc5YzVCLWl5ejFqaC1ZeFJHb0R4VERpUDNrRmV3dVY?oc=5",
+     "published": "2026-10-20T20:33:00+00:00"
+    },
+    {
+     "title": "Salesforce Deal Lifts Braze More Than 50%",
+     "source": "Newser",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQejFGMlp5M3FnNkhzcmVhcUVoVnA5eFdSYVlfV2VMaGxNZU50TG9CdnJ1czMwTXJ1bzQ5cS1nRm0yOFl4UU1lZTRuLTNvOURmQnVpRGQxbkxIRjdYeG1zQldCdUYtQzVFanBXRUxnUlFsbWc2N1dGLS1YY2VxTHJyTFhEY1FqYTJ5?oc=5",
+     "published": "2026-10-20T20:29:00+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "acquisition",
+    "label": "Compra / fusión con otra empresa",
+    "quality": 0.5,
+    "note": "El mercado premia la operación; vigila cómo se financia y si la aprueban reguladores.",
+    "confidence": 0.6
+   },
+   "score_parts": {
+    "move": 20.0,
+    "rvol": 30.0,
+    "catalyst": 15.0,
+    "close": 8.9,
+    "size": 3.6
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "HAS",
+   "name": "Hasbro, Inc.",
+   "exchange": "NasdaqGS",
+   "price": 109.52,
+   "prev_close": 98.49,
+   "change_pct": 11.2,
+   "gap_pct": 3.97,
+   "close_strength": 0.97,
+   "volume": 8007351,
+   "avg_volume": 1837529,
+   "rvol": 4.36,
+   "dollar_volume": 876965082,
+   "market_cap": 15447189504,
+   "pe": 19.592127,
+   "pct_from_52w_high": -0.0,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1792499400,
+   "market_time": 1792526401,
+   "market_date": "2026-10-20",
+   "market_state": "POST",
+   "score": 65.4,
+   "news": [
+    {
+     "title": "Hasbro Races Past Go As Profits Soar, Leads 10 To Best Stock Lists",
+     "source": "Investor's Business Daily",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2pIajZ1d0M0WGdyV0hoQ2xieEhoSWt5TEtxc0ZkUDNsZFJsUjRDd0d0endLeHFLbzRqYXhqSGFmMzg2aTBtb3JxVEdSLU1uaWctU21HLW9nZmZqYkR0ZHZDM2hLTFp0WVpOTTNBbGhwb3R1SllBejY4WGduRjM1SGFDY2lKWUE?oc=5",
+     "published": "2026-10-20T23:08:00+00:00"
+    },
+    {
+     "title": "Hasbro (HAS) Stock Jumps On Q3 Earnings With Wizards In Focus",
+     "source": "Simply Wall Street",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSXJxUXRXZmNFMWh4b0RwSTdUaXNPdGJfYVlWVld0SDJ5aVpIclpVWFJLY2k3WGFjekpLOF9EclpYdVVET1Y4MC13QlZiXzM0RUh0RWd3a19idnZTWTNZMTZJN21mOG1oeVJ0RGEzaFh4M1dfRWpUR2JpTDA0YnlRd0xXcXBGVEVNUHVtVjAwYy1YZ2lfcWFQOWstUVVCT0k4NU5EaDZtdndJWDBoelg0R1dvVzRiMVJQemU1UXBqQXJ0M1gyTE5Qc2Z0Y2TSAdIBQVVfeXFMTk1kNndGRGxXZk1XSjNQMGtDRWUzUHdrNlE2QWFWQUZGYUU2NkVkbEthU3dacXB5Z0pxMkJzODd5WGd6YmZBSHp0bkNNUVdZSW5sWWpvVVkyb0tpdktuRjdhVTlxOGpGRE9XMGFWemZNRDhOaHFHdW5jclU2bG1uejM3LUNSY3RMX0Rmb3BTVnBVRkROYXNWMGdJMmlva0ZvMG5yOUwtMEtCTTdGczhndzhubllWT0Y4T3MwcVdFSDI0dG1HRWUwd2M1ZXZZQjVfMllB?oc=5",
+     "published": "2026-10-20T22:53:32+00:00"
+    },
+    {
+     "title": "Hasbro earnings analysis: questions answered and next catalysts By Investing.com",
+     "source": "Investing.com Nigeria",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa1k3X2lFQTdoMDJYN0RtVTgyWThTOU4yMjlTWGtTS2IwSnYwNFlnSWtYbDNqQnNlckpNV0hZX0ZnYUpUcWdESHlNMndQdC1hc1FaQ0JER2ZKdWUza3BzQ3QyOHZmQnZCSkQ1ZDFFMnN2Y21TQU03OHpHTHRmVEdMOFl5VjBteUVHeXVKc2F1QVJFaWY4NFBpZ1pTNWplSndwY2hXQnk0ZTVKVXpndGppZXdyc0pBRlpPcFNZMnVoRUc?oc=5",
+     "published": "2026-10-20T21:04:19+00:00"
+    },
+    {
+     "title": "Target vs. Hasbro: Which Dividend Stock Pays You More in 10 Years?",
+     "source": "TIKR.com",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZ1AzNUpyeDNoblk5YnNrUXF6MWQya2ZTT3QxajdfN0JIM1Q3RnNnMEp0U1NRekltODdETV9nbkE1bk56eDNOMTVoVXBoOEo4RGNSOEg1QkxkUDR6ZFM5ZlltSUNFcjd6NllxTkhZdlR2VmJlUUJQUU01NVRtSTBGQzY5ZXJUcGNKSjF3T1FZTXNvRkE?oc=5",
+     "published": "2026-10-20T22:55:45+00:00"
+    },
+    {
+     "title": "Why Hasbro Stock Jumped Today",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObjQ0NlRCUm9US1hiN0JwOTFpcUlaWDdyb3g2QWcwQ2hFaFhLLUs1Zk8zcFZlS2xvYlBOT1ZjX2ZaTmVIN1FiMnFQWmVTR2NIWVJmbjBhVllNTlZMdXZwbk1JZFFVSTZ4Rmdrb2lKRXVIX01MWGppTXRHTE40TFBPVUc4dTRqc1prMkpzLW1PRlJXemRxZVhQUllR?oc=5",
+     "published": "2026-10-20T22:32:47+00:00"
+    },
+    {
+     "title": "Magic: The Gathering is driving growth at Hasbro",
+     "source": "Marketplace.org",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeG1YNUp4Q1VZNVlETktZam42SjRUWHRVdkkzNXlmb01zd3czbEcyMVhDLXJVUDdDSjQ4RlpsSnhjenVNVVFqTjJoUGZjZW1EbmxPV25BLS1GWTBKUHVEWXdqd2wzTkZVS202NmtvYTV3bWt1TGdweVJNd2dhU3BrdzR2ZXAwNk1PWHZJN2o0NGZQUmZUc3lN?oc=5",
+     "published": "2026-10-20T22:17:54+00:00"
+    },
+    {
+     "title": "Hasbro Inc (HAS) Shares Surge 11.2% -- What GF Score of 69 Tells Investors",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOXRINy1zTWhaMFZBdlZNbHZSN0k4cWNyMndNRGM4WjJ2aTQ4NzNZWWJITGFqbUR2MVNRZ3F5dmVYajEwWDJ5ZFNXcUloWU9CemlfYmhzbTNvTWt1OS1ka1pQZE04UTJwY09QZzFvX2pnLTY4aVpTZ0JrdVlSSURVbHVXREktdWNYN2g4Q252ZnBFWVd4aWlmdjlBQzl4X1h4SXNhV1J1bEYtZw?oc=5",
+     "published": "2026-10-20T22:10:51+00:00"
+    },
+    {
+     "title": "Most US stocks rise following strong profit reports from Equifax, Hasbro and other big companies",
+     "source": "Charleston Gazette-Mail",
+     "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPYVIySW02SkdfQVNQU3REajFsdGttTU5PYkZkRXJRU25iUEFQZGVVWERXYjZoUW1pNFFnMV9xSzlqeEZsUVVzZ0VLdFNlRW1XSmF0NnBsVWFYdU1oUHZJb014RUpjSFhINGRaZEJFdGZrMC1jMGhBemUtZkFyNjAyTC1HQ3FKYVI0MGRJNmJuUjhrTWl5Y2Y3YUVuRDFORGdkdVRxc01hdTN4eEx2TllLSG9IaWp4Zkcyc3hDZGFDMlVLUURyTGFlcExiOVNBcUlNQTk5NEJQLXdnS0hNSEhUSHhWMG5zOWVqSndiM0o5UFhpU2RRdGhaS0FOTFBsN2RBZXBVZDNESlREcXBpdmpiaEYwcWdHQQ?oc=5",
+     "published": "2026-10-20T21:45:00+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 1
+   },
+   "score_parts": {
+    "move": 5.2,
+    "rvol": 19.1,
+    "catalyst": 25.5,
+    "close": 9.7,
+    "size": 5.9
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "LION",
+   "name": "Lionsgate Studios Corp.",
+   "exchange": "NYSE",
+   "price": 12.15,
+   "prev_close": 10.62,
+   "change_pct": 14.41,
+   "gap_pct": 0.19,
+   "close_strength": 0.68,
+   "volume": 14345836,
+   "avg_volume": 2606276,
+   "rvol": 5.5,
+   "dollar_volume": 174301907,
+   "market_cap": 3615350016,
+   "pe": null,
+   "pct_from_52w_high": -0.27,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1793908800,
+   "market_time": 1792526402,
+   "market_date": "2026-10-20",
+   "market_state": "POST",
+   "score": 53.7,
+   "news": [
+    {
+     "title": "Legendary Reportedly Submits Lionsgate Takeover Offer",
+     "source": "Media Play News",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQR1dXV2pRbzFHa2R4Z3d3dmg1eHdRNGY5MmhHbjZ6eDFoOWlMZlliaXl6dDkwY1V6eWpOTXk2djdYRm82MU4yRnZ2NTNqT3Yta0NJUmEtODhFZFRVY2NhX0FSekw3WlRMTjhMMXpQNWQ1bF9oY0Y3UWs0VEpIVlJyOWQ1RjlBdW9pdzJ4dA?oc=5",
+     "published": "2026-10-20T22:28:47+00:00"
+    },
+    {
+     "title": "Legendary renews Lionsgate Studios interest with $3.5bn takeover offer",
+     "source": "C21media",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQ0NYTHU3TzhiZGlNZHg4ZWh2WlYtdlE1bFplMlg4Wmd1ZElzLWZuaU1Ua0RCNkg3NmR2TXc5X1Q5ZGlTMDJXb0VKQVk5d0x2S29hNG9PbkZydVN2VGx1aDJydi0wYWJ6ZHh3RUM1by1kUU5Vc2JCRUE1WEtaMWt1MTBMU2I4ODVyRmJZeU1qX0hubDRIczdycjNheDZ2N2J2eUE?oc=5",
+     "published": "2026-10-20T19:53:22+00:00"
+    },
+    {
+     "title": "M&A News: Lionsgate Stock (LION) Jumps 14% on Reports of Takeover Offer",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNd05sQW5XTWxWVkV6UEk1NFBJajNYUUs2TGx6TmRBV05zelpaMkRhMkZuUHBFWVZoU1F2WUloSlQ4R3h6eFpCX0NtZFd6SDl5X0JFZ2xvWE5hWWJTb1l4Ny1QeFNySDBJRkNuelBoR0dHZ1ZPVk5INEZDM2VqSXV5RjJIY0U2SXJuRmhiWkI2djdvd3JjeWZ4RWU5UWw?oc=5",
+     "published": "2026-10-20T19:49:31+00:00"
+    },
+    {
+     "title": "Lionsgate Studios Stock Jumps on Report of Takeover Bid by Legendary Entertainment",
+     "source": "Barron's",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSzdnSjRSSlVDcFUyaU1GdFA4RnRwWU5wUWVvMXp2aHlJQUNyX0pDbEpNT3RYbXpJT19MeGFyeFpSWV81YnloaGczaGpHc0Q4am1vUm5vN2N3OWRRakRJT3dhSGd2UXNacU5MZmo4c2J3U25YeGhrQjJlcloxY0VCb1ZXMnJzS1cwLTBTd0tuY3hTbXhO?oc=5",
+     "published": "2026-10-20T19:36:00+00:00"
+    },
+    {
+     "title": "Legendary Entertainment submits takeover offer for Lionsgate Studios",
+     "source": "Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOb3RySlNxQUt5cXY4azlNbXp6dTd1T1FBSVB0OVo0NUVyZTNRYmZidUsyM054Y3JrLUVXOVl0UnlMY2ROVmZZOWtrRmZxdFEzVVpEOUc1cTlNTkQ4bnNYVlVQNHBZQXp1TVpYMWl6dV9IYlNsbUpSMmxaeFUtT3VPeVMzZ08xdWZhQW1KeHdGYnEyOGZYUVlEVnUyUzZiUQ?oc=5",
+     "published": "2026-10-20T19:11:41+00:00"
+    },
+    {
+     "title": "Lionsgate Studios stock rises on takeover bid r...",
+     "source": "Pluang",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSXhtbnhfaXd3ckZuSmVDT001Mm5WUmlWUTA2MEJiYW44SmZGbmdlVjI0STZwazh4N2wyYk9RWTM4RzVvb2NpWndPUVhidjB0bGRFR1BNWkROaUdBOFk1aFZscGJvV2ZZa0NNTlhQcjBKVEJMaWl1UFVrLUpCcllsV1ExMG9aWUE3RHBUUnZjRnFXTFVUZjFNbHhQcjlwUWhwWDBQeA?oc=5",
+     "published": "2026-10-20T18:35:07+00:00"
+    },
+    {
+     "title": "Lionsgate Could Soon Be Sold",
+     "source": "| Cord Cutters News",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lck1HcHhqNk9mS05IUTJtaTNKVjBmbkpFcmRQM1lqTWJfVXUzSHYtUjNUM1lBSEpDWUxyY2UyQ0Jla21qbkVTTmg0b1NZQnlwQ3JvX01XcW9wdm5EMUJBLVJNZ1FBZmJH0gFwQVVfeXFMTVpsUzk3SFUtZElxVzFiWTdUbnpCSmFjNUg2N1lXelB0QW9mcHpNTW1jeEZ4dzFaZjl1bjBPdjhjdGF4VVNuRGxzVG5jQm43SFR6bVBBYnBQRjJ0YmtEeFN3cHlmdjduRUR2TTctR2F2Rw?oc=5",
+     "published": "2026-10-20T20:42:49+00:00"
+    },
+    {
+     "title": "Why Is Lionsgate Studios Stock Surging Tuesday? - Lionsgate Studios (NYSE:LION)",
+     "source": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRzFRN24wa2paQzNmeEhLekNObHNyZTFfZlQ3cXVzcWlwdkdCbmRZNk83V1dBX3NnS1l6dVZGWmxhZU03dVR1MlkzTW1FZWlkQmxfMy04SEZjYmhOSDd0QW15T2IyY1NNbnlXRFU4S3JGeG9oMEVsZlhzakg4bEhtbzJLU2xpYkE3NlkxUVdnVmJRZEp6WGo0WVFPeC1DWXJ5UmhmcjNUT2wwWTFGMFE?oc=5",
+     "published": "2026-10-20T18:51:57+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "takeover",
+    "label": "OPA / la compran",
+    "quality": 0.3,
+    "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
+    "confidence": 1
+   },
+   "score_parts": {
+    "move": 8.4,
+    "rvol": 26.7,
+    "catalyst": 9.0,
+    "close": 6.8,
+    "size": 2.8
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "EFX",
+   "name": "Equifax Inc.",
+   "exchange": "NYSE",
+   "price": 176.54,
+   "prev_close": 158.57,
+   "change_pct": 11.33,
+   "gap_pct": 4.75,
+   "close_strength": 0.89,
+   "volume": 3985790,
+   "avg_volume": 1643212,
+   "rvol": 2.43,
+   "dollar_volume": 703651367,
+   "market_cap": 20740782080,
+   "pe": 31.080986,
+   "pct_from_52w_high": -0.26,
+   "above_sma50": true,
+   "above_sma200": false,
+   "earnings_ts": 1792499400,
+   "market_time": 1792526402,
+   "market_date": "2026-10-20",
+   "market_state": "POST",
+   "score": 52.5,
+   "news": [
+    {
+     "title": "Equifax (EFX) Reports Strong Q3 2026 Results and Announces Strat",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUldxVzh2ZUF0SlY4Q0FSQi0zRnVRWWdhOUVJZnZmRVJmRm9JTnZjMHJBdUFydC0yUkEzeGc5cHFwLUdHUk9zMVpDVmhkQllLMHJiSzhOR2FPSVBoSFJnLVRNWUJuak8xbElDX0NrY0RxZGMzd0Vac0k4ZnhJM00wUWhxeC1Tc2lYVGJKeXg4VkloMmM0R2c2OHluNnBndVphbWxsUlZocDUwR0NtazBpT2ZuQUlKUzBW?oc=5",
+     "published": "2026-10-20T23:03:06+00:00"
+    },
+    {
+     "title": "Equifax Inc (EFX) (Q3 2026) Earnings Call Highlights: Diversified Growth and Margin Expansion ...",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMV9aTmlrN0xGZzdOS1lEVDBDaUp0dEZaV2FrN2I4bnh0czk2V0gyem1aVVJzbnFHd3RLQXJYcTljdFhiUDNZeVhTUnpwcnZranp2aWJEZHRzZzVvTTJWWERvWVczTU1ZaVZOaVhzaUlwVl9HNFFxaFFQeVNnd1U5cFpoU2hFNTlrTktUUENRRzFPQQ?oc=5",
+     "published": "2026-10-20T21:01:37+00:00"
+    },
+    {
+     "title": "Is It Too Late to Buy Equifax Inc (EFX) After 11.3% Rally? GF Va",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOTYxQkZxMEhnUldaMXNadWNzOFBRcC0wUUdYYkhBbHZLTnFrOVNPMkkyWjVSQlMzYUUxV2lNajFfOWhOOVEyM2RyQnJEZS1mUG1wTkV3SVRtemRsc2p6Vk5BdXJQeVBnSVZDVnctWWR5V0ZoUThsbzZQd3Nqb1FnLThCVmxiMWpRSjN0V2I3MmVqdERLcS15YmwxMl9vMng5QkVsV0puU3pPN2JjVTBVa29raVpMWF8xMnc?oc=5",
+     "published": "2026-10-20T21:56:15+00:00"
+    },
+    {
+     "title": "BMO raises Equifax stock price target on government growth",
+     "source": "Investing.com",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONVcyaTktRnZKTFZwX2RlS3pRWjBzUmZUb3l3TU5UMDhnNUtqd191cE5ncENjblJteFVSMnAwMEQ0S1dDZl9rcE5BZkhpclpEUE1ZU2xjUGRSNTdVT25ibW14Z1ZmNHJ1eS1ZSzN2MG45ZUZoYkN5SXNFeFB0Z1E1SncxQndvb2JOOU5fa29hZGlaVU9NWlFjY3VpZGROTlY4YXJFajRjZDNBYkFpcTJXLXo1eTBTTjFnWkE?oc=5",
+     "published": "2026-10-20T21:33:49+00:00"
+    },
+    {
+     "title": "Most US stocks rise following strong profit reports from Equifax, Hasbro and other big companies",
+     "source": "Temple Daily Telegram",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc0ZOWG5JcThrd3pObDlidG5QYlFnUWliRG9iZUwwVGdQc1A5cTNuVmhUVUs5U1ZQOEVRREt2eWNrWW1iSi1YX0xxaUJuUEhRR0lILW5TUzFJX0FtUFZCLWRFazlsYlUwQmozOHh1dHl5dTh4c3NHWGZYeXpZRWQyc0N4cmU?oc=5",
+     "published": "2026-10-20T20:50:00+00:00"
+    },
+    {
+     "title": "Equifax Stock Climbs As Wall Street Cuts Targets But Backs Growth Story",
+     "source": "Timothy Sykes",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBvYUF2LXdMMzl5QVRjcUw1ZllOZ0V5Zmc1a0c2bG84VVdoSVRkZXRPc2lZV3U2QnNRQmRlTnNhM2tpanhmTXVGelJMb2hUUmZhM3FTcnJLVnVFakNKYXNPN0t4Vk5aT21Camx6X1prMF9SXzVzYUFj?oc=5",
+     "published": "2026-10-20T20:47:00+00:00"
+    },
+    {
+     "title": "Merck & Co, Equifax among market cap stock movers on Tuesday",
+     "source": "Investing.com",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWGtuZVhONXRuQ2szZkUtN3cwa3VNRzRlWXBmRDJ1NE45NW0tcklsVk9jS0RyTUM0V19Vb0tBNHFPbl82cGg2Q21GZlZ2bVFkQnhzUmNJcFVuQlBKSlVHeXBOVlZ0VlJsbXBxWEV0SnJxTXU1b0h4TGMycHhoZmtRZEhyZjNSbWxRSjVWamhNV3RFWVlWRkJteGR5NWNlQWtnalZqZ1hiRzdheGEyV3BiRkROY3lucjh3aVRDdQ?oc=5",
+     "published": "2026-10-20T20:30:59+00:00"
+    },
+    {
+     "title": "Equifax Inc. stock outperforms competitors on strong trading day",
+     "source": "MarketWatch",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa25TZzlTWjJLSUxWT0piWWhfY1ctclNZRU8yd19rZmQ0cTc2VFE1T1ItcFBYMWotMHFPd2xqSE1IWFBLSVhEQ3VGNG04VHpZMDZ5SzRmMmZKNnEyakNVbzRSTDdNV1FwYlJjYlZwWi1WTVY2Qy12WmJQME8tSG9ROWcyUTk0RWNjazJUaEdCdDRMSHgxZDhnbjZhWHJoUUJzUFFWcHZjU19iS2V5dkVsVndwaEMzM1MteVlNWWdXem0?oc=5",
+     "published": "2026-10-20T20:30:00+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 1
+   },
+   "score_parts": {
+    "move": 5.3,
+    "rvol": 6.2,
+    "catalyst": 25.5,
+    "close": 8.9,
+    "size": 6.6
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "TLK",
+   "name": "Perusahaan Perseroan (Persero) PT Telekomunikasi Indonesia Tbk",
+   "exchange": "NYSE",
+   "price": 11.64,
+   "prev_close": 10.45,
+   "change_pct": 11.39,
+   "gap_pct": 8.13,
+   "close_strength": 0.88,
+   "volume": 5966521,
+   "avg_volume": 1104334,
+   "rvol": 5.4,
+   "dollar_volume": 69450304,
+   "market_cap": 11474822144,
+   "pe": 11.300972,
+   "pct_from_52w_high": -0.51,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1793304000,
+   "market_time": 1792526402,
+   "market_date": "2026-10-20",
+   "market_state": "POST",
+   "score": 48.5,
+   "news": [
+    {
+     "title": "TLK stock last closed at USD 11.03 before Monday trading",
+     "source": "ad-hoc-news.de",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUXZpeDMxeU5yNy1YNGI2MGxJRThzd2hMUmRXckpyVjdzY3llYTE3THlKVzBNbEhtNDFFZy1zM3JtNW1ZcWl6ckstZUhaWnp2OFB5c3JlRnJmeFpNTzM4YnlRaWVEVFRsZmpLQ3ItNGZUT3VOdU4zVGdFVllDNEF6Rk42Vy1TbWZaTDVyUG9nc1ZsTms2R1JiNy1rQ25iS1hFUk1adzA5WlVtclJMdFNPQS1NQVA?oc=5",
+     "published": "2026-10-19T06:33:00+00:00"
+    },
+    {
+     "title": "TLK Stock Plunges As Telekomunikasi Indonesia Leads South Asian Decliners",
+     "source": "Timothy Sykes",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNnQwWDlHbjR5Sjh4REE2Q1VZSXgxdWlJTzQ4U19xQUNTR1UtMnJ0T015MUxKSmp3MWJnYlBtUV9lVTQxdlBLaDVKSm12VGoyU0Z5NEJlMnpHUGkwcmRCZDlJZ2Q5amdpYVhIQy1vNmp0R0pzVUtrcmwyQ2ItX3NteUI5SlZHZw?oc=5",
+     "published": "2026-10-18T14:04:00+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
+   },
+   "score_parts": {
+    "move": 5.4,
+    "rvol": 26.0,
+    "catalyst": 3.0,
+    "close": 8.8,
+    "size": 5.3
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "RCUS",
+   "name": "Arcus Biosciences, Inc.",
+   "exchange": "NYSE",
+   "price": 23.75,
+   "prev_close": 22.14,
+   "change_pct": 7.27,
+   "gap_pct": -3.97,
+   "close_strength": 0.75,
+   "volume": 6232057,
+   "avg_volume": 1410823,
+   "rvol": 4.42,
+   "dollar_volume": 148011354,
+   "market_cap": 3024167680,
+   "pe": null,
+   "pct_from_52w_high": -0.25,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1793131200,
+   "market_time": 1792526402,
+   "market_date": "2026-10-20",
+   "market_state": "POST",
+   "score": 45.7,
+   "news": [
+    {
+     "title": "Arcus Biosciences Stock In Focus After Kidney Cancer Trial Update",
+     "source": "Simply Wall Street",
+     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOZXlOY01KTGUwaElSSmhHdUJkbWl6MnN3R2p5eUZKOWQ4UENWS2c3TWwwWnB3RF9GdmIwREtOMXRtb0RSdkVKNFJOMlNmdmhjZlRSZ05WZXg5OV9OcGNnX21MOTNTbmFqX3BxNnpLWUo5OVVNUGtsb1J6VGV6ODloYkFYMWdsai1qREZXMmNfZXpMQm82aHM5WGhrdVU0Zk41bXJLYU5JZXlCSnVQcXZ1RE9temgxTXFSQmRmY29pMlN4YloxWnIwOUNtQ3V1VEdWM29kbjQ0aV9uOEtLTWt1bTF4b9IB6AFBVV95cUxQRlNjZ0Zoa1IwRjdLcXZqUVEzZ2FWZlFRamF2aDMzSThoU1pWM3dCbnV4dzB4LWc2R1kxZ2szM0ZKM2tCZ0RPd3puS1psUkdrT2JrRTlpcktTaVhFOFRpU2U2ZW5ST1ZrNG13bjNyZzV5eE1qNHg0MUh0eV9KVTZwZ3Rra29RS0JKU0VDZ0QyOUxJMkZodXhaNXNZY29ha2xyc2FVTXBmbF9fcC1rYzBlOUlJY3Z3LUZOZW02OG1Nb1p5Q2lyTDBEd09FNVgtZWpiY1JQYXJRZXhqeU5NdkZWTjhqS0VnT3pR?oc=5",
+     "published": "2026-10-20T21:53:56+00:00"
+    },
+    {
+     "title": "Arcus stock tumbles 6% after unveiling casdatifan trial data",
+     "source": "Investing.com",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/arcus-stock-tumbles-6-unveiling-133148074.html",
+     "published": "2026-10-20T13:31:48+00:00"
+    },
+    {
+     "title": "Form 8K Arcus Biosciences Inc For: 20 October By Investing.com",
+     "source": "Investing.com Nigeria",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMEotOVVGZC1FSXl3MnpMbGV2d1dDekNxeXNjelQtSm5NN0JpYzdEVUtPRDdNZHpKWnJPaGNBRWZPU1c0a2lpdUFmNmgzWnNLSlJRSWs5WWU3ZUx1Sk1PZjlVQWNqXzktSG43LS1BM0dxMW0xT1V4bFRsdGdHS0NwaHh5R2JfbmpxZlRPVjJ6enVRbWdDaWx3X2pBNGpSRTF3M000VW1XWkc?oc=5",
+     "published": "2026-10-20T20:34:58+00:00"
+    },
+    {
+     "title": "Arcus Reverses Course, Surging On Its Merck-Rivaling Cancer Reveal",
+     "source": "Investor's Business Daily",
+     "link": "https://finance.yahoo.com/m/3a7f9e65-b0e3-37c0-aec6-fd4016650a96/arcus-reverses-course%2C.html",
+     "published": "2026-10-20T20:29:37+00:00"
+    },
+    {
+     "title": "Arcus Biosciences (RCUS) Shares Rise on Promising Kidney Cancer Data from ARC-20 Study",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTUoxazA3bG13cVRvTGk2cHQ0dTE3UktMVTl1VFVCLURlQ3pvZGxaOGY0LVRjQU9DVDNVRk9mekQ3VldCVWYtRGgya0syeEp1eUpkZjdRYlVMTW9xcV9wX0xpWUJFaDNNQW90MXNpSm01VHlpcUVpZDdIR21TNDN1T0FjTU84VVR4Wml3eTdacnd5VjlnbDM1Sno5ZzJyRUdKaWVwRS1OUndRLVdQN2dzVGROdnltLUpyUENLNC12MA?oc=5",
+     "published": "2026-10-20T18:07:44+00:00"
+    },
+    {
+     "title": "Arcus stock rises on ARC-20 data for kidney cancer drug (RCUS)",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTW9pWldFMzhhakhhc1MxYVhOUEZHZ29EclAyTzVnUHoyVXpmTmhpS0V3RlJTYzJDRkhYaE1HQkdIZmdxbjZndW1JWHJ4WG1kTkU1MFRjbHNqOWVTWUo1Z2JmX2lMMExDcG0wemdpd2pnMmdkQ0ZZQ3FRaHJyUUk2MmFqb3o5X3E1bVhxUTEybw?oc=5",
+     "published": "2026-10-20T16:16:57+00:00"
+    },
+    {
+     "title": "Mizuho Optimistic on Arcus Biosciences (RCUS) After Casdatifan D",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ3RHMjZqc3d1enBPYkRfSER0aV92WW95dWRjTmVpYnhXRUdlM0dVRVJXcWNIQjRaNXlkTDZZYkUtTmNHeTMyUTZTdU8yRmloM0JSOHJDLWdzUUtxRnpQS0Z1Y0lyYnp1Ni0zMGRwdk5fS0VWUGhmWlVqVHJ4NWozN1dBcXlpSjFOdFJLb2pQZnNSOWVGaXNHOTYwVFBWbkFPdTlTX0tKRmFpcGRfRHhB?oc=5",
+     "published": "2026-10-20T15:49:15+00:00"
+    },
+    {
+     "title": "Arcus Biosciences stock holds steady as new ARC-20 kidney cancer data",
+     "source": "Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPczZzMGNBMk9RTGZkNUdPUHFsTXNPZ3hJMnRONlFWS3FtclB6a3drTXVxUktlNHltV1ZqNVlGemNfRnJzN3RCU3FFVGdRSWRjd1lvNUpDb09sMHR3X29QcGVleW56NjFmTkI3TEhFbDJjMmU1TS1idG1XcHRGVmZuX3k0ZmpMNllfeTNTbkxnX05LcUo4?oc=5",
+     "published": "2026-10-20T13:37:28+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "fda",
+    "label": "Biotech / FDA / ensayo",
+    "quality": 0.5,
+    "note": "Muy volátil: puede revertir con fuerza.",
+    "confidence": 0.5
+   },
+   "score_parts": {
+    "move": 1.3,
+    "rvol": 19.5,
+    "catalyst": 15.0,
+    "close": 7.5,
+    "size": 2.4
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "VICR",
+   "name": "Vicor Corporation",
+   "exchange": "NasdaqGS",
+   "price": 204.14,
+   "prev_close": 190.68,
+   "change_pct": 7.06,
+   "gap_pct": -0.36,
+   "close_strength": 0.86,
+   "volume": 1968762,
+   "avg_volume": 938076,
+   "rvol": 2.1,
+   "dollar_volume": 401903075,
+   "market_cap": 9412228096,
+   "pe": 65.22044,
+   "pct_from_52w_high": -0.47,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1792499400,
+   "market_time": 1792526400,
+   "market_date": "2026-10-20",
+   "market_state": "POST",
+   "score": 44.1,
+   "news": [
+    {
+     "title": "Vicor (VICR) Stock Jumps As Q3 Earnings Fuel AI Royalty Debate",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQckt0NVpIZXhweWNrbi1yTy1SSGJlTGdhcHVLQ3Zka2lpdkM0b2dLbEhjVS1kM1pWZGo0T2JLY0FZMi16VEhONi1zRkdpb3JOdVVkd2hiVUVaVTdCMWRKaXB3UTJkVE53N0RjbC1jeHFNemoxUV9zcW5RNVJyOUI5Q2tBdk94WktFVHROaWd1WE5tNkZ3?oc=5",
+     "published": "2026-10-20T22:14:05+00:00"
+    },
+    {
+     "title": "Vicor (VICR) Q3 2026 Earnings Call: Royalty Growth and Fab-2 Expansion",
+     "source": "TradingKey",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1qdFg2a0FvZjBMc1JRMDhBZll0b3ZYUi1EWV9XLV9sNkI5dUtCMXJ4aEZwSW50c0tiSzNnNXZoRmRCQkpIbFJvRkliWWtEbGo4MkZ1RENCRFFaVDRBUnZLYkFUMHNXX2hzOXJqVnd6cHdVUQ?oc=5",
+     "published": "2026-10-20T20:02:59+00:00"
+    },
+    {
+     "title": "Vicor Q3 2026: Royalty Revenue Triples as AI Licensing Kicks In",
+     "source": "24/7 Wall St.",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaEE3VlJySjBkdEt4VV91MkhTNTY5RTR5dWVkb0NxanFzRGpWdW1JQTBnUkhhQjJZaG9JMXYzcEloRGpvTlR6M3JUTXl1UUFFZk1JZmZWTHNRVllPMlFFUndOcS0zZk9vV21saWdFUXJJOFlPcG80ZFo4dVNuR0JmQllKcmZ3ekRvbHc?oc=5",
+     "published": "2026-10-20T18:48:15+00:00"
+    },
+    {
+     "title": "Is Vicor Corp (VICR) Overvalued After 7.1% Rally? GF Value Says",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbDFLWEVqeFFtYndmYnFnQTJmeVFpbjlObUxuZUJFYXhfaDdPZ3lKZDRiWk1BSTc3aVIzMTJ6MlRkT2pxRHNnSXZqT2N2ZU5OSTQxRUY3ZVllbFBHQXAwOWp1SGJ3RmtjMjdFd25VcFQwbUh0Zm1hdFFuUWxvUlZYNkh6X3c2ekFoT0h4bXduUWlod1U5elVXQTBMTnRRUy1nLTIzMHBDeThNcG44?oc=5",
+     "published": "2026-10-20T22:32:13+00:00"
+    },
+    {
+     "title": "VICR Stock Whipsaws As VPD Royalties Reprice The Story",
+     "source": "StocksToTrade",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05dmdiVEtobkFWazg0LW5hdFgwNXU4dllEQ3BiV2VUUVZieC1TWkZjVWJnU0pZWU9rU0RBbUQ1cWJkVExnbWQ5bERqSUlGVy1QLUhZbEFmZUdWbndWQ3VhbUNaY1g0NGNoTURTc2tiVkQzVFhLVmh2Z29n?oc=5",
+     "published": "2026-10-20T20:48:00+00:00"
+    },
+    {
+     "title": "VICR Stock Whipsaws As VPD Royalties Rewrite The Story",
+     "source": "Timothy Sykes",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1seU9kcmNLeEYtQzhZOXk0SmhSazRHemRjVjdOaExTZ3VuanRvYTNXeFVDR0tRakU5OWhpQ3NvMmJReDJvVjFXZVJYT1Jua25tWVR2cE45WUIzWUZlNi04WS1hSVZSXzEybk9nUXZsSVphN1c3SWo1b0s4a19Xdw?oc=5",
+     "published": "2026-10-20T20:47:00+00:00"
+    },
+    {
+     "title": "Teleconferência de Resultados da Vicor (VICR) do 3º Trimestre de 2026: Crescimento de Royalties e Expansão da Fab-2",
+     "source": "TradingKey",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBHZkQ3R04xOGhlaFBkZ3FMNXZXMmFkTHFPVnQ1eU5rNFZ5alZvNEo0QUNEdTlBTThXN2pUTFFIek9jQzVUek1yUUk5Y1VuS2xLMExxRW9qQzczZUczb1l3ZXZKQjRfVGlWQVFmOVdZV2lLdk05bEE?oc=5",
+     "published": "2026-10-20T20:04:56+00:00"
+    },
+    {
+     "title": "Why Vicor Shares Are Soaring Today",
+     "source": "The Motley Fool",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWUdxRlhTQkpCQUc3TS1KT1ZqYlhjT3dxRzd4RjgtVnY4NVoxVllrTkVCNWstMkNLc1Z3QVBUazk3SlVvX3BJc1MwZW80RlczVGcxTkd2VmpPNHRSSzQ1UTFwS0dpLWlXQVE2QXhuQkN6X1JSYjdNaU5LQWY3VE1TaktySQ?oc=5",
+     "published": "2026-10-20T19:28:54+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 1
+   },
+   "score_parts": {
+    "move": 1.1,
+    "rvol": 4.0,
+    "catalyst": 25.5,
+    "close": 8.6,
+    "size": 4.9
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "HSAI",
+   "name": "Hesai Group",
+   "exchange": "NasdaqGS",
+   "price": 13.99,
+   "prev_close": 12.92,
+   "change_pct": 8.28,
+   "gap_pct": 8.05,
+   "close_strength": 0.71,
+   "volume": 2739567,
+   "avg_volume": 1448812,
+   "rvol": 1.89,
+   "dollar_volume": 38326542,
+   "market_cap": 17587355648,
+   "pe": 29.765957,
+   "pct_from_52w_high": -0.52,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1794313800,
+   "market_time": 1792526401,
+   "market_date": "2026-10-20",
+   "market_state": "POST",
+   "score": 43.7,
+   "news": [
+    {
+     "title": "A November 10 board meeting at Hesai Group (HSAI) will consider Q3 and nine-month results.",
+     "source": "Stock Titan",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdjNRam5fU244b3llRXBYQmp0Q2RiR2dKSTFGQVNUYlRsN0thdmJHdTdGMHl3WUV5cnRMY0tPY2g1QWhhdzh2bXBTdk9sWkVJMGFTemJINmVIMTBtUUxQMEtPa3ZLZGhnaXM2M19DM1lXQmJtR3NWYlcyQm52eXJ5VDB6QTNDOGUteHQzYzROYTBSYllVQUk0T2N2RGRCaU9zM1dDZnJDSkZEVzQ?oc=5",
+     "published": "2026-10-20T11:04:02+00:00"
+    },
+    {
+     "title": "Hesai Group to Report Third Quarter 2026 Financial Results on Tuesday, November 10, 2026",
+     "source": "The Manila Times",
+     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOaVU0aEs4aDB3a0puM0ZhS2c4VVM4NDhmTXJWYVROWmdfd1NBVF9ZUmZxdFRyNkRqU2RSalZkeXY4a1ZMaVQzQ0s3dzlabm80NGF5NnE2U2NEb2lXX3dCbExkd2xrTmZteS11MllRQVJoNkZEYXFYTk95dHhsY2lfOVRoM3Z5WmVFNzloTWs1SkpTdGZqMW1Vcnh0OUFfRzhvMWRZd196aXZOSktpMU5sNzBjZHZfby14M3JvNU9KUTNseXp2MGp5ajBCS25iZTI2ZHNkSE1YZVNaU281dk12ZXk5Q2JzNVhqdHp1NHB6cTVmNlNqREdN0gH3AUFVX3lxTE5pVTRoSzhoMHdrSm4zRmFLZzhVUzg0OGZNclZhVE5aZ193U0FUX1lSZnF0VHI2RGpTZFJqVmR5djhrVkxpVDNDSzd3OVpubzQ0YXk2cTZTY0RvaVdfd0JsTGR3bGtOZm15LXUyWVFBUmg2RkRhcVhOT3l0eGxjaV85VGgzdnlaZUU3OWhNazVKSlN0ZmoxbVVyeHQ5QV9HOG8xZFl3X3ppdk5KS2kxTmw3MGNkdl9vLXgzcm81T0pRM2x5enYwanlqMEJLbmJlMjZkc2RITVhlU1pTbzV2TXZleTlDYnM1WGp0enU0cHpxNWY2U2pER00?oc=5",
+     "published": "2026-10-20T08:43:29+00:00"
+    },
+    {
+     "title": "Hesai Group to Report Third Quarter 2026 Financial Results on November 10, 2026",
+     "source": "Quiver Quantitative",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZ1VuUUluTGtRbF9wMTQ2SkZWbExVSXJaM2h6ejlEREUwdmhGSDE1WFdLQkw3TXlfNmVpcHlCUG5aTmV1OXJERE1YdXNsQ3lKUF9fUXBVS1lxMUlSVGtzdWJVSC1UYUlSbEZzMG9uRmZieXBvb1ppSDNQTEhKY1FtM2FNYjVQa2dyRFBKQ1F1VU9XdVRKLVgtQ3pkR0luZEppSXFOa3FtcnV6SXl6eUk5YjN0ZE8?oc=5",
+     "published": "2026-10-20T08:40:00+00:00"
+    },
+    {
+     "title": "Hesai Group (NASDAQ:HSAI) Shares Gap Up - Should You Buy?",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMVJ5MmJIR3RsRHF2SlNQM1FscXE2YTVzMU1oVUU3VXNtQWZMTTA4X0Fyc1JjWE5UQVlvdFlmdU1wQndQbEJkUERwUk5DNnlIMGVuZUhyZWJhOXloMDlkc285b0NDQl9Xb29NaS1RU0lVYU1CbUVrcXhtWExsV0ZiOXRORVF4aU1BRUlaNUNBMFdTclV5bVM2dHowLTJPU05qVDhZYVQ4SUxMMlVKajdtNlpB?oc=5",
+     "published": "2026-10-20T15:07:11+00:00"
+    },
+    {
+     "title": "Hesai bets on 3D world data as second growth engine",
+     "source": "Automotive World",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOM01WNU5mT1VLOXdmYmtxREFBSHV6NVd5Wk1FNDVwQlQxMjhsZ1NVbjB1NExUNUREOGZyazVkT0lOZG1VMnhiNnNINDNKU0lVMG5KangtbnhJN3NnN3NXRmtVczVya2o2SHlldzN2YVlVU3VXTXJST1pFSUxaQTk0NktheENQcXRzUTBXelR5dXVIU3M?oc=5",
+     "published": "2026-10-20T09:04:47+00:00"
+    },
+    {
+     "title": "HK Stocks Move | Hesai-W (02525) Surges Over 8% After Official Launch of Kosmo 3D World Data Engine",
+     "source": "Moomoo",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeXRMVVN3Y1pjYXFqTEE1cnFSWXNqdnRoUF9RcktrR1d4NXJJNXJEVHJ3aW0yUWt0TUhVVXduQ1kzSUQwcmwyMTd5WjhBRnBRaVlSUzJBcC1Hb2hKbHVBbGU1NjhOcmJhRExrc0l5eVU1Q2gzS1d0YWJtdEFKRTB0ZjNnWjB4YlJ4eGlxcnpMcWRBT3hrdmZB?oc=5",
+     "published": "2026-10-20T06:44:56+00:00"
+    },
+    {
+     "title": "Learn Why The Bull Case For Hesai Group Stock Could Change Following Kosmo Launch",
+     "source": "Simply Wall Street",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaU55OUxBX2lVZEhJNmRlZ01fTEJ1SGlZQ3lvaW9CS2NrNHlaYmhXZXlUbFRocG5IV2V2NlNSUF91N1M3YUc4dzRRSGtnQlA0NWp5eC1wLUVyU2ZpVS1xeUpMZFREV2FUSTk1M19WRGl3T1RLeS1aQ19TemxIVV9nZk15RnhGU2FSazhrZGxpLTg2ZW0wNUFjdG5wdldvZnprQVF0UmZkamREdVBZZzhuWTZWQlhNYVR3cC1OLTIzQ3RfRF85Zy1tSTNpUEhTd9IB0wFBVV95cUxQREoyQkZjVzRLQjBzTFBSNEZoUy1XRkh0WkxudXBvMTkzOGdROEZVdjFJWnBfWkRJbHlGQTlWVlRNQ0o3V2pUWUpEOWhES2hCY0ZfTDR6ZVZFQmw2OGhaYzhIVFVxNVNUZXhLMXlVWGVNck9QZTNoLTJIMDJMZG1HZEhvbFdnSUVoLXRoVzZ0c25CLTQzMXYtUWllTTVxNWZJLXRaUV9KTzI1Q3pKTnR0bGhKM1d4bUp6Wm9tTjFWOFlMeUVFY0t1OTM5MG5SVlExRktJ?oc=5",
+     "published": "2026-10-20T05:39:31+00:00"
+    },
+    {
+     "title": "How Kosmo Launch Will Impact Hesai Group (HSAI) Investors",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/technology/ai/articles/kosmo-launch-impact-hesai-group-011754350.html",
+     "published": "2026-10-20T01:17:54+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 0.21
+   },
+   "score_parts": {
+    "move": 2.3,
+    "rvol": 2.6,
+    "catalyst": 25.5,
+    "close": 7.1,
+    "size": 6.2
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "MAZE",
+   "name": "Maze Therapeutics, Inc.",
+   "exchange": "NasdaqGM",
+   "price": 32.45,
+   "prev_close": 29.7,
+   "change_pct": 9.26,
+   "gap_pct": 0.4,
+   "close_strength": 0.95,
+   "volume": 1569162,
+   "avg_volume": 608923,
+   "rvol": 2.58,
+   "dollar_volume": 50919307,
+   "market_cap": 1802570496,
+   "pe": null,
+   "pct_from_52w_high": -0.4,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1793908800,
+   "market_time": 1792526401,
+   "market_date": "2026-10-20",
+   "market_state": "POST",
+   "score": 39.3,
+   "news": [
+    {
+     "title": "CCORF Initiates Maze Therapeutics(MAZE.US) With Buy Rating, Announces Target Price $75",
+     "source": "Moomoo",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORE5mUW5WXzhjSXBzQ28xYTR6VlA1TVVxUnB1Z2xlT1poMkRWZ2NtMTQ4QTRRT2w3V2ZGcUwtWnpDeWN5anBtNXlXNVd2Q2RqdkVrdDBPWWdvUzJvSTFTdjBXWDJCZl9SWjN6YXFwUXVWN2w2d0VBUExUZERxRkl1LXpBM0FxXzNCWkE4bHlITWFjNlhicHhxZlF6NHpoZnJUZmRKMm9NWnNIM185V1RqQW5vZTdkU1VB?oc=5",
+     "published": "2026-10-19T19:22:39+00:00"
+    },
+    {
+     "title": "Is Maze Therapeutics (MAZE) Undervalued Or Is Its Recent Rebound Already Priced In?",
+     "source": "Simply Wall Street",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNV3ZHeEdGREd4RVNtSzBrT3FWelVxSDFLTUxKakN4dTdlYlRPbFVSdGhEaHg4ZEcxcWdtTXVlaWtWYm4tMGdmY0Rpa1dCX1dRei16TlNwRjlkUWVDcHAzMkNTc2k4b3N5TmtEblV2cVZDVm5SVFMyZlZCdEFSNHRZTGdiMTZ4NmRoRGdncS1CbjhNWDkzR1dnN2VianBZb1BfVW1MT2VUV0h3b0VvWHllSlVJblI1allHYTVwNW9CRC0xdkVyOVRaTkdDaW9CSDRHX1RyTjRCLTdWWFFoMzZ4M25lLVByd9IB6wFBVV95cUxNaFBwNm5Jc0YwRUxuYXBLQnVRbHV0bU11RldCQlFtRXVCaTFUNHZHcXJDMjJYN1hzbDllUnJpUUp4M2llWm1FN2lFLWRqN0NldnhsQmtJRF9jOFFpaHVVUjY2UTFZMG11aktSbmZ4TjNLaXZKbGxOVUdJeG1IUzAzOFlWMU5IM3YzeFM4NGdJeFVwZEtRUW9EWUJickFjdkY0MFJOWUc1QnlxbmZwamFzUkdwb0d0YjJ5bXhnSDl6Qi1SR1lXTng1YUhOajN2YmJKZUNzMkdtTTktU2tFc3dFd3pQUVM2NXg3OGRr?oc=5",
+     "published": "2026-10-19T21:40:02+00:00"
+    },
+    {
+     "title": "What Makes Maze Therapeutics, Inc. (MAZE) a New Buy Stock",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQ1RRVFZLdUp5SmNOcXh2cnUxVkNYRk1QUzBtZkxUU1JKLURYMjVmWmtheHlIV05lMEdUTHF4ekFJdHUybzk3X0V1RTYxcElrTHlwT3A1Yll3Rkxjekx4VW9TLUNwdUhGamFmeVdkYWVRVVcwYVllTlIwbmxYVVYyYTVSTDF5V3IyZldzWnNQNEZyT1A1UXpES0w5cFhLdw?oc=5",
+     "published": "2026-10-19T15:00:03+00:00"
+    },
+    {
+     "title": "How Much Upside is Left in Maze Therapeutics, Inc. (MAZE)? Wall Street Analysts Think 123.39%",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaEtRSFIzZE1VY3U3WS04QVo2V3BheU5SZWoyMnZxRS10M2s4Q2RMcnNsb1BSTUU0b0NmTjVRRjdMRkt6V3I2eERWTE5scldndGtBUkl2YnV5MDZpNGdTOU5RQTVtN0dVRDdpUVVQLWlXcnVLUGtpS3BnQXhkLWdHNU1kX25nX2ZUMXJLZGljU3dwa0l2RXlaM21oWm9zbzFp?oc=5",
+     "published": "2026-10-19T12:55:03+00:00"
+    },
+    {
+     "title": "Canaccord initiates Maze Therapeutics stock rating at Buy on kidney drug potential",
+     "source": "Investing.com",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQeFhVYTRxRG9fT3dRZl95MXZ3U3I1OG5vOUVXcXBPMkVvMHZMdThWeXVkTDVocmRzdnNRV2tVLThWa3pCWktGWGxJMzdwV0JJcFZKejJtdXFqNWRaaXdLYWRRR0pxOHJhbk1Pc0pEUFpUa3N3Y0Y5Ri0zaGNpVWlfeWpibHdYXzVNODhEWDNlWWt0cHFzb0RtQjd4dFdXREZocEU5d0lHRWhuenNKZ0lCMDNaQUxCeWFXeGszUTZTVzVodWJVdEJYRGlQUmVPWDdvTmZhMlFjNDdXQQ?oc=5",
+     "published": "2026-10-19T10:37:17+00:00"
+    },
+    {
+     "title": "Canaccord Genuity Initiates Maze Therapeutics at Buy With $75 Price Target",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZ1N0R01kTFI0WjR5bHFiazF1QXN6N0xGOVZoQzVVaWFmbTh5Q2JxMDFBeHlRWWtSSFpiZmhMWERlNG1adllwanlxY3hyTmhZejlEY3VFemQySk1ta2h0RXdpekc0NmZSQXh6OVQ3b2llUXZ6R21pbzF3V2c1bkV2MTBLM2pSakVWUTIwaFRDMmtNWkhjVTc2bngyU3ZySjBaUzRqVmFMWHNMNTRDUS00?oc=5",
+     "published": "2026-10-19T09:37:27+00:00"
+    },
+    {
+     "title": "Form 4 Maze Therapeutics Inc: Jason V. Coloma (Director, CEO) For: 1 October",
+     "source": "Investing.com Canada",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONWM0b0NLZksxaWwyekZaYTJxQ3pKX1l5dEJ4Y3kzUnhJNjlseFduZnp4MXo3YzcwTkNzcE9tRWZNbFRJVmJzTVBQczduRHUyNC1aTFNwcmVjMnZ2TU1hMjlwQ2hLaU9xbUh4eklCb2dtUW9XdWpQb2dLUE5TYjlZMFdqQTdTRFZkWlhOU09RclhrSXBaNkRMdlQxMWxzcVV3eVpzdzh3MjEyQ01CY3hWRndrUHFZd18ydnM1YUQyZ19zcF92czVFMHBmWQ?oc=5",
+     "published": "2026-10-18T02:24:53+00:00"
+    },
+    {
+     "title": "Maze Therapeutics CEO Jason Coloma sells $932,259 in Maze shares",
+     "source": "Investing.com",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdDUyRUNEWi1IcU9KVjMzTUt1MTMzR2cxcUVnTDRMb3pJd3lKeDhyaER3NFpPVGkxN3Vza2I0S1ItV1Njb0w0VUV3RE5fNDd2RTEzMVdmQWhpcUhkUTVTaGVaZmp2WXZFdUtNTEdaMzZyalM3MTUzejZWTjBKeG9WVVo0SGxyRlc5SmJnUDF4R295TTNrdEtJRmZtX2E5ODktbkhDcGQwZlp5aHpsUllKQVRmOVJwcnZDbTdoNWpJdWlldC1TUkE?oc=5",
+     "published": "2026-10-18T00:03:04+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "analyst",
+    "label": "Mejora de analista",
+    "quality": 0.6,
+    "note": "Impulso moderado; suele diluirse si no hay más noticias.",
+    "confidence": 0.3
+   },
+   "score_parts": {
+    "move": 3.3,
+    "rvol": 7.2,
+    "catalyst": 18.0,
+    "close": 9.5,
+    "size": 1.3
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  },
+  {
+   "symbol": "KVYO",
+   "name": "Klaviyo, Inc.",
+   "exchange": "NYSE",
+   "price": 19.61,
+   "prev_close": 17.52,
+   "change_pct": 11.93,
+   "gap_pct": 7.99,
+   "close_strength": 0.76,
+   "volume": 12641086,
+   "avg_volume": 6063526,
+   "rvol": 2.08,
+   "dollar_volume": 247891696,
+   "market_cap": 5583504896,
+   "pe": 653.6667,
+   "pct_from_52w_high": -0.41,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1793822400,
+   "market_time": 1792526402,
+   "market_date": "2026-10-20",
+   "market_state": "POST",
+   "score": 36.1,
+   "news": [
+    {
+     "title": "Klaviyo shares jump 8% as Salesforce moves to acquire rival Braze for $5.7 billion",
+     "source": "Investing.com",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeS05ZDhVQ19wUm5UQzhrMDBabVhOeDdqSF9Sa1Y0NU1pUENweGs1ZzYtLWtIQVd1Zl9JU2hmVG9XRU9zWU0xem5FWnpKR0hmTlBOT2dYSUZfTVRUWFduajNKWWI4RGFMQndfMTh1Rk04RGd3QWVqMUprck1YcmtPaUwwSUdNNlZlWENhRE45SkVmZWNWcjE0Q0poVlpUZkxtalRWTGhORnA1VURTUEZsMFVvaXVZbkhYSDVsallvOXE4M1dkYWlvWWNGSXRPdzhJaUE?oc=5",
+     "published": "2026-10-20T14:32:57+00:00"
+    },
+    {
+     "title": "A Look at Klaviyo Inc (KVYO) After 11.9% Gain -- GF Value $43.40 vs Price $19.61",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZmhvT1cxMF9ackZRcy1PM0Q0WmU5S3ZWeG9HM2FCenVWTTZFbElGanVCVXBkRXd3ekd1RnBkeHQ0ZVo0RXhaQVJhWnNnTTNOMVI5WWRBM29PeTlEN1RaaUM4dVpsY0hUcTZmWlBQVFpWc2VSY0FLdjR2S1U3cmhEVzNvOTV4Y08zSDJmMXd3WGwwdi10U0dnYV9OdkVuUHpId3FPeEJ3SkQ4SXd2?oc=5",
+     "published": "2026-10-20T23:00:15+00:00"
+    },
+    {
+     "title": "After Braze, Could Klaviyo Be the Next Takeover Target? - Klaviyo (NYSE:KVYO), Braze (NASDAQ:BRZE)",
+     "source": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVFlXcVJkd0cyYnFlRG1kal9LLTJRdERRa1NXTHFQbWlLbWFYc25JN21vMWU2MllTVUdGdDN3UjJtYzlxeGJZZzM4MEtZTjc1bm9qRDNuaWFRRE9vTENRdm9KRlhGQ2g5VHlGelhoN25Mc1RmZG5zY1lpQm9HU3ZFNg?oc=5",
+     "published": "2026-10-20T19:59:59+00:00"
+    },
+    {
+     "title": "Why Klaviyo Stock Rallied Today",
+     "source": "The Motley Fool",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95TXZnZjdWZ3dSVlY3SUExS2tJcURlMGhKRlFpUGYyQ3hybnFxdWQ4MkdRTGlpM0tHNURzNFJDTFhUYzljc2pYcTJ6c2R4c1V1VUVOSE1neHpvSWNndXRwQ2t0Mm82MHE2NjZLaEJaVDQ0eWowRzlCQUFaTlZXQ0k?oc=5",
+     "published": "2026-10-20T18:18:00+00:00"
+    },
+    {
+     "title": "KVYO Stock Slides As Goldman Downgrade Collides With Key Earnings Catalyst",
+     "source": "Timothy Sykes",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQLWtVREEwWEFhYlZLRDV4YlJTOC12Vzc1X1pLSjU5dGRxZm41aGxnRmZ4V0RPVDlKakhKQjhQLUwybUJwTmtUaVlqeEVqbGpQME40ZVZoWDd0ZllRbjdGMUFhcUdTb240YWxvVVBwbnVIbThPTkowNVl1aUE4QWJfNDFR?oc=5",
+     "published": "2026-10-20T16:34:00+00:00"
+    },
+    {
+     "title": "Salesforce's $5.66B Braze buy boosts marketing software sector, shares of Braze and Klaviyo rise.",
+     "source": "Pluang",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVmF3QUZtWWNRbHlGanloQTl4Y3I4V1A1bGxleUFxOHBqeVRSV2JwQnlNQXhtamYwTFA5SEM5N1dqZlRfMXVFU2FheXBmSVYwWFUzenlDX1R5ZG9jR1N4LTFTa2xvU2Z3Slh2Qm0yMkdwMTMwRHo3NXNXVVdSOHotdmFrdVJuem0tWUcyMjM5eDV0aEpjc05YRGVISk15QQ?oc=5",
+     "published": "2026-10-20T15:59:40+00:00"
+    },
+    {
+     "title": "Klaviyo Sees Unusually High Options Volume (NYSE:KVYO)",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdE5YVlBGbW5WYlg1ZVpTWF9FcTJJU0cxMVF6bXJ2dk4zYWtyOGJ1dmotdGlNZ21nNU5ZMVpzLTM3c3hNd2dzNzNwYnJDZEc5SWZBTzdxY2N6Z19OR25EOWdWY1NoU0x5bWVROXNTUUxOMHlIbGxvRGpyelVDaGp6MHlBeWYtQkoyUl84Ym8tU1Q3Q1JHRDlndHFIWWZIWTRuZm5YeTZpQnNJUDFTM0FBNy1vS2k?oc=5",
+     "published": "2026-10-20T15:23:19+00:00"
+    },
+    {
+     "title": "Klaviyo (NYSE:KVYO) Shares Gap Up - Should You Buy?",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOFc2Z2tONTlYZmJWLWYwd3Z5MkN0emdjNVJDVVl3ejZONkJSZUZJT241OFhTUWp4TVRETFo0RWs0dG54VVFKUWlVQklGdTloNW9xUzhFWllfM1A4X3dBbEhRbm1VcUl5QkpUTE53UXY1RFRQdTlweVVicjBDaHZXSGdMTFR0TGt5cW80VnRmOHh5UFNMckp3Y2NGSXl6eVlXOXMyeE5XMjlJQQ?oc=5",
+     "published": "2026-10-20T15:09:19+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "acquisition",
+    "label": "Compra / fusión con otra empresa",
+    "quality": 0.5,
+    "note": "El mercado premia la operación; vigila cómo se financia y si la aprueban reguladores.",
+    "confidence": 0.2
+   },
+   "score_parts": {
+    "move": 5.9,
+    "rvol": 3.9,
+    "catalyst": 15.0,
+    "close": 7.6,
+    "size": 3.7
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   }
+  }
+ ],
+ "holding_up": {
+  "tracked": 13,
+  "items": [
+   {
+    "symbol": "HPK",
+    "name": "HighPeak Energy, Inc.",
+    "picked_on": "2026-10-16",
+    "picked_price": 10.55,
+    "price": 11.39,
+    "change_since_pct": 7.96,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 1.18,
+    "catalyst_label": "Financiación / recompra",
+    "appearances": 1
+   },
+   {
+    "symbol": "RGC",
+    "name": "Regencell Bioscience Holdings Limited",
+    "picked_on": "2026-10-15",
+    "picked_price": 9.52,
+    "price": 10.05,
+    "change_since_pct": 5.57,
+    "from_peak_pct": 0.0,
+    "sessions_since": 2,
+    "last_rvol": 1.13,
+    "catalyst_label": "Movimiento sectorial / macro",
+    "appearances": 1
+   },
+   {
+    "symbol": "WMG",
+    "name": "Warner Music Group Corp.",
+    "picked_on": "2026-10-15",
+    "picked_price": 30.69,
+    "price": 31.04,
+    "change_since_pct": 1.14,
+    "from_peak_pct": -1.15,
+    "sessions_since": 2,
+    "last_rvol": 1.5,
+    "catalyst_label": "Contrato / alianza",
+    "appearances": 1
+   },
+   {
+    "symbol": "PAG",
+    "name": "Penske Automotive Group, Inc.",
+    "picked_on": "2026-10-15",
+    "picked_price": 212.0,
+    "price": 212.0,
+    "change_since_pct": 0.0,
+    "from_peak_pct": -0.2,
+    "sessions_since": 2,
+    "last_rvol": 0.89,
+    "catalyst_label": "OPA / la compran",
+    "appearances": 1
+   }
+  ],
+  "window": 10
+ }
+}
