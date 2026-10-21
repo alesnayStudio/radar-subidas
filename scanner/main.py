@@ -9,7 +9,7 @@ import argparse
 import json
 import sys
 from collections import Counter
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 
 from . import catalysts, config, history, news, scoring, screener
 
@@ -40,7 +40,8 @@ def run(save_history: bool = True):
 
     for r in shortlist:
         r["news"] = news.get_news(r["symbol"], r["name"])
-        r["catalyst"] = catalysts.classify(r["news"], r["earnings_ts"], r["market_date"])
+        r["catalyst"] = catalysts.classify(r["news"], r["earnings_ts"], r["market_date"],
+                                           news.company_patterns(r["symbol"], r["name"]))
         r["news"] = catalysts.key_headlines_first(r["news"], r["catalyst"]["type"])
         r["score"], r["score_parts"] = scoring.score(r, r["catalyst"]["quality"])
         print(f"  {r['symbol']:6} {r['change_pct']:6.1f}%  RVOL {r['rvol']:5.1f}  "
@@ -87,7 +88,7 @@ def run(save_history: bool = True):
 
     if save_history:
         h = history.add_picks(h, scan_date, top)
-        h = history.update_returns(h, now_ny.date())
+        h = history.update_returns(h, date.fromisoformat(scan_date))
         history.save(h)
         history.compute_stats(h)
         repeats = sum(r["appearance"]["count"] > 1 for r in top)

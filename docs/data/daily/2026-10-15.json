@@ -136,7 +136,7 @@
    "market_time": 1792094400,
    "market_date": "2026-10-15",
    "market_state": "POST",
-   "score": 62.1,
+   "score": 53.1,
    "news": [
     {
      "title": "US Top Movers: Energy Stocks Surge as Bioscience and Crypto Names Slide – 13 October 2026",
@@ -170,16 +170,16 @@
     }
    ],
    "catalyst": {
-    "type": "sector",
-    "label": "Movimiento sectorial / macro",
-    "quality": 0.4,
-    "note": "Sube con su sector; depende del contexto general.",
-    "confidence": 0.2
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
    },
    "score_parts": {
     "move": 11.4,
     "rvol": 30.0,
-    "catalyst": 12.0,
+    "catalyst": 3.0,
     "close": 5.3,
     "size": 3.4
    },
@@ -267,7 +267,7 @@
     "label": "OPA / la compran",
     "quality": 0.3,
     "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
-    "confidence": 0.5
+    "confidence": 0.6
    },
    "score_parts": {
     "move": 2.8,
@@ -360,7 +360,7 @@
     "label": "Mejora de analista",
     "quality": 0.6,
     "note": "Impulso moderado; suele diluirse si no hay más noticias.",
-    "confidence": 1.0
+    "confidence": 1
    },
    "score_parts": {
     "move": 5.1,
@@ -453,7 +453,7 @@
     "label": "Movimiento sectorial / macro",
     "quality": 0.4,
     "note": "Sube con su sector; depende del contexto general.",
-    "confidence": 0.5
+    "confidence": 0.36
    },
    "score_parts": {
     "move": 5.1,
@@ -490,13 +490,19 @@
    "market_time": 1792094401,
    "market_date": "2026-10-15",
    "market_state": "POST",
-   "score": 42.4,
+   "score": 54.4,
    "news": [
     {
      "title": "MiniMed Completes Separation From Medtronic, Begins Operations as Independent Company",
      "source": "citybiz",
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTzlOQjM1VGlHdkVVUnVxcVJ4T0poU0hQRUl4RWJPbGQ2NmVucU93UzQ0VjVtSlR4RFpvYmQ0NTkwcTlQRjJZdlRBNzlkYThSQXNaTENxajVtVFBjZmV5SWwzZFFLcFFya3Z5N2FvN01aZzRSYlFPb2JTOWRkT0ljdjlZb0E4dm82RHZLcjVRX3NrY2QzaGlaYVN6V3RCQTV5RkZ2THdhZnZXbF9Lc0VFUlRBZWFtZHVvOEJNbmdvNFc?oc=5",
      "published": "2026-10-15T21:19:36+00:00"
+    },
+    {
+     "title": "MiniMed Completes Separation From Medtronic And Begins Trading As Independent Company",
+     "source": "Pulse 2.0",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLXRCSWtBU3UtUk43SWI1TXdnUW90cEdXX1BFNFJPRnhEVGFhR2t0a2JwZWxBLUp2cVA0VUpwQ2k4X3R4TzQ2ZEQ5TjVZWjJJc3QzVHhra2dxY0o3VVVEcmxlc0djR1g0dzI1dmh1elZVNTRPQXk4SWczVVVqaVY0cG1kd3lJc09hb3RhdmdpS29qZ2E5ZloyTVhqcUJMWk9lanpXYWlRUk0?oc=5",
+     "published": "2026-10-15T17:49:37+00:00"
     },
     {
      "title": "MiniMed forms new board as independent diabetes tech company post-Medtronic separation",
@@ -529,12 +535,6 @@
      "published": "2026-10-15T20:10:00+00:00"
     },
     {
-     "title": "MiniMed Completes Separation From Medtronic And Begins Trading As Independent Company",
-     "source": "Pulse 2.0",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLXRCSWtBU3UtUk43SWI1TXdnUW90cEdXX1BFNFJPRnhEVGFhR2t0a2JwZWxBLUp2cVA0VUpwQ2k4X3R4TzQ2ZEQ5TjVZWjJJc3QzVHhra2dxY0o3VVVEcmxlc0djR1g0dzI1dmh1elZVNTRPQXk4SWczVVVqaVY0cG1kd3lJc09hb3RhdmdpS29qZ2E5ZloyTVhqcUJMWk9lanpXYWlRUk0?oc=5",
-     "published": "2026-10-15T17:49:37+00:00"
-    },
-    {
      "title": "MiniMed completes split from Medtronic",
      "source": "Drug Delivery Business",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRnZkOXJzZW53MkZKaW52Q2l2dm1neHl4eHVTTXZPelNkRURVYk4tZ3h4eHhObGFmUnAzZzBVWGpvSUlSNDgzTzdnNFFZYmNURVNabDlHd1A2NEhEU2NFSEZhOENOWXQ5X2VKMnBDNkQ4Q1pxVHNWc3hFU3paNlBwXy1R?oc=5",
@@ -542,16 +542,16 @@
     }
    ],
    "catalyst": {
-    "type": "none",
-    "label": "Sin noticia clara",
-    "quality": 0.1,
-    "note": "Precaución: subida sin catalizador identificable.",
-    "confidence": 0.0
+    "type": "corporate",
+    "label": "Evento corporativo (spin-off, índice, salida a bolsa)",
+    "quality": 0.5,
+    "note": "Flujos de fondos que compran o venden por obligación: el efecto suele ser temporal.",
+    "confidence": 0.5
    },
    "score_parts": {
     "move": 1.1,
     "rvol": 25.3,
-    "catalyst": 3.0,
+    "catalyst": 15.0,
     "close": 9.5,
     "size": 3.5
    },
@@ -583,19 +583,31 @@
    "market_time": 1792094400,
    "market_date": "2026-10-15",
    "market_state": "POST",
-   "score": 42.0,
+   "score": 48.0,
    "news": [
-    {
-     "title": "TeraWulf, Opendoor, and Zillow Stocks Surged Today — but Only One Is a Strong Buy on Wall Street",
-     "source": "TipRanks",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM293b2xLc1A5REZwVDhHREVva2hRUjVINURSVEFjd3N1RG8tU1luTHQtc1FZQ0NWWUdLVXA3MmozN21GakxfdE1WZC1IVmtrZDFveUhFZmV6RHEtUEc4al8wXzhaWENVcEMzRmhPNEw2MExKTXpKLTlBWEN0bEFINU00VjRaYmNHYlVSbGVhb1NaTTk1T09CWndRVmtDNjBfSFpMcnRHa3l1WXZUdE94UjFsS0hVbFFOVURPdFFkOA?oc=5",
-     "published": "2026-10-15T20:31:45+00:00"
-    },
     {
      "title": "Morgan Stanley Call Sends TeraWulf Stock Surging",
      "source": "TipRanks",
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQVl4TzBEMHBEOU1OMm5leVhrVTBTRFh2amxsSU96bXVRYkxaZks2aU80MEk0clh5eWR4aENKbl9NRHg5eDhtZ056cHJlYWcyblVoTXdudktrVEFnenZ3OWZ2NV90MjZsaDhsVkJPUWdtZzdvQ0RsbEExVGFVZzJQZmY1Vk1ZVXJQcng3UjVJdDA?oc=5",
      "published": "2026-10-15T18:53:44+00:00"
+    },
+    {
+     "title": "WULF Stock Set For Biggest Weekly Loss Of 2026, Morgan Stanley Says Shares Are ‘Mispriced’",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZVpDMjRkUDFtaTFubmlVUVZUMG9fOURsWXRkamZiSTJEcTdSa29vWDROVmJDOVZBdVNtX3hrR2d5SWdoWUFqRGNqZFFyWF9OaEp4TTNFNUhaNkQyWmZKUlVsM0xFTGE0aDRUVEtXNWExM0pXLUluVC1XaGRvNG9iY0NIZHo3OWFheVU1RTdCbUl3Mm8xVmRURnd5a2hhb0txd2VBVzFvWlo2RVRZdmhBcFBWdURfMG5YNVNqc2xGVFkwVDVrQkFhdjFGWlllcFd0UUxaWS00eGlPRmMtcUxzZA?oc=5",
+     "published": "2026-10-15T16:45:09+00:00"
+    },
+    {
+     "title": "TeraWulf Stock Keeps Falling, but Morgan Stanley Sees 463% Upside",
+     "source": "Barron's",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQU5nVmVkSWxWN19ndDJIY25WNHN4cjRETHgtdHhSM1lZaGJmVHRhbTZkcDhQNmJmRG1JU2FMU21EblQzN2x6QUdEMWxYWVJJU2FoOFFmY1R0NDN2WkhOWTRLQ1hUbFNfUEdVaVNyZEYxVzZyelJ6WHNMbVZkeWJXeEhjMnhxOGY3emlsZ2F0NGlIYlVIMTQxcQ?oc=5",
+     "published": "2026-10-15T15:57:00+00:00"
+    },
+    {
+     "title": "TeraWulf, Opendoor, and Zillow Stocks Surged Today — but Only One Is a Strong Buy on Wall Street",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM293b2xLc1A5REZwVDhHREVva2hRUjVINURSVEFjd3N1RG8tU1luTHQtc1FZQ0NWWUdLVXA3MmozN21GakxfdE1WZC1IVmtrZDFveUhFZmV6RHEtUEc4al8wXzhaWENVcEMzRmhPNEw2MExKTXpKLTlBWEN0bEFINU00VjRaYmNHYlVSbGVhb1NaTTk1T09CWndRVmtDNjBfSFpMcnRHa3l1WXZUdE94UjFsS0hVbFFOVURPdFFkOA?oc=5",
+     "published": "2026-10-15T20:31:45+00:00"
     },
     {
      "title": "Terawulf CEO Prager: We're on schedule; we're on track to deliver within a timely fashion",
@@ -616,18 +628,6 @@
      "published": "2026-10-15T16:45:21+00:00"
     },
     {
-     "title": "WULF Stock Set For Biggest Weekly Loss Of 2026, Morgan Stanley Says Shares Are ‘Mispriced’",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZVpDMjRkUDFtaTFubmlVUVZUMG9fOURsWXRkamZiSTJEcTdSa29vWDROVmJDOVZBdVNtX3hrR2d5SWdoWUFqRGNqZFFyWF9OaEp4TTNFNUhaNkQyWmZKUlVsM0xFTGE0aDRUVEtXNWExM0pXLUluVC1XaGRvNG9iY0NIZHo3OWFheVU1RTdCbUl3Mm8xVmRURnd5a2hhb0txd2VBVzFvWlo2RVRZdmhBcFBWdURfMG5YNVNqc2xGVFkwVDVrQkFhdjFGWlllcFd0UUxaWS00eGlPRmMtcUxzZA?oc=5",
-     "published": "2026-10-15T16:45:09+00:00"
-    },
-    {
-     "title": "TeraWulf Stock Keeps Falling, but Morgan Stanley Sees 463% Upside",
-     "source": "Barron's",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQU5nVmVkSWxWN19ndDJIY25WNHN4cjRETHgtdHhSM1lZaGJmVHRhbTZkcDhQNmJmRG1JU2FMU21EblQzN2x6QUdEMWxYWVJJU2FoOFFmY1R0NDN2WkhOWTRLQ1hUbFNfUEdVaVNyZEYxVzZyelJ6WHNMbVZkeWJXeEhjMnhxOGY3emlsZ2F0NGlIYlVIMTQxcQ?oc=5",
-     "published": "2026-10-15T15:57:00+00:00"
-    },
-    {
      "title": "Bearish options flow identified in TeraWulf with shares down 8.58%",
      "source": "TipRanks",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRHlOWFFodHBaSkxUZ0Q4WkQ2WE8zRHhQam1PWjRjS0FvZnBfQVpZRjB0NzZwSXh1WlRlRkhzZk9SMUZ3aUtWYUxyaTVmNUNfZlBYczFDMzhZNGRKbV9oTkh5UXotMThCeTNVMjZhb2VJbnc1Vnl4b1c1LVczbW02UmRGaUktdHhWd212VE45a1JWcU1Ba1E5czM4dGx4U1ROSzBEQWNBUFRZRk14SUYtM1N6cEcyZw?oc=5",
@@ -635,16 +635,16 @@
     }
    ],
    "catalyst": {
-    "type": "sector",
-    "label": "Movimiento sectorial / macro",
-    "quality": 0.4,
-    "note": "Sube con su sector; depende del contexto general.",
-    "confidence": 0.3
+    "type": "analyst",
+    "label": "Mejora de analista",
+    "quality": 0.6,
+    "note": "Impulso moderado; suele diluirse si no hay más noticias.",
+    "confidence": 0.7
    },
    "score_parts": {
     "move": 3.4,
     "rvol": 13.4,
-    "catalyst": 12.0,
+    "catalyst": 18.0,
     "close": 9.2,
     "size": 4.0
    },
@@ -732,7 +732,7 @@
     "label": "Mejora de analista",
     "quality": 0.6,
     "note": "Impulso moderado; suele diluirse si no hay más noticias.",
-    "confidence": 0.4
+    "confidence": 0.6
    },
    "score_parts": {
     "move": 1.0,
@@ -825,7 +825,7 @@
     "label": "Contrato / alianza",
     "quality": 0.6,
     "note": "Valora el tamaño del contrato frente a los ingresos de la empresa.",
-    "confidence": 0.4
+    "confidence": 0.6
    },
    "score_parts": {
     "move": 0.2,
@@ -918,7 +918,7 @@
     "label": "Mejora de analista",
     "quality": 0.6,
     "note": "Impulso moderado; suele diluirse si no hay más noticias.",
-    "confidence": 0.4
+    "confidence": 0.6
    },
    "score_parts": {
     "move": 0.4,

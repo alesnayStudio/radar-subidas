@@ -5,11 +5,11 @@
    "count": 33,
    "horizons": {
     "1": {
-     "n": 13,
-     "avg": -0.97,
-     "median": -1.02,
-     "win_rate": 30.8,
-     "avg_excess": -0.21
+     "n": 23,
+     "avg": 0.36,
+     "median": 0.2,
+     "win_rate": 56.5,
+     "avg_excess": 0.64
     },
     "5": null,
     "20": null
@@ -17,7 +17,7 @@
   },
   "earnings": {
    "label": "Resultados trimestrales",
-   "count": 6,
+   "count": 4,
    "horizons": {
     "1": {
      "n": 1,
@@ -30,16 +30,16 @@
     "20": null
    }
   },
-  "sector": {
-   "label": "Movimiento sectorial / macro",
-   "count": 3,
+  "none": {
+   "label": "Sin noticia clara",
+   "count": 4,
    "horizons": {
     "1": {
-     "n": 3,
-     "avg": -2.91,
-     "median": -2.03,
-     "win_rate": 33.3,
-     "avg_excess": -1.8
+     "n": 2,
+     "avg": -0.14,
+     "median": -0.14,
+     "win_rate": 50.0,
+     "avg_excess": 0.21
     },
     "5": null,
     "20": null
@@ -47,14 +47,14 @@
   },
   "takeover": {
    "label": "OPA / la compran",
-   "count": 3,
+   "count": 4,
    "horizons": {
     "1": {
-     "n": 1,
-     "avg": 0.2,
-     "median": 0.2,
+     "n": 2,
+     "avg": 0.17,
+     "median": 0.17,
      "win_rate": 100.0,
-     "avg_excess": 1.31
+     "avg_excess": 0.56
     },
     "5": null,
     "20": null
@@ -62,29 +62,44 @@
   },
   "analyst": {
    "label": "Mejora de analista",
-   "count": 4,
+   "count": 6,
    "horizons": {
     "1": {
-     "n": 3,
-     "avg": -2.81,
+     "n": 5,
+     "avg": -3.09,
      "median": -1.34,
-     "win_rate": 0.0,
-     "avg_excess": -1.7
+     "win_rate": 20.0,
+     "avg_excess": -2.27
     },
     "5": null,
     "20": null
    }
   },
-  "none": {
-   "label": "Sin noticia clara",
-   "count": 3,
+  "sector": {
+   "label": "Movimiento sectorial / macro",
+   "count": 2,
    "horizons": {
     "1": {
-     "n": 2,
-     "avg": -1.93,
-     "median": -1.93,
+     "n": 1,
+     "avg": -2.03,
+     "median": -2.03,
      "win_rate": 0.0,
-     "avg_excess": -1.58
+     "avg_excess": -0.92
+    },
+    "5": null,
+    "20": null
+   }
+  },
+  "corporate": {
+   "label": "Evento corporativo (spin-off, índice, salida a bolsa)",
+   "count": 1,
+   "horizons": {
+    "1": {
+     "n": 1,
+     "avg": -2.83,
+     "median": -2.83,
+     "win_rate": 0.0,
+     "avg_excess": -1.72
     },
     "5": null,
     "20": null
@@ -92,14 +107,14 @@
   },
   "contract": {
    "label": "Contrato / alianza",
-   "count": 3,
+   "count": 2,
    "horizons": {
     "1": {
      "n": 2,
-     "avg": 0.9,
-     "median": 0.9,
-     "win_rate": 50.0,
-     "avg_excess": 1.24
+     "avg": 2.42,
+     "median": 2.42,
+     "win_rate": 100.0,
+     "avg_excess": 2.8
     },
     "5": null,
     "20": null
@@ -107,14 +122,14 @@
   },
   "capital": {
    "label": "Financiación / recompra",
-   "count": 1,
+   "count": 2,
    "horizons": {
     "1": {
-     "n": 1,
-     "avg": 7.96,
-     "median": 7.96,
-     "win_rate": 100.0,
-     "avg_excess": 7.54
+     "n": 2,
+     "avg": 3.73,
+     "median": 3.73,
+     "win_rate": 50.0,
+     "avg_excess": 3.31
     },
     "5": null,
     "20": null
@@ -124,16 +139,28 @@
    "label": "Biotech / FDA / ensayo",
    "count": 7,
    "horizons": {
-    "1": null,
+    "1": {
+     "n": 6,
+     "avg": 3.51,
+     "median": 3.44,
+     "win_rate": 100.0,
+     "avg_excess": 3.17
+    },
     "5": null,
     "20": null
    }
   },
-  "acquisition": {
-   "label": "Compra / fusión con otra empresa",
-   "count": 3,
+  "earnings_guidance": {
+   "label": "Resultados + mejora de previsiones",
+   "count": 1,
    "horizons": {
-    "1": null,
+    "1": {
+     "n": 1,
+     "avg": -3.19,
+     "median": -3.19,
+     "win_rate": 0.0,
+     "avg_excess": -3.53
+    },
     "5": null,
     "20": null
    }
@@ -145,11 +172,11 @@
    "count": 33,
    "horizons": {
     "1": {
-     "n": 13,
-     "avg": -0.97,
-     "median": -1.02,
-     "win_rate": 30.8,
-     "avg_excess": -0.21
+     "n": 23,
+     "avg": 0.36,
+     "median": 0.2,
+     "win_rate": 56.5,
+     "avg_excess": 0.64
     },
     "5": null,
     "20": null
@@ -173,6 +200,53 @@
   "faded": {
    "label": "Habían devuelto la subida",
    "stats": null
+  }
+ },
+ "score_buckets": {
+  "high": {
+   "label": "Alta (55 o más)",
+   "count": 7,
+   "horizons": {
+    "1": {
+     "n": 5,
+     "avg": -0.73,
+     "median": 0.15,
+     "win_rate": 60.0,
+     "avg_excess": -0.49
+    },
+    "5": null,
+    "20": null
+   }
+  },
+  "mid": {
+   "label": "Media (40 a 55)",
+   "count": 12,
+   "horizons": {
+    "1": {
+     "n": 7,
+     "avg": -2.74,
+     "median": -2.03,
+     "win_rate": 14.3,
+     "avg_excess": -1.85
+    },
+    "5": null,
+    "20": null
+   }
+  },
+  "low": {
+   "label": "Baja (menos de 40)",
+   "count": 14,
+   "horizons": {
+    "1": {
+     "n": 11,
+     "avg": 2.84,
+     "median": 2.52,
+     "win_rate": 81.8,
+     "avg_excess": 2.74
+    },
+    "5": null,
+    "20": null
+   }
   }
  }
 }

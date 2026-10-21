@@ -39,7 +39,8 @@ jobs:
           if git diff --cached --quiet; then
             echo "Sin cambios"
           else
-            git commit -m "Datos $(date -u +%Y-%m-%d)"
+            # Fecha de la sesión escaneada (no la del reloj: el robot puede acabar pasada la medianoche UTC)
+            git commit -m "Datos $(python -c "import json; print(json.load(open('docs/data/latest.json'))['date'])")"
             git pull --rebase   # por si alguien subió cambios mientras se ejecutaba
             git push
           fi

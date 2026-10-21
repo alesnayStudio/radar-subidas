@@ -99,7 +99,7 @@
     "label": "Biotech / FDA / ensayo",
     "quality": 0.5,
     "note": "Muy volátil: puede revertir con fuerza.",
-    "confidence": 0.5
+    "confidence": 0.6
    },
    "score_parts": {
     "move": 20.0,
@@ -136,7 +136,7 @@
    "market_time": 1792440002,
    "market_date": "2026-10-19",
    "market_state": "POSTPOST",
-   "score": 68.7,
+   "score": 73.2,
    "news": [
     {
      "title": "Cleveland-Cliffs Reports Strong Q3 Results, Raises EBITDA Outlook",
@@ -188,16 +188,16 @@
     }
    ],
    "catalyst": {
-    "type": "earnings",
-    "label": "Resultados trimestrales",
-    "quality": 0.85,
-    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 1
+    "type": "earnings_guidance",
+    "label": "Resultados + mejora de previsiones",
+    "quality": 1.0,
+    "note": "El catalizador con más continuidad histórica (post-earnings drift).",
+    "confidence": 0.6
    },
    "score_parts": {
     "move": 10.3,
     "rvol": 21.3,
-    "catalyst": 25.5,
+    "catalyst": 30.0,
     "close": 7.1,
     "size": 4.5
    },
@@ -238,6 +238,18 @@
      "published": "2026-10-19T19:33:16+00:00"
     },
     {
+     "title": "Merck KGaA to Buy Britain's Silence Therapeutics for $1.3 Billion in siRNA Push",
+     "source": "BigGo Finance",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE12aUFyck1TR2FXWXE3MmluV0gtd2hrNTZoYWJpeGRwMm01X1U4WFZLS2J0UVR0bXhvNkNuZ09Jb2ZkOXlSTGVwazc5SE5BaU1CY0lObDRRQWdMNnFxbjhGcmZWYjNtX3BUVUtZcHlfU1VuQVMyTUE?oc=5",
+     "published": "2026-10-19T20:05:00+00:00"
+    },
+    {
+     "title": "Recon: German Merck acquires Silence Therapeutics for $1.3B; China's Hansoh Pharma strikes $15B drug deal with Roche",
+     "source": "RAPS",
+     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQWjRBMWxGakJMd1ZrM2k2SVhRY3BpcU15SlpsUjRzMXpJb055SHVnc2lCeWVON3VvSlNZN1Vua2ZNdzFHeFgyNnRySlZYU0I5Qmh6RHJaSEZ3LVF2a0xzYWp1TlcwbF91eFFDRE1QMlB3aWRnVklleS16RjdzRWFDVHZucFZieUp0Y1pIRGJMM2FWaUJEVEI2NTR2bG1SWlpjTDZtR1dITmFFcmpPRU1VNlU2OWxoWUFLa3FXRzR3N0x4RlowblU4a21yMFZvdW1GTDlndVU2NzVZLTEycl8xUg?oc=5",
+     "published": "2026-10-19T19:59:00+00:00"
+    },
+    {
      "title": "Silence Therapeutics (SLN) Gets 130% Premium Offer From Merck, Shares Surge Over 100%",
      "source": "Yahoo Finance",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWDJDZXR3UjlKSTR0UWFNQW1HTDJ1eHhwUnYzTGhnZ3VWTWMxRS1YSkJuQXB1dE9kT08zMXVjTnNRSjMxME1LSnJhNFVSS1h0ZHpnREVXNWw5VkZsdkhYbm1ldTJmVU9ZaXFqSUJfMTZ4bm5BdG4yUFd3TFdvR1poaFhzSnV5cWdZZVowZE5Mc0ZINW1KNHE0MUtCSlRNY28?oc=5",
@@ -262,18 +274,6 @@
      "published": "2026-10-19T20:28:14+00:00"
     },
     {
-     "title": "Merck KGaA to Buy Britain's Silence Therapeutics for $1.3 Billion in siRNA Push",
-     "source": "BigGo Finance",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE12aUFyck1TR2FXWXE3MmluV0gtd2hrNTZoYWJpeGRwMm01X1U4WFZLS2J0UVR0bXhvNkNuZ09Jb2ZkOXlSTGVwazc5SE5BaU1CY0lObDRRQWdMNnFxbjhGcmZWYjNtX3BUVUtZcHlfU1VuQVMyTUE?oc=5",
-     "published": "2026-10-19T20:05:00+00:00"
-    },
-    {
-     "title": "Recon: German Merck acquires Silence Therapeutics for $1.3B; China's Hansoh Pharma strikes $15B drug deal with Roche",
-     "source": "RAPS",
-     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQWjRBMWxGakJMd1ZrM2k2SVhRY3BpcU15SlpsUjRzMXpJb055SHVnc2lCeWVON3VvSlNZN1Vua2ZNdzFHeFgyNnRySlZYU0I5Qmh6RHJaSEZ3LVF2a0xzYWp1TlcwbF91eFFDRE1QMlB3aWRnVklleS16RjdzRWFDVHZucFZieUp0Y1pIRGJMM2FWaUJEVEI2NTR2bG1SWlpjTDZtR1dITmFFcmpPRU1VNlU2OWxoWUFLa3FXRzR3N0x4RlowblU4a21yMFZvdW1GTDlndVU2NzVZLTEycl8xUg?oc=5",
-     "published": "2026-10-19T19:59:00+00:00"
-    },
-    {
      "title": "Silence Therapeutics Lands a 130% Takeover Premium",
      "source": "Yahoo Finance",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRGhQY2VEdi1QV1JnRFRCUnpDMUNCU2toZENZQU4xcjdqMHhkWHUxWXhGbjVmaHVxNEl3enNxZnJqOWNhZjFLcDNwTjJ0cmZuaFJiTnVlRmRhYTA2STR0UmdPSTFhUDd4WkVVLWRJNklPM21hRDYzSlhQaTQ4YklfNkRtdlVVQTNjN2hvWjNrM1prLU9mRUV0NlVmZzJ6NGNnV2c?oc=5",
@@ -285,7 +285,7 @@
     "label": "OPA / la compran",
     "quality": 0.3,
     "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
-    "confidence": 0.2
+    "confidence": 0.7
    },
    "score_parts": {
     "move": 20.0,
@@ -360,7 +360,7 @@
     "label": "Biotech / FDA / ensayo",
     "quality": 0.5,
     "note": "Muy volátil: puede revertir con fuerza.",
-    "confidence": 0.4
+    "confidence": 0.6
    },
    "score_parts": {
     "move": 5.4,
@@ -546,7 +546,7 @@
     "label": "Biotech / FDA / ensayo",
     "quality": 0.5,
     "note": "Muy volátil: puede revertir con fuerza.",
-    "confidence": 0.8
+    "confidence": 0.9
    },
    "score_parts": {
     "move": 6.4,
@@ -766,8 +766,14 @@
    "market_time": 1792440000,
    "market_date": "2026-10-19",
    "market_state": "POSTPOST",
-   "score": 24.4,
+   "score": 27.4,
    "news": [
+    {
+     "title": "Applied Digital Stock Gains Attention After CoreWeave Upgrade Lifts AI Infrastructure Sentiment",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSF91eFIxbktvTTU2WGFCdnY0LWZUMG91MTl3R2RjR3pDZHFEcnROaU1SdWIyXy04QTV1U1VJdk5kSWp5YjNNM01udVNILUVmZXU4OHQydDZIS3pfSkF1RHhuWExMTWVjc1FGRkhrRGhxYUVYNGE5dWkzTVMzeUtfakJuRWpyVVl5VEJFbVR5bS1GNklqeWFkTDNmYjU1OEVxbGl3?oc=5",
+     "published": "2026-10-19T23:22:19+00:00"
+    },
     {
      "title": "Is It Too Late to Buy Applied Digital Corp (APLD) After 6.7% Rally? GF Value Says Undervalued",
      "source": "GuruFocus",
@@ -779,12 +785,6 @@
      "source": "ad-hoc-news.de",
      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSGxkS3Q2RzdnZ3JyQ21aakt2aFVuV1NtcUs4dFgxM3h3Qkp0OWw0ZDVfVldGZkRzbzU3cVIzeFNpaDEzbEVoWnhQQ290cEtPc2NsclZqN3FEUG9DWWxBdmVWcVV2V3VtNDNRUmk0NVlIdDhMelB5aDdCX3R3T3ZzbGNBR0tITnF4eFdWMWkyTlJoVnUtWUxCUUR3elVEOGJ4eUVIa0cxbnZ4cjBYY08wTkI3dVJVTzhSWE8zUGFYSlBnYWZ0MTlERmV0NHZYckNVdWhsdVl3RGZQU2JlSGJyVTczOA?oc=5",
      "published": "2026-10-19T23:30:36+00:00"
-    },
-    {
-     "title": "Applied Digital Stock Gains Attention After CoreWeave Upgrade Lifts AI Infrastructure Sentiment",
-     "source": "Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSF91eFIxbktvTTU2WGFCdnY0LWZUMG91MTl3R2RjR3pDZHFEcnROaU1SdWIyXy04QTV1U1VJdk5kSWp5YjNNM01udVNILUVmZXU4OHQydDZIS3pfSkF1RHhuWExMTWVjc1FGRkhrRGhxYUVYNGE5dWkzTVMzeUtfakJuRWpyVVl5VEJFbVR5bS1GNklqeWFkTDNmYjU1OEVxbGl3?oc=5",
-     "published": "2026-10-19T23:22:19+00:00"
     },
     {
      "title": "Applied Digital Soars 10%, IREN Up 5%, CoreWeave Up 2% as AI Infrastructure Selloff Reverses",
@@ -818,16 +818,16 @@
     }
    ],
    "catalyst": {
-    "type": "acquisition",
-    "label": "Compra / fusión con otra empresa",
-    "quality": 0.5,
-    "note": "El mercado premia la operación; vigila cómo se financia y si la aprueban reguladores.",
+    "type": "analyst",
+    "label": "Mejora de analista",
+    "quality": 0.6,
+    "note": "Impulso moderado; suele diluirse si no hay más noticias.",
     "confidence": 0.3
    },
    "score_parts": {
     "move": 0.7,
     "rvol": 2.2,
-    "catalyst": 15.0,
+    "catalyst": 18.0,
     "close": 2.7,
     "size": 3.8
    },

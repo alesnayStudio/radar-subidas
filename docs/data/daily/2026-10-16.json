@@ -43,7 +43,7 @@
    "market_time": 1792180802,
    "market_date": "2026-10-16",
    "market_state": "POST",
-   "score": 45.9,
+   "score": 41.4,
    "news": [
     {
      "title": "Crescent Energy Co - Unit Enters Sixteenth Amendment To Credit Agreement On Oct 14, 2026 - SEC Filing",
@@ -95,16 +95,16 @@
     }
    ],
    "catalyst": {
-    "type": "contract",
-    "label": "Contrato / alianza",
-    "quality": 0.6,
-    "note": "Valora el tamaño del contrato frente a los ingresos de la empresa.",
-    "confidence": 0.4
+    "type": "capital",
+    "label": "Financiación / recompra",
+    "quality": 0.45,
+    "note": "Mejora del balance o recompra de acciones: impulso limitado salvo que cambie la tesis.",
+    "confidence": 0.6
    },
    "score_parts": {
     "move": 4.1,
     "rvol": 10.7,
-    "catalyst": 18.0,
+    "catalyst": 13.5,
     "close": 9.8,
     "size": 3.3
    },

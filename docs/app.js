@@ -242,6 +242,7 @@ async function loadStats() {
   const cats = stats.catalysts || {};
   const sorted = Object.fromEntries(Object.entries(cats).sort(([a, x], [b, y]) => (a === "all" ? -1 : b === "all" ? 1 : y.count - x.count)));
   horizonTable($("#stats-table"), "Catalizador", sorted);
+  horizonTable($("#stats-score"), "Puntuación", stats.score_buckets);
   horizonTable($("#stats-appearance"), "Aparición", stats.appearance);
   holdTable($("#stats-hold"), stats.hold_signal);
 }

@@ -34,7 +34,7 @@ _GENERIC = {
 }
 
 
-def _keywords(symbol: str, name: str) -> list[re.Pattern]:
+def company_patterns(symbol: str, name: str) -> list[re.Pattern]:
     words = [w for w in re.findall(r"[A-Za-z][\w&'-]+", clean_company_name(name))
              if len(w) >= 4 and w.lower() not in _GENERIC]
     return [re.compile(rf"\b{re.escape(w)}\b", re.I) for w in words[:3]] + [re.compile(rf"\b{re.escape(symbol)}\b")]
@@ -88,7 +88,7 @@ def get_news(symbol: str, name: str, limit: int = 8) -> list[dict]:
             items += fetch()
         except Exception as e:  # una fuente caída no debe tumbar el escaneo
             print(f"  [news] {symbol}: {type(e).__name__}: {e}")
-    keywords = _keywords(symbol, name)
+    keywords = company_patterns(symbol, name)
     seen, unique = set(), []
     for it in sorted(items, key=lambda x: x["published"], reverse=True):
         key = re.sub(r"\W+", "", it["title"].lower())[:60]

@@ -28,12 +28,12 @@
    "symbol": "RGC",
    "name": "Regencell Bioscience Holdings Limited",
    "rank": 2,
-   "score": 62.1,
+   "score": 53.1,
    "price": 9.52,
    "change_pct": 17.39,
    "rvol": 9.64,
-   "catalyst": "sector",
-   "catalyst_label": "Movimiento sectorial / macro",
+   "catalyst": "none",
+   "catalyst_label": "Sin noticia clara",
    "appearance": 1,
    "returns": {
     "1": 0.74,
@@ -120,12 +120,12 @@
    "symbol": "MMED",
    "name": "MiniMed Group, Inc.",
    "rank": 6,
-   "score": 42.4,
+   "score": 54.4,
    "price": 18.0,
    "change_pct": 7.08,
    "rvol": 5.29,
-   "catalyst": "none",
-   "catalyst_label": "Sin noticia clara",
+   "catalyst": "corporate",
+   "catalyst_label": "Evento corporativo (spin-off, índice, salida a bolsa)",
    "appearance": 1,
    "returns": {
     "1": -2.83,
@@ -143,12 +143,12 @@
    "symbol": "WULF",
    "name": "TeraWulf Inc.",
    "rank": 7,
-   "score": 42.0,
+   "score": 48.0,
    "price": 12.62,
    "change_pct": 9.36,
    "rvol": 3.51,
-   "catalyst": "sector",
-   "catalyst_label": "Movimiento sectorial / macro",
+   "catalyst": "analyst",
+   "catalyst_label": "Mejora de analista",
    "appearance": 1,
    "returns": {
     "1": -7.45,
@@ -235,12 +235,12 @@
    "symbol": "CRGY",
    "name": "Crescent Energy Company",
    "rank": 1,
-   "score": 45.9,
+   "score": 41.4,
    "price": 13.77,
    "change_pct": 10.07,
    "rvol": 3.11,
-   "catalyst": "contract",
-   "catalyst_label": "Contrato / alianza",
+   "catalyst": "capital",
+   "catalyst_label": "Financiación / recompra",
    "appearance": 1,
    "returns": {
     "1": -0.51,
@@ -312,12 +312,12 @@
    "catalyst_label": "Biotech / FDA / ensayo",
    "appearance": 1,
    "returns": {
-    "1": null,
+    "1": 0.7,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 0.36,
     "5": null,
     "20": null
    }
@@ -327,20 +327,20 @@
    "symbol": "CLF",
    "name": "Cleveland-Cliffs Inc.",
    "rank": 2,
-   "score": 68.7,
+   "score": 73.2,
    "price": 14.1,
    "change_pct": 16.34,
    "rvol": 4.69,
-   "catalyst": "earnings",
-   "catalyst_label": "Resultados trimestrales",
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
    "appearance": 1,
    "returns": {
-    "1": null,
+    "1": -3.19,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -3.53,
     "5": null,
     "20": null
    }
@@ -358,12 +358,12 @@
    "catalyst_label": "OPA / la compran",
    "appearance": 1,
    "returns": {
-    "1": null,
+    "1": 0.15,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -0.19,
     "5": null,
     "20": null
    }
@@ -381,12 +381,12 @@
    "catalyst_label": "Biotech / FDA / ensayo",
    "appearance": 1,
    "returns": {
-    "1": null,
+    "1": 6.82,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 6.48,
     "5": null,
     "20": null
    }
@@ -404,12 +404,12 @@
    "catalyst_label": "Biotech / FDA / ensayo",
    "appearance": 1,
    "returns": {
-    "1": null,
+    "1": 2.92,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 2.58,
     "5": null,
     "20": null
    }
@@ -427,12 +427,12 @@
    "catalyst_label": "Biotech / FDA / ensayo",
    "appearance": 1,
    "returns": {
-    "1": null,
+    "1": 3.95,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 3.61,
     "5": null,
     "20": null
    }
@@ -450,12 +450,12 @@
    "catalyst_label": "Biotech / FDA / ensayo",
    "appearance": 1,
    "returns": {
-    "1": null,
+    "1": 4.99,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 4.65,
     "5": null,
     "20": null
    }
@@ -473,12 +473,12 @@
    "catalyst_label": "Biotech / FDA / ensayo",
    "appearance": 1,
    "returns": {
-    "1": null,
+    "1": 1.66,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.32,
     "5": null,
     "20": null
    }
@@ -496,12 +496,12 @@
    "catalyst_label": "Contrato / alianza",
    "appearance": 1,
    "returns": {
-    "1": null,
+    "1": 2.52,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 2.18,
     "5": null,
     "20": null
    }
@@ -511,20 +511,20 @@
    "symbol": "APLD",
    "name": "Applied Digital Corporation",
    "rank": 10,
-   "score": 24.4,
+   "score": 27.4,
    "price": 19.25,
    "change_pct": 6.65,
    "rvol": 1.83,
-   "catalyst": "acquisition",
-   "catalyst_label": "Compra / fusión con otra empresa",
+   "catalyst": "analyst",
+   "catalyst_label": "Mejora de analista",
    "appearance": 1,
    "returns": {
-    "1": null,
+    "1": 0.42,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 0.08,
     "5": null,
     "20": null
    }
@@ -534,12 +534,12 @@
    "symbol": "BRZE",
    "name": "Braze, Inc.",
    "rank": 1,
-   "score": 77.5,
+   "score": 71.5,
    "price": 45.57,
    "change_pct": 51.7,
    "rvol": 26.4,
-   "catalyst": "acquisition",
-   "catalyst_label": "Compra / fusión con otra empresa",
+   "catalyst": "takeover",
+   "catalyst_label": "OPA / la compran",
    "appearance": 1,
    "returns": {
     "1": null,
@@ -695,12 +695,12 @@
    "symbol": "HSAI",
    "name": "Hesai Group",
    "rank": 8,
-   "score": 43.7,
+   "score": 21.2,
    "price": 13.99,
    "change_pct": 8.28,
    "rvol": 1.89,
-   "catalyst": "earnings",
-   "catalyst_label": "Resultados trimestrales",
+   "catalyst": "none",
+   "catalyst_label": "Sin noticia clara",
    "appearance": 1,
    "returns": {
     "1": null,
@@ -741,12 +741,12 @@
    "symbol": "KVYO",
    "name": "Klaviyo, Inc.",
    "rank": 10,
-   "score": 36.1,
+   "score": 33.1,
    "price": 19.61,
    "change_pct": 11.93,
    "rvol": 2.08,
-   "catalyst": "acquisition",
-   "catalyst_label": "Compra / fusión con otra empresa",
+   "catalyst": "sector",
+   "catalyst_label": "Movimiento sectorial / macro",
    "appearance": 1,
    "returns": {
     "1": null,

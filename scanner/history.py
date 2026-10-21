@@ -49,13 +49,41 @@ def add_picks(history: list[dict], scan_date: str, top: list[dict]) -> list[dict
     return sorted(history, key=lambda p: (p["date"], p["rank"]))
 
 
-def _closes(symbols: list[str], start: str) -> pd.DataFrame:
-    df = yf.download(symbols, start=start, auto_adjust=True, progress=False, threads=True)
-    closes = df["Close"]
-    if isinstance(closes, pd.Series):
-        closes = closes.to_frame(symbols[0])
-    closes.index = closes.index.date
-    return closes
+def _last_quote(symbol: str):
+    """(fecha, precio, volumen) de la última sesión según la cotización oficial de Yahoo."""
+    m = yf.Ticker(symbol).get_history_metadata()
+    t, price = m.get("regularMarketTime"), m.get("regularMarketPrice")
+    if t is None or price is None:
+        return None
+    t = pd.Timestamp(t, unit="s", tz="UTC") if not isinstance(t, pd.Timestamp) else t
+    return t.tz_convert("America/New_York").date(), float(price), m.get("regularMarketVolume")
+
+
+def prices(symbols: list[str], start: str, scan_date: date) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Cierres y volúmenes diarios (índice = fecha) hasta `scan_date` incluido.
+
+    Si Yahoo aún no da la vela del día del escaneo (pasa cuando el robot se ejecuta tras la medianoche
+    UTC), se completa con la cotización oficial de esa sesión para no ir un día por detrás.
+    """
+    df = yf.download(symbols, start=start, auto_adjust=True, progress=False, threads=True,
+                     multi_level_index=True)
+    close, vol = df["Close"].copy(), df["Volume"].copy()
+    close.index = vol.index = close.index.date
+    close, vol = close[close.index <= scan_date], vol[vol.index <= scan_date]
+
+    for sym in symbols:
+        if sym in close and scan_date in close.index and pd.notna(close.at[scan_date, sym]):
+            continue
+        try:
+            q = _last_quote(sym)
+        except Exception as e:
+            print(f"  [precios] {sym}: {type(e).__name__}: {e}")
+            continue
+        if q and q[0] == scan_date:
+            close.loc[scan_date, sym] = q[1]
+            vol.loc[scan_date, sym] = q[2]
+            print(f"  [precios] {sym}: completado el {scan_date} con la cotización oficial")
+    return close.sort_index(), vol.sort_index()
 
 
 def _forward_return(series: pd.Series, pick_date: date, fallback_base: float, n: int):
@@ -67,18 +95,18 @@ def _forward_return(series: pd.Series, pick_date: date, fallback_base: float, n:
     return round(float(after.iloc[n - 1] / base - 1) * 100, 2)
 
 
-def update_returns(history: list[dict], today: date) -> list[dict]:
+def update_returns(history: list[dict], scan_date: date) -> list[dict]:
     pending = [
         p for p in history
         if any(v is None for v in p["returns"].values())
-        and (today - date.fromisoformat(p["date"])).days <= GIVE_UP_DAYS
-        and date.fromisoformat(p["date"]) < today
+        and (scan_date - date.fromisoformat(p["date"])).days <= GIVE_UP_DAYS
+        and date.fromisoformat(p["date"]) < scan_date
     ]
     if not pending:
         return history
     start = (min(date.fromisoformat(p["date"]) for p in pending) - timedelta(days=7)).isoformat()
     symbols = sorted({p["symbol"] for p in pending} | {config.BENCHMARK})
-    closes = _closes(symbols, start)
+    closes, _ = prices(symbols, start, scan_date)
     bench = closes.get(config.BENCHMARK)
 
     for p in pending:
@@ -112,17 +140,13 @@ def holding_up(history: list[dict], scan_date: str) -> dict:
     if not latest_pick:
         return {"tracked": 0, "items": []}
 
-    df = yf.download(sorted(latest_pick), period="3mo", auto_adjust=True, progress=False, threads=True,
-                     multi_level_index=True)
     end = date.fromisoformat(scan_date)
+    all_close, all_vol = prices(sorted(latest_pick), (end - timedelta(days=90)).isoformat(), end)
     items, tracked = [], 0
     for sym, p in latest_pick.items():
-        try:
-            close, vol = df["Close"][sym].dropna(), df["Volume"][sym].dropna()
-        except KeyError:
+        if sym not in all_close:
             continue
-        close.index, vol.index = close.index.date, vol.index.date
-        close, vol = close[close.index <= end], vol[vol.index <= end]
+        close, vol = all_close[sym].dropna(), all_vol[sym].dropna()
         d = date.fromisoformat(p["date"])
         if close.empty or d not in close.index:
             continue
@@ -207,6 +231,12 @@ def compute_stats(history: list[dict]) -> dict:
             "repeat": _group("Repetidora (2ª vez o más)", [p for p in history if p.get("appearance", 1) >= 2]),
         },
         "hold_signal": _hold_signal(history),
+        # ¿La puntuación predice algo? Si las de puntuación alta no rinden mejor, hay que revisar los pesos
+        "score_buckets": {
+            "high": _group("Alta (55 o más)", [p for p in history if p["score"] >= 55]),
+            "mid": _group("Media (40 a 55)", [p for p in history if 40 <= p["score"] < 55]),
+            "low": _group("Baja (menos de 40)", [p for p in history if p["score"] < 40]),
+        },
     }
     STATS_FILE.write_text(json.dumps(out, indent=1, ensure_ascii=False), encoding="utf-8")
     return out
