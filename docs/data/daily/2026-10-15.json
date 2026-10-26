@@ -36,7 +36,7 @@
    "dollar_volume": 439486928,
    "market_cap": 34759794688,
    "pe": 13.73077,
-   "pct_from_52w_high": -0.22,
+   "pct_from_52w_high": -22.0,
    "above_sma50": true,
    "above_sma200": false,
    "earnings_ts": 1792067400,
@@ -116,6 +116,17 @@
    "earnings_event": {
     "timing": "reported",
     "at": "2026-10-15T08:30:00-04:00"
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -91.86,
+    "ath": 131.56,
+    "ath_date": "2000-03-07",
+    "prior_ath": 131.56,
+    "listed_since": "1981-08-24",
+    "short_history": false
    }
   },
   {
@@ -133,7 +144,7 @@
    "dollar_volume": 18106355,
    "market_cap": 4720819712,
    "pe": null,
-   "pct_from_52w_high": -0.86,
+   "pct_from_52w_high": -86.0,
    "above_sma50": true,
    "above_sma200": false,
    "earnings_ts": 1793217600,
@@ -192,7 +203,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -88.61,
+    "ath": 83.6,
+    "ath_date": "2025-06-16",
+    "prior_ath": 83.6,
+    "listed_since": "2021-07-16",
+    "short_history": false
+   }
   },
   {
    "symbol": "PAG",
@@ -209,7 +231,7 @@
    "dollar_volume": 686993420,
    "market_cap": 13920528384,
    "pe": 14.971751,
-   "pct_from_52w_high": -0.07,
+   "pct_from_52w_high": -7.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1793190600,
@@ -286,7 +308,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -6.61,
+    "ath": 227.0,
+    "ath_date": "2026-07-29",
+    "prior_ath": 227.0,
+    "listed_since": "1996-10-23",
+    "short_history": false
+   }
   },
   {
    "symbol": "QNT",
@@ -303,7 +336,7 @@
    "dollar_volume": 215366106,
    "market_cap": 9745056768,
    "pe": null,
-   "pct_from_52w_high": -0.58,
+   "pct_from_52w_high": -58.0,
    "above_sma50": false,
    "above_sma200": false,
    "earnings_ts": 1794254400,
@@ -380,7 +413,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -57.74,
+    "ath": 86.79,
+    "ath_date": "2026-07-06",
+    "prior_ath": 86.79,
+    "listed_since": "2026-06-04",
+    "short_history": true
+   }
   },
   {
    "symbol": "Z",
@@ -397,7 +441,7 @@
    "dollar_volume": 414910241,
    "market_cap": 7074566144,
    "pe": 136.78261,
-   "pct_from_52w_high": -0.6,
+   "pct_from_52w_high": -60.0,
    "above_sma50": false,
    "above_sma200": false,
    "earnings_ts": 1793822400,
@@ -456,7 +500,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -84.88,
+    "ath": 208.11,
+    "ath_date": "2021-02-16",
+    "prior_ath": 208.11,
+    "listed_since": "2015-08-03",
+    "short_history": false
+   }
   },
   {
    "symbol": "MMED",
@@ -473,7 +528,7 @@
    "dollar_volume": 499170546,
    "market_cap": 5064298496,
    "pe": null,
-   "pct_from_52w_high": -0.26,
+   "pct_from_52w_high": -26.0,
    "above_sma50": false,
    "above_sma200": true,
    "earnings_ts": 1794832200,
@@ -550,7 +605,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -26.32,
+    "ath": 24.43,
+    "ath_date": "2026-09-02",
+    "prior_ath": 24.43,
+    "listed_since": "2026-03-06",
+    "short_history": true
+   }
   },
   {
    "symbol": "WULF",
@@ -567,7 +633,7 @@
    "dollar_volume": 1357308587,
    "market_cap": 6296984576,
    "pe": null,
-   "pct_from_52w_high": -0.58,
+   "pct_from_52w_high": -58.0,
    "above_sma50": false,
    "above_sma200": false,
    "earnings_ts": 1793968200,
@@ -644,7 +710,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -71.31,
+    "ath": 43.98,
+    "ath_date": "2021-11-17",
+    "prior_ath": 43.98,
+    "listed_since": "1994-04-05",
+    "short_history": false
+   }
   },
   {
    "symbol": "CORZ",
@@ -661,7 +738,7 @@
    "dollar_volume": 487406092,
    "market_cap": 4644976128,
    "pe": null,
-   "pct_from_52w_high": -0.53,
+   "pct_from_52w_high": -53.0,
    "above_sma50": false,
    "above_sma200": false,
    "earnings_ts": 1793881800,
@@ -738,7 +815,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -52.54,
+    "ath": 30.46,
+    "ath_date": "2026-06-02",
+    "prior_ath": 30.46,
+    "listed_since": "2024-01-24",
+    "short_history": true
+   }
   },
   {
    "symbol": "WMG",
@@ -755,7 +843,7 @@
    "dollar_volume": 146159406,
    "market_cap": 16054239232,
    "pe": 24.552,
-   "pct_from_52w_high": -0.13,
+   "pct_from_52w_high": -13.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1795118400,
@@ -832,7 +920,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -38.9,
+    "ath": 50.23,
+    "ath_date": "2021-10-28",
+    "prior_ath": 50.23,
+    "listed_since": "2020-06-03",
+    "short_history": false
+   }
   },
   {
    "symbol": "ONC",
@@ -849,7 +948,7 @@
    "dollar_volume": 269546711,
    "market_cap": 42558517248,
    "pe": 66.444046,
-   "pct_from_52w_high": -0.03,
+   "pct_from_52w_high": -3.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1793881800,
@@ -926,7 +1025,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -12.3,
+    "ath": 426.56,
+    "ath_date": "2021-09-17",
+    "prior_ath": 426.56,
+    "listed_since": "2016-02-03",
+    "short_history": false
+   }
   }
  ],
  "holding_up": {

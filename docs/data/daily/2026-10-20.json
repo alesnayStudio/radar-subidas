@@ -113,7 +113,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -53.87,
+    "ath": 98.78,
+    "ath_date": "2021-11-22",
+    "prior_ath": 98.78,
+    "listed_since": "2021-11-17",
+    "short_history": false
+   }
   },
   {
    "symbol": "HAS",
@@ -210,6 +221,17 @@
    "earnings_event": {
     "timing": "reported",
     "at": "2026-10-20T08:30:00-04:00"
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -13.68,
+    "ath": 126.87,
+    "ath_date": "2019-07-30",
+    "prior_ath": 126.87,
+    "listed_since": "1980-03-17",
+    "short_history": false
    }
   },
   {
@@ -227,7 +249,7 @@
    "dollar_volume": 174301907,
    "market_cap": 3615350016,
    "pe": null,
-   "pct_from_52w_high": -0.27,
+   "pct_from_52w_high": -27.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1793908800,
@@ -304,7 +326,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -27.25,
+    "ath": 16.7,
+    "ath_date": "2026-06-16",
+    "prior_ath": 16.7,
+    "listed_since": "2022-03-01",
+    "short_history": false
+   }
   },
   {
    "symbol": "EFX",
@@ -321,7 +354,7 @@
    "dollar_volume": 703651367,
    "market_cap": 20740782080,
    "pe": 31.080986,
-   "pct_from_52w_high": -0.26,
+   "pct_from_52w_high": -26.0,
    "above_sma50": true,
    "above_sma200": false,
    "earnings_ts": 1792499400,
@@ -401,6 +434,17 @@
    "earnings_event": {
     "timing": "reported",
     "at": "2026-10-20T08:30:00-04:00"
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -42.98,
+    "ath": 309.63,
+    "ath_date": "2024-09-16",
+    "prior_ath": 309.63,
+    "listed_since": "1980-03-17",
+    "short_history": false
    }
   },
   {
@@ -418,7 +462,7 @@
    "dollar_volume": 69450304,
    "market_cap": 11474822144,
    "pe": 11.300972,
-   "pct_from_52w_high": -0.51,
+   "pct_from_52w_high": -51.0,
    "above_sma50": false,
    "above_sma200": false,
    "earnings_ts": 1793304000,
@@ -459,7 +503,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -67.84,
+    "ath": 36.19,
+    "ath_date": "2017-08-23",
+    "prior_ath": 36.19,
+    "listed_since": "1995-11-14",
+    "short_history": false
+   }
   },
   {
    "symbol": "RCUS",
@@ -476,7 +531,7 @@
    "dollar_volume": 148011354,
    "market_cap": 3024167680,
    "pe": null,
-   "pct_from_52w_high": -0.25,
+   "pct_from_52w_high": -25.0,
    "above_sma50": false,
    "above_sma200": false,
    "earnings_ts": 1793131200,
@@ -553,7 +608,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -51.63,
+    "ath": 49.1,
+    "ath_date": "2021-11-22",
+    "prior_ath": 49.1,
+    "listed_since": "2018-03-15",
+    "short_history": false
+   }
   },
   {
    "symbol": "VICR",
@@ -570,7 +636,7 @@
    "dollar_volume": 401903075,
    "market_cap": 9412228096,
    "pe": 65.22044,
-   "pct_from_52w_high": -0.47,
+   "pct_from_52w_high": -47.0,
    "above_sma50": false,
    "above_sma200": false,
    "earnings_ts": 1792499400,
@@ -650,6 +716,17 @@
    "earnings_event": {
     "timing": "reported",
     "at": "2026-10-20T08:30:00-04:00"
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -46.65,
+    "ath": 382.65,
+    "ath_date": "2026-06-30",
+    "prior_ath": 382.65,
+    "listed_since": "1990-04-03",
+    "short_history": false
    }
   },
   {
@@ -667,7 +744,7 @@
    "dollar_volume": 38326542,
    "market_cap": 17587355648,
    "pe": 29.765957,
-   "pct_from_52w_high": -0.52,
+   "pct_from_52w_high": -52.0,
    "above_sma50": false,
    "above_sma200": false,
    "earnings_ts": 1794313800,
@@ -744,7 +821,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -54.65,
+    "ath": 30.85,
+    "ath_date": "2025-09-22",
+    "prior_ath": 30.85,
+    "listed_since": "2023-02-09",
+    "short_history": false
+   }
   },
   {
    "symbol": "MAZE",
@@ -761,7 +849,7 @@
    "dollar_volume": 50919307,
    "market_cap": 1802570496,
    "pe": null,
-   "pct_from_52w_high": -0.4,
+   "pct_from_52w_high": -40.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1793908800,
@@ -838,7 +926,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -39.52,
+    "ath": 53.65,
+    "ath_date": "2026-03-16",
+    "prior_ath": 53.65,
+    "listed_since": "2025-01-31",
+    "short_history": true
+   }
   },
   {
    "symbol": "KVYO",
@@ -855,7 +954,7 @@
    "dollar_volume": 247891696,
    "market_cap": 5583504896,
    "pe": 653.6667,
-   "pct_from_52w_high": -0.41,
+   "pct_from_52w_high": -41.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1793822400,
@@ -926,7 +1025,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -60.42,
+    "ath": 49.55,
+    "ath_date": "2025-02-11",
+    "prior_ath": 49.55,
+    "listed_since": "2023-09-20",
+    "short_history": false
+   }
   }
  ],
  "holding_up": {

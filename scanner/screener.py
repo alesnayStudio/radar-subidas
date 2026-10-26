@@ -61,6 +61,7 @@ def normalize(q: dict) -> dict | None:
         "name": q.get("longName") or q.get("shortName") or q["symbol"],
         "exchange": q.get("fullExchangeName") or q.get("exchange"),
         "price": round(price, 2),
+        "day_high": round(high, 2),
         "prev_close": round(prev, 2),
         "change_pct": round(_num(q, "regularMarketChangePercent", 0), 2),
         "gap_pct": round((open_ / prev - 1) * 100, 2),
@@ -72,7 +73,8 @@ def normalize(q: dict) -> dict | None:
         "dollar_volume": round(vol * price),
         "market_cap": _num(q, "marketCap"),
         "pe": _num(q, "trailingPE"),
-        "pct_from_52w_high": round(_num(q, "fiftyTwoWeekHighChangePercent", 0), 2),
+        # Yahoo lo da en fracción (-0.54 = -54%), no en porcentaje
+        "pct_from_52w_high": round(_num(q, "fiftyTwoWeekHighChangePercent", 0) * 100, 2),
         "above_sma50": price > _num(q, "fiftyDayAverage", math.inf),
         "above_sma200": price > _num(q, "twoHundredDayAverage", math.inf),
         "earnings_ts": earn,

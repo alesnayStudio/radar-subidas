@@ -113,7 +113,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -52.77,
+    "ath": 69.8,
+    "ath_date": "2017-11-29",
+    "prior_ath": 69.8,
+    "listed_since": "1999-07-14",
+    "short_history": false
+   }
   },
   {
    "symbol": "BHVN",
@@ -130,7 +141,7 @@
    "dollar_volume": 447917711,
    "market_cap": 2218832896,
    "pe": null,
-   "pct_from_52w_high": -0.21,
+   "pct_from_52w_high": -21.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1794254400,
@@ -207,7 +218,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -76.39,
+    "ath": 62.21,
+    "ath_date": "2024-03-08",
+    "prior_ath": 62.21,
+    "listed_since": "2022-09-23",
+    "short_history": false
+   }
   },
   {
    "symbol": "WCN",
@@ -224,7 +246,7 @@
    "dollar_volume": 982793054,
    "market_cap": 46510125056,
    "pe": 41.452915,
-   "pct_from_52w_high": -0.01,
+   "pct_from_52w_high": -1.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1792612800,
@@ -304,6 +326,17 @@
    "earnings_event": {
     "timing": "reported",
     "at": "2026-10-21T16:00:00-04:00"
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -8.32,
+    "ath": 201.66,
+    "ath_date": "2025-04-03",
+    "prior_ath": 201.66,
+    "listed_since": "1998-05-22",
+    "short_history": false
    }
   },
   {
@@ -321,7 +354,7 @@
    "dollar_volume": 862116987,
    "market_cap": 43143528448,
    "pe": 18.17625,
-   "pct_from_52w_high": -0.1,
+   "pct_from_52w_high": -10.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1792672200,
@@ -401,6 +434,17 @@
    "earnings_event": {
     "timing": "reported",
     "at": "2026-10-22T08:30:00-04:00"
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -26.7,
+    "ath": 595.17,
+    "ath_date": "2025-03-05",
+    "prior_ath": 595.17,
+    "listed_since": "1992-02-13",
+    "short_history": false
    }
   },
   {
@@ -418,7 +462,7 @@
    "dollar_volume": 2763818039,
    "market_cap": 120012201984,
    "pe": 33.54368,
-   "pct_from_52w_high": -0.15,
+   "pct_from_52w_high": -15.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1792672200,
@@ -492,6 +536,17 @@
    "earnings_event": {
     "timing": "reported",
     "at": "2026-10-22T08:30:00-04:00"
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -25.65,
+    "ath": 785.0,
+    "ath_date": "2025-06-27",
+    "prior_ath": 785.0,
+    "listed_since": "2018-04-03",
+    "short_history": false
    }
   },
   {
@@ -509,7 +564,7 @@
    "dollar_volume": 1478988956,
    "market_cap": 95717376000,
    "pe": 26.911457,
-   "pct_from_52w_high": -0.04,
+   "pct_from_52w_high": -4.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1792612800,
@@ -589,6 +644,17 @@
    "earnings_event": {
     "timing": "reported",
     "at": "2026-10-21T16:00:00-04:00"
+   },
+   "ath": {
+    "status": "near",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -3.6,
+    "ath": 53.6,
+    "ath_date": "2026-07-27",
+    "prior_ath": 53.6,
+    "listed_since": "1980-11-03",
+    "short_history": false
    }
   },
   {
@@ -606,7 +672,7 @@
    "dollar_volume": 432856229,
    "market_cap": 7166758912,
    "pe": 18.109274,
-   "pct_from_52w_high": -0.35,
+   "pct_from_52w_high": -35.0,
    "above_sma50": true,
    "above_sma200": false,
    "earnings_ts": 1792672200,
@@ -650,6 +716,17 @@
    "earnings_event": {
     "timing": "reported",
     "at": "2026-10-22T08:30:00-04:00"
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -66.13,
+    "ath": 582.27,
+    "ath_date": "2021-11-19",
+    "prior_ath": 582.27,
+    "listed_since": "1995-10-13",
+    "short_history": false
    }
   },
   {
@@ -667,7 +744,7 @@
    "dollar_volume": 184785049,
    "market_cap": 4337591808,
    "pe": 34.962616,
-   "pct_from_52w_high": -0.22,
+   "pct_from_52w_high": -22.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1792672200,
@@ -747,6 +824,17 @@
    "earnings_event": {
     "timing": "reported",
     "at": "2026-10-22T08:30:00-04:00"
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -41.57,
+    "ath": 256.08,
+    "ath_date": "2025-06-03",
+    "prior_ath": 256.08,
+    "listed_since": "1973-02-21",
+    "short_history": false
    }
   },
   {
@@ -764,7 +852,7 @@
    "dollar_volume": 1406775081,
    "market_cap": 141941620736,
    "pe": 26.565996,
-   "pct_from_52w_high": -0.28,
+   "pct_from_52w_high": -28.0,
    "above_sma50": false,
    "above_sma200": false,
    "earnings_ts": 1792672200,
@@ -838,6 +926,17 @@
    "earnings_event": {
     "timing": "reported",
     "at": "2026-10-22T08:30:00-04:00"
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -40.91,
+    "ath": 200.96,
+    "ath_date": "2024-11-25",
+    "prior_ath": 200.96,
+    "listed_since": "2007-06-22",
+    "short_history": false
    }
   },
   {
@@ -855,7 +954,7 @@
    "dollar_volume": 164647453,
    "market_cap": 10182243328,
    "pe": 21.570267,
-   "pct_from_52w_high": -0.07,
+   "pct_from_52w_high": -7.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1792672200,
@@ -935,6 +1034,17 @@
    "earnings_event": {
     "timing": "reported",
     "at": "2026-10-22T08:30:00-04:00"
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -6.59,
+    "ath": 284.25,
+    "ath_date": "2026-06-12",
+    "prior_ath": 284.25,
+    "listed_since": "1980-01-02",
+    "short_history": false
    }
   }
  ],

@@ -105,6 +105,12 @@ main { max-width: 1280px; margin: 0 auto; padding: 16px; }
   background: color-mix(in srgb, var(--warn) 12%, transparent); border-left: 3px solid var(--warn);
 }
 small.med { display: block; font-size: 11px; opacity: 0.8; }
+.ath {
+  font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 999px; white-space: nowrap;
+}
+.ath-new { background: color-mix(in srgb, var(--q-high) 18%, transparent); color: var(--q-high); }
+.ath-near { background: color-mix(in srgb, var(--q-mid) 18%, transparent); color: var(--q-mid); }
+.ath-rebound { background: color-mix(in srgb, var(--muted) 18%, transparent); color: var(--muted); }
 .section-title { font-size: 16px; margin: 28px 0 6px; }
 .change { text-align: right; flex-shrink: 0; }
 .change .pct { color: var(--up-text); font-size: 22px; font-weight: 800; }

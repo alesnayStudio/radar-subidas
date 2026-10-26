@@ -7,6 +7,7 @@ import pandas as pd
 import yfinance as yf
 
 from . import config
+from .ath import STATUS as ATH_STATUS
 
 HISTORY_FILE = config.DATA_DIR / "history.json"
 STATS_FILE = config.DATA_DIR / "stats.json"
@@ -43,6 +44,8 @@ def add_picks(history: list[dict], scan_date: str, top: list[dict]) -> list[dict
             "score": r["score"], "price": r["price"], "change_pct": r["change_pct"], "rvol": r["rvol"],
             "catalyst": r["catalyst"]["type"], "catalyst_label": r["catalyst"]["label"],
             "appearance": r.get("appearance", {}).get("count", 1),  # 1 = primera vez, 2+ = repetidora
+            "ath_status": (r.get("ath") or {}).get("status"),
+            "pct_from_ath": (r.get("ath") or {}).get("pct_from_ath"),
             "returns": {str(d): None for d in config.FOLLOW_UP_DAYS},
             "excess": {str(d): None for d in config.FOLLOW_UP_DAYS},
         })
@@ -245,6 +248,11 @@ def compute_stats(history: list[dict]) -> dict:
             "repeat": _group("Repetidora (2ª vez o más)", [p for p in history if p.get("appearance", 1) >= 2]),
         },
         "hold_signal": _hold_signal(history),
+        # ¿Rinden mejor las rupturas de máximos históricos que los rebotes desde abajo?
+        "ath_buckets": {
+            k: _group(f"{v['icon']} {v['label']}", [p for p in history if p.get("ath_status") == k])
+            for k, v in ATH_STATUS.items()
+        },
         # ¿La puntuación predice algo? Si las de puntuación alta no rinden mejor, hay que revisar los pesos
         "score_buckets": {
             "high": _group("Alta (55 o más)", [p for p in history if p["score"] >= 55]),

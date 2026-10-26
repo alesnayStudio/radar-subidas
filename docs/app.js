@@ -95,6 +95,30 @@ function scoreBar(r) {
     </div>`;
 }
 
+const ATH_BADGE = {
+  new_ath: ["🚀 Máx. histórico", "ath-new"],
+  near: ["🔝 Cerca de máximos", "ath-near"],
+  rebound: ["↩️ Rebote", "ath-rebound"],
+};
+
+function athTitle(a) {
+  const since = a.short_history ? ` · cotiza solo desde ${fmtDate(a.listed_since)}` : "";
+  return `Máximo histórico ${a.ath} $ el ${fmtDate(a.ath_date)}${since}`;
+}
+
+function athBadge(a) {
+  const b = a && ATH_BADGE[a.status];
+  return b ? `<span class="ath ${b[1]}" title="${esc(athTitle(a))}">${b[0]}</span>` : "";
+}
+
+// Distancia al máximo de 52 semanas y al histórico en una sola métrica
+function athMetric(r) {
+  const a = r.ath && !r.ath.suspect ? r.ath : null;  // histórico no fiable: no lo mostramos
+  const hist = a ? `${fmtPct(a.pct_from_ath, 0)}${a.short_history ? "*" : ""}` : "—";
+  return `<div class="metric" title="${a ? esc(athTitle(a)) : ""}"><span class="k">vs máx. 52s / hist.</span>
+    <span class="v num"><span class="${signCls(r.pct_from_52w_high)}">${fmtPct(r.pct_from_52w_high, 0)}</span> / <span class="${signCls(a?.pct_from_ath)}">${hist}</span></span></div>`;
+}
+
 function repeatBadge(a) {
   if (!a || a.count < 2) return "";
   const prev = a.previous.map(fmtDate).join(", ");
@@ -136,7 +160,7 @@ function card(r, i) {
   <article class="card">
     <div class="card-head">
       <div style="min-width:0">
-        <div class="ticker"><span class="rank">${i + 1}</span><span class="symbol">${esc(r.symbol)}</span>${repeatBadge(r.appearance)}</div>
+        <div class="ticker"><span class="rank">${i + 1}</span><span class="symbol">${esc(r.symbol)}</span>${athBadge(r.ath)}${repeatBadge(r.appearance)}</div>
         <div class="name" title="${esc(r.name)}">${esc(r.name)}</div>
       </div>
       <div class="change">
@@ -158,7 +182,7 @@ function card(r, i) {
       ${metric("Gap apertura", fmtPct(r.gap_pct), signCls(r.gap_pct))}
       ${metric("Cierre en rango", `${Math.round(r.close_strength * 100)}%`)}
       ${metric("Capitalización", fmtMoney(r.market_cap))}
-      ${metric("vs máx. 52 sem.", fmtPct(r.pct_from_52w_high), signCls(r.pct_from_52w_high))}
+      ${athMetric(r)}
       ${metric("Media 50 / 200", `${r.above_sma50 ? "▲" : "▼"} / ${r.above_sma200 ? "▲" : "▼"}`)}
     </div>
 
@@ -261,6 +285,7 @@ async function loadStats() {
   const sorted = Object.fromEntries(Object.entries(cats).sort(([a, x], [b, y]) => (a === "all" ? -1 : b === "all" ? 1 : y.count - x.count)));
   horizonTable($("#stats-table"), "Catalizador", sorted);
   horizonTable($("#stats-score"), "Puntuación", stats.score_buckets);
+  horizonTable($("#stats-ath"), "Respecto al máximo histórico", stats.ath_buckets);
   horizonTable($("#stats-appearance"), "Aparición", stats.appearance);
   holdTable($("#stats-hold"), stats.hold_signal);
 }

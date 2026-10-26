@@ -36,7 +36,7 @@
    "dollar_volume": 307593076,
    "market_cap": 4549659136,
    "pe": 125.18182,
-   "pct_from_52w_high": -0.11,
+   "pct_from_52w_high": -11.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1793649600,
@@ -113,7 +113,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -29.92,
+    "ath": 19.65,
+    "ath_date": "2022-04-18",
+    "prior_ath": 19.65,
+    "listed_since": "2021-12-08",
+    "short_history": false
+   }
   },
   {
    "symbol": "HPK",
@@ -130,7 +141,7 @@
    "dollar_volume": 10659973,
    "market_cap": 1334077056,
    "pe": null,
-   "pct_from_52w_high": -0.03,
+   "pct_from_52w_high": -3.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1793822400,
@@ -201,7 +212,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -72.39,
+    "ath": 38.21,
+    "ath_date": "2022-04-22",
+    "prior_ath": 38.21,
+    "listed_since": "2018-05-29",
+    "short_history": false
+   }
   },
   {
    "symbol": "PAYP",
@@ -218,7 +240,7 @@
    "dollar_volume": 18389347,
    "market_cap": 10617604096,
    "pe": 13.17647,
-   "pct_from_52w_high": -0.37,
+   "pct_from_52w_high": -37.0,
    "above_sma50": false,
    "above_sma200": false,
    "earnings_ts": 1793390400,
@@ -289,7 +311,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -37.0,
+    "ath": 24.89,
+    "ath_date": "2026-03-23",
+    "prior_ath": 24.89,
+    "listed_since": "2026-03-12",
+    "short_history": true
+   }
   }
  ],
  "holding_up": {

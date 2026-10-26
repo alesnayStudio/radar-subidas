@@ -55,6 +55,10 @@
       <p class="hint">Si el sistema acierta, las acciones con puntuación alta deberían rendir mejor que las de puntuación baja. Si con el tiempo no es así, hay que cambiar los pesos.</p>
       <div class="table-wrap"><table id="stats-score"></table></div>
 
+      <h2 class="section-title">¿Rinden mejor las rupturas de máximos que los rebotes?</h2>
+      <p class="hint">Agrupa las subidas según dónde estaba la acción respecto a su máximo histórico. La teoría dice que las rupturas de máximos tienen más continuidad (no hay vendedores «atrapados» por encima) y que los rebotes desde muy abajo se desinflan antes.</p>
+      <div class="table-wrap"><table id="stats-ath"></table></div>
+
       <h2 class="section-title">¿Rinden mejor las repetidoras?</h2>
       <p class="hint">Compara las acciones que salían en el top por primera vez con las que ya habían salido en las sesiones anteriores.</p>
       <div class="table-wrap"><table id="stats-appearance"></table></div>
@@ -76,6 +80,14 @@
         <li><b>Subida (20)</b>: más subida suma, con tope en +26 % (más allá suele ser euforia).</li>
         <li><b>Cierre fuerte (10)</b>: cerrar cerca del máximo del día indica que nadie vendió la subida.</li>
         <li><b>Tamaño (10)</b>: las empresas grandes son más difíciles de manipular.</li>
+      </ul>
+      <h2>Máximo histórico</h2>
+      <ul>
+        <li><b>🚀 Máx. histórico</b>: ese día superó su máximo de siempre. Nadie que tenga la acción está perdiendo dinero, así que no hay vendedores esperando «salir sin perder».</li>
+        <li><b>🔝 Cerca de máximos</b>: a menos de un 5 % de su máximo histórico.</li>
+        <li><b>↩️ Rebote</b>: más de un 50 % por debajo de su máximo. Suele ser un alivio dentro de una tendencia bajista.</li>
+        <li>En la métrica <b>«vs máx. 52s / hist.»</b> verás la distancia a ambos máximos. Un <b>*</b> indica que cotiza desde hace menos de 3 años, así que su «histórico» es corto. Pasa el ratón por encima para ver el precio y la fecha del máximo.</li>
+        <li>Precios ajustados por splits (no por dividendos, como se mide habitualmente). De momento <b>no suma puntos</b>: primero las estadísticas tienen que demostrar que importa.</li>
       </ul>
       <h2>Aviso ⚠️ de resultados pendientes</h2>
       <p>Si la empresa presenta resultados <b>después</b> de la subida (tras el cierre o en los próximos días), la tarjeta lo avisa. Es una apuesta binaria: el día de resultados la acción puede moverse un 10-20 % en cualquier sentido.</p>

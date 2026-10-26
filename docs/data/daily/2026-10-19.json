@@ -36,7 +36,7 @@
    "dollar_volume": 668969479,
    "market_cap": 3030347264,
    "pe": null,
-   "pct_from_52w_high": -0.21,
+   "pct_from_52w_high": -21.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1793881800,
@@ -113,7 +113,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -86.21,
+    "ath": 572.55,
+    "ath_date": "2021-03-15",
+    "prior_ath": 572.55,
+    "listed_since": "2020-08-12",
+    "short_history": false
+   }
   },
   {
    "symbol": "CLF",
@@ -130,7 +141,7 @@
    "dollar_volume": 1245473516,
    "market_cap": 8044614656,
    "pe": null,
-   "pct_from_52w_high": -0.16,
+   "pct_from_52w_high": -16.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1792413000,
@@ -210,6 +221,17 @@
    "earnings_event": {
     "timing": "reported",
     "at": "2026-10-19T08:30:00-04:00"
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -88.44,
+    "ath": 121.95,
+    "ath_date": "2008-06-30",
+    "prior_ath": 121.95,
+    "listed_since": "1973-02-21",
+    "short_history": false
    }
   },
   {
@@ -304,7 +326,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -44.06,
+    "ath": 35.0,
+    "ath_date": "2021-05-28",
+    "prior_ath": 35.0,
+    "listed_since": "2020-09-08",
+    "short_history": false
+   }
   },
   {
    "symbol": "PBLS",
@@ -321,7 +354,7 @@
    "dollar_volume": 54312907,
    "market_cap": 3131567616,
    "pe": null,
-   "pct_from_52w_high": -0.4,
+   "pct_from_52w_high": -40.0,
    "above_sma50": false,
    "above_sma200": false,
    "earnings_ts": 1794486600,
@@ -380,7 +413,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -40.34,
+    "ath": 42.49,
+    "ath_date": "2026-09-18",
+    "prior_ath": 42.49,
+    "listed_since": "2026-06-10",
+    "short_history": true
+   }
   },
   {
    "symbol": "ARQT",
@@ -397,7 +441,7 @@
    "dollar_volume": 184636403,
    "market_cap": 4008316416,
    "pe": 144.95454,
-   "pct_from_52w_high": -0.03,
+   "pct_from_52w_high": -3.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1793131200,
@@ -474,7 +518,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -21.99,
+    "ath": 40.88,
+    "ath_date": "2020-03-20",
+    "prior_ath": 40.88,
+    "listed_since": "2020-01-31",
+    "short_history": false
+   }
   },
   {
    "symbol": "MANE",
@@ -491,7 +546,7 @@
    "dollar_volume": 178924498,
    "market_cap": 5108874752,
    "pe": null,
-   "pct_from_52w_high": -0.11,
+   "pct_from_52w_high": -11.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1794486600,
@@ -568,7 +623,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -10.56,
+    "ath": 136.72,
+    "ath_date": "2026-10-08",
+    "prior_ath": 136.72,
+    "listed_since": "2026-02-04",
+    "short_history": true
+   }
   },
   {
    "symbol": "AGIO",
@@ -585,7 +651,7 @@
    "dollar_volume": 68855885,
    "market_cap": 2083595648,
    "pe": null,
-   "pct_from_52w_high": -0.24,
+   "pct_from_52w_high": -24.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1793881800,
@@ -632,7 +698,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -74.86,
+    "ath": 138.85,
+    "ath_date": "2015-01-15",
+    "prior_ath": 138.85,
+    "listed_since": "2013-07-24",
+    "short_history": false
+   }
   },
   {
    "symbol": "PRAX",
@@ -649,7 +726,7 @@
    "dollar_volume": 202910225,
    "market_cap": 7263943680,
    "pe": null,
-   "pct_from_52w_high": -0.34,
+   "pct_from_52w_high": -34.0,
    "above_sma50": false,
    "above_sma200": false,
    "earnings_ts": 1794227400,
@@ -690,7 +767,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -71.54,
+    "ath": 914.27,
+    "ath_date": "2021-01-08",
+    "prior_ath": 914.27,
+    "listed_since": "2020-10-16",
+    "short_history": false
+   }
   },
   {
    "symbol": "WRBY",
@@ -707,7 +795,7 @@
    "dollar_volume": 109990386,
    "market_cap": 3088965376,
    "pe": 416.5,
-   "pct_from_52w_high": -0.19,
+   "pct_from_52w_high": -19.0,
    "above_sma50": false,
    "above_sma200": false,
    "earnings_ts": 1793881800,
@@ -754,7 +842,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -58.56,
+    "ath": 60.3,
+    "ath_date": "2021-11-12",
+    "prior_ath": 60.3,
+    "listed_since": "2021-09-29",
+    "short_history": false
+   }
   },
   {
    "symbol": "APLD",
@@ -771,7 +870,7 @@
    "dollar_volume": 693884480,
    "market_cap": 5820952576,
    "pe": null,
-   "pct_from_52w_high": -0.62,
+   "pct_from_52w_high": -62.0,
    "above_sma50": false,
    "above_sma200": false,
    "earnings_ts": 1799265600,
@@ -848,7 +947,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -62.05,
+    "ath": 50.72,
+    "ath_date": "2026-05-28",
+    "prior_ath": 50.72,
+    "listed_since": "2022-04-13",
+    "short_history": false
+   }
   }
  ],
  "holding_up": {

@@ -9,7 +9,7 @@ import json
 import sys
 from datetime import date
 
-from . import catalysts, config, history, news, scoring
+from . import ath, catalysts, config, history, news, scoring
 
 
 def main():
@@ -20,6 +20,10 @@ def main():
         day = json.loads(f.read_text(encoding="utf-8"))
         if not day.get("market"):
             day["market"] = history.market_context(date.fromisoformat(day["date"]))
+        if any((r.get("ath") or {}).get("basis") != "splits" for r in day["top"]):  # falta o es de una versión anterior
+            aths = ath.ath_info(day["top"], day["date"])
+            for r in day["top"]:
+                r["ath"] = aths.get(r["symbol"])
         for r in day["top"]:
             old = r["catalyst"]["type"]
             r["news"] = [n for n in r["news"] if news.is_relevant(n["title"], news.company_patterns(r["symbol"], r["name"]))]
@@ -38,7 +42,9 @@ def main():
     for p in h:
         r = labels.get((p["date"], p["symbol"]))
         if r:
-            p.update(catalyst=r["catalyst"]["type"], catalyst_label=r["catalyst"]["label"], score=r["score"])
+            p.update(catalyst=r["catalyst"]["type"], catalyst_label=r["catalyst"]["label"], score=r["score"],
+                     ath_status=(r.get("ath") or {}).get("status"),
+                     pct_from_ath=(r.get("ath") or {}).get("pct_from_ath"))
 
     last = files[-1].stem
     h = history.update_returns(h, date.fromisoformat(last))

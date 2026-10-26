@@ -11,7 +11,7 @@ import sys
 from collections import Counter
 from datetime import date, datetime, timezone
 
-from . import catalysts, config, history, news, scoring, screener
+from . import ath, catalysts, config, history, news, scoring, screener
 
 
 def write_json(path, data):
@@ -68,6 +68,14 @@ def run(save_history: bool = True):
         print(f"  [aguantan] {type(e).__name__}: {e}")
         holders = {"tracked": 0, "items": []}
     print(f"  Aguantan la subida: {len(holders['items'])} de {holders['tracked']} vigiladas")
+
+    try:
+        aths = ath.ath_info(top, scan_date)
+    except Exception as e:  # un fallo aquí no debe impedir publicar el top del día
+        print(f"  [máximos] {type(e).__name__}: {e}")
+        aths = {}
+    for r in top:
+        r["ath"] = aths.get(r["symbol"])
 
     try:
         market = history.market_context(date.fromisoformat(scan_date))

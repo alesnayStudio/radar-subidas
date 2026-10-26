@@ -79,6 +79,15 @@ class EarningsTiming(unittest.TestCase):
         self.assertIsNone(earnings_timing(ts("2027-01-20 15:00"), "2026-10-22")[0])
 
 
+class AllTimeHigh(unittest.TestCase):
+    def test_buckets(self):
+        from scanner.ath import classify as ath_classify
+        self.assertEqual(ath_classify(-1.8, True), "new_ath")    # CART: nuevo máximo intradía
+        self.assertEqual(ath_classify(-3.3, False), "near")      # CSX
+        self.assertEqual(ath_classify(-25.7, False), "mid")      # SPOT
+        self.assertEqual(ath_classify(-63.6, False), "rebound")  # POOL
+
+
 class Headlines(unittest.TestCase):
     def test_generic_names_drop_junk(self):
         pool = company_patterns("POOL", "Pool Corporation")

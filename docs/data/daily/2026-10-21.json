@@ -36,7 +36,7 @@
    "dollar_volume": 673356597,
    "market_cap": 18490912768,
    "pe": 38.90076,
-   "pct_from_52w_high": -0.02,
+   "pct_from_52w_high": -2.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1792612800,
@@ -116,6 +116,17 @@
    "earnings_event": {
     "timing": "upcoming",
     "at": "2026-10-21T16:00:00-04:00"
+   },
+   "ath": {
+    "status": "near",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -2.27,
+    "ath": 677.9,
+    "ath_date": "2026-07-23",
+    "prior_ath": 677.9,
+    "listed_since": "2016-08-11",
+    "short_history": false
    }
   },
   {
@@ -133,7 +144,7 @@
    "dollar_volume": 388989986,
    "market_cap": 39681941504,
    "pe": null,
-   "pct_from_52w_high": -0.54,
+   "pct_from_52w_high": -54.0,
    "above_sma50": false,
    "above_sma200": false,
    "earnings_ts": 1794254400,
@@ -204,7 +215,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -92.28,
+    "ath": 101.97,
+    "ath_date": "2021-03-15",
+    "prior_ath": 101.97,
+    "listed_since": "2005-12-05",
+    "short_history": false
+   }
   },
   {
    "symbol": "AMX",
@@ -221,7 +243,7 @@
    "dollar_volume": 128227080,
    "market_cap": 72531156992,
    "pe": 14.632531,
-   "pct_from_52w_high": -0.15,
+   "pct_from_52w_high": -15.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1792526400,
@@ -283,6 +305,17 @@
    "earnings_event": {
     "timing": "reported",
     "at": "2026-10-20T16:00:00-04:00"
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -29.75,
+    "ath": 34.58,
+    "ath_date": "2007-10-18",
+    "prior_ath": 34.58,
+    "listed_since": "2001-02-12",
+    "short_history": false
    }
   },
   {
@@ -300,7 +333,7 @@
    "dollar_volume": 34795990604,
    "market_cap": 2098779652096,
    "pe": null,
-   "pct_from_52w_high": -0.29,
+   "pct_from_52w_high": -29.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1792526400,
@@ -380,6 +413,17 @@
    "earnings_event": {
     "timing": "reported",
     "at": "2026-10-20T16:00:00-04:00"
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -29.4,
+    "ath": 225.64,
+    "ath_date": "2026-06-16",
+    "prior_ath": 225.64,
+    "listed_since": "2026-06-12",
+    "short_history": true
    }
   },
   {
@@ -397,7 +441,7 @@
    "dollar_volume": 200036427,
    "market_cap": 6113569792,
    "pe": 16.861933,
-   "pct_from_52w_high": -0.24,
+   "pct_from_52w_high": -24.0,
    "above_sma50": false,
    "above_sma200": false,
    "earnings_ts": 1792526400,
@@ -477,6 +521,17 @@
    "earnings_event": {
     "timing": "reported",
     "at": "2026-10-20T16:00:00-04:00"
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -36.67,
+    "ath": 135.0,
+    "ath_date": "2024-07-16",
+    "prior_ath": 135.0,
+    "listed_since": "2021-01-04",
+    "short_history": false
    }
   },
   {
@@ -494,7 +549,7 @@
    "dollar_volume": 2913534396,
    "market_cap": 23009273856,
    "pe": 10.911043,
-   "pct_from_52w_high": -0.35,
+   "pct_from_52w_high": -35.0,
    "above_sma50": false,
    "above_sma200": true,
    "earnings_ts": 1793736000,
@@ -571,7 +626,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -71.06,
+    "ath": 122.9,
+    "ath_date": "2024-03-08",
+    "prior_ath": 122.9,
+    "listed_since": "2007-03-29",
+    "short_history": false
+   }
   },
   {
    "symbol": "TTMI",
@@ -588,7 +654,7 @@
    "dollar_volume": 464357556,
    "market_cap": 10761387008,
    "pe": 46.221718,
-   "pct_from_52w_high": -0.54,
+   "pct_from_52w_high": -54.0,
    "above_sma50": false,
    "above_sma200": false,
    "earnings_ts": 1792672200,
@@ -668,6 +734,17 @@
    "earnings_event": {
     "timing": "upcoming",
     "at": "2026-10-22T08:30:00-04:00"
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -54.36,
+    "ath": 223.83,
+    "ath_date": "2026-06-22",
+    "prior_ath": 223.83,
+    "listed_since": "2000-09-25",
+    "short_history": false
    }
   },
   {
@@ -685,7 +762,7 @@
    "dollar_volume": 26252864,
    "market_cap": 3200046848,
    "pe": 19.8,
-   "pct_from_52w_high": -0.16,
+   "pct_from_52w_high": -16.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1793968200,
@@ -726,7 +803,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -16.25,
+    "ath": 16.55,
+    "ath_date": "2026-07-06",
+    "prior_ath": 16.55,
+    "listed_since": "2024-12-03",
+    "short_history": true
+   }
   },
   {
    "symbol": "ABSI",
@@ -743,7 +831,7 @@
    "dollar_volume": 53676370,
    "market_cap": 1723004672,
    "pe": null,
-   "pct_from_52w_high": -0.17,
+   "pct_from_52w_high": -17.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1794486600,
@@ -796,7 +884,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -68.16,
+    "ath": 31.53,
+    "ath_date": "2021-08-04",
+    "prior_ath": 31.53,
+    "listed_since": "2021-07-22",
+    "short_history": false
+   }
   },
   {
    "symbol": "APPN",
@@ -813,7 +912,7 @@
    "dollar_volume": 83064330,
    "market_cap": 3490412800,
    "pe": null,
-   "pct_from_52w_high": -0.01,
+   "pct_from_52w_high": -1.0,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1793881800,
@@ -890,7 +989,18 @@
     "previous": [],
     "window": 10
    },
-   "earnings_event": null
+   "earnings_event": null,
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -81.26,
+    "ath": 260.0,
+    "ath_date": "2021-01-27",
+    "prior_ath": 260.0,
+    "listed_since": "2017-05-25",
+    "short_history": false
+   }
   }
  ],
  "holding_up": {

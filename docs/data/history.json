@@ -21,7 +21,9 @@
     "1": -0.38,
     "5": -2.07,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -91.86
   },
   {
    "date": "2026-10-15",
@@ -44,7 +46,9 @@
     "1": 1.85,
     "5": 4.06,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -88.61
   },
   {
    "date": "2026-10-15",
@@ -67,7 +71,9 @@
     "1": 1.31,
     "5": 1.06,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -6.61
   },
   {
    "date": "2026-10-15",
@@ -90,7 +96,9 @@
     "1": 0.76,
     "5": -1.12,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -57.74
   },
   {
    "date": "2026-10-15",
@@ -113,7 +121,9 @@
     "1": -0.92,
     "5": 9.02,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -84.88
   },
   {
    "date": "2026-10-15",
@@ -136,7 +146,9 @@
     "1": -1.72,
     "5": 2.62,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -26.32
   },
   {
    "date": "2026-10-15",
@@ -159,7 +171,9 @@
     "1": -6.34,
     "5": -9.29,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -71.31
   },
   {
    "date": "2026-10-15",
@@ -182,7 +196,9 @@
     "1": -5.64,
     "5": -7.67,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -52.54
   },
   {
    "date": "2026-10-15",
@@ -205,7 +221,9 @@
     "1": 3.42,
     "5": 4.27,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -38.9
   },
   {
    "date": "2026-10-15",
@@ -228,7 +246,9 @@
     "1": -0.23,
     "5": 3.2,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -12.3
   },
   {
    "date": "2026-10-16",
@@ -251,7 +271,9 @@
     "1": -0.93,
     "5": 0.87,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -29.92
   },
   {
    "date": "2026-10-16",
@@ -274,7 +296,9 @@
     "1": 7.54,
     "5": 10.1,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -72.39
   },
   {
    "date": "2026-10-16",
@@ -297,7 +321,9 @@
     "1": -1.44,
     "5": -3.78,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -37.0
   },
   {
    "date": "2026-10-19",
@@ -320,7 +346,9 @@
     "1": 0.36,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -86.21
   },
   {
    "date": "2026-10-19",
@@ -343,7 +371,9 @@
     "1": -3.53,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -88.44
   },
   {
    "date": "2026-10-19",
@@ -366,7 +396,9 @@
     "1": -0.19,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -44.06
   },
   {
    "date": "2026-10-19",
@@ -389,7 +421,9 @@
     "1": 6.48,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -40.34
   },
   {
    "date": "2026-10-19",
@@ -412,7 +446,9 @@
     "1": 2.58,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -21.99
   },
   {
    "date": "2026-10-19",
@@ -435,7 +471,9 @@
     "1": 3.61,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -10.56
   },
   {
    "date": "2026-10-19",
@@ -458,7 +496,9 @@
     "1": 4.65,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -74.86
   },
   {
    "date": "2026-10-19",
@@ -481,7 +521,9 @@
     "1": 1.32,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -71.54
   },
   {
    "date": "2026-10-19",
@@ -504,7 +546,9 @@
     "1": 2.18,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -58.56
   },
   {
    "date": "2026-10-19",
@@ -527,7 +571,9 @@
     "1": 0.08,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -62.05
   },
   {
    "date": "2026-10-20",
@@ -550,7 +596,9 @@
     "1": -0.29,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -53.87
   },
   {
    "date": "2026-10-20",
@@ -573,7 +621,9 @@
     "1": 3.56,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -13.68
   },
   {
    "date": "2026-10-20",
@@ -596,7 +646,9 @@
     "1": 3.83,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -27.25
   },
   {
    "date": "2026-10-20",
@@ -619,7 +671,9 @@
     "1": -1.08,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -42.98
   },
   {
    "date": "2026-10-20",
@@ -642,7 +696,9 @@
     "1": 0.67,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -67.84
   },
   {
    "date": "2026-10-20",
@@ -665,7 +721,9 @@
     "1": -20.11,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -51.63
   },
   {
    "date": "2026-10-20",
@@ -688,7 +746,9 @@
     "1": 4.02,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -46.65
   },
   {
    "date": "2026-10-20",
@@ -711,7 +771,9 @@
     "1": -6.25,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -54.65
   },
   {
    "date": "2026-10-20",
@@ -734,7 +796,9 @@
     "1": -0.13,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -39.52
   },
   {
    "date": "2026-10-20",
@@ -757,7 +821,9 @@
     "1": 2.43,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -60.42
   },
   {
    "date": "2026-10-21",
@@ -780,7 +846,9 @@
     "1": -0.11,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "near",
+   "pct_from_ath": -2.27
   },
   {
    "date": "2026-10-21",
@@ -803,7 +871,9 @@
     "1": 0.16,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -92.28
   },
   {
    "date": "2026-10-21",
@@ -826,7 +896,9 @@
     "1": 4.02,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -29.75
   },
   {
    "date": "2026-10-21",
@@ -849,7 +921,9 @@
     "1": -7.96,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -29.4
   },
   {
    "date": "2026-10-21",
@@ -872,7 +946,9 @@
     "1": -3.86,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -36.67
   },
   {
    "date": "2026-10-21",
@@ -895,7 +971,9 @@
     "1": -4.02,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -71.06
   },
   {
    "date": "2026-10-21",
@@ -918,7 +996,9 @@
     "1": -26.49,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -54.36
   },
   {
    "date": "2026-10-21",
@@ -941,7 +1021,9 @@
     "1": -4.88,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -16.25
   },
   {
    "date": "2026-10-21",
@@ -964,7 +1046,9 @@
     "1": -5.49,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -68.16
   },
   {
    "date": "2026-10-21",
@@ -987,7 +1071,9 @@
     "1": 6.15,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -81.26
   },
   {
    "date": "2026-10-22",
@@ -1010,7 +1096,9 @@
     "1": 2.67,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -52.77
   },
   {
    "date": "2026-10-22",
@@ -1033,7 +1121,9 @@
     "1": -4.99,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -76.39
   },
   {
    "date": "2026-10-22",
@@ -1056,7 +1146,9 @@
     "1": 1.45,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -8.32
   },
   {
    "date": "2026-10-22",
@@ -1079,7 +1171,9 @@
     "1": 0.96,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -26.7
   },
   {
    "date": "2026-10-22",
@@ -1102,7 +1196,9 @@
     "1": 0.62,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -25.65
   },
   {
    "date": "2026-10-22",
@@ -1125,7 +1221,9 @@
     "1": -1.18,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "near",
+   "pct_from_ath": -3.6
   },
   {
    "date": "2026-10-22",
@@ -1148,7 +1246,9 @@
     "1": 1.47,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -66.13
   },
   {
    "date": "2026-10-22",
@@ -1171,7 +1271,9 @@
     "1": 1.59,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -41.57
   },
   {
    "date": "2026-10-22",
@@ -1194,7 +1296,9 @@
     "1": -0.14,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -40.91
   },
   {
    "date": "2026-10-22",
@@ -1217,7 +1321,9 @@
     "1": 2.54,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -6.59
   },
   {
    "date": "2026-10-23",
@@ -1240,7 +1346,9 @@
     "1": null,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -63.53
   },
   {
    "date": "2026-10-23",
@@ -1263,7 +1371,9 @@
     "1": null,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "new_ath",
+   "pct_from_ath": -1.99
   },
   {
    "date": "2026-10-23",
@@ -1286,7 +1396,9 @@
     "1": null,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -57.56
   },
   {
    "date": "2026-10-23",
@@ -1309,7 +1421,9 @@
     "1": null,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -54.29
   },
   {
    "date": "2026-10-23",
@@ -1332,7 +1446,9 @@
     "1": null,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -71.11
   },
   {
    "date": "2026-10-23",
@@ -1355,7 +1471,9 @@
     "1": null,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -64.21
   },
   {
    "date": "2026-10-23",
@@ -1378,7 +1496,9 @@
     "1": null,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -49.92
   },
   {
    "date": "2026-10-23",
@@ -1401,7 +1521,9 @@
     "1": null,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -55.19
   },
   {
    "date": "2026-10-23",
@@ -1424,7 +1546,9 @@
     "1": null,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "rebound",
+   "pct_from_ath": -55.32
   },
   {
    "date": "2026-10-23",
@@ -1447,7 +1571,9 @@
     "1": null,
     "5": null,
     "20": null
-   }
+   },
+   "ath_status": "mid",
+   "pct_from_ath": -13.81
   }
  ]
 }
