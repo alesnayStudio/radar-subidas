@@ -18,11 +18,16 @@ def main():
     files = sorted(config.DAILY_DIR.glob("*.json"))
     for f in files:
         day = json.loads(f.read_text(encoding="utf-8"))
+        if not day.get("market"):
+            day["market"] = history.market_context(date.fromisoformat(day["date"]))
         for r in day["top"]:
             old = r["catalyst"]["type"]
+            r["news"] = [n for n in r["news"] if news.is_relevant(n["title"], news.company_patterns(r["symbol"], r["name"]))]
             r["catalyst"] = catalysts.classify(r["news"], r["earnings_ts"], r["market_date"],
-                                               news.company_patterns(r["symbol"], r["name"]))
+                                               news.company_names(r["symbol"], r["name"]))
             r["news"] = catalysts.key_headlines_first(r["news"], r["catalyst"]["type"])
+            timing, at = catalysts.earnings_timing(r["earnings_ts"], r["market_date"])
+            r["earnings_event"] = {"timing": timing, "at": at} if timing else None
             r["score"], r["score_parts"] = scoring.score(r, r["catalyst"]["quality"])
             labels[(day["date"], r["symbol"])] = r
             if old != r["catalyst"]["type"]:

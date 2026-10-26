@@ -112,7 +112,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "HPK",
@@ -169,12 +170,6 @@
      "published": "2026-10-15T15:20:01+00:00"
     },
     {
-     "title": "Milbank advises Danantara and EMP on HighPeak Energy deals",
-     "source": "Law.asia",
-     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9xMXREZlBuVEo2TWhSUzVOM05OSVJ6RDRmc05oQ05JbzR6cVdqSzRQZFdNbXhpS1A3ZWx2dTAzZHJ0VUZWWTE3ckpmMHE0N3NmQVhWeEYxYw?oc=5",
-     "published": "2026-10-15T15:12:34+00:00"
-    },
-    {
      "title": "HighPeak Energy (HPK) Lands $450 Million Preferred Deal, Is The Stock Already Fully Valued?",
      "source": "Simply Wall St.",
      "link": "https://finance.yahoo.com/markets/stocks/articles/highpeak-energy-hpk-lands-450-221512263.html",
@@ -205,7 +200,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "PAYP",
@@ -272,12 +268,6 @@
      "source": "TheBanker.com",
      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9SZXhvQk5xTmQ0ZHZzdEZUbXRsLUFVb3BIZG9RaFlfRkVrekk0YnNUcThCSXc3dWVsM2lPTkxLM0E0UzVYQXEtaW9OVDRGUEp5b0lIY1hKY2RDU3lVYjVlcDFnZXRvS3g0QkczYVF3WTBUN2FSQzhNT3pB?oc=5",
      "published": "2026-10-14T07:44:25+00:00"
-    },
-    {
-     "title": "[Persol CS Pacific League] Taisei Makihara hits .400 against them: Summary of player performance in Hokkaido Nippon-Ham games & at MIZUHO PayPay Dome | Pacific League.com | Professional baseball",
-     "source": "パ・リーグ.com",
-     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90MkVWdVBaUGxqd0tpZzUwUGlhRkVNUlZPY2paZ2JuTUFyM1VCYTlKLW13U0MzYjNuS3pvdENEWjg3Q0hmTzBldzVxeG1pWndIelZxMmZscVJ6a1U?oc=5",
-     "published": "2026-10-14T02:29:24+00:00"
     }
    ],
    "catalyst": {
@@ -298,7 +288,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   }
  ],
  "holding_up": {
@@ -345,5 +336,19 @@
    }
   ],
   "window": 10
+ },
+ "market": {
+  "SPY": {
+   "label": "S&P 500",
+   "change_pct": -1.11
+  },
+  "QQQ": {
+   "label": "Nasdaq 100",
+   "change_pct": -2.5
+  },
+  "IWM": {
+   "label": "Russell 2000",
+   "change_pct": -1.69
+  }
  }
 }

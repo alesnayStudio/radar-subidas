@@ -99,7 +99,7 @@
     "label": "Resultados trimestrales",
     "quality": 0.85,
     "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 0.42
+    "confidence": 0.45
    },
    "score_parts": {
     "move": 9.6,
@@ -112,7 +112,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "BHVN",
@@ -192,7 +193,7 @@
     "label": "Biotech / FDA / ensayo",
     "quality": 0.5,
     "note": "Muy volátil: puede revertir con fuerza.",
-    "confidence": 0.7
+    "confidence": 0.9
    },
    "score_parts": {
     "move": 19.0,
@@ -205,7 +206,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "WCN",
@@ -285,7 +287,7 @@
     "label": "Resultados trimestrales",
     "quality": 0.85,
     "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 1.0
+    "confidence": 1
    },
    "score_parts": {
     "move": 3.9,
@@ -298,6 +300,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-21T16:00:00-04:00"
    }
   },
   {
@@ -378,7 +384,7 @@
     "label": "Resultados + mejora de previsiones",
     "quality": 1.0,
     "note": "El catalizador con más continuidad histórica (post-earnings drift).",
-    "confidence": 0.2
+    "confidence": 0.3
    },
    "score_parts": {
     "move": 3.7,
@@ -391,6 +397,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-22T08:30:00-04:00"
    }
   },
   {
@@ -458,12 +468,6 @@
      "source": "Motley Fool",
      "link": "https://finance.yahoo.com/markets/stocks/articles/why-spotify-stock-popped-today-215328713.html",
      "published": "2026-10-22T21:53:28+00:00"
-    },
-    {
-     "title": "U.S. Markets Closed Mixed Thursday As Spotify Technology Led, TTM Technologies Lagged",
-     "source": "Barron's",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQjlMaGltT1Jna183UDhsb19tUzR6ZzVNaE4zbjFPT1FqbkdRbjc2Zk9Na1hiYWJSNUdIZnFPUi0xMlpLcURWRzR5bi1qWDhuaktBVnRoSDQtZjBQVEM2dWpCSGdqMS1wRlFscW5ScWo2VjdVVTdkalZfUElVR1oybjZadjZtMWpmLWxXeklzbXE2QTQ2dUh1Y2lUUU9uallZME5MaERLRVJ0Zm1makhhV3RmS2h5dkdUb3lDbktlQnVwdjg?oc=5",
-     "published": "2026-10-22T20:10:00+00:00"
     }
    ],
    "catalyst": {
@@ -484,6 +488,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-22T08:30:00-04:00"
    }
   },
   {
@@ -577,6 +585,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-21T16:00:00-04:00"
    }
   },
   {
@@ -604,52 +616,16 @@
    "score": 56.9,
    "news": [
     {
-     "title": "Viewpoint with Andrew Brown: Why the ever-shrinking episcopal talent pool?",
-     "source": "The Church Times",
-     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWlZ4ZzRlNlcxbExsT3U3TTF2V2xURjhLTFFtSDQ4RlJOUWRnTkF1bkVPc0hVMWVhWVJIWEZydFpDd3pVVGIzNGc5cmdCX0NjUDNMS0hhUmtVQzFSNm1YemhrZnJhTlZpU1pOajFpSDBSSWxXVjEyTkF0SGZpNFZ0TEV6dUxvODgwTERvSWhxWDYxZnhQWHF6bTF0SVNvTFFrM203X0JWMXg0cmdUR2g2R1J5N0QyMWNyM2pzbDlYcWJHbVJ4NjdMNUhDbXJaaTZLTzJjd2NmVVc2QXJmdU9B?oc=5",
-     "published": "2026-10-22T23:00:00+00:00"
-    },
-    {
      "title": "Justice Department watchdog declines to investigate handling of Reflecting Pool case",
      "source": "KRCG",
      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaDVuME92T0xkTGpqM01EeFdabTJEUWMyTFR0YlE5c241REt0Z0FHZGpXTmZtLUUwSEY4YXdSRWphMWFIRHAxRE1IU2cwVjRmNld3MHRKVXNOclJ2QUZBZUQ4aVQwLWtnMFAyLVkyUE5mOHpxdUg4MUJsWnRzc2JZa1hqNldjX19VYlktUU5yTWNRNGRUMnpjX2JoVE11V2xIcDZNTmhidzVrc2lfaFRkWFBidF9tc05UYXdtLUM3ZXphb0x6aHQtag?oc=5",
      "published": "2026-10-22T22:41:52+00:00"
     },
     {
-     "title": "NFL Survivor Pool Picks: Week 7 Targets and Avoids (2026)",
-     "source": "RotoBaller",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdzZQV2NBZ1A4S29BazJ4bnlfMmp5U1lkSUZZZm9jUHF1VkhpZ2hTOEFRNTg4X3F5dDktUmw0YXRBUnlvVXA0bGI5NkRaN0YwX1NzZ3JCQUl0VVhFQmZLQ3B5WFIyOGV1ekxYUjN2S0huZzR5SHJCcTVCSUdHWkJDV1lqR01MVERJZmhnT1JfQUszSlU?oc=5",
-     "published": "2026-10-22T22:00:00+00:00"
-    },
-    {
-     "title": "Louisa County fifth graders return to YMCA pool, putting water safety lessons to the test",
-     "source": "WVIR",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORmVCb1lPa1ZSOTY0blVyTzZzSXJaUlJaRzYxSmFtRENjNkZfMHE0SEpGYTlQWllDQ1pMUElqR1dyT3NYSEpHQ2h4aWhpV3dGMWljOXdUVHYtWWtHeFl6cjhEOGZjOFhnMzhaRGNFSmZOb2staDNGNTIwdEJNMnBlaWs1LVR6YVR3NE0tcnJDQVV3T2ZZdk1XUXVuYkpraG5HZmFPdjJuYmVqOEpXRmg5SWdrSdIBxwFBVV95cUxPNEtscnRRUDNwbEdwVWZWcWQxTTAtNVdGbVhqZDBBMzFpUzlTNjE5a2t6dld4RURlUmUzdFdPMUI2R1VsWTc4czA3UTE2OVVpNGQtWEdRZzFDZkg4TkRoV3Y1eFVjZ3RDcndkTUJ0YWlTc3NfOUtSNnFLZnI2REFHQkZ5alN3dThVZDE2MEcyWlVBeEJIZ0lJc05DYlB5UFloQ3JEZklwX1ptcFhSVFQ0Y1c3ZThUNlZCMWFVSHJ3VHpvZGFVa3Zj?oc=5",
-     "published": "2026-10-22T21:51:00+00:00"
-    },
-    {
-     "title": "NFL Pick'em Pool Picks: Week 7 Targets, Avoids, Predictions (2026)",
-     "source": "RotoBaller",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcUNBUEpWakpxekFfYVZSeHlaZWkxSmx2dUYzNWlOLTNnVXcwNmlaWmprNVpvQ2hScUhtV3pocDRNZmZETm9NLS1KaE5oOVhtUjdVYWNPNThRMkl3bHJJQ3FEVVh3MldnS3hCdndlNzFUUU5nVEs3T0wwVWtYZHc0VTJJUUxBeXhsQ21sVC11ckdNbTA1bjBSTk9YNA?oc=5",
-     "published": "2026-10-22T21:50:00+00:00"
-    },
-    {
      "title": "World Pool Championship Heads to Bahrain for First Time",
      "source": "Sports Travel Magazine",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYlZrMGo1ZmlvS3ZuMVE0Zjg2Zk5wV2pKYWxxenlYTVRFbEcwUzZZcS1BaHRHdkg3c2R3OGpDNVhBbGVyYmhDTUVFREV3QXdNR3Q2bVVLY0JjV0psR3BvaEhJU2tfbGRkRTFFbUprRnBoX3FXYnlqYzB6TGV1V2pRMTBPQWVMZWpvWVk1bWQwY1NkNkoxVk8ybg?oc=5",
      "published": "2026-10-22T21:42:47+00:00"
-    },
-    {
-     "title": "76-year-old Bethel volunteer works to rebuild town pool",
-     "source": "WCAX",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaW5ja3A0VW9iU0Q4MTFmM1MwUm16bFMtbW9ocjVKeF9jdnRWUVVIcURsREZOY2FuVzAwTGhjYUJBXy0wSmJwTHdrMEI1bjFZRE43ckJTdHJtYVl1ZE1kVlEtU1lVYkNNWjlyRWVGanBlSTJJdkxzSzNWZG1BeTlYY3A5VFhQQXU5Zm9nN2dn?oc=5",
-     "published": "2026-10-22T21:39:00+00:00"
-    },
-    {
-     "title": "Trump blocked me from the press pool today — but he can’t silence me",
-     "source": "The Independent",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWmNoNExSMUtLMnN1NFNRTDBCV1dRTnVvSmhaV2JmZ1BoMEt4Nl9GUnBtYlJqeWhtUElDaUI4U3BRNUpXZDJRR3RZek9QajVVSE1mZWtqZnVmQzJQNnRTRVVKb3JvN01Vd3pZdVdXdmJyNHZHQXdwaG50V1RIQk1BUEdRTTM4TWRtUnpseE5PQVZ0TDlPMW0zeXJlTTE5d3QzTnk0RWNrSTBhTTNI?oc=5",
-     "published": "2026-10-22T21:20:00+00:00"
     }
    ],
    "catalyst": {
@@ -670,6 +646,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-22T08:30:00-04:00"
    }
   },
   {
@@ -763,6 +743,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-22T08:30:00-04:00"
    }
   },
   {
@@ -808,12 +792,6 @@
      "published": "2026-10-22T21:58:13+00:00"
     },
     {
-     "title": "Citadel's Ken Griffin Says AI is in a Bubble Right Now. Billionaire Data Center Backer Jon Gray of Blackstone Disagrees.",
-     "source": "Barchart.com",
-     "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOaTU0R2JqdUxNcS1OVkloTy1DOUhTMFpiUmRSN2tiRzNFcWNGclBvNmVPZmw1VlRTampPTkJMZmNZNFJ2NV9FS1R6NTBOa2RQUmVLTHBWcU93aW5MT2U2TFkzT2ZKLWNQMG5TcGFWU0FubWdRaEVFc2tZQ0IwNkZuXzJiWFlhZUZkWXJYVjhRTlNGUkRaeEdlMjZwb0Q4MWRhSTZQZ0FCM2FFLVdKQ0xBOWVxWG5EcXJwTERnTC1tQUc2bzQ0ZlIyT0dtRGlBek1hSjdpY0JHWWlUX2pybnotSUZsc3lHblgzUzVuTDFDYncwdnVD?oc=5",
-     "published": "2026-10-22T21:14:21+00:00"
-    },
-    {
      "title": "Blackstone's private wealth AUM reaches record $330 billion",
      "source": "SecondaryLink",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONm1venNrb2NGNDRSVy12TVc5WXRNRmM0clhGUEZXOTRTYUZoYy1HVW9TTEF2TW1lN3oxZXdTWVJ5RnJsR1F2akdycTgyZWpZaENhSHF0eTdOVk1mM1MxdlNfc2V0dlNaRUw3ZTJEOUJDNTM5OXUxRVcxRTh5OVc0dkVOWWtvaWlqYjlEOGwzZnlLbmpQNkEzTjY0c1FzVFYzMzg2S2FlekFGMmxvcGNGTWstLWw?oc=5",
@@ -843,7 +821,7 @@
     "label": "Resultados trimestrales",
     "quality": 0.85,
     "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 0.8
+    "confidence": 0.9
    },
    "score_parts": {
     "move": 2.4,
@@ -856,6 +834,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-22T08:30:00-04:00"
    }
   },
   {
@@ -949,6 +931,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-22T08:30:00-04:00"
    }
   }
  ],
@@ -1230,5 +1216,19 @@
    }
   ],
   "window": 10
+ },
+ "market": {
+  "SPY": {
+   "label": "S&P 500",
+   "change_pct": -1.18
+  },
+  "QQQ": {
+   "label": "Nasdaq 100",
+   "change_pct": -2.86
+  },
+  "IWM": {
+   "label": "Russell 2000",
+   "change_pct": 0.07
+  }
  }
 }

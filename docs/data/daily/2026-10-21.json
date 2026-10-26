@@ -43,7 +43,7 @@
    "market_time": 1792612801,
    "market_date": "2026-10-21",
    "market_state": "POSTPOST",
-   "score": 60.6,
+   "score": 35.1,
    "news": [
     {
      "title": "Medpace Holdings earnings beat by $0.40, revenue topped estimates",
@@ -95,16 +95,16 @@
     }
    ],
    "catalyst": {
-    "type": "earnings_guidance",
-    "label": "Resultados + mejora de previsiones",
-    "quality": 1.0,
-    "note": "El catalizador con más continuidad histórica (post-earnings drift).",
-    "confidence": 0.5
+    "type": "pre_earnings",
+    "label": "Subida antes de resultados",
+    "quality": 0.15,
+    "note": "Aún no ha presentado resultados: el día que los publique puede moverse ±10-20% en cualquier sentido.",
+    "confidence": 0.0
    },
    "score_parts": {
     "move": 0.4,
     "rvol": 14.7,
-    "catalyst": 30.0,
+    "catalyst": 4.5,
     "close": 9.2,
     "size": 6.3
    },
@@ -112,6 +112,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "upcoming",
+    "at": "2026-10-21T16:00:00-04:00"
    }
   },
   {
@@ -169,12 +173,6 @@
      "published": "2026-10-21T20:39:12+00:00"
     },
     {
-     "title": "David Ellison Unveils Skydance Team Who Will Run Paramount-Warner Bros. Empire",
-     "source": "IMDb",
-     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5jTzJXMXQ0cHFEeWthSUNxaDNGVW1VdEhZZ0xNZWJHcHNyOThVZGV0eUhnNkluOHFjQU5YS29KRjNEa1NGMW5WM2xGR3Y3RGxGSWc?oc=5",
-     "published": "2026-10-21T20:27:57+00:00"
-    },
-    {
      "title": "Traders Buy Large Volume of Skydance Call Options (NYSE:SKYD)",
      "source": "MarketBeat",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRmNoeC1qbkxkOXppcWxmWHNOS2YyOXRIWG1ncEFGX29ydmtSZWQyZ1duYS1sdm12Mm95eUpxYnpjY0xSRDhYMnlkOWczUGpuZVJpemI2LUJJME1FeGF1Tlo3bUpzY0dEZmhiZ1pCUXBBdXBtTVdxWGRyM3ZKdjdhczJCM0haUVN5MXBSQmRKclZ1Z0RBOHdjV2RRTWdlWDJDOGZhc09OUzZ4SUtEQzhZV09GbnRYMkItRzRnNXFR?oc=5",
@@ -192,7 +190,7 @@
     "label": "Contrato / alianza",
     "quality": 0.6,
     "note": "Valora el tamaño del contrato frente a los ingresos de la empresa.",
-    "confidence": 0.2
+    "confidence": 0.3
    },
    "score_parts": {
     "move": 4.8,
@@ -205,7 +203,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "AMX",
@@ -280,6 +279,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-20T16:00:00-04:00"
    }
   },
   {
@@ -373,6 +376,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-20T16:00:00-04:00"
    }
   },
   {
@@ -466,6 +473,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-20T16:00:00-04:00"
    }
   },
   {
@@ -546,7 +557,7 @@
     "label": "Resultados + mejora de previsiones",
     "quality": 1.0,
     "note": "El catalizador con más continuidad histórica (post-earnings drift).",
-    "confidence": 0.06
+    "confidence": 0.09
    },
    "score_parts": {
     "move": 3.6,
@@ -559,7 +570,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "TTMI",
@@ -583,8 +595,14 @@
    "market_time": 1792612800,
    "market_date": "2026-10-21",
    "market_state": "POSTPOST",
-   "score": 42.4,
+   "score": 34.9,
    "news": [
+    {
+     "title": "Stifel Maintains TTM Technologies(TTMI.US) With Buy Rating, Maintains Target Price $205",
+     "source": "Moomoo",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZTFTYkl0QjR4Y09ULUg0a1pPbVFfRmxCY1drSFBvbnFuSlh0dDRNbHdXaFZMakwwZFlYMjU3bEM2ZlZsT2pBbGc1ZmR1bzQ1WWRpaWRKQXVJOUNnUGY1SWpXM1FWUjB5dXV2dmtBa1hHMEFybzV3V2xtOUM1bTF6VzBFZEJqOWgxZTRCd3U0YnNuZHJEY05PcFFqdVlCZVdOZ3J5MW4wVVpuNU41eWNGYll2Q3lXQjJX?oc=5",
+     "published": "2026-10-20T15:25:06+00:00"
+    },
     {
      "title": "TTM Technologies Earnings: What To Look For From TTMI",
      "source": "StockStory",
@@ -602,12 +620,6 @@
      "source": "StocksToTrade",
      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1aMGxrR3V1UnNBdmJHS3FFOXNOczIxU3F2RU01NTFVRWVmcjRBeFY0Rm1rR0RlcjJ0ajlBMnhFTHJpU0tvc3JoNTltQVdXQ1pBTDRXc2ZIVThKZVJGYUlZYVVZZUIyYV9vZEE0dmhFcmJTdE5kQ2VlNzVoSzBGdw?oc=5",
      "published": "2026-10-21T20:48:00+00:00"
-    },
-    {
-     "title": "Stifel Maintains TTM Technologies(TTMI.US) With Buy Rating, Maintains Target Price $205",
-     "source": "Moomoo",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZTFTYkl0QjR4Y09ULUg0a1pPbVFfRmxCY1drSFBvbnFuSlh0dDRNbHdXaFZMakwwZFlYMjU3bEM2ZlZsT2pBbGc1ZmR1bzQ1WWRpaWRKQXVJOUNnUGY1SWpXM1FWUjB5dXV2dmtBa1hHMEFybzV3V2xtOUM1bTF6VzBFZEJqOWgxZTRCd3U0YnNuZHJEY05PcFFqdVlCZVdOZ3J5MW4wVVpuNU41eWNGYll2Q3lXQjJX?oc=5",
-     "published": "2026-10-20T15:25:06+00:00"
     },
     {
      "title": "Why Is TTM Technologies (TTMI) Buying Ophir Optics For $650 Million?",
@@ -635,16 +647,16 @@
     }
    ],
    "catalyst": {
-    "type": "earnings",
-    "label": "Resultados trimestrales",
-    "quality": 0.85,
-    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 0.9
+    "type": "analyst",
+    "label": "Mejora de analista",
+    "quality": 0.6,
+    "note": "Impulso moderado; suele diluirse si no hay más noticias.",
+    "confidence": 0.3
    },
    "score_parts": {
     "move": 1.0,
     "rvol": 1.3,
-    "catalyst": 25.5,
+    "catalyst": 18.0,
     "close": 9.4,
     "size": 5.2
    },
@@ -652,6 +664,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "upcoming",
+    "at": "2026-10-22T08:30:00-04:00"
    }
   },
   {
@@ -679,18 +695,6 @@
    "score": 37.9,
    "news": [
     {
-     "title": "Miami Heat - Minnesota Timberwolves , 2026: watch sports online in high quality on Kyivstar TV",
-     "source": "Kyivstar",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMzFpSDRGcThMb1ZmVTNKcWhqYlcxeFl4WmpUbWYzZUZkVDk0SDhGRXVoUW5qcGQyM2xyYkYwSFF1dFEwY0YzeTNKeUYzZ3lSU2FBQXRNZ0xSbXhaTTRHek5qSlZDY1JpOWRWWHRhcmI2eVozcGdmdkhNOFpwYVBIV3VhemVYNHNLejN4NHFncHc4eDFFaE15QndfOA?oc=5",
-     "published": "2026-10-21T20:30:00+00:00"
-    },
-    {
-     "title": "Zorya - Kryvbas , 2026: watch sports online in high quality on Kyivstar TV",
-     "source": "Kyivstar",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWHhObWx4bng1aUdnYUF0RzVQSTc4T0c1YnVJRi1rQjVBb3lGUURvaXl5TVN2Ym44VUNvTDZxcjRaZTBweUppM1NZRFA3c3Zkc3UtQm1aaGJVb3BjQVg4MDhtbm85bnRPTTE1clpvSnhHTHU3NDlxQ2g5Q016VW9nbw?oc=5",
-     "published": "2026-10-21T19:07:22+00:00"
-    },
-    {
      "title": "Kyivstar Group (NASDAQ:KYIV) Stock Price Up 6.8% - Here's What Happened",
      "source": "MarketBeat",
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMWVCejM5cHgyZDBleVV0QnpFRkhWdWYzMHFpck1QUVZJVlNBandIemtER0hud3ZkZGFMYmI5RGRobTJoOFpBUFJOMjcyT1FXWnJRSUxiOUZSeHBiTmZQVVY5eGFrTGM1VC1oOFl5SW5oNjBHZTFjYk5WZ0hNT3VfR3VpSVhXZmtqRmNqdUo0QmVOMTRRZDMzVlJ3cjdtMENoRkxNNTIxdzNOYzRIc2hKTk43NUVveldPV253SV9xTUNzQQ?oc=5",
@@ -701,30 +705,6 @@
      "source": "Telecompaper",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONzNXYVBwX18zdG5wYWdOVVdIUFlZLU5VZGkwbzdGVHd4bkJjanpGN2dvUnJRRnZtRWtEcDBVX1U4dFRqRlVJRENSOTZkS1R2bkFxNjFXRnpBdWQ0U19hZ0piaXpaMEhXRFAzbjhtRE9yTzBGd1V1Qm1OcGNmRXFhMEV5aTdOdDlXd3hvbVpjNGdzRUJlWmNTV1ZiODM?oc=5",
      "published": "2026-10-21T14:47:59+00:00"
-    },
-    {
-     "title": "Kolos - Polissya, 2026: watch sports online in high quality on Kyivstar TV",
-     "source": "Kyivstar",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZUxJOGU5TnhNdUtkWmNoc1pwVk1zVnJmcXQ5c2pvOVI4dVV1bmNzWEllWGRYRlFFbkdzUTItMWNManZKSm82UW00aFAzeEU3NmRiN3ZjZkxjcWFyUEREelNPU0tEVkJjbGRxNkxGN2djLUhpS3l1dmJiTUp6MkEwU21B?oc=5",
-     "published": "2026-10-21T14:19:13+00:00"
-    },
-    {
-     "title": "Livyi Bereh - Bukovyna , 2026: watch sports online in high quality on Kyivstar TV",
-     "source": "Kyivstar",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQX1VqYkpiWEZFSWV5bGdSZE5XNF9iUDFoNndtbDQxYW1raTdOS3JDMTVmTmtYanZYb0R4b1BJZlAtclJBX0pUWUhvVkp5ZVhZZjgtTEJFZkRkMEw0cE1XVjNMa0hoZ1ZrblRYQTFpM29QdTdrRjhuQjY0MFgxTWVVZm9aVzBmM2I4bEE?oc=5",
-     "published": "2026-10-21T14:16:58+00:00"
-    },
-    {
-     "title": "Chernihiv - Epicentr, 2026: watch sports online in high quality on Kyivstar TV",
-     "source": "Kyivstar",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWXFGQnV0SHJtM3BEbUdXUktxRkNkc01PWUdoaGhWa1ZkVmpYbVpsOTFHeHdvYThlNlNJNmFEODVTVEk3ZlBSc3d6bzNNb28zRUwxQUZhNm8zdHFyeGhHSWxvQlRYbDhGUDFiYk9CYzIyVlJJa0RET1BmaGp3cVBsWkhBN0QtRUE?oc=5",
-     "published": "2026-10-21T14:09:21+00:00"
-    },
-    {
-     "title": "San Antonio Spurs - Oklahoma City Thunder, 2026: watch sports online in high quality on Kyivstar TV",
-     "source": "Kyivstar",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZVBGUkRrYWpZRHlHUU9BY3ZaMlZXMm5fUTBqdFk5REZQX0FxXzZSNUhWZDVOLTBzZV82Z1Q3b1VNY2piYWJGM2hwY01TdlVSaUlGNl95X3YyTkJyRDRkbV80b2pKdTl5Vl9hc0wxMDB0NV9xZ1ZXOFU3TkFrWDVNWWJSUE4zbDl1Wnl5OV93T1lZRkNQX0tiU1FqQlBTd25hLWdz?oc=5",
-     "published": "2026-10-21T13:55:35+00:00"
     }
    ],
    "catalyst": {
@@ -745,7 +725,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "ABSI",
@@ -814,7 +795,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "APPN",
@@ -907,7 +889,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   }
  ],
  "holding_up": {
@@ -1175,5 +1158,19 @@
    }
   ],
   "window": 10
+ },
+ "market": {
+  "SPY": {
+   "label": "S&P 500",
+   "change_pct": 0.53
+  },
+  "QQQ": {
+   "label": "Nasdaq 100",
+   "change_pct": 1.05
+  },
+  "IWM": {
+   "label": "Russell 2000",
+   "change_pct": 0.25
+  }
  }
 }

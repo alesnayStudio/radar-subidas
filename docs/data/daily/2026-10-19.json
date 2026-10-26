@@ -112,7 +112,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "CLF",
@@ -205,6 +206,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-19T08:30:00-04:00"
    }
   },
   {
@@ -285,7 +290,7 @@
     "label": "OPA / la compran",
     "quality": 0.3,
     "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
-    "confidence": 0.7
+    "confidence": 0.9
    },
    "score_parts": {
     "move": 20.0,
@@ -298,7 +303,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "PBLS",
@@ -373,7 +379,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "ARQT",
@@ -466,7 +473,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "MANE",
@@ -559,7 +567,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "AGIO",
@@ -622,7 +631,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "PRAX",
@@ -679,7 +689,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "WRBY",
@@ -742,7 +753,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "APLD",
@@ -835,7 +847,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   }
  ],
  "holding_up": {
@@ -882,5 +895,19 @@
    }
   ],
   "window": 10
+ },
+ "market": {
+  "SPY": {
+   "label": "S&P 500",
+   "change_pct": 0.42
+  },
+  "QQQ": {
+   "label": "Nasdaq 100",
+   "change_pct": 1.21
+  },
+  "IWM": {
+   "label": "Russell 2000",
+   "change_pct": 0.31
+  }
  }
 }

@@ -112,6 +112,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-15T08:30:00-04:00"
    }
   },
   {
@@ -187,7 +191,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "PAG",
@@ -280,7 +285,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "QNT",
@@ -373,7 +379,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "Z",
@@ -400,12 +407,6 @@
    "score": 43.4,
    "news": [
     {
-     "title": "TeraWulf, Opendoor, and Zillow Stocks Surged Today — but Only One Is a Strong Buy on Wall Street",
-     "source": "TipRanks",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM293b2xLc1A5REZwVDhHREVva2hRUjVINURSVEFjd3N1RG8tU1luTHQtc1FZQ0NWWUdLVXA3MmozN21GakxfdE1WZC1IVmtrZDFveUhFZmV6RHEtUEc4al8wXzhaWENVcEMzRmhPNEw2MExKTXpKLTlBWEN0bEFINU00VjRaYmNHYlVSbGVhb1NaTTk1T09CWndRVmtDNjBfSFpMcnRHa3l1WXZUdE94UjFsS0hVbFFOVURPdFFkOA?oc=5",
-     "published": "2026-10-15T20:31:45+00:00"
-    },
-    {
      "title": "Why Are Opendoor (OPEN) and Zillow (Z) Stocks Jumping Today, October 15?",
      "source": "TipRanks",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTnVSbkJsbnJLWXdHQmhWYnd5X1MwWVZaaHJucDdoeHc2QURwQUE4cmVmdEZjdFVuODkxR0d1TFBkaHNpSXRxZHhWLXUtLXFzcmZ5eEtfRGcxUVUyYWRzQ1FFNU1odW5qUU9fWlg3LUZKS1ZURUdpNU5nLS1EZG1WanpvX0tTWHlucUJWSklBc1U5Zno3amtsSlVvWlE?oc=5",
@@ -418,12 +419,6 @@
      "published": "2026-10-15T21:44:12+00:00"
     },
     {
-     "title": "Ohio home with unusual kitchen features goes viral on Zillow Gone Wild",
-     "source": "NewsNation",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRnpEanQxQnluM3haQTRRdkNXVTgwRi1JcV9YM2lpOHFHTHV4ZTM0NW01eWo4U05WaW1fUzhGYVhJM3VTTXdxN3VJNW5mTG5SX3FqLTNUQ0ppZHhHUE1JUmw4VmtEazdkdTU5ejBOLWRCaVJjZ3BMWHhPSEhsLWZWeUMxNlJ0dGw4X21QSHpNbFpsd9IBlwFBVV95cUxQZlVqMHZrelpndzJ0cHk3N1hOMm1ZYzF5d09EaDJxdFlSZTJMcnpsX19RZWdKaDB3b0tpUkFVY3pGajZDZkl0cGNBQjVhanN2T3FObTJhMnFlNzdSV1Y3RWRRQmJBZVpjMUJ4QlpMU19JYm1kX1VqNld1bzhlOTB6ZFhsdHBXc0RXOWZLLXMxVEc2cjZqZlNz?oc=5",
-     "published": "2026-10-15T20:32:49+00:00"
-    },
-    {
      "title": "Zillow Group, Inc. $Z Stock: Ninety One North America Inc. Lowers Holdings",
      "source": "MarketBeat",
      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPekRQcG5UeHFlN0dhZEQtRWtXUjBHZC1SNDYxTnJfMXpmQ091MS1kSEpRWTd6RzNqbm8wZW5nSjVjbnJmYWVUM2UxZmthRHR1c2R2X2RMeFdET2EyLWloUTFHNWJjbXp2MmlGTTQ4MktFQUdVTGlUV2Y0NUt1T2JYdWZNanNGMmZZNGlZcHIzTlR5bHJUbThGODJDRWpLV3VjRm9zWDVCdURQVlhRVmFtQmtJd2xmQWladnZWTEFmNVVEek1OZ3JOTUZR?oc=5",
@@ -434,12 +429,6 @@
      "source": "Moomoo",
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQa0FEX2NiSXFnVG5fRlZDR19UYkwzMVQ2NjVEalZQbWhGMmp3NkRscjdtYi1saDk4WVZtdUJubnNMMmdQTUVxcW1kZEVtRlVxS1lmT3FqZVhOcnEyQ21sbTZMMFNvV3BRaDhFUU5Ta1p3REF1a2JEa0RaTC16OEV0WWlrMUFfcUU4RGhEWHlTM2JzZi1FdEc1ZjRxM21JOXYw?oc=5",
      "published": "2026-10-15T17:27:00+00:00"
-    },
-    {
-     "title": "These 2 bathroom colors could knock thousands off your home's value, according to a new Zillow analysis",
-     "source": "Yahoo Creators",
-     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUGRoNGxPTV9DU0FoZDI3c2loLXN1ZmdseFVydUM4VjRGMm9oVTBVYThMOUo1YTlzWEhmemlyckVIMTlqNDN3WlhNdnVQR1VVS2xGQlczV2xfdlBqSnlnSEpMZzBoYmJTbFZzeVY3ZnB6THA3X1VoSGFnajVJdnNCbFJvVFc2S3c1dndJSEhFZ0hGeElMRWFpbVdPSjVvV0o0UGV5dnRacVk0cEc2RXBYa3hKVkhhN1FFSVpxUDRvTnlvYkhrV191MmV0NXhNZmJ1WmxpQkR2N0pNUFVHS0ZqRWxteHNRV1dwNjFXVnNqUHU?oc=5",
-     "published": "2026-10-15T17:10:22+00:00"
     },
     {
      "title": "Zillow alum raises $5M seed to rebate homebuyers' commissions",
@@ -466,7 +455,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "MMED",
@@ -546,7 +536,7 @@
     "label": "Evento corporativo (spin-off, índice, salida a bolsa)",
     "quality": 0.5,
     "note": "Flujos de fondos que compran o venden por obligación: el efecto suele ser temporal.",
-    "confidence": 0.5
+    "confidence": 0.6
    },
    "score_parts": {
     "move": 1.1,
@@ -559,7 +549,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "WULF",
@@ -639,7 +630,7 @@
     "label": "Mejora de analista",
     "quality": 0.6,
     "note": "Impulso moderado; suele diluirse si no hay más noticias.",
-    "confidence": 0.7
+    "confidence": 0.9
    },
    "score_parts": {
     "move": 3.4,
@@ -652,7 +643,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "CORZ",
@@ -745,7 +737,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "WMG",
@@ -838,7 +831,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "ONC",
@@ -931,12 +925,27 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   }
  ],
  "holding_up": {
   "tracked": 0,
   "items": [],
   "window": 10
+ },
+ "market": {
+  "SPY": {
+   "label": "S&P 500",
+   "change_pct": 0.28
+  },
+  "QQQ": {
+   "label": "Nasdaq 100",
+   "change_pct": -0.13
+  },
+  "IWM": {
+   "label": "Russell 2000",
+   "change_pct": 1.37
+  }
  }
 }

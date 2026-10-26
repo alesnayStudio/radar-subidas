@@ -3,7 +3,10 @@
 Más adelante se puede sustituir/complementar por un LLM; la interfaz (classify) no cambiaría.
 """
 import re
-from datetime import date, datetime, timezone
+from datetime import date, datetime, time, timedelta
+from zoneinfo import ZoneInfo
+
+NY = ZoneInfo("America/New_York")
 
 CATALYSTS = {
     "earnings_guidance": {
@@ -46,6 +49,10 @@ CATALYSTS = {
         "label": "OPA / la compran", "quality": 0.3,
         "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
     },
+    "pre_earnings": {
+        "label": "Subida antes de resultados", "quality": 0.15,
+        "note": "Aún no ha presentado resultados: el día que los publique puede moverse ±10-20% en cualquier sentido.",
+    },
     "none": {
         "label": "Sin noticia clara", "quality": 0.1,
         "note": "Precaución: subida sin catalizador identificable.",
@@ -66,7 +73,7 @@ PATTERNS = {
                r"|\b(morgan stanley|goldman|jpmorgan|j\.?p\.? ?morgan|bank of america|bofa|citi(group)?|ubs|barclays|wells fargo|jefferies|bernstein|deutsche bank|evercore|piper sandler|raymond james|mizuho|btig|needham|wedbush|oppenheimer|cantor|truist|stifel|hsbc|kepler)\b.{0,40}\b(call|says|sees|names|picks|bullish|upgrade)",
     "contract": r"contract|partnership|partners with|(?<!credit )agreement|collaborat|awarded|\border\b|deal with|selected (by|as)",
     "corporate": r"spin-?off|completes? (the )?separation|separation from|begins (trading|operations) as|\bipo\b|trading debut|debut|added to (the )?(s&p|nasdaq|russell)|join(s|ing)? (the )?(s&p|nasdaq-100|russell)|index (inclusion|addition)",
-    "sector": r"sector|stocks (rally|surge|jump|soar)|peers|industry|rate cut|tariff|\bfed\b|broader|\brival\b|next (takeover )?target|sympathy",
+    "sector": r"sector|stocks (are )?(rall|surg|jump|soar|ris)\w*|peers|industry|rate cut|tariff|\bfed\b|broader|\brival\b|next (takeover )?target|sympathy",
 }
 
 # Frases de "clickbait" que contienen "buy" pero no hablan de ninguna compra de empresa
@@ -76,7 +83,7 @@ _BUY_NOISE = re.compile(
 # Titulares que hablan de resultados FUTUROS (fecha, previa) y no de unos resultados publicados
 _EARNINGS_NOISE = re.compile(
     r"\bto (report|announce|release|host)\b|will (report|announce|release|consider)|schedul|board meeting|"
-    r"ahead of|preview|earnings date|what to expect|expectations for", re.I)
+    r"ahead of|preview|earnings date|what to (expect|look for|watch)|expectations for", re.I)
 # Conectores que indican que la compra la hace un tercero ("Klaviyo jumps as Salesforce moves to acquire Braze")
 _THIRD_PARTY = re.compile(r"\b(as|after|amid|while|following)\b", re.I)
 # Los titulares "sectoriales" suelen ser resúmenes de mercado que mencionan a muchas empresas a la vez:
@@ -116,7 +123,7 @@ def _deal_role(title: str, company: list[re.Pattern] | None) -> str | None:
 
 def classify(headlines: list[dict], earnings_ts: int | None, market_date: str | None,
              company: list[re.Pattern] | None = None) -> dict:
-    """`company`: patrones con el nombre/ticker de la empresa (news.company_patterns), para saber si
+    """`company`: patrones con el nombre/ticker de la empresa (news.company_names), para saber si
     en una operación es la compradora o la comprada."""
     scores = {k: 0.0 for k in PATTERNS}
     for i, h in enumerate(headlines):
@@ -134,15 +141,16 @@ def classify(headlines: list[dict], earnings_ts: int | None, market_date: str | 
             if rx.search(title):
                 scores[k] += w * WEIGHT.get(k, 1.0)
 
-    # Fecha de resultados oficial muy cercana = señal fuerte de que el motivo son los resultados.
-    # Si no la hay, los titulares de "earnings" suelen ser previas o transcripciones antiguas: pesan poco.
-    near_earnings = False
-    if earnings_ts and market_date:
-        d_earn = datetime.fromtimestamp(earnings_ts, timezone.utc).date()
-        near_earnings = -3 <= (date.fromisoformat(market_date) - d_earn).days <= 1
-    if near_earnings:
+    timing, _ = earnings_timing(earnings_ts, market_date)
+    if timing == "reported":
+        # Resultados publicados antes del cierre de la sesión: casi seguro que son el motivo
         scores["earnings"] += 3
+    elif timing == "upcoming":
+        # Los resultados llegan DESPUÉS de la subida: los titulares de "beat" son de después del cierre
+        # o previas. La subida del día no la explican los resultados.
+        scores["earnings"] = scores["earnings_guidance"] = 0
     else:
+        # Sin fecha cercana: los titulares de "earnings" suelen ser transcripciones antiguas, pesan poco
         scores["earnings"] *= 0.3
         scores["earnings_guidance"] *= 0.3
 
@@ -156,5 +164,23 @@ def classify(headlines: list[dict], earnings_ts: int | None, market_date: str | 
         kind = max(scores, key=scores.get)
         if scores[kind] < 1:
             kind = "none"
+        if timing == "upcoming" and kind in ("none", "sector"):
+            kind = "pre_earnings"
 
     return {"type": kind, **CATALYSTS[kind], "confidence": round(min(scores.get(kind, 0) / 5, 1), 2)}
+
+
+def earnings_timing(earnings_ts: int | None, market_date: str | None) -> tuple[str | None, str | None]:
+    """Sitúa los resultados respecto al CIERRE de la sesión escaneada (16:00 Nueva York):
+    'reported' = publicados en los 4 días anteriores al cierre (explican la subida);
+    'upcoming' = se publican tras el cierre, en los próximos 5 días (la subida fue ANTES de conocerlos).
+    Devuelve (situación, fecha y hora ISO en Nueva York)."""
+    if not earnings_ts or not market_date:
+        return None, None
+    earn = datetime.fromtimestamp(earnings_ts, NY)
+    close = datetime.combine(date.fromisoformat(market_date), time(16, 0), NY)
+    if close - timedelta(days=4) <= earn < close:
+        return "reported", earn.isoformat()
+    if close <= earn <= close + timedelta(days=5):
+        return "upcoming", earn.isoformat()
+    return None, None

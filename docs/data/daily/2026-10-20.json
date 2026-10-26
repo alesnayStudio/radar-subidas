@@ -112,7 +112,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "HAS",
@@ -205,6 +206,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-20T08:30:00-04:00"
    }
   },
   {
@@ -298,7 +303,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "EFX",
@@ -391,6 +397,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-20T08:30:00-04:00"
    }
   },
   {
@@ -448,7 +458,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "RCUS",
@@ -541,7 +552,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "VICR",
@@ -634,6 +646,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-20T08:30:00-04:00"
    }
   },
   {
@@ -727,7 +743,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "MAZE",
@@ -820,7 +837,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "KVYO",
@@ -859,12 +877,6 @@
      "published": "2026-10-20T19:59:59+00:00"
     },
     {
-     "title": "Salesforce's $5.66B Braze buy boosts marketing software sector, shares of Braze and Klaviyo rise.",
-     "source": "Pluang",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVmF3QUZtWWNRbHlGanloQTl4Y3I4V1A1bGxleUFxOHBqeVRSV2JwQnlNQXhtamYwTFA5SEM5N1dqZlRfMXVFU2FheXBmSVYwWFUzenlDX1R5ZG9jR1N4LTFTa2xvU2Z3Slh2Qm0yMkdwMTMwRHo3NXNXVVdSOHotdmFrdVJuem0tWUcyMjM5eDV0aEpjc05YRGVISk15QQ?oc=5",
-     "published": "2026-10-20T15:59:40+00:00"
-    },
-    {
      "title": "A Look at Klaviyo Inc (KVYO) After 11.9% Gain -- GF Value $43.40 vs Price $19.61",
      "source": "GuruFocus",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZmhvT1cxMF9ackZRcy1PM0Q0WmU5S3ZWeG9HM2FCenVWTTZFbElGanVCVXBkRXd3ekd1RnBkeHQ0ZVo0RXhaQVJhWnNnTTNOMVI5WWRBM29PeTlEN1RaaUM4dVpsY0hUcTZmWlBQVFpWc2VSY0FLdjR2S1U3cmhEVzNvOTV4Y08zSDJmMXd3WGwwdi10U0dnYV9OdkVuUHpId3FPeEJ3SkQ4SXd2?oc=5",
@@ -900,7 +912,7 @@
     "label": "Movimiento sectorial / macro",
     "quality": 0.4,
     "note": "Sube con su sector; depende del contexto general.",
-    "confidence": 0.66
+    "confidence": 0.54
    },
    "score_parts": {
     "move": 5.9,
@@ -913,7 +925,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   }
  ],
  "holding_up": {
@@ -1116,5 +1129,19 @@
    }
   ],
   "window": 10
+ },
+ "market": {
+  "SPY": {
+   "label": "S&P 500",
+   "change_pct": 0.34
+  },
+  "QQQ": {
+   "label": "Nasdaq 100",
+   "change_pct": -0.1
+  },
+  "IWM": {
+   "label": "Russell 2000",
+   "change_pct": 1.66
+  }
  }
 }

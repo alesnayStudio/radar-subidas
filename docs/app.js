@@ -54,6 +54,22 @@ function nextSession(iso) {
   return d.toISOString().slice(0, 10);
 }
 
+function marketPill(m) {
+  const items = Object.values(m || {});
+  if (!items.length) return "";
+  return `<span class="pill" title="Variación del día de los índices (vía sus ETF SPY, QQQ, IWM)">Mercado: ${items
+    .map((x) => `${esc(x.label)} <b class="${signCls(x.change_pct)}">${fmtPct(x.change_pct, 2)}</b>`).join(" · ")}</span>`;
+}
+
+function earningsWarning(e) {
+  if (!e || e.timing !== "upcoming") return "";
+  const at = new Date(e.at);
+  const ny = at.toLocaleString("en-US", { timeZone: "America/New_York", hour: "2-digit", minute: "2-digit", hour12: false });
+  const when = ny >= "16:00" ? "tras el cierre" : ny <= "09:30" ? "antes de la apertura" : `a las ${ny} (NY)`;
+  const day = at.toLocaleDateString("es-ES", { timeZone: "America/New_York", weekday: "long", day: "numeric", month: "short" });
+  return `<div class="warn-box">⚠️ <b>Presenta resultados el ${esc(day)}, ${esc(when)}.</b> La subida de hoy fue antes de conocerlos: riesgo de movimiento brusco en cualquier sentido.</div>`;
+}
+
 function renderSummary(d) {
   const f = d.filters;
   const provisional = d.market_state === "REGULAR" || d.market_state === "PRE";
@@ -61,6 +77,7 @@ function renderSummary(d) {
   $("#summary").innerHTML = `
     <span class="pill">Última sesión cerrada: <b>${esc(fmtDate(d.date))}</b></span>
     ${isLatest && !provisional ? `<span class="pill" title="El escaneo se lanza tras el cierre de Wall Street (22:00 h España); GitHub puede retrasarlo un par de horas">Próxima: <b>${esc(fmtDate(nextSession(d.date)))}</b>, esa noche ≈ 23:30–01:30 h</span>` : ""}
+    ${marketPill(d.market)}
     <span class="pill"><b>${d.universe.raw_gainers}</b> suben &gt;${f.min_change_pct}% · <b>${d.universe.passed_filters}</b> pasan filtros</span>
     <span class="pill">Cap. &gt; ${fmtMoney(f.min_market_cap)} · Precio &gt; ${f.min_price}$ · RVOL &gt; ${f.min_rvol}</span>
     ${provisional ? `<span class="pill warn">Datos provisionales: escaneo con el mercado abierto</span>` : ""}`;
@@ -132,6 +149,7 @@ function card(r, i) {
       <span class="badge ${qualityClass(c.quality)}">${esc(c.label)}</span>
       <span class="note">${esc(c.note)}</span>
     </div>
+    ${earningsWarning(r.earnings_event)}
 
     ${scoreBar(r)}
 
@@ -210,7 +228,7 @@ function horizonTable(t, firstCol, groups) {
   const rows = Object.entries(groups || {});
   if (!rows.length) { t.innerHTML = EMPTY_ROW; return; }
   const cells = (s) => s
-    ? `<td class="r num ${signCls(s.avg)}">${fmtPct(s.avg, 2)}</td><td class="r num">${s.win_rate.toFixed(0)}%</td><td class="r num ${signCls(s.avg_excess)}">${fmtPct(s.avg_excess, 2)}</td><td class="r dim num">${s.n}</td>`
+    ? `<td class="r num ${signCls(s.avg)}" title="Media; debajo, la mediana (menos sensible a casos extremos)">${fmtPct(s.avg, 2)}<small class="med ${signCls(s.median)}">med ${fmtPct(s.median, 2)}</small></td><td class="r num">${s.win_rate.toFixed(0)}%</td><td class="r num ${signCls(s.avg_excess)}">${fmtPct(s.avg_excess, 2)}</td><td class="r dim num">${s.n}</td>`
     : `<td class="r dim" colspan="4">sin datos aún</td>`;
   t.innerHTML = `
     <thead>

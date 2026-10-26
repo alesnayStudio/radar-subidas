@@ -112,6 +112,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-22T16:00:00-04:00"
    }
   },
   {
@@ -205,7 +209,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "GMAB",
@@ -272,12 +277,6 @@
      "source": "TradingView",
      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1yVWZrdVBMSElrd20tckwzYmlHTUE2UURiZU9QQl9pRUtUdjcyczQwck1TZ1prVUZOaHU1MVdLUXgxZWxXOHZQVm9mdHVZek5EMUhTVVloRHdmS2FmMjYyeHJmVDQ3eWNJZFpmanVTY0MtSVE?oc=5",
      "published": "2026-10-23T13:53:17+00:00"
-    },
-    {
-     "title": "Funds from operations of Genmab A/S – XETR:GE9",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNN1ZUWFJfVlRKSUFya1cyOFdHMmZfSHBFTXRQdFh6S09SM0NSUFozRFVYQmEyLWtqYm1COUV1T0d0WlNTNlFtazl6RW5wczN3ZU5RWDhoUG1RQUVVNXdZbjRwU0Z5dlpLTDFvY0sxX1F6NXZfYy11YS1PbFY4aGJfLW10ekJ1dTZiWnI0d0RB?oc=5",
-     "published": "2026-10-22T16:04:01+00:00"
     }
    ],
    "catalyst": {
@@ -285,7 +284,7 @@
     "label": "Biotech / FDA / ensayo",
     "quality": 0.5,
     "note": "Muy volátil: puede revertir con fuerza.",
-    "confidence": 0.8
+    "confidence": 0.9
    },
    "score_parts": {
     "move": 3.5,
@@ -298,7 +297,8 @@
     "count": 1,
     "previous": [],
     "window": 10
-   }
+   },
+   "earnings_event": null
   },
   {
    "symbol": "REXR",
@@ -378,7 +378,7 @@
     "label": "Resultados + mejora de previsiones",
     "quality": 1.0,
     "note": "El catalizador con más continuidad histórica (post-earnings drift).",
-    "confidence": 0.2
+    "confidence": 0.3
    },
    "score_parts": {
     "move": 0.7,
@@ -391,6 +391,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-22T16:00:00-04:00"
    }
   },
   {
@@ -471,7 +475,7 @@
     "label": "Resultados trimestrales",
     "quality": 0.85,
     "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 0.8
+    "confidence": 0.9
    },
    "score_parts": {
     "move": 3.4,
@@ -484,6 +488,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-22T08:30:00-04:00"
    }
   },
   {
@@ -579,6 +587,10 @@
      "2026-10-21"
     ],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-22T08:30:00-04:00"
    }
   },
   {
@@ -672,6 +684,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-23T08:30:00-04:00"
    }
   },
   {
@@ -752,7 +768,7 @@
     "label": "Resultados trimestrales",
     "quality": 0.85,
     "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 0.42
+    "confidence": 1
    },
    "score_parts": {
     "move": 1.2,
@@ -765,6 +781,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-21T16:00:00-04:00"
    }
   },
   {
@@ -858,6 +878,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-23T08:30:00-04:00"
    }
   },
   {
@@ -882,49 +906,13 @@
    "market_time": 1792785602,
    "market_date": "2026-10-23",
    "market_state": "POST",
-   "score": 42.7,
+   "score": 21.7,
    "news": [
-    {
-     "title": "☑︎!+! [ＬＩＶＥ ＯＮ ＣＨＡＮＮＥＬ] ☑︎ Noble vs Oxford Hills/Buckfield Live Streams - Buffstreams ℂrackstreams StreamEast",
-     "source": "小豆島町",
-     "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPNFpyM00wZDdVX05FLWR6UGFydFdyOG5MVW9VSElzYmx2dmFVa2UwMlA3Vks0X2dRY0p1UmRWOE1YVHByWWtYRHpLYUtHYjBEY2kyMU9ncmRYZkhyeEdQVmdvWUhVdl9LcEJxZkxxTkNFaDFWZ0dnSDJHXzNMeDNqSlNuamhEeUZhVG1pUjRjWkVtZ25CMDJ2YjVEZThXWHQ0SUVYQWVxR3ZXaEdYUGphWHlvVjRoRlh3OGhHTHF0WElxcE5Wc1ppRFNsRXBBVzlfdkxLcEpJbHdaSkt3cFpfOEFYWHNOeTRaTzF3MHRZbFdfcGZXRUY4S2xpRkRvUFNHa1VpQTRGQks0bmhJeVhNejFrS3NoaEVRajRpRFNxN1NqQ3FVM254THBpek9fTTh1TkNvMTFPS0FMYmRXbkNmdVdSSTk?oc=5",
-     "published": "2026-10-23T23:15:12+00:00"
-    },
-    {
-     "title": "The First 500-Piece Dungeon Crawler Carl Jigsaw Puzzle Is Now Available at Barnes & Noble",
-     "source": "IGN",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ2xyajV1WmdrZWl6bFpFREprWm0ydm5ZcTZ6N2tKa1Ywa0h0YndCM2psYjJ2bllETExZVTRoM3htdHVlQjA0cTkwbU4tczFIbkNqVTZSc3dfSHBXcmc1eVVibElmNXI2YXhoaEx4NVU4VXc3Z1BiYXdlaHo2U3JybVd2S3pJMS1YTF9KaDh1MFFvZVBSQ2FjX0hWbFp3WTBuRmJiQnpMU1pTSUxwSHc?oc=5",
-     "published": "2026-10-23T23:15:00+00:00"
-    },
     {
      "title": "Noble Roman's, Inc. Estimates – OTC:NROM",
      "source": "TradingView",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOWVRNnF4QXJhem10T202cmpJR0xnQ1lxc2NVa0RQSDMza0xzWDhnMTZJeEpDUzJhVklLeUk2UWhYSk5nWWY1eFJLWWpPbmYzUGNjbEVjd2ZpcWpDSHAtbDdHSW9XM0ZxMW5CTFJGY25WdnBQMlV2YlFIcjhfUkI1U0hHV05ILUszNFJLTE0wNGQxcklCb3Zr?oc=5",
      "published": "2026-10-23T21:49:32+00:00"
-    },
-    {
-     "title": "[𝐒𝐓ream]hERE'S*! Noble vs Oxford Hills/Buckfield LIVE HS football Oct. 23, free Stream",
-     "source": "小豆島町",
-     "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNbmptVjdNd0JWNVMzaTBVeDRBbUwzdWM4aF9EWFJpcXlEeWlGdUNHR1lGU3NGUjd3SkRLWC1yNTlIZ1pMeGU3SUE2dUNibGdWeXhyOWJLNVhmblhQT1Nva0c1UmpQNV92bm8yYmdwRFphRXczMm1sa1FRYmNhdElxdTEzdTAzbGZjVU90cDZaMUVkd3VvTTN3b3ZxY1RNenhPekQ0X0FrZ0NkNVR5bU54RkdmTDE2dWt5NnJrc3JvR0N5clU5a3lMOW51Q1lNSGFtdlVPOC1ZYUhkelN5Q1NQUUQwXzdWX3dJWFc0X1h6UHJUY2tBWWlWeC1Gck03d3pnYXBhWWdLbDJQYTR3UnFTSjVnVFNCZnkycmFFN1dXRVg1ZnZJX1ZQRA?oc=5",
-     "published": "2026-10-23T21:13:38+00:00"
-    },
-    {
-     "title": "Barnes & Noble Education director Kate Eberle Walker to resign in December",
-     "source": "Investing.com",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZTNNOTRoQ042VUQzcnlJVVBRZUlna0U5WWdJWEt0ZGdDcjRqbDVrdXRCY2x4SVlwU1VGMGxWbk13ckl2UzlSSE5aUG5reTEyWVhRME94eU9UTzN2SWZQWkN6WGc2aU9yTm11S0xBT1FpcEpwb1FaVkhuSHc0Q2NOUk9UNVUxZGhuR1FSR2tDbHl4VUhGc2NVY3hiYUV3SGRNQkE5dFVZVFk0V0Q0d2ZUdWJ0aUNPOVNNSG1kVVkyN0RUZ3JyU25NYQ?oc=5",
-     "published": "2026-10-23T21:07:39+00:00"
-    },
-    {
-     "title": "Form 8K Barnes & Noble Education Inc For: 23 October By Investing.com",
-     "source": "Investing.com India",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM25FYy11ajQ2NVZIVHJ6OF9XdFNjYTVKakF3T2JqV3ZuVy1hX0VLRHFmR1dNU24xT21lWV9JT2MxS1cwX01sYUNocEtZdm9rT0tiejMtS2RWN3dhbTJ5MXU5ODhmUkRsVEVUZFlfM1ZDejFMR2h2ZnJsSWtIQ0NWRFcwMzV6U1NtYkhyTnZpN05rdGNaaUM5eWVrTGl1LVZlZURTbkxVTFRrYmRQM0wyXw?oc=5",
-     "published": "2026-10-23T20:37:30+00:00"
-    },
-    {
-     "title": "Think The Noble Savage Is Just a Bar? This Four-Course Dinner Proves Otherwise",
-     "source": "News Radio 710 KEEL",
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE84enRCQU42dGNaMGJvV2VHc3cxVlhkaHZGNVNTYVFIY2ZTdnZ2SUhzeHh3a0FDU2ZCZ21WNXB0ZlpQUUNuTUp5YU1rZEdYTWRMM1V2aGZZV0diYUowd2Q5V1llR0dJbEJ0TWdIdzFNOFJKUUlUTlBnZkp1OA?oc=5",
-     "published": "2026-10-23T19:54:01+00:00"
     },
     {
      "title": "Noble: E-Bike Law Coming Soon",
@@ -934,16 +922,16 @@
     }
    ],
    "catalyst": {
-    "type": "earnings",
-    "label": "Resultados trimestrales",
-    "quality": 0.85,
-    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 0.6
+    "type": "pre_earnings",
+    "label": "Subida antes de resultados",
+    "quality": 0.15,
+    "note": "Aún no ha presentado resultados: el día que los publique puede moverse ±10-20% en cualquier sentido.",
+    "confidence": 0.0
    },
    "score_parts": {
     "move": 2.5,
     "rvol": 0.6,
-    "catalyst": 25.5,
+    "catalyst": 4.5,
     "close": 9.7,
     "size": 4.4
    },
@@ -951,6 +939,10 @@
     "count": 1,
     "previous": [],
     "window": 10
+   },
+   "earnings_event": {
+    "timing": "upcoming",
+    "at": "2026-10-26T16:00:00-04:00"
    }
   }
  ],
@@ -1187,8 +1179,8 @@
     "change_since_pct": 1.01,
     "from_peak_pct": 0.0,
     "sessions_since": 2,
-    "last_rvol": 0.92,
-    "catalyst_label": "Resultados + mejora de previsiones",
+    "last_rvol": 0.93,
+    "catalyst_label": "Subida antes de resultados",
     "appearances": 1
    },
    {
@@ -1200,7 +1192,7 @@
     "change_since_pct": 0.95,
     "from_peak_pct": -2.28,
     "sessions_since": 6,
-    "last_rvol": 0.81,
+    "last_rvol": 0.83,
     "catalyst_label": "Mejora de analista",
     "appearances": 1
    },
@@ -1226,7 +1218,7 @@
     "change_since_pct": 0.93,
     "from_peak_pct": 0.0,
     "sessions_since": 1,
-    "last_rvol": 1.25,
+    "last_rvol": 1.45,
     "catalyst_label": "Resultados trimestrales",
     "appearances": 1
    },
@@ -1278,7 +1270,7 @@
     "change_since_pct": 0.44,
     "from_peak_pct": 0.0,
     "sessions_since": 5,
-    "last_rvol": 0.75,
+    "last_rvol": 0.76,
     "catalyst_label": "Financiación / recompra",
     "appearances": 1
    },
@@ -1323,5 +1315,19 @@
    }
   ],
   "window": 10
+ },
+ "market": {
+  "SPY": {
+   "label": "S&P 500",
+   "change_pct": -0.52
+  },
+  "QQQ": {
+   "label": "Nasdaq 100",
+   "change_pct": -0.01
+  },
+  "IWM": {
+   "label": "Russell 2000",
+   "change_pct": -0.33
+  }
  }
 }

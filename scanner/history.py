@@ -86,6 +86,20 @@ def prices(symbols: list[str], start: str, scan_date: date) -> tuple[pd.DataFram
     return close.sort_index(), vol.sort_index()
 
 
+INDICES = {"SPY": "S&P 500", "QQQ": "Nasdaq 100", "IWM": "Russell 2000"}
+
+
+def market_context(scan_date: date) -> dict:
+    """Variación del día de los grandes índices (vía sus ETFs), para poner las subidas en contexto."""
+    close, _ = prices(list(INDICES), (scan_date - timedelta(days=10)).isoformat(), scan_date)
+    out = {}
+    for sym, label in INDICES.items():
+        s = close[sym].dropna() if sym in close else None
+        if s is not None and len(s) >= 2 and s.index[-1] == scan_date:
+            out[sym] = {"label": label, "change_pct": round(float(s.iloc[-1] / s.iloc[-2] - 1) * 100, 2)}
+    return out
+
+
 def _forward_return(series: pd.Series, pick_date: date, fallback_base: float, n: int):
     s = series.dropna()
     after = s[s.index > pick_date]

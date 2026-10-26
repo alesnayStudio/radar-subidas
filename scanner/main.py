@@ -41,8 +41,10 @@ def run(save_history: bool = True):
     for r in shortlist:
         r["news"] = news.get_news(r["symbol"], r["name"])
         r["catalyst"] = catalysts.classify(r["news"], r["earnings_ts"], r["market_date"],
-                                           news.company_patterns(r["symbol"], r["name"]))
+                                           news.company_names(r["symbol"], r["name"]))
         r["news"] = catalysts.key_headlines_first(r["news"], r["catalyst"]["type"])
+        timing, at = catalysts.earnings_timing(r["earnings_ts"], r["market_date"])
+        r["earnings_event"] = {"timing": timing, "at": at} if timing else None
         r["score"], r["score_parts"] = scoring.score(r, r["catalyst"]["quality"])
         print(f"  {r['symbol']:6} {r['change_pct']:6.1f}%  RVOL {r['rvol']:5.1f}  "
               f"{r['catalyst']['label']:<34} score {r['score']}")
@@ -67,6 +69,12 @@ def run(save_history: bool = True):
         holders = {"tracked": 0, "items": []}
     print(f"  Aguantan la subida: {len(holders['items'])} de {holders['tracked']} vigiladas")
 
+    try:
+        market = history.market_context(date.fromisoformat(scan_date))
+    except Exception as e:
+        print(f"  [mercado] {type(e).__name__}: {e}")
+        market = {}
+
     payload = {
         "date": scan_date,
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -77,6 +85,7 @@ def run(save_history: bool = True):
             "min_rvol": config.MIN_RVOL,
         },
         "universe": {"raw_gainers": raw_count, "passed_filters": len(candidates)},
+        "market": market,
         "score_weights": scoring.WEIGHTS,
         "top": top,
         "holding_up": {**holders, "window": config.HOLD_WINDOW},

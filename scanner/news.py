@@ -34,16 +34,50 @@ _GENERIC = {
 }
 
 
+# Vocabulario bursátil: para nombres de una sola palabra común ("Pool", "Noble", "Blackstone") exigimos
+# que el titular hable de bolsa cerca del nombre, para no colar "NFL Survivor Pool" o "Barnes & Noble"
+_FIN = (r"stocks?|shares?|earnings|q[1-4]|results|revenue|profit|eps|guidance|outlook|forecast|analysts?|"
+        r"price target|rating|upgrades?|downgrades?|dividend|nyse|nasdaq|inc|corp|corporation|ltd|plc|ceo|"
+        r"deal|acquir\w*|merger|buy\w*|takeover|premium|invest\w*|billion|million|\$\d+\w*|growth|"
+        r"surges?|jumps?|soars?|rall\w*|falls?|drops?|beats?|miss\w*|sales|quarter")
+# Basura recurrente de Google News (retransmisiones deportivas piratas, etc.)
+_JUNK = re.compile(r"live ?stream|free ?stream|\[\S*stream|watch .{0,40} online|crackstreams|buffstreams|\[\s*live", re.I)
+
+
+def _name_words(name: str) -> list[str]:
+    return [w for w in re.findall(r"[A-Za-z][\w&'-]+", clean_company_name(name))
+            if len(w) >= 4 and w.lower() not in _GENERIC]
+
+
+def company_names(symbol: str, name: str) -> list[re.Pattern]:
+    """Patrones que encuentran SOLO el nombre o ticker (para saber en qué posición del titular aparece)."""
+    return ([re.compile(rf"\b{re.escape(w)}\b", re.I) for w in _name_words(name)[:3]]
+            + [re.compile(rf"\b{re.escape(symbol)}\b")])
+
+
 def company_patterns(symbol: str, name: str) -> list[re.Pattern]:
-    words = [w for w in re.findall(r"[A-Za-z][\w&'-]+", clean_company_name(name))
-             if len(w) >= 4 and w.lower() not in _GENERIC]
-    return [re.compile(rf"\b{re.escape(w)}\b", re.I) for w in words[:3]] + [re.compile(rf"\b{re.escape(symbol)}\b")]
+    """Patrones para decidir si un titular habla de la empresa (más estrictos con nombres genéricos)."""
+    words = _name_words(name)
+    if len(words) == 1:
+        w = re.escape(words[0])
+        other = r"(?<!& )"  # "Barnes & Noble" es otra empresa
+        name_rx = [
+            re.compile(rf"^\W*(\S+\s+)?{w}\b", re.I),  # el nombre es el sujeto: "MiniMed Completes...", "Why Biohaven..."
+            re.compile(rf"{other}\b{w}\b.{{0,40}}({_FIN})\b|\b({_FIN})\b.{{0,40}}{other}\b{w}\b", re.I),
+        ]
+    else:
+        name_rx = [re.compile(rf"\b{re.escape(w)}\b", re.I) for w in words[:3]]
+    s = re.escape(symbol)
+    # Tickers de 1-2 letras (R, NE) solo en formato bursátil: "(NYSE:R)", "$NE", "R stock"
+    sym_rx = (re.compile(rf"[(:$]\s*{s}\b|\b{s}\s+(stock|shares)\b") if len(symbol) <= 2
+              else re.compile(rf"\b{s}\b"))
+    return name_rx + [sym_rx]
 
 
 def is_relevant(title: str, keywords: list[re.Pattern]) -> bool:
     """Descarta titulares que no nombran a la empresa (p. ej. 'Appian Way' para Appian sí pasa, pero
     'Name Day October 14th' no)."""
-    return any(k.search(title) for k in keywords)
+    return not _JUNK.search(title) and any(k.search(title) for k in keywords)
 
 
 def _google_news(symbol: str, name: str, since: datetime) -> list[dict]:
