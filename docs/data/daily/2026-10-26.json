@@ -1,0 +1,1491 @@
+{
+ "date": "2026-10-26",
+ "generated_at": "2026-10-27T00:39:59+00:00",
+ "market_state": "POSTPOST",
+ "filters": {
+  "min_change_pct": 6.0,
+  "min_market_cap": 1000000000,
+  "min_price": 5.0,
+  "min_dollar_volume": 10000000,
+  "min_rvol": 1.5
+ },
+ "universe": {
+  "raw_gainers": 35,
+  "passed_filters": 12
+ },
+ "market": {
+  "SPY": {
+   "label": "S&P 500",
+   "change_pct": 0.71
+  },
+  "QQQ": {
+   "label": "Nasdaq 100",
+   "change_pct": 1.11
+  },
+  "IWM": {
+   "label": "Russell 2000",
+   "change_pct": 0.45
+  }
+ },
+ "score_weights": {
+  "move": 20,
+  "rvol": 30,
+  "catalyst": 30,
+  "close": 10,
+  "size": 10
+ },
+ "top": [
+  {
+   "symbol": "SGRY",
+   "name": "Surgery Partners, Inc.",
+   "exchange": "NasdaqGS",
+   "price": 23.25,
+   "day_high": 23.29,
+   "prev_close": 15.75,
+   "change_pct": 47.62,
+   "gap_pct": 46.22,
+   "close_strength": 0.88,
+   "volume": 58812318,
+   "avg_volume": 2251731,
+   "rvol": 26.12,
+   "dollar_volume": 1367386394,
+   "market_cap": 3043849472,
+   "pe": null,
+   "pct_from_52w_high": -0.81,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1794227400,
+   "market_time": 1793044800,
+   "market_date": "2026-10-26",
+   "market_state": "POSTPOST",
+   "score": 70.2,
+   "news": [
+    {
+     "title": "Bon Secours Affiliate to Acquire Surgery Partners in $5.7 Billion Deal",
+     "source": "Briefs Finance",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQc3czdFpLV1FtWE1tVjZTaVVnbDVoSllaQXFEWjhpU3hwcmpmTnpIbzYtNGM5STVXbGthRWhpRVVXbjdZZnBadFhkNDBNYlhKbW02TS1zSTVHVXIxM3c0NUp0UXBWQmpSMXMzS0pqR0FsZXhJRlBZeFdsaFlJcmRONnE5aEhjbkVLQlBMc3F1dVJodw?oc=5",
+     "published": "2026-10-26T21:47:54+00:00"
+    },
+    {
+     "title": "6 Firms Steer $5.7B Surgery Partners Take-Private Deal",
+     "source": "Law360",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZ1ItWno0MHl5SlM2RmZEUS11QmVJVEMyX19jbWw5a21YdFh2WGtReERNV1pSVXlidWVvaXpqV1FmQnpzb0owS1U5dlZZOXhnV3BQbzZsUTRMOHBVSmxRSkxRNldHWWJwRnYwNG0wZGRTZ3lva0JmejVlSDlzS1BkTVpUa1lERjhuTThhMjBST015eXBmcHN6RNIBVkFVX3lxTE1hczBTQjJvdXNYQTRlcVZFUVJVY1F4cFJIMHdwSTBVbkFFeUFxQlZKUWxSMmZ5OEh4YXNYbG56RVh4d2JlUllPZ1kzMDE2M256RFk5a2RB?oc=5",
+     "published": "2026-10-26T21:01:57+00:00"
+    },
+    {
+     "title": "Surgery Partners' Buyout Leaves Little To Be Had By Holding On (Downgrade) (NASDAQ:SGRY)",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTXNFNHJja2xwbUxvWUE2RloyNFJIbDk1elpBdjlPVndHM09Tc083UzJGbDRrSXNKLThIdC1KX1VSMnNYT192MDVWanJ2Nm5fbFBPcUhuUGdNWUJ5b1l6a0tKMkR3ZWJham53NTIwemN0cERxbHhRRlBoTk9zM3EtRGkyUjFSU0czRERIMEhUcFJiLXl4c1VqZWUyOWRsZ2xBTWw1NC1TUS1Ib0dsZHRRTU5R?oc=5",
+     "published": "2026-10-26T23:00:29+00:00"
+    },
+    {
+     "title": "Nonprofit Bon Secours Mercy Health strikes $5.7 billion deal for surgery center chain",
+     "source": "STAT",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTDlLWWs1WFNGdFZXRFJ4ajBiRzVxWnBzWDU1RlhqV3prMllQVHg0bTdpbVRKMW5oQnVqUURtS01hQUZERGQtOHR6VHh4aVNvTWlpeF9TRXJFOHR0TTZ6Vm83ZFAxQjZDX09EbFE5d3ZDWXJmVXg3a09JZDZWbHY2NU1xdndGNzZuVUloSkZDUHNJZmJQWGE4RHZNYXJnZE9BODZ3dU0xLUZ6WjZhZmRxSTZ2TlZYYldyLU85SHZCZWI?oc=5",
+     "published": "2026-10-26T21:56:48+00:00"
+    },
+    {
+     "title": "Stock Market Today, Oct. 26: Surgery Partners Skyrockets 48% on $5.7 Billion HealthSpan Acquisition",
+     "source": "Motley Fool",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-26-205718760.html",
+     "published": "2026-10-26T20:57:18+00:00"
+    },
+    {
+     "title": "A $6 Billion Reason Why SGRY Stock Is Soaring Today",
+     "source": "Barchart.com",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUnhQc0FXQTBuelRmS2xadWxhSjBHYU81VkNrSjlXNnJmaVY2VkhKTFBkdkdMOUpUeFJHa0dRd0hLZDh1RERkdjlaRzAyOHdxX1hWUmNzMDNEWEZmR0g2d0U4aDlucG13MWJmOTdjMG9WRlRfRTh6ZjYxemV2LV9YRWxGOENXaGV6QVBBRkdfUEdaX0E1R00xbkVB?oc=5",
+     "published": "2026-10-26T20:55:41+00:00"
+    },
+    {
+     "title": "US Stocks: Surgery Partners Soars While Brazilian Financials Tumble — Top Movers, 26 October 2026",
+     "source": "Business Upturn",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOcEhObUJHeHlUN1A0dDdxdUhIb3FWRmxQYXhYb0lWUmUwM3RxWkdYUVRHbHB1R1RUUXRiS1dHZDYyelpDakFheGZkWU9aRUFXT0ZnS29leHJ2YWxLZVJROFNhS3VkSjBReDFzNWFLWjJpNGxCRDZIOWQySDRfaDkyTzlvU1VwRWxNb3hLSXJXdUxHZUxhOE9obGU4RnhDRE9EZi1NWnRYT0VzbE15ZHZ6V3RUa3RIV1lkTnJLbWJuYnBydERkSUkxc2NrWmszczR3bEhZdFpCLXBiZklUUWJB?oc=5",
+     "published": "2026-10-26T20:26:38+00:00"
+    },
+    {
+     "title": "Surgery Partners to be taken private by Bon Secours affiliate in $5.7 billion deal",
+     "source": "Reuters",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQjFmVWM4cEV5RmFxYjFyM2M3RHhsX1J5bllpQlFTbGM1SjZ0NDdNaHdwaVdGZTUzd05lQy01dFN2MDd5YnpJQ1RxT185WURobHRiVEhva0NlSl9HRWRWNXlYOWlnTXgtVF9UTHc5WFpyYUZ2SFZweDhFb29pcWhHLXYwRmRuWW42TW5PR3JJc1l4dTNIX09nZktDd1pPaWtueTRRVmFhY1g3czM4dnB2dTZn?oc=5",
+     "published": "2026-10-26T19:35:43+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "takeover",
+    "label": "OPA / la compran",
+    "quality": 0.3,
+    "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
+    "confidence": 0.5
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 20.0,
+    "rvol": 30.0,
+    "catalyst": 9.0,
+    "close": 8.8,
+    "size": 2.4
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -66.59,
+    "ath": 69.58,
+    "ath_date": "2021-06-25",
+    "prior_ath": 69.58,
+    "listed_since": "2015-09-30",
+    "short_history": false
+   }
+  },
+  {
+   "symbol": "RRC",
+   "name": "Range Resources Corporation",
+   "exchange": "NYSE",
+   "price": 53.56,
+   "day_high": 53.65,
+   "prev_close": 45.52,
+   "change_pct": 17.66,
+   "gap_pct": 11.61,
+   "close_strength": 0.98,
+   "volume": 26468450,
+   "avg_volume": 2586603,
+   "rvol": 10.23,
+   "dollar_volume": 1417650182,
+   "market_cap": 12515875840,
+   "pe": 14.795581,
+   "pct_from_52w_high": -0.17,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1793131200,
+   "market_time": 1793044985,
+   "market_date": "2026-10-26",
+   "market_state": "POSTPOST",
+   "score": 66.0,
+   "news": [
+    {
+     "title": "EQT to buy Range Resources in all-stock Appalachian blockbuster deal",
+     "source": "Pittsburgh Post-Gazette",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZEJ3S3lRWHFIM3g0V2FEVVIwYl9INnZqX3o5cjVZZGlhWEVicFAxbjdhQUhacEVPLTR5S0d0cF90UWthNVJsajVSeVl0dldvcFFHRmdhRTlwUlRLSlhjTWd0MS1xSTR1YmthM3ZBQmc3ZXB6bmhXN0JvQXUzTE5iT0JEVTZnTnN0SjBQUmp2cFhaUHlOX0tDWUthWFkwWEtoUDdGdU42ekxyYWNzNGc3VTFSSQ?oc=5",
+     "published": "2026-10-27T00:13:13+00:00"
+    },
+    {
+     "title": "EQT acquires Range Resources in blockbuster merger",
+     "source": "Herald-Standard",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLXd2X0dhbFJjeGRNQ1NLVFpRRVVwR0NVdm9jUDNDZFRQQ0hUSk92a3lfQzFyV09iZ0ZzT3BPX2taZWk3YnZmMUF3bmJKV2ZyT2RHdlVZVHZSNGtHYzUyR09TSnhoeGhlVGl0STV5a0xxOFBGVlRZWFByemFybmYzenpGa2RJaEMtTDlkdTVySmdPWjBnWG41Z25yYkxCdmNNbmQ2VFd0QXp4dTZpaHBB?oc=5",
+     "published": "2026-10-27T00:06:36+00:00"
+    },
+    {
+     "title": "EQT moves to acquire Range Resources in $13B stock deal",
+     "source": "TribLIVE.com",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYUFVVnpxWnA5Z1FqUjlaRUl5RV94Um1qN2htY19WZW1HaTB5M0Y3UEc2UDFmQUxnMGV1amt0RTZ6R1lDUldId0gzYlJVS3hWZjhQTW11ek0xVjRWano4MHNqdkRXYWJ0WjZ1RWU0ZlRpczNTYllvUy1IUlo1WkVWYUYxaldwTHNodnVOMmlXSTVub3M0OFJMeU5ZOVhYM3NXMXVhOEUzdmtfSW9zUG1YaXQ2MXFUdC1IVmlzSA?oc=5",
+     "published": "2026-10-27T00:00:00+00:00"
+    },
+    {
+     "title": "EQT to Buy Range Resources in $13 Billion All-Stock Deal, Creating Largest U.S. Natural Gas Producer",
+     "source": "NAI500",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYkVlbWozb2VfT1h4cHZObDJ4ZnNDNjc1LS12M2dDWEhiWkhDUklfc1hldUstd1ZxMmw2X0VYcTNSOWViaTM1c3NlbE1VNXZXUjZRdW5SaHdhcTI4VmVvdWFwWEJyQjdxTF9lZENQY3lKYUM4RElhanpKYVlnYjV1dl9LNXNCdEVFd0pOcE9ZSHZvYVhZQkRjZkQ5VHBqVTRESmJjM0RvRVdxUURHMDl5TjlJcU5JaEF2Q1pMa0lXYlFBdTczclZWdG5R?oc=5",
+     "published": "2026-10-26T23:45:04+00:00"
+    },
+    {
+     "title": "EQT-Range Resources merger could create largest US natural gas producer",
+     "source": "Farm and Dairy",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR19EeHVXa2JnMW1GOS1mMlgtVmRsM2prTGZxUFN0bXZsS0lES0FPUjJsemVrU0RNcjVCSERxcWZqdGkwa053M2E0bnh3bV9GYzdIM0NRZ0N1cWpmdDU2N2lvenpDT1lxd2Z2VWlqVE1xTTRuSU1VU1MtbkswRUpXbkE4NGF2RjljWXBGandxUlZnMzZpNm5qWUFBczJ1TmE5Rkk1bW9UTUJHVGM4ZE1sN0VGaU1hVmQy?oc=5",
+     "published": "2026-10-26T21:42:42+00:00"
+    },
+    {
+     "title": "Why Range Resources Stock Surged Today",
+     "source": "The Globe and Mail",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZTZUdTE0cmw4VUlmOGRSVkpiRzRoaTZSNlpkMXlTR1pPMUtvUXBCTmtDamVkUDBNZkVKRWRwTUVlSlp2Q05GLU12T3pLbDBMLVVYRTJUNHpheFpMZTJSWU4yWHB0VTNhME04c1dDeU5ZVWJ5Y0o1NDlRck9pOXZ0VTZlczhYbW9fYXZTbmVCRmFyVVlPcU41VWViWFlESld1bFBWQlBhYXJMejRIMnRoMldTdlFLcHBlVlduNzlTVHhaUQ?oc=5",
+     "published": "2026-10-26T23:06:04+00:00"
+    },
+    {
+     "title": "Fort Worth’s Range Resources acquired in $13 billion deal",
+     "source": "Fort Worth Report",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY09NWTg2cW82N1FYbTltV3M2YVJKYTQ0WW5fNEJDX0piM2c3ZnBwWnZnZV9tazBBTml2M0FDMWtkNGlndkN4LURISnFfUE9JNGllQVdnc09BTDRJUmRMbkpPSHdtM2stZGh0d05rblo3SGtpSUo5MWJaWUxxTk90azhjTmdnbUdQbDlVb3FOMEV0U0MtRUR2cFU1aw?oc=5",
+     "published": "2026-10-26T22:56:51+00:00"
+    },
+    {
+     "title": "Nearly 3 million net acres are expected in Range Resources (RRC)'s planned combination.",
+     "source": "Stock Titan",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOM1FSbXJVSUxydThObjlVRFB5VFlpYUlabENaSFVSeWVqc1JYekZETzJSalN3WDNmUzhTVDJvUEhTN0RzejN6SzNydVdaVmZrTnU1ZGczamZaQm9pWXl3YUhGZVVTTTdpV2l6NmNpeWd1cEU0ODdxX3h3cGpHVkYtVGI3ajlIdDNpY3N6TDJPeXdnakVWSkhmd0VUWThsV0JTa2hUcExWcVh5blNZWFVoYVo0OXZhcXprbnBNdA?oc=5",
+     "published": "2026-10-26T22:05:28+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "takeover",
+    "label": "OPA / la compran",
+    "quality": 0.3,
+    "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
+    "confidence": 1
+   },
+   "earnings_event": {
+    "timing": "upcoming",
+    "at": "2026-10-27T16:00:00-04:00"
+   },
+   "score_parts": {
+    "move": 11.7,
+    "rvol": 30.0,
+    "catalyst": 9.0,
+    "close": 9.8,
+    "size": 5.5
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -43.86,
+    "ath": 95.41,
+    "ath_date": "2014-04-24",
+    "prior_ath": 95.41,
+    "listed_since": "1980-06-19",
+    "short_history": false
+   }
+  },
+  {
+   "symbol": "XNCR",
+   "name": "Xencor, Inc.",
+   "exchange": "NasdaqGM",
+   "price": 29.18,
+   "day_high": 33.58,
+   "prev_close": 25.18,
+   "change_pct": 15.89,
+   "gap_pct": 28.08,
+   "close_strength": 0.07,
+   "volume": 8894697,
+   "avg_volume": 1353551,
+   "rvol": 6.57,
+   "dollar_volume": 259547258,
+   "market_cap": 2169632256,
+   "pe": null,
+   "pct_from_52w_high": -13.1,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1793822400,
+   "market_time": 1793044801,
+   "market_date": "2026-10-26",
+   "market_state": "POSTPOST",
+   "score": 57.3,
+   "news": [
+    {
+     "title": "Xencor (XNCR) Is Up 15.8% What's Changed After Kidney Cancer Trial Update",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/healthcare/articles/xencor-xncr-15-8-whats-222147838.html",
+     "published": "2026-10-26T22:21:47+00:00"
+    },
+    {
+     "title": "Xencor: 'Strong Buy' On Positive XmAb819 ESMO Data ccRCC And Potential For FDA Accelerated Approval Pathway",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaW5GVlpHbEZkV2U1NVVWNm1pZGEzcW5jNzdEdHJEQlRzR0prMVVJaml1VHVnWndzcHpzWHhtdjdzbGwyd0JudmhzOEdkOGNXRkxPTHh2VHJvNkE3UldSMHRsRmxBMExJQURRMktvVTl4V3g5cGZYSzQ5RmlibHJMLXJQVS1acWFGUmpCUnpnaDk1Q09OeUVOSnJ5ZTNUc0xaOXMwQjVRdWE?oc=5",
+     "published": "2026-10-26T19:22:34+00:00"
+    },
+    {
+     "title": "Xencor Soars 31% on Kidney Cancer Trial Data Showing “Impressive Antitumor Activity”",
+     "source": "TIKR.com",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNDNLQlhkMEl0VlE4M3dDdG0tcnlhcTVNR3ZQcXpqTHlReG1PN1BHMTdzcFlFT0MyM3YyWEJxdWkzWG5uUVdmTElRSkNLS1A5SXVod2RIWlJ4U3ZDODBtVEI2TmZ6emRYSDVJbFlXWEVieGRjaWtFVTM5MjBmOFZDMVU4Y3dPUFdPbzI1SGFqNkpyOTlYNUpGaW44TmN4VWw5VzA3QkNYUG5mMEE?oc=5",
+     "published": "2026-10-26T19:03:05+00:00"
+    },
+    {
+     "title": "Xencor Picks Phase 3 Dose After XmAb819 Shows 45.5% Response Rate in Kidney Cancer",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNmlmVXl2dmNhLXRKY3FGV1VXOG9WWHRySVpVYS02ZnllMW5rYmMwZWt1S1oydUxyNEljLTY5aHh3YTJjd0tVazJIT0llckhCdzdnT2tXN0hnNDlZTURKQWNidFlVSl85ajVyTkVWeEs1V19Yc3ZWR3RWSFVYekRpNUFGQWNjT0RrdkRFVVFWaw?oc=5",
+     "published": "2026-10-26T19:02:30+00:00"
+    },
+    {
+     "title": "Xencor selects pivotal dose for kidney cancer bispecific XmAb819 after Phase I data",
+     "source": "AllSci",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV29SRVpIQnRXNS1KUkJLQTgybjZWbnNZc3hoRk50cEd1dnJfMlZNRXVtWENiZWVaQzExQjVpQUJadlQ5Tlo3REVZNm9aWkh4d040SzMyZi1ISVVmZnY0dlJGZmU2bzU5SG15Y0lvc192VkQ2SzRwemxWZkxyQVoyTXB5SEdBYjQ?oc=5",
+     "published": "2026-10-26T16:58:45+00:00"
+    },
+    {
+     "title": "Xencor soars 16% on encouraging early XmAb819 data (XNCR:NASDAQ)",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWG0tUE50REVNTldrSXJyOUpiRF9Sd3NLQmFUcXFkdlR5dnM0ZjNEVnRIOW43SXV0TjNhY3JfNFgtbjRBbXZyMFdrdFQwazR3THExa2V5UzRPR2pOV3l0dHp5X3dWTXp1bVpmOG8wTDIxbE9HUlk3dWpmejZzSTZ2YWxzUExRQ0F6Zkx3cjctV3E?oc=5",
+     "published": "2026-10-26T21:20:35+00:00"
+    },
+    {
+     "title": "Xencor Catapults On 'Unprecedented,' 'Profound' Cancer Data",
+     "source": "Investor's Business Daily",
+     "link": "https://finance.yahoo.com/m/16e6463a-b8c3-34b8-a1c1-419b2c4adca5/xencor-catapults-on.html",
+     "published": "2026-10-26T20:13:22+00:00"
+    },
+    {
+     "title": "Why Is Xencor Stock Trading Higher Today? - Xencor (NASDAQ:XNCR)",
+     "source": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQaWdQcDlDOFJzNFZFMTVXakIxMFBaWkJDdTk5OVFqcGxrY1JiQWhZVlBMZURvaTVFWk9xQk1tVlJzQlVDTE5YaEJVTmItTTQyY3hNcWVPM1A2Q2t5eExEOEg1U2RaNkJYRzI0aFE4UEUzM1VLRE8xWENrZGhwZjlUQkhMMmR4N3hTU2I4c1Q4SXZOQnhHNlVOVEt0YWhpOVZfQlY3X3dHUDFOLUlKWHhUTzB4YXd4Q2x4RjY2QnNvbXA5d0Y4WDhLNHZMSDFKNk5PLTU4NkhsZUYxYTdK?oc=5",
+     "published": "2026-10-26T17:00:46+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "fda",
+    "label": "Biotech / FDA / ensayo",
+    "quality": 0.5,
+    "note": "Muy volátil: puede revertir con fuerza.",
+    "confidence": 1
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 9.9,
+    "rvol": 30.0,
+    "catalyst": 15.0,
+    "close": 0.7,
+    "size": 1.7
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -49.99,
+    "ath": 58.35,
+    "ath_date": "2021-02-24",
+    "prior_ath": 58.35,
+    "listed_since": "2013-12-03",
+    "short_history": false
+   }
+  },
+  {
+   "symbol": "CART",
+   "name": "Maplebear Inc.",
+   "exchange": "NasdaqGS",
+   "price": 60.88,
+   "day_high": 62.0,
+   "prev_close": 56.44,
+   "change_pct": 7.87,
+   "gap_pct": -3.77,
+   "close_strength": 0.88,
+   "volume": 32158667,
+   "avg_volume": 4039581,
+   "rvol": 7.96,
+   "dollar_volume": 1957819647,
+   "market_cap": 14448858112,
+   "pe": 33.26776,
+   "pct_from_52w_high": -1.81,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1793908800,
+   "market_time": 1793044801,
+   "market_date": "2026-10-26",
+   "market_state": "POSTPOST",
+   "score": 49.5,
+   "news": [
+    {
+     "title": "CART Stock Jumps As DoorDash Acquisition Talks Reportedly Heat Up Toward Possible $17B Deal",
+     "source": "Asianet Newsable",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQaHpmaEJCQ1pfc0FGaWxYRndaU1NKVjJtS0JQbWFhRE0wZmtLUHIxanp1ZHBpaGNBUkFNbnBWZGxFSW5tSzUyUGpCM0tiOVJWRTNZdmZqVzE3dEZubkxITXdVRkRBZ29UWTJwYTdNZDd5WDNGZmtqVkNMdlh6bmpLa0FwRFhHV09hSnFfZW9YcWNLRkM4eGVtZ2ZUMlQxM1owR2ZrZFcycVNKU1VJdm00M2xuU0xNbXRPRXA3dlNHTnk2dDAtRTVRRE5LNENFZGhjVVZnR2s1TGZTNVdzUDJTU1BYRlV0Z9IB6wFBVV95cUxQeTcxUFNqRUVyaVpIT0lQMlRfWFk1MS0wcDFWRjdGc0Zsbl8wMlozbTVkSDctekxIZW9tcldrSTlucXMtcTE1SGVBcnBpUFBYUEQ0TDRoUWxzVmZCdG1UOFhlWlN1MzUxT1J6U0VydTA1SXF2OEwwa3cwMVd6LTAzS05XZTNnQm1sWTdyWmhsN0k4NGF5UWR3REVnOHJTREhPd21SaXpVa0pSSmZoZkVMWHJ4V0h2UjE3SnZia1JkcmJRX3FsMUl5ZDc5SkhHYXpSN2NhcG9NZk1mbTBfZ1ZWODBYZ2pZb1VSVUNr?oc=5",
+     "published": "2026-10-26T21:30:07+00:00"
+    },
+    {
+     "title": "Maplebear Inc. Officer Chris Rogers Files to Sell 24,665 Shares Worth $1.48M Under 10b5-1 Plan",
+     "source": "Kalkine Media",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYzRQSUJqckhYRy1RWVUwNVdXWjJReUZ1RzNBcDk5Nm9zbkxrXzdqT1dYaWIxRlJfd2laeEw5cm5NZnU3SG04Z2lKUzd5VE5kbVpjTTZJV0d2WlUxOE5Ualc4b1dwcjRaellQWFBWdUFFeFY3QlI0WjNkMjZpMzFWaDc3QlVDOEpIelZtcUt5b3AtaGdpeklhbGR4bFBfaDVsUFMwb2I3ZTljb2Z5RHRZNV9ZZ2h5TlM5ZWdxWXJwdnpId2ZIaUdMYzZxQS0yVU02VzRB?oc=5",
+     "published": "2026-10-26T21:09:59+00:00"
+    },
+    {
+     "title": "Maplebear Jumps 8% on DoorDash Takeover Talks",
+     "source": "StocksToTrade",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HMjFJX2ZaT05odlZJbG0taF9PUGZQdmpRdE9lYllKaWVja0RET0NWblpIODdLOUdDUWkzcWZqYWVka19fcnpYeVpOVDY3bWxXdXBLYmoxRmlxZTZlY3RyMTlHVmtRNHNTNk01bUs5eXB3eGdB?oc=5",
+     "published": "2026-10-26T20:25:00+00:00"
+    },
+    {
+     "title": "Maplebear to wind down Caper Cart, expects up to $80M in charges",
+     "source": "StreetInsider",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTWVIU2xOT0tLT0pBbTRERDEwUWN2UGRKbTVNclBJb3UtR1JtcFY4VnI4M0ZUQTZXMDB6bDNSUzlic1RCNE1lU1hlaFpNcW5GaHF5UER1VTJaQkFtdGRxQVF0NXRJMW0wZmtkVFVEekhoSUlWWVZHakNILU11aWtPaER1dHBnU3U1ZjBzSkpyYWV3ZkE4NHZBeWY1anViSU0ySmJNY3VDMDRNMTVZN3ZSbzlteGVJNXhnV01FWUNhemdfdXZjZEE?oc=5",
+     "published": "2026-10-26T20:22:49+00:00"
+    },
+    {
+     "title": "Form 8K Maplebear Inc For: 26 October By Investing.com",
+     "source": "Investing.com Canada",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLVQzRTY4amZtMGhXVEl5QkdnQUt1OVpFZHNvdU0yTFhWcUNOQjNWLWozTDA2bjFvRlc3UzB4d01yWExxOFhXbDNFRGh4bDhra3RrMmZCdFNTRWpWWFFScTRLM1FrNHhYcHlvUHdXdW5weVlFRnFKaHpKQnBWcHBwdlNXNFJ1Q3VSdUx4U2VlZFh5ZEVBbEE1TFpySnAyQQ?oc=5",
+     "published": "2026-10-26T20:17:48+00:00"
+    },
+    {
+     "title": "What Changed For Maplebear Stock, And What Did Not?",
+     "source": "Trefis",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQLU9QemVqT05rTUVJVEh6bkpLVDVOM21FMGZBcC1JYUNxUUZ4QndhWUwzUVZYd0gyQlpPQ05FejFMWG1GYmllSHVyREl5eG5nSU5vY0hGcXhsTW5Ec3ZhVHhmUVk0Q0d6TlZIajhsWDBWUzdoS3FDTUJHendndHNFeFpINEtadkNtR0d1dkxPVWxKZmVkNTA4eDhkeVd4U3c5NFpOblFLN3YxUEZRdGY0?oc=5",
+     "published": "2026-10-26T17:43:23+00:00"
+    },
+    {
+     "title": "CART Stock Draws Wall Street’s Attention After Report Of Potential Sale Discussions — A Look At Some Key Analyst Takes",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNbW9xMnlSX3NVb291Q21WNkFXNTMxZEhHV002U3VFWmhJaHJTS1hZOXNEdGpPWFJfQUZkQ1dMTHFHeGNxZVVzdk91NERKenUtdzhINkpZd1ktYURuZkNGY3h1V01yQWgwZXBJR0FjWEZBNk56UzRtZWxQYUh4Mm5UUVZkejBvcDFTUXRveFFRZ3FsSnBESmQ3TzUzZy1HU2E4WW0tbkxXRi1LZl82eU1XZ05BR3VNdmRrTGZKcXNoUUR1eDhjejI4bE9idk05TUJFQ1V5UGU1VFptbGRzeWVnQUgzRThfMEVlOEhnWnJjMmpNYjNkcHhOaG13QzJnTm9TVmN6REZVVkc?oc=5",
+     "published": "2026-10-26T17:25:38+00:00"
+    },
+    {
+     "title": "Maplebear chief legal officer sells $937,934 in stock",
+     "source": "Investing.com",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMFhJY0JzMVQ5Wm5xeXNGblpaVlQwV1ZFZjdnOU1hYVRiUEZIaEF2dnh4enZXamtuVkhJcHBseDVlOTJsMUVsVFNrVDgtY2QxclZWeFRUOE9wSWJuaFI5QXlRem4yUHhGV1EzOV9KTGJJa09rODB2Ny04UG9nVDBocjVBd2cxeDZFNVBkbElQb2hVM2YxRUpTbzUyMDFicTRlQ0lDejMwR2lsUW1MWnJEMk5SSUZYLTA?oc=5",
+     "published": "2026-10-26T13:59:51+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 1.9,
+    "rvol": 30.0,
+    "catalyst": 3.0,
+    "close": 8.8,
+    "size": 5.8
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "new_ath",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -1.81,
+    "ath": 62.0,
+    "ath_date": "2026-10-26",
+    "prior_ath": 57.98,
+    "listed_since": "2023-09-19",
+    "short_history": false
+   }
+  },
+  {
+   "symbol": "FIX",
+   "name": "Comfort Systems USA, Inc.",
+   "exchange": "NYSE",
+   "price": 1244.19,
+   "day_high": 1265.8,
+   "prev_close": 1160.86,
+   "change_pct": 7.18,
+   "gap_pct": 1.22,
+   "close_strength": 0.77,
+   "volume": 809643,
+   "avg_volume": 411067,
+   "rvol": 1.97,
+   "dollar_volume": 1007349724,
+   "market_cap": 43788427264,
+   "pe": 26.872353,
+   "pct_from_52w_high": -40.01,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1792699200,
+   "market_time": 1793044803,
+   "market_date": "2026-10-26",
+   "market_state": "POSTPOST",
+   "score": 45.7,
+   "news": [
+    {
+     "title": "Comfort Systems Earnings: AI Slowdown or More Growth Ahead?",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdExVZ2FGUEdJWEZUMjFFMnhabF83MzNvcHNRaGZGWmtFWW4wVm0ySGlmMDFoRnNUdV8yenZvaHFodWlKcURPSE0wcHB5MFlLdXhQUDNpM3QzS1FoajJaMEZlekd3Tmk1aGlJTzVDQWJXTHZDdW5EU3dwMzRhOGJzbWdoVktldVJ5Q1RhdTl4eFhxQUpiSGFvM0tB?oc=5",
+     "published": "2026-10-26T18:29:58+00:00"
+    },
+    {
+     "title": "FIX Q3 Earnings Call Highlights Backlog Growth and 2027 Outlook",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOWxWbENSNDBhVXBjS2ctT3ZCaEVxYnM4OEtJcXhwNk9IMUJKTmxtRlVNRGhvOUlwY1BBOWpmaFk4Y20zNUVqZEV2TmZUSkdxdzVySFVCbVFUbVE5UldtX1BYRVpPZ21FRlc0MkNsZnJWV0NUaFhubUd5dHNIaVZ6NGdpajBkN0Y4dkZidkRObVBuQWJ2UDJEcEUwSm4wOGloX29OT0c2NmpJRFV5dXlvdW8zTlJ5R0xaZHEw?oc=5",
+     "published": "2026-10-26T17:22:00+00:00"
+    },
+    {
+     "title": "Comfort Systems USA bounces back with 7% rally (FIX:NYSE)",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZlF0TFVlLW81STFLd1AyMHdSbnlqOERQWnJ4QURHaC1RdVdRRTQwN1N0SUJmeVZNbmVmelB2bHVRZEkzY1Fnb3FCRldDR3B4bHlvYVlIVGpSdXNVVTNmU2dHZmVRQ3VHMGxEbFJkVDNEcmRBRXBsZFJ1azV6ZEswY3BiUlJzWkpnbU9F?oc=5",
+     "published": "2026-10-26T21:32:50+00:00"
+    },
+    {
+     "title": "Stifel cuts Comfort Systems USA stock price target on margin pressure By Investing.com",
+     "source": "Investing.com India",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWllHWWFKcDlYeFNOblJ1N3JqRUEyY3hMbDJJX1M2LWZQWE1nVHhzM3dHYlAxa1hFQWg0OFFGU0RhNlJ0Rkt2Q2l6UEtUbDFYS1ltYTV6VkFZek1XUVZiNlpGQjJoYzFxbVpzR3hQcTJybkdwTDZFNDZaRVJMV0dPSHV3Sm9vUlpHaGoxQzFnUWpJN2hGYjdESWd0VnN2RDVoLVNEb3JuT1p4d2laTzI1OGNrQ2hsMXQyRHNsWWRiTGtpUEtRbm42Z0ln?oc=5",
+     "published": "2026-10-26T19:56:59+00:00"
+    },
+    {
+     "title": "Oppenheimer Has Lowered Expectations for Comfort Systems USA (NYSE:FIX) Stock Price",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQ1ZrQzFjLTZ4N2FLLVE0VG9sUFZ6UGxVallmS1hoUURiNHUwdHg5c0xpZ2dINXN3RTYxWkdXODVxTENJaDlEUWZpN05fVDdpU0hSdlpfRl9LckExeVBPOEREWldJOVVMTEtRUEdlMU1zVXl6b0dncm83VURDbzNJTzZGdHZMR3dScFpUVGJ5THdkeWN2dEo0elZMN0RJNldjYWxaaWM5cXc0SGV3cnpNRy1razJVT3hzdThhdUZESm14T3pveG9BQVRLWjZQYkx6RjVobTFicUtfRHc?oc=5",
+     "published": "2026-10-26T18:16:14+00:00"
+    },
+    {
+     "title": "Comfort Systems Rebounds 9% as UBS, KeyBanc, Oppenheimer Back Record $7.4 Billion Bookings Quarter",
+     "source": "TIKR",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/comfort-systems-rebounds-9-ubs-174859361.html",
+     "published": "2026-10-26T17:48:59+00:00"
+    },
+    {
+     "title": "Comfort Systems USA (NYSE:FIX) Shares Up 5.4% - Should You Buy?",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOODVvd0VnTlJVaHg1NjBwYko4am1Zb0c2ZnZORktVTlluS0VJZno2SVhxb0ZHa2R0MXZOaldVV2R4Qm9tdjRYNjFhMVE4WjdtcXo2eC1USXRnR0pUc2pPMmtaeEpHOTJQbHRGMWRNOUVlcmhPckE4SDItNjVCSFpUdEtQbDVlMmhnMXByUmstTFkxX2lZMDJLZUZPT2Nuc0Y1WUNLcHlCRkJiU3hFNHpUM2VRS1p2Vnc?oc=5",
+     "published": "2026-10-26T16:20:31+00:00"
+    },
+    {
+     "title": "Comfort Systems USA stock gains 6.00 percent at EUR 1,121.50",
+     "source": "ad-hoc-news.de",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUDlGbXdWd19EZF9JMWJNSDVFaU5hekcyX19TVDNIeDlsTFFsMm1zRnQ0QXFSWjlQNUlLUWZQN0haUlB1UmUtRUE1X0NSckRnbGJYa3dRZENmLWxXUXFhUzh2THFFS3FSNmlPVjhtdnppNDlpRFQ1MXNOWnduaGpJVWJTc1BJWi1aQ0Qwb1lvNFpHc1FoZWlxS3lwaWdCUEJCTUp4b2dZMEdrajNGdnhlb0RYVFV3UG1vN1dRRXJSbEE?oc=5",
+     "published": "2026-10-26T16:01:57+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 1
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-10-22T16:00:00-04:00"
+   },
+   "score_parts": {
+    "move": 1.2,
+    "rvol": 3.1,
+    "catalyst": 25.5,
+    "close": 7.7,
+    "size": 8.2
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -40.01,
+    "ath": 2073.99,
+    "ath_date": "2026-05-14",
+    "prior_ath": 2073.99,
+    "listed_since": "1997-06-27",
+    "short_history": false
+   }
+  },
+  {
+   "symbol": "ORKA",
+   "name": "Oruka Therapeutics, Inc.",
+   "exchange": "NasdaqGM",
+   "price": 90.33,
+   "day_high": 93.31,
+   "prev_close": 80.15,
+   "change_pct": 12.7,
+   "gap_pct": 2.28,
+   "close_strength": 0.74,
+   "volume": 1942729,
+   "avg_volume": 880948,
+   "rvol": 2.21,
+   "dollar_volume": 175486711,
+   "market_cap": 5980722176,
+   "pe": null,
+   "pct_from_52w_high": -21.81,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1794400200,
+   "market_time": 1793044800,
+   "market_date": "2026-10-26",
+   "market_state": "POSTPOST",
+   "score": 37.7,
+   "news": [
+    {
+     "title": "Oruka Therapeutics Rises 12% on Psoriasis Trial Results",
+     "source": "StocksToTrade",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNR2xVb3FkZzMyMjBHODZhZWVPdzRObHhpV2FVNDRKVWw3M3ZxWi1hM1B4NWZCdHhHUGpjWVhnZUh2WEpkd1RCVUNtY01YdVBhNkpDaVp1OVNwTjE2Ti1tQWllcGZzelNWeVp1ZWpNM2tkYTR4REtfMUpyX2o1MmFvVQ?oc=5",
+     "published": "2026-10-26T14:38:00+00:00"
+    },
+    {
+     "title": "ORKA Stock Grinds Higher As Cash War Chest Fuels Speculation",
+     "source": "Timothy Sykes",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUUV1WUxZNDUydUhrZmE3NEJvbkIzWHFqNEVoVE9hUjJwalg5OVdhVlh2YkE1M1RINFFvYVBjbDJod0ZCS2xLa3hucjJNSE5HQjJCNzNybWNYMW5sMHdJRXFMd3Brd3M3Z1YzamR4Q0g3NmR1SkFpY0Rrai1LVlI5UmtpSFY?oc=5",
+     "published": "2026-10-26T19:20:03+00:00"
+    },
+    {
+     "title": "Oruka Therapeutics Soars 12% as Psoriasis Drug Clears Skin in 61% of High-Dose Patients: “A Paradigm Shift”",
+     "source": "TIKR.com",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSXFaeFkzeXp6RTZUazUtSzAtWjA1bnM4TzM5eFZHQkczRXRYUE5IWFZtSE51dUs1RVM0c21FQ3g0aURkbnRYWXRna1lTNzNPb09FbDR6MnEydV8xakpKRUMwZl9Ka0swWmxha0g4aWhxcHRzLThiSFE2bWtzbW12YUdidXFqOERpOHNBZFhHNGVYd01jZ3pzc0ZWcW44OTlVTHRoWWlMeE5UUjc5UFZHeTNmZ2EtRmxNNEJPeHZEZ3BSb2Rad19V?oc=5",
+     "published": "2026-10-26T18:00:00+00:00"
+    },
+    {
+     "title": "Oruka Therapeutics price target lowered to $105 from $131 at Clear Street",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVDdUTU1tYTNKR1l0MTBNc1ZKSThEbzk5dTNCNjAzcUwxNW03YVFQODVOWnBRVHdOdkR3dzl4dDYtektXbkttWjkwb3BNN0hZNnAzanpjeUtCR3JUZmdsMkxLV3ptYnVueFhONjJmUnhoUXRmbkJJTzZVQ3RTV0dHT0NmTHFRRFBuRWlsRjloaTRxVVQ2aE9lblEtOFVMY01xQ2xkN1hxTFZKYnAwd0poTEJ3cklOT0c0YlVFNUZ3?oc=5",
+     "published": "2026-10-26T17:10:19+00:00"
+    },
+    {
+     "title": "Oruka Therapeutics, Inc. (ORKA) Discusses Interim EVERLAST-B Results for ORCA 001 in Plaque Psoriasis - Slideshow (NASDAQ:ORKA) 2026-10-26",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQc2E5SmNVenQ1Tm5FcGRBOGY5QjV6ems0aDJTVENqV0p4T3VSZzQxYlhpQmVzNXR1OFBvaGdPU3NEcnhydXRDX0dVeGs4ZlF6U3J2UUk2b1o5Tms3Z211eGdzOUxjOEViTUtZdEJ5VktxSGJIbnpuZzh5aGVtem1sZ3B4UWdmSjZJUzAtYlpoeGVMTHNMc1pwUVcxTF9oUkF5cjZneHI0RUo4bHNaWnhQb1hNamJLQTNKUThacnVxX2hMeGl5WVVj?oc=5",
+     "published": "2026-10-26T16:50:27+00:00"
+    },
+    {
+     "title": "Oruka Therapeutics Stock Soars - Here's Why - Oruka Therapeutics (NASDAQ:ORKA)",
+     "source": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMmlfZnh1NVlFTjhVUXdSQnZNOWRDLTdKREF2dW82ZVJLNTFxUGdvNGdFLTU0Zm9PQVNjQ0dLRnhtazZBRG5rNVVFclM4NllwTnBPVzJmQjY2M2thVUF4WjJMZm1JdG1WUXl4VGpIMHJOaXpiaEEteW9rVmRHV092enZfRXl2alBhS21JaUQxZXJBalFyWUhubVJtMDl1RlN0UDhDY3IyN3JWRWNZdWExTW14eGN6bV9oZ3JrTk9FOFBDUlZRYjdF?oc=5",
+     "published": "2026-10-26T16:45:11+00:00"
+    },
+    {
+     "title": "Oruka’s Psoriasis Treatment Could Generate $7B In Peak Sales, Says Guggenheim – ORKA Stock Heads For Best Day In Over 4 Months",
+     "source": "Stocktwits",
+     "link": "https://finance.yahoo.com/healthcare/articles/oruka-psoriasis-treatment-could-generate-160717620.html",
+     "published": "2026-10-26T16:07:17+00:00"
+    },
+    {
+     "title": "Why is Oruka Therapeutics stock surging today? By Investing.com",
+     "source": "Investing.com South Africa",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc1Y1QW5rcy1HN0cySVhtc2Z1Wno2R1pnNVRHdUFWcm5KOERpMEhqVURtcUdTSFgtMnVFNFI2cVZ4SzFqbEZza1FuY3FQWGh0bzN3Q1ByUVNzRUR3RS1WQ2RpTmtlRzBqa0dIeGFDYllObTJSblVwT2hTT0tLQWkzVGd5cUV0YUlKRVZBUjJVaVI4dS1DOWUtVlZCQ1ZaWmIwWWpHVzBfT0JLQQ?oc=5",
+     "published": "2026-10-26T15:10:28+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "fda",
+    "label": "Biotech / FDA / ensayo",
+    "quality": 0.5,
+    "note": "Muy volátil: puede revertir con fuerza.",
+    "confidence": 0.2
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 6.7,
+    "rvol": 4.7,
+    "catalyst": 15.0,
+    "close": 7.4,
+    "size": 3.9
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": null,
+    "suspect": true,
+    "basis": "splits",
+    "pct_from_ath": -100.0,
+    "ath": 75932640.0,
+    "ath_date": "2000-02-18",
+    "prior_ath": 75932640.0,
+    "listed_since": "1997-08-08",
+    "short_history": false
+   }
+  },
+  {
+   "symbol": "NN",
+   "name": "NextNav Inc.",
+   "exchange": "NasdaqCM",
+   "price": 11.28,
+   "day_high": 12.91,
+   "prev_close": 10.08,
+   "change_pct": 11.9,
+   "gap_pct": -0.69,
+   "close_strength": 0.48,
+   "volume": 12688092,
+   "avg_volume": 2824731,
+   "rvol": 4.49,
+   "dollar_volume": 143121678,
+   "market_cap": 1904175616,
+   "pe": null,
+   "pct_from_52w_high": -53.81,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1793908800,
+   "market_time": 1793044800,
+   "market_date": "2026-10-26",
+   "market_state": "POSTPOST",
+   "score": 35.0,
+   "news": [
+    {
+     "title": "NextNav (NN) Draws SpaceX Backing, Is The Stock Cheap?",
+     "source": "Simply Wall Street",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUk9SR0RrS05ONmtUcXRFZmNUZFg3akl4aGJqNnFhaE9acnZJRlNQYTZGTEFFRmJHOWtWYThrbVN2akl4RmIzbTFvTXlFckFYUkl3M3g2X2NGQ3V6dHdCZTZvaVhPT1VaX0hZZmFwRDNYclJiZDRJeUR1MHNpVmhQMFU0ckJJekVSeU12N2FjcG1pRkdTdmd1aGh2b0ZRUXZDUDgtanlHalk0bFhteU5UWG9vdELSAboBQVVfeXFMTjU4dVl0OFpvTjh6a2hhOVV0QnREZUkteG1XX0lxX0FlQTdHOU5YWmZJLTZ6UXNiNU1CbTV2ekdWb1JaNTEySXVSZ0k2VlRrOGd3ZzBrMGUzMjByZGkydnRlQW9GdXJnOHhyNHpWZzBGNUtGUG9XSmlleGpOeGQ2QmlkSjJjRVVsTnh0TEdoejFFckhEVHEzZXhTR1YzakRRUktzZnlpZ3NiQzVUWWhEYkZjYjNiYTVHTDJn?oc=5",
+     "published": "2026-10-26T21:41:03+00:00"
+    },
+    {
+     "title": "SpaceX's 80,000 Cell Site Expansion Signals Gains For AST SpaceMobile (NASDAQ: ASTS), Ericsson (NASDAQ: ERIC), Nokia (NYSE: NOK) And NextNav (NASDAQ: NN), Roth Capital Says",
+     "source": "Foreign Policy Journal",
+     "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxOcS1aWGZJX0x0aFV4dmE1d3AybWhhN292ekhST00tdUFCWTFIaVZhS0t4Uk5kYW83V1licjgySlJEM2VsamVCTV9qVmZkdXVVUHRwRlFvYnU4MnVBSFpDX1FQVGt6aW1pMUQ5YVRlVmpkNUxJLUJWYUNJcEhLVmVvcmZ1eGNRNmJRMkprVk5KbGRUbkR6T2E3YW1MWUZIZm85cm5NdWR5Tnh0M2FMTm5reTQzWmZ2VElWUlU4cnhRQjFxUnNiU1l4eURqQUNucE50OXJIYW5UTnVkakoyUDZ3WkhZRWtLQllQX2pNQkhVb3lOTzJ1aE8xSkRzRDl5clhmbzBaT1dGRERpWjJTeThpTjhNQWREeUtNRi1iNlU5QWpYMzlDdHZoLUJScXM?oc=5",
+     "published": "2026-10-26T17:44:00+00:00"
+    },
+    {
+     "title": "Why is NextNav stock surging today? By Investing.com",
+     "source": "Investing.com South Africa",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNW0xT2x3NTQ0UVg3UzcyX3lCN3pUdTFkcHdBMmF2Zi1UaEdNLTJ6YnBrZXFEekJNLUtkX1o4Q3hQQ1FrT25oRVRIQ0NsZUVpRHVZV2tnejRDaDFYZjhTY2QyWC1kcUJQYXB6NnlwZmgxS05FVVAzLUZfM3hSc252dWItZ3k2bnJGQ1dqNlViWG1pYkU0Uk90bUlFbw?oc=5",
+     "published": "2026-10-26T17:16:07+00:00"
+    },
+    {
+     "title": "Precision Trading with Nextnav Inc. (NN) Risk Zones",
+     "source": "Stock Traders Daily",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZDFjSk1fNjlQc0NwZXFoYjAzOXVkZElBQkZISU8taXdJSXFONGtUb19ELXBJalFobEVRek81OTVMOF91Rm1wRGVhZ3l2SmhMZFJxTk00UUZ6UXhrNnU5aG1TUEV5c2RfOWNHdTkxX0xuVFZpTHoxSjJnQXBEN2ZvSWJrRTY3cVowMFJyY1VvOWxtUVdVNWhfanVBRWxUcjJsYmpRYzFER3Y0bi1zdVlBOXNNLTNxanBxV0JqS1JLRVAzRjUtTHJ2eFJn?oc=5",
+     "published": "2026-10-26T05:42:02+00:00"
+    },
+    {
+     "title": "NN Group (ENXTAM:NN) Stock Looks Hard To Call As Earnings Support Its Price",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdGdqN1MyRTVuNHlHazNGWmxPS2t4dlFMUkpWQWE4WEdGV2l6NjEtRWRZZDBDMTdwSS1aY0Rsd0lHVXA0Y2N2US1BODN2dHlaelREallvSmhiemdKSTVFVFhRRzFiOWNEVHZndk52cG9XaUMwY0RsMms4U21HTHJRLUtPQ05fZE4wZ2EzbEZDalUtbXc?oc=5",
+     "published": "2026-10-25T15:07:13+00:00"
+    },
+    {
+     "title": "NextNav (NN) Stock May Be Fully Priced Given Its Book Value",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcG5hY2p5cEEwc2VXZ0h2ZWIwMGFPU3Z1Uk9MQUkzMDFJY1o1QzNLTWhkLUVRd0wyYnFFSFdMeGE3RkZ6RVdNOGZfamhKTnkyNTlaR3BxdU9Nc0d6bnNITGlKYnBmaU8tQnhtbGNreUg1RjBrX3lJQ0NtX0h5c3d4bmFJLXFzRURTMlRyWHhJSkhCdnFFUlE?oc=5",
+     "published": "2026-10-25T05:16:00+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 5.9,
+    "rvol": 19.9,
+    "catalyst": 3.0,
+    "close": 4.8,
+    "size": 1.4
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -53.81,
+    "ath": 24.42,
+    "ath_date": "2026-06-04",
+    "prior_ath": 24.42,
+    "listed_since": "2020-11-02",
+    "short_history": false
+   }
+  },
+  {
+   "symbol": "RPD",
+   "name": "Rapid7, Inc.",
+   "exchange": "NasdaqGM",
+   "price": 17.93,
+   "day_high": 18.11,
+   "prev_close": 14.91,
+   "change_pct": 20.25,
+   "gap_pct": -0.07,
+   "close_strength": 0.94,
+   "volume": 5127015,
+   "avg_volume": 1981134,
+   "rvol": 2.59,
+   "dollar_volume": 91927379,
+   "market_cap": 1208493440,
+   "pe": 57.83871,
+   "pct_from_52w_high": -7.29,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1793822400,
+   "market_time": 1793044800,
+   "market_date": "2026-10-26",
+   "market_state": "POSTPOST",
+   "score": 34.3,
+   "news": [
+    {
+     "title": "AI Security Push Might Change The Case For Rapid7 Stock",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/ai-security-push-might-change-221618782.html",
+     "published": "2026-10-26T22:16:18+00:00"
+    },
+    {
+     "title": "AI Security Push Could Change The Case For Rapid7 Stock",
+     "source": "Simply Wall Street",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOVlkdGVvMHdkUEpfb0p0bm9kM3czRThETUR6Yl93WExfLUJVb0Rha3kza282T0Q2NWs4RWRyZFdhZ3E5X2lhR3pmcHpSNEU4Vlp5eHMxWHpzRzdCNDVxSjQtX3pydEUwMFhtLWJidTFWUUR4c2VqWFo2UlFiYjZkd1hjeVVXcXdHeHo1bFlFbjJtWVQ5ZUs1RHRVX2NqN1JqSE1qNFNrTGk5ZkotQVBVLXN5bnAzaHhqSHFv0gHAAUFVX3lxTE9qYnZGNWltOWRxUmlneDhvVTI2cjR3NkJMTG9mV01XYThLVTN5VXZlS21ZdDB1UVltMEFDQVB4N2F3SjVIWVc3NVpreGFxaG9tdlliVEtqaVVDSmZQal8xZmFUaUZ5N2ZSWVdYNXBoeW1zRVRvSFM4MG1BdVhsUzZ5Qkd5VEdwYm5vTjZoWjgwVmw5dzlST0JZM2RXTkxnR19zR3gyQUV2cjBRUDA4ZzlIYXg4Zk1acERTYW5CQURzNw?oc=5",
+     "published": "2026-10-26T20:30:45+00:00"
+    },
+    {
+     "title": "Rapid7, Inc. (RPD) stock price, news, quote and history",
+     "source": "Yahoo Finance Singapore",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1mQldfRkhNbm1PeVl4VUFDSzhISU1SS09jWUc4eXhiQUpPVDJwV2Y4bEN3WGFFaklkeU5ReTdyRFM5UEVBd3A0MlpkM0VXcGVU?oc=5",
+     "published": "2026-10-25T22:10:19+00:00"
+    },
+    {
+     "title": "Rapid7, Inc. (RPD) Stock Price, News, Quote & History",
+     "source": "Yahoo! Finance Canada",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5sUFNzMUh5OFlVOUZNSjhnQTZuX0YxRlZ4LVJjcVhOc1hSX1RNd285aEk1SzhLcmR4QnBSemFhNzkwb3NZaXZMOEFUWkYxT0tY?oc=5",
+     "published": "2026-10-25T17:27:40+00:00"
+    },
+    {
+     "title": "Is Rapid7 (RPD) Fully Valued As AI Security Hopes Lift The Stock?",
+     "source": "Simply Wall Street",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZno2QlNfYlI5NEdWVmY1OE1WYk5MX1NuVDFIVmJ2VzhwUENiRTgxczNxUWFBSUF5NldfajBqNkhFalNSWDVmaW5PZXZVSUR5dzhHeDN1NzYzVjMtYVUzOTV3QlpSaXVkZ3VJc1FvdEpFMzMtcUNXdFlRNmtxZG5WaTZGVzRQTVJ5WUpvMjd0SjZtYURMOFN0VVpqWmFzSDVreHRWMWlkX3RzQVFscUdTSnhBUDhLN0dfdU5QdVJONHBHMTMyYjVr0gHHAUFVX3lxTE5mejZCU19iUjk0R1ZWZjU4TVZiTkxfU25UMUhWYnZXOHBQQ2JFODFzM3FRYUFJQXk2V19qMGo2SEVqU1JYNWZpbk9ldlVJRHl3OEd4M3U3NjNWMy1hVTM5NXdCWlJpdWRndUlzUW90SkUzMy1xQ1d0WVE2a3FkblZpNkZXNFBNUnlZSm8yN3RKNm1hREw4U3RVWmpaYXNINWt4dFYxaWRfdHNBUWxxR1NKeEFQOEs3R191TlB1Uk40cEcxMzJiNWs?oc=5",
+     "published": "2026-10-25T11:31:12+00:00"
+    },
+    {
+     "title": "Rapid7 (RPD) Stock Could Be 50% Undervalued After AI Security News",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/rapid7-rpd-stock-could-50-052029445.html",
+     "published": "2026-10-24T05:20:29+00:00"
+    },
+    {
+     "title": "Rapid7 Inc. Estimates – HAN:R7D",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1uQjhZN1Iwc3hvWjQwOWVVUWZFX0l2M0JiM2g0Qk56ZGRPOFQyVnFRbWswVm5SaWlmUHpBaFctMEd1ZENPUnp1RnRxU3J4eVdNV040X1NPUW0yM3JPN0VfM0ZlcUF0VTBqLXhFQUxiZW5wWGc?oc=5",
+     "published": "2026-10-24T01:03:43+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 14.2,
+    "rvol": 7.3,
+    "catalyst": 3.0,
+    "close": 9.4,
+    "size": 0.4
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -87.63,
+    "ath": 145.0,
+    "ath_date": "2021-11-04",
+    "prior_ath": 145.0,
+    "listed_since": "2015-07-17",
+    "short_history": false
+   }
+  },
+  {
+   "symbol": "TENB",
+   "name": "Tenable Holdings, Inc.",
+   "exchange": "NasdaqGS",
+   "price": 48.21,
+   "day_high": 48.25,
+   "prev_close": 44.59,
+   "change_pct": 8.12,
+   "gap_pct": 2.13,
+   "close_strength": 0.99,
+   "volume": 6242917,
+   "avg_volume": 4129998,
+   "rvol": 1.51,
+   "dollar_volume": 300971029,
+   "market_cap": 5309848576,
+   "pe": 803.5,
+   "pct_from_52w_high": -0.08,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1793217600,
+   "market_time": 1793044800,
+   "market_date": "2026-10-26",
+   "market_state": "POSTPOST",
+   "score": 33.7,
+   "news": [
+    {
+     "title": "Cantor Fitzgerald Maintains Tenable Holdings(TENB.US) With Buy Rating, Maintains Target Price $45",
+     "source": "Moomoo",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdV9FV1hLQi1ocmlxeEJELWQ5bU1OX1F5aGJCbWl0MHdoem4ySHhodW5xbVFUNllaakpGTnFMNi1UOFk3emZZYlpvYXhONkhaajRrUkktMF81YmptMFNLYUJwdDNTd3BVTVZwSjE4SDJuRzVaaFQ2bU1ncjJyTElMNEp2YWx4bFN5LXdUYW9fUXdpUGFtcXVBNjhlRXEzSXI2RUpwaXhXc1JPNmQzZ1o2b0tSbm5HTUJDNUtKOUpn?oc=5",
+     "published": "2026-10-26T20:14:04+00:00"
+    },
+    {
+     "title": "Tenable (NASDAQ:TENB) Stock Jumps 5.9% After Analyst Upgrade",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQ3lHcUtUQmZKOXl6WU5tYjNJNUhKc0tabHNBRFlQaTNtTjlWWkVlcXNVZVlfd3hpczVzaE1GRVVGVmFIbFBSRTVyOWdlSGNBdlhYWTJzUnpFRTEzdG9LQlpDUnFodDRabUlselMyU0xBWlBrckZ1MFFwa1pSTWJVZV9TVnpsV3lVV3lKejdfV1JWYjZJVVN1Wnk3S3JwZ3lHRUlsLWJ3VWx2QjlHeUZfQ3N6VDE5dmM?oc=5",
+     "published": "2026-10-26T14:47:46+00:00"
+    },
+    {
+     "title": "TENB Maintained by Baird -- Price Target Raised to $50.00",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdGt3ZXZtdWg3MFJGV2p3dGZreDdQM2dHUXBpQ0JETGVVM2MxdzgyZk05cGRicGNSM3lZZklQXzJaUVM4ellpZi0ySXhnYkZYMTRwWlZpTVhPV2ppcjFEWnZKdFVmNUlKMjlid1FDak54RXNaUDlEOEZWWWE2YkVMT1F4STR5S19jeDlYRnUzeUpmc1Y4WXc?oc=5",
+     "published": "2026-10-26T13:52:12+00:00"
+    },
+    {
+     "title": "Investors Buy High Volume of Call Options on Tenable (NASDAQ:TENB)",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeU5GMW9QRTZjMUd4cThaTlhlczBjRnpZVk1fRWlMbXpiMVpFTDlZZXRhc0pKcXp3V2R6ZVI3eWNFdjcwS2ZJdXdNbVpsYWFuTGdVbFdCZndLT0wtbzZBWEZ1a1YzaGNwRFdybXZGTFI5eWF4TlpOZHZLQ2JxRWhXdlpRZVVSMmxvODlnZTFwRENPMXB1TFQxSzZVNzZ6UDgycVdhRll0MEQ5MFBVdEo4VVlNckZXa3BndG9RVnBlSWk2MXJI?oc=5",
+     "published": "2026-10-26T15:32:00+00:00"
+    },
+    {
+     "title": "Robert W. Baird Forecasts Strong Price Appreciation for Tenable (NASDAQ:TENB) Stock",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNamc2Y3EtZTI3clQwUE91WnpvTmFGR0lISG1kajBYR0hEOEF4Zjc3WXBmVEFQa2lFU1l0Ym1XTjVjRENvQkhYUEQ5VFRhdEJKV01PZzkzc1lSaHgtNUhMU1NsZHdPb08yOThKNTFHN2tpNVVJR0JLRnBrOEF4RkpLYWdvQ2xqTl94Y0pzanlWNkdsRUFkUnlwbnZsQXUxeHF3dDlPWmlTZlhZNTMzUlZEZG1fRGhxdjhRSE9qQnBlbXhYMXFYcmZCVkNQREJqVHczMkVrbFBaNm40dw?oc=5",
+     "published": "2026-10-26T12:19:46+00:00"
+    },
+    {
+     "title": "Cantor Fitzgerald reiterates Tenable stock rating on channel survey data By Investing.com",
+     "source": "Investing.com Canada",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQjgzSlprWktJclB1dGNyXzZZN3pjUDRmUU1QVDdIWWZvb1FNRHdQUW5zMnhDVmM1dGNWNzVLQzRxaUFKVVJ3SUV6c2pYR1hWOXlmRmQzUGt0Qk5ucDNZcmUyQ3c4Smp2QmNKb1dsRnlUOFBiNnJITlZVd0hYUGstVFhyUnlnQXUxd29NbWlUODFOdEkxc1ZIQmJsc1YwRW1LeWJhVlZKZjJvV09oNkFCRkpLLUdiRjcyaGRZRUhIOU40a2E2YnZrWDRUU1NEdw?oc=5",
+     "published": "2026-10-26T11:14:06+00:00"
+    },
+    {
+     "title": "Tenable Stock Is Up 6.2% What's Changed Open AI Security Launch",
+     "source": "Simply Wall Street",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObXVkWi1wV3Bwalk4Uk9pdVNtbWRVV1Y0NzB2MFEweHF0M1FxX2I2LWdhMDFfT3RweFllTVF5ZkZvOS1YWDBHLXhDcDJ2ZXV5V2RoLTMzZUZxMGVhR1VpemdGQWdaT3p5QkJyU0ZIZ0lMRWNMZWdXdjZIMDVhdUVQLTk0cHBsRDRFNDdJbFBpYmYzazFyUl9Na2RyQk5aOHBxeS1SUXFJZF9iYW5ONmk0UUZ4T0xjSnM5a1VXQk43enpKVllfVDZsX3lTVHZfNFk50gHWAUFVX3lxTE1tcnAzT2hSbERiY3U2clNIZnhrVml5S0EzdGdlcXRyZDZVRjhQWEpZNEZCZjJrQ2NOeXYtcjdDR1B0endvVklibXJJUlNlbUM2OV9ONnlPT2NmTGQ4dTRROFpuR195Rm5iR1dnTVRaLXRvUUNBcnVXS3llZEdJSHdQcGNfUkpBSlhxRC12SS11Vlk5RDh5eHBSRHd1R2lsaXk3VTJtdXJhNTNoaWhLLWp2b2x0YUdZTG1jSDBMUnNwdTFWUXlMdm1DZU9lek5lU3BZZGNfVUE?oc=5",
+     "published": "2026-10-25T19:31:23+00:00"
+    },
+    {
+     "title": "The Technical Signals Behind (TENB) That Institutions Follow",
+     "source": "Stock Traders Daily",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUTVBaDE5a0N1UmtPbmwyclMzS0ozcnFla1RkbmE2c0tQblhoVjNScXFpOVJhY21yVmlVV3NpRUJuUEpUa0FCQ0d5b29hTW5kQWJsSEtlQVp5U2VrODQ0akpZbG9YOTc1SGNSdmZFUE5RNEZtVklxaUJCT0JkamxFdkJuNXBXQjNfZFZkRVU2aW9Dem0zOE5idlM2T3RfLXd5SXU3VkpMSWMxaVZBWGNxdnhGWjJzOUV1VkpGeXlZTDMtT3hXZ3ZVekdVWGRwUVBvT1NLeQ?oc=5",
+     "published": "2026-10-24T20:36:02+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "analyst",
+    "label": "Mejora de analista",
+    "quality": 0.6,
+    "note": "Impulso moderado; suele diluirse si no hay más noticias.",
+    "confidence": 0.8
+   },
+   "earnings_event": {
+    "timing": "upcoming",
+    "at": "2026-10-28T16:00:00-04:00"
+   },
+   "score_parts": {
+    "move": 2.1,
+    "rvol": 0.1,
+    "catalyst": 18.0,
+    "close": 9.9,
+    "size": 3.6
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -24.21,
+    "ath": 63.61,
+    "ath_date": "2022-04-14",
+    "prior_ath": 63.61,
+    "listed_since": "2018-07-26",
+    "short_history": false
+   }
+  },
+  {
+   "symbol": "INIO",
+   "name": "Innio N.V.",
+   "exchange": "NasdaqGS",
+   "price": 16.63,
+   "day_high": 17.05,
+   "prev_close": 15.21,
+   "change_pct": 9.34,
+   "gap_pct": 1.91,
+   "close_strength": 0.76,
+   "volume": 10991317,
+   "avg_volume": 4900546,
+   "rvol": 2.24,
+   "dollar_volume": 182785602,
+   "market_cap": 12472499200,
+   "pe": 554.3333,
+   "pct_from_52w_high": -61.28,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1793104200,
+   "market_time": 1793044801,
+   "market_date": "2026-10-26",
+   "market_state": "POSTPOST",
+   "score": 25.8,
+   "news": [
+    {
+     "title": "Innio (NASDAQ:INIO) Stock Price Up 7.9% - Here's Why",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX2R1SFlEUlpsUkZkZWNHcS1idy1NZ0dQRXVyY1lkWFFINU93YXA4dGowYzdvdXJDYkpzWXpuZTNOSWJLd2ZtMmJHeVhOa3dFSlVybVJYb1BIYzlPY1hOUFRMVFdVV0ctMF9HUzlNU3JUdFd4bXpUZ0h5aE1pdnc3eFQ5eFEweTh5TElsQjNacFY0NWQ1RU16ZmdEUDBjT1RFdFZIRzNlQnA?oc=5",
+     "published": "2026-10-26T19:56:42+00:00"
+    },
+    {
+     "title": "Innio N.V. (INIO) Stock Price, News, Quote & History",
+     "source": "Yahoo! Finance Canada",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KbXhra0k2Y3lGTzVaTVVUN09teDNTcml6djNlcWZIZFZQaEM1VUpWbk52d0loZjY4T2NSejBETF9QcUFaYlBheEpZX01uSklYYUNXMHB6MllXMHU5RTRBVUZ3?oc=5",
+     "published": "2026-10-26T19:40:17+00:00"
+    },
+    {
+     "title": "Innio earnings on deck: Data center boom meets margin test By Investing.com",
+     "source": "Investing.com UK",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbFNIVUpSS0N3RkZNZGFGaGlFUmw2OWU0cnp1dnExNmE3S0lGYnRzLWluY2g0T196TW9tbzYwY3Z5aXdvZWVsM1hHQlhqaWtETzFuM1hOd0JKWFdMNFRUSnoyc1p0UEdLbXVVQlpfN085RnFDYUNocGc0SjRHYlo1REZ1eEw4TU5XUnBuUFZOaVJZMDhDTC1WUnRHejdYcEx5b3VwVnAzMmZtazNtR0NTNW9GMDBmS296R1E?oc=5",
+     "published": "2026-10-26T13:52:00+00:00"
+    },
+    {
+     "title": "Top Innio (INIO) Competitors 2026",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNFc5T0gxcXJ0VzdCTFlHcUZKN21TUEdKTm1GNHFSeHRyeEluMXpRYkFwWE56V2UtS2ZrNTdtVFQ1M0Z6TlFMM2p3ZEhORnRpRmJ2M3NYVzRoZlNOd2ZYMEVOU3JCY2g1ZklCd1hmdE9ZSTd5aHE1TGZXNWY2b0NrNA?oc=5",
+     "published": "2026-10-26T06:04:20+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "pre_earnings",
+    "label": "Subida antes de resultados",
+    "quality": 0.15,
+    "note": "Aún no ha presentado resultados: el día que los publique puede moverse ±10-20% en cualquier sentido.",
+    "confidence": 0.0
+   },
+   "earnings_event": {
+    "timing": "upcoming",
+    "at": "2026-10-27T08:30:00-04:00"
+   },
+   "score_parts": {
+    "move": 3.3,
+    "rvol": 4.9,
+    "catalyst": 4.5,
+    "close": 7.6,
+    "size": 5.5
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -61.28,
+    "ath": 42.95,
+    "ath_date": "2026-06-22",
+    "prior_ath": 42.95,
+    "listed_since": "2026-06-08",
+    "short_history": true
+   }
+  }
+ ],
+ "holding_up": {
+  "tracked": 62,
+  "items": [
+   {
+    "symbol": "MANE",
+    "name": "Veradermics, Incorporated",
+    "picked_on": "2026-10-19",
+    "picked_price": 122.28,
+    "price": 137.39,
+    "change_since_pct": 12.36,
+    "from_peak_pct": -1.0,
+    "sessions_since": 5,
+    "last_rvol": 0.44,
+    "catalyst_label": "Biotech / FDA / ensayo",
+    "appearances": 1
+   },
+   {
+    "symbol": "HPK",
+    "name": "HighPeak Energy, Inc.",
+    "picked_on": "2026-10-16",
+    "picked_price": 10.55,
+    "price": 11.39,
+    "change_since_pct": 7.96,
+    "from_peak_pct": -1.56,
+    "sessions_since": 6,
+    "last_rvol": 1.07,
+    "catalyst_label": "Financiación / recompra",
+    "appearances": 1
+   },
+   {
+    "symbol": "HAS",
+    "name": "Hasbro, Inc.",
+    "picked_on": "2026-10-20",
+    "picked_price": 109.52,
+    "price": 117.96,
+    "change_since_pct": 7.71,
+    "from_peak_pct": 0.0,
+    "sessions_since": 4,
+    "last_rvol": 1.1,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "TTMI",
+    "name": "TTM Technologies, Inc.",
+    "picked_on": "2026-10-23",
+    "picked_price": 80.11,
+    "price": 85.5,
+    "change_since_pct": 6.73,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 2.01,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 2
+   },
+   {
+    "symbol": "R",
+    "name": "Ryder System, Inc.",
+    "picked_on": "2026-10-22",
+    "picked_price": 265.53,
+    "price": 282.11,
+    "change_since_pct": 6.24,
+    "from_peak_pct": 0.0,
+    "sessions_since": 2,
+    "last_rvol": 1.56,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "APPN",
+    "name": "Appian Corporation",
+    "picked_on": "2026-10-21",
+    "picked_price": 48.73,
+    "price": 51.57,
+    "change_since_pct": 5.83,
+    "from_peak_pct": -1.49,
+    "sessions_since": 3,
+    "last_rvol": 1.02,
+    "catalyst_label": "Compra / fusión con otra empresa",
+    "appearances": 1
+   },
+   {
+    "symbol": "KVYO",
+    "name": "Klaviyo, Inc.",
+    "picked_on": "2026-10-20",
+    "picked_price": 19.61,
+    "price": 20.71,
+    "change_since_pct": 5.61,
+    "from_peak_pct": -1.89,
+    "sessions_since": 4,
+    "last_rvol": 0.76,
+    "catalyst_label": "Movimiento sectorial / macro",
+    "appearances": 1
+   },
+   {
+    "symbol": "AGIO",
+    "name": "Agios Pharmaceuticals, Inc.",
+    "picked_on": "2026-10-19",
+    "picked_price": 34.9,
+    "price": 36.85,
+    "change_since_pct": 5.59,
+    "from_peak_pct": -0.91,
+    "sessions_since": 5,
+    "last_rvol": 0.69,
+    "catalyst_label": "Biotech / FDA / ensayo",
+    "appearances": 1
+   },
+   {
+    "symbol": "TLK",
+    "name": "Perusahaan Perseroan (Persero) PT Telekomunikasi Indonesia Tbk",
+    "picked_on": "2026-10-20",
+    "picked_price": 11.64,
+    "price": 12.25,
+    "change_since_pct": 5.24,
+    "from_peak_pct": 0.0,
+    "sessions_since": 4,
+    "last_rvol": 0.69,
+    "catalyst_label": "Sin noticia clara",
+    "appearances": 1
+   },
+   {
+    "symbol": "BMI",
+    "name": "Badger Meter, Inc.",
+    "picked_on": "2026-10-22",
+    "picked_price": 149.64,
+    "price": 155.95,
+    "change_since_pct": 4.22,
+    "from_peak_pct": 0.0,
+    "sessions_since": 2,
+    "last_rvol": 1.47,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "Z",
+    "name": "Zillow Group, Inc.",
+    "picked_on": "2026-10-15",
+    "picked_price": 31.46,
+    "price": 32.62,
+    "change_since_pct": 3.69,
+    "from_peak_pct": -4.0,
+    "sessions_since": 7,
+    "last_rvol": 0.49,
+    "catalyst_label": "Movimiento sectorial / macro",
+    "appearances": 1
+   },
+   {
+    "symbol": "MMED",
+    "name": "MiniMed Group, Inc.",
+    "picked_on": "2026-10-15",
+    "picked_price": 18.0,
+    "price": 18.66,
+    "change_since_pct": 3.67,
+    "from_peak_pct": 0.0,
+    "sessions_since": 7,
+    "last_rvol": 0.31,
+    "catalyst_label": "Evento corporativo (spin-off, índice, salida a bolsa)",
+    "appearances": 1
+   },
+   {
+    "symbol": "WFRD",
+    "name": "Weatherford International plc",
+    "picked_on": "2026-10-21",
+    "picked_price": 85.49,
+    "price": 88.6,
+    "change_since_pct": 3.64,
+    "from_peak_pct": 0.0,
+    "sessions_since": 3,
+    "last_rvol": 0.87,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "PRAX",
+    "name": "Praxis Precision Medicines, Inc.",
+    "picked_on": "2026-10-19",
+    "picked_price": 260.17,
+    "price": 267.39,
+    "change_since_pct": 2.78,
+    "from_peak_pct": 0.0,
+    "sessions_since": 5,
+    "last_rvol": 0.65,
+    "catalyst_label": "Biotech / FDA / ensayo",
+    "appearances": 1
+   },
+   {
+    "symbol": "OII",
+    "name": "Oceaneering International, Inc.",
+    "picked_on": "2026-10-23",
+    "picked_price": 39.27,
+    "price": 40.24,
+    "change_since_pct": 2.47,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 1.5,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "QNT",
+    "name": "Quantinuum Inc.",
+    "picked_on": "2026-10-15",
+    "picked_price": 36.68,
+    "price": 37.53,
+    "change_since_pct": 2.32,
+    "from_peak_pct": -2.9,
+    "sessions_since": 7,
+    "last_rvol": 0.62,
+    "catalyst_label": "Mejora de analista",
+    "appearances": 1
+   },
+   {
+    "symbol": "MEDP",
+    "name": "Medpace Holdings, Inc.",
+    "picked_on": "2026-10-21",
+    "picked_price": 662.48,
+    "price": 676.77,
+    "change_since_pct": 2.16,
+    "from_peak_pct": 0.0,
+    "sessions_since": 3,
+    "last_rvol": 0.91,
+    "catalyst_label": "Subida antes de resultados",
+    "appearances": 1
+   },
+   {
+    "symbol": "GMAB",
+    "name": "Genmab A/S",
+    "picked_on": "2026-10-23",
+    "picked_price": 43.79,
+    "price": 44.69,
+    "change_since_pct": 2.04,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 1.5,
+    "catalyst_label": "Biotech / FDA / ensayo",
+    "appearances": 1
+   },
+   {
+    "symbol": "ERIC",
+    "name": "Telefonaktiebolaget LM Ericsson (publ)",
+    "picked_on": "2026-10-15",
+    "picked_price": 10.71,
+    "price": 10.89,
+    "change_since_pct": 1.68,
+    "from_peak_pct": 0.0,
+    "sessions_since": 7,
+    "last_rvol": 0.99,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "CUBI",
+    "name": "Customers Bancorp, Inc.",
+    "picked_on": "2026-10-23",
+    "picked_price": 84.54,
+    "price": 85.93,
+    "change_since_pct": 1.64,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 1.46,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "ROP",
+    "name": "Roper Technologies, Inc.",
+    "picked_on": "2026-10-22",
+    "picked_price": 436.23,
+    "price": 441.65,
+    "change_since_pct": 1.24,
+    "from_peak_pct": 0.0,
+    "sessions_since": 2,
+    "last_rvol": 1.78,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "WRBY",
+    "name": "Warby Parker Inc.",
+    "picked_on": "2026-10-19",
+    "picked_price": 24.99,
+    "price": 25.28,
+    "change_since_pct": 1.16,
+    "from_peak_pct": -2.43,
+    "sessions_since": 5,
+    "last_rvol": 0.71,
+    "catalyst_label": "Contrato / alianza",
+    "appearances": 1
+   },
+   {
+    "symbol": "EFX",
+    "name": "Equifax Inc.",
+    "picked_on": "2026-10-20",
+    "picked_price": 176.54,
+    "price": 178.56,
+    "change_since_pct": 1.14,
+    "from_peak_pct": -4.58,
+    "sessions_since": 4,
+    "last_rvol": 1.34,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "SLN",
+    "name": "Silence Therapeutics plc",
+    "picked_on": "2026-10-19",
+    "picked_price": 19.58,
+    "price": 19.78,
+    "change_since_pct": 1.02,
+    "from_peak_pct": 0.0,
+    "sessions_since": 5,
+    "last_rvol": 0.83,
+    "catalyst_label": "OPA / la compran",
+    "appearances": 1
+   },
+   {
+    "symbol": "WCN",
+    "name": "Waste Connections, Inc.",
+    "picked_on": "2026-10-22",
+    "picked_price": 184.88,
+    "price": 186.72,
+    "change_since_pct": 1.0,
+    "from_peak_pct": 0.0,
+    "sessions_since": 2,
+    "last_rvol": 0.91,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "EGBN",
+    "name": "Eagle Bancorp, Inc.",
+    "picked_on": "2026-10-22",
+    "picked_price": 32.97,
+    "price": 33.29,
+    "change_since_pct": 0.97,
+    "from_peak_pct": -1.16,
+    "sessions_since": 2,
+    "last_rvol": 1.54,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "CRGY",
+    "name": "Crescent Energy Company",
+    "picked_on": "2026-10-16",
+    "picked_price": 13.77,
+    "price": 13.88,
+    "change_since_pct": 0.8,
+    "from_peak_pct": 0.0,
+    "sessions_since": 6,
+    "last_rvol": 0.48,
+    "catalyst_label": "Financiación / recompra",
+    "appearances": 1
+   },
+   {
+    "symbol": "BRZE",
+    "name": "Braze, Inc.",
+    "picked_on": "2026-10-20",
+    "picked_price": 45.57,
+    "price": 45.84,
+    "change_since_pct": 0.59,
+    "from_peak_pct": -0.09,
+    "sessions_since": 4,
+    "last_rvol": 0.95,
+    "catalyst_label": "OPA / la compran",
+    "appearances": 1
+   },
+   {
+    "symbol": "BX",
+    "name": "Blackstone Inc.",
+    "picked_on": "2026-10-22",
+    "picked_price": 118.75,
+    "price": 119.06,
+    "change_since_pct": 0.26,
+    "from_peak_pct": 0.0,
+    "sessions_since": 2,
+    "last_rvol": 0.97,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "NE",
+    "name": "Noble Corporation plc",
+    "picked_on": "2026-10-23",
+    "picked_price": 47.7,
+    "price": 47.81,
+    "change_since_pct": 0.23,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 1.57,
+    "catalyst_label": "Subida antes de resultados",
+    "appearances": 1
+   },
+   {
+    "symbol": "PAG",
+    "name": "Penske Automotive Group, Inc.",
+    "picked_on": "2026-10-15",
+    "picked_price": 212.0,
+    "price": 212.09,
+    "change_since_pct": 0.04,
+    "from_peak_pct": -0.16,
+    "sessions_since": 7,
+    "last_rvol": 0.55,
+    "catalyst_label": "OPA / la compran",
+    "appearances": 1
+   },
+   {
+    "symbol": "SLB",
+    "name": "SLB N.V.",
+    "picked_on": "2026-10-23",
+    "picked_price": 53.06,
+    "price": 53.08,
+    "change_since_pct": 0.04,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 0.99,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   }
+  ],
+  "window": 10
+ }
+}
