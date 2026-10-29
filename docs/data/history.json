@@ -839,12 +839,12 @@
    "appearance": 1,
    "returns": {
     "1": -1.29,
-    "5": null,
+    "5": 4.56,
     "20": null
    },
    "excess": {
     "1": -0.11,
-    "5": null,
+    "5": 4.66,
     "20": null
    },
    "ath_status": "near",
@@ -864,12 +864,12 @@
    "appearance": 1,
    "returns": {
     "1": -1.02,
-    "5": null,
+    "5": -1.27,
     "20": null
    },
    "excess": {
     "1": 0.16,
-    "5": null,
+    "5": -1.17,
     "20": null
    },
    "ath_status": "rebound",
@@ -889,12 +889,12 @@
    "appearance": 1,
    "returns": {
     "1": 2.84,
-    "5": null,
+    "5": -1.48,
     "20": null
    },
    "excess": {
     "1": 4.02,
-    "5": null,
+    "5": -1.38,
     "20": null
    },
    "ath_status": "mid",
@@ -914,12 +914,12 @@
    "appearance": 1,
    "returns": {
     "1": -9.14,
-    "5": null,
+    "5": -8.84,
     "20": null
    },
    "excess": {
     "1": -7.96,
-    "5": null,
+    "5": -8.74,
     "20": null
    },
    "ath_status": "mid",
@@ -939,12 +939,12 @@
    "appearance": 1,
    "returns": {
     "1": -5.04,
-    "5": null,
+    "5": 3.88,
     "20": null
    },
    "excess": {
     "1": -3.86,
-    "5": null,
+    "5": 3.98,
     "20": null
    },
    "ath_status": "mid",
@@ -964,12 +964,12 @@
    "appearance": 1,
    "returns": {
     "1": -5.2,
-    "5": null,
+    "5": 0.67,
     "20": null
    },
    "excess": {
     "1": -4.02,
-    "5": null,
+    "5": 0.77,
     "20": null
    },
    "ath_status": "rebound",
@@ -989,12 +989,12 @@
    "appearance": 1,
    "returns": {
     "1": -27.67,
-    "5": null,
+    "5": -11.12,
     "20": null
    },
    "excess": {
     "1": -26.49,
-    "5": null,
+    "5": -11.02,
     "20": null
    },
    "ath_status": "rebound",
@@ -1014,12 +1014,12 @@
    "appearance": 1,
    "returns": {
     "1": -6.06,
-    "5": null,
+    "5": -3.82,
     "20": null
    },
    "excess": {
     "1": -4.88,
-    "5": null,
+    "5": -3.72,
     "20": null
    },
    "ath_status": "mid",
@@ -1039,12 +1039,12 @@
    "appearance": 1,
    "returns": {
     "1": -6.67,
-    "5": null,
+    "5": 18.33,
     "20": null
    },
    "excess": {
     "1": -5.49,
-    "5": null,
+    "5": 18.43,
     "20": null
    },
    "ath_status": "rebound",
@@ -1064,12 +1064,12 @@
    "appearance": 1,
    "returns": {
     "1": 4.97,
-    "5": null,
+    "5": 6.63,
     "20": null
    },
    "excess": {
     "1": 6.15,
-    "5": null,
+    "5": 6.73,
     "20": null
    },
    "ath_status": "rebound",
@@ -1840,12 +1840,12 @@
    "ath_status": "mid",
    "pct_from_ath": -36.79,
    "returns": {
-    "1": null,
+    "1": 6.48,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 6.14,
     "5": null,
     "20": null
    }
@@ -1865,12 +1865,12 @@
    "ath_status": "new_ath",
    "pct_from_ath": -1.73,
    "returns": {
-    "1": null,
+    "1": 6.7,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 6.36,
     "5": null,
     "20": null
    }
@@ -1890,12 +1890,12 @@
    "ath_status": "mid",
    "pct_from_ath": -14.06,
    "returns": {
-    "1": null,
+    "1": 2.47,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 2.13,
     "5": null,
     "20": null
    }
@@ -1915,12 +1915,12 @@
    "ath_status": "mid",
    "pct_from_ath": -49.89,
    "returns": {
-    "1": null,
+    "1": 4.51,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 4.17,
     "5": null,
     "20": null
    }
@@ -1940,12 +1940,12 @@
    "ath_status": "mid",
    "pct_from_ath": -41.66,
    "returns": {
-    "1": null,
+    "1": 8.41,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 8.07,
     "5": null,
     "20": null
    }
@@ -1965,12 +1965,12 @@
    "ath_status": "mid",
    "pct_from_ath": -37.62,
    "returns": {
-    "1": null,
+    "1": -0.75,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -1.09,
     "5": null,
     "20": null
    }
@@ -1990,12 +1990,12 @@
    "ath_status": "mid",
    "pct_from_ath": -45.34,
    "returns": {
-    "1": null,
+    "1": 3.34,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 3.0,
     "5": null,
     "20": null
    }
@@ -2015,12 +2015,12 @@
    "ath_status": "rebound",
    "pct_from_ath": -74.71,
    "returns": {
-    "1": null,
+    "1": -4.18,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -4.52,
     "5": null,
     "20": null
    }
@@ -2040,12 +2040,12 @@
    "ath_status": "rebound",
    "pct_from_ath": -58.69,
    "returns": {
-    "1": null,
+    "1": 5.68,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 5.34,
     "5": null,
     "20": null
    }
@@ -2064,6 +2064,256 @@
    "appearance": 1,
    "ath_status": "mid",
    "pct_from_ath": -17.35,
+   "returns": {
+    "1": 0.14,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": -0.2,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "symbol": "AXGN",
+   "name": "Axogen, Inc.",
+   "rank": 1,
+   "score": 86.7,
+   "price": 49.25,
+   "change_pct": 31.47,
+   "rvol": 7.38,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -13.37,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "symbol": "BLCO",
+   "name": "Bausch + Lomb Corporation",
+   "rank": 2,
+   "score": 83.9,
+   "price": 20.4,
+   "change_pct": 15.78,
+   "rvol": 9.33,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -7.06,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "symbol": "GMAB",
+   "name": "Genmab A/S",
+   "rank": 3,
+   "score": 81.0,
+   "price": 57.29,
+   "change_pct": 28.25,
+   "rvol": 8.75,
+   "catalyst": "fda",
+   "catalyst_label": "Biotech / FDA / ensayo",
+   "appearance": 2,
+   "ath_status": "mid",
+   "pct_from_ath": -44.48,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "symbol": "ICLR",
+   "name": "ICON Public Limited Company",
+   "rank": 4,
+   "score": 73.0,
+   "price": 214.16,
+   "change_pct": 17.04,
+   "rvol": 4.62,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -38.41,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "symbol": "VRT",
+   "name": "Vertiv Holdings Co",
+   "rank": 5,
+   "score": 71.7,
+   "price": 242.94,
+   "change_pct": 16.48,
+   "rvol": 3.41,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -36.06,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "symbol": "FLEX",
+   "name": "Flex Ltd.",
+   "rank": 6,
+   "score": 63.9,
+   "price": 93.03,
+   "change_pct": 11.61,
+   "rvol": 3.2,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -44.25,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "symbol": "LCII",
+   "name": "LCI Industries",
+   "rank": 7,
+   "score": 59.6,
+   "price": 97.59,
+   "change_pct": 8.63,
+   "rvol": 7.49,
+   "catalyst": "analyst",
+   "catalyst_label": "Mejora de analista",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -40.25,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "symbol": "SKHY",
+   "name": "SK hynix Inc.",
+   "rank": 8,
+   "score": 56.3,
+   "price": 164.7,
+   "change_pct": 13.3,
+   "rvol": 2.24,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -17.6,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "symbol": "EAT",
+   "name": "Brinker International, Inc.",
+   "rank": 9,
+   "score": 56.2,
+   "price": 220.74,
+   "change_pct": 12.21,
+   "rvol": 2.83,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -13.43,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-28",
+   "symbol": "REPL",
+   "name": "Replimune Group, Inc.",
+   "rank": 10,
+   "score": 55.8,
+   "price": 16.06,
+   "change_pct": 23.07,
+   "rvol": 2.08,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -70.72,
    "returns": {
     "1": null,
     "5": null,
