@@ -1089,12 +1089,12 @@
    "appearance": 1,
    "returns": {
     "1": 2.15,
-    "5": null,
+    "5": 1.52,
     "20": null
    },
    "excess": {
     "1": 2.67,
-    "5": null,
+    "5": 0.81,
     "20": null
    },
    "ath_status": "rebound",
@@ -1114,12 +1114,12 @@
    "appearance": 1,
    "returns": {
     "1": -5.51,
-    "5": null,
+    "5": 12.25,
     "20": null
    },
    "excess": {
     "1": -4.99,
-    "5": null,
+    "5": 11.54,
     "20": null
    },
    "ath_status": "rebound",
@@ -1139,12 +1139,12 @@
    "appearance": 1,
    "returns": {
     "1": 0.93,
-    "5": null,
+    "5": -1.57,
     "20": null
    },
    "excess": {
     "1": 1.45,
-    "5": null,
+    "5": -2.28,
     "20": null
    },
    "ath_status": "mid",
@@ -1164,12 +1164,12 @@
    "appearance": 1,
    "returns": {
     "1": 0.44,
-    "5": null,
+    "5": 3.08,
     "20": null
    },
    "excess": {
     "1": 0.96,
-    "5": null,
+    "5": 2.37,
     "20": null
    },
    "ath_status": "mid",
@@ -1189,12 +1189,12 @@
    "appearance": 1,
    "returns": {
     "1": 0.1,
-    "5": null,
+    "5": -4.53,
     "20": null
    },
    "excess": {
     "1": 0.62,
-    "5": null,
+    "5": -5.24,
     "20": null
    },
    "ath_status": "mid",
@@ -1214,12 +1214,12 @@
    "appearance": 1,
    "returns": {
     "1": -1.7,
-    "5": null,
+    "5": 1.1,
     "20": null
    },
    "excess": {
     "1": -1.18,
-    "5": null,
+    "5": 0.39,
     "20": null
    },
    "ath_status": "near",
@@ -1239,12 +1239,12 @@
    "appearance": 1,
    "returns": {
     "1": 0.95,
-    "5": null,
+    "5": 3.5,
     "20": null
    },
    "excess": {
     "1": 1.47,
-    "5": null,
+    "5": 2.79,
     "20": null
    },
    "ath_status": "rebound",
@@ -1264,12 +1264,12 @@
    "appearance": 1,
    "returns": {
     "1": 1.07,
-    "5": null,
+    "5": 0.03,
     "20": null
    },
    "excess": {
     "1": 1.59,
-    "5": null,
+    "5": -0.68,
     "20": null
    },
    "ath_status": "mid",
@@ -1289,12 +1289,12 @@
    "appearance": 1,
    "returns": {
     "1": -0.66,
-    "5": null,
+    "5": 1.56,
     "20": null
    },
    "excess": {
     "1": -0.14,
-    "5": null,
+    "5": 0.85,
     "20": null
    },
    "ath_status": "mid",
@@ -1314,12 +1314,12 @@
    "appearance": 1,
    "returns": {
     "1": 2.02,
-    "5": null,
+    "5": 5.71,
     "20": null
    },
    "excess": {
     "1": 2.54,
-    "5": null,
+    "5": 5.0,
     "20": null
    },
    "ath_status": "mid",
@@ -2090,12 +2090,12 @@
    "ath_status": "mid",
    "pct_from_ath": -13.37,
    "returns": {
-    "1": null,
+    "1": 0.77,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.15,
     "5": null,
     "20": null
    }
@@ -2115,12 +2115,12 @@
    "ath_status": "mid",
    "pct_from_ath": -7.06,
    "returns": {
-    "1": null,
+    "1": 0.0,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 0.38,
     "5": null,
     "20": null
    }
@@ -2140,12 +2140,12 @@
    "ath_status": "mid",
    "pct_from_ath": -44.48,
    "returns": {
-    "1": null,
+    "1": -1.4,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -1.02,
     "5": null,
     "20": null
    }
@@ -2165,12 +2165,12 @@
    "ath_status": "mid",
    "pct_from_ath": -38.41,
    "returns": {
-    "1": null,
+    "1": 0.62,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.0,
     "5": null,
     "20": null
    }
@@ -2190,12 +2190,12 @@
    "ath_status": "mid",
    "pct_from_ath": -36.06,
    "returns": {
-    "1": null,
+    "1": 1.23,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.61,
     "5": null,
     "20": null
    }
@@ -2215,12 +2215,12 @@
    "ath_status": "mid",
    "pct_from_ath": -44.25,
    "returns": {
-    "1": null,
+    "1": 0.04,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 0.42,
     "5": null,
     "20": null
    }
@@ -2240,12 +2240,12 @@
    "ath_status": "mid",
    "pct_from_ath": -40.25,
    "returns": {
-    "1": null,
+    "1": 1.41,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.79,
     "5": null,
     "20": null
    }
@@ -2265,12 +2265,12 @@
    "ath_status": "mid",
    "pct_from_ath": -17.6,
    "returns": {
-    "1": null,
+    "1": -1.58,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -1.2,
     "5": null,
     "20": null
    }
@@ -2290,12 +2290,12 @@
    "ath_status": "mid",
    "pct_from_ath": -13.43,
    "returns": {
-    "1": null,
+    "1": -0.38,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 0.0,
     "5": null,
     "20": null
    }
@@ -2314,6 +2314,256 @@
    "appearance": 1,
    "ath_status": "rebound",
    "pct_from_ath": -70.72,
+   "returns": {
+    "1": 8.28,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": 8.66,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "GKOS",
+   "name": "Glaukos Corporation",
+   "rank": 1,
+   "score": 91.0,
+   "price": 242.48,
+   "change_pct": 33.65,
+   "rvol": 6.09,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "new_ath",
+   "pct_from_ath": -0.51,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "BHC",
+   "name": "Bausch Health Companies Inc.",
+   "rank": 2,
+   "score": 87.2,
+   "price": 8.91,
+   "change_pct": 28.76,
+   "rvol": 9.87,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -96.62,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "CROX",
+   "name": "Crocs, Inc.",
+   "rank": 3,
+   "score": 82.9,
+   "price": 150.26,
+   "change_pct": 25.54,
+   "rvol": 4.55,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -18.28,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "TDOC",
+   "name": "Teladoc Health, Inc.",
+   "rank": 4,
+   "score": 80.5,
+   "price": 8.73,
+   "change_pct": 26.89,
+   "rvol": 4.79,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -97.17,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "PRCH",
+   "name": "Porch Group, Inc.",
+   "rank": 5,
+   "score": 76.9,
+   "price": 20.89,
+   "change_pct": 28.16,
+   "rvol": 4.67,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -24.04,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "INSM",
+   "name": "Insmed Incorporated",
+   "rank": 6,
+   "score": 65.9,
+   "price": 111.59,
+   "change_pct": 15.06,
+   "rvol": 4.06,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -47.55,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "NCLH",
+   "name": "Norwegian Cruise Line Holdings Ltd.",
+   "rank": 7,
+   "score": 65.1,
+   "price": 18.22,
+   "change_pct": 13.45,
+   "rvol": 3.81,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -71.65,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "ADT",
+   "name": "ADT Inc.",
+   "rank": 8,
+   "score": 64.7,
+   "price": 9.87,
+   "change_pct": 33.2,
+   "rvol": 21.45,
+   "catalyst": "takeover",
+   "catalyst_label": "OPA / la compran",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -42.65,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "CVNA",
+   "name": "Carvana Co.",
+   "rank": 9,
+   "score": 60.8,
+   "price": 68.31,
+   "change_pct": 15.68,
+   "rvol": 2.68,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -29.85,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "UPBD",
+   "name": "Upbound Group, Inc.",
+   "rank": 10,
+   "score": 58.0,
+   "price": 19.98,
+   "change_pct": 18.15,
+   "rvol": 3.1,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -70.51,
    "returns": {
     "1": null,
     "5": null,
