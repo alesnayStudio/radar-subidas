@@ -11,7 +11,7 @@ import sys
 from collections import Counter
 from datetime import date, datetime, timezone
 
-from . import ath, catalysts, config, history, news, scoring, screener
+from . import ath, catalysts, config, history, news, paths, scoring, screener
 
 
 def write_json(path, data):
@@ -108,6 +108,10 @@ def run(save_history: bool = True):
         h = history.update_returns(h, date.fromisoformat(scan_date))
         history.save(h)
         history.compute_stats(h)
+        try:
+            paths.update(h, date.fromisoformat(scan_date))
+        except Exception as e:  # el Laboratorio puede esperar a mañana; el top del día no
+            print(f"  [recorridos] {type(e).__name__}: {e}")
         repeats = sum(r["appearance"]["count"] > 1 for r in top)
         print(f"  Histórico: {len(h)} selecciones ({repeats} repetidoras hoy)")
 

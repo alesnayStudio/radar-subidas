@@ -312,7 +312,7 @@ async function loadStats() {
 
 function setupTabs() {
   const loaded = {};
-  const loaders = { tracking: loadTracking, stats: loadStats };
+  const loaders = { tracking: loadTracking, stats: loadStats, lab: () => loadLab() };  // loadLab está en lab.js
   document.querySelectorAll(".tabs button").forEach((btn) => btn.addEventListener("click", () => {
     const tab = btn.dataset.tab;
     document.querySelectorAll(".tabs button").forEach((b) => b.setAttribute("aria-selected", b === btn));

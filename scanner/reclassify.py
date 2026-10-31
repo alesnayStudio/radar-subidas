@@ -9,7 +9,7 @@ import json
 import sys
 from datetime import date
 
-from . import ath, catalysts, config, history, news, scoring
+from . import ath, catalysts, config, history, news, paths, scoring
 
 
 def main():
@@ -50,6 +50,7 @@ def main():
     h = history.update_returns(h, date.fromisoformat(last))
     history.save(h)
     history.compute_stats(h)
+    paths.update(h, date.fromisoformat(last))
 
     # Rehace "Aguantan la subida" del último día (por si se calculó con la última vela incompleta)
     latest = json.loads(files[-1].read_text(encoding="utf-8"))

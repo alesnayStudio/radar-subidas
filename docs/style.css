@@ -116,6 +116,62 @@ small.med { display: block; font-size: 11px; opacity: 0.8; }
   background: var(--panel-2); color: var(--accent); border: 1px solid var(--border);
   border-radius: 8px; padding: 6px 14px; font: inherit; font-size: 13px; cursor: pointer;
 }
+/* Laboratorio */
+.lab-rules { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 4px 16px; margin-bottom: 12px; font-size: 13px; }
+.lab-rules li { margin: 6px 0; }
+.lab-presets { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.lab-presets button {
+  background: var(--panel); color: var(--text); border: 1px solid var(--border); border-radius: 999px;
+  padding: 6px 12px; font: inherit; font-size: 13px; cursor: pointer;
+}
+.lab-presets button:hover { border-color: var(--accent); color: var(--accent); }
+.lab-form { display: grid; gap: 10px; margin-bottom: 16px; }
+.lab-form fieldset { border: 1px solid var(--border); border-radius: var(--radius); background: var(--panel); padding: 10px 14px 14px; margin: 0; min-width: 0; }
+.lab-form legend { font-weight: 700; font-size: 14px; padding: 0 6px; }
+.lab-group { margin-bottom: 10px; }
+.lab-label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { cursor: pointer; }
+.chip input { position: absolute; opacity: 0; pointer-events: none; }
+.chip span {
+  display: inline-block; font-size: 12px; padding: 4px 10px; border-radius: 999px;
+  border: 1px solid var(--border); background: var(--panel-2); color: var(--text);
+}
+.chip small { color: var(--muted); }
+.chip input:checked + span { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 16%, transparent); color: var(--accent); }
+.chip input:focus-visible + span { outline: 2px solid var(--accent); outline-offset: 2px; }
+.lab-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 140px), 1fr)); gap: 10px; align-items: end; }
+.lab-row label { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--muted); }
+.lab-row label.check { flex-direction: row; align-items: center; gap: 6px; color: var(--text); font-size: 13px; padding-bottom: 8px; }
+.lab-row input[type="number"], .lab-row select {
+  background: var(--panel-2); color: var(--text); border: 1px solid var(--border); border-radius: 8px;
+  padding: 7px 9px; font: inherit; font-size: 14px; width: 100%; min-width: 0;
+}
+.lab-verdict { border-radius: 10px; padding: 10px 14px; font-size: 14px; margin: 8px 0 12px; border-left: 4px solid; }
+.lab-verdict.good { border-color: var(--q-high); background: color-mix(in srgb, var(--q-high) 10%, transparent); }
+.lab-verdict.bad { border-color: var(--q-none); background: color-mix(in srgb, var(--q-none) 10%, transparent); }
+.lab-verdict.neutral { border-color: var(--warn); background: color-mix(in srgb, var(--warn) 10%, transparent); }
+.kpis { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 145px), 1fr)); gap: 8px; margin-bottom: 8px; }
+.kpi { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.kpi .k { font-size: 12px; color: var(--muted); }
+.kpi .v { font-size: 20px; font-weight: 800; }
+.kpi .sub { font-size: 11px; color: var(--muted); }
+.lab-chart { margin: 16px 0; background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 12px; }
+.lab-chart figcaption { font-weight: 700; font-size: 14px; margin-bottom: 6px; }
+.lab-chart figcaption small { font-weight: 400; color: var(--muted); }
+.chart-box { position: relative; }
+.chart-box svg { width: 100%; height: auto; display: block; }
+.chart-box .grid { stroke: var(--border); stroke-width: 1; }
+.chart-box .zero { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 4 3; }
+.chart-box .axis { fill: var(--muted); font-size: 11px; }
+.chart-box .line { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.chart-box .cross { stroke: var(--muted); stroke-width: 1; }
+.chart-box .dot { fill: var(--accent); stroke: var(--panel); stroke-width: 2; }
+.chart-box .hit { fill: transparent; cursor: crosshair; touch-action: none; }
+.chart-tip {
+  position: absolute; pointer-events: none; background: var(--panel-2); border: 1px solid var(--border);
+  border-radius: 8px; padding: 6px 8px; font-size: 12px; line-height: 1.4; white-space: nowrap; box-shadow: 0 4px 12px rgb(0 0 0 / 0.2);
+}
 .section-title { font-size: 16px; margin: 28px 0 6px; }
 .change { text-align: right; flex-shrink: 0; }
 .change .pct { color: var(--up-text); font-size: 22px; font-weight: 800; }

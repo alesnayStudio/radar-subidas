@@ -27,6 +27,7 @@
     <button role="tab" data-tab="today" aria-selected="true">Top del día</button>
     <button role="tab" data-tab="tracking" aria-selected="false">Seguimiento</button>
     <button role="tab" data-tab="stats" aria-selected="false">Estadísticas</button>
+    <button role="tab" data-tab="lab" aria-selected="false">Laboratorio</button>
     <button role="tab" data-tab="help" aria-selected="false">Cómo funciona</button>
   </nav>
 
@@ -68,6 +69,63 @@
       <div class="table-wrap"><table id="stats-hold"></table></div>
     </section>
 
+    <section id="tab-lab" class="tab-panel" hidden>
+      <p class="hint">Define una regla y mira cómo habría funcionado con las selecciones reales del radar. Las cifras salen de los precios diarios de cada acción en las sesiones siguientes. <a href="#" id="lab-rules-link">¿Cómo se simula?</a></p>
+      <div class="lab-rules" id="lab-rules" hidden>
+        <ul>
+          <li><b>Entrada realista:</b> en la apertura del día siguiente, porque el radar se publica de madrugada. «Al cierre del día de la subida» es solo una referencia teórica.</li>
+          <li><b>Huecos de apertura:</b> si una sesión abre por debajo del stop, se vende a ese precio de apertura (peor que el stop). Si abre por encima del objetivo, también se vende a la apertura.</li>
+          <li><b>Objetivo y stop el mismo día:</b> con datos diarios no se sabe cuál llegó antes. Por defecto se supone el stop (lo prudente).</li>
+          <li><b>Tiempo máximo:</b> si no toca ni objetivo ni stop, se vende al cierre de la última sesión. La sesión de entrada cuenta como la primera.</li>
+          <li><b>Costes:</b> se restan a cada operación (comisión de compra y venta y deslizamiento).</li>
+          <li><b>Operaciones abiertas:</b> las que aún no tienen sesiones suficientes no cuentan.</li>
+          <li><b>Resultado acumulado:</b> suma de los % de cada operación, como si invirtieras la misma cantidad en todas.</li>
+          <li><b>Margen (±):</b> intervalo de confianza del 95 %. Si el margen de la esperanza incluye el 0, todavía no hay ventaja demostrada.</li>
+        </ul>
+      </div>
+      <div class="lab-presets" id="lab-presets"></div>
+      <form id="lab-form" class="lab-form" autocomplete="off">
+        <fieldset>
+          <legend>1. Qué operaciones</legend>
+          <div class="lab-group"><span class="lab-label">Catalizador <small>(ninguno marcado = todos)</small></span><div id="lab-catalysts" class="chips"></div></div>
+          <div class="lab-group"><span class="lab-label">Respecto al máximo histórico <small>(ninguno = todos)</small></span><div id="lab-ath" class="chips"></div></div>
+          <div class="lab-row">
+            <label>Puntuación mínima<input type="number" name="scoreMin" min="0" max="100" step="5" placeholder="—"></label>
+            <label>Subida del día mín. %<input type="number" name="chgMin" step="1" placeholder="—"></label>
+            <label>Subida del día máx. %<input type="number" name="chgMax" step="1" placeholder="—"></label>
+            <label>Vol. relativo mín.<input type="number" name="rvolMin" min="0" step="0.5" placeholder="—"></label>
+            <label>Puesto en el top (hasta)<input type="number" name="rankMax" min="1" max="10" step="1" placeholder="—"></label>
+            <label class="check"><input type="checkbox" name="repeatOnly"> Solo repetidoras</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>2. Entrada</legend>
+          <div class="lab-row">
+            <label>Cuándo compras<select name="entry">
+              <option value="next_open">Apertura del día siguiente (realista)</option>
+              <option value="close">Cierre del día de la subida (teórico)</option>
+            </select></label>
+            <label title="Hueco de la apertura respecto al cierre anterior. Ej.: máx. 3 = no comprar si abre más de un 3% por encima">Hueco de apertura mín. %<input type="number" name="gapMin" step="0.5" placeholder="sin límite"></label>
+            <label title="Hueco de la apertura respecto al cierre anterior. Ej.: máx. 3 = no comprar si abre más de un 3% por encima">Hueco de apertura máx. %<input type="number" name="gapMax" step="0.5" placeholder="sin límite"></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>3. Salida</legend>
+          <div class="lab-row">
+            <label>Objetivo de beneficio %<input type="number" name="target" min="0.1" step="0.5" placeholder="sin objetivo"></label>
+            <label>Stop-loss %<input type="number" name="stop" min="0.1" step="0.5" placeholder="sin stop"></label>
+            <label>Sesiones máximas<input type="number" name="days" min="1" max="20" step="1" required></label>
+            <label>Costes por operación %<input type="number" name="cost" min="0" step="0.05"></label>
+            <label>Objetivo y stop el mismo día<select name="sameBar">
+              <option value="stop">Suponer el stop (prudente)</option>
+              <option value="target">Suponer el objetivo</option>
+            </select></label>
+          </div>
+        </fieldset>
+      </form>
+      <div id="lab-results" aria-live="polite"></div>
+    </section>
+
     <section id="tab-help" class="tab-panel prose" hidden>
       <h2>Qué hace</h2>
       <p>Cada día de mercado, tras el cierre de Wall Street, un proceso automático busca las acciones de NYSE y Nasdaq que suben más de un <b id="h-min"></b>, descarta las de poca calidad, busca las noticias que explican la subida y ordena las candidatas con una puntuación de 0 a 100.</p>
@@ -96,6 +154,8 @@
         <li><b>🔁 Repetidora</b>: la acción ya había salido en el top en las últimas sesiones. Puede indicar un movimiento con fuerza (momentum), pero de momento <b>no suma puntos</b>: primero las estadísticas tienen que demostrar que rinde mejor.</li>
         <li><b>Aguantan la subida</b>: acciones que salieron en el top en las últimas sesiones y siguen por encima del cierre de aquel día. Subir fuerte y no devolver la subida indica que nadie tiene prisa por vender.</li>
       </ul>
+      <h2>Laboratorio de estrategias</h2>
+      <p>Prueba reglas de entrada y salida (objetivo, stop-loss, tiempo máximo, filtros) con los precios reales de las selecciones del radar. La regla queda guardada en la dirección de la página, así que puedes añadirla a favoritos. Mira siempre el <b>margen</b>: con pocas operaciones, una estrategia puede parecer buena por pura suerte.</p>
       <h2>Cómo usarlo</h2>
       <p>No es una lista de compra. Es un radar para saber <b>qué se mueve y por qué</b>, y la pestaña de Estadísticas te dirá con el tiempo qué tipo de subidas suelen continuar y cuáles se desinflan.</p>
       <p class="disclaimer">Herramienta personal de análisis. No es asesoramiento financiero. Datos gratuitos de Yahoo Finance y Google News con posible retraso o errores.</p>
@@ -108,5 +168,7 @@
   </footer>
 
   <script src="app.js"></script>
+  <script src="lab-engine.js"></script>
+  <script src="lab.js"></script>
 </body>
 </html>
