@@ -1339,12 +1339,12 @@
    "appearance": 1,
    "returns": {
     "1": -1.94,
-    "5": null,
+    "5": -4.67,
     "20": null
    },
    "excess": {
     "1": -2.65,
-    "5": null,
+    "5": -4.11,
     "20": null
    },
    "ath_status": "rebound",
@@ -1364,12 +1364,12 @@
    "appearance": 1,
    "returns": {
     "1": 1.64,
-    "5": null,
+    "5": -0.45,
     "20": null
    },
    "excess": {
     "1": 0.93,
-    "5": null,
+    "5": 0.11,
     "20": null
    },
    "ath_status": "new_ath",
@@ -1389,12 +1389,12 @@
    "appearance": 1,
    "returns": {
     "1": 2.04,
-    "5": null,
+    "5": 30.3,
     "20": null
    },
    "excess": {
     "1": 1.33,
-    "5": null,
+    "5": 30.86,
     "20": null
    },
    "ath_status": "rebound",
@@ -1414,12 +1414,12 @@
    "appearance": 1,
    "returns": {
     "1": -1.83,
-    "5": null,
+    "5": -1.27,
     "20": null
    },
    "excess": {
     "1": -2.54,
-    "5": null,
+    "5": -0.71,
     "20": null
    },
    "ath_status": "rebound",
@@ -1439,12 +1439,12 @@
    "appearance": 1,
    "returns": {
     "1": -0.03,
-    "5": null,
+    "5": 8.22,
     "20": null
    },
    "excess": {
     "1": -0.74,
-    "5": null,
+    "5": 8.78,
     "20": null
    },
    "ath_status": "rebound",
@@ -1464,12 +1464,12 @@
    "appearance": 2,
    "returns": {
     "1": 6.73,
-    "5": null,
+    "5": 3.53,
     "20": null
    },
    "excess": {
     "1": 6.02,
-    "5": null,
+    "5": 4.09,
     "20": null
    },
    "ath_status": "rebound",
@@ -1489,12 +1489,12 @@
    "appearance": 1,
    "returns": {
     "1": -1.81,
-    "5": null,
+    "5": -0.85,
     "20": null
    },
    "excess": {
     "1": -2.52,
-    "5": null,
+    "5": -0.29,
     "20": null
    },
    "ath_status": "mid",
@@ -1514,12 +1514,12 @@
    "appearance": 1,
    "returns": {
     "1": 2.47,
-    "5": null,
+    "5": 4.05,
     "20": null
    },
    "excess": {
     "1": 1.76,
-    "5": null,
+    "5": 4.61,
     "20": null
    },
    "ath_status": "rebound",
@@ -1539,12 +1539,12 @@
    "appearance": 1,
    "returns": {
     "1": 0.04,
-    "5": null,
+    "5": 1.28,
     "20": null
    },
    "excess": {
     "1": -0.67,
-    "5": null,
+    "5": 1.84,
     "20": null
    },
    "ath_status": "rebound",
@@ -1564,12 +1564,12 @@
    "appearance": 1,
    "returns": {
     "1": 0.23,
-    "5": null,
+    "5": 2.73,
     "20": null
    },
    "excess": {
     "1": -0.48,
-    "5": null,
+    "5": 3.29,
     "20": null
    },
    "ath_status": "mid",
@@ -2340,12 +2340,12 @@
    "ath_status": "new_ath",
    "pct_from_ath": -0.51,
    "returns": {
-    "1": null,
+    "1": -2.01,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -0.24,
     "5": null,
     "20": null
    }
@@ -2365,12 +2365,12 @@
    "ath_status": "rebound",
    "pct_from_ath": -96.62,
    "returns": {
-    "1": null,
+    "1": -7.97,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -6.2,
     "5": null,
     "20": null
    }
@@ -2390,12 +2390,12 @@
    "ath_status": "mid",
    "pct_from_ath": -18.28,
    "returns": {
-    "1": null,
+    "1": 0.17,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.94,
     "5": null,
     "20": null
    }
@@ -2415,12 +2415,12 @@
    "ath_status": "rebound",
    "pct_from_ath": -97.17,
    "returns": {
-    "1": null,
+    "1": -2.52,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -0.75,
     "5": null,
     "20": null
    }
@@ -2440,12 +2440,12 @@
    "ath_status": "mid",
    "pct_from_ath": -24.04,
    "returns": {
-    "1": null,
+    "1": -1.58,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 0.19,
     "5": null,
     "20": null
    }
@@ -2465,12 +2465,12 @@
    "ath_status": "mid",
    "pct_from_ath": -47.55,
    "returns": {
-    "1": null,
+    "1": 0.89,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 2.66,
     "5": null,
     "20": null
    }
@@ -2490,12 +2490,12 @@
    "ath_status": "rebound",
    "pct_from_ath": -71.65,
    "returns": {
-    "1": null,
+    "1": -3.57,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -1.8,
     "5": null,
     "20": null
    }
@@ -2515,12 +2515,12 @@
    "ath_status": "mid",
    "pct_from_ath": -42.65,
    "returns": {
-    "1": null,
+    "1": -0.1,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.67,
     "5": null,
     "20": null
    }
@@ -2540,12 +2540,12 @@
    "ath_status": "mid",
    "pct_from_ath": -29.85,
    "returns": {
-    "1": null,
+    "1": -0.03,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.74,
     "5": null,
     "20": null
    }
@@ -2564,6 +2564,256 @@
    "appearance": 1,
    "ath_status": "rebound",
    "pct_from_ath": -70.51,
+   "returns": {
+    "1": 3.6,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": 5.37,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "GDYN",
+   "name": "Grid Dynamics Holdings, Inc.",
+   "rank": 1,
+   "score": 85.6,
+   "price": 13.36,
+   "change_pct": 40.78,
+   "rvol": 6.94,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -68.79,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "REGN",
+   "name": "Regeneron Pharmaceuticals, Inc.",
+   "rank": 2,
+   "score": 68.8,
+   "price": 927.89,
+   "change_pct": 13.33,
+   "rvol": 4.03,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -23.39,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "GPN",
+   "name": "Global Payments Inc.",
+   "rank": 3,
+   "score": 60.5,
+   "price": 96.84,
+   "change_pct": 12.97,
+   "rvol": 6.71,
+   "catalyst": "takeover",
+   "catalyst_label": "OPA / la compran",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -56.14,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "CDNA",
+   "name": "CareDx, Inc.",
+   "rank": 4,
+   "score": 59.7,
+   "price": 87.41,
+   "change_pct": 22.22,
+   "rvol": 2.75,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -12.44,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "FDXF",
+   "name": "FedEx Freight Holding Company, Inc.",
+   "rank": 5,
+   "score": 55.5,
+   "price": 126.04,
+   "change_pct": 14.91,
+   "rvol": 2.47,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -36.98,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "DFIN",
+   "name": "Donnelley Financial Solutions, Inc.",
+   "rank": 6,
+   "score": 54.7,
+   "price": 66.89,
+   "change_pct": 9.53,
+   "rvol": 3.02,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -5.8,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "CPRI",
+   "name": "Capri Holdings Limited",
+   "rank": 7,
+   "score": 53.6,
+   "price": 18.68,
+   "change_pct": 16.31,
+   "rvol": 2.19,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -81.51,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "RIVN",
+   "name": "Rivian Automotive, Inc.",
+   "rank": 8,
+   "score": 52.6,
+   "price": 12.16,
+   "change_pct": 6.2,
+   "rvol": 2.66,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -93.22,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "TMUS",
+   "name": "T-Mobile US, Inc.",
+   "rank": 9,
+   "score": 52.0,
+   "price": 156.44,
+   "change_pct": 6.21,
+   "rvol": 2.17,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -43.42,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "GDDY",
+   "name": "GoDaddy Inc.",
+   "rank": 10,
+   "score": 51.1,
+   "price": 117.24,
+   "change_pct": 10.72,
+   "rvol": 1.67,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -45.72,
    "returns": {
     "1": null,
     "5": null,
