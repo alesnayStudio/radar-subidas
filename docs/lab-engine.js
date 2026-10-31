@@ -18,7 +18,8 @@
        3) Si llega al número máximo de sesiones, se vende al cierre de la última.
    - Días: la sesión de entrada cuenta como día 1 (con entrada al cierre, el día 1 es la sesión siguiente).
    - Costes: `cost` % por operación completa (compra + venta: comisiones y deslizamiento), restado al resultado.
-   - Si aún no hay sesiones suficientes para cerrar, la operación queda "abierta" y NO cuenta.
+   - Si la selección aún no tiene todas las sesiones del periodo (aunque ya hubiera tocado objetivo o
+     stop), queda "abierta" y NO cuenta: así no se cuelan solo las ganadoras rápidas de los días recientes.
 */
 (function (global) {
   const pct = (a, b) => (a / b - 1) * 100;
@@ -36,6 +37,10 @@
     const tp = rule.target != null ? entry * (1 + rule.target / 100) : null;
     const sl = rule.stop != null ? entry * (1 - rule.stop / 100) : null;
     const days = Math.max(1, Math.round(rule.days));
+    // Solo cuentan selecciones con el periodo COMPLETO ya disponible, aunque la operación salga antes.
+    // Si no, entre las recientes solo contarían las que tocaron pronto el objetivo (las ganadoras rápidas)
+    // y las que aún no lo han tocado quedarían fuera: el % de aciertos saldría inflado.
+    if (n <= days) return { status: "open", gap };
 
     for (let i = 1; i <= days; i++) {
       if (i >= n) return { status: "open", gap };

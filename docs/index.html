@@ -78,7 +78,7 @@
           <li><b>Objetivo y stop el mismo día:</b> con datos diarios no se sabe cuál llegó antes. Por defecto se supone el stop (lo prudente).</li>
           <li><b>Tiempo máximo:</b> si no toca ni objetivo ni stop, se vende al cierre de la última sesión. La sesión de entrada cuenta como la primera.</li>
           <li><b>Costes:</b> se restan a cada operación (comisión de compra y venta y deslizamiento).</li>
-          <li><b>Operaciones abiertas:</b> las que aún no tienen sesiones suficientes no cuentan.</li>
+          <li><b>Operaciones abiertas:</b> solo cuentan las selecciones que ya tienen todas las sesiones del periodo, aunque la operación hubiera salido antes. Si no, de los días recientes solo entrarían las que tocaron pronto el objetivo y el resultado saldría inflado.</li>
           <li><b>Resultado acumulado:</b> suma de los % de cada operación, como si invirtieras la misma cantidad en todas.</li>
           <li><b>Margen (±):</b> intervalo de confianza del 95 %. Si el margen de la esperanza incluye el 0, todavía no hay ventaja demostrada.</li>
         </ul>
