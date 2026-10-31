@@ -332,7 +332,7 @@
     "label": "OPA / la compran",
     "quality": 0.3,
     "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
-    "confidence": 0.3
+    "confidence": 0.6
    },
    "earnings_event": null,
    "score_parts": {
@@ -547,7 +547,7 @@
     "label": "Resultados trimestrales",
     "quality": 0.85,
     "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 0.8
+    "confidence": 0.9
    },
    "earnings_event": {
     "timing": "reported",
@@ -765,7 +765,7 @@
     "label": "Resultados + mejora de previsiones",
     "quality": 1.0,
     "note": "El catalizador con más continuidad histórica (post-earnings drift).",
-    "confidence": 0.2
+    "confidence": 0.3
    },
    "earnings_event": {
     "timing": "reported",
@@ -983,7 +983,7 @@
     "label": "Resultados + mejora de previsiones",
     "quality": 1.0,
     "note": "El catalizador con más continuidad histórica (post-earnings drift).",
-    "confidence": 0.2
+    "confidence": 0.3
    },
    "earnings_event": {
     "timing": "reported",
@@ -1512,7 +1512,7 @@
     "change_since_pct": 2.0,
     "from_peak_pct": -3.1,
     "sessions_since": 4,
-    "last_rvol": 1.08,
+    "last_rvol": 1.1,
     "catalyst_label": "OPA / la compran",
     "appearances": 1
    },
@@ -1551,8 +1551,8 @@
     "change_since_pct": 1.42,
     "from_peak_pct": 0.0,
     "sessions_since": 2,
-    "last_rvol": 1.07,
-    "catalyst_label": "Mejora de analista",
+    "last_rvol": 1.08,
+    "catalyst_label": "OPA / la compran",
     "appearances": 1
    },
    {
@@ -1642,7 +1642,7 @@
     "change_since_pct": 0.86,
     "from_peak_pct": -2.93,
     "sessions_since": 3,
-    "last_rvol": 1.03,
+    "last_rvol": 1.04,
     "catalyst_label": "Resultados + mejora de previsiones",
     "appearances": 1
    },
@@ -1681,7 +1681,7 @@
     "change_since_pct": 0.62,
     "from_peak_pct": -0.54,
     "sessions_since": 6,
-    "last_rvol": 1.7,
+    "last_rvol": 1.71,
     "catalyst_label": "Resultados + mejora de previsiones",
     "appearances": 1
    },
@@ -1720,7 +1720,7 @@
     "change_since_pct": 0.24,
     "from_peak_pct": -0.52,
     "sessions_since": 2,
-    "last_rvol": 0.91,
+    "last_rvol": 0.92,
     "catalyst_label": "Resultados trimestrales",
     "appearances": 1
    },

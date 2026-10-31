@@ -111,6 +111,11 @@ small.med { display: block; font-size: 11px; opacity: 0.8; }
 .ath-new { background: color-mix(in srgb, var(--q-high) 18%, transparent); color: var(--q-high); }
 .ath-near { background: color-mix(in srgb, var(--q-mid) 18%, transparent); color: var(--q-mid); }
 .ath-rebound { background: color-mix(in srgb, var(--muted) 18%, transparent); color: var(--muted); }
+.more-toggle td { text-align: center; padding: 10px; }
+.more-toggle button {
+  background: var(--panel-2); color: var(--accent); border: 1px solid var(--border);
+  border-radius: 8px; padding: 6px 14px; font: inherit; font-size: 13px; cursor: pointer;
+}
 .section-title { font-size: 16px; margin: 28px 0 6px; }
 .change { text-align: right; flex-shrink: 0; }
 .change .pct { color: var(--up-text); font-size: 22px; font-weight: 800; }

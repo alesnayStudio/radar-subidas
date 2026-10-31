@@ -877,7 +877,7 @@
     "label": "Compra / fusión con otra empresa",
     "quality": 0.5,
     "note": "El mercado premia la operación; vigila cómo se financia y si la aprueban reguladores.",
-    "confidence": 0.2
+    "confidence": 0.3
    },
    "earnings_event": null,
    "score_parts": {
@@ -1092,7 +1092,7 @@
     "label": "Resultados trimestrales",
     "quality": 0.85,
     "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 0.8
+    "confidence": 0.9
    },
    "earnings_event": {
     "timing": "reported",

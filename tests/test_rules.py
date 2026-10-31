@@ -61,6 +61,22 @@ class Catalysts(unittest.TestCase):
             "TeraWulf, Opendoor, and Zillow Stocks Surged Today",
             "Here's why Zillow Group, Better Home, and Opendoor stocks are rising today"]), "sector")
 
+    def test_takeover_talks(self):  # CART 26-oct
+        self.assertEqual(kind("CART", "Maplebear Inc.", [
+            "CART Stock Jumps As DoorDash Acquisition Talks Reportedly Heat Up Toward Possible $17B Deal",
+            "Maplebear Jumps 8% on DoorDash Takeover Talks"]), "takeover")
+
+    def test_buyout_offer_beats_author_rating(self):  # LCII 28-oct
+        self.assertEqual(kind("LCII", "LCI Industries", [
+            "LCI Industries Pops On An Unlikely Buyout Offer (Upgrade) (NYSE:LCII)",
+            "Roth MKM Maintains LCI Industries(LCII.US) With Buy Rating, Cuts Target Price to $112"]), "takeover")
+
+    def test_maintained_rating_is_not_an_upgrade(self):
+        self.assertNotEqual(kind("CORZ", "Core Scientific, Inc.", [
+            "BTIG reiterates Buy rating on Core Scientific, $38 price target"]), "analyst")
+        self.assertEqual(kind("TENB", "Tenable Holdings, Inc.", [
+            "TENB Maintained by Baird -- Price Target Raised to $50.00"]), "analyst")
+
     def test_bank_call_is_analyst(self):  # WULF 15-oct
         self.assertEqual(kind("WULF", "TeraWulf Inc.", [
             "Morgan Stanley Call Sends TeraWulf Stock Surging"]), "analyst")

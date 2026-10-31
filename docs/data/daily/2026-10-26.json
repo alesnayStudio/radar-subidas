@@ -114,7 +114,7 @@
     "label": "OPA / la compran",
     "quality": 0.3,
     "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
-    "confidence": 0.5
+    "confidence": 0.6
    },
    "earnings_event": null,
    "score_parts": {
@@ -379,7 +379,7 @@
    "market_time": 1793044801,
    "market_date": "2026-10-26",
    "market_state": "POSTPOST",
-   "score": 49.5,
+   "score": 55.5,
    "news": [
     {
      "title": "CART Stock Jumps As DoorDash Acquisition Talks Reportedly Heat Up Toward Possible $17B Deal",
@@ -388,16 +388,16 @@
      "published": "2026-10-26T21:30:07+00:00"
     },
     {
-     "title": "Maplebear Inc. Officer Chris Rogers Files to Sell 24,665 Shares Worth $1.48M Under 10b5-1 Plan",
-     "source": "Kalkine Media",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYzRQSUJqckhYRy1RWVUwNVdXWjJReUZ1RzNBcDk5Nm9zbkxrXzdqT1dYaWIxRlJfd2laeEw5cm5NZnU3SG04Z2lKUzd5VE5kbVpjTTZJV0d2WlUxOE5Ualc4b1dwcjRaellQWFBWdUFFeFY3QlI0WjNkMjZpMzFWaDc3QlVDOEpIelZtcUt5b3AtaGdpeklhbGR4bFBfaDVsUFMwb2I3ZTljb2Z5RHRZNV9ZZ2h5TlM5ZWdxWXJwdnpId2ZIaUdMYzZxQS0yVU02VzRB?oc=5",
-     "published": "2026-10-26T21:09:59+00:00"
-    },
-    {
      "title": "Maplebear Jumps 8% on DoorDash Takeover Talks",
      "source": "StocksToTrade",
      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HMjFJX2ZaT05odlZJbG0taF9PUGZQdmpRdE9lYllKaWVja0RET0NWblpIODdLOUdDUWkzcWZqYWVka19fcnpYeVpOVDY3bWxXdXBLYmoxRmlxZTZlY3RyMTlHVmtRNHNTNk01bUs5eXB3eGdB?oc=5",
      "published": "2026-10-26T20:25:00+00:00"
+    },
+    {
+     "title": "Maplebear Inc. Officer Chris Rogers Files to Sell 24,665 Shares Worth $1.48M Under 10b5-1 Plan",
+     "source": "Kalkine Media",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYzRQSUJqckhYRy1RWVUwNVdXWjJReUZ1RzNBcDk5Nm9zbkxrXzdqT1dYaWIxRlJfd2laeEw5cm5NZnU3SG04Z2lKUzd5VE5kbVpjTTZJV0d2WlUxOE5Ualc4b1dwcjRaellQWFBWdUFFeFY3QlI0WjNkMjZpMzFWaDc3QlVDOEpIelZtcUt5b3AtaGdpeklhbGR4bFBfaDVsUFMwb2I3ZTljb2Z5RHRZNV9ZZ2h5TlM5ZWdxWXJwdnpId2ZIaUdMYzZxQS0yVU02VzRB?oc=5",
+     "published": "2026-10-26T21:09:59+00:00"
     },
     {
      "title": "Maplebear to wind down Caper Cart, expects up to $80M in charges",
@@ -431,17 +431,17 @@
     }
    ],
    "catalyst": {
-    "type": "none",
-    "label": "Sin noticia clara",
-    "quality": 0.1,
-    "note": "Precaución: subida sin catalizador identificable.",
-    "confidence": 0.0
+    "type": "takeover",
+    "label": "OPA / la compran",
+    "quality": 0.3,
+    "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
+    "confidence": 0.6
    },
    "earnings_event": null,
    "score_parts": {
     "move": 1.9,
     "rvol": 30.0,
-    "catalyst": 3.0,
+    "catalyst": 9.0,
     "close": 8.8,
     "size": 5.8
    },
@@ -650,7 +650,7 @@
     "label": "Biotech / FDA / ensayo",
     "quality": 0.5,
     "note": "Muy volátil: puede revertir con fuerza.",
-    "confidence": 0.2
+    "confidence": 0.3
    },
    "earnings_event": null,
    "score_parts": {
@@ -950,7 +950,7 @@
     "label": "Mejora de analista",
     "quality": 0.6,
     "note": "Impulso moderado; suele diluirse si no hay más noticias.",
-    "confidence": 0.8
+    "confidence": 0.6
    },
    "earnings_event": {
     "timing": "upcoming",

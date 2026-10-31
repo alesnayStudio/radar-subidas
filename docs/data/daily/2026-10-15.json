@@ -745,7 +745,7 @@
    "market_time": 1792094401,
    "market_date": "2026-10-15",
    "market_state": "POST",
-   "score": 40.4,
+   "score": 25.4,
    "news": [
     {
      "title": "BTIG Maintains Core Scientific(CORZ.US) With Buy Rating, Maintains Target Price $38",
@@ -797,16 +797,16 @@
     }
    ],
    "catalyst": {
-    "type": "analyst",
-    "label": "Mejora de analista",
-    "quality": 0.6,
-    "note": "Impulso moderado; suele diluirse si no hay más noticias.",
-    "confidence": 0.6
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
    },
    "score_parts": {
     "move": 1.0,
     "rvol": 8.2,
-    "catalyst": 18.0,
+    "catalyst": 3.0,
     "close": 9.9,
     "size": 3.3
    },

@@ -332,7 +332,7 @@
     "label": "Biotech / FDA / ensayo",
     "quality": 0.5,
     "note": "Muy volátil: puede revertir con fuerza.",
-    "confidence": 0.7
+    "confidence": 0.9
    },
    "earnings_event": null,
    "score_parts": {
@@ -549,7 +549,7 @@
     "label": "Resultados + mejora de previsiones",
     "quality": 1.0,
     "note": "El catalizador con más continuidad histórica (post-earnings drift).",
-    "confidence": 0.2
+    "confidence": 0.3
    },
    "earnings_event": {
     "timing": "reported",
@@ -658,7 +658,7 @@
     "label": "Resultados + mejora de previsiones",
     "quality": 1.0,
     "note": "El catalizador con más continuidad histórica (post-earnings drift).",
-    "confidence": 0.2
+    "confidence": 0.3
    },
    "earnings_event": {
     "timing": "reported",
@@ -711,13 +711,19 @@
    "market_time": 1793217602,
    "market_date": "2026-10-28",
    "market_state": "POSTPOST",
-   "score": 59.6,
+   "score": 50.6,
    "news": [
     {
      "title": "LCI Industries Pops On An Unlikely Buyout Offer (Upgrade) (NYSE:LCII)",
      "source": "Seeking Alpha",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORi1wY2U4b0lXTjIxdXFGVDdjMkVGeGxETk0wV3VtR0xiQ3dsS3Z0ZkIycUhoRnZ5MWNUbGxEQ01UaEdqU2tBaVdkTVFacFhZZ3ROWV9Rc0Nkb1BoQlJjT25sZE9iTW5vajNXZ3pBTHNLSms2aks0c0piTXVyX0tzcjhOMmZSLVpMWm8tWk9xV3AtelBvMi1PZEpPdG4?oc=5",
      "published": "2026-10-28T22:05:15+00:00"
+    },
+    {
+     "title": "An unsolicited, non-binding bid reaches LCI Industries (LCII), but its board still backs an agreed merger.",
+     "source": "Stock Titan",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQXzFzT19lek9iV0MwUVRxX2tpd2ZJY3ZsTVJGMElKNmdHOTl5eWsyM2pmMU5jMjRXUzNWMFRRSmhud1RRYmlkN2ZtMl9qU3NpbGN2am9EU3pJNWRlY3Q4aDRrNlNaVVBVakpTdlJXZzJZY0pVLVZfOE9hSnltcDJHNW0yd05UeEt3TnBZUjhoa1FHSy1zOUJiSFdhaTJsWnNUSXRxSlh3czBycldkQ0dZVlRVSzkydw?oc=5",
+     "published": "2026-10-28T14:02:33+00:00"
     },
     {
      "title": "Roth MKM Maintains LCI Industries(LCII.US) With Buy Rating, Cuts Target Price to $112",
@@ -730,12 +736,6 @@
      "source": "MarketBeat",
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVlNGUUpGNXFSUnBSdUdGMExDWEpEcHdrYWZHNmplOXA3aXg4VFJ2XzRnTWRkMlhIRjNSbDdKMWVRZUstYVYwOG5xV3UxZ1BHQ3JzT2JGT01MNkNMR19iMGFWM0ZrbnZjbFFmQkx0eXJHZXZBakpZRk5uNTlwRzZrLUdrODRReU9RNTNkTHlWbmRTWGhrZENWVHljbk1LajZUeW5fcVlrWTI2c1NQY0FN?oc=5",
      "published": "2026-10-28T15:44:34+00:00"
-    },
-    {
-     "title": "An unsolicited, non-binding bid reaches LCI Industries (LCII), but its board still backs an agreed merger.",
-     "source": "Stock Titan",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQXzFzT19lek9iV0MwUVRxX2tpd2ZJY3ZsTVJGMElKNmdHOTl5eWsyM2pmMU5jMjRXUzNWMFRRSmhud1RRYmlkN2ZtMl9qU3NpbGN2am9EU3pJNWRlY3Q4aDRrNlNaVVBVakpTdlJXZzJZY0pVLVZfOE9hSnltcDJHNW0yd05UeEt3TnBZUjhoa1FHSy1zOUJiSFdhaTJsWnNUSXRxSlh3czBycldkQ0dZVlRVSzkydw?oc=5",
-     "published": "2026-10-28T14:02:33+00:00"
     },
     {
      "title": "LCI Industries (LCII) Received A Competing Acquisition Proposal",
@@ -751,17 +751,17 @@
     }
    ],
    "catalyst": {
-    "type": "analyst",
-    "label": "Mejora de analista",
-    "quality": 0.6,
-    "note": "Impulso moderado; suele diluirse si no hay más noticias.",
-    "confidence": 0.5
+    "type": "takeover",
+    "label": "OPA / la compran",
+    "quality": 0.3,
+    "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
+    "confidence": 0.3
    },
    "earnings_event": null,
    "score_parts": {
     "move": 2.6,
     "rvol": 30.0,
-    "catalyst": 18.0,
+    "catalyst": 9.0,
     "close": 7.1,
     "size": 1.9
    },
@@ -861,7 +861,7 @@
     "label": "Resultados trimestrales",
     "quality": 0.85,
     "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 0.36
+    "confidence": 0.39
    },
    "earnings_event": null,
    "score_parts": {

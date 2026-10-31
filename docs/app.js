@@ -76,7 +76,7 @@ function renderSummary(d) {
   const isLatest = $("#date-select").value === "" || $("#date-select").value === $("#date-select").options[0]?.value;
   $("#summary").innerHTML = `
     <span class="pill">Última sesión cerrada: <b>${esc(fmtDate(d.date))}</b></span>
-    ${isLatest && !provisional ? `<span class="pill" title="El escaneo se lanza tras el cierre de Wall Street (22:00 h España); GitHub puede retrasarlo un par de horas">Próxima: <b>${esc(fmtDate(nextSession(d.date)))}</b>, esa noche ≈ 23:30–01:30 h</span>` : ""}
+    ${isLatest && !provisional ? `<span class="pill" title="El escaneo se lanza 30 min después del cierre de Wall Street (22:00 h en España); GitHub suele retrasarlo 1-3 horas">Próxima: <b>${esc(fmtDate(nextSession(d.date)))}</b>, de madrugada (≈ 23:00–02:30 h)</span>` : ""}
     ${marketPill(d.market)}
     <span class="pill"><b>${d.universe.raw_gainers}</b> suben &gt;${f.min_change_pct}% · <b>${d.universe.passed_filters}</b> pasan filtros</span>
     <span class="pill">Cap. &gt; ${fmtMoney(f.min_market_cap)} · Precio &gt; ${f.min_price}$ · RVOL &gt; ${f.min_rvol}</span>
@@ -125,6 +125,21 @@ function repeatBadge(a) {
   return `<span class="repeat" title="Ya salió el ${esc(prev)}">🔁 ${a.count}ª vez en ${a.window} sesiones</span>`;
 }
 
+// Filas de tabla con las primeras `limit` visibles y un botón para mostrar el resto
+function rowsWithMore(rows, limit, noun) {
+  if (rows.length <= limit) return rows.join("");
+  const hidden = rows.slice(limit).map((r) => r.replace("<tr", '<tr class="more-row" hidden'));
+  return rows.slice(0, limit).join("") + hidden.join("") +
+    `<tr class="more-toggle"><td colspan="99"><button type="button">Ver ${rows.length - limit} ${noun} más</button></td></tr>`;
+}
+document.addEventListener("click", (e) => {
+  const btn = e.target.closest(".more-toggle button");
+  if (!btn) return;
+  const tbody = btn.closest("tbody");
+  tbody.querySelectorAll(".more-row").forEach((r) => (r.hidden = false));
+  btn.closest("tr").remove();
+});
+
 function renderHolders(h) {
   const t = $("#holders-table");
   if (!h) { $("#holders-hint").textContent = ""; t.innerHTML = ""; return; }
@@ -137,14 +152,14 @@ function renderHolders(h) {
       <th class="r">Precio entonces</th><th class="r">Ahora</th><th class="r">Desde entonces</th>
       <th class="r" title="Distancia al cierre más alto desde que salió. 0% = en máximos">vs máx.</th>
       <th class="r" title="Volumen de la última sesión frente a su media de 20 sesiones">Vol. rel.</th></tr></thead>
-    <tbody>${h.items.map((x) => `
+    <tbody>${rowsWithMore(h.items.map((x) => `
       <tr><td><b>${esc(x.symbol)}</b> <span class="dim">${esc(x.name.slice(0, 26))}</span>${x.appearances > 1 ? ` <span class="repeat">🔁 ${x.appearances}</span>` : ""}</td>
         <td>${esc(fmtDate(x.picked_on))}</td><td>${esc(x.catalyst_label)}</td>
         <td class="r num">${x.sessions_since}</td>
         <td class="r num">${x.picked_price.toFixed(2)}</td><td class="r num">${x.price.toFixed(2)}</td>
         <td class="r num pos">${fmtPct(x.change_since_pct)}</td>
         <td class="r num ${x.from_peak_pct < -5 ? "neg" : "dim"}">${fmtPct(x.from_peak_pct)}</td>
-        <td class="r num">${x.last_rvol == null ? "—" : x.last_rvol.toFixed(1) + "×"}</td></tr>`).join("")}
+        <td class="r num">${x.last_rvol == null ? "—" : x.last_rvol.toFixed(1) + "×"}</td></tr>`), 15, "acciones")}
     </tbody>`;
 }
 
@@ -232,15 +247,18 @@ async function loadTracking() {
     if (v == null) return `<td class="r dim">pend.</td>`;
     return `<td class="r num"><span class="${signCls(v)}">${fmtPct(v)}</span> <span class="dim">(${fmtPct(ex)})</span></td>`;
   };
+  const sorted = [...picks].sort((a, b) => b.date.localeCompare(a.date) || a.rank - b.rank);
+  const lastDates = new Set([...new Set(sorted.map((p) => p.date))].slice(0, 5));  // últimas 5 sesiones visibles
+  const visible = sorted.filter((p) => lastDates.has(p.date)).length;
   t.innerHTML = `
     <thead><tr><th>Fecha</th><th>#</th><th>Acción</th><th>Catalizador</th><th class="r">Subida día</th><th class="r">Punt.</th>
       ${HORIZONS.map((h) => `<th class="r">+${h} ${h === "1" ? "sesión" : "sesiones"}</th>`).join("")}</tr></thead>
-    <tbody>${[...picks].sort((a, b) => b.date.localeCompare(a.date) || a.rank - b.rank).map((p) => `
+    <tbody>${rowsWithMore(sorted.map((p) => `
       <tr><td>${esc(p.date)}</td><td class="dim">${p.rank}</td>
         <td><b>${esc(p.symbol)}</b> <span class="dim">${esc(p.name.slice(0, 28))}</span></td>
         <td>${esc(p.catalyst_label)}</td>
         <td class="r num pos">${fmtPct(p.change_pct)}</td><td class="r num">${p.score.toFixed(0)}</td>
-        ${HORIZONS.map((h) => cell(p, h)).join("")}</tr>`).join("")}
+        ${HORIZONS.map((h) => cell(p, h)).join("")}</tr>`), visible, "selecciones")}
     </tbody>`;
 }
 

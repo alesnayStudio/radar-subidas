@@ -63,7 +63,10 @@ PATTERNS = {
     "earnings_guidance": r"(raise[sd]?|lifts?|boosts?|hikes?|ups|upgrade[sd]?|increases?|upbeat|strong|above-consensus)\s+(its\s+)?([\w-]+\s+){0,2}(guidance|outlook|forecast)",  # "raises 2027 EBITDA outlook"
     "earnings": r"\bearnings\b|\bresults\b|\bquarterly\b|\bq[1-4]\b|\beps\b|\bbeats?\b|tops?\s+(estimates|expectations|forecasts)|same-store sales|(revenue|sales|profit)s?\s+(beat|jump|surge|soar|rise|top|climb)",
     # Objetivo de una OPA (la compran a ella): sube hasta el precio ofrecido y se queda ahí
-    "takeover": r"take[- ]private|go(ing|es)? private|to be (acquired|bought)|agrees? to be (acquired|bought)|acquired by|buyout (offer|deal|bid)|takeover (bid|offer)|tender offer|receives? .{0,30}(offer|bid|proposal)|explor\w+ (a )?sale",
+    "takeover": r"take[- ]private|go(ing|es)? private|to be (acquired|bought)|agrees? to be (acquired|bought)|acquired by|buyout (offer|deal|bid)|takeover (bid|offer)|tender offer|receives? .{0,30}(offer|bid|proposal)|explor\w+ (a )?sale"
+                # "DoorDash Takeover Talks", "CD&R, GTCR Weigh Record-Scale Buyout", "Unlikely Buyout Offer"
+                r"|(takeover|acquisition|buyout|merger|sale) talks|(takeover|buyout) (interest|approach|proposal)"
+                r"|(weigh|explor|consider)\w* .{0,25}(buyout|takeover|take-private|sale of)|take-private bid|buyout offer",
     # Ella compra a otra o se fusiona
     "acquisition": r"\bacquires?\b|\bto acquire\b|acquisition of|\bmerger\b|\bmerge\b|\bto buy\b|\bbuys\b",
     "capital": r"refinanc|credit (facilit|agreement)|amend\w* .{0,20}credit|term loan|\bbuyback\b|repurchase|special dividend|debt (deal|reduction|paydown)",
@@ -77,6 +80,9 @@ PATTERNS = {
 }
 
 # Frases de "clickbait" que contienen "buy" pero no hablan de ninguna compra de empresa
+# "Maintains Buy rating" no es un cambio de opinión; "(Upgrade)" al final es la nota del autor en Seeking Alpha
+_ANALYST_NOISE = re.compile(r"\bmaintain\w*|\breiterat\w*|\((upgrade|downgrade)\)", re.I)
+_ANALYST_CHANGE = re.compile(r"\b(raise[sd]?|hikes?|boosts?|lifts?)\b.{0,20}target|\bupgrade[sd]? to\b|target raised", re.I)
 _BUY_NOISE = re.compile(
     r"too late to buy|should you buy|(time|stocks?|reasons?|ways) to buy|buy (now|today|the dip)|"
     r"\ba buy\b|worth buying|buy or sell|buy rating|strong buy", re.I)
@@ -132,6 +138,8 @@ def classify(headlines: list[dict], earnings_ts: int | None, market_date: str | 
         deal_title = _BUY_NOISE.sub(" ", title)
         for k, rx in _RX.items():
             if k in ("earnings", "earnings_guidance") and _EARNINGS_NOISE.search(title):
+                continue
+            if k == "analyst" and _ANALYST_NOISE.search(title) and not _ANALYST_CHANGE.search(title):
                 continue
             if k == "acquisition":
                 role = _deal_role(deal_title, company)
