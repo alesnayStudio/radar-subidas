@@ -2,42 +2,42 @@
  "catalysts": {
   "all": {
    "label": "Todas",
-   "count": 113,
+   "count": 123,
    "horizons": {
     "1": {
-     "n": 103,
-     "avg": 0.05,
-     "median": 0.24,
-     "win_rate": 58.3,
-     "avg_excess": 0.28
+     "n": 113,
+     "avg": 0.32,
+     "median": 0.44,
+     "win_rate": 60.2,
+     "avg_excess": 0.57
     },
     "5": {
-     "n": 63,
-     "avg": 1.05,
-     "median": 1.02,
-     "win_rate": 60.3,
-     "avg_excess": 1.23
+     "n": 73,
+     "avg": 0.42,
+     "median": 0.46,
+     "win_rate": 56.2,
+     "avg_excess": 0.81
     },
     "20": null
    }
   },
   "earnings": {
    "label": "Resultados trimestrales",
-   "count": 41,
+   "count": 45,
    "horizons": {
     "1": {
-     "n": 37,
-     "avg": 1.02,
-     "median": 0.77,
-     "win_rate": 62.2,
-     "avg_excess": 1.32
+     "n": 41,
+     "avg": 1.14,
+     "median": 0.89,
+     "win_rate": 63.4,
+     "avg_excess": 1.46
     },
     "5": {
-     "n": 19,
-     "avg": 0.74,
-     "median": 1.28,
-     "win_rate": 57.9,
-     "avg_excess": 0.74
+     "n": 20,
+     "avg": 0.52,
+     "median": 0.66,
+     "win_rate": 55.0,
+     "avg_excess": 0.62
     },
     "20": null
    }
@@ -54,11 +54,11 @@
      "avg_excess": -1.63
     },
     "5": {
-     "n": 6,
-     "avg": -2.87,
-     "median": -4.01,
-     "win_rate": 33.3,
-     "avg_excess": -2.47
+     "n": 8,
+     "avg": -6.13,
+     "median": -4.39,
+     "win_rate": 25.0,
+     "avg_excess": -5.4
     },
     "20": null
    }
@@ -68,18 +68,18 @@
    "count": 10,
    "horizons": {
     "1": {
-     "n": 9,
-     "avg": 1.19,
-     "median": 0.24,
-     "win_rate": 77.8,
-     "avg_excess": 1.21
+     "n": 10,
+     "avg": 1.36,
+     "median": 0.35,
+     "win_rate": 80.0,
+     "avg_excess": 1.42
     },
     "5": {
-     "n": 4,
-     "avg": 0.47,
-     "median": 0.4,
-     "win_rate": 100.0,
-     "avg_excess": 0.71
+     "n": 7,
+     "avg": -0.34,
+     "median": 0.33,
+     "win_rate": 71.4,
+     "avg_excess": 0.54
     },
     "20": null
    }
@@ -96,11 +96,11 @@
      "avg_excess": -1.57
     },
     "5": {
-     "n": 6,
-     "avg": -0.27,
-     "median": -2.23,
-     "win_rate": 33.3,
-     "avg_excess": 0.26
+     "n": 7,
+     "avg": -0.46,
+     "median": -2.13,
+     "win_rate": 28.6,
+     "avg_excess": 0.24
     },
     "20": null
    }
@@ -201,25 +201,25 @@
      "avg_excess": 0.16
     },
     "5": {
-     "n": 9,
-     "avg": 4.06,
+     "n": 11,
+     "avg": 3.98,
      "median": 2.78,
-     "win_rate": 55.6,
-     "avg_excess": 4.13
+     "win_rate": 63.6,
+     "avg_excess": 4.35
     },
     "20": null
    }
   },
   "earnings_guidance": {
    "label": "Resultados + mejora de previsiones",
-   "count": 21,
+   "count": 27,
    "horizons": {
     "1": {
-     "n": 16,
-     "avg": -0.24,
-     "median": 0.02,
-     "win_rate": 50.0,
-     "avg_excess": 0.2
+     "n": 21,
+     "avg": 0.72,
+     "median": 0.17,
+     "win_rate": 57.1,
+     "avg_excess": 1.17
     },
     "5": {
      "n": 7,
@@ -243,11 +243,11 @@
      "avg_excess": -6.38
     },
     "5": {
-     "n": 3,
-     "avg": -1.28,
-     "median": 2.73,
-     "win_rate": 66.7,
-     "avg_excess": -1.02
+     "n": 4,
+     "avg": -1.29,
+     "median": 0.7,
+     "win_rate": 50.0,
+     "avg_excess": -0.66
     },
     "20": null
    }
@@ -277,28 +277,28 @@
  "appearance": {
   "first": {
    "label": "Primera aparición",
-   "count": 111,
+   "count": 119,
    "horizons": {
     "1": {
-     "n": 101,
-     "avg": 0.0,
-     "median": 0.24,
-     "win_rate": 58.4,
-     "avg_excess": 0.24
+     "n": 111,
+     "avg": 0.28,
+     "median": 0.44,
+     "win_rate": 60.4,
+     "avg_excess": 0.54
     },
     "5": {
-     "n": 62,
-     "avg": 1.01,
-     "median": 0.84,
-     "win_rate": 59.7,
-     "avg_excess": 1.18
+     "n": 72,
+     "avg": 0.38,
+     "median": 0.45,
+     "win_rate": 55.6,
+     "avg_excess": 0.77
     },
     "20": null
    }
   },
   "repeat": {
    "label": "Repetidora (2ª vez o más)",
-   "count": 2,
+   "count": 4,
    "horizons": {
     "1": {
      "n": 2,
@@ -331,7 +331,7 @@
  "ath_buckets": {
   "new_ath": {
    "label": "🚀 Nuevo máximo histórico",
-   "count": 4,
+   "count": 5,
    "horizons": {
     "1": {
      "n": 4,
@@ -341,11 +341,11 @@
      "avg_excess": 1.3
     },
     "5": {
-     "n": 1,
-     "avg": -0.45,
-     "median": -0.45,
+     "n": 2,
+     "avg": -2.93,
+     "median": -2.93,
      "win_rate": 0.0,
-     "avg_excess": 0.11
+     "avg_excess": -1.78
     },
     "20": null
    }
@@ -373,42 +373,42 @@
   },
   "mid": {
    "label": "↗️ Entre un 5% y un 50% por debajo",
-   "count": 58,
+   "count": 64,
    "horizons": {
     "1": {
-     "n": 52,
-     "avg": 0.88,
-     "median": 0.42,
-     "win_rate": 65.4,
-     "avg_excess": 1.14
+     "n": 58,
+     "avg": 0.95,
+     "median": 0.53,
+     "win_rate": 65.5,
+     "avg_excess": 1.24
     },
     "5": {
-     "n": 27,
-     "avg": 0.76,
+     "n": 31,
+     "avg": 0.6,
      "median": 0.33,
-     "win_rate": 59.3,
-     "avg_excess": 0.85
+     "win_rate": 58.1,
+     "avg_excess": 0.9
     },
     "20": null
    }
   },
   "rebound": {
    "label": "↩️ Rebote (más de un 50% por debajo)",
-   "count": 48,
+   "count": 51,
    "horizons": {
     "1": {
-     "n": 44,
-     "avg": -1.09,
-     "median": 0.14,
-     "win_rate": 52.3,
-     "avg_excess": -0.9
+     "n": 48,
+     "avg": -0.56,
+     "median": 0.44,
+     "win_rate": 56.2,
+     "avg_excess": -0.34
     },
     "5": {
-     "n": 33,
-     "avg": 1.22,
-     "median": 1.16,
-     "win_rate": 60.6,
-     "avg_excess": 1.5
+     "n": 37,
+     "avg": 0.17,
+     "median": 0.67,
+     "win_rate": 54.1,
+     "avg_excess": 0.61
     },
     "20": null
    }
@@ -417,42 +417,42 @@
  "score_buckets": {
   "high": {
    "label": "Alta (55 o más)",
-   "count": 50,
+   "count": 54,
    "horizons": {
     "1": {
-     "n": 45,
-     "avg": 0.65,
-     "median": 0.24,
-     "win_rate": 62.2,
-     "avg_excess": 1.09
+     "n": 50,
+     "avg": 0.82,
+     "median": 0.45,
+     "win_rate": 64.0,
+     "avg_excess": 1.27
     },
     "5": {
-     "n": 17,
-     "avg": 0.59,
+     "n": 21,
+     "avg": 0.35,
      "median": 0.05,
-     "win_rate": 58.8,
-     "avg_excess": 0.46
+     "win_rate": 57.1,
+     "avg_excess": 0.57
     },
     "20": null
    }
   },
   "mid": {
    "label": "Media (40 a 55)",
-   "count": 37,
+   "count": 43,
    "horizons": {
     "1": {
-     "n": 32,
-     "avg": -0.68,
-     "median": -0.19,
-     "win_rate": 46.9,
-     "avg_excess": -0.6
+     "n": 37,
+     "avg": -0.08,
+     "median": 0.04,
+     "win_rate": 51.4,
+     "avg_excess": 0.06
     },
     "5": {
-     "n": 25,
-     "avg": 1.09,
-     "median": 1.03,
-     "win_rate": 64.0,
-     "avg_excess": 1.41
+     "n": 26,
+     "avg": 0.91,
+     "median": 0.85,
+     "win_rate": 61.5,
+     "avg_excess": 1.29
     },
     "20": null
    }
@@ -469,11 +469,11 @@
      "avg_excess": -0.03
     },
     "5": {
-     "n": 21,
-     "avg": 1.36,
-     "median": 2.19,
-     "win_rate": 57.1,
-     "avg_excess": 1.63
+     "n": 26,
+     "avg": -0.02,
+     "median": 0.45,
+     "win_rate": 50.0,
+     "avg_excess": 0.53
     },
     "20": null
    }
