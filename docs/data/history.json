@@ -1841,12 +1841,12 @@
    "pct_from_ath": -36.79,
    "returns": {
     "1": 6.48,
-    "5": null,
+    "5": 8.94,
     "20": null
    },
    "excess": {
     "1": 6.14,
-    "5": null,
+    "5": 10.93,
     "20": null
    }
   },
@@ -1866,12 +1866,12 @@
    "pct_from_ath": -1.73,
    "returns": {
     "1": 6.7,
-    "5": null,
+    "5": 4.59,
     "20": null
    },
    "excess": {
     "1": 6.36,
-    "5": null,
+    "5": 6.58,
     "20": null
    }
   },
@@ -1891,12 +1891,12 @@
    "pct_from_ath": -14.06,
    "returns": {
     "1": 2.47,
-    "5": null,
+    "5": 1.05,
     "20": null
    },
    "excess": {
     "1": 2.13,
-    "5": null,
+    "5": 3.04,
     "20": null
    }
   },
@@ -1916,12 +1916,12 @@
    "pct_from_ath": -49.89,
    "returns": {
     "1": 4.51,
-    "5": null,
+    "5": 2.26,
     "20": null
    },
    "excess": {
     "1": 4.17,
-    "5": null,
+    "5": 4.25,
     "20": null
    }
   },
@@ -1941,12 +1941,12 @@
    "pct_from_ath": -41.66,
    "returns": {
     "1": 8.41,
-    "5": null,
+    "5": -6.0,
     "20": null
    },
    "excess": {
     "1": 8.07,
-    "5": null,
+    "5": -4.01,
     "20": null
    }
   },
@@ -1966,12 +1966,12 @@
    "pct_from_ath": -37.62,
    "returns": {
     "1": -0.75,
-    "5": null,
+    "5": 1.43,
     "20": null
    },
    "excess": {
     "1": -1.09,
-    "5": null,
+    "5": 3.42,
     "20": null
    }
   },
@@ -1991,12 +1991,12 @@
    "pct_from_ath": -45.34,
    "returns": {
     "1": 3.34,
-    "5": null,
+    "5": 11.94,
     "20": null
    },
    "excess": {
     "1": 3.0,
-    "5": null,
+    "5": 13.93,
     "20": null
    }
   },
@@ -2016,12 +2016,12 @@
    "pct_from_ath": -74.71,
    "returns": {
     "1": -4.18,
-    "5": null,
+    "5": -23.12,
     "20": null
    },
    "excess": {
     "1": -4.52,
-    "5": null,
+    "5": -21.13,
     "20": null
    }
   },
@@ -2041,12 +2041,12 @@
    "pct_from_ath": -58.69,
    "returns": {
     "1": 5.68,
-    "5": null,
+    "5": -5.81,
     "20": null
    },
    "excess": {
     "1": 5.34,
-    "5": null,
+    "5": -3.82,
     "20": null
    }
   },
@@ -2066,12 +2066,12 @@
    "pct_from_ath": -17.35,
    "returns": {
     "1": 0.14,
-    "5": null,
+    "5": -0.65,
     "20": null
    },
    "excess": {
     "1": -0.2,
-    "5": null,
+    "5": 1.34,
     "20": null
    }
   },
@@ -2840,12 +2840,12 @@
    "ath_status": "mid",
    "pct_from_ath": -12.77,
    "returns": {
-    "1": null,
+    "1": 0.06,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -0.24,
     "5": null,
     "20": null
    }
@@ -2865,12 +2865,12 @@
    "ath_status": "new_ath",
    "pct_from_ath": -2.6,
    "returns": {
-    "1": null,
+    "1": 2.69,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 2.39,
     "5": null,
     "20": null
    }
@@ -2890,12 +2890,12 @@
    "ath_status": "mid",
    "pct_from_ath": -44.14,
    "returns": {
-    "1": null,
+    "1": 5.37,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 5.07,
     "5": null,
     "20": null
    }
@@ -2915,12 +2915,12 @@
    "ath_status": "rebound",
    "pct_from_ath": -89.25,
    "returns": {
-    "1": null,
+    "1": -5.54,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -5.84,
     "5": null,
     "20": null
    }
@@ -2940,12 +2940,12 @@
    "ath_status": "mid",
    "pct_from_ath": -24.77,
    "returns": {
-    "1": null,
+    "1": -0.87,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -1.17,
     "5": null,
     "20": null
    }
@@ -2965,12 +2965,12 @@
    "ath_status": "mid",
    "pct_from_ath": -31.29,
    "returns": {
-    "1": null,
+    "1": 4.76,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 4.46,
     "5": null,
     "20": null
    }
@@ -2990,12 +2990,12 @@
    "ath_status": "mid",
    "pct_from_ath": -18.57,
    "returns": {
-    "1": null,
+    "1": -2.64,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -2.94,
     "5": null,
     "20": null
    }
@@ -3015,12 +3015,12 @@
    "ath_status": "rebound",
    "pct_from_ath": -92.65,
    "returns": {
-    "1": null,
+    "1": 0.76,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 0.46,
     "5": null,
     "20": null
    }
@@ -3040,12 +3040,12 @@
    "ath_status": "mid",
    "pct_from_ath": -24.86,
    "returns": {
-    "1": null,
+    "1": 0.28,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -0.02,
     "5": null,
     "20": null
    }
@@ -3064,6 +3064,256 @@
    "appearance": 2,
    "ath_status": "rebound",
    "pct_from_ath": -66.29,
+   "returns": {
+    "1": -1.66,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": -1.96,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "symbol": "IBTA",
+   "name": "Ibotta, Inc.",
+   "rank": 1,
+   "score": 76.0,
+   "price": 60.35,
+   "change_pct": 20.53,
+   "rvol": 8.69,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -45.61,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "symbol": "SIBN",
+   "name": "SI-BONE, Inc.",
+   "rank": 2,
+   "score": 74.3,
+   "price": 23.77,
+   "change_pct": 17.56,
+   "rvol": 5.61,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -36.12,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "symbol": "AEHR",
+   "name": "Aehr Test Systems, Inc.",
+   "rank": 3,
+   "score": 68.1,
+   "price": 65.11,
+   "change_pct": 26.5,
+   "rvol": 3.29,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -55.83,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "symbol": "GPK",
+   "name": "Graphic Packaging Holding Company",
+   "rank": 4,
+   "score": 66.6,
+   "price": 11.31,
+   "change_pct": 21.22,
+   "rvol": 3.6,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -63.16,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "symbol": "XMTR",
+   "name": "Xometry, Inc.",
+   "rank": 5,
+   "score": 65.5,
+   "price": 111.29,
+   "change_pct": 16.55,
+   "rvol": 3.41,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "new_ath",
+   "pct_from_ath": -4.51,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "symbol": "LSCC",
+   "name": "Lattice Semiconductor Corporation",
+   "rank": 6,
+   "score": 63.3,
+   "price": 105.92,
+   "change_pct": 10.98,
+   "rvol": 4.2,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -32.54,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "symbol": "NBIX",
+   "name": "Neurocrine Biosciences, Inc.",
+   "rank": 7,
+   "score": 61.1,
+   "price": 164.85,
+   "change_pct": 13.42,
+   "rvol": 3.24,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -11.43,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "symbol": "TBBB",
+   "name": "BBB Foods Inc.",
+   "rank": 8,
+   "score": 58.8,
+   "price": 62.97,
+   "change_pct": 10.53,
+   "rvol": 3.69,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "new_ath",
+   "pct_from_ath": -0.21,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "symbol": "EVER",
+   "name": "EverQuote, Inc.",
+   "rank": 9,
+   "score": 57.7,
+   "price": 29.11,
+   "change_pct": 19.94,
+   "rvol": 2.78,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -54.11,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-03",
+   "symbol": "FISV",
+   "name": "Fiserv, Inc.",
+   "rank": 10,
+   "score": 55.9,
+   "price": 58.4,
+   "change_pct": 12.46,
+   "rvol": 2.76,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -75.52,
    "returns": {
     "1": null,
     "5": null,
