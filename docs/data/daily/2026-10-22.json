@@ -124,6 +124,12 @@
     "prior_ath": 69.8,
     "listed_since": "1999-07-14",
     "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 2,
+    "max": 7,
+    "piotroski": "3/7"
    }
   },
   {
@@ -229,6 +235,12 @@
     "prior_ath": 62.21,
     "listed_since": "2022-09-23",
     "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 0,
+    "max": 6,
+    "piotroski": "1/8"
    }
   },
   {
@@ -337,6 +349,12 @@
     "prior_ath": 201.66,
     "listed_since": "1998-05-22",
     "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 5,
+    "max": 9,
+    "piotroski": "6/9"
    }
   },
   {
@@ -445,6 +463,12 @@
     "prior_ath": 595.17,
     "listed_since": "1992-02-13",
     "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 6,
+    "max": 9,
+    "piotroski": "6/9"
    }
   },
   {
@@ -547,6 +571,12 @@
     "prior_ath": 785.0,
     "listed_since": "2018-04-03",
     "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 5,
+    "max": 9,
+    "piotroski": "6/9"
    }
   },
   {
@@ -655,6 +685,12 @@
     "prior_ath": 53.6,
     "listed_since": "1980-11-03",
     "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 5,
+    "max": 9,
+    "piotroski": "5/9"
    }
   },
   {
@@ -727,6 +763,12 @@
     "prior_ath": 582.27,
     "listed_since": "1995-10-13",
     "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 4,
+    "max": 9,
+    "piotroski": "5/9"
    }
   },
   {
@@ -835,6 +877,12 @@
     "prior_ath": 256.08,
     "listed_since": "1973-02-21",
     "short_history": false
+   },
+   "quality": {
+    "grade": "A",
+    "points": 8,
+    "max": 9,
+    "piotroski": "6/9"
    }
   },
   {
@@ -937,6 +985,12 @@
     "prior_ath": 200.96,
     "listed_since": "2007-06-22",
     "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 5,
+    "max": 7,
+    "piotroski": "5/7"
    }
   },
   {
@@ -1045,6 +1099,12 @@
     "prior_ath": 284.25,
     "listed_since": "1980-01-02",
     "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 5,
+    "max": 9,
+    "piotroski": "8/9"
    }
   }
  ],

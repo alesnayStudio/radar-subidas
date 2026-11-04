@@ -414,6 +414,80 @@
    }
   }
  },
+ "quality_buckets": {
+  "A": {
+   "label": "Calidad A",
+   "count": 25,
+   "horizons": {
+    "1": {
+     "n": 23,
+     "avg": 1.5,
+     "median": 1.23,
+     "win_rate": 60.9,
+     "avg_excess": 1.81
+    },
+    "5": {
+     "n": 16,
+     "avg": 1.0,
+     "median": 0.86,
+     "win_rate": 56.2,
+     "avg_excess": 1.89
+    },
+    "20": null
+   }
+  },
+  "B": {
+   "label": "Calidad B",
+   "count": 46,
+   "horizons": {
+    "1": {
+     "n": 43,
+     "avg": -0.25,
+     "median": 0.23,
+     "win_rate": 58.1,
+     "avg_excess": -0.03
+    },
+    "5": {
+     "n": 23,
+     "avg": 0.71,
+     "median": 1.03,
+     "win_rate": 52.2,
+     "avg_excess": 0.99
+    },
+    "20": null
+   }
+  },
+  "C": {
+   "label": "Calidad C",
+   "count": 62,
+   "horizons": {
+    "1": {
+     "n": 57,
+     "avg": 0.28,
+     "median": 0.42,
+     "win_rate": 61.4,
+     "avg_excess": 0.44
+    },
+    "5": {
+     "n": 44,
+     "avg": -0.16,
+     "median": 0.57,
+     "win_rate": 59.1,
+     "avg_excess": 0.48
+    },
+    "20": null
+   }
+  },
+  "none": {
+   "label": "Sin nota",
+   "count": 0,
+   "horizons": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  }
+ },
  "score_buckets": {
   "high": {
    "label": "Alta (55 o más)",

@@ -142,6 +142,12 @@
     "prior_ath": 56.85,
     "listed_since": "1986-12-17",
     "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 3,
+    "max": 9,
+    "piotroski": "5/9"
    }
   },
   {
@@ -251,6 +257,12 @@
     "prior_ath": 21.95,
     "listed_since": "2022-05-06",
     "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 1,
+    "max": 9,
+    "piotroski": "3/9"
    }
   },
   {
@@ -359,6 +371,12 @@
     "prior_ath": 103.19,
     "listed_since": "2009-06-01",
     "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 6,
+    "max": 9,
+    "piotroski": "4/9"
    }
   },
   {
@@ -468,6 +486,12 @@
     "prior_ath": 347.72,
     "listed_since": "1998-05-15",
     "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 3,
+    "max": 9,
+    "piotroski": "6/9"
    }
   },
   {
@@ -577,6 +601,12 @@
     "prior_ath": 379.93,
     "listed_since": "2018-08-02",
     "short_history": false
+   },
+   "quality": {
+    "grade": "A",
+    "points": 7,
+    "max": 9,
+    "piotroski": "6/9"
    }
   },
   {
@@ -686,6 +716,12 @@
     "prior_ath": 166.86,
     "listed_since": "1994-03-18",
     "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 5,
+    "max": 9,
+    "piotroski": "6/9"
    }
   },
   {
@@ -780,6 +816,12 @@
     "prior_ath": 163.33,
     "listed_since": "1985-05-29",
     "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 5,
+    "max": 9,
+    "piotroski": "8/9"
    }
   },
   {
@@ -886,6 +928,12 @@
     "prior_ath": 199.87,
     "listed_since": "2026-07-10",
     "short_history": true
+   },
+   "quality": {
+    "grade": "A",
+    "points": 9,
+    "max": 9,
+    "piotroski": "7/9"
    }
   },
   {
@@ -995,6 +1043,12 @@
     "prior_ath": 254.99,
     "listed_since": "1984-01-06",
     "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 6,
+    "max": 9,
+    "piotroski": "9/9"
    }
   },
   {
@@ -1104,6 +1158,12 @@
     "prior_ath": 54.85,
     "listed_since": "2018-07-20",
     "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 1,
+    "max": 6,
+    "piotroski": "1/8"
    }
   }
  ],

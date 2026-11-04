@@ -127,6 +127,12 @@
     "prior_ath": 677.9,
     "listed_since": "2016-08-11",
     "short_history": false
+   },
+   "quality": {
+    "grade": "A",
+    "points": 8,
+    "max": 9,
+    "piotroski": "7/9"
    }
   },
   {
@@ -226,6 +232,12 @@
     "prior_ath": 101.97,
     "listed_since": "2005-12-05",
     "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 1,
+    "max": 9,
+    "piotroski": "4/9"
    }
   },
   {
@@ -316,6 +328,12 @@
     "prior_ath": 34.58,
     "listed_since": "2001-02-12",
     "short_history": false
+   },
+   "quality": {
+    "grade": "A",
+    "points": 8,
+    "max": 9,
+    "piotroski": "9/9"
    }
   },
   {
@@ -424,6 +442,12 @@
     "prior_ath": 225.64,
     "listed_since": "2026-06-12",
     "short_history": true
+   },
+   "quality": {
+    "grade": "C",
+    "points": 4,
+    "max": 9,
+    "piotroski": "5/9"
    }
   },
   {
@@ -532,6 +556,12 @@
     "prior_ath": 135.0,
     "listed_since": "2021-01-04",
     "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 6,
+    "max": 9,
+    "piotroski": "6/9"
    }
   },
   {
@@ -637,6 +667,12 @@
     "prior_ath": 122.9,
     "listed_since": "2007-03-29",
     "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 4,
+    "max": 9,
+    "piotroski": "2/9"
    }
   },
   {
@@ -745,6 +781,12 @@
     "prior_ath": 223.83,
     "listed_since": "2000-09-25",
     "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 5,
+    "max": 9,
+    "piotroski": "7/9"
    }
   },
   {
@@ -814,6 +856,12 @@
     "prior_ath": 16.55,
     "listed_since": "2024-12-03",
     "short_history": true
+   },
+   "quality": {
+    "grade": "A",
+    "points": 8,
+    "max": 9,
+    "piotroski": "7/9"
    }
   },
   {
@@ -895,6 +943,12 @@
     "prior_ath": 31.53,
     "listed_since": "2021-07-22",
     "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 1,
+    "max": 8,
+    "piotroski": "3/8"
    }
   },
   {
@@ -1000,6 +1054,12 @@
     "prior_ath": 260.0,
     "listed_since": "2017-05-25",
     "short_history": false
+   },
+   "quality": {
+    "grade": "A",
+    "points": 6,
+    "max": 8,
+    "piotroski": "7/9"
    }
   }
  ],

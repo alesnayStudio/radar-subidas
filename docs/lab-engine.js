@@ -107,5 +107,76 @@
     };
   }
 
-  global.LabEngine = { simulateTrade, summarize, wilson };
+  /* Simulación con dinero (cartera real, no suma de %):
+     - Capital inicial; cada operación usa un % del valor de la cartera o una cantidad fija.
+     - Acciones ENTERAS; comisión fija por orden (compra y venta) + `slip`% de deslizamiento en la venta.
+     - Máximo de posiciones abiertas a la vez. Si no hay hueco, la señal se salta. Si falta efectivo se
+       compra con lo que queda, salvo que no llegue a la mitad del tamaño previsto (entonces se salta).
+       Con varias señales el mismo día entran primero las mejor colocadas en el top (rank).
+     - El dinero de una venta se puede reutilizar a partir de la sesión siguiente (prudente).
+     - La cartera se valora cada día al cierre con las posiciones abiertas (peor caída real).
+     trades: operaciones "closed" de simulateTrade con .path y .pick (rank). */
+  function simulatePortfolio(trades, o) {
+    const ts = trades.filter((t) => t.status === "closed" && t.path)
+      .sort((a, b) => a.entryDate.localeCompare(b.entryDate) || (a.pick?.rank ?? 99) - (b.pick?.rank ?? 99));
+    if (!ts.length) return { executed: [] };
+    const closeOn = (t, d) => { const i = t.path.d.indexOf(d); return i >= 0 ? t.path.c[i] : null; };
+    const byEntry = {};
+    const dates = new Set();
+    ts.forEach((t) => {
+      (byEntry[t.entryDate] ||= []).push(t);
+      t.path.d.forEach((d) => { if (d >= t.entryDate && d <= t.exitDate) dates.add(d); });
+    });
+    const days = [...dates].sort();
+
+    let cash = o.capital, peak = o.capital, maxDD = 0, maxDDabs = 0, commissions = 0, exposureSum = 0;
+    let open = [], skippedCash = 0, skippedMax = 0, minCash = o.capital;
+    const executed = [], equityCurve = [];
+    for (const d of days) {
+      for (const t of byEntry[d] || []) {
+        if (open.length >= o.maxPos) { skippedMax++; continue; }
+        const book = cash + open.reduce((s, p) => s + p.invested, 0);
+        const alloc = o.sizing === "fixed" ? o.size : (book * o.size) / 100;
+        // Si falta un poco de efectivo (p. ej. por comisiones) se compra con lo que queda;
+        // si queda menos de la mitad del tamaño previsto, la señal se salta por falta de dinero.
+        const usable = Math.min(alloc, cash - o.commission);
+        const shares = Math.floor(usable / t.entry);
+        if (usable < alloc * 0.5 || shares < 1) { skippedCash++; continue; }
+        const invested = shares * t.entry;
+        cash -= invested + o.commission; commissions += o.commission;
+        open.push({ t, shares, invested });
+      }
+      minCash = Math.min(minCash, cash);
+      // valoración al cierre: las que salen hoy, a su precio de salida; el resto, al cierre del día
+      let value = 0;
+      for (const p of open) value += p.shares * (p.t.exitDate === d ? p.t.exit : closeOn(p.t, d) ?? p.t.entry);
+      const equity = cash + value;
+      exposureSum += equity > 0 ? value / equity : 0;
+      peak = Math.max(peak, equity);
+      maxDD = Math.min(maxDD, (equity / peak - 1) * 100);
+      maxDDabs = Math.min(maxDDabs, equity - peak);
+      equityCurve.push({ date: d, equity });
+      // ventas de hoy: el dinero queda disponible desde mañana (ya no hay más entradas hoy)
+      open = open.filter((p) => {
+        if (p.t.exitDate !== d) return true;
+        const gross = p.shares * p.t.exit;
+        const proceeds = gross - gross * (o.slip || 0) / 100 - o.commission;
+        commissions += o.commission;
+        cash += proceeds;
+        executed.push({ ...p, proceeds, pnl: proceeds - p.invested - o.commission, pnlPct: ((proceeds - o.commission) / p.invested - 1) * 100 });
+        return false;
+      });
+    }
+    const final = cash;
+    const wins = executed.filter((e) => e.pnl > 0).length;
+    return {
+      capital: o.capital, final, ret: (final / o.capital - 1) * 100, pnl: final - o.capital,
+      maxDD, maxDDabs, commissions, executed, skippedCash, skippedMax,
+      wins, winRate: executed.length ? (wins / executed.length) * 100 : 0,
+      exposure: days.length ? (exposureSum / days.length) * 100 : 0,
+      from: days[0], to: days[days.length - 1], sessions: days.length, minCash, equityCurve,
+    };
+  }
+
+  global.LabEngine = { simulateTrade, summarize, wilson, simulatePortfolio };
 })(window);

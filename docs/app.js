@@ -159,7 +159,7 @@ function renderHolders(h) {
       <th class="r" title="Distancia al cierre más alto desde que salió. 0% = en máximos">vs máx.</th>
       <th class="r" title="Volumen de la última sesión frente a su media de 20 sesiones">Vol. rel.</th></tr></thead>
     <tbody>${rowsWithMore(h.items.map((x) => `
-      <tr><td><b>${esc(x.symbol)}</b> <span class="dim">${esc(x.name.slice(0, 26))}</span>${x.appearances > 1 ? ` <span class="repeat">🔁 ${x.appearances}</span>` : ""}</td>
+      <tr><td><button type="button" class="sym-link" data-fund="${esc(x.symbol)}">${esc(x.symbol)}</button> <span class="dim">${esc(x.name.slice(0, 26))}</span>${x.appearances > 1 ? ` <span class="repeat">🔁 ${x.appearances}</span>` : ""}</td>
         <td>${esc(fmtDate(x.picked_on))}</td><td>${esc(x.catalyst_label)}</td>
         <td class="r num">${x.sessions_since}</td>
         <td class="r num">${x.picked_price.toFixed(2)}</td><td class="r num">${x.price.toFixed(2)}</td>
@@ -184,7 +184,7 @@ function card(r, i) {
   <article class="card${plan ? " has-rule" : ""}">
     <div class="card-head">
       <div style="min-width:0">
-        <div class="ticker"><span class="rank">${i + 1}</span><span class="symbol">${esc(r.symbol)}</span>${athBadge(r.ath)}${repeatBadge(r.appearance)}</div>
+        <div class="ticker"><span class="rank">${i + 1}</span><button type="button" class="symbol sym-link" data-fund="${esc(r.symbol)}" title="Ver ficha financiera">${esc(r.symbol)}</button>${typeof qualityBadge === "function" ? qualityBadge(r.quality, true) : ""}${athBadge(r.ath)}${repeatBadge(r.appearance)}</div>
         <div class="name" title="${esc(r.name)}">${esc(r.name)}</div>
       </div>
       <div class="change">
@@ -266,7 +266,7 @@ async function loadTracking() {
       ${HORIZONS.map((h) => `<th class="r">+${h} ${h === "1" ? "sesión" : "sesiones"}</th>`).join("")}</tr></thead>
     <tbody>${rowsWithMore(sorted.map((p) => `
       <tr><td>${esc(p.date)}</td><td class="dim">${p.rank}</td>
-        <td><b>${esc(p.symbol)}</b> <span class="dim">${esc(p.name.slice(0, 28))}</span></td>
+        <td><button type="button" class="sym-link" data-fund="${esc(p.symbol)}">${esc(p.symbol)}</button> <span class="dim">${esc(p.name.slice(0, 28))}</span>${p.quality ? ` <span class="qual q-${esc(p.quality)} small">${esc(p.quality)}</span>` : ""}</td>
         <td>${esc(p.catalyst_label)}</td>
         <td class="r num pos">${fmtPct(p.change_pct)}</td><td class="r num">${p.score.toFixed(0)}</td>
         ${HORIZONS.map((h) => cell(p, h)).join("")}</tr>`), visible, "selecciones")}
@@ -315,6 +315,7 @@ async function loadStats() {
   horizonTable($("#stats-table"), "Catalizador", sorted);
   horizonTable($("#stats-score"), "Puntuación", stats.score_buckets);
   horizonTable($("#stats-ath"), "Respecto al máximo histórico", stats.ath_buckets);
+  horizonTable($("#stats-quality"), "Calidad", stats.quality_buckets);
   horizonTable($("#stats-appearance"), "Aparición", stats.appearance);
   holdTable($("#stats-hold"), stats.hold_signal);
 }

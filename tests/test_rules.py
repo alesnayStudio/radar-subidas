@@ -104,6 +104,42 @@ class AllTimeHigh(unittest.TestCase):
         self.assertEqual(ath_classify(-63.6, False), "rebound")  # POOL
 
 
+class Quality(unittest.TestCase):
+    """Nota de calidad con cuentas inventadas (no depende de Yahoo)."""
+    BASE = dict(revenue=1000, gross_profit=600, operating_income=250, net_income=200, ebitda=300,
+                total_assets=2000, current_assets=800, current_liabilities=400, long_term_debt=300,
+                total_debt=400, cash=500, equity=1200, shares=100, ocf=260, fcf=220)
+
+    def year(self, **kw):
+        return {**self.BASE, **kw}
+
+    def test_strong_company_is_A(self):
+        from scanner.fundamentals import quality
+        y0 = self.year(revenue=1200, gross_profit=750, net_income=260, ocf=320, total_assets=2100)
+        y1 = self.year(long_term_debt=350, current_assets=700)
+        q = quality([y0, y1], {})
+        self.assertEqual(q["grade"], "A")
+        self.assertGreaterEqual(q["piotroski"]["score"], 7)
+
+    def test_loss_making_cash_burner_is_C(self):
+        from scanner.fundamentals import quality
+        y0 = self.year(revenue=900, gross_profit=200, operating_income=-150, net_income=-200, ebitda=-100,
+                       ocf=-120, fcf=-180, total_debt=900, cash=100, shares=130)
+        q = quality([y0, self.year()], {})
+        self.assertEqual(q["grade"], "C")
+
+    def test_bank_without_margins_still_graded_with_available_data(self):
+        from scanner.fundamentals import quality
+        y0 = self.year(gross_profit=None, operating_income=None, current_assets=None, current_liabilities=None)
+        q = quality([y0, self.year(gross_profit=None, current_assets=None, current_liabilities=None)], {})
+        self.assertIsNotNone(q["grade"])
+        self.assertTrue(any(d["ok"] is None for d in q["details"]))  # criterios sin datos marcados como no evaluados
+
+    def test_no_statements_no_grade(self):
+        from scanner.fundamentals import quality
+        self.assertIsNone(quality([], {})["grade"])
+
+
 class Headlines(unittest.TestCase):
     def test_generic_names_drop_junk(self):
         pool = company_patterns("POOL", "Pool Corporation")

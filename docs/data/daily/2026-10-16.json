@@ -124,6 +124,12 @@
     "prior_ath": 19.65,
     "listed_since": "2021-12-08",
     "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 4,
+    "max": 9,
+    "piotroski": "6/9"
    }
   },
   {
@@ -223,6 +229,12 @@
     "prior_ath": 38.21,
     "listed_since": "2018-05-29",
     "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 4,
+    "max": 9,
+    "piotroski": "5/9"
    }
   },
   {
@@ -322,6 +334,12 @@
     "prior_ath": 24.89,
     "listed_since": "2026-03-12",
     "short_history": true
+   },
+   "quality": {
+    "grade": "A",
+    "points": 8,
+    "max": 9,
+    "piotroski": "5/9"
    }
   }
  ],

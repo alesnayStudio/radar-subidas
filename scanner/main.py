@@ -11,7 +11,7 @@ import sys
 from collections import Counter
 from datetime import date, datetime, timezone
 
-from . import ath, catalysts, config, history, news, paths, scoring, screener
+from . import ath, catalysts, config, fundamentals, history, news, paths, scoring, screener
 
 
 def write_json(path, data):
@@ -76,6 +76,8 @@ def run(save_history: bool = True):
         aths = {}
     for r in top:
         r["ath"] = aths.get(r["symbol"])
+        # Ficha financiera (se guarda aparte; en la tarjeta solo la nota de calidad)
+        r["quality"] = fundamentals.summary(fundamentals.get(r["symbol"]))
 
     try:
         market = history.market_context(date.fromisoformat(scan_date))

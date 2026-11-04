@@ -9,7 +9,7 @@ import json
 import sys
 from datetime import date
 
-from . import ath, catalysts, config, history, news, paths, scoring
+from . import ath, catalysts, config, fundamentals, history, news, paths, scoring
 
 
 def main():
@@ -25,6 +25,8 @@ def main():
             for r in day["top"]:
                 r["ath"] = aths.get(r["symbol"])
         for r in day["top"]:
+            if "quality" not in r:  # nota de calidad (datos financieros ACTUALES, no de aquel día)
+                r["quality"] = fundamentals.summary(fundamentals.get(r["symbol"]))
             old = r["catalyst"]["type"]
             r["news"] = [n for n in r["news"] if news.is_relevant(n["title"], news.company_patterns(r["symbol"], r["name"]))]
             r["catalyst"] = catalysts.classify(r["news"], r["earnings_ts"], r["market_date"],
@@ -45,7 +47,8 @@ def main():
             p.update(catalyst=r["catalyst"]["type"], catalyst_label=r["catalyst"]["label"], score=r["score"],
                      ath_status=(r.get("ath") or {}).get("status"),
                      pct_from_ath=(r.get("ath") or {}).get("pct_from_ath"),
-                     close_strength=r.get("close_strength"), spy_change=r["_spy"])
+                     close_strength=r.get("close_strength"), spy_change=r["_spy"],
+                     quality=(r.get("quality") or {}).get("grade"))
 
     last = files[-1].stem
     h = history.update_returns(h, date.fromisoformat(last))

@@ -124,6 +124,12 @@
     "prior_ath": 98.78,
     "listed_since": "2021-11-17",
     "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 4,
+    "max": 9,
+    "piotroski": "4/9"
    }
   },
   {
@@ -232,6 +238,12 @@
     "prior_ath": 126.87,
     "listed_since": "1980-03-17",
     "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 4,
+    "max": 9,
+    "piotroski": "4/9"
    }
   },
   {
@@ -337,6 +349,12 @@
     "prior_ath": 16.7,
     "listed_since": "2022-03-01",
     "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 2,
+    "max": 8,
+    "piotroski": "6/9"
    }
   },
   {
@@ -445,6 +463,12 @@
     "prior_ath": 309.63,
     "listed_since": "1980-03-17",
     "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 6,
+    "max": 9,
+    "piotroski": "8/9"
    }
   },
   {
@@ -514,6 +538,12 @@
     "prior_ath": 36.19,
     "listed_since": "1995-11-14",
     "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 5,
+    "max": 9,
+    "piotroski": "3/7"
    }
   },
   {
@@ -619,6 +649,12 @@
     "prior_ath": 49.1,
     "listed_since": "2018-03-15",
     "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 1,
+    "max": 8,
+    "piotroski": "0/8"
    }
   },
   {
@@ -727,6 +763,12 @@
     "prior_ath": 382.65,
     "listed_since": "1990-04-03",
     "short_history": false
+   },
+   "quality": {
+    "grade": "A",
+    "points": 9,
+    "max": 9,
+    "piotroski": "9/9"
    }
   },
   {
@@ -832,6 +874,12 @@
     "prior_ath": 30.85,
     "listed_since": "2023-02-09",
     "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 5,
+    "max": 9,
+    "piotroski": "5/9"
    }
   },
   {
@@ -937,6 +985,12 @@
     "prior_ath": 53.65,
     "listed_since": "2025-01-31",
     "short_history": true
+   },
+   "quality": {
+    "grade": "C",
+    "points": 1,
+    "max": 7,
+    "piotroski": "3/8"
    }
   },
   {
@@ -1036,6 +1090,12 @@
     "prior_ath": 49.55,
     "listed_since": "2023-09-20",
     "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 5,
+    "max": 9,
+    "piotroski": "5/9"
    }
   }
  ],

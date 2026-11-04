@@ -49,6 +49,7 @@ def add_picks(history: list[dict], scan_date: str, top: list[dict], market: dict
             "pct_from_ath": (r.get("ath") or {}).get("pct_from_ath"),
             "close_strength": r.get("close_strength"),  # 1 = cerró en máximos del día
             "spy_change": spy,                          # qué hizo el S&P 500 ese día
+            "quality": (r.get("quality") or {}).get("grade"),  # A/B/C (ficha financiera)
             "returns": {str(d): None for d in config.FOLLOW_UP_DAYS},
             "excess": {str(d): None for d in config.FOLLOW_UP_DAYS},
         })
@@ -255,6 +256,11 @@ def compute_stats(history: list[dict]) -> dict:
         "ath_buckets": {
             k: _group(f"{v['icon']} {v['label']}", [p for p in history if p.get("ath_status") == k])
             for k, v in ATH_STATUS.items()
+        },
+        # ¿Rinden mejor las empresas de calidad? (nota A/B/C de la ficha financiera)
+        "quality_buckets": {
+            g: _group(f"Calidad {g}" if g != "none" else "Sin nota", [p for p in history if (p.get("quality") or "none") == g])
+            for g in ("A", "B", "C", "none")
         },
         # ¿La puntuación predice algo? Si las de puntuación alta no rinden mejor, hay que revisar los pesos
         "score_buckets": {

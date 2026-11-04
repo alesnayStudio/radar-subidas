@@ -6,7 +6,7 @@
   <title>Radar de Subidas</title>
   <meta name="robots" content="noindex">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%2316a34a'/><path d='M7 22l7-7 4 4 7-8' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2026-11-04">
 </head>
 <body>
   <header class="top">
@@ -60,6 +60,10 @@
       <p class="hint">Agrupa las subidas según dónde estaba la acción respecto a su máximo histórico. La teoría dice que las rupturas de máximos tienen más continuidad (no hay vendedores «atrapados» por encima) y que los rebotes desde muy abajo se desinflan antes.</p>
       <div class="table-wrap"><table id="stats-ath"></table></div>
 
+      <h2 class="section-title">¿Rinden mejor las empresas de calidad?</h2>
+      <p class="hint">Nota A/B/C según márgenes, rentabilidad, crecimiento, caja, deuda y salud financiera (Piotroski). Ojo: en las selecciones anteriores a noviembre la nota se calculó con las cuentas actuales, no con las de aquel día.</p>
+      <div class="table-wrap"><table id="stats-quality"></table></div>
+
       <h2 class="section-title">¿Rinden mejor las repetidoras?</h2>
       <p class="hint">Compara las acciones que salían en el top por primera vez con las que ya habían salido en las sesiones anteriores.</p>
       <div class="table-wrap"><table id="stats-appearance"></table></div>
@@ -89,6 +93,7 @@
           <legend>1. Qué operaciones</legend>
           <div class="lab-group"><span class="lab-label">Catalizador <small>(ninguno marcado = todos)</small></span><div id="lab-catalysts" class="chips"></div></div>
           <div class="lab-group"><span class="lab-label">Respecto al máximo histórico <small>(ninguno = todos)</small></span><div id="lab-ath" class="chips"></div></div>
+          <div class="lab-group"><span class="lab-label">Calidad de la empresa <small>(ninguna = todas)</small></span><div id="lab-quality" class="chips"></div></div>
           <div class="lab-row">
             <label>Puntuación mínima<input type="number" name="scoreMin" min="0" max="100" step="5" placeholder="—"></label>
             <label>Subida del día mín. %<input type="number" name="chgMin" step="1" placeholder="—"></label>
@@ -138,6 +143,20 @@
             </select></label>
           </div>
         </fieldset>
+        <fieldset>
+          <legend>4. Simulación con dinero</legend>
+          <div class="lab-row">
+            <label>Capital inicial ($)<input type="number" name="capital" min="100" step="500" required></label>
+            <label>Tamaño de cada operación<select name="sizing">
+              <option value="pct">% del valor de la cartera</option>
+              <option value="fixed">Cantidad fija ($)</option>
+            </select></label>
+            <label><span id="lab-size-label">% por operación</span><input type="number" name="size" min="1" step="1" required></label>
+            <label title="Si ya hay tantas abiertas, las señales nuevas se saltan">Máx. posiciones a la vez<input type="number" name="maxPos" min="1" max="50" step="1" required></label>
+            <label title="IBKR cobra alrededor de 1 $ por orden en acciones de EE.UU.">Comisión por orden ($)<input type="number" name="commission" min="0" step="0.5"></label>
+          </div>
+          <p class="hint">Acciones enteras, comisión al comprar y al vender, y el % de «Costes por operación» como deslizamiento. El dinero de una venta se reutiliza desde la sesión siguiente. Con varias señales el mismo día entran primero las mejor colocadas en el top. En dólares, porque son acciones de EE.UU.</p>
+        </fieldset>
       </form>
       <div id="lab-results" aria-live="polite"></div>
     </section>
@@ -163,6 +182,16 @@
         <li>En la métrica <b>«vs máx. 52s / hist.»</b> verás la distancia a ambos máximos. Un <b>*</b> indica que cotiza desde hace menos de 3 años, así que su «histórico» es corto. Pasa el ratón por encima para ver el precio y la fecha del máximo.</li>
         <li>Precios ajustados por splits (no por dividendos, como se mide habitualmente). De momento <b>no suma puntos</b>: primero las estadísticas tienen que demostrar que importa.</li>
       </ul>
+      <h2>Calidad de la empresa (A / B / C) y ficha financiera</h2>
+      <p>Pulsa cualquier ticker para abrir su <b>ficha financiera</b>: cuentas de los últimos años y trimestres, márgenes, caja, deuda y enlace a los informes oficiales de la SEC. La nota de calidad suma puntos por:</p>
+      <ul>
+        <li><b>Gana dinero</b> y <b>genera caja</b> (flujo de caja libre positivo).</li>
+        <li><b>Margen bruto ≥ 40 %</b>: puede cobrar caro, señal de un producto fuerte o difícil de copiar.</li>
+        <li><b>Margen operativo ≥ 15 %</b> y <b>rentabilidad sobre fondos propios ≥ 15 %</b>: negocio eficiente.</li>
+        <li><b>Ingresos que crecen ≥ 10 %</b> al año y <b>poca deuda</b> (menos de 2 años de EBITDA, o caja neta).</li>
+        <li><b>Salud financiera de Piotroski</b>: 9 comprobaciones clásicas con las cuentas de los dos últimos años (vale doble).</li>
+      </ul>
+      <p>A = 75 % o más de los puntos posibles, B = 50-75 %, C = menos. En bancos o biotecnológicas sin ventas faltan algunas partidas: se puntúa con las que hay. Datos públicos de Yahoo Finance; pueden tener errores.</p>
       <h2>Aviso ⚠️ de resultados pendientes</h2>
       <p>Si la empresa presenta resultados <b>después</b> de la subida (tras el cierre o en los próximos días), la tarjeta lo avisa. Es una apuesta binaria: el día de resultados la acción puede moverse un 10-20 % en cualquier sentido.</p>
       <h2>Repetidoras y «Aguantan la subida»</h2>
@@ -182,13 +211,16 @@
     </section>
   </main>
 
+  <dialog id="fund-dialog" class="fund-dialog" aria-label="Ficha financiera"><div class="fund-body"></div></dialog>
+
   <footer class="foot">
     <span id="updated"></span>
     <span>Uso personal · No es asesoramiento financiero</span>
   </footer>
 
-  <script src="app.js"></script>
-  <script src="lab-engine.js"></script>
-  <script src="lab.js"></script>
+  <script src="app.js?v=2026-11-04"></script>
+  <script src="lab-engine.js?v=2026-11-04"></script>
+  <script src="lab.js?v=2026-11-04"></script>
+  <script src="fund.js?v=2026-11-04"></script>
 </body>
 </html>

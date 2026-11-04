@@ -3,13 +3,14 @@
    Usa utilidades de app.js: $, esc, fmtPct, signCls, fmtDate, getJSON, rowsWithMore. */
 
 const LAB_DEFAULT = {
-  cats: [], ath: [], scoreMin: null, scoreMax: null, chgMin: null, chgMax: null, rvolMin: null, rvolMax: null,
+  cats: [], ath: [], quality: [], scoreMin: null, scoreMax: null, chgMin: null, chgMax: null, rvolMin: null, rvolMax: null,
   rankMin: null, rankMax: null, closeMin: null, closeMax: null, market: "any",
   repeatOnly: false, entry: "next_open", gapMin: null, gapMax: null,
   target: null, stop: null, days: 5, cost: 0.2, sameBar: "stop",
+  capital: 10000, sizing: "pct", size: 10, maxPos: 10, commission: 1,
 };
 const LAB_NUM = ["scoreMin", "scoreMax", "chgMin", "chgMax", "rvolMin", "rvolMax", "rankMin", "rankMax", "closeMin", "closeMax",
-  "gapMin", "gapMax", "target", "stop", "days", "cost"];
+  "gapMin", "gapMax", "target", "stop", "days", "cost", "capital", "size", "maxPos", "commission"];
 
 const LAB_PRESETS = [
   { name: "Todo el top · 5 sesiones", rule: {} },
@@ -18,6 +19,7 @@ const LAB_PRESETS = [
   { name: "Sin analistas ni pre-resultados", rule: { cats: ["earnings_guidance", "earnings", "fda", "contract", "capital", "corporate", "sector", "acquisition", "takeover"] } },
   { name: "Rupturas y cerca de máximos", rule: { ath: ["new_ath", "near"], stop: 5, days: 10 } },
   { name: "Sin perseguir huecos (máx. +3%)", rule: { gapMax: 3, target: 5, stop: 4, days: 5 } },
+  { name: "Solo empresas de calidad (A o B)", rule: { quality: ["A", "B"], target: 3, stop: 5, days: 5 } },
 ];
 
 const ATH_LABELS = {
@@ -45,9 +47,13 @@ function labRuleFromForm() {
   r.entry = f.elements.entry.value;
   r.sameBar = f.elements.sameBar.value;
   r.market = f.elements.market.value;
+  r.sizing = f.elements.sizing.value;
+  for (const [k, d] of [["capital", 10000], ["size", 10], ["maxPos", 10], ["commission", 0]]) if (r[k] == null || r[k] < 0) r[k] = d;
+  if (r.maxPos < 1) r.maxPos = 1;
   r.repeatOnly = f.elements.repeatOnly.checked;
   r.cats = [...document.querySelectorAll("#lab-catalysts input:checked")].map((i) => i.value);
   r.ath = [...document.querySelectorAll("#lab-ath input:checked")].map((i) => i.value);
+  r.quality = [...document.querySelectorAll("#lab-quality input:checked")].map((i) => i.value);
   return r;
 }
 
@@ -57,12 +63,15 @@ function labRuleToForm(r) {
   f.elements.entry.value = r.entry;
   f.elements.sameBar.value = r.sameBar;
   f.elements.market.value = r.market || "any";
+  f.elements.sizing.value = r.sizing || "pct";
+  $("#lab-size-label").textContent = f.elements.sizing.value === "fixed" ? "$ por operación" : "% por operación";
   // abre "Más filtros" si alguno está en uso, para que no queden filtros activos escondidos
   const more = ["scoreMax", "rvolMax", "rankMin", "closeMin", "closeMax"].some((k) => r[k] != null) || (r.market && r.market !== "any");
   if (more) document.querySelector(".lab-more").open = true;
   f.elements.repeatOnly.checked = !!r.repeatOnly;
   document.querySelectorAll("#lab-catalysts input").forEach((i) => (i.checked = r.cats.includes(i.value)));
   document.querySelectorAll("#lab-ath input").forEach((i) => (i.checked = r.ath.includes(i.value)));
+  document.querySelectorAll("#lab-quality input").forEach((i) => (i.checked = (r.quality || []).includes(i.value)));
 }
 
 // La regla se guarda en la dirección (#lab=...) para poder volver a ella o guardarla en favoritos
@@ -83,6 +92,7 @@ function labLoadFromUrl() {
 function labFilter(p, r) {
   if (r.cats.length && !r.cats.includes(p.catalyst)) return false;
   if (r.ath.length && !r.ath.includes(p.ath_status || "none")) return false;
+  if (r.quality?.length && !r.quality.includes(p.quality || "none")) return false;
   if (r.scoreMin != null && p.score < r.scoreMin) return false;
   if (r.scoreMax != null && p.score > r.scoreMax) return false;
   if (r.rvolMax != null && p.rvol > r.rvolMax) return false;
@@ -109,7 +119,7 @@ function labRun(r, onlyFiltered = true) {
   for (const p of picks) {
     const path = LAB.paths[`${p.date}|${p.symbol}`];
     if (!path) { noPath++; continue; }
-    trades.push({ ...LabEngine.simulateTrade(path, r), pick: p });
+    trades.push({ ...LabEngine.simulateTrade(path, r), pick: p, path });
   }
   return {
     picks: picks.length, noPath, trades,
@@ -201,7 +211,7 @@ function labTradesTable(trades) {
   const closed = trades.filter((t) => t.status === "closed").sort((a, b) => b.entryDate.localeCompare(a.entryDate));
   if (!closed.length) return "";
   const rows = closed.map((t) => `
-    <tr><td>${esc(t.pick.date)}</td><td><b>${esc(t.pick.symbol)}</b></td><td>${esc(t.pick.catalyst_label)}</td>
+    <tr><td>${esc(t.pick.date)}</td><td><button type="button" class="sym-link" data-fund="${esc(t.pick.symbol)}">${esc(t.pick.symbol)}</button></td><td>${esc(t.pick.catalyst_label)}</td>
       <td class="r num ${signCls(t.gap)}" title="Apertura del día siguiente frente al cierre del día de la subida">${t.gap == null ? "—" : f1(t.gap)}</td>
       <td class="r num">${t.entry.toFixed(2)}</td><td class="r num">${t.exit.toFixed(2)}</td>
       <td class="r num">${t.days}</td><td>${esc(REASONS[t.reason])}${t.ambiguous ? ' <span class="dim" title="Tocó objetivo y stop el mismo día">*</span>' : ""}</td>
@@ -215,6 +225,40 @@ function labTradesTable(trades) {
     </table></div>`;
 }
 
+/* ---------- Simulación con dinero ---------- */
+
+const usd = (v, dec = 0) => `${v < 0 ? "−" : ""}${Math.abs(v).toLocaleString("es-ES", { minimumFractionDigits: dec, maximumFractionDigits: dec })} $`;
+
+function labMoney(trades, r) {
+  const m = LabEngine.simulatePortfolio(trades, {
+    capital: r.capital, sizing: r.sizing, size: r.size, maxPos: r.maxPos, commission: r.commission, slip: r.cost,
+  });
+  if (!m.executed.length) return `<h3 class="section-title">💰 Simulación con ${usd(r.capital)}</h3><p class="hint">Ninguna operación se pudo ejecutar con este capital y tamaño.</p>`;
+  const skipped = m.skippedCash + m.skippedMax;
+  const rows = [...m.executed].sort((a, b) => b.t.exitDate.localeCompare(a.t.exitDate)).map((e) => `
+    <tr><td>${esc(e.t.entryDate)}</td><td>${esc(e.t.exitDate)}</td><td><button type="button" class="sym-link" data-fund="${esc(e.t.pick.symbol)}">${esc(e.t.pick.symbol)}</button></td>
+      <td class="r num">${e.shares}</td><td class="r num">${e.t.entry.toFixed(2)}</td><td class="r num">${e.t.exit.toFixed(2)}</td>
+      <td class="r num">${usd(e.invested)}</td><td class="r num"><b class="${signCls(e.pnl)}">${usd(e.pnl, 2)}</b></td>
+      <td class="r num ${signCls(e.pnlPct)}">${f2(e.pnlPct)}</td></tr>`);
+  return `
+    <h3 class="section-title">💰 Simulación con ${usd(r.capital)}</h3>
+    <div class="kpis">
+      ${kpi("Capital final", usd(m.final), `${m.pnl >= 0 ? "ganado" : "perdido"} ${usd(Math.abs(m.pnl))}`, signCls(m.pnl))}
+      ${kpi("Rentabilidad", f2(m.ret), `del ${fmtDate(m.from)} al ${fmtDate(m.to)}`, signCls(m.ret))}
+      ${kpi("Peor caída", f1(m.maxDD), `${usd(m.maxDDabs)} desde el máximo`, "neg")}
+      ${kpi("Operaciones hechas", m.executed.length, `${m.winRate.toFixed(0)}% ganadoras`)}
+      ${kpi("Señales saltadas", skipped, `${m.skippedCash} por falta de dinero · ${m.skippedMax} por máx. posiciones`)}
+      ${kpi("Capital invertido de media", `${m.exposure.toFixed(0)}%`, "el resto, en efectivo")}
+      ${kpi("Comisiones pagadas", usd(m.commissions, 2), `${r.commission} $ por orden`)}
+    </div>
+    <p class="hint">Cuenta al contado, sin apalancamiento: nunca se invierte más dinero del que hay. La peor caída se mide con el valor de la cartera al cierre de cada día, incluidas las posiciones abiertas.${skipped ? " Las señales saltadas son normales: con dinero limitado no se puede entrar en todo." : ""}</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Compra</th><th>Venta</th><th>Acción</th><th class="r">Acciones</th><th class="r">Precio compra</th><th class="r">Precio venta</th>
+        <th class="r">Invertido</th><th class="r">Resultado</th><th class="r">%</th></tr></thead>
+      <tbody>${rowsWithMore(rows, 10, "operaciones")}</tbody>
+    </table></div>`;
+}
+
 /* ---------- Explorador: ¿qué tienen en común las ganadoras? ---------- */
 
 const rng = (lo, hi) => (v) => v != null && (lo == null || v >= lo) && (hi == null || v < hi);
@@ -225,6 +269,8 @@ const mkt = (m) => (p) => p.spy_change != null && (m === "up" ? p.spy_change > 0
 const EXPLORE = [
   { name: "Catalizador", dynamic: "catalyst" },
   { name: "Máximo histórico", dynamic: "ath" },
+  { name: "Calidad de la empresa", groups: ["A", "B", "C", "none"].map((g) =>
+    [g === "none" ? "Sin nota" : `Calidad ${g}`, (t) => (t.pick.quality || "none") === g, { quality: [g] }]) },
   { name: "Puntuación", groups: [
     ["Menos de 40", (t) => rng(null, 40)(t.pick.score), { scoreMin: null, scoreMax: 39.99 }],
     ["40 a 55", (t) => rng(40, 55)(t.pick.score), { scoreMin: 40, scoreMax: 54.99 }],
@@ -310,6 +356,7 @@ function labDescribe(r) {
   const parts = [];
   if (r.cats.length) parts.push(r.cats.map((k) => LAB.picks.find((p) => p.catalyst === k)?.catalyst_label || k).join(" o "));
   if (r.ath.length) parts.push(r.ath.map((k) => ATH_LABELS[k]).join(" o "));
+  if (r.quality?.length) parts.push("calidad " + r.quality.map((g) => (g === "none" ? "sin nota" : g)).join(" o "));
   const range = (name, lo, hi, u = "") => (lo != null || hi != null) &&
     parts.push(`${name} ${lo != null ? `≥ ${lo}${u}` : ""}${lo != null && hi != null ? " y " : ""}${hi != null ? `≤ ${hi}${u}` : ""}`);
   range("puntuación", r.scoreMin, r.scoreMax); range("subida", r.chgMin, r.chgMax, "%"); range("vol. relativo", r.rvolMin, r.rvolMax, "×");
@@ -338,6 +385,7 @@ function labSaveRule(r, s) {
 
 function labRender() {
   const r = labRuleFromForm();
+  $("#lab-size-label").textContent = r.sizing === "fixed" ? "$ por operación" : "% por operación";
   labSaveToUrl(r);
   const res = labRun(r), base = labRun(r, false), s = res.s;
   const notes = [
@@ -366,6 +414,7 @@ function labRender() {
     </div>
     <p class="hint">Salidas: ${reasons}${s.ambiguous ? ` · <span title="Tocaron objetivo y stop el mismo día">${s.ambiguous} con objetivo y stop el mismo día (*)</span>` : ""}</p>
     ${base.s.n ? `<p class="hint">Referencia: con la misma entrada y salida, operar <b>todo el top</b> sin filtros da <b class="${signCls(base.s.expectancy)}">${f2(base.s.expectancy)}</b> por operación (${base.s.winRate.toFixed(0)}% de aciertos, ${base.s.n} operaciones).</p>` : ""}
+    ${labMoney(res.trades, r)}
     ${labChart(s.curve)}
     ${labExplore(res.trades, r)}
     ${labTradesTable(res.trades)}`;
@@ -408,7 +457,7 @@ function labResultsClick(e) {
 // Convierte una tarjeta del día en el mismo formato que una selección del histórico
 function labTodayPick(r, i, day) {
   return {
-    catalyst: r.catalyst?.type, ath_status: r.ath?.status, score: r.score, change_pct: r.change_pct, rvol: r.rvol,
+    catalyst: r.catalyst?.type, ath_status: r.ath?.status, quality: r.quality?.grade, score: r.score, change_pct: r.change_pct, rvol: r.rvol,
     rank: i + 1, appearance: r.appearance?.count || 1, close_strength: r.close_strength,
     spy_change: day?.market?.SPY?.change_pct,
   };
@@ -461,6 +510,8 @@ async function loadLab() {
   const count = (fn) => LAB.picks.reduce((m, p) => { const k = fn(p); m[k] = (m[k] || 0) + 1; return m; }, {});
   const cats = count((p) => p.catalyst), labels = Object.fromEntries(LAB.picks.map((p) => [p.catalyst, p.catalyst_label]));
   labChips($("#lab-catalysts"), Object.entries(cats).sort((a, b) => b[1] - a[1]).map(([k, n]) => [k, labels[k], n]), "cats");
+  const quals = count((p) => p.quality || "none");
+  labChips($("#lab-quality"), ["A", "B", "C", "none"].filter((g) => quals[g]).map((g) => [g, g === "none" ? "Sin nota" : `Calidad ${g}`, quals[g]]), "quality");
   const aths = count((p) => p.ath_status || "none");
   labChips($("#lab-ath"), Object.keys(ATH_LABELS).filter((k) => aths[k]).map((k) => [k, ATH_LABELS[k], aths[k]]), "ath");
 
