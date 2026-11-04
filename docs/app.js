@@ -77,6 +77,7 @@ function renderSummary(d) {
   $("#summary").innerHTML = `
     <span class="pill">Última sesión cerrada: <b>${esc(fmtDate(d.date))}</b></span>
     ${isLatest && !provisional ? `<span class="pill" title="El escaneo se lanza 30 min después del cierre de Wall Street (22:00 h en España); GitHub suele retrasarlo 1-3 horas">Próxima: <b>${esc(fmtDate(nextSession(d.date)))}</b>, de madrugada (≈ 23:00–02:30 h)</span>` : ""}
+    ${typeof labTodaySummary === "function" ? labTodaySummary(d) : ""}
     ${marketPill(d.market)}
     <span class="pill"><b>${d.universe.raw_gainers}</b> suben &gt;${f.min_change_pct}% · <b>${d.universe.passed_filters}</b> pasan filtros</span>
     <span class="pill">Cap. &gt; ${fmtMoney(f.min_market_cap)} · Precio &gt; ${f.min_price}$ · RVOL &gt; ${f.min_rvol}</span>
@@ -133,6 +134,11 @@ function rowsWithMore(rows, limit, noun) {
     `<tr class="more-toggle"><td colspan="99"><button type="button">Ver ${rows.length - limit} ${noun} más</button></td></tr>`;
 }
 document.addEventListener("click", (e) => {
+  if (e.target.id === "rule-only-btn") {
+    const on = $("#cards").classList.toggle("rule-only");
+    e.target.textContent = on ? "ver todas" : "ver solo esas";
+    return;
+  }
   const btn = e.target.closest(".more-toggle button");
   if (!btn) return;
   const tbody = btn.closest("tbody");
@@ -163,7 +169,10 @@ function renderHolders(h) {
     </tbody>`;
 }
 
+let CURRENT_DAY = null;  // día mostrado (lo usa el plan de la regla guardada)
+
 function card(r, i) {
+  const plan = typeof labTodayPlan === "function" ? labTodayPlan(r, i, CURRENT_DAY) : "";  // lab.js
   const c = r.catalyst;
   const sym = encodeURIComponent(r.symbol);
   const news = (r.news || []).slice(0, 3).map((n) => `
@@ -172,7 +181,7 @@ function card(r, i) {
   const metric = (k, v, cls = "") => `<div class="metric"><span class="k">${k}</span><span class="v num ${cls}">${v}</span></div>`;
 
   return `
-  <article class="card">
+  <article class="card${plan ? " has-rule" : ""}">
     <div class="card-head">
       <div style="min-width:0">
         <div class="ticker"><span class="rank">${i + 1}</span><span class="symbol">${esc(r.symbol)}</span>${athBadge(r.ath)}${repeatBadge(r.appearance)}</div>
@@ -189,6 +198,7 @@ function card(r, i) {
       <span class="note">${esc(c.note)}</span>
     </div>
     ${earningsWarning(r.earnings_event)}
+    ${plan}
 
     ${scoreBar(r)}
 
@@ -213,9 +223,10 @@ function card(r, i) {
 
 async function loadDay(date) {
   const d = await getJSON(date ? `daily/${date}.json` : "latest.json");
+  CURRENT_DAY = d;
   renderSummary(d);
   $("#cards").innerHTML = d.top.length
-    ? d.top.map(card).join("")
+    ? d.top.map((r, i) => card(r, i)).join("")
     : `<p class="empty">Ninguna acción cumplió todos los filtros en esta sesión.</p>`;
   renderHolders(d.holding_up);
   fillHelp(d);
@@ -318,6 +329,8 @@ function setupTabs() {
     document.querySelectorAll(".tabs button").forEach((b) => b.setAttribute("aria-selected", b === btn));
     document.querySelectorAll(".tab-panel").forEach((p) => (p.hidden = p.id !== `tab-${tab}`));
     $("#date-select").parentElement.style.visibility = tab === "today" ? "visible" : "hidden";
+    // la regla del Laboratorio vive en la dirección (#lab=...); al salir de él se limpia para no volver ahí al recargar
+    if (tab !== "lab" && location.hash.startsWith("#lab")) history.replaceState(null, "", location.pathname + location.search);
     if (loaders[tab] && !loaded[tab]) { loaded[tab] = true; loaders[tab](); }
   }));
 }

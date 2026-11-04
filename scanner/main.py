@@ -104,7 +104,7 @@ def run(save_history: bool = True):
     print(f"  Guardado top {len(top)} del {scan_date}")
 
     if save_history:
-        h = history.add_picks(h, scan_date, top)
+        h = history.add_picks(h, scan_date, top, market)
         h = history.update_returns(h, date.fromisoformat(scan_date))
         history.save(h)
         history.compute_stats(h)

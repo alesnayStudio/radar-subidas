@@ -114,7 +114,7 @@
     "label": "Resultados + mejora de previsiones",
     "quality": 1.0,
     "note": "El catalizador con más continuidad histórica (post-earnings drift).",
-    "confidence": 0.2
+    "confidence": 0.3
    },
    "earnings_event": {
     "timing": "reported",
@@ -223,7 +223,7 @@
     "label": "Resultados trimestrales",
     "quality": 0.85,
     "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 0.3
+    "confidence": 0.33
    },
    "earnings_event": null,
    "score_parts": {
@@ -329,7 +329,7 @@
     "label": "Resultados + mejora de previsiones",
     "quality": 1.0,
     "note": "El catalizador con más continuidad histórica (post-earnings drift).",
-    "confidence": 0.15
+    "confidence": 0.18
    },
    "earnings_event": null,
    "score_parts": {
@@ -544,7 +544,7 @@
     "label": "Resultados + mejora de previsiones",
     "quality": 1.0,
     "note": "El catalizador con más continuidad histórica (post-earnings drift).",
-    "confidence": 0.5
+    "confidence": 0.6
    },
    "earnings_event": {
     "timing": "reported",
@@ -653,7 +653,7 @@
     "label": "Resultados + mejora de previsiones",
     "quality": 1.0,
     "note": "El catalizador con más continuidad histórica (post-earnings drift).",
-    "confidence": 0.06
+    "confidence": 0.09
    },
    "earnings_event": null,
    "score_parts": {
@@ -759,7 +759,7 @@
     "label": "Resultados + mejora de previsiones",
     "quality": 1.0,
     "note": "El catalizador con más continuidad histórica (post-earnings drift).",
-    "confidence": 0.12
+    "confidence": 0.15
    },
    "earnings_event": null,
    "score_parts": {
@@ -1079,7 +1079,7 @@
     "label": "Resultados trimestrales",
     "quality": 0.85,
     "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 0.36
+    "confidence": 0.39
    },
    "earnings_event": null,
    "score_parts": {

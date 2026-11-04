@@ -33,7 +33,7 @@ def main():
             timing, at = catalysts.earnings_timing(r["earnings_ts"], r["market_date"])
             r["earnings_event"] = {"timing": timing, "at": at} if timing else None
             r["score"], r["score_parts"] = scoring.score(r, r["catalyst"]["quality"])
-            labels[(day["date"], r["symbol"])] = r
+            labels[(day["date"], r["symbol"])] = {**r, "_spy": ((day.get("market") or {}).get("SPY") or {}).get("change_pct")}
             if old != r["catalyst"]["type"]:
                 print(f"  {day['date']} {r['symbol']:6} {old} -> {r['catalyst']['type']}")
         f.write_text(json.dumps(day, indent=1, ensure_ascii=False), encoding="utf-8")
@@ -44,7 +44,8 @@ def main():
         if r:
             p.update(catalyst=r["catalyst"]["type"], catalyst_label=r["catalyst"]["label"], score=r["score"],
                      ath_status=(r.get("ath") or {}).get("status"),
-                     pct_from_ath=(r.get("ath") or {}).get("pct_from_ath"))
+                     pct_from_ath=(r.get("ath") or {}).get("pct_from_ath"),
+                     close_strength=r.get("close_strength"), spy_change=r["_spy"])
 
     last = files[-1].stem
     h = history.update_returns(h, date.fromisoformat(last))

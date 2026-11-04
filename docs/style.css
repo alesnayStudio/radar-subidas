@@ -238,3 +238,23 @@ tr:last-child td { border-bottom: 0; }
   .metrics { grid-template-columns: repeat(2, 1fr); }
   .symbol { font-size: 18px; }
 }
+
+/* Regla guardada */
+.lab-save { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 4px 0 12px; font-size: 13px; }
+.lab-save button, .lab-apply, .rule-pill button {
+  background: var(--panel-2); color: var(--accent); border: 1px solid var(--border); border-radius: 8px;
+  padding: 5px 10px; font: inherit; font-size: 12px; cursor: pointer;
+}
+.lab-save button:disabled { color: var(--q-high); cursor: default; }
+#lab-save-btn:not(:disabled) { border-color: var(--accent); font-weight: 700; }
+.lab-more { margin-top: 10px; }
+.lab-more summary { cursor: pointer; font-size: 13px; color: var(--accent); margin-bottom: 8px; }
+.lab-explore tr.group-start td { border-top: 2px solid var(--border); }
+.rule-box {
+  font-size: 13px; line-height: 1.45; padding: 8px 10px; border-radius: 8px;
+  background: color-mix(in srgb, var(--accent) 10%, transparent); border-left: 3px solid var(--accent);
+}
+.card.has-rule { border-color: var(--accent); }
+.rule-pill { border-color: var(--accent); color: var(--text); }
+.rule-pill button { margin-left: 4px; padding: 1px 8px; }
+.cards.rule-only .card:not(.has-rule) { display: none; }

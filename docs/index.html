@@ -97,6 +97,22 @@
             <label>Puesto en el top (hasta)<input type="number" name="rankMax" min="1" max="10" step="1" placeholder="—"></label>
             <label class="check"><input type="checkbox" name="repeatOnly"> Solo repetidoras</label>
           </div>
+          <details class="lab-more">
+            <summary>Más filtros</summary>
+            <div class="lab-row">
+              <label>Puntuación máxima<input type="number" name="scoreMax" min="0" max="100" step="5" placeholder="—"></label>
+              <label>Vol. relativo máx.<input type="number" name="rvolMax" min="0" step="0.5" placeholder="—"></label>
+              <label>Puesto en el top (desde)<input type="number" name="rankMin" min="1" max="10" step="1" placeholder="—"></label>
+              <label title="Dónde cerró dentro del rango del día: 100% = en el máximo, 0% = en el mínimo">Cierre en el rango del día mín. %<input type="number" name="closeMin" min="0" max="100" step="10" placeholder="—"></label>
+              <label title="Dónde cerró dentro del rango del día: 100% = en el máximo, 0% = en el mínimo">Cierre en el rango del día máx. %<input type="number" name="closeMax" min="0" max="100" step="10" placeholder="—"></label>
+              <label title="Variación del S&amp;P 500 el día de la subida">Mercado ese día<select name="market">
+                <option value="any">Cualquiera</option>
+                <option value="up">Alcista (S&amp;P &gt; +0,5%)</option>
+                <option value="flat">Plano (±0,5%)</option>
+                <option value="down">Bajista (S&amp;P &lt; −0,5%)</option>
+              </select></label>
+            </div>
+          </details>
         </fieldset>
         <fieldset>
           <legend>2. Entrada</legend>
@@ -156,6 +172,10 @@
       </ul>
       <h2>Laboratorio de estrategias</h2>
       <p>Prueba reglas de entrada y salida (objetivo, stop-loss, tiempo máximo, filtros) con los precios reales de las selecciones del radar. La regla queda guardada en la dirección de la página, así que puedes añadirla a favoritos. Mira siempre el <b>margen</b>: con pocas operaciones, una estrategia puede parecer buena por pura suerte.</p>
+      <ul>
+        <li><b>🔍 Explorador:</b> separa los resultados por cada característica (catalizador, volumen, cierre del día, hueco de apertura, mercado…) para ver qué tienen en común las ganadoras. El botón «Aplicar» añade ese grupo como filtro.</li>
+        <li><b>⭐ Usar esta regla en el Top del día:</b> cada día se marcan las acciones que la cumplen, con el plan concreto: entre qué precios debe abrir para entrar, objetivo, stop y tiempo máximo. Se guarda solo en este navegador.</li>
+      </ul>
       <h2>Cómo usarlo</h2>
       <p>No es una lista de compra. Es un radar para saber <b>qué se mueve y por qué</b>, y la pestaña de Estadísticas te dirá con el tiempo qué tipo de subidas suelen continuar y cuáles se desinflan.</p>
       <p class="disclaimer">Herramienta personal de análisis. No es asesoramiento financiero. Datos gratuitos de Yahoo Finance y Google News con posible retraso o errores.</p>
