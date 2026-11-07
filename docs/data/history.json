@@ -2900,12 +2900,12 @@
    "pct_from_ath": -68.79,
    "returns": {
     "1": 2.47,
-    "5": null,
+    "5": -1.95,
     "20": null
    },
    "excess": {
     "1": 2.95,
-    "5": null,
+    "5": 0.75,
     "20": null
    },
    "close_strength": 0.99,
@@ -2928,12 +2928,12 @@
    "pct_from_ath": -23.39,
    "returns": {
     "1": 3.6,
-    "5": null,
+    "5": -2.54,
     "20": null
    },
    "excess": {
     "1": 4.08,
-    "5": null,
+    "5": 0.16,
     "20": null
    },
    "close_strength": 0.92,
@@ -2956,12 +2956,12 @@
    "pct_from_ath": -56.14,
    "returns": {
     "1": 2.88,
-    "5": null,
+    "5": 0.58,
     "20": null
    },
    "excess": {
     "1": 3.36,
-    "5": null,
+    "5": 3.28,
     "20": null
    },
    "close_strength": 0.75,
@@ -2984,12 +2984,12 @@
    "pct_from_ath": -12.44,
    "returns": {
     "1": -1.75,
-    "5": null,
+    "5": -10.12,
     "20": null
    },
    "excess": {
     "1": -1.27,
-    "5": null,
+    "5": -7.42,
     "20": null
    },
    "close_strength": 0.64,
@@ -3012,12 +3012,12 @@
    "pct_from_ath": -36.98,
    "returns": {
     "1": 4.61,
-    "5": null,
+    "5": -1.97,
     "20": null
    },
    "excess": {
     "1": 5.09,
-    "5": null,
+    "5": 0.73,
     "20": null
    },
    "close_strength": 0.82,
@@ -3040,12 +3040,12 @@
    "pct_from_ath": -5.8,
    "returns": {
     "1": 1.29,
-    "5": null,
+    "5": 0.13,
     "20": null
    },
    "excess": {
     "1": 1.77,
-    "5": null,
+    "5": 2.83,
     "20": null
    },
    "close_strength": 1.0,
@@ -3068,12 +3068,12 @@
    "pct_from_ath": -81.51,
    "returns": {
     "1": 7.33,
-    "5": null,
+    "5": 9.96,
     "20": null
    },
    "excess": {
     "1": 7.81,
-    "5": null,
+    "5": 12.66,
     "20": null
    },
    "close_strength": 0.7,
@@ -3096,12 +3096,12 @@
    "pct_from_ath": -93.22,
    "returns": {
     "1": 8.47,
-    "5": null,
+    "5": 11.92,
     "20": null
    },
    "excess": {
     "1": 8.95,
-    "5": null,
+    "5": 14.62,
     "20": null
    },
    "close_strength": 0.85,
@@ -3124,12 +3124,12 @@
    "pct_from_ath": -43.42,
    "returns": {
     "1": 2.37,
-    "5": null,
+    "5": 3.56,
     "20": null
    },
    "excess": {
     "1": 2.85,
-    "5": null,
+    "5": 6.26,
     "20": null
    },
    "close_strength": 0.73,
@@ -3152,12 +3152,12 @@
    "pct_from_ath": -45.72,
    "returns": {
     "1": -0.54,
-    "5": null,
+    "5": -2.44,
     "20": null
    },
    "excess": {
     "1": -0.06,
-    "5": null,
+    "5": 0.26,
     "20": null
    },
    "close_strength": 0.94,
@@ -4022,12 +4022,12 @@
    "spy_change": -4.41,
    "quality": "A",
    "returns": {
-    "1": null,
+    "1": 9.86,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 9.55,
     "5": null,
     "20": null
    }
@@ -4050,12 +4050,12 @@
    "spy_change": -4.41,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": 8.81,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 8.5,
     "5": null,
     "20": null
    }
@@ -4078,12 +4078,12 @@
    "spy_change": -4.41,
    "quality": "A",
    "returns": {
-    "1": null,
+    "1": -3.63,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -3.94,
     "5": null,
     "20": null
    }
@@ -4106,12 +4106,12 @@
    "spy_change": -4.41,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": 16.21,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 15.9,
     "5": null,
     "20": null
    }
@@ -4134,12 +4134,12 @@
    "spy_change": -4.41,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": 5.51,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 5.2,
     "5": null,
     "20": null
    }
@@ -4162,12 +4162,12 @@
    "spy_change": -4.41,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": -0.47,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -0.78,
     "5": null,
     "20": null
    }
@@ -4190,12 +4190,12 @@
    "spy_change": -4.41,
    "quality": "A",
    "returns": {
-    "1": null,
+    "1": 5.48,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 5.17,
     "5": null,
     "20": null
    }
@@ -4218,12 +4218,12 @@
    "spy_change": -4.41,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": -2.3,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -2.61,
     "5": null,
     "20": null
    }
@@ -4246,12 +4246,12 @@
    "spy_change": -4.41,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": -3.86,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -4.17,
     "5": null,
     "20": null
    }
@@ -4273,6 +4273,286 @@
    "close_strength": 0.97,
    "spy_change": -4.41,
    "quality": "A",
+   "returns": {
+    "1": -9.53,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": -9.84,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "symbol": "TMDX",
+   "name": "TransMedics Group, Inc.",
+   "rank": 1,
+   "score": 80.2,
+   "price": 88.24,
+   "change_pct": 27.92,
+   "rvol": 4.87,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -50.25,
+   "close_strength": 0.98,
+   "spy_change": 0.31,
+   "quality": "A",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "symbol": "FROG",
+   "name": "JFrog Ltd.",
+   "rank": 2,
+   "score": 74.4,
+   "price": 100.98,
+   "change_pct": 35.33,
+   "rvol": 3.65,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "near",
+   "pct_from_ath": -4.52,
+   "close_strength": 0.91,
+   "spy_change": 0.31,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "symbol": "FLY",
+   "name": "Firefly Aerospace Inc.",
+   "rank": 3,
+   "score": 69.7,
+   "price": 20.76,
+   "change_pct": 36.8,
+   "rvol": 4.4,
+   "catalyst": "contract",
+   "catalyst_label": "Contrato / alianza",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -71.87,
+   "close_strength": 0.97,
+   "spy_change": 0.31,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "symbol": "KRMN",
+   "name": "Karman Holdings Inc.",
+   "rank": 4,
+   "score": 69.7,
+   "price": 45.61,
+   "change_pct": 42.13,
+   "rvol": 3.08,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -61.47,
+   "close_strength": 0.98,
+   "spy_change": 0.31,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "symbol": "ARDT",
+   "name": "Ardent Health, Inc.",
+   "rank": 5,
+   "score": 68.4,
+   "price": 17.3,
+   "change_pct": 8.81,
+   "rvol": 7.56,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 2,
+   "ath_status": "mid",
+   "pct_from_ath": -16.51,
+   "close_strength": 0.82,
+   "spy_change": 0.31,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "symbol": "QNT",
+   "name": "Quantinuum Inc.",
+   "rank": 6,
+   "score": 67.1,
+   "price": 37.57,
+   "change_pct": 25.99,
+   "rvol": 2.58,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -56.71,
+   "close_strength": 0.94,
+   "spy_change": 0.31,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "symbol": "RYTM",
+   "name": "Rhythm Pharmaceuticals, Inc.",
+   "rank": 7,
+   "score": 65.8,
+   "price": 112.28,
+   "change_pct": 6.91,
+   "rvol": 5.4,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 2,
+   "ath_status": "mid",
+   "pct_from_ath": -8.12,
+   "close_strength": 0.89,
+   "spy_change": 0.31,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "symbol": "CGON",
+   "name": "CG Oncology, Inc.",
+   "rank": 8,
+   "score": 65.4,
+   "price": 75.99,
+   "change_pct": 17.27,
+   "rvol": 4.12,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -6.15,
+   "close_strength": 0.7,
+   "spy_change": 0.31,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "symbol": "LION",
+   "name": "Lionsgate Studios Corp.",
+   "rank": 9,
+   "score": 63.9,
+   "price": 14.24,
+   "change_pct": 13.38,
+   "rvol": 4.25,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -14.73,
+   "close_strength": 0.96,
+   "spy_change": 0.31,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-06",
+   "symbol": "MBLY",
+   "name": "Mobileye Global Inc.",
+   "rank": 10,
+   "score": 61.9,
+   "price": 5.73,
+   "change_pct": 11.7,
+   "rvol": 3.48,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -88.09,
+   "close_strength": 0.96,
+   "spy_change": 0.31,
+   "quality": "B",
    "returns": {
     "1": null,
     "5": null,
