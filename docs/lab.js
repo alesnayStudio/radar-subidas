@@ -20,6 +20,8 @@ const LAB_PRESETS = [
   { name: "Rupturas y cerca de máximos", rule: { ath: ["new_ath", "near"], stop: 5, days: 10 } },
   { name: "Sin perseguir huecos (máx. +3%)", rule: { gapMax: 3, target: 5, stop: 4, days: 5 } },
   { name: "Solo empresas de calidad (A o B)", rule: { quality: ["A", "B"], target: 3, stop: 5, days: 5 } },
+  // Candidata de la auditoría del 8-nov: se mantuvo en las dos mitades del periodo (validar con datos nuevos)
+  { name: "Resultados + cierre fuerte · +3%/−5%/3s", rule: { cats: ["earnings", "earnings_guidance"], closeMin: 80, chgMax: 24.99, target: 3, stop: 5, days: 3 } },
 ];
 
 const ATH_LABELS = {

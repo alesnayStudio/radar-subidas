@@ -71,6 +71,17 @@ class Catalysts(unittest.TestCase):
             "LCI Industries Pops On An Unlikely Buyout Offer (Upgrade) (NYSE:LCII)",
             "Roth MKM Maintains LCI Industries(LCII.US) With Buy Rating, Cuts Target Price to $112"]), "takeover")
 
+    def test_takeover_offer_beats_same_day_earnings(self):  # RYTM 4-nov
+        self.assertEqual(kind("RYTM", "Rhythm Pharmaceuticals, Inc.", [
+            "AstraZeneca made $10 billion offer for obesity drugmaker Rhythm, sources say",
+            "AstraZeneca Weighs Roughly $10 Billion Takeover of Rhythm Pharmaceuticals, Sending Shares Up 28%",
+            "Rhythm Pharmaceuticals Q3 2026 Earnings Call Transcript"],
+            earnings="2026-11-04 08:30", day="2026-11-04"), "takeover")
+
+    def test_second_bidder_is_takeover(self):  # RYTM 6-nov
+        self.assertEqual(kind("RYTM", "Rhythm Pharmaceuticals, Inc.", [
+            "Rhythm Pharmaceuticals (RYTM) Shares Rise Amid Reports of Second Bidder Interest"]), "takeover")
+
     def test_maintained_rating_is_not_an_upgrade(self):
         self.assertNotEqual(kind("CORZ", "Core Scientific, Inc.", [
             "BTIG reiterates Buy rating on Core Scientific, $38 price target"]), "analyst")

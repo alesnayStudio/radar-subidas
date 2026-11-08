@@ -344,7 +344,7 @@
     "label": "Contrato / alianza",
     "quality": 0.6,
     "note": "Valora el tamaño del contrato frente a los ingresos de la empresa.",
-    "confidence": 0.6
+    "confidence": 0.9
    },
    "earnings_event": {
     "timing": "upcoming",
@@ -459,7 +459,7 @@
     "label": "Resultados trimestrales",
     "quality": 0.85,
     "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 1.0
+    "confidence": 1
    },
    "earnings_event": {
     "timing": "reported",
@@ -691,7 +691,7 @@
     "label": "Resultados trimestrales",
     "quality": 0.85,
     "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 1.0
+    "confidence": 1
    },
    "earnings_event": {
     "timing": "reported",
@@ -750,31 +750,13 @@
    "market_time": 1793998800,
    "market_date": "2026-11-06",
    "market_state": "POSTPOST",
-   "score": 65.8,
+   "score": 49.3,
    "news": [
-    {
-     "title": "Rhythm Pharmaceuticals stock: IMCIVREE growth drives Q3 update",
-     "source": "ad-hoc-news.de",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRkdWQU9nbXFKN3BNMUtMQXVyMUJqbC0zNWRQaFQ1eVJxUWNqTWxEYzMzTlM3bTBQeVV6Q1hqcVBpdGZVeU43LXpFZS1CcEVEeG51bWVlSnJQTkNlQktxSmhtRmh0NFprRlBwWVFGd2dSZnNzMEt6Y3R6a2Z2eTVRS1VhZGI1c0NmRVVSZ2FldDZxQzc3cnpYQWZaUG0tNHBaMlpSZTFyZWlaNlo4eWRWeHpDRlBWOVlIMVdGZQ?oc=5",
-     "published": "2026-11-05T23:09:16+00:00"
-    },
     {
      "title": "Rhythm Pharmaceuticals (RYTM) Shares Rise Amid Reports of Second Bidder Interest",
      "source": "GuruFocus",
      "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNZVpfaG9feDlabnE0VjljeXI4djFOTjRNZ29uNVdpUWVxa292enpzV1JrQW52OGU5VEQtOVJPY2h0d3VuNmxldm9iYl81ZXc2OW5GRUZhTXdkNjUzZ3F1ZEJpWDNGSFJNNTJQUFNUQjNLQW5rcUduRDU1X1lCbkJscTlMN3RIWUVJUEswaG9KeFJFSmR6b1JpS0VlS0NyVl9KLU5HZlZtbnl6NU5zMHh2d0l3QjduUUl3SWNNSGM1U0RHcWs4QnIwSnQ3THM3RkhTV2J3a0gtQWdXLXhDQW8yNUZROW1YbFV4anhFdDd5MGxFOVl1QUU1b2RaZGY0QkVRRGNFRVJHNjZXb2pNTXFXQU1ZNXowbGIwNVVyLXNVUEZ2bzVYTUp2YlJad3JGQzB3TVd1N2tLVnF5OEFJR1VLSkgtRVlRLUk3VXJjTjFxTFF5ckRuUmFqUWJNTQ?oc=5",
      "published": "2026-11-06T18:01:58+00:00"
-    },
-    {
-     "title": "Rhythm Pharmaceuticals gains on report of additional bidder (RYTM:NASDAQ)",
-     "source": "Seeking Alpha",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa1BNM2VMUWs5Sm1ZdlNJZUV0T015T0NlQWpacVNSdkw1TXVUWEUtc3U0VXVkRkkwb2lTV2lCVkxESnltZGpSenpoVUNDeE44R0F0Nk5LdGtTRUcwc0JLbDVSZFlUNkpVTlJQb2JzY3FlNXF5WFQ1bEUxZktJU1gwX2F4akVUdWxFOG52eE0zX2dLSXdYLUVTWThEQmptQQ?oc=5",
-     "published": "2026-11-06T16:06:25+00:00"
-    },
-    {
-     "title": "Rhythm Pharmaceuticals gains on report of additional bidder",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdWUtZXQxVW9zOU5ybDd0Ri0tNFpqejBYQm0xVnFITjlOQ24zazRrck02d1dodlU1UWRScURDMmdVbUVJNGlmZUhNUGhqeFFHSlNBMTJRZE9pdTNVdkRhVmkyclI4MzdXbDkwWlJvYTk1WGppb2VScTgwU2JlYklhU0Fvek1RckpZRHFteUFBNFdOVmtNUDJDSGZ3TVRLVXd1eVJwZ0hlcEdCSmhvZ1QxOVU1U3ZaV3l5Y2l0anlzNA?oc=5",
-     "published": "2026-11-06T16:06:25+00:00"
     },
     {
      "title": "AstraZeneca Makes USD 10 Billion Bid for Obesity Drugmaker Rhythm Pharmaceuticals",
@@ -787,6 +769,24 @@
      "source": "pharma.economictimes.indiatimes.com",
      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOczhGczhsM3dQWGZUcVU5OWFGb192bDhLUUlMUlNheWZlU3VQakpnb2xXZWQxNjRGaGo2elFCMXoyM01HM1MtMmczOXpOQTZMTVJuZ2tkVjNkTmI1VE5wVG9zYWduZWlVR09JT2ZLS2V6aFpyNmctNzBZYTY2Mmt3QlNPZXJzMzdLcU9NMlJtQXVyU3hiVUlWSEY5VEMtVHNOTzNUc1ZGenh3VHQ2T0V1OUFLM0pCdmxpeWZlR25fdzQ5d3dZNk0yc1d6dnduRWtPSFMybVJHSU5zOWJTQ0d5TXhrOGEtZ9IB5gFBVV95cUxOczhGczhsM3dQWGZUcVU5OWFGb192bDhLUUlMUlNheWZlU3VQakpnb2xXZWQxNjRGaGo2elFCMXoyM01HM1MtMmczOXpOQTZMTVJuZ2tkVjNkTmI1VE5wVG9zYWduZWlVR09JT2ZLS2V6aFpyNmctNzBZYTY2Mmt3QlNPZXJzMzdLcU9NMlJtQXVyU3hiVUlWSEY5VEMtVHNOTzNUc1ZGenh3VHQ2T0V1OUFLM0pCdmxpeWZlR25fdzQ5d3dZNk0yc1d6dnduRWtPSFMybVJHSU5zOWJTQ0d5TXhrOGEtZw?oc=5",
      "published": "2026-11-06T03:08:24+00:00"
+    },
+    {
+     "title": "Rhythm Pharmaceuticals stock: IMCIVREE growth drives Q3 update",
+     "source": "ad-hoc-news.de",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRkdWQU9nbXFKN3BNMUtMQXVyMUJqbC0zNWRQaFQ1eVJxUWNqTWxEYzMzTlM3bTBQeVV6Q1hqcVBpdGZVeU43LXpFZS1CcEVEeG51bWVlSnJQTkNlQktxSmhtRmh0NFprRlBwWVFGd2dSZnNzMEt6Y3R6a2Z2eTVRS1VhZGI1c0NmRVVSZ2FldDZxQzc3cnpYQWZaUG0tNHBaMlpSZTFyZWlaNlo4eWRWeHpDRlBWOVlIMVdGZQ?oc=5",
+     "published": "2026-11-05T23:09:16+00:00"
+    },
+    {
+     "title": "Rhythm Pharmaceuticals gains on report of additional bidder (RYTM:NASDAQ)",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOa1BNM2VMUWs5Sm1ZdlNJZUV0T015T0NlQWpacVNSdkw1TXVUWEUtc3U0VXVkRkkwb2lTV2lCVkxESnltZGpSenpoVUNDeE44R0F0Nk5LdGtTRUcwc0JLbDVSZFlUNkpVTlJQb2JzY3FlNXF5WFQ1bEUxZktJU1gwX2F4akVUdWxFOG52eE0zX2dLSXdYLUVTWThEQmptQQ?oc=5",
+     "published": "2026-11-06T16:06:25+00:00"
+    },
+    {
+     "title": "Rhythm Pharmaceuticals gains on report of additional bidder",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdWUtZXQxVW9zOU5ybDd0Ri0tNFpqejBYQm0xVnFITjlOQ24zazRrck02d1dodlU1UWRScURDMmdVbUVJNGlmZUhNUGhqeFFHSlNBMTJRZE9pdTNVdkRhVmkyclI4MzdXbDkwWlJvYTk1WGppb2VScTgwU2JlYklhU0Fvek1RckpZRHFteUFBNFdOVmtNUDJDSGZ3TVRLVXd1eVJwZ0hlcEdCSmhvZ1QxOVU1U3ZaV3l5Y2l0anlzNA?oc=5",
+     "published": "2026-11-06T16:06:25+00:00"
     },
     {
      "title": "Guggenheim maintains Rhythm Pharmaceuticals at Buy, raises price target to $147 from $143",
@@ -802,11 +802,11 @@
     }
    ],
    "catalyst": {
-    "type": "earnings",
-    "label": "Resultados trimestrales",
-    "quality": 0.85,
-    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 0.8
+    "type": "takeover",
+    "label": "OPA / la compran",
+    "quality": 0.3,
+    "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
+    "confidence": 0.7
    },
    "earnings_event": {
     "timing": "reported",
@@ -815,7 +815,7 @@
    "score_parts": {
     "move": 0.9,
     "rvol": 26.0,
-    "catalyst": 25.5,
+    "catalyst": 9.0,
     "close": 8.9,
     "size": 4.5
    },
@@ -1038,7 +1038,7 @@
     "label": "Resultados trimestrales",
     "quality": 0.85,
     "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 0.39
+    "confidence": 0.45
    },
    "earnings_event": null,
    "score_parts": {
@@ -1219,7 +1219,7 @@
     "name": "Nextpower Inc.",
     "picked_on": "2026-11-02",
     "picked_price": 91.13,
-    "price": 104.91,
+    "price": 104.9,
     "change_since_pct": 15.12,
     "from_peak_pct": -1.68,
     "sessions_since": 4,
@@ -1262,7 +1262,7 @@
     "change_since_pct": 9.86,
     "from_peak_pct": 0.0,
     "sessions_since": 1,
-    "last_rvol": 2.25,
+    "last_rvol": 2.27,
     "catalyst_label": "Resultados + mejora de previsiones",
     "appearances": 1
    },
@@ -1366,7 +1366,7 @@
     "change_since_pct": 5.22,
     "from_peak_pct": -3.79,
     "sessions_since": 8,
-    "last_rvol": 0.64,
+    "last_rvol": 0.65,
     "catalyst_label": "Resultados trimestrales",
     "appearances": 1
    },
@@ -1379,7 +1379,7 @@
     "change_since_pct": 4.21,
     "from_peak_pct": 0.0,
     "sessions_since": 3,
-    "last_rvol": 0.59,
+    "last_rvol": 0.6,
     "catalyst_label": "Resultados trimestrales",
     "appearances": 1
    },
@@ -1392,7 +1392,7 @@
     "change_since_pct": 3.93,
     "from_peak_pct": -2.98,
     "sessions_since": 8,
-    "last_rvol": 0.53,
+    "last_rvol": 0.54,
     "catalyst_label": "Resultados trimestrales",
     "appearances": 1
    },
@@ -1405,7 +1405,7 @@
     "change_since_pct": 3.56,
     "from_peak_pct": 0.0,
     "sessions_since": 5,
-    "last_rvol": 0.73,
+    "last_rvol": 0.74,
     "catalyst_label": "Resultados + mejora de previsiones",
     "appearances": 1
    },
@@ -1454,7 +1454,7 @@
     "picked_on": "2026-10-29",
     "picked_price": 111.59,
     "price": 114.41,
-    "change_since_pct": 2.52,
+    "change_since_pct": 2.53,
     "from_peak_pct": 0.0,
     "sessions_since": 6,
     "last_rvol": 0.9,
@@ -1483,7 +1483,7 @@
     "change_since_pct": 1.56,
     "from_peak_pct": -2.59,
     "sessions_since": 7,
-    "last_rvol": 0.85,
+    "last_rvol": 0.9,
     "catalyst_label": "Resultados trimestrales",
     "appearances": 1
    },
@@ -1497,7 +1497,7 @@
     "from_peak_pct": 0.0,
     "sessions_since": 2,
     "last_rvol": 3.25,
-    "catalyst_label": "Resultados trimestrales",
+    "catalyst_label": "OPA / la compran",
     "appearances": 1
    },
    {
@@ -1548,7 +1548,7 @@
     "change_since_pct": 0.46,
     "from_peak_pct": -9.59,
     "sessions_since": 6,
-    "last_rvol": 1.03,
+    "last_rvol": 1.04,
     "catalyst_label": "Resultados + mejora de previsiones",
     "appearances": 1
    },

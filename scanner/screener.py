@@ -21,9 +21,19 @@ def _query():
     ])
 
 
-def fetch_raw(size: int = 250) -> list[dict]:
-    res = yf.screen(_query(), sortField="percentchange", sortAsc=False, size=size)
-    return res.get("quotes", [])
+def fetch_raw(page: int = 250, max_results: int = 1500) -> list[dict]:
+    """Todas las subidas que cumplen la consulta, por páginas. Yahoo devuelve como mucho 250 por
+    petición: el 4-nov hubo más de 250 y con una sola petición se perdían las de menos subida."""
+    quotes, offset = [], 0
+    while offset < max_results:
+        res = yf.screen(_query(), sortField="percentchange", sortAsc=False, size=page, offset=offset)
+        batch = res.get("quotes", [])
+        quotes += batch
+        if len(batch) < page or offset + page >= (res.get("total") or 0):
+            break
+        offset += page
+    seen = set()
+    return [q for q in quotes if not (q["symbol"] in seen or seen.add(q["symbol"]))]
 
 
 def _num(q, key, default=None):

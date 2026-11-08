@@ -58,7 +58,7 @@
    "market_time": 1793826001,
    "market_date": "2026-11-04",
    "market_state": "POSTPOST",
-   "score": 89.9,
+   "score": 73.4,
    "news": [
     {
      "title": "AstraZeneca made $10 billion offer for obesity drugmaker Rhythm, sources say",
@@ -110,11 +110,11 @@
     }
    ],
    "catalyst": {
-    "type": "earnings",
-    "label": "Resultados trimestrales",
-    "quality": 0.85,
-    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 0.6
+    "type": "takeover",
+    "label": "OPA / la compran",
+    "quality": 0.3,
+    "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
+    "confidence": 1
    },
    "earnings_event": {
     "timing": "reported",
@@ -123,7 +123,7 @@
    "score_parts": {
     "move": 20.0,
     "rvol": 30.0,
-    "catalyst": 25.5,
+    "catalyst": 9.0,
     "close": 10.0,
     "size": 4.4
    },
@@ -344,7 +344,7 @@
     "label": "Resultados trimestrales",
     "quality": 0.85,
     "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 0.8
+    "confidence": 0.9
    },
    "earnings_event": {
     "timing": "reported",
@@ -801,7 +801,7 @@
     "label": "Resultados trimestrales",
     "quality": 0.85,
     "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 1.0
+    "confidence": 1
    },
    "earnings_event": {
     "timing": "reported",
@@ -1146,7 +1146,7 @@
     "label": "Resultados + mejora de previsiones",
     "quality": 1.0,
     "note": "El catalizador con más continuidad histórica (post-earnings drift).",
-    "confidence": 0.2
+    "confidence": 0.3
    },
    "earnings_event": {
     "timing": "reported",

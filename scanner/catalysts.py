@@ -66,7 +66,9 @@ PATTERNS = {
     "takeover": r"take[- ]private|go(ing|es)? private|to be (acquired|bought)|agrees? to be (acquired|bought)|acquired by|buyout (offer|deal|bid)|takeover (bid|offer)|tender offer|receives? .{0,30}(offer|bid|proposal)|explor\w+ (a )?sale"
                 # "DoorDash Takeover Talks", "CD&R, GTCR Weigh Record-Scale Buyout", "Unlikely Buyout Offer"
                 r"|(takeover|acquisition|buyout|merger|sale) talks|(takeover|buyout) (interest|approach|proposal)"
-                r"|(weigh|explor|consider)\w* .{0,25}(buyout|takeover|take-private|sale of)|take-private bid|buyout offer",
+                r"|(weigh|explor|consider)\w* .{0,25}(buyout|takeover|take-private|sale of)|take-private bid|buyout offer"
+                # "AstraZeneca made $10 billion offer for Rhythm", "Second Bidder Interest"
+                r"|\b(offer|bid|proposal) (for|to buy)\b|(second|rival|another|new) (bidder|suitor|offer)|bidder interest|bidding war",
     # Ella compra a otra o se fusiona
     "acquisition": r"\bacquires?\b|\bto acquire\b|acquisition of|\bmerger\b|\bmerge\b|\bto buy\b|\bbuys\b",
     "capital": r"refinanc|credit (facilit|agreement)|amend\w* .{0,20}credit|term loan|\bbuyback\b|repurchase|special dividend|debt (deal|reduction|paydown)",
@@ -162,7 +164,11 @@ def classify(headlines: list[dict], earnings_ts: int | None, market_date: str | 
         scores["earnings"] *= 0.3
         scores["earnings_guidance"] *= 0.3
 
-    if scores["earnings_guidance"] and scores["earnings"]:
+    if scores["takeover"] >= 1.5:
+        # Una oferta de compra concreta manda sobre todo lo demás, también sobre unos resultados del
+        # mismo día (RYTM 4-nov: "AstraZeneca made $10 billion offer for Rhythm" subió +28%)
+        kind = "takeover"
+    elif scores["earnings_guidance"] and scores["earnings"]:
         kind = "earnings_guidance"
     else:
         scores.pop("earnings_guidance")

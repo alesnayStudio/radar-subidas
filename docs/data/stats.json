@@ -23,14 +23,14 @@
   },
   "earnings": {
    "label": "Resultados trimestrales",
-   "count": 75,
+   "count": 73,
    "horizons": {
     "1": {
-     "n": 67,
-     "avg": 0.96,
-     "median": 0.76,
-     "win_rate": 58.2,
-     "avg_excess": 1.39
+     "n": 66,
+     "avg": 1.05,
+     "median": 0.77,
+     "win_rate": 59.1,
+     "avg_excess": 1.42
     },
     "5": {
      "n": 41,
@@ -65,14 +65,14 @@
   },
   "takeover": {
    "label": "OPA / la compran",
-   "count": 10,
+   "count": 12,
    "horizons": {
     "1": {
-     "n": 10,
-     "avg": 1.36,
-     "median": 0.35,
-     "win_rate": 80.0,
-     "avg_excess": 1.42
+     "n": 11,
+     "avg": 0.77,
+     "median": 0.24,
+     "win_rate": 72.7,
+     "avg_excess": 1.23
     },
     "5": {
      "n": 10,
@@ -491,7 +491,7 @@
  "score_buckets": {
   "high": {
    "label": "Alta (55 o más)",
-   "count": 94,
+   "count": 93,
    "horizons": {
     "1": {
      "n": 84,
@@ -512,7 +512,7 @@
   },
   "mid": {
    "label": "Media (40 a 55)",
-   "count": 43,
+   "count": 44,
    "horizons": {
     "1": {
      "n": 43,

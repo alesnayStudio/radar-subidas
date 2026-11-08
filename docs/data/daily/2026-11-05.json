@@ -804,7 +804,7 @@
     "label": "Resultados + mejora de previsiones",
     "quality": 1.0,
     "note": "El catalizador con más continuidad histórica (post-earnings drift).",
-    "confidence": 0.2
+    "confidence": 0.3
    },
    "earnings_event": {
     "timing": "reported",
@@ -1034,7 +1034,7 @@
     "label": "Resultados trimestrales",
     "quality": 0.85,
     "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 1.0
+    "confidence": 1
    },
    "earnings_event": {
     "timing": "reported",
