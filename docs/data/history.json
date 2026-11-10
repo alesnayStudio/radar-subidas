@@ -3180,12 +3180,12 @@
    "pct_from_ath": -12.77,
    "returns": {
     "1": 0.06,
-    "5": null,
+    "5": 5.21,
     "20": null
    },
    "excess": {
     "1": -0.24,
-    "5": null,
+    "5": 5.13,
     "20": null
    },
    "close_strength": 0.97,
@@ -3208,12 +3208,12 @@
    "pct_from_ath": -2.6,
    "returns": {
     "1": 2.69,
-    "5": null,
+    "5": -0.08,
     "20": null
    },
    "excess": {
     "1": 2.39,
-    "5": null,
+    "5": -0.16,
     "20": null
    },
    "close_strength": 0.69,
@@ -3236,12 +3236,12 @@
    "pct_from_ath": -44.14,
    "returns": {
     "1": 5.37,
-    "5": null,
+    "5": 15.1,
     "20": null
    },
    "excess": {
     "1": 5.07,
-    "5": null,
+    "5": 15.02,
     "20": null
    },
    "close_strength": 0.81,
@@ -3264,12 +3264,12 @@
    "pct_from_ath": -89.25,
    "returns": {
     "1": -5.54,
-    "5": null,
+    "5": -1.17,
     "20": null
    },
    "excess": {
     "1": -5.84,
-    "5": null,
+    "5": -1.25,
     "20": null
    },
    "close_strength": 0.91,
@@ -3292,12 +3292,12 @@
    "pct_from_ath": -24.77,
    "returns": {
     "1": -0.87,
-    "5": null,
+    "5": 7.59,
     "20": null
    },
    "excess": {
     "1": -1.17,
-    "5": null,
+    "5": 7.51,
     "20": null
    },
    "close_strength": 0.62,
@@ -3320,12 +3320,12 @@
    "pct_from_ath": -31.29,
    "returns": {
     "1": 4.76,
-    "5": null,
+    "5": 1.6,
     "20": null
    },
    "excess": {
     "1": 4.46,
-    "5": null,
+    "5": 1.52,
     "20": null
    },
    "close_strength": 0.94,
@@ -3348,12 +3348,12 @@
    "pct_from_ath": -18.57,
    "returns": {
     "1": -2.64,
-    "5": null,
+    "5": -0.65,
     "20": null
    },
    "excess": {
     "1": -2.94,
-    "5": null,
+    "5": -0.73,
     "20": null
    },
    "close_strength": 1.0,
@@ -3376,12 +3376,12 @@
    "pct_from_ath": -92.65,
    "returns": {
     "1": 0.76,
-    "5": null,
+    "5": 6.22,
     "20": null
    },
    "excess": {
     "1": 0.46,
-    "5": null,
+    "5": 6.14,
     "20": null
    },
    "close_strength": 0.52,
@@ -3404,12 +3404,12 @@
    "pct_from_ath": -24.86,
    "returns": {
     "1": 0.28,
-    "5": null,
+    "5": 0.75,
     "20": null
    },
    "excess": {
     "1": -0.02,
-    "5": null,
+    "5": 0.67,
     "20": null
    },
    "close_strength": 1.0,
@@ -3432,12 +3432,12 @@
    "pct_from_ath": -66.29,
    "returns": {
     "1": -1.66,
-    "5": null,
+    "5": 8.06,
     "20": null
    },
    "excess": {
     "1": -1.96,
-    "5": null,
+    "5": 7.98,
     "20": null
    },
    "close_strength": 0.87,
@@ -4302,12 +4302,12 @@
    "spy_change": 0.31,
    "quality": "A",
    "returns": {
-    "1": null,
+    "1": 6.29,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 3.92,
     "5": null,
     "20": null
    }
@@ -4330,12 +4330,12 @@
    "spy_change": 0.31,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": 7.13,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 4.76,
     "5": null,
     "20": null
    }
@@ -4358,12 +4358,12 @@
    "spy_change": 0.31,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": 17.1,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 14.73,
     "5": null,
     "20": null
    }
@@ -4386,12 +4386,12 @@
    "spy_change": 0.31,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": 0.64,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -1.73,
     "5": null,
     "20": null
    }
@@ -4414,12 +4414,12 @@
    "spy_change": 0.31,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": 3.87,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.5,
     "5": null,
     "20": null
    }
@@ -4442,12 +4442,12 @@
    "spy_change": 0.31,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": 6.57,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 4.2,
     "5": null,
     "20": null
    }
@@ -4470,12 +4470,12 @@
    "spy_change": 0.31,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": 1.48,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -0.89,
     "5": null,
     "20": null
    }
@@ -4498,12 +4498,12 @@
    "spy_change": 0.31,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -1.64,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -4.01,
     "5": null,
     "20": null
    }
@@ -4526,12 +4526,12 @@
    "spy_change": 0.31,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": 0.0,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -2.37,
     "5": null,
     "20": null
    }
@@ -4552,6 +4552,286 @@
    "pct_from_ath": -88.09,
    "close_strength": 0.96,
    "spy_change": 0.31,
+   "quality": "B",
+   "returns": {
+    "1": 2.27,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": -0.1,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "FRVO",
+   "name": "Fervo Energy Company",
+   "rank": 1,
+   "score": 68.5,
+   "price": 11.38,
+   "change_pct": 26.09,
+   "rvol": 3.11,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -73.32,
+   "close_strength": 0.97,
+   "spy_change": 2.37,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "GFR",
+   "name": "Greenfire Resources Ltd.",
+   "rank": 2,
+   "score": 67.9,
+   "price": 7.73,
+   "change_pct": 38.04,
+   "rvol": 8.72,
+   "catalyst": "acquisition",
+   "catalyst_label": "Compra / fusión con otra empresa",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -38.1,
+   "close_strength": 0.16,
+   "spy_change": 2.37,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "WRBY",
+   "name": "Warby Parker Inc.",
+   "rank": 3,
+   "score": 63.3,
+   "price": 30.21,
+   "change_pct": 18.56,
+   "rvol": 3.68,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 2,
+   "ath_status": "mid",
+   "pct_from_ath": -49.9,
+   "close_strength": 0.78,
+   "spy_change": 2.37,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "TIC",
+   "name": "TIC Solutions, Inc.",
+   "rank": 4,
+   "score": 60.9,
+   "price": 11.29,
+   "change_pct": 8.87,
+   "rvol": 4.49,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -24.45,
+   "close_strength": 0.61,
+   "spy_change": 2.37,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "PRAX",
+   "name": "Praxis Precision Medicines, Inc.",
+   "rank": 5,
+   "score": 60.0,
+   "price": 332.97,
+   "change_pct": 19.94,
+   "rvol": 2.43,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -63.58,
+   "close_strength": 0.96,
+   "spy_change": 2.37,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "FERG",
+   "name": "Ferguson Enterprises Inc.",
+   "rank": 6,
+   "score": 58.2,
+   "price": 259.93,
+   "change_pct": 11.22,
+   "rvol": 2.59,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "near",
+   "pct_from_ath": -4.31,
+   "close_strength": 0.72,
+   "spy_change": 2.37,
+   "quality": null,
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "IMVT",
+   "name": "Immunovant, Inc.",
+   "rank": 7,
+   "score": 56.3,
+   "price": 35.15,
+   "change_pct": 15.13,
+   "rvol": 2.85,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -34.6,
+   "close_strength": 0.84,
+   "spy_change": 2.37,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "JHX",
+   "name": "James Hardie Industries plc",
+   "rank": 8,
+   "score": 55.7,
+   "price": 29.94,
+   "change_pct": 7.5,
+   "rvol": 3.8,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -31.28,
+   "close_strength": 0.72,
+   "spy_change": 2.37,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "KLAC",
+   "name": "KLA Corporation",
+   "rank": 9,
+   "score": 55.1,
+   "price": 151.38,
+   "change_pct": 9.31,
+   "rvol": 1.98,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -50.75,
+   "close_strength": 0.86,
+   "spy_change": 2.37,
+   "quality": "A",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "symbol": "CEG",
+   "name": "Constellation Energy Corporation",
+   "rank": 10,
+   "score": 53.0,
+   "price": 276.09,
+   "change_pct": 10.46,
+   "rvol": 2.02,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -33.1,
+   "close_strength": 0.95,
+   "spy_change": 2.37,
    "quality": "B",
    "returns": {
     "1": null,
