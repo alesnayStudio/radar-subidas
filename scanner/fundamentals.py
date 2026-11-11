@@ -46,7 +46,7 @@ def _div(a, b):
 
 def _statements(t):
     inc, bal, cf, qinc = t.income_stmt, t.balance_sheet, t.cashflow, t.quarterly_income_stmt
-    years = sorted(inc.columns, reverse=True)[:4] if inc is not None and not inc.empty else []
+    years = sorted(inc.columns, reverse=True) if inc is not None and not inc.empty else []
     rows = {
         "revenue": _row(inc, "Total Revenue", "Operating Revenue"),
         "gross_profit": _row(inc, "Gross Profit"),
@@ -65,12 +65,15 @@ def _statements(t):
         "fcf": _row(cf, "Free Cash Flow"),
     }
     annual = [{"year": int(c.year), **{k: _at(s, c) for k, s in rows.items()}} for c in years]
+    # Yahoo a veces añade una columna vacía (p. ej. FERG al cambiar de año fiscal): solo años con cuentas
+    annual = [a for a in annual if a["revenue"] is not None or a["net_income"] is not None][:4]
 
     q_rows = {"revenue": _row(qinc, "Total Revenue", "Operating Revenue"),
               "operating_income": _row(qinc, "Operating Income"),
               "net_income": _row(qinc, "Net Income", "Net Income Common Stockholders")}
-    qcols = sorted(qinc.columns, reverse=True)[:5] if qinc is not None and not qinc.empty else []
+    qcols = sorted(qinc.columns, reverse=True) if qinc is not None and not qinc.empty else []
     quarterly = [{"period": c.date().isoformat(), **{k: _at(s, c) for k, s in q_rows.items()}} for c in qcols]
+    quarterly = [x for x in quarterly if x["revenue"] is not None or x["net_income"] is not None][:5]
     return annual, quarterly
 
 
@@ -170,6 +173,12 @@ def fetch(symbol: str) -> dict:
         "pe": _num(info.get("trailingPE")), "forward_pe": _num(info.get("forwardPE")),
         "annual": annual, "quarterly": quarterly, "quality": quality(annual, info),
     }
+
+
+def cached(symbol: str) -> dict | None:
+    """Ficha guardada, sin descargar nada (aunque sea antigua)."""
+    path = FUND_DIR / f"{symbol}.json"
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
 
 
 def get(symbol: str, refresh_days: int = REFRESH_DAYS) -> dict | None:

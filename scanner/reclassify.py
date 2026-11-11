@@ -25,8 +25,11 @@ def main():
             for r in day["top"]:
                 r["ath"] = aths.get(r["symbol"])
         for r in day["top"]:
-            if "quality" not in r:  # nota de calidad (datos financieros ACTUALES, no de aquel día)
-                r["quality"] = fundamentals.summary(fundamentals.get(r["symbol"]))
+            # Nota de calidad: si falta se descarga la ficha; si la ficha guardada se corrigió, se actualiza
+            # (sin descargar de nuevo las demás, para no cambiar la nota de días pasados con cuentas nuevas)
+            saved = fundamentals.cached(r["symbol"])
+            if "quality" not in r or not r["quality"] or (saved and fundamentals.summary(saved) != r["quality"]):
+                r["quality"] = fundamentals.summary(saved or fundamentals.get(r["symbol"]))
             old = r["catalyst"]["type"]
             r["news"] = [n for n in r["news"] if news.is_relevant(n["title"], news.company_patterns(r["symbol"], r["name"]))]
             r["catalyst"] = catalysts.classify(r["news"], r["earnings_ts"], r["market_date"],

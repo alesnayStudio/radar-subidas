@@ -427,10 +427,31 @@ function labRender() {
       <button type="button" id="lab-save-btn" ${isSaved ? "disabled" : ""}>${isSaved ? "⭐ Es tu regla guardada" : "⭐ Usar esta regla en el Top del día"}</button>
       ${saved && !isSaved ? `<span class="dim">Guardada ahora: ${esc(saved.desc)}</span> <button type="button" id="lab-load-btn">Cargarla</button>` : ""}
       ${saved ? `<button type="button" id="lab-clear-btn">Quitar</button>` : ""}
-    </div>` + html;
+    </div>${isSaved ? labForward(res.trades, saved) : ""}` + html;
   $("#lab-results").innerHTML = html;
   LAB.last = { rule: r, s };
   if (s.n) labWireChart(s.curve);
+}
+
+// Prueba "hacia delante": solo las selecciones POSTERIORES al día en que guardaste la regla. Son datos
+// que no se vieron al elegirla, así que es la prueba que de verdad dice si la regla funciona.
+function labForward(trades, saved) {
+  const since = saved.savedAt.slice(0, 10);
+  const after = trades.filter((t) => t.pick.date > since);
+  const s = LabEngine.summarize(after);
+  const open = after.filter((t) => t.status === "open").length;
+  const before = saved.stats
+    ? `Al guardarla: ${saved.stats.winRate.toFixed(0)}% de aciertos y ${fmtPct(saved.stats.expectancy, 2)} por operación (${saved.stats.n} ops.).` : "";
+  if (!s.n) {
+    return `<div class="lab-forward">📅 <b>Prueba con datos nuevos</b> (selecciones posteriores al ${esc(fmtDate(since))}, cuando guardaste la regla):
+      todavía no hay operaciones cerradas${open ? ` (${open} en curso)` : ""}. ${before}</div>`;
+  }
+  const lo = s.expectancy - (s.expectancyMargin ?? Infinity);
+  const verdict = s.n < 20 ? `Aún son pocas (${s.n}): espera a tener al menos 20-30 antes de sacar conclusiones.`
+    : lo > 0 ? "✅ Con datos nuevos sigue teniendo ventaja." : s.expectancy > 0 ? "⚖️ Sigue en positivo, pero sin ventaja demostrada." : "❌ Con datos nuevos no está funcionando: revisa la regla.";
+  return `<div class="lab-forward">📅 <b>Prueba con datos nuevos</b> (selecciones posteriores al ${esc(fmtDate(since))}, cuando guardaste la regla):
+    <b>${s.n}</b> operaciones · <b>${s.winRate.toFixed(0)}%</b> de aciertos · esperanza <b class="${signCls(s.expectancy)}">${fmtPct(s.expectancy, 2)}</b>${s.expectancyMargin != null ? ` ± ${s.expectancyMargin.toFixed(2)}` : ""}${open ? ` · ${open} en curso` : ""}.
+    ${before} <br>${verdict}</div>`;
 }
 
 function labResultsClick(e) {

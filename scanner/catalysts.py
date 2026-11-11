@@ -91,7 +91,7 @@ _BUY_NOISE = re.compile(
 # Titulares que hablan de resultados FUTUROS (fecha, previa) y no de unos resultados publicados
 _EARNINGS_NOISE = re.compile(
     r"\bto (report|announce|release|host)\b|will (report|announce|release|consider)|schedul|board meeting|"
-    r"ahead of|preview|earnings date|what to (expect|look for|watch)|expectations for", re.I)
+    r"ahead of|preview|earnings date|what to (expect|look for|watch)|expectations for|earnings to watch|\btomorrow\b", re.I)
 # Conectores que indican que la compra la hace un tercero ("Klaviyo jumps as Salesforce moves to acquire Braze")
 _THIRD_PARTY = re.compile(r"\b(as|after|amid|while|following)\b", re.I)
 # Los titulares "sectoriales" suelen ser resúmenes de mercado que mencionan a muchas empresas a la vez:

@@ -288,3 +288,7 @@ tr:last-child td { border-bottom: 0; }
 .fund-summary { font-size: 13px; line-height: 1.5; }
 .fund-links { display: flex; flex-wrap: wrap; gap: 14px; font-size: 13px; margin: 14px 0 6px; }
 .fund-foot { font-size: 11px; }
+.lab-forward {
+  font-size: 13px; line-height: 1.5; padding: 10px 12px; border-radius: 10px; margin: 0 0 12px;
+  background: color-mix(in srgb, var(--accent) 8%, transparent); border: 1px solid var(--accent);
+}

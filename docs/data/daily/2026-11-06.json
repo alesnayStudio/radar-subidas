@@ -806,7 +806,7 @@
     "label": "OPA / la compran",
     "quality": 0.3,
     "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
-    "confidence": 0.7
+    "confidence": 0.9
    },
    "earnings_event": {
     "timing": "reported",

@@ -689,7 +689,7 @@
     "label": "Resultados + mejora de previsiones",
     "quality": 1.0,
     "note": "El catalizador con más continuidad histórica (post-earnings drift).",
-    "confidence": 0.06
+    "confidence": 0.09
    },
    "earnings_event": null,
    "score_parts": {
@@ -1146,7 +1146,7 @@
     "label": "Mejora de analista",
     "quality": 0.6,
     "note": "Impulso moderado; suele diluirse si no hay más noticias.",
-    "confidence": 0.2
+    "confidence": 0.3
    },
    "earnings_event": null,
    "score_parts": {
@@ -1246,7 +1246,7 @@
     "change_since_pct": 14.16,
     "from_peak_pct": -2.51,
     "sessions_since": 2,
-    "last_rvol": 1.52,
+    "last_rvol": 1.51,
     "catalyst_label": "Contrato / alianza",
     "appearances": 1
    },
@@ -1272,7 +1272,7 @@
     "change_since_pct": 11.78,
     "from_peak_pct": -3.33,
     "sessions_since": 10,
-    "last_rvol": 0.51,
+    "last_rvol": 0.54,
     "catalyst_label": "Resultados trimestrales",
     "appearances": 1
    },
@@ -1350,7 +1350,7 @@
     "change_since_pct": 7.72,
     "from_peak_pct": 0.0,
     "sessions_since": 5,
-    "last_rvol": 0.88,
+    "last_rvol": 0.91,
     "catalyst_label": "Resultados trimestrales",
     "appearances": 1
    },
@@ -1516,7 +1516,7 @@
     "picked_on": "2026-10-30",
     "picked_price": 96.84,
     "price": 101.59,
-    "change_since_pct": 4.91,
+    "change_since_pct": 4.9,
     "from_peak_pct": 0.0,
     "sessions_since": 7,
     "last_rvol": 1.04,
@@ -1545,7 +1545,7 @@
     "change_since_pct": 3.87,
     "from_peak_pct": -2.56,
     "sessions_since": 6,
-    "last_rvol": 0.87,
+    "last_rvol": 0.86,
     "catalyst_label": "Resultados trimestrales",
     "appearances": 2
    },
@@ -1636,7 +1636,7 @@
     "change_since_pct": 3.01,
     "from_peak_pct": -1.53,
     "sessions_since": 7,
-    "last_rvol": 0.5,
+    "last_rvol": 0.51,
     "catalyst_label": "Resultados trimestrales",
     "appearances": 1
    },
@@ -1885,6 +1885,19 @@
     "sessions_since": 8,
     "last_rvol": 0.72,
     "catalyst_label": "OPA / la compran",
+    "appearances": 1
+   },
+   {
+    "symbol": "FRVO",
+    "name": "Fervo Energy Company",
+    "picked_on": "2026-11-09",
+    "picked_price": 11.38,
+    "price": 11.38,
+    "change_since_pct": 0.0,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 1.5,
+    "catalyst_label": "Resultados trimestrales",
     "appearances": 1
    }
   ],

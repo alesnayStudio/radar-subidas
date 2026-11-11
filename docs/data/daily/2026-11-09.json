@@ -344,7 +344,7 @@
     "label": "Resultados trimestrales",
     "quality": 0.85,
     "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 0.21
+    "confidence": 0.27
    },
    "earnings_event": null,
    "score_parts": {
@@ -452,7 +452,7 @@
     "label": "Resultados + mejora de previsiones",
     "quality": 1.0,
     "note": "El catalizador con más continuidad histórica (post-earnings drift).",
-    "confidence": 0.06
+    "confidence": 0.09
    },
    "earnings_event": null,
    "score_parts": {
@@ -709,10 +709,10 @@
     "short_history": false
    },
    "quality": {
-    "grade": null,
-    "points": 0,
-    "max": 0,
-    "piotroski": null
+    "grade": "B",
+    "points": 5,
+    "max": 9,
+    "piotroski": "6/9"
    }
   },
   {
@@ -1024,7 +1024,7 @@
     "label": "Resultados + mejora de previsiones",
     "quality": 1.0,
     "note": "El catalizador con más continuidad histórica (post-earnings drift).",
-    "confidence": 0.06
+    "confidence": 0.09
    },
    "earnings_event": null,
    "score_parts": {

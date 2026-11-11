@@ -4720,7 +4720,7 @@
    "pct_from_ath": -4.31,
    "close_strength": 0.72,
    "spy_change": 2.37,
-   "quality": null,
+   "quality": "B",
    "returns": {
     "1": -0.19,
     "5": null,
