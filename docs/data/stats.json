@@ -2,42 +2,42 @@
  "catalysts": {
   "all": {
    "label": "Todas",
-   "count": 173,
+   "count": 183,
    "horizons": {
     "1": {
-     "n": 163,
-     "avg": 0.67,
-     "median": 0.62,
-     "win_rate": 59.5,
-     "avg_excess": 0.83
+     "n": 173,
+     "avg": 0.6,
+     "median": 0.44,
+     "win_rate": 57.8,
+     "avg_excess": 0.77
     },
     "5": {
-     "n": 123,
-     "avg": 0.6,
-     "median": 0.46,
-     "win_rate": 55.3,
-     "avg_excess": 1.65
+     "n": 133,
+     "avg": 0.72,
+     "median": 0.58,
+     "win_rate": 55.6,
+     "avg_excess": 1.74
     },
     "20": null
    }
   },
   "earnings": {
    "label": "Resultados trimestrales",
-   "count": 79,
+   "count": 85,
    "horizons": {
     "1": {
-     "n": 73,
-     "avg": 1.27,
-     "median": 0.77,
-     "win_rate": 60.3,
-     "avg_excess": 1.37
+     "n": 79,
+     "avg": 1.12,
+     "median": 0.76,
+     "win_rate": 58.2,
+     "avg_excess": 1.24
     },
     "5": {
-     "n": 45,
-     "avg": 0.8,
+     "n": 52,
+     "avg": 0.85,
      "median": -0.08,
-     "win_rate": 48.9,
-     "avg_excess": 2.08
+     "win_rate": 48.1,
+     "avg_excess": 2.03
     },
     "20": null
    }
@@ -86,7 +86,7 @@
   },
   "analyst": {
    "label": "Mejora de analista",
-   "count": 7,
+   "count": 8,
    "horizons": {
     "1": {
      "n": 7,
@@ -212,21 +212,21 @@
   },
   "earnings_guidance": {
    "label": "Resultados + mejora de previsiones",
-   "count": 39,
+   "count": 42,
    "horizons": {
     "1": {
-     "n": 36,
-     "avg": 0.81,
-     "median": 0.3,
-     "win_rate": 58.3,
-     "avg_excess": 1.17
+     "n": 39,
+     "avg": 0.7,
+     "median": 0.17,
+     "win_rate": 56.4,
+     "avg_excess": 1.06
     },
     "5": {
-     "n": 27,
-     "avg": 1.48,
-     "median": 1.05,
-     "win_rate": 63.0,
-     "avg_excess": 2.72
+     "n": 30,
+     "avg": 1.83,
+     "median": 1.35,
+     "win_rate": 66.7,
+     "avg_excess": 3.0
     },
     "20": null
    }
@@ -257,11 +257,11 @@
    "count": 3,
    "horizons": {
     "1": {
-     "n": 2,
-     "avg": 0.4,
-     "median": 0.4,
-     "win_rate": 50.0,
-     "avg_excess": 0.82
+     "n": 3,
+     "avg": 0.05,
+     "median": -0.65,
+     "win_rate": 33.3,
+     "avg_excess": 0.45
     },
     "5": {
      "n": 2,
@@ -277,35 +277,35 @@
  "appearance": {
   "first": {
    "label": "Primera aparición",
-   "count": 166,
+   "count": 175,
    "horizons": {
     "1": {
-     "n": 157,
-     "avg": 0.64,
-     "median": 0.47,
-     "win_rate": 59.2,
-     "avg_excess": 0.84
+     "n": 166,
+     "avg": 0.57,
+     "median": 0.43,
+     "win_rate": 57.8,
+     "avg_excess": 0.78
     },
     "5": {
-     "n": 119,
-     "avg": 0.5,
-     "median": 0.44,
-     "win_rate": 54.6,
-     "avg_excess": 1.58
+     "n": 129,
+     "avg": 0.64,
+     "median": 0.46,
+     "win_rate": 55.0,
+     "avg_excess": 1.68
     },
     "20": null
    }
   },
   "repeat": {
    "label": "Repetidora (2ª vez o más)",
-   "count": 7,
+   "count": 8,
    "horizons": {
     "1": {
-     "n": 6,
-     "avg": 1.63,
-     "median": 1.12,
-     "win_rate": 66.7,
-     "avg_excess": 0.68
+     "n": 7,
+     "avg": 1.25,
+     "median": 0.76,
+     "win_rate": 57.1,
+     "avg_excess": 0.49
     },
     "5": {
      "n": 4,
@@ -331,7 +331,7 @@
  "ath_buckets": {
   "new_ath": {
    "label": "🚀 Nuevo máximo histórico",
-   "count": 8,
+   "count": 10,
    "horizons": {
     "1": {
      "n": 8,
@@ -341,11 +341,11 @@
      "avg_excess": -0.03
     },
     "5": {
-     "n": 5,
-     "avg": -2.12,
-     "median": -0.45,
-     "win_rate": 20.0,
-     "avg_excess": -0.34
+     "n": 7,
+     "avg": 0.62,
+     "median": -0.08,
+     "win_rate": 42.9,
+     "avg_excess": 2.06
     },
     "20": null
    }
@@ -355,11 +355,11 @@
    "count": 4,
    "horizons": {
     "1": {
-     "n": 3,
-     "avg": 1.38,
-     "median": -1.29,
-     "win_rate": 33.3,
-     "avg_excess": 1.16
+     "n": 4,
+     "avg": 0.99,
+     "median": -0.74,
+     "win_rate": 25.0,
+     "avg_excess": 0.91
     },
     "5": {
      "n": 2,
@@ -373,42 +373,42 @@
   },
   "mid": {
    "label": "↗️ Entre un 5% y un 50% por debajo",
-   "count": 85,
+   "count": 88,
    "horizons": {
     "1": {
-     "n": 79,
-     "avg": 0.83,
-     "median": 0.4,
-     "win_rate": 62.0,
-     "avg_excess": 1.08
+     "n": 85,
+     "avg": 0.67,
+     "median": 0.23,
+     "win_rate": 58.8,
+     "avg_excess": 0.93
     },
     "5": {
-     "n": 64,
-     "avg": 0.21,
-     "median": 0.32,
-     "win_rate": 56.2,
-     "avg_excess": 1.29
+     "n": 68,
+     "avg": 0.4,
+     "median": 0.39,
+     "win_rate": 57.4,
+     "avg_excess": 1.44
     },
     "20": null
    }
   },
   "rebound": {
    "label": "↩️ Rebote (más de un 50% por debajo)",
-   "count": 74,
+   "count": 79,
    "horizons": {
     "1": {
-     "n": 71,
-     "avg": 0.45,
-     "median": 0.7,
-     "win_rate": 57.7,
-     "avg_excess": 0.55
+     "n": 74,
+     "avg": 0.47,
+     "median": 0.72,
+     "win_rate": 58.1,
+     "avg_excess": 0.57
     },
     "5": {
-     "n": 51,
-     "avg": 1.16,
-     "median": 0.67,
-     "win_rate": 54.9,
-     "avg_excess": 2.14
+     "n": 55,
+     "avg": 0.98,
+     "median": 0.58,
+     "win_rate": 52.7,
+     "avg_excess": 1.93
     },
     "20": null
    }
@@ -417,63 +417,63 @@
  "quality_buckets": {
   "A": {
    "label": "Calidad A",
-   "count": 32,
+   "count": 33,
    "horizons": {
     "1": {
-     "n": 31,
-     "avg": 1.71,
-     "median": 1.29,
-     "win_rate": 64.5,
-     "avg_excess": 1.86
+     "n": 32,
+     "avg": 1.69,
+     "median": 1.26,
+     "win_rate": 65.6,
+     "avg_excess": 1.84
     },
     "5": {
-     "n": 23,
-     "avg": -0.23,
+     "n": 25,
+     "avg": -0.26,
      "median": 0.13,
-     "win_rate": 56.5,
-     "avg_excess": 0.76
+     "win_rate": 56.0,
+     "avg_excess": 0.7
     },
     "20": null
    }
   },
   "B": {
    "label": "Calidad B",
-   "count": 62,
+   "count": 64,
    "horizons": {
     "1": {
-     "n": 59,
-     "avg": 0.39,
-     "median": 0.28,
-     "win_rate": 57.6,
-     "avg_excess": 0.57
+     "n": 62,
+     "avg": 0.29,
+     "median": 0.18,
+     "win_rate": 54.8,
+     "avg_excess": 0.49
     },
     "5": {
-     "n": 43,
-     "avg": 0.85,
-     "median": -0.14,
-     "win_rate": 48.8,
-     "avg_excess": 2.05
+     "n": 46,
+     "avg": 1.09,
+     "median": 0.25,
+     "win_rate": 50.0,
+     "avg_excess": 2.24
     },
     "20": null
    }
   },
   "C": {
    "label": "Calidad C",
-   "count": 78,
+   "count": 85,
    "horizons": {
     "1": {
-     "n": 73,
-     "avg": 0.46,
-     "median": 0.42,
-     "win_rate": 58.9,
-     "avg_excess": 0.61
+     "n": 78,
+     "avg": 0.4,
+     "median": 0.41,
+     "win_rate": 57.7,
+     "avg_excess": 0.56
     },
     "5": {
-     "n": 57,
-     "avg": 0.74,
-     "median": 0.98,
-     "win_rate": 59.6,
-     "avg_excess": 1.71
+     "n": 62,
+     "avg": 0.85,
+     "median": 1.0,
+     "win_rate": 59.7,
+     "avg_excess": 1.79
     },
     "20": null
    }
@@ -482,7 +482,13 @@
    "label": "Sin nota",
    "count": 1,
    "horizons": {
-    "1": null,
+    "1": {
+     "n": 1,
+     "avg": -0.19,
+     "median": -0.19,
+     "win_rate": 0.0,
+     "avg_excess": 0.18
+    },
     "5": null,
     "20": null
    }
@@ -491,35 +497,35 @@
  "score_buckets": {
   "high": {
    "label": "Alta (55 o más)",
-   "count": 102,
+   "count": 106,
    "horizons": {
     "1": {
-     "n": 93,
-     "avg": 1.2,
-     "median": 0.64,
-     "win_rate": 61.3,
-     "avg_excess": 1.47
+     "n": 102,
+     "avg": 1.06,
+     "median": 0.54,
+     "win_rate": 58.8,
+     "avg_excess": 1.34
     },
     "5": {
-     "n": 54,
-     "avg": 0.24,
-     "median": -0.03,
-     "win_rate": 50.0,
-     "avg_excess": 1.75
+     "n": 64,
+     "avg": 0.56,
+     "median": 0.04,
+     "win_rate": 51.6,
+     "avg_excess": 1.92
     },
     "20": null
    }
   },
   "mid": {
    "label": "Media (40 a 55)",
-   "count": 45,
+   "count": 50,
    "horizons": {
     "1": {
-     "n": 44,
-     "avg": -0.02,
-     "median": 0.09,
-     "win_rate": 52.3,
-     "avg_excess": -0.0
+     "n": 45,
+     "avg": -0.08,
+     "median": 0.04,
+     "win_rate": 51.1,
+     "avg_excess": -0.06
     },
     "5": {
      "n": 43,
@@ -533,7 +539,7 @@
   },
   "low": {
    "label": "Baja (menos de 40)",
-   "count": 26,
+   "count": 27,
    "horizons": {
     "1": {
      "n": 26,

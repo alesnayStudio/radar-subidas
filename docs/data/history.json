@@ -3460,12 +3460,12 @@
    "pct_from_ath": -45.61,
    "returns": {
     "1": 4.44,
-    "5": null,
+    "5": -0.08,
     "20": null
    },
    "excess": {
     "1": 2.79,
-    "5": null,
+    "5": 0.51,
     "20": null
    },
    "close_strength": 0.53,
@@ -3488,12 +3488,12 @@
    "pct_from_ath": -36.12,
    "returns": {
     "1": 4.96,
-    "5": null,
+    "5": 5.6,
     "20": null
    },
    "excess": {
     "1": 3.31,
-    "5": null,
+    "5": 6.19,
     "20": null
    },
    "close_strength": 0.97,
@@ -3516,12 +3516,12 @@
    "pct_from_ath": -55.83,
    "returns": {
     "1": -6.56,
-    "5": null,
+    "5": -8.51,
     "20": null
    },
    "excess": {
     "1": -8.21,
-    "5": null,
+    "5": -7.92,
     "20": null
    },
    "close_strength": 0.91,
@@ -3544,12 +3544,12 @@
    "pct_from_ath": -63.16,
    "returns": {
     "1": 3.89,
-    "5": null,
+    "5": -1.5,
     "20": null
    },
    "excess": {
     "1": 2.24,
-    "5": null,
+    "5": -0.91,
     "20": null
    },
    "close_strength": 0.93,
@@ -3572,12 +3572,12 @@
    "pct_from_ath": -4.51,
    "returns": {
     "1": 2.0,
-    "5": null,
+    "5": 7.21,
     "20": null
    },
    "excess": {
     "1": 0.35,
-    "5": null,
+    "5": 7.8,
     "20": null
    },
    "close_strength": 0.82,
@@ -3600,12 +3600,12 @@
    "pct_from_ath": -32.54,
    "returns": {
     "1": 1.26,
-    "5": null,
+    "5": 5.03,
     "20": null
    },
    "excess": {
     "1": -0.39,
-    "5": null,
+    "5": 5.62,
     "20": null
    },
    "close_strength": 0.44,
@@ -3628,12 +3628,12 @@
    "pct_from_ath": -11.43,
    "returns": {
     "1": 0.73,
-    "5": null,
+    "5": 2.6,
     "20": null
    },
    "excess": {
     "1": -0.92,
-    "5": null,
+    "5": 3.19,
     "20": null
    },
    "close_strength": 0.6,
@@ -3656,12 +3656,12 @@
    "pct_from_ath": -0.21,
    "returns": {
     "1": 3.33,
-    "5": null,
+    "5": 7.72,
     "20": null
    },
    "excess": {
     "1": 1.68,
-    "5": null,
+    "5": 8.31,
     "20": null
    },
    "close_strength": 0.98,
@@ -3684,12 +3684,12 @@
    "pct_from_ath": -54.11,
    "returns": {
     "1": 5.12,
-    "5": null,
+    "5": -3.71,
     "20": null
    },
    "excess": {
     "1": 3.47,
-    "5": null,
+    "5": -3.12,
     "20": null
    },
    "close_strength": 0.97,
@@ -3712,12 +3712,12 @@
    "pct_from_ath": -75.52,
    "returns": {
     "1": 6.25,
-    "5": null,
+    "5": 8.42,
     "20": null
    },
    "excess": {
     "1": 4.6,
-    "5": null,
+    "5": 9.01,
     "20": null
    },
    "close_strength": 0.8,
@@ -4582,12 +4582,12 @@
    "spy_change": 2.37,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -0.0,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 0.37,
     "5": null,
     "20": null
    }
@@ -4610,12 +4610,12 @@
    "spy_change": 2.37,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": -0.65,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -0.28,
     "5": null,
     "20": null
    }
@@ -4638,12 +4638,12 @@
    "spy_change": 2.37,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": -1.03,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -0.66,
     "5": null,
     "20": null
    }
@@ -4666,12 +4666,12 @@
    "spy_change": 2.37,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -2.66,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -2.29,
     "5": null,
     "20": null
    }
@@ -4694,12 +4694,12 @@
    "spy_change": 2.37,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": 1.39,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.76,
     "5": null,
     "20": null
    }
@@ -4722,12 +4722,12 @@
    "spy_change": 2.37,
    "quality": null,
    "returns": {
-    "1": null,
+    "1": -0.19,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 0.18,
     "5": null,
     "20": null
    }
@@ -4750,12 +4750,12 @@
    "spy_change": 2.37,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": 1.59,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.96,
     "5": null,
     "20": null
    }
@@ -4778,12 +4778,12 @@
    "spy_change": 2.37,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -2.97,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -2.6,
     "5": null,
     "20": null
    }
@@ -4806,12 +4806,12 @@
    "spy_change": 2.37,
    "quality": "A",
    "returns": {
-    "1": null,
+    "1": 1.06,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.43,
     "5": null,
     "20": null
    }
@@ -4833,6 +4833,286 @@
    "close_strength": 0.95,
    "spy_change": 2.37,
    "quality": "B",
+   "returns": {
+    "1": -3.02,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": -2.65,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "AAON",
+   "name": "AAON, Inc.",
+   "rank": 1,
+   "score": 71.0,
+   "price": 75.01,
+   "change_pct": 19.31,
+   "rvol": 4.18,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -50.15,
+   "close_strength": 0.58,
+   "spy_change": -0.37,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "CSQR",
+   "name": "Csquare, Inc.",
+   "rank": 2,
+   "score": 62.6,
+   "price": 17.52,
+   "change_pct": 14.73,
+   "rvol": 4.07,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -25.45,
+   "close_strength": 0.45,
+   "spy_change": -0.37,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "SECZ",
+   "name": "Securitize Corp.",
+   "rank": 3,
+   "score": 56.2,
+   "price": 8.53,
+   "change_pct": 22.38,
+   "rvol": 3.29,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -49.85,
+   "close_strength": 0.17,
+   "spy_change": -0.37,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "AMRC",
+   "name": "Ameresco, Inc.",
+   "rank": 4,
+   "score": 55.4,
+   "price": 27.62,
+   "change_pct": 23.03,
+   "rvol": 1.84,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -72.88,
+   "close_strength": 0.98,
+   "spy_change": -0.37,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "HROW",
+   "name": "Harrow, Inc.",
+   "rank": 5,
+   "score": 47.0,
+   "price": 30.36,
+   "change_pct": 10.52,
+   "rvol": 3.56,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -78.31,
+   "close_strength": 0.3,
+   "spy_change": -0.37,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "GRDN",
+   "name": "Guardian Pharmacy Services, Inc.",
+   "rank": 6,
+   "score": 46.7,
+   "price": 49.85,
+   "change_pct": 6.02,
+   "rvol": 2.26,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "new_ath",
+   "pct_from_ath": -0.64,
+   "close_strength": 0.91,
+   "spy_change": -0.37,
+   "quality": "A",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "EMBJ",
+   "name": "Embraer S.A.",
+   "rank": 7,
+   "score": 46.1,
+   "price": 82.5,
+   "change_pct": 7.05,
+   "rvol": 2.48,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "new_ath",
+   "pct_from_ath": -1.13,
+   "close_strength": 0.73,
+   "spy_change": -0.37,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "ZETA",
+   "name": "Zeta Global Holdings Corp.",
+   "rank": 8,
+   "score": 44.1,
+   "price": 35.07,
+   "change_pct": 8.17,
+   "rvol": 1.86,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -8.19,
+   "close_strength": 0.93,
+   "spy_change": -0.37,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "MARA",
+   "name": "MARA Holdings, Inc.",
+   "rank": 9,
+   "score": 40.3,
+   "price": 7.34,
+   "change_pct": 10.54,
+   "rvol": 1.53,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -95.29,
+   "close_strength": 0.78,
+   "spy_change": -0.37,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "QNT",
+   "name": "Quantinuum Inc.",
+   "rank": 10,
+   "score": 36.5,
+   "price": 43.0,
+   "change_pct": 7.39,
+   "rvol": 2.04,
+   "catalyst": "analyst",
+   "catalyst_label": "Mejora de analista",
+   "appearance": 2,
+   "ath_status": "rebound",
+   "pct_from_ath": -50.46,
+   "close_strength": 0.82,
+   "spy_change": -0.37,
+   "quality": "C",
    "returns": {
     "1": null,
     "5": null,
