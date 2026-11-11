@@ -47,6 +47,69 @@ function qualityClass(q) {
 
 /* ---------- Top del día ---------- */
 
+/* ---------- Reloj de Wall Street en hora española ---------- */
+
+// Festivos de la bolsa de Nueva York (cerrada) y cierres anticipados (13:00 en Nueva York)
+const NYSE_HOLIDAYS = new Set([
+  "2026-01-01", "2026-01-19", "2026-02-16", "2026-04-03", "2026-05-25", "2026-06-19", "2026-07-03",
+  "2026-09-07", "2026-11-26", "2026-12-25", "2027-01-01", "2027-01-18", "2027-02-15", "2027-03-26",
+  "2027-05-31", "2027-06-18", "2027-07-05", "2027-09-06", "2027-11-25", "2027-12-24",
+]);
+const NYSE_EARLY_CLOSE = new Set(["2026-11-27", "2026-12-24", "2027-07-02", "2027-11-26"]);
+
+// Partes de una fecha vista desde una zona horaria
+function zoned(date, tz) {
+  const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", {
+    timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false,
+  }).formatToParts(date).map((x) => [x.type, x.value]));
+  return { y: +p.year, m: +p.month, d: +p.day, h: +p.hour % 24, mi: +p.minute, iso: `${p.year}-${p.month}-${p.day}` };
+}
+
+// Instante (Date) de una hora "de pared" en Nueva York, con su horario de verano/invierno correcto
+function nyTime(isoDay, h, mi) {
+  const [y, m, d] = isoDay.split("-").map(Number);
+  let t = Date.UTC(y, m - 1, d, h, mi);
+  for (let k = 0; k < 2; k++) {  // dos pasadas bastan para ajustar el desfase
+    const z = zoned(new Date(t), "America/New_York");
+    t -= (Date.UTC(z.y, z.m - 1, z.d, z.h, z.mi) - Date.UTC(y, m - 1, d, h, mi));
+  }
+  return new Date(t);
+}
+
+function nyseSession(isoDay) {
+  const wd = new Date(isoDay + "T12:00:00Z").getUTCDay();
+  if (wd === 0 || wd === 6 || NYSE_HOLIDAYS.has(isoDay)) return null;
+  return { open: nyTime(isoDay, 9, 30), close: nyTime(isoDay, NYSE_EARLY_CLOSE.has(isoDay) ? 13 : 16, 0), early: NYSE_EARLY_CLOSE.has(isoDay) };
+}
+
+function marketClock(now = new Date()) {
+  const es = (d) => d.toLocaleTimeString("es-ES", { timeZone: "Europe/Madrid", hour: "2-digit", minute: "2-digit" });
+  const dur = (ms) => {
+    const m = Math.round(ms / 60000), h = Math.floor(m / 60);
+    return h >= 24 ? `${Math.floor(h / 24)} d ${h % 24} h` : h ? `${h} h ${m % 60} min` : `${m} min`;
+  };
+  let day = zoned(now, "America/New_York").iso, s = nyseSession(day);
+  const hours = (x) => `abre <b>${es(x.open)}</b> · cierra <b>${es(x.close)}</b>${x.early ? " (cierre anticipado)" : ""}`;
+  if (s && now >= s.open && now < s.close) return `🟢 Wall Street <b>abierto</b> · ${hours(s)} hora española · cierra en ${dur(s.close - now)}`;
+  // siguiente sesión
+  for (let k = 0; k < 10 && !(s && now < s.open); k++) {
+    const dt = new Date(day + "T12:00:00Z"); dt.setUTCDate(dt.getUTCDate() + 1);
+    day = dt.toISOString().slice(0, 10); s = nyseSession(day);
+  }
+  const madrid = (d) => zoned(d, "Europe/Madrid").iso;
+  const tomorrow = new Date(now.getTime() + 86400000);
+  const when = madrid(s.open) === madrid(now) ? "hoy" : madrid(s.open) === madrid(tomorrow) ? "mañana"
+    : s.open.toLocaleDateString("es-ES", { timeZone: "Europe/Madrid", weekday: "long", day: "numeric" });
+  return `🔴 Wall Street <b>cerrado</b> · próxima sesión ${when}: ${hours(s)} hora española · abre en ${dur(s.open - now)}`;
+}
+
+function renderClock() {
+  const el = $("#market-clock");
+  if (el) el.innerHTML = marketClock();
+}
+renderClock();
+setInterval(renderClock, 30000);
+
 // Siguiente día laborable tras la sesión mostrada (no contempla festivos de EE.UU.)
 function nextSession(iso) {
   const d = new Date(iso + "T12:00:00");
@@ -134,8 +197,11 @@ function rowsWithMore(rows, limit, noun) {
     `<tr class="more-toggle"><td colspan="99"><button type="button">Ver ${rows.length - limit} ${noun} más</button></td></tr>`;
 }
 document.addEventListener("click", (e) => {
-  if (e.target.id === "rule-only-btn") {
-    const on = $("#cards").classList.toggle("rule-only");
+  if (e.target.classList.contains("rule-only-btn")) {
+    const cls = `only-s${e.target.dataset.slot}`, cards = $("#cards");
+    const on = !cards.classList.contains(cls);
+    cards.className = "cards" + (on ? ` ${cls}` : "");  // un filtro a la vez
+    document.querySelectorAll(".rule-only-btn").forEach((b) => (b.textContent = "ver solo esas"));
     e.target.textContent = on ? "ver todas" : "ver solo esas";
     return;
   }
@@ -173,6 +239,7 @@ let CURRENT_DAY = null;  // día mostrado (lo usa el plan de la regla guardada)
 
 function card(r, i) {
   const plan = typeof labTodayPlan === "function" ? labTodayPlan(r, i, CURRENT_DAY) : "";  // lab.js
+  const slotCls = typeof labTodaySlots === "function" ? labTodaySlots(r, i, CURRENT_DAY).map((k) => ` rule-s${k}`).join("") : "";
   const c = r.catalyst;
   const sym = encodeURIComponent(r.symbol);
   const news = (r.news || []).slice(0, 3).map((n) => `
@@ -181,7 +248,7 @@ function card(r, i) {
   const metric = (k, v, cls = "") => `<div class="metric"><span class="k">${k}</span><span class="v num ${cls}">${v}</span></div>`;
 
   return `
-  <article class="card${plan ? " has-rule" : ""}">
+  <article class="card${plan ? " has-rule" : ""}${slotCls}">
     <div class="card-head">
       <div style="min-width:0">
         <div class="ticker"><span class="rank">${i + 1}</span><button type="button" class="symbol sym-link" data-fund="${esc(r.symbol)}" title="Ver ficha financiera">${esc(r.symbol)}</button>${typeof qualityBadge === "function" ? qualityBadge(r.quality, true) : ""}${athBadge(r.ath)}${repeatBadge(r.appearance)}</div>

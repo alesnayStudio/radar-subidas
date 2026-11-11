@@ -3,7 +3,7 @@
    Usa utilidades de app.js: $, esc, fmtPct, signCls, fmtDate, getJSON, rowsWithMore. */
 
 const LAB_DEFAULT = {
-  cats: [], ath: [], quality: [], scoreMin: null, scoreMax: null, chgMin: null, chgMax: null, rvolMin: null, rvolMax: null,
+  cats: [], ath: [], quality: [], dateFrom: null, dateTo: null, scoreMin: null, scoreMax: null, chgMin: null, chgMax: null, rvolMin: null, rvolMax: null,
   rankMin: null, rankMax: null, closeMin: null, closeMax: null, market: "any",
   repeatOnly: false, entry: "next_open", gapMin: null, gapMax: null,
   target: null, stop: null, days: 5, cost: 0.2, sameBar: "stop",
@@ -49,6 +49,8 @@ function labRuleFromForm() {
   r.entry = f.elements.entry.value;
   r.sameBar = f.elements.sameBar.value;
   r.market = f.elements.market.value;
+  r.dateFrom = f.elements.dateFrom.value || null;
+  r.dateTo = f.elements.dateTo.value || null;
   r.sizing = f.elements.sizing.value;
   for (const [k, d] of [["capital", 10000], ["size", 10], ["maxPos", 10], ["commission", 0]]) if (r[k] == null || r[k] < 0) r[k] = d;
   if (r.maxPos < 1) r.maxPos = 1;
@@ -65,8 +67,10 @@ function labRuleToForm(r) {
   f.elements.entry.value = r.entry;
   f.elements.sameBar.value = r.sameBar;
   f.elements.market.value = r.market || "any";
+  f.elements.dateFrom.value = r.dateFrom || "";
+  f.elements.dateTo.value = r.dateTo || "";
   f.elements.sizing.value = r.sizing || "pct";
-  $("#lab-size-label").textContent = f.elements.sizing.value === "fixed" ? "$ por operación" : "% por operación";
+  $("#lab-size-label").textContent = labSizeLabel(f.elements.sizing.value);
   // abre "Más filtros" si alguno está en uso, para que no queden filtros activos escondidos
   const more = ["scoreMax", "rvolMax", "rankMin", "closeMin", "closeMax"].some((k) => r[k] != null) || (r.market && r.market !== "any");
   if (more) document.querySelector(".lab-more").open = true;
@@ -92,6 +96,8 @@ function labLoadFromUrl() {
 /* ---------- Filtro y simulación ---------- */
 
 function labFilter(p, r) {
+  if (r.dateFrom && p.date < r.dateFrom) return false;
+  if (r.dateTo && p.date > r.dateTo) return false;
   if (r.cats.length && !r.cats.includes(p.catalyst)) return false;
   if (r.ath.length && !r.ath.includes(p.ath_status || "none")) return false;
   if (r.quality?.length && !r.quality.includes(p.quality || "none")) return false;
@@ -227,14 +233,167 @@ function labTradesTable(trades) {
     </table></div>`;
 }
 
+/* ---------- ¿Se recuperan las que caen? (como si NO hubiera stop) ---------- */
+
+function labRecoveryStats(trades, r, thr) {
+  const N = r.days, target = r.target ?? 3;
+  const rows = [];
+  for (const t of trades) {
+    if (t.status === "skipped" || !t.path) continue;
+    const p = t.path, ei = r.entry === "close" ? 0 : 1;
+    if (p.d.length <= N) continue;  // periodo completo, como en el resto del Laboratorio
+    const entry = ei === 0 ? p.c[0] : p.o[1];
+    let dipAt = -1, maxAfter = -Infinity, mae = 0;
+    for (let i = 1; i <= N; i++) {
+      const low = (p.l[i] / entry - 1) * 100, high = (p.h[i] / entry - 1) * 100;
+      mae = Math.min(mae, low);
+      if (dipAt < 0 && low <= -thr) dipAt = i;
+      else if (dipAt >= 0) maxAfter = Math.max(maxAfter, high);
+    }
+    rows.push({ q: t.pick.quality || "none", dipped: dipAt >= 0, end: (p.c[N] / entry - 1) * 100 - (r.cost || 0),
+      targetAfter: maxAfter >= target, mae });
+  }
+  const group = (xs) => {
+    const d = xs.filter((x) => x.dipped);
+    return {
+      n: xs.length, dipped: d.length, recovered: d.filter((x) => x.end >= 0).length,
+      targetAfter: d.filter((x) => x.targetAfter).length,
+      avgEnd: d.length ? d.reduce((a, x) => a + x.end, 0) / d.length : null,
+      avgMae: xs.length ? xs.reduce((a, x) => a + x.mae, 0) / xs.length : null,
+    };
+  };
+  return { all: group(rows), A: group(rows.filter((x) => x.q === "A")), B: group(rows.filter((x) => x.q === "B")),
+    C: group(rows.filter((x) => x.q === "C")), N, target };
+}
+
+function labRecovery(trades, r) {
+  const thr = LAB.recThr ?? r.stop ?? 5;
+  const st = labRecoveryStats(trades, r, thr);
+  if (st.all.n < 5) return "";
+  const row = (label, g) => g.n ? `<tr><td>${label}</td><td class="r num">${g.n}</td>
+      <td class="r num">${g.dipped} <span class="dim">(${Math.round((100 * g.dipped) / g.n)}%)</span></td>
+      <td class="r num">${g.dipped ? `<b>${g.recovered}</b> de ${g.dipped}` : "—"}</td>
+      <td class="r num">${g.dipped ? `${g.targetAfter} de ${g.dipped}` : "—"}</td>
+      <td class="r num ${signCls(g.avgEnd)}">${g.avgEnd == null ? "—" : f2(g.avgEnd)}</td>
+      <td class="r num neg">${f1(g.avgMae)}</td></tr>` : "";
+  const a = st.all, rate = a.dipped ? a.recovered / a.dipped : null;
+  const verdict = !a.dipped ? "Ninguna llegó a caer tanto."
+    : rate < 0.35 ? `👉 La mayoría <b>no se recupera</b>: solo ${a.recovered} de ${a.dipped}. Con estos datos, el stop protege más de lo que cuesta.`
+    : rate > 0.65 ? `👉 La mayoría <b>sí se recupera</b> (${a.recovered} de ${a.dipped}). Un stop tan cercano podría estar sacándote de operaciones que acaban bien.`
+    : `👉 Resultado mixto: se recuperan ${a.recovered} de ${a.dipped}.`;
+  return `
+    <h3 class="section-title">🩹 ¿Se recuperan las que caen? <small class="dim">(como si no hubiera stop)</small></h3>
+    <p class="hint">De las operaciones de esta regla que en algún momento cayeron un
+      <input type="number" id="lab-rec-thr" class="inline-num" min="1" max="30" step="1" value="${thr}">% o más desde la entrada,
+      ¿cuántas acabaron en positivo al cierre de la sesión ${st.N}? ¿Y cuántas llegaron a +${st.target}% <b>después</b> de caer?</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th></th><th class="r">Operaciones</th><th class="r">Cayeron −${thr}%</th><th class="r">Acabaron en positivo</th>
+        <th class="r">Llegaron a +${st.target}% después</th><th class="r">Resultado medio de las que cayeron</th><th class="r" title="La peor caída media durante el periodo, de todas">Peor caída media</th></tr></thead>
+      <tbody>${row("<b>Todas</b>", a)}${row("Calidad A", st.A)}${row("Calidad B", st.B)}${row("Calidad C", st.C)}</tbody>
+    </table></div>
+    <p class="hint">${verdict} ${a.dipped < 15 ? '<span class="dim">Pocas caídas todavía: tómalo como pista, no como regla.</span>' : ""}</p>`;
+}
+
+/* ---------- Día a día: cómo van las acciones de cada sesión que cumplen la regla ---------- */
+
+const SHORT_REASON = { target: "objetivo", target_gap: "objetivo", stop: "stop", stop_gap: "stop", time: "tiempo" };
+
+function labDayChip(t) {
+  const sym = `<button type="button" class="sym-link" data-fund="${esc(t.pick.symbol)}">${esc(t.pick.symbol)}</button>`;
+  if (t.status === "skipped") return `<span class="chip-day dim">${sym} no entró (abrió ${f1(t.gap)})</span>`;
+  if (t.status === "closed") return `<span class="chip-day">${sym} <b class="${signCls(t.ret)}">${f2(t.ret)}</b> <span class="dim">${SHORT_REASON[t.reason]}</span></span>`;
+  const p = t.partial;
+  if (!p) return `<span class="chip-day dim">${sym} compra en la próxima apertura</span>`;
+  if (p.status === "closed") return `<span class="chip-day">${sym} <b class="${signCls(p.ret)}">${f2(p.ret)}</b> <span class="dim">${SHORT_REASON[p.reason]} (ya cerrada)</span></span>`;
+  if (p.ret == null) return `<span class="chip-day dim">${sym} comprada, sin sesiones aún</span>`;
+  return `<span class="chip-day">${sym} <b class="${signCls(p.ret)}">${f2(p.ret)}</b> <span class="dim">en curso, sesión ${p.days} de ${t.days || "…"}</span></span>`;
+}
+
+function labDaily(trades, r) {
+  if (!trades.length) return "";
+  const byDay = {};
+  trades.forEach((t) => (byDay[t.pick.date] ||= []).push({ ...t, days: r.days }));
+  const value = (t) => (t.status === "closed" ? t.ret : t.partial?.ret ?? null);
+  const rows = Object.keys(byDay).sort().reverse().map((d) => {
+    const ts = byDay[d].sort((a, b) => a.pick.rank - b.pick.rank);
+    const vals = ts.map(value).filter((v) => v != null);
+    const avg = vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : null;
+    const allDone = ts.every((t) => t.status === "closed" || t.status === "skipped");
+    return `<tr><td>${esc(fmtDate(d))}</td><td class="r num">${ts.length}</td><td><div class="chips-day">${ts.map(labDayChip).join("")}</div></td>
+      <td class="r num">${avg == null ? "—" : `<b class="${signCls(avg)}">${f2(avg)}</b>`}${allDone ? "" : ' <span class="dim" title="Incluye operaciones aún en curso, valoradas al último cierre">*</span>'}</td></tr>`;
+  });
+  return `
+    <h3 class="section-title">📆 Día a día de la regla</h3>
+    <p class="hint">Cada sesión del radar, las acciones que cumplían la regla y cómo van: cerradas con su resultado final y, las recientes, <b>en curso</b> valoradas al último cierre (*). Las en curso no cuentan en las estadísticas de arriba hasta completar su periodo.</p>
+    <div class="table-wrap"><table class="lab-daily">
+      <thead><tr><th>Sesión</th><th class="r">Acciones</th><th>Resultado de cada una (con costes)</th><th class="r">Media</th></tr></thead>
+      <tbody>${rowsWithMore(rows, 10, "sesiones")}</tbody>
+    </table></div>`;
+}
+
 /* ---------- Simulación con dinero ---------- */
 
 const usd = (v, dec = 0) => `${v < 0 ? "−" : ""}${Math.abs(v).toLocaleString("es-ES", { minimumFractionDigits: dec, maximumFractionDigits: dec })} $`;
 
-function labMoney(trades, r) {
-  const m = LabEngine.simulatePortfolio(trades, {
-    capital: r.capital, sizing: r.sizing, size: r.size, maxPos: r.maxPos, commission: r.commission, slip: r.cost,
-  });
+const labSizeLabel = (sizing) => (sizing === "fixed" ? "$ por operación" : sizing === "risk" ? "% de la cartera en riesgo" : "% por operación");
+
+const labPortfolio = (trades, r, over = {}) => LabEngine.simulatePortfolio(trades, {
+  capital: r.capital, sizing: r.sizing, size: r.size, maxPos: r.maxPos, commission: r.commission, slip: r.cost,
+  stopPct: r.stop, ...over,
+});
+
+// Misma regla y mismo periodo con tres formas de decidir el tamaño
+function labSizingCompare(trades, r) {
+  const pctSize = r.sizing === "pct" ? r.size : 10;
+  const variants = [
+    ["Cantidad fija (sin interés compuesto)", { sizing: "fixed", size: r.sizing === "fixed" ? r.size : (r.capital * pctSize) / 100 }],
+    [`${pctSize}% de la cartera (interés compuesto)`, { sizing: "pct", size: pctSize }],
+  ];
+  if (r.stop != null) variants.push([`Según riesgo: 1% de la cartera por operación (stop −${r.stop}%)`, { sizing: "risk", size: 1 }]);
+  const rows = variants.map(([label, over]) => {
+    const m = labPortfolio(trades, r, over);
+    if (!m.executed.length) return "";
+    const avgFrac = m.executed.reduce((a, e) => a + e.frac, 0) / m.executed.length;
+    return `<tr><td>${label}</td><td class="r num">${(avgFrac * 100).toFixed(0)}%</td><td class="r num"><b class="${signCls(m.pnl)}">${usd(m.final)}</b></td>
+      <td class="r num ${signCls(m.ret)}">${f2(m.ret)}</td><td class="r num neg">${f1(m.maxDD)}</td><td class="r num">${m.executed.length}</td></tr>`;
+  }).join("");
+  return `
+    <h4>¿Cuánto meter en cada operación? Misma regla, tres formas</h4>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Tamaño de cada operación</th><th class="r">Peso medio</th><th class="r">Capital final</th><th class="r">Rentabilidad</th><th class="r">Peor caída</th><th class="r">Ops.</th></tr></thead>
+      <tbody>${rows}</tbody></table></div>
+    <p class="hint">Con <b>interés compuesto</b> cada operación usa un % de lo que tienes en ese momento: si ganas, la siguiente es más grande (y si pierdes, más pequeña). <b>Según riesgo</b> es como lo hacen los profesionales: decides cuánto aceptas perder si salta el stop (aquí el 1% de la cartera) y el tamaño sale solo (1% ÷ ${r.stop ?? "stop"}%). Ojo: si la acción abre por debajo del stop se pierde algo más.</p>`;
+}
+
+// Proyección orientativa: operaciones al mes × peso medio × esperanza por operación (con su margen)
+function labProjection(m, s, r) {
+  const months = m.sessions / 21;
+  if (months < 0.75 || !s.n || s.expectancyMargin == null || !m.executed.length) return "";
+  const perMonth = m.executed.length / months;
+  const frac = m.executed.reduce((a, e) => a + e.frac, 0) / m.executed.length;
+  const scen = [
+    ["Malo (peor caso del margen)", s.expectancy - s.expectancyMargin],
+    ["Medio (lo visto hasta ahora)", s.expectancy],
+    ["Bueno (mejor caso del margen)", s.expectancy + s.expectancyMargin],
+  ];
+  const rows = scen.map(([label, e]) => {
+    const rm = perMonth * frac * (e / 100);
+    const at = (k) => r.capital * Math.pow(Math.max(1 + rm, 0), k);
+    const cell = (k) => `<td class="r num ${signCls(at(k) - r.capital)}">${usd(at(k))}</td>`;
+    return `<tr><td>${label}</td><td class="r num ${signCls(e)}">${f2(e)}</td><td class="r num ${signCls(rm)}">${f2(rm * 100)}</td>${cell(3)}${cell(6)}${cell(12)}</tr>`;
+  }).join("");
+  return `
+    <h4>Proyección orientativa con interés compuesto</h4>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Escenario</th><th class="r">Por operación</th><th class="r">Al mes</th><th class="r">3 meses</th><th class="r">6 meses</th><th class="r">12 meses</th></tr></thead>
+      <tbody>${rows}</tbody></table></div>
+    <p class="hint">Calculada con ${perMonth.toFixed(1)} operaciones al mes y un peso medio del ${(frac * 100).toFixed(0)}% por operación, como en esta simulación.
+      <b>No es una promesa:</b> son solo ${s.n} operaciones de ${months.toFixed(1)} meses de mercado, y el interés compuesto multiplica también las pérdidas.
+      Si el escenario malo es negativo, la regla aún no está demostrada.</p>`;
+}
+
+function labMoney(trades, r, s) {
+  const m = labPortfolio(trades, r);
   if (!m.executed.length) return `<h3 class="section-title">💰 Simulación con ${usd(r.capital)}</h3><p class="hint">Ninguna operación se pudo ejecutar con este capital y tamaño.</p>`;
   const skipped = m.skippedCash + m.skippedMax;
   const rows = [...m.executed].sort((a, b) => b.t.exitDate.localeCompare(a.t.exitDate)).map((e) => `
@@ -244,6 +403,7 @@ function labMoney(trades, r) {
       <td class="r num ${signCls(e.pnlPct)}">${f2(e.pnlPct)}</td></tr>`);
   return `
     <h3 class="section-title">💰 Simulación con ${usd(r.capital)}</h3>
+    ${r.sizing === "risk" && r.stop == null ? '<p class="lab-verdict bad">Para el tamaño «según riesgo» hace falta un stop-loss en la salida. Sin stop se invierte toda la cartera en cada operación.</p>' : ""}
     <div class="kpis">
       ${kpi("Capital final", usd(m.final), `${m.pnl >= 0 ? "ganado" : "perdido"} ${usd(Math.abs(m.pnl))}`, signCls(m.pnl))}
       ${kpi("Rentabilidad", f2(m.ret), `del ${fmtDate(m.from)} al ${fmtDate(m.to)}`, signCls(m.ret))}
@@ -254,6 +414,9 @@ function labMoney(trades, r) {
       ${kpi("Comisiones pagadas", usd(m.commissions, 2), `${r.commission} $ por orden`)}
     </div>
     <p class="hint">Cuenta al contado, sin apalancamiento: nunca se invierte más dinero del que hay. La peor caída se mide con el valor de la cartera al cierre de cada día, incluidas las posiciones abiertas.${skipped ? " Las señales saltadas son normales: con dinero limitado no se puede entrar en todo." : ""}</p>
+    ${labSizingCompare(trades, r)}
+    ${labProjection(m, s, r)}
+    <h4>Operaciones de la simulación</h4>
     <div class="table-wrap"><table>
       <thead><tr><th>Compra</th><th>Venta</th><th>Acción</th><th class="r">Acciones</th><th class="r">Precio compra</th><th class="r">Precio venta</th>
         <th class="r">Invertido</th><th class="r">Resultado</th><th class="r">%</th></tr></thead>
@@ -352,7 +515,6 @@ function labExplore(trades, rule) {
 
 /* ---------- Descripción de la regla y regla guardada para el Top del día ---------- */
 
-const SAVED_KEY = "radarRegla";
 
 function labDescribe(r) {
   const parts = [];
@@ -363,6 +525,7 @@ function labDescribe(r) {
     parts.push(`${name} ${lo != null ? `≥ ${lo}${u}` : ""}${lo != null && hi != null ? " y " : ""}${hi != null ? `≤ ${hi}${u}` : ""}`);
   range("puntuación", r.scoreMin, r.scoreMax); range("subida", r.chgMin, r.chgMax, "%"); range("vol. relativo", r.rvolMin, r.rvolMax, "×");
   range("puesto", r.rankMin, r.rankMax); range("cierre en rango", r.closeMin, r.closeMax, "%");
+  if (r.dateFrom || r.dateTo) parts.push(`fechas ${r.dateFrom || "…"} a ${r.dateTo || "hoy"}`);
   if (r.market && r.market !== "any") parts.push({ up: "mercado alcista", flat: "mercado plano", down: "mercado bajista" }[r.market]);
   if (r.repeatOnly) parts.push("solo repetidoras");
   parts.push(r.entry === "close" ? "entrada al cierre (teórica)" : "entrada en la apertura siguiente");
@@ -373,21 +536,69 @@ function labDescribe(r) {
   return parts.join(" · ");
 }
 
-function labSavedRule() {
-  try { return JSON.parse(localStorage.getItem(SAVED_KEY) || "null"); } catch { return null; }
+/* Hasta 3 reglas guardadas (en este navegador). Cada una: {name, rule, desc, savedAt, stats}. */
+const SLOTS_KEY = "radarReglas", SLOTS = 3;
+
+function labSlots() {
+  try {
+    let slots = JSON.parse(localStorage.getItem(SLOTS_KEY) || "null");
+    if (!Array.isArray(slots)) {  // migración: la antigua regla única pasa al hueco 1
+      const old = JSON.parse(localStorage.getItem("radarRegla") || "null");
+      slots = [old ? { name: "Regla 1", ...old } : null, null, null];
+    }
+    return Array.from({ length: SLOTS }, (_, i) => slots[i] || null);
+  } catch { return Array(SLOTS).fill(null); }
 }
 
-function labSaveRule(r, s) {
-  const saved = {
-    rule: r, desc: labDescribe(r), savedAt: new Date().toISOString(),
+function labWriteSlots(slots) {
+  try { localStorage.setItem(SLOTS_KEY, JSON.stringify(slots)); localStorage.removeItem("radarRegla"); return true; }
+  catch { return false; }
+}
+
+function labSaveSlot(i, r, s, name) {
+  const slots = labSlots();
+  slots[i] = {
+    name: (name || "").trim().slice(0, 40) || `Regla ${i + 1}`, rule: r, desc: labDescribe(r), savedAt: new Date().toISOString(),
     stats: s.n ? { n: s.n, winRate: s.winRate, expectancy: s.expectancy, margin: s.expectancyMargin } : null,
   };
-  try { localStorage.setItem(SAVED_KEY, JSON.stringify(saved)); return true; } catch { return false; }
+  return labWriteSlots(slots);
+}
+
+const sameRule = (a, b) => JSON.stringify({ ...LAB_DEFAULT, ...a }) === JSON.stringify({ ...LAB_DEFAULT, ...b });
+
+// Resumen de una regla guardada con datos posteriores al día en que se guardó
+function labForwardStats(slot) {
+  const since = slot.savedAt.slice(0, 10);
+  const trades = labRun({ ...LAB_DEFAULT, ...slot.rule }).trades.filter((t) => t.pick.date > since);
+  return { since, s: LabEngine.summarize(trades), open: trades.filter((t) => t.status === "open").length };
+}
+
+function labSlotsHtml(r) {
+  const slots = labSlots();
+  const cards = slots.map((slot, i) => {
+    if (!slot) {
+      return `<div class="slot empty"><b>⭐${i + 1}</b> <span class="dim">Hueco libre</span>
+        <div class="slot-btns"><button type="button" data-slot-save="${i}">Guardar aquí la regla actual</button></div></div>`;
+    }
+    const f = labForwardStats(slot), cur = sameRule(slot.rule, r);
+    const fw = f.s.n ? `${f.s.n} ops. · ${f.s.winRate.toFixed(0)}% aciertos · <b class="${signCls(f.s.expectancy)}">${fmtPct(f.s.expectancy, 2)}</b>/op.`
+      : `sin operaciones cerradas aún${f.open ? ` (${f.open} en curso)` : ""}`;
+    return `<div class="slot${cur ? " current" : ""}"><b>⭐${i + 1} ${esc(slot.name)}</b>${cur ? ' <span class="pos">· es la que estás viendo</span>' : ""}
+      <div class="dim small">${esc(slot.desc)}</div>
+      <div class="small">📅 Desde el ${esc(fmtDate(f.since))}: ${fw}</div>
+      <div class="slot-btns">${cur ? "" : `<button type="button" data-slot-load="${i}">Cargar</button>`}
+        <button type="button" data-slot-save="${i}">${cur ? "Guardar de nuevo" : "Sustituir por la actual"}</button>
+        <button type="button" data-slot-clear="${i}">Quitar</button></div></div>`;
+  }).join("");
+  return `<section class="lab-slots">
+    <div class="slots-head"><b>Tus reglas guardadas</b> <span class="dim">(hasta 3, en este navegador). Cada día, las tarjetas del Top marcan las acciones que cumplen cada una.</span>
+      <label class="slot-name">Nombre al guardar <input type="text" id="lab-slot-name" maxlength="40" placeholder="p. ej. Resultados fuertes"></label></div>
+    <div class="slot-grid">${cards}</div></section>`;
 }
 
 function labRender() {
   const r = labRuleFromForm();
-  $("#lab-size-label").textContent = r.sizing === "fixed" ? "$ por operación" : "% por operación";
+  $("#lab-size-label").textContent = labSizeLabel(r.sizing);
   labSaveToUrl(r);
   const res = labRun(r), base = labRun(r, false), s = res.s;
   const notes = [
@@ -416,18 +627,15 @@ function labRender() {
     </div>
     <p class="hint">Salidas: ${reasons}${s.ambiguous ? ` · <span title="Tocaron objetivo y stop el mismo día">${s.ambiguous} con objetivo y stop el mismo día (*)</span>` : ""}</p>
     ${base.s.n ? `<p class="hint">Referencia: con la misma entrada y salida, operar <b>todo el top</b> sin filtros da <b class="${signCls(base.s.expectancy)}">${f2(base.s.expectancy)}</b> por operación (${base.s.winRate.toFixed(0)}% de aciertos, ${base.s.n} operaciones).</p>` : ""}
-    ${labMoney(res.trades, r)}
+    ${labMoney(res.trades, r, s)}
     ${labChart(s.curve)}
     ${labExplore(res.trades, r)}
     ${labTradesTable(res.trades)}`;
   }
-  const saved = labSavedRule();
-  const isSaved = saved && JSON.stringify(saved.rule) === JSON.stringify(r);
-  html = `<div class="lab-save">
-      <button type="button" id="lab-save-btn" ${isSaved ? "disabled" : ""}>${isSaved ? "⭐ Es tu regla guardada" : "⭐ Usar esta regla en el Top del día"}</button>
-      ${saved && !isSaved ? `<span class="dim">Guardada ahora: ${esc(saved.desc)}</span> <button type="button" id="lab-load-btn">Cargarla</button>` : ""}
-      ${saved ? `<button type="button" id="lab-clear-btn">Quitar</button>` : ""}
-    </div>${isSaved ? labForward(res.trades, saved) : ""}` + html;
+  html += labRecovery(res.trades, r);
+  html += labDaily(res.trades, r);
+  const slotIdx = labSlots().findIndex((x) => x && sameRule(x.rule, r));
+  html = labSlotsHtml(r) + (slotIdx >= 0 ? labForward(res.trades, labSlots()[slotIdx]) : "") + html;
   $("#lab-results").innerHTML = html;
   LAB.last = { rule: r, s };
   if (s.n) labWireChart(s.curve);
@@ -464,14 +672,19 @@ function labResultsClick(e) {
     $("#lab-form").scrollIntoView({ behavior: "smooth", block: "start" });
     return;
   }
-  if (e.target.id === "lab-save-btn") {
-    if (!labSaveRule(LAB.last.rule, LAB.last.s)) alert("Tu navegador no permite guardar datos en esta página (¿modo privado?).");
+  const d = e.target.dataset || {};
+  if (d.slotSave != null) {
+    const i = +d.slotSave, slots = labSlots();
+    const name = $("#lab-slot-name")?.value || slots[i]?.name;
+    if (!labSaveSlot(i, LAB.last.rule, LAB.last.s, name)) alert("Tu navegador no permite guardar datos en esta página (¿modo privado?).");
     labRender();
-  } else if (e.target.id === "lab-load-btn") {
-    labRuleToForm({ ...LAB_DEFAULT, ...labSavedRule().rule }); labRender();
-  } else if (e.target.id === "lab-clear-btn") {
-    try { localStorage.removeItem(SAVED_KEY); } catch { /* sin almacenamiento */ }
-    labRender();
+  } else if (d.slotLoad != null) {
+    labRuleToForm({ ...LAB_DEFAULT, ...labSlots()[+d.slotLoad].rule }); labRender();
+  } else if (d.slotClear != null) {
+    const slots = labSlots();
+    if (confirm(`¿Quitar la regla ⭐${+d.slotClear + 1} "${slots[+d.slotClear].name}"? Se pierde su seguimiento con datos nuevos.`)) {
+      slots[+d.slotClear] = null; labWriteSlots(slots); labRender();
+    }
   }
 }
 
@@ -486,10 +699,14 @@ function labTodayPick(r, i, day) {
   };
 }
 
-function labTodayPlan(r, i, day) {
-  const saved = labSavedRule();
-  if (!saved || r.price == null || !labFilter(labTodayPick(r, i, day), { ...LAB_DEFAULT, ...saved.rule })) return "";
-  const rule = { ...LAB_DEFAULT, ...saved.rule }, c = r.price;
+// Índices de las reglas guardadas que cumple una tarjeta del día
+function labTodaySlots(r, i, day) {
+  if (r.price == null) return [];
+  return labSlots().map((slot, k) => (slot && labFilter(labTodayPick(r, i, day), { ...LAB_DEFAULT, ...slot.rule }) ? k : -1)).filter((k) => k >= 0);
+}
+
+function labPlanFor(slot, k, r) {
+  const rule = { ...LAB_DEFAULT, ...slot.rule }, c = r.price;
   const money = (v) => `${v.toFixed(2)} $`;
   let entry;
   if (rule.entry === "close") entry = "Regla con entrada al cierre (teórica): no se puede ejecutar en la práctica.";
@@ -503,16 +720,23 @@ function labTodayPlan(r, i, day) {
   ].filter(Boolean).join(" · ");
   const example = rule.entry !== "close" && (rule.target != null || rule.stop != null)
     ? ` <span class="dim">Ej.: si abre a ${money(c)} → ${rule.target != null ? `objetivo ${money(c * (1 + rule.target / 100))}` : ""}${rule.target != null && rule.stop != null ? ", " : ""}${rule.stop != null ? `stop ${money(c * (1 - rule.stop / 100))}` : ""}.</span>` : "";
-  const st = saved.stats ? `<span class="dim">Con esta regla en el histórico: ${saved.stats.winRate.toFixed(0)}% de aciertos, ${fmtPct(saved.stats.expectancy, 2)} por operación (${saved.stats.n} ops., al guardarla).</span>` : "";
-  return `<div class="rule-box">⭐ <b>Cumple tu regla.</b> ${entry} Salida: ${exits}.${example} ${st}</div>`;
+  const st = slot.stats ? `<span class="dim">Al guardarla: ${slot.stats.winRate.toFixed(0)}% de aciertos, ${fmtPct(slot.stats.expectancy, 2)} por operación (${slot.stats.n} ops.).</span>` : "";
+  return `<div class="rule-box">⭐${k + 1} <b>Cumple «${esc(slot.name)}».</b> ${entry} Salida: ${exits}.${example} ${st}</div>`;
+}
+
+function labTodayPlan(r, i, day) {
+  const slots = labSlots();
+  return labTodaySlots(r, i, day).map((k) => labPlanFor(slots[k], k, r)).join("");
 }
 
 function labTodaySummary(day) {
-  const saved = labSavedRule();
-  if (!saved || !day?.top?.length) return "";
-  const n = day.top.filter((r, i) => labFilter(labTodayPick(r, i, day), { ...LAB_DEFAULT, ...saved.rule })).length;
-  return `<span class="pill rule-pill" title="${esc(saved.desc)}">⭐ Tu regla: <b>${n}</b> de ${day.top.length} hoy
-    ${n ? `<button type="button" id="rule-only-btn">ver solo esas</button>` : ""}</span>`;
+  if (!day?.top?.length) return "";
+  return labSlots().map((slot, k) => {
+    if (!slot) return "";
+    const n = day.top.filter((r, i) => labTodaySlots(r, i, day).includes(k)).length;
+    return `<span class="pill rule-pill" title="${esc(slot.desc)}">⭐${k + 1} ${esc(slot.name)}: <b>${n}</b> de ${day.top.length}
+      ${n ? `<button type="button" class="rule-only-btn" data-slot="${k}">ver solo esas</button>` : ""}</span>`;
+  }).join("");
 }
 
 /* ---------- Arranque ---------- */
@@ -550,6 +774,12 @@ async function loadLab() {
   $("#lab-form").addEventListener("change", labRender);
   $("#lab-form").addEventListener("submit", (e) => e.preventDefault());
   $("#lab-results").addEventListener("click", labResultsClick);
+  $("#lab-results").addEventListener("change", (e) => {
+    if (e.target.id !== "lab-rec-thr") return;
+    const v = Number(e.target.value);
+    LAB.recThr = v > 0 ? v : null;
+    labRender();
+  });
 
   labRuleToForm(labLoadFromUrl());
   labRender();

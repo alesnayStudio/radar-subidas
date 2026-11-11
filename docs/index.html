@@ -6,7 +6,7 @@
   <title>Radar de Subidas</title>
   <meta name="robots" content="noindex">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%2316a34a'/><path d='M7 22l7-7 4 4 7-8' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
-  <link rel="stylesheet" href="style.css?v=2026-11-11">
+  <link rel="stylesheet" href="style.css?v=2026-11-11c">
 </head>
 <body>
   <header class="top">
@@ -22,6 +22,8 @@
       <select id="date-select"></select>
     </div>
   </header>
+
+  <p class="market-clock" id="market-clock" aria-live="polite"></p>
 
   <nav class="tabs" role="tablist">
     <button role="tab" data-tab="today" aria-selected="true">Top del día</button>
@@ -95,6 +97,10 @@
           <div class="lab-group"><span class="lab-label">Respecto al máximo histórico <small>(ninguno = todos)</small></span><div id="lab-ath" class="chips"></div></div>
           <div class="lab-group"><span class="lab-label">Calidad de la empresa <small>(ninguna = todas)</small></span><div id="lab-quality" class="chips"></div></div>
           <div class="lab-row">
+            <label title="Solo selecciones desde este día (incluido)">Desde el día<input type="date" name="dateFrom"></label>
+            <label title="Solo selecciones hasta este día (incluido)">Hasta el día<input type="date" name="dateTo"></label>
+          </div>
+          <div class="lab-row">
             <label>Puntuación mínima<input type="number" name="scoreMin" min="0" max="100" step="5" placeholder="—"></label>
             <label>Subida del día mín. %<input type="number" name="chgMin" step="1" placeholder="—"></label>
             <label>Subida del día máx. %<input type="number" name="chgMax" step="1" placeholder="—"></label>
@@ -148,8 +154,9 @@
           <div class="lab-row">
             <label>Capital inicial ($)<input type="number" name="capital" min="100" step="500" required></label>
             <label>Tamaño de cada operación<select name="sizing">
-              <option value="pct">% del valor de la cartera</option>
-              <option value="fixed">Cantidad fija ($)</option>
+              <option value="pct">% del valor de la cartera (interés compuesto)</option>
+              <option value="fixed">Cantidad fija ($, sin compuesto)</option>
+              <option value="risk">Según riesgo (% de la cartera que pierdes si salta el stop)</option>
             </select></label>
             <label><span id="lab-size-label">% por operación</span><input type="number" name="size" min="1" step="1" required></label>
             <label title="Si ya hay tantas abiertas, las señales nuevas se saltan">Máx. posiciones a la vez<input type="number" name="maxPos" min="1" max="50" step="1" required></label>
@@ -203,7 +210,10 @@
       <p>Prueba reglas de entrada y salida (objetivo, stop-loss, tiempo máximo, filtros) con los precios reales de las selecciones del radar. La regla queda guardada en la dirección de la página, así que puedes añadirla a favoritos. Mira siempre el <b>margen</b>: con pocas operaciones, una estrategia puede parecer buena por pura suerte.</p>
       <ul>
         <li><b>🔍 Explorador:</b> separa los resultados por cada característica (catalizador, volumen, cierre del día, hueco de apertura, mercado…) para ver qué tienen en común las ganadoras. El botón «Aplicar» añade ese grupo como filtro.</li>
-        <li><b>⭐ Usar esta regla en el Top del día:</b> cada día se marcan las acciones que la cumplen, con el plan concreto: entre qué precios debe abrir para entrar, objetivo, stop y tiempo máximo. Se guarda solo en este navegador.</li>
+        <li><b>⭐ Reglas guardadas (hasta 3):</b> cada una con su nombre y su <b>prueba con datos nuevos</b> (solo selecciones posteriores al día en que la guardaste). En el Top del día cada tarjeta indica qué reglas cumple, con su plan.</li>
+        <li><b>📆 Día a día:</b> por cada sesión, las acciones que cumplían la regla y cómo van, incluidas las que siguen en curso. Usa «Desde / Hasta el día» para mirar solo un periodo.</li>
+        <li><b>🩹 ¿Se recuperan las que caen?:</b> de las que cayeron un X% (como si no hubiera stop), cuántas acabaron en positivo. Sirve para decidir si el stop te protege o te saca antes de tiempo.</li>
+        <li><b>💰 Tamaño de cada operación:</b> cantidad fija (sin compuesto), % de la cartera (interés compuesto) o <b>según riesgo</b>: decides cuánto aceptas perder si salta el stop y el tamaño sale solo. La proyección a 3, 6 y 12 meses es orientativa, con escenario malo, medio y bueno.</li>
       </ul>
       <h2>Cómo usarlo</h2>
       <p>No es una lista de compra. Es un radar para saber <b>qué se mueve y por qué</b>, y la pestaña de Estadísticas te dirá con el tiempo qué tipo de subidas suelen continuar y cuáles se desinflan.</p>
@@ -218,9 +228,9 @@
     <span>Uso personal · No es asesoramiento financiero</span>
   </footer>
 
-  <script src="app.js?v=2026-11-11"></script>
-  <script src="lab-engine.js?v=2026-11-11"></script>
-  <script src="lab.js?v=2026-11-11"></script>
-  <script src="fund.js?v=2026-11-11"></script>
+  <script src="app.js?v=2026-11-11c"></script>
+  <script src="lab-engine.js?v=2026-11-11c"></script>
+  <script src="lab.js?v=2026-11-11c"></script>
+  <script src="fund.js?v=2026-11-11c"></script>
 </body>
 </html>

@@ -37,13 +37,10 @@
     const tp = rule.target != null ? entry * (1 + rule.target / 100) : null;
     const sl = rule.stop != null ? entry * (1 - rule.stop / 100) : null;
     const days = Math.max(1, Math.round(rule.days));
-    // Solo cuentan selecciones con el periodo COMPLETO ya disponible, aunque la operación salga antes.
-    // Si no, entre las recientes solo contarían las que tocaron pronto el objetivo (las ganadoras rápidas)
-    // y las que aún no lo han tocado quedarían fuera: el % de aciertos saldría inflado.
-    if (n <= days) return { status: "open", gap };
+    const last = Math.min(days, n - 1);  // última sesión disponible dentro del periodo
 
-    for (let i = 1; i <= days; i++) {
-      if (i >= n) return { status: "open", gap };
+    let result = null;
+    for (let i = 1; i <= last && !result; i++) {
       const done = (price, reason, ambiguous = false) => ({
         status: "closed", entry, exit: price, reason, ambiguous, gap, days: i,
         entryDate: path.d[ei], exitDate: path.d[i],
@@ -51,17 +48,28 @@
       });
       const entryBar = ei === 1 && i === 1;
       if (!entryBar) {
-        if (sl != null && path.o[i] <= sl) return done(path.o[i], "stop_gap");
-        if (tp != null && path.o[i] >= tp) return done(path.o[i], "target_gap");
+        if (sl != null && path.o[i] <= sl) { result = done(path.o[i], "stop_gap"); break; }
+        if (tp != null && path.o[i] >= tp) { result = done(path.o[i], "target_gap"); break; }
       }
       const hitS = sl != null && path.l[i] <= sl;
       const hitT = tp != null && path.h[i] >= tp;
-      if (hitS && hitT) return rule.sameBar === "target" ? done(tp, "target", true) : done(sl, "stop", true);
-      if (hitS) return done(sl, "stop");
-      if (hitT) return done(tp, "target");
-      if (i === days) return done(path.c[i], "time");
+      if (hitS && hitT) result = rule.sameBar === "target" ? done(tp, "target", true) : done(sl, "stop", true);
+      else if (hitS) result = done(sl, "stop");
+      else if (hitT) result = done(tp, "target");
+      else if (i === days) result = done(path.c[i], "time");
     }
-    return { status: "open", gap };
+    // Solo cuentan selecciones con el periodo COMPLETO ya disponible, aunque la operación salga antes.
+    // Si no, entre las recientes solo contarían las que tocaron pronto el objetivo (las ganadoras rápidas)
+    // y las que aún no lo han tocado quedarían fuera: el % de aciertos saldría inflado.
+    // Las "abiertas" llevan en `partial` cómo van (para el día a día), pero NO entran en las estadísticas.
+    if (n <= days) {
+      const partial = result || {
+        status: "running", entry, gap, days: last, entryDate: path.d[ei], lastDate: path.d[last],
+        ret: last >= 1 ? pct(path.c[last], entry) - (rule.cost || 0) : null,
+      };
+      return { status: "open", gap, partial };
+    }
+    return result || { status: "open", gap };
   }
 
   // Intervalo de confianza del 95% (Wilson) para un % de aciertos con n casos
@@ -108,7 +116,8 @@
   }
 
   /* Simulación con dinero (cartera real, no suma de %):
-     - Capital inicial; cada operación usa un % del valor de la cartera o una cantidad fija.
+     - Capital inicial; cada operación usa un % del valor de la cartera (interés compuesto), una cantidad
+       fija (sin compuesto) o el tamaño que arriesga un % de la cartera si salta el stop (riesgo / stop).
      - Acciones ENTERAS; comisión fija por orden (compra y venta) + `slip`% de deslizamiento en la venta.
      - Máximo de posiciones abiertas a la vez. Si no hay hueco, la señal se salta. Si falta efectivo se
        compra con lo que queda, salvo que no llegue a la mitad del tamaño previsto (entonces se salta).
@@ -136,7 +145,11 @@
       for (const t of byEntry[d] || []) {
         if (open.length >= o.maxPos) { skippedMax++; continue; }
         const book = cash + open.reduce((s, p) => s + p.invested, 0);
-        const alloc = o.sizing === "fixed" ? o.size : (book * o.size) / 100;
+        // fixed: cantidad fija (sin interés compuesto) · pct: % del valor de la cartera (compuesto)
+        // risk: tamaño para que, si salta el stop, se pierda `size`% de la cartera (riesgo / distancia al stop)
+        const alloc = o.sizing === "fixed" ? o.size
+          : o.sizing === "risk" ? Math.min(book, (book * o.size) / 100 / ((o.stopPct || 100) / 100))
+          : (book * o.size) / 100;
         // Si falta un poco de efectivo (p. ej. por comisiones) se compra con lo que queda;
         // si queda menos de la mitad del tamaño previsto, la señal se salta por falta de dinero.
         const usable = Math.min(alloc, cash - o.commission);
@@ -144,7 +157,7 @@
         if (usable < alloc * 0.5 || shares < 1) { skippedCash++; continue; }
         const invested = shares * t.entry;
         cash -= invested + o.commission; commissions += o.commission;
-        open.push({ t, shares, invested });
+        open.push({ t, shares, invested, frac: invested / book });  // frac: peso en la cartera al comprar
       }
       minCash = Math.min(minCash, cash);
       // valoración al cierre: las que salen hoy, a su precio de salida; el resto, al cierre del día
