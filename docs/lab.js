@@ -721,7 +721,38 @@ function labPlanFor(slot, k, r) {
   const example = rule.entry !== "close" && (rule.target != null || rule.stop != null)
     ? ` <span class="dim">Ej.: si abre a ${money(c)} → ${rule.target != null ? `objetivo ${money(c * (1 + rule.target / 100))}` : ""}${rule.target != null && rule.stop != null ? ", " : ""}${rule.stop != null ? `stop ${money(c * (1 - rule.stop / 100))}` : ""}.</span>` : "";
   const st = slot.stats ? `<span class="dim">Al guardarla: ${slot.stats.winRate.toFixed(0)}% de aciertos, ${fmtPct(slot.stats.expectancy, 2)} por operación (${slot.stats.n} ops.).</span>` : "";
-  return `<div class="rule-box">⭐${k + 1} <b>Cumple «${esc(slot.name)}».</b> ${entry} Salida: ${exits}.${example} ${st}</div>`;
+  return `<div class="rule-box">⭐${k + 1} <b>Cumple «${esc(slot.name)}».</b> ${entry} Salida: ${exits}.${example} ${st}${labOrderFor(rule, r)}</div>`;
+}
+
+/* Orden sugerida para replicar en el bróker lo que simula el Laboratorio (compra al precio oficial de
+   apertura): "Limit on Open" con un límite = cierre + hueco máximo (si la regla no tiene, +3%, lo que
+   mejor ha funcionado en el Explorador). Por debajo del cierre NO: solo se llenaría en las que abren
+   cayendo, que son las peores. Después, bracket +objetivo / −stop sobre el precio real de compra. */
+const ORDER_GAP_DEFAULT = 3;
+
+function labOrderFor(rule, r) {
+  if (rule.entry === "close" || r.price == null) return "";
+  const c = r.price, money = (v) => `${v.toFixed(2)} $`;
+  const gapMax = rule.gapMax ?? ORDER_GAP_DEFAULT;
+  const limit = Math.floor(c * (1 + gapMax / 100) * 100) / 100;  // redondeo a la baja: nunca por encima del máximo
+  const session = typeof nextSessionAfter === "function" && CURRENT_DAY ? nextSessionAfter(CURRENT_DAY.date) : null;
+  const es = (d, opt) => d.toLocaleString("es-ES", { timeZone: "Europe/Madrid", ...opt });
+  const deadline = session ? new Date(session.open.getTime() - 2 * 60000) : null;
+  const when = session ? `${es(session.open, { weekday: "long", day: "numeric" })}, antes de las <b>${es(deadline, { hour: "2-digit", minute: "2-digit" })}</b> (hora española)` : "antes de la apertura";
+  // tamaño orientativo con el capital y el tamaño de la propia regla
+  const book = rule.capital || 10000;
+  const alloc = rule.sizing === "fixed" ? rule.size : rule.sizing === "risk" && rule.stop ? Math.min(book, (book * rule.size) / rule.stop) : (book * (rule.size || 10)) / 100;
+  const shares = Math.floor(alloc / limit);
+  const bracket = [
+    rule.target != null ? `venta límite <b>+${rule.target}%</b>` : "",
+    rule.stop != null ? `stop <b>−${rule.stop}%</b> (stop normal, no stop límite)` : "",
+  ].filter(Boolean).join(" + ");
+  const minNote = rule.gapMin != null ? ` Si en preapertura cotiza por debajo de ${money(c * (1 + rule.gapMin / 100))}, cancélala: la orden en apertura no puede exigir un mínimo.` : "";
+  return `<div class="order-box">🧾 <b>Orden sugerida:</b> compra <b>«Limit on Open» (LOO) con límite ${money(limit)}</b> (cierre ${money(c)} +${gapMax}%), enviada el ${when}.
+    Si abre por encima, no se ejecuta y no hay operación.${minNote}
+    ${bracket ? `Al ejecutarse, pon una <b>bracket</b> sobre tu precio real de compra: ${bracket}.` : ""}
+    Si no toca nada, vende al cierre de la sesión ${rule.days} (orden <b>MOC</b>).
+    <span class="dim">Tamaño según tu regla (capital ${usd(book)}): ≈ ${shares} acciones. Ajústalo a tu capital real.</span></div>`;
 }
 
 function labTodayPlan(r, i, day) {

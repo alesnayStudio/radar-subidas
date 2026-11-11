@@ -82,6 +82,16 @@ function nyseSession(isoDay) {
   return { open: nyTime(isoDay, 9, 30), close: nyTime(isoDay, NYSE_EARLY_CLOSE.has(isoDay) ? 13 : 16, 0), early: NYSE_EARLY_CLOSE.has(isoDay) };
 }
 
+// Primera sesión de bolsa posterior a un día dado (fines de semana y festivos incluidos)
+function nextSessionAfter(isoDay) {
+  let day = isoDay, s = null;
+  for (let k = 0; k < 10 && !s; k++) {
+    const dt = new Date(day + "T12:00:00Z"); dt.setUTCDate(dt.getUTCDate() + 1);
+    day = dt.toISOString().slice(0, 10); s = nyseSession(day);
+  }
+  return s && { ...s, day };
+}
+
 function marketClock(now = new Date()) {
   const es = (d) => d.toLocaleTimeString("es-ES", { timeZone: "Europe/Madrid", hour: "2-digit", minute: "2-digit" });
   const dur = (ms) => {
