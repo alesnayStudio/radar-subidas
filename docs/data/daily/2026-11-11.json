@@ -1,0 +1,1958 @@
+{
+ "date": "2026-11-11",
+ "generated_at": "2026-11-12T02:23:02+00:00",
+ "market_state": "POSTPOST",
+ "filters": {
+  "min_change_pct": 6.0,
+  "min_market_cap": 1000000000,
+  "min_price": 5.0,
+  "min_dollar_volume": 10000000,
+  "min_rvol": 1.5
+ },
+ "universe": {
+  "raw_gainers": 127,
+  "passed_filters": 38
+ },
+ "market": {
+  "SPY": {
+   "label": "S&P 500",
+   "change_pct": 1.32
+  },
+  "QQQ": {
+   "label": "Nasdaq 100",
+   "change_pct": 2.31
+  },
+  "IWM": {
+   "label": "Russell 2000",
+   "change_pct": 0.89
+  }
+ },
+ "score_weights": {
+  "move": 20,
+  "rvol": 30,
+  "catalyst": 30,
+  "close": 10,
+  "size": 10
+ },
+ "top": [
+  {
+   "symbol": "CRWV",
+   "name": "CoreWeave, Inc.",
+   "exchange": "NasdaqGS",
+   "price": 60.77,
+   "day_high": 62.02,
+   "prev_close": 48.73,
+   "change_pct": 24.71,
+   "gap_pct": 14.86,
+   "close_strength": 0.85,
+   "volume": 158080488,
+   "avg_volume": 42348935,
+   "rvol": 3.73,
+   "dollar_volume": 9606551256,
+   "market_cap": 33516877824,
+   "pe": null,
+   "pct_from_52w_high": -56.04,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1794344400,
+   "market_time": 1794430801,
+   "market_date": "2026-11-11",
+   "market_state": "POSTPOST",
+   "score": 79.7,
+   "news": [
+    {
+     "title": "CoreWeave Reportedly Plans $4B Investment-Grade Loan After Strong Earnings Beat — But Shares Fall After-Hours On Nvidia CEO Drama",
+     "source": "Stocktwits",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/coreweave-reportedly-plans-4b-investment-002640650.html",
+     "published": "2026-11-12T00:26:40+00:00"
+    },
+    {
+     "title": "Stocks end higher as CoreWeave results ease AI spending worries",
+     "source": "Reuters",
+     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAtSGtVeXVqZ1lhU2JzRnI4LVF3WnVEZC1FQzBKMTJxbTVsUlZJSnJOQWNKWEFTTEhJQzJ2NFJrRDNETU9HNnp5aHl6MGhwT0VkdmNuWk9tZHRFTzZm?oc=5",
+     "published": "2026-11-12T00:23:11+00:00"
+    },
+    {
+     "title": "Nasdaq 100 Futures Drop As Reports Relating To Jensen Huang’s Ousting Outweigh CoreWeave’s Strong Outlook —  NVDA, TSLA, SNDK, CAPR, CRWV In Focus",
+     "source": "Stocktwits",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-100-futures-drop-reports-002206360.html",
+     "published": "2026-11-12T00:22:06+00:00"
+    },
+    {
+     "title": "CoreWeave Is Accelerating To Escape Velocity Thanks To GPU Shortages",
+     "source": "The Next Platform",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWm1xOWVITGpTOHNqOEtROXFWcHI0QWdRN1c4TkJkSHh2OFpCdXpXcjUwaFd2bEh1Sjk2RWpUUnRFM1RaREpGTzlNLTZrYXBrY3dXbmdBT3I3VEdDT2d5RUg2N3Noa1V6MGxTc0wxZG5PWXBOdi14dmVmU1NvSGZzX0RmbjNqai1OOWpUQ0Z0bWVRQlR6bUt6TmUzS1NDTm5YNW9sRllqd19ONXhIUDJTMVZoWWs3N0UzeW0zSWdxWQ?oc=5",
+     "published": "2026-11-12T00:50:59+00:00"
+    },
+    {
+     "title": "Market Chatter: CoreWeave Plans at Least $4 Billion Investment-Grade Loan",
+     "source": "MT Newswires",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-coreweave-plans-least-003436542.html",
+     "published": "2026-11-12T00:34:36+00:00"
+    },
+    {
+     "title": "The 1 Number CoreWeave Bulls Are Ignoring After Today’s Rally",
+     "source": "Barchart.com",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMVJoNDlsNEpLUlY2OUFkMmg2TU1Pb3BRZjZGbUZQeEFlNHBpUkwyX2dPN0lkMjdjV1ZEeTh0UVVGVUtVZzNGN01fQ0UtQS1aN05mWTNTZE1ySG9qRHFGdEtNbDl2UnNPV29ZemdoZGVXRnMxekphUmZWSDhjUldzMVU3Sm9odXh4V2VBYzFVa3FRRHV0WDBldkRPdF9DVGd4aFlBZzF1aw?oc=5",
+     "published": "2026-11-12T00:33:14+00:00"
+    },
+    {
+     "title": "If your portfolio benefited from today's trade, thank CoreWeave's CEO, says Jim Cramer",
+     "source": "CNBC",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZjJTQ2w0R1dtOVRJeWlvS0puVE80OXJzZUNSVlF6Tm56SWtGUy16VzZmTm0wTkM2aVZLdVZ1UnVWay0tRVBJaWFNU3RyRldENjBvdmg1anZubWpRMTNaQUhvekMzc3QzNmZ6amstcVNkYVkzMU9sdzdMMWZGaTVkV29BWFRUTlRad0dIeDQzbTZCQzNTMUtqVFNQeTY5V2JQa3lnd1NFUzVqeHI4REU0SUh6MnZwcjB3NDJCMzFEeW5maW8?oc=5",
+     "published": "2026-11-12T00:06:23+00:00"
+    },
+    {
+     "title": "Why CoreWeave Inc. (CRWV) is Surging This Much",
+     "source": "Insider Monkey",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/why-coreweave-inc-crwv-surging-000010331.html",
+     "published": "2026-11-12T00:00:10+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings_guidance",
+    "label": "Resultados + mejora de previsiones",
+    "quality": 1.0,
+    "note": "El catalizador con más continuidad histórica (post-earnings drift).",
+    "confidence": 0.2
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-11-10T16:00:00-05:00"
+   },
+   "score_parts": {
+    "move": 18.7,
+    "rvol": 14.9,
+    "catalyst": 30.0,
+    "close": 8.5,
+    "size": 7.6
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -67.5,
+    "ath": 187.0,
+    "ath_date": "2025-06-20",
+    "prior_ath": 187.0,
+    "listed_since": "2025-03-28",
+    "short_history": true
+   },
+   "quality": {
+    "grade": "C",
+    "points": 2,
+    "max": 9,
+    "piotroski": "5/9"
+   }
+  },
+  {
+   "symbol": "RSKD",
+   "name": "Riskified Ltd.",
+   "exchange": "NYSE",
+   "price": 10.37,
+   "day_high": 11.13,
+   "prev_close": 8.48,
+   "change_pct": 22.29,
+   "gap_pct": 23.82,
+   "close_strength": 0.42,
+   "volume": 9955721,
+   "avg_volume": 2192479,
+   "rvol": 4.54,
+   "dollar_volume": 103240827,
+   "market_cap": 1369231360,
+   "pe": null,
+   "pct_from_52w_high": -6.83,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1794403800,
+   "market_time": 1794430802,
+   "market_date": "2026-11-11",
+   "market_state": "POSTPOST",
+   "score": 67.0,
+   "news": [
+    {
+     "title": "Riskified Ltd (RSKD) Q3 2026 Earnings Call Highlights: Revenue Tops $100 Million for the First ...",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYXZKcnU4VHhpWHNidm1ULW50SDlyUE5hWU5wdFFDQlhaTEM3b3lDa2IzY09hZTNyUE9UOUQzazFCYUo3NnRmZHJkWGQ0LUkwbEhJcExWaWNPblAxdFJEWXJhbVVkaXVncTNLWGU3Q1ZNblVCek03bTltckpIREdLcVd0WTZjTk8zXzB1T3ZKNDkyYjVOd2c?oc=5",
+     "published": "2026-11-11T23:06:06+00:00"
+    },
+    {
+     "title": "Riskified Ltd. Q3 2026 Earnings Call Summary",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPV0JfUUpNZThzQnRGZlRTQ2JDS3ZIN3ZFRU5Fc0REWG9tYS1RV0pocE1VSEtJYkx2cDlYQkhiMFFIcExaTVdwbVVYNnY5bllsU3JUVzYwOWpjWnlkV0VXR0NkTlFHaWlYU2IwNU01YTl3VW9kbnhuNlZieVJTcVZtVE1HLVdvcThVdEc0VnhNVWNRbmMzcUdBMTllaw?oc=5",
+     "published": "2026-11-11T22:15:27+00:00"
+    },
+    {
+     "title": "Riskified (RSKD) Q3 2026 Earnings Call Transcript",
+     "source": "Motley Fool",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/riskified-rskd-q3-2026-earnings-191315048.html",
+     "published": "2026-11-11T19:13:15+00:00"
+    },
+    {
+     "title": "Riskified Q3 Revenue Surges 41% to $115.2 Million",
+     "source": "grafa.com",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdEtXbnBCSF80QVVTS0d1Z1BXVkJjZjRZQlNUejRaano3eGdhMmVib2YxaWIwbjhOSVpKTWZzOUxNUFVDWnBGZ0ZfTEI2QVllYkFpS29mdFR5UUJjNmt6UEhvQmdQU2NIaVhMNkZWM2ktVUhQc0VYeG92bF9LYWMtajJqTncxank3NllObU9qX3cxai14TkZnbDU2SHd6dHM?oc=5",
+     "published": "2026-11-11T18:48:00+00:00"
+    },
+    {
+     "title": "What Riskified (RSKD) Said on Its Q3 Earnings Call",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbzNqSEVpb2NmYVEtVno1bldFc0Y1dVRXSkItUTNYSWxyeERpcUhjdXlEOUVDYms0Zi1jbVdCVWgwS2MwQjhJXzkwWlRvbVdJSW5oQWp3bVF5M3VzRUFDendqNE1nQXp1ZzIzSlU5WTVOb2huY29ZWGJRX3htdEViOGFpekRvcndoVlFOME9QSmRiejlHVVlOT0JDN2RkZGdPd2dNMDh6QzJxcVJ1bmZkMzlfWQ?oc=5",
+     "published": "2026-11-11T18:19:36+00:00"
+    },
+    {
+     "title": "Riskified (RSKD) Shares Skyrocket 21.8% on This Catalyst",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQR3J0QUFxSjhEU0wzS1YyWXZRLTN0SVI3RzFRdU1LT1pzNTU3Y2VMdUloRnB3bHdadXExc2pWVG1OYUJPenY4QnBzcVJESHlFdjhuVUI0YW5ud3FDNTNwTmR2aXdteEJXLVJ2MFF5MkFWc0J5V2RZTW1fdmlKV3hXSnpTX1J3UGxBdnM1dUE4NFVaVFhIM1RhQ3VNRktlbkky?oc=5",
+     "published": "2026-11-11T23:56:05+00:00"
+    },
+    {
+     "title": "Riskified stock jumps 22.29% as revenue accelerates, margins narrow",
+     "source": "finchannel",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMkVTd3YwNzlsSDQ3UWF5R0Vpa0JnMWdGdEhKa1FNeEQ1cHhHakZ1QlYtUjdSenh4dFk0bmVLNDVOV0RjMHJmbVBVUE1zaG43d0lnLVNIOXRUU1lPS1ZCdnpKUWRIQ1lpcGhEZ2JZWHAxNUxNOXFiS3gxYzFWSFNKZ1J3bVVfWnFYdktRVlJiLVRLd0FheEFid3ZpZG9ESmlzOTc3VHJyYUplLUhCZkNQUjFhdFVVbVIzbVJlN0pwNzFLSVlSaVdKU1hDTE83MVZKTFZaMXFjcXZ3dw?oc=5",
+     "published": "2026-11-11T22:39:03+00:00"
+    },
+    {
+     "title": "Nvidia, CoreWeave, Nebius, Teradyne, Riskified, and More Stocks That Explain Today’s Market",
+     "source": "Barron's",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE44ODBlZWJGdVVoT25IZnpyM3hDQTBZaVdMRmVJeWpoeFNDTG9oMXhMRjhFakExamctVlhjSVdYNUdqTFFyS2luTVZaOE1laGVBWjRvVldzYzhrUzdlNjRNb0kyZFI?oc=5",
+     "published": "2026-11-11T21:17:00+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 1
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-11-11T08:30:00-05:00"
+   },
+   "score_parts": {
+    "move": 16.3,
+    "rvol": 20.3,
+    "catalyst": 25.5,
+    "close": 4.2,
+    "size": 0.7
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -74.38,
+    "ath": 40.48,
+    "ath_date": "2021-09-07",
+    "prior_ath": 40.48,
+    "listed_since": "2021-07-29",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 4,
+    "max": 9,
+    "piotroski": "6/9"
+   }
+  },
+  {
+   "symbol": "REZI",
+   "name": "Resideo Technologies, Inc.",
+   "exchange": "NYSE",
+   "price": 23.0,
+   "day_high": 23.0,
+   "prev_close": 19.45,
+   "change_pct": 18.25,
+   "gap_pct": 6.22,
+   "close_strength": 1.0,
+   "volume": 7491771,
+   "avg_volume": 2177414,
+   "rvol": 3.44,
+   "dollar_volume": 172310733,
+   "market_cap": 3492489728,
+   "pe": 9.663865,
+   "pct_from_52w_high": -23.05,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1794344400,
+   "market_time": 1794430802,
+   "market_date": "2026-11-11",
+   "market_state": "POSTPOST",
+   "score": 63.3,
+   "news": [
+    {
+     "title": "Resideo Technologies (REZI) Shares Surge Nearly 13% After Strong Q3 Earnings Beat",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPb1hNRXUyaXFNZHZvRkhyU0NUcWQ5TE5sSGRXNE9vUUViVGh6dnFYZXpDNFRTYnUyT0k4QUZmQVgxV2lkWC15X3RrZzRvZnJpOWg2VjZoOVB1WlhUbk9KRHBmOG93UFJ4emxjRVl6M1NndUNyZ0ZxWGNtcHI4TU1qT1VrR2xEZUtzWGZyWUtWejlNS3ItbmhfMk1BYjJqajBrY2JqWGIwRHBoVjB2QmJfWlJOeFVNQjlR?oc=5",
+     "published": "2026-11-11T17:05:27+00:00"
+    },
+    {
+     "title": "Resideo Technologies Shares Trade at $22.15 After Third-Quarter Results",
+     "source": "www.tokenpost.com",
+     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1uUDhYXzdsLU5XZVNKM2xHNVFpVGlub29aeDhBS3JXaHgyaHp6MXlnRDlodXd1QXF5a19uQ045dVA4blBMc2ZFdVFpN2xOZkZOWGZXRkhRQzc?oc=5",
+     "published": "2026-11-11T16:50:28+00:00"
+    },
+    {
+     "title": "Resideo Technologies jumps 13% on quarterly results (REZI:NYSE)",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTlJtaGdaSElpazR1UzktOGk1TlVZRVgzWnAtUDdNUkFhVFJvZGZaT1FWUXh0Qmx6dm9mblpQckxEaFdlRFIwSmtXNm1Ta29YRVFUQ2Z4UnQ4RHJEblhsOS1UMXVoamwyd2lSd0g4RjI1VGpFcTcwTHN3U1NMVnYzWnotbDV1SEh5Wmw2S0FPNE5hdw?oc=5",
+     "published": "2026-11-11T16:37:56+00:00"
+    },
+    {
+     "title": "Resideo Technologies (REZI) Just Soared 18% — Here’s Why",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTldZTzN5N1c4Y1lMUkJhVWtLM211TmE3czFpaXNaOHdDSm9SQVViRWpTRWNxMWJuSXVrdmkxZW9WSlIxaGRya2NxSy0ybjQzdzlKcklJMXEwVWlVN2gtajg5aU1fTVZsWElPUTlsTXJHUEdkb1RCc0R2LUtZYlZFY3RrYkxQMUNWNFpNb29Gc0NTbXVpNDM0eHB2V1d6c29xRjVZNA?oc=5",
+     "published": "2026-11-11T23:44:27+00:00"
+    },
+    {
+     "title": "Resideo Technologies Up Over 15%, On Track for Largest Percent Increase Since July 2025 -- Data Talk",
+     "source": "Moomoo",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOHFVWWxFT1Y1cDg0NXlONndWWGdlN044YVY4bkJrTmF4M19RaUhmRlc1TVNJTGlnaEJyUElINGdvSWUwdG1CUGl0VXJVMERuaXoxaVMtTGk3cS05Tm5SMUFsalZfMC1jeFc1Q21qNmhieWpkQTFva2JiM3pWUnNEeGhKZDRqS3R5R0ZTSzlBR3c5WFQ0QUN0a3FPRGZkOG0xRnVKYnQtVQ?oc=5",
+     "published": "2026-11-11T19:45:00+00:00"
+    },
+    {
+     "title": "Resideo Technologies, Inc. (REZI) Stock Forecasts",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQU1VjTmItWkRGdHFxYXhCbzlwa1Y1WVVkN2xtcGNGTU9qbl9Obm1mbVQ5c1lPWHZmQjI0Y29qMkxaMHBhbVdzeTNUal9VTi04WjMzMTJVeEhrSVFTaDNIZm9ySzlES0E4TXVPQzZDNjBJajlRTHZTSDhzZlJnMzR4RUU5b3dEYkt0X3c0NkVuOA?oc=5",
+     "published": "2026-11-11T19:10:14+00:00"
+    },
+    {
+     "title": "Resideo Technologies (NYSE:REZI) Stock Gets Price Target Reduction from Oppenheimer",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcDdXak9HeUljdjRYLWZwb1dkaXEtN0tpNUUwNmowZEhWcEJoa2xDR1VuR3dpc2wyMWFaQ3BEd0s5Z2dNSGFOcVBkUUdmMWdqb2ZXVUdjRE91UEtOMjNiQkFvTUlYQ3VNa2JUTDFZZkxxSnZPZzliaWVHQXl1N2lMYVpLRWowUmE1UU1JZDd4U2pfM1Z4VGV4Y21qT2lhcE4tWGRKWnRFMXN0bnUyRlNleDdWdHhxalpGZC1zY2xycUdVT3dMNV8wX0JJenZQbkxManJxMW9WTUs1LVE?oc=5",
+     "published": "2026-11-11T18:23:13+00:00"
+    },
+    {
+     "title": "Oppenheimer maintains Resideo Technologies at Outperform, lowers price target to $25 from $27",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYXpaX2V2c00yeG5peUlmMk00WXZ4V0hxWllUc0RCaG80VlhJRlBMdVQ4Z2h0djJKdGx1dndHMUFIZmROc0hiS0lTWEpFVDZrbXpMZDhESk05TjBNVmRaSW1GQ2Jqb2NoSE8yeGxSWGdFOUJ0cDFURUFGakdCVjV2RTdjMTNCS3cwazRodFJNUTRoTUlKc2MzSG05bGNGazU0a2RpUEc5RnZ1VndFVG5USWtNcmg4V3AtUTY1TFNBY2xzdXN3WWx3WHRZU1I2WWdMUXZadHF4R3R3TC14R2xuLTBackFFa3M?oc=5",
+     "published": "2026-11-11T18:00:04+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 1
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-11-10T16:00:00-05:00"
+   },
+   "score_parts": {
+    "move": 12.2,
+    "rvol": 12.9,
+    "catalyst": 25.5,
+    "close": 10.0,
+    "size": 2.7
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -27.02,
+    "ath": 31.52,
+    "ath_date": "2025-10-27",
+    "prior_ath": 31.52,
+    "listed_since": "2018-10-29",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 1,
+    "max": 9,
+    "piotroski": "3/9"
+   }
+  },
+  {
+   "symbol": "DJT",
+   "name": "Trump Media & Technology Group Corp.",
+   "exchange": "NasdaqGM",
+   "price": 5.19,
+   "day_high": 5.48,
+   "prev_close": 4.28,
+   "change_pct": 21.26,
+   "gap_pct": 3.15,
+   "close_strength": 0.73,
+   "volume": 16888180,
+   "avg_volume": 4707559,
+   "rvol": 3.59,
+   "dollar_volume": 87649654,
+   "market_cap": 1445042688,
+   "pe": null,
+   "pct_from_52w_high": -69.63,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1794258000,
+   "market_time": 1794430801,
+   "market_date": "2026-11-11",
+   "market_state": "POSTPOST",
+   "score": 62.8,
+   "news": [
+    {
+     "title": "Trump Media & Technology Group surges 24%, adding to post-earnings upswing (DJT:NASDAQ)",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdjJZWnNsX2VFR0gtMVFYaXd1bG9uQXhHdmxjSDluQU04U2RRZEhuakhQZzdqLUh0THFJQUZ6ZDBaSXZEcjRFbjN6OHprU2YtdDk5ZWpzQ2Yyd0ZBQ1lsNWpxZTJyT3Z2R1FneFdRcWJHRFplTnJYYnhQbWowSzhwSGMyNFhoWFVISzVuUGpHRldFUmh1UHFpTG8yNnZGdmN2MkhfV25aTTRuSTBW?oc=5",
+     "published": "2026-11-11T16:56:51+00:00"
+    },
+    {
+     "title": "Rumble Rises 6% After Third-Quarter Revenue Beat; Trump Media Jumps 9%, Meta Stays Flat",
+     "source": "24/7 Wall St.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/rumble-rises-6-third-quarter-145549183.html",
+     "published": "2026-11-11T14:55:49+00:00"
+    },
+    {
+     "title": "Trump Media (DJT) Just Soared 21% — This Propelled the Rally",
+     "source": "Insider Monkey",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/trump-media-djt-just-soared-235253812.html",
+     "published": "2026-11-11T23:52:53+00:00"
+    },
+    {
+     "title": "If you invested $1,000 in Trump Media on its first day, here’s what it’s worth today",
+     "source": "TheStreet",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/invested-1-000-trump-media-211000249.html",
+     "published": "2026-11-11T21:10:00+00:00"
+    },
+    {
+     "title": "Trump Media & Technology Group (DJT) Shares Surge 24% Amid Reven",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUmdDQkRUbl9EX1dLcFp1WnR3SEx6TDRVWkhUREVHN2ozemtqVUNqVVhxVmUtdUhpM0VtYnpJLU96M0dVeUZoeDZsclhMS2ZoZFJ5VW4zakI5MEtENzVCS09reWhfcDdWdDl2R21udFkzaU1oOTNZdFNpZDE3djducjZjWGNvUHJreENYalFOM3ozNG9XRjBzZVBrM08xaFBpemREaE9GYWp5NFVZR1RZTUl6OXRVUzltUF9TTEN1bFk5N1JabWNiSk53?oc=5",
+     "published": "2026-11-11T18:03:45+00:00"
+    },
+    {
+     "title": "$Trump Media & Technology (DJT.US)$",
+     "source": "Moomoo",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWnE1cWpkRjZXSFhFODFnN0dwaHRtWm1ialhlb2F6d2FrRm83QkdqRHNiaFgxeDJvVWdXQ051RTdXMjhuNjNZcllPOTRJQ0szUGJ6V3dGYUd4S3pGcVVQcnpheTU2MUdndkFld0FfNHFhR0hnX3JQRWMwV1VYVFpETG9XT1VrX2JZNTdr?oc=5",
+     "published": "2026-11-11T14:41:02+00:00"
+    },
+    {
+     "title": "Trump Media & Technology Group | Truth Social, DJT, History, & TAE",
+     "source": "Britannica",
+     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5lT2dhSXRTdXhSaGh2djRnVUFnTUdVRlZzRzdxdXdjTElyMF9ZeWJUUG1kbWJIYUlpWkhJVTdoREJsWU9TaEdibjNIdE4wdjFwQTk4bmZaU2lNRm4tM1Z1M0trcFdhZ2kyM1ZDYWZwQmphRDg?oc=5",
+     "published": "2026-11-11T10:32:51+00:00"
+    },
+    {
+     "title": "Is Trump Media & Technology Group (DJT) Fairly Valued On Its Profit Swing And Liquidity Plan?",
+     "source": "Simply Wall St",
+     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOMmRZMnFvNXZUMGhzamVPNU5pbnY2RGlWMmhLT212SXZhX1hDanlQVkl3aGxiamtPMTFHaGU3bHM2WTlXQjdIOFgzQ3FzU2xKc2xOeHhNczI0NFYyUnEycmdhd3VpN1R2em54cHFEVHpqTkFJbkdnaFdqVEJwRFJkMmxQQjJSTEgxTmJoRVdZR3ZuUHhncjJLeHl6RHA5LUs0dHBFcnNaR01jSE5rS05yMlZyTURWdnNjRW9TTEtxeTVZSk0yS1V0OTdzeFo4dk9FRzludUxsdWlLWGIwdWlrVNIB4AFBVV95cUxOMmRZMnFvNXZUMGhzamVPNU5pbnY2RGlWMmhLT212SXZhX1hDanlQVkl3aGxiamtPMTFHaGU3bHM2WTlXQjdIOFgzQ3FzU2xKc2xOeHhNczI0NFYyUnEycmdhd3VpN1R2em54cHFEVHpqTkFJbkdnaFdqVEJwRFJkMmxQQjJSTEgxTmJoRVdZR3ZuUHhncjJLeHl6RHA5LUs0dHBFcnNaR01jSE5rS05yMlZyTURWdnNjRW9TTEtxeTVZSk0yS1V0OTdzeFo4dk9FRzludUxsdWlLWGIwdWlrVA?oc=5",
+     "published": "2026-11-11T02:38:57+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 1.0
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-11-09T16:00:00-05:00"
+   },
+   "score_parts": {
+    "move": 15.3,
+    "rvol": 13.9,
+    "catalyst": 25.5,
+    "close": 7.3,
+    "size": 0.8
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -97.03,
+    "ath": 175.0,
+    "ath_date": "2021-10-22",
+    "prior_ath": 175.0,
+    "listed_since": "2021-09-30",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 2,
+    "max": 9,
+    "piotroski": "4/9"
+   }
+  },
+  {
+   "symbol": "SONO",
+   "name": "Sonos, Inc.",
+   "exchange": "NasdaqGS",
+   "price": 19.06,
+   "day_high": 19.18,
+   "prev_close": 16.89,
+   "change_pct": 12.85,
+   "gap_pct": 3.61,
+   "close_strength": 0.94,
+   "volume": 6090694,
+   "avg_volume": 1693895,
+   "rvol": 3.6,
+   "dollar_volume": 116088628,
+   "market_cap": 2254683136,
+   "pe": 42.355556,
+   "pct_from_52w_high": -3.83,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1801602000,
+   "market_time": 1794430800,
+   "market_date": "2026-11-11",
+   "market_state": "POSTPOST",
+   "score": 57.5,
+   "news": [
+    {
+     "title": "Sonos Inc (SONO) Q4 2026 Earnings Call Highlights: Strong Revenue Growth and Margin Pressure Ahead",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUHNNRmhMV2hOQmNxRXU5LXBIcEhZcmNrMEhpNUV6NG9FamF0ZVZXWUpzdEtyNTZXdUNuZjhuakRfVzBkcFhMS3JfQnI2OXRiYVdTZGtCVkV6amYwcjZwV21TeFA3NUlYRlJ2STRhbmhhdVotSHdBaXhLZXZjSk1mcFc5dTcxQ0VNaXlOaGllVjk?oc=5",
+     "published": "2026-11-11T06:08:14+00:00"
+    },
+    {
+     "title": "SONO Q3 CY2026 deep dive: new products and cost discipline drive growth amid supply chain headwinds",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNOVYwOE1ZVUM4eGgwQzMzQnEyYjNqaW1nZHJjbzRXdVpGbmNHeFVKemFrX3RFQUZKd3pvbUhzRHlzTGhsQkYzcEdpYjBPWUc0THFPT1MzMC1NMTF1NVo4eTlvNldsTUFNZGtwZ2lVa29CcjlyUi1QOU84TmlzWmctUExUbWJ6S0dSU213UFpZdWl4NV84d25KYW1NcFQtUGVoeGt0UG9nOEx1T0lCT19vNkJhRVlpV1hwMld6SmxPUnBndzk0WEhLTUVoY3gxMW9hLTlIczZiY0FqZ3FzZktlQ3BVQi1xODdHOGg2bUdsWDM?oc=5",
+     "published": "2026-11-11T05:31:00+00:00"
+    },
+    {
+     "title": "Sonos fourth-quarter revenue rises 20% to $344 million, but it warns memory costs will squeeze margins",
+     "source": "MLQ.ai",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTmZfbmRiZTdKdENSWFc0VkxOd3pKRkc5WmV3MXpTbHZfeTQwOFl4dGhMV1FlRlJrVmNoT3RjVzhzbUlXM2hmcy1fWGh5WjZkNVZsc2NLRVU5RmxfOHM4TWdhSk9ZNUp1WjJjNjdlZXZUU3FOVnU3bU5BN1EzcFY2TmdqZ180U2pqVGJZRXRlYVctSC04WWJ1bVNEY1FpS2xZT3BSb1ZIRGJYTXNKOFhjTGtsY0lPZDBxdWNv?oc=5",
+     "published": "2026-11-11T03:18:00+00:00"
+    },
+    {
+     "title": "Sonos (SONO) Reports Strong Q4 2026 Revenue and Optimistic Q1 20",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdDlzWURuN21IWk1OdzhYTTJOX09iZ2dXQU90REZHU2U5czhhTElzNmxtNWJjZS1JeHg2b0ZNVFlWODFPZWszWWs4QUEtTmR5V3lYU1ozZnBoZVhSU29ES0JtYjZEXzAwU2hiMjBfRFIxYXY4RDBCc0xoTmR4Uzdsdzdqc2NHUGJSQ01LNWg4dEFCRkJBQ2l6MEItblBSRXVhS1poSml0LVNWaHlfdDBPRg?oc=5",
+     "published": "2026-11-11T03:11:51+00:00"
+    },
+    {
+     "title": "Sonos (NASDAQ:SONO) Posts Quarterly Earnings Results, Beats Expectations By $0.22 EPS",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTFZTZDM3bklWVm13U3RiaTRudkcyc3pPeTRMYWpMcDA1R3BYMUhqSzJSRGtoUkE4SEI1QVpRSEtBZmY3MFpUUks3TjlXU2VqRV9FY3hGSk5BUUJMZ0FrZ2Y1Ml9mWjFHN3U4OEhqeTdiVldIMTNYVFZuRjBoMFlJU21nLUdvbDh5LXdmNmluZDFmbFZFb2V0STlEQzk5R3FBY2dwbHBTaWpIVWVPNkdVUmRUbmV3OHJrWFZGdFVXY0diX3NBMWhiY1NzWTJNUlhvRnBPQmdkdWZFMWs?oc=5",
+     "published": "2026-11-11T00:02:35+00:00"
+    },
+    {
+     "title": "Sonos Reports Fourth Quarter and Fiscal 2026 Results",
+     "source": "01net",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xeEdaOFpZRHpMNmVkNjFyY1ZlemUwZkZqZ0JFSGNIS0FxaDlWbHV5SjZkczY2eThqeW15UTFUUEVuMHh2X3dvajduWEJyQndpVUxlUFFnTURHYzJYakxqM3VwU05yUldMOS1PSnpOS1BBdUdRSGdGV1lYSERhS3M?oc=5",
+     "published": "2026-11-11T00:01:00+00:00"
+    },
+    {
+     "title": "Earnings call transcript: Sonos tops Q4 estimates, shares rise after hours",
+     "source": "Investing.com Nigeria",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQc0Y5SUx1cHJGRlU1WTg3dDByTl9iay1WRkE4SkVVTF95UUh1MkVZdF8wdUNsaG9seEJoZFpIU0FETG1FUkRFU2piWE9rdDRpTEkzcUpMVXB1S2p1RHlWRXJ0VEhTSExMSmV0eGFablJYVGRTQ256VlRHd3NZVnRNRy1HdndQRm13Y0loVmViY2tnOVpTZ1Y5SlRpakRzUWxLLWtrQlppSml4RzhCNGdTR2psQmkzTGM3MkpITzVLaHIxbmhQRXNGcUVMb241dw?oc=5",
+     "published": "2026-11-10T23:55:16+00:00"
+    },
+    {
+     "title": "Sonos, Inc. (SONO) Stock Forecasts",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPR3ZySF9xLXZtOWNSWDV1blROdnptTXpEakQ2dGJKMi1GS2ZMbTRFdThkc0lYbTdJMXNta09YZHVFeGtjY0hzdEFzX2tKUkFBR0FqTDVmREdIVjhmQlNmY0hUY3hGQ3Y3bW1OaVZKanpVelBtUVRwMWlsTDFXRTV1aXR6QXpyWlZIMmlUZEJTSQ?oc=5",
+     "published": "2026-11-12T00:25:54+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 0.48
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 6.8,
+    "rvol": 14.0,
+    "catalyst": 25.5,
+    "close": 9.4,
+    "size": 1.8
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -57.38,
+    "ath": 44.72,
+    "ath_date": "2021-04-14",
+    "prior_ath": 44.72,
+    "listed_since": "2018-08-02",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 4,
+    "max": 9,
+    "piotroski": "5/9"
+   }
+  },
+  {
+   "symbol": "EQPT",
+   "name": "EquipmentShare.com Inc.",
+   "exchange": "NasdaqGS",
+   "price": 15.99,
+   "day_high": 16.05,
+   "prev_close": 13.54,
+   "change_pct": 18.14,
+   "gap_pct": 3.24,
+   "close_strength": 0.98,
+   "volume": 6656661,
+   "avg_volume": 3336571,
+   "rvol": 2.0,
+   "dollar_volume": 106440009,
+   "market_cap": 4051481600,
+   "pe": 114.21429,
+   "pct_from_52w_high": -54.96,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1794258000,
+   "market_time": 1794430801,
+   "market_date": "2026-11-11",
+   "market_state": "POSTPOST",
+   "score": 53.7,
+   "news": [
+    {
+     "title": "EquipmentShare.com Inc (EQPT) (Q3 2026) Earnings Call Highlights: Revenue Surges 55% to Nearly ...",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUFJIZVZXTE5zcUp4VjA5dG5wT21JY0N4c1FoUWZjZEVVOUw2Qlc4cTN1bU4xWlE3dnd5Q2NYTjh3VWpqNVBuTlRBbTgyQzV3cXU4YnNsdmJGZ0h5bjJpZXlVLTVxc3lfdmlwS0ZRcDBQYUFTYTR2VGR4N3JlTHI2SmxHY04yWlVmclYySnRlbkMxc08wdmZ0enE2QQ?oc=5",
+     "published": "2026-11-10T21:07:38+00:00"
+    },
+    {
+     "title": "EquipmentShare.com (NASDAQ:EQPT) Stock Price Up 12.8% - Still a Buy?",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZFhCNHNyZHlTTVY3a0lUaUloWGZTY0tMazdGRFhaWVoyTmhxeWVBQm5ZSV85amdwcVUzcjVrSjZEWnZvUzZSQ1A0Y09aemE1Q0NFUVpBLXhJMTQ4Vk9YQmJVbmtVY3dIdHo1c0lsWXJBYWZvZjhpS1RWaWNFU2tGZjRydHBIZTJCU2FqSjFNOUg4NEg3XzM3V3BrcE1teEozNVBtVWlBb2FxYTB6aVYwMG9GdWpGVmV1LUVSVA?oc=5",
+     "published": "2026-11-11T19:23:53+00:00"
+    },
+    {
+     "title": "Wells Fargo & Company Issues Pessimistic Forecast for EquipmentShare.com (NASDAQ:EQPT) Stock Price",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWnRRd3o3SGEzUlJ3WEdEUmx5ckozVmpIalBHSVNrUXk0TVR6SlpxWC1LWUVsbWc3VGdwT2xZMnVUa21hTXk4OG9rX2pCSkQ2cHcxZzcyWUc3MzhHZ2RLUXFOa1MtbFdLN3prdEszRjFvR0ZmNTF6YmdnNjlZTU5aZ01TZjJsQmRXZzJYbGgxc0dxck5ael84aE05di1YU2NacnRlMVhTcWVRZnpsV0NiamdXdFBmZkcwQ1hTeGQ0VW1Hb1J0dGlZaWRVTWlsUFl0bWR2YVVZLVB3WVJ5cVI0RlIwZ0ZYeTV2NUxZ?oc=5",
+     "published": "2026-11-11T15:22:30+00:00"
+    },
+    {
+     "title": "Wells Fargo maintains EquipmentShare.com at Overweight, lowers price target to $17 from $19",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSHZHXzdJZlpFYlk0RnpuUGl2UzlHVTAwY0dTY2h4MHJOQThfZE04dzNmVWpuWGhyRjhwTWdzd2tGVElQZHFzdm5qY2Z6aWxJQjNrWUV5aVFYZEd4bVNvZVduN3RqNHN2STdOT1kySHJpWjlObEg4WXp3SDMwdDBTX0F6Vm5pOXFRMVBkM3BwLXdJWVJidEk0QXRyMlIzWGFZNlFmTXdkSjlZc2xiclpQa250amsyZzJBRGo0eWFqc0Z1UjlSN3Zhc05RSU95SjlMYUpZek1Ob3IxMDlMNERuUlJUV04?oc=5",
+     "published": "2026-11-11T15:13:30+00:00"
+    },
+    {
+     "title": "Truist Securities Cuts Price Target on EquipmentShare.com to $24 From $31, Keeps Buy Rating",
+     "source": "MT Newswires",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/truist-securities-cuts-price-target-101449581.html",
+     "published": "2026-11-11T10:14:49+00:00"
+    },
+    {
+     "title": "How Share Price Volatility at EquipmentShare.com Could Raise Capital Costs and Undermine Investor Confidence",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVUl0cENjMzllMndqMFdmR1ptVkU1NjcyYmhuWFdDTjFZZWV0NWtUSmxjQU5iLXZnbF9UUFpBbXRBam5RTWRuMnI4c01NdGZUZ3NOLUM4YnBlU0dBank3RmJMeS1jbFl1MWFESUtHMWo0SF9XWjBxQWZCWUktN3FNM3Iza3pQMkRUUDRHaU9aXzJnZjhQeHNuTnRCX1lPVWFDSnRWdVJLb3pPNHBGeUdtQWQxUVYyNHZNTThCZTZfck4wRTFoSFdwSEZuLTY1eVpiTkZUakZNMFdMNTlfcGFxejRoTXM0TkpHT1ZSamFkS2EyUQ?oc=5",
+     "published": "2026-11-11T06:23:04+00:00"
+    },
+    {
+     "title": "EquipmentShare Named to Military Times’ 2026 Best for Vets: Employers List for Fourth Consecutive Year",
+     "source": "Business Wire",
+     "link": "https://finance.yahoo.com/small-business/articles/equipmentshare-named-military-times-2026-172900759.html",
+     "published": "2026-11-10T17:29:00+00:00"
+    },
+    {
+     "title": "EquipmentShare.com (NASDAQ:EQPT) Shares Gap Down - Should You Sell?",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbFJBYkdJLTV1Z3RIVXdibllCVDNYalp1ejd0MzV2aFJpX2JHTHRuUDZpUnFQeG13RnhpTUk4SE1RMEIyaHFkZVJGelRMbENmal9fdXNYdmEtY1ZEZnMwb1VYTFB0ZGkyTjdPZVFGNUFTcGxIMjFhWXQ2UzJ3ajBvWnQ3RVdyZUNYRVN2SjVyd1lwUm5tOEt5ZVQxMEN2d25lWTNlNTQwNGdIR2hhSlpDUl8xSmF0N2E3OUc5YkNB?oc=5",
+     "published": "2026-11-10T17:09:48+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 0.8
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-11-09T16:00:00-05:00"
+   },
+   "score_parts": {
+    "move": 12.1,
+    "rvol": 3.3,
+    "catalyst": 25.5,
+    "close": 9.8,
+    "size": 3.0
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -54.96,
+    "ath": 35.5,
+    "ath_date": "2026-01-29",
+    "prior_ath": 35.5,
+    "listed_since": "2026-01-23",
+    "short_history": true
+   },
+   "quality": {
+    "grade": "C",
+    "points": 3,
+    "max": 9,
+    "piotroski": "5/9"
+   }
+  },
+  {
+   "symbol": "FLY",
+   "name": "Firefly Aerospace Inc.",
+   "exchange": "NasdaqGM",
+   "price": 26.61,
+   "day_high": 26.71,
+   "prev_close": 23.7,
+   "change_pct": 12.28,
+   "gap_pct": 1.11,
+   "close_strength": 0.97,
+   "volume": 7032802,
+   "avg_volume": 3292714,
+   "rvol": 2.14,
+   "dollar_volume": 187142861,
+   "market_cap": 4454637568,
+   "pe": null,
+   "pct_from_52w_high": -57.2,
+   "above_sma50": true,
+   "above_sma200": false,
+   "earnings_ts": 1794344400,
+   "market_time": 1794430801,
+   "market_date": "2026-11-11",
+   "market_state": "POSTPOST",
+   "score": 53.5,
+   "news": [
+    {
+     "title": "Firefly Aerospace Stock Climbs 10% as Q3 Beat, Record $1.7 Billion Backlog Fuel Analyst Upgrades",
+     "source": "BigGo Finance",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qX1JEYWN3TzFmUFB4UjRIOE84Z1FiN3dObnBZSjNxMllhX0thUUgwaWdUWjJuRUFlLXp0UXF0MUdudXZydGVPa2pPcEFIZ0lEUXpoM0V1aGhXd1lSemIwU1lNT1VJLU9VNkJpZXk1NDVBS3FTVFE?oc=5",
+     "published": "2026-11-11T17:55:00+00:00"
+    },
+    {
+     "title": "Firefly Aerospace Analysts Boost Their Forecasts Following Better-Than-Expected Q3 Results",
+     "source": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQRHRJZEJDSHNZc3NYUERNUEVSc1hQOFRzMzNEQ09KZ001ZjVIZVp1MFZIRFFHcnZmTEJXMFJBUUpVZ0o0V0h5YzBhd1YtVzZMVTVpT3JwQ05TY0lBYUw0OUxyaWlBMmNlRVhDbGxsZVFVY2JobVpDVlJlRExqQ0JyUElSaWE3UnRndjYtWE0ycXAxTElWUmtNX2V0RDQyeDg1TmtCMFNjaWNab2VIam9pc2pUeDNFLUg2RVpudExLcGtmM3BIRjNkNVlEZm9nai1MLWxiUy1CdFBORGRTdy1xU0MxWW9BdktHNUV6VEN4cVNSaEVENjFLUg?oc=5",
+     "published": "2026-11-11T17:19:16+00:00"
+    },
+    {
+     "title": "Firefly Aerospace (FLY) Reports Earnings Beat and Strengthens Growth Outlook",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeHRZRnQ5S0I4RmlNTDNWZVZ5R2pqR2ljanluTkZZVE1UOW50SjlBVlZuem91cFFkell4TG1oMXJ1RDl0WVZIb3ZrcFJ4NnNLa0ktYUhkbE8xM0JhOTl4ZEZ1a3hqRWFpUmJVZ0JCd01Hb0NPXzVpSE5sNy1RLUluWW5HTWd0Yk4wYVE4MkxJMVZLZEI4VjFhazZUUG04ejQ1cE1yR3hBc2VkRHhleW1Ea3FwYw?oc=5",
+     "published": "2026-11-11T17:08:03+00:00"
+    },
+    {
+     "title": "Firefly Aerospace (FLY) Q3 2026 Earnings Call Transcript",
+     "source": "Motley Fool",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/firefly-aerospace-fly-q3-2026-170200890.html",
+     "published": "2026-11-11T17:02:00+00:00"
+    },
+    {
+     "title": "Firefly Aerospace lands $1.3B deal with AST Spa...",
+     "source": "Pluang",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORjIwQUJtS1RwZjdrVFdwNVRJcjBVQXRPWTRMOHJtQjRfNXdvaFFHcnY4azEtTmZLMk9BRlZHaEJGQzNsd2k4cHBxZDJXYjNyQ0RSTUJ4ZkthTGp5dlBKb3BsZ2E3UFp4cjRYQ0hNWWxxUElQY1d6MzJwWlRycDJ5R3Q1TGZSems?oc=5",
+     "published": "2026-11-11T21:59:05+00:00"
+    },
+    {
+     "title": "Briggs-based Firefly Aerospace lands billion-dollar contract",
+     "source": "DailyTrib.com",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeU0za3R2VzRDRXd1Q3Q0bGtsYzlEN0FtVDMyZ2NoX3lZZGNpQnRFR1JRS0hpcTNLeS11THI2YnpDRENHVUpHSkZVXy0tSm9LcmlxaVJ4OHQzWlZ4Z3ppcGg1eDFfUHhfMUdUR05WNGJiOWlGeXFYbDdweGM4X0MzN0VBcUFEU09rdjU4ZTJ0UVI3M2pSeWJwLWRrekNBbHM?oc=5",
+     "published": "2026-11-11T19:24:28+00:00"
+    },
+    {
+     "title": "Firefly Aerospace Inc. Stock 12‑Month Price Target Raised to $37.09, Implies 57% Upside",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPSnMtUkZ5N05xZzczdENNdmtpVkhULVdpSXFtYUExT2lKcThfYy1UZXMwcVhnTHUyX1E3ZnBQT1dfdVJqX2s3Ty1NR1BCNXo4cVpLTGwybDI5aWZfN2FSbk9rRnZXelEyMFdKNnVtdmdYeDdnRkFxS3psYk9tVkw1S3JNUFRNYWN6aGRRVG95V0Q1Y3FqRWhRQURPdGIwbTBsdVgxRWQtYXI0U0Q4UEt1SDNxR0MxcFpjN3RfNHBmQ0dJdDNfbWV5a0xROXIzVlpJVGgyM0tTeDZELXYzR3c?oc=5",
+     "published": "2026-11-11T19:20:00+00:00"
+    },
+    {
+     "title": "Why Firefly Aerospace Stock Is Flying Higher Today",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNEFDbGVBY05QVXR5Wk1ER3N0WVVZdWktUlVFTVZKU2tubXliNy15VWFYMnBlRE1wSkRoNGNhRVVoNkhuN1J5ZU1jQVBSNkI0UmI3TnVJYUVSVFVuQ0sxSnVOYzNUcWtCNlRYQkZvd0ZHbGNSaHllbHFUWWE1MjdnTmRrYTdSemRZcVRGeEd0RzdqUXdVcXo4RmtlODByWEg5?oc=5",
+     "published": "2026-11-11T16:52:41+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings_guidance",
+    "label": "Resultados + mejora de previsiones",
+    "quality": 1.0,
+    "note": "El catalizador con más continuidad histórica (post-earnings drift).",
+    "confidence": 0.2
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-11-10T16:00:00-05:00"
+   },
+   "score_parts": {
+    "move": 6.3,
+    "rvol": 4.3,
+    "catalyst": 30.0,
+    "close": 9.7,
+    "size": 3.2
+   },
+   "appearance": {
+    "count": 2,
+    "previous": [
+     "2026-11-06"
+    ],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -63.94,
+    "ath": 73.8,
+    "ath_date": "2025-08-07",
+    "prior_ath": 73.8,
+    "listed_since": "2025-08-07",
+    "short_history": true
+   },
+   "quality": {
+    "grade": "C",
+    "points": 3,
+    "max": 9,
+    "piotroski": "5/9"
+   }
+  },
+  {
+   "symbol": "AZTA",
+   "name": "Azenta, Inc.",
+   "exchange": "NasdaqGS",
+   "price": 48.9,
+   "day_high": 50.05,
+   "prev_close": 40.48,
+   "change_pct": 20.8,
+   "gap_pct": 15.0,
+   "close_strength": 0.82,
+   "volume": 2485615,
+   "avg_volume": 962684,
+   "rvol": 2.58,
+   "dollar_volume": 121546574,
+   "market_cap": 2142230400,
+   "pe": null,
+   "pct_from_52w_high": -2.31,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1801688400,
+   "market_time": 1794430801,
+   "market_date": "2026-11-11",
+   "market_state": "POSTPOST",
+   "score": 49.9,
+   "news": [
+    {
+     "title": "Azenta, Inc. Stock 12‑Month Price Target Raised to $40.2, Implies 1% Downside",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSFZrNlhyaFZUY0RjNG04WkJJMlRqeWpCeVl2TV81enc5UTducloyLTNubWxKb0NybnV1cllWQ2s4TWN0T3o3UDQ0UlhLd09tQXNKaURvVnZtTzNzYUVTQTVfS24yOUdsOWs2SHlvb2JncGlrZzhQT05tTnBNVjRNSFIwMFphV2JnTVZIMGxyZjVHalBkT2MtS3RpT2lINTA0MWxaemFtcTVORXBsRmcwdDhRVkxOTDRoYjNfdFVPMFh4V1RibVgyLUJJTVJfNEk?oc=5",
+     "published": "2026-11-11T22:20:00+00:00"
+    },
+    {
+     "title": "Why Azenta Stock Crushed it on Wednesday",
+     "source": "The Globe and Mail",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd0VjcXpPN2kwdVFIYnJGM0tObkFTQVduem9OQjgtcEYzOVB1eER4b1lEME0yTE13b3ROQS1kS2ZGQWtnaEI5WXh0dmo5NlZ5cGpuOU1NU2NhWVRuRTdNZTJPVFlEZHU4SmlzMld2Qlp1eUVVdS1wUUhNcVlNYkN2NGFEcjZoalBfVTZ6ZzZ1em9xaXc5Nk9YX3U0VURKZmZsVkd0ODN5dkZIb0c0NkRJSS00Ykt5UHowbjF4SHU1OGxWZ210T2c?oc=5",
+     "published": "2026-11-12T01:47:15+00:00"
+    },
+    {
+     "title": "Azenta (AZTA) Following Earnings And Deals Has Its Valuation Story Changed",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/azenta-azta-following-earnings-deals-001902092.html",
+     "published": "2026-11-12T00:19:02+00:00"
+    },
+    {
+     "title": "US Stock Movers: CoreWeave Surges 24% as Azenta and AXT Also Post Sharp Gains",
+     "source": "Business Upturn",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY1djc2JpRmpIMUJoeVhHU3Bfb2hmU2Eya1gzc2gxVVg0SU1ud2V3aG9xMHFHZ1lRanFpaHlDQkxlOXpjQjhhWnBtdkNfNHBBSjV1cXVRWFdxNlRVYkI0RURzV29jOEtwSFAxdWV2Y3BkUUp3VVhMOWlMajdrckV4NlVCZnRpdUhQd1Y2NktFem56S2FDRUl2ZlVCaE82Q2hGX2NKbklONk5CejJuelU3TmxnRktrYXZQWjd5N2dhQUVSeXJ1NWg4?oc=5",
+     "published": "2026-11-11T21:25:00+00:00"
+    },
+    {
+     "title": "Azenta Inc (AZTA) (Q4 2026) Earnings Call Highlights: Revenue Tops Guidance as Gene Synthesis ...",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTXRiVzRUZ0E4TDBEN1BkRkROV1NULXNacXFWUlQ5S3ZuXzZEdld5Ml9tczAwRTFlVkYtRXUwQTlXOXpDbHYyaXVoTm5WRDV0al8tblF3LXExeTQxQ2tnSFBOTUFzZi1OaHNzRHBSVko4WEszUmlpQnFrcVBjQkdWYjB0QmlmOV85cEk5Zg?oc=5",
+     "published": "2026-11-11T21:07:09+00:00"
+    },
+    {
+     "title": "Azenta Q3 CY2026 deep dive: Commercial execution and new gene synthesis capabilities drive outlook",
+     "source": "StockStory",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOZ1ZkZV9OeXlRMEdWOWpPa0NqVldadFplWlg5Nnl6Q2dOcFlsYVVjSTFNRFZXRDI2WFlGUzRlVUZHNEFzOU04dkNINDhfODFUTUpSdlIxS1J2NjlKYVV6YTc0SkFCRlI0VDE4MjBPZHpRRlhLTS1qUzhjUmFzOFNwc3FIQzY2SGVpRVlqczJNUGZ2Xzg5Q2tHVDkwVG8zbEhncEFTNXVKdUh6aUpVWE9CMTc3NGtvSUt5UTZCQ29JRUZFWXhIMkt3dlhKZDhpV1cteTktOWlKVHBKZERvSHBiTThkeGJWa05iQzhCb29XUEdGems?oc=5",
+     "published": "2026-11-11T19:39:58+00:00"
+    },
+    {
+     "title": "Azenta (AZTA) Q4 2026 Earnings Call Transcript",
+     "source": "Motley Fool",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/azenta-azta-q4-2026-earnings-193045943.html",
+     "published": "2026-11-11T19:30:45+00:00"
+    },
+    {
+     "title": "Jefferies raises Azenta stock price target on growth outlook",
+     "source": "Investing.com",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdncxdWc0akYtRTdMUWdYVHk2UXQzaV9oN2lYMkJEZ05wRmc5WC12RjcyQXIxOVY0OFVCN1lLbDl4VUs0bllTOFNCc2FXZ3FCNThkNFU5N1d0bGJFT05sX0tVLTVRTEo4enR1dU1DUS1pXzliVzFxbmhiWDVOSkZhMGFSSlh6cnY0NjlURWx6emxCVVNxZll6NnFxemFjeGJSeHNpVVp3Y0J3QmJ6YXBkWHJucWZyR2VfVGd3UQ?oc=5",
+     "published": "2026-11-11T18:32:35+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "analyst",
+    "label": "Mejora de analista",
+    "quality": 0.6,
+    "note": "Impulso moderado; suele diluirse si no hay más noticias.",
+    "confidence": 0.3
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 14.8,
+    "rvol": 7.2,
+    "catalyst": 18.0,
+    "close": 8.2,
+    "size": 1.7
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -60.81,
+    "ath": 124.79,
+    "ath_date": "2021-11-09",
+    "prior_ath": 124.79,
+    "listed_since": "1995-02-02",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 4,
+    "max": 9,
+    "piotroski": "6/9"
+   }
+  },
+  {
+   "symbol": "RUM",
+   "name": "RUM Group Inc.",
+   "exchange": "NasdaqGM",
+   "price": 5.96,
+   "day_high": 6.13,
+   "prev_close": 5.11,
+   "change_pct": 16.63,
+   "gap_pct": 5.21,
+   "close_strength": 0.84,
+   "volume": 9528276,
+   "avg_volume": 4693484,
+   "rvol": 2.03,
+   "dollar_volume": 56788525,
+   "market_cap": 2384113664,
+   "pe": null,
+   "pct_from_52w_high": -43.75,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1794403800,
+   "market_time": 1794430800,
+   "market_date": "2026-11-11",
+   "market_state": "POSTPOST",
+   "score": 49.9,
+   "news": [
+    {
+     "title": "RUM Group (RUM) Q3 2026 Earnings Call Transcript",
+     "source": "Motley Fool",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/rum-group-rum-q3-2026-193404394.html",
+     "published": "2026-11-11T19:34:04+00:00"
+    },
+    {
+     "title": "Rumble (NASDAQ:RUM) Posts Earnings Results, Misses Estimates By $0.08 EPS",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQb2RoNjdleEN6TVB6OGNxWThheW9PRUdFeHhjRmtXU3FsNnNFeUxIekdIenh4Ujl4SUcwZmJ0eGxYLXh4dTIxQ0N4bERYMFh0MlpGZXJMTU9meEpTdXQwYTFlalMzOXZodGlySFpyS3I2TnBYSGlReE81NlJ4azM3a0pyd013UVdjTEhYVENVb3I0NjNGS3dvZ1c3bGtJSVhvaGgtZjRMNldxR3ZSQmNUaGowNmtjekNDal9NRU5EYm95YjRvdE9tdV9FTQ?oc=5",
+     "published": "2026-11-11T18:45:35+00:00"
+    },
+    {
+     "title": "RUM Group Releases Q3 2026 Financial Results",
+     "source": "AlphaStreet",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBsQU91NFJLN2FheXlFelFZMFVSZXhfeXVSSjg3NEc2akwyZzduUTMzQmkwNDZYUnZLMzlKREotY0lqV1E5VWtQRU9HRndRbHQycGtOVVB5anJoQzdyN3drY0JITXJuM3JERGRtR2NMMndGcWU0S2syazM1WlpHb3PSAX9BVV95cUxQbEFPdTRSSzdhYXl5RXpRWTBVUmV4X3l1Uko4NzRHNmpMMmc3blEzM0JpMDQ2WFJ2SzM5SkRKLWNJaldROVVrUEVPR0Z3UWx0MnBrTlVQeWpyaEM3cjd3a2NCSE1ybjNyRERkbUdjTDJ3RnFlNEtrMmszNVpaR29z?oc=5",
+     "published": "2026-11-11T18:21:35+00:00"
+    },
+    {
+     "title": "RUM Group (RUM) Just Soared 16.6% Higher — Here’s Why",
+     "source": "Insider Monkey",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcWlTaHVqRlo5QXYyRWNfbGVWLWQyZ1BSUUthQ045eFk3N2R5QjJ1YjIyaXhTdm1rbGpBMWdIMGdiV1Z1M0ZVLUppRFpzUmVzSmo0VHh4U1Q0T2Rjc19NXzBJNTdCV3YtV0dRTU9OTVRYWmhkRURfdFpNZndzXzY4RnN1djVDc29EcG9TNEdEMVIyWUFWVHfSAZ4BQVVfeXFMTzg1a3VoMi11LTZsV29EdXRfTzlPQlZxR2RjaEFSZVF0d0RvS1ZHWUpmbzVrUVpfVm1hTFl2dVhneWtLTVlVQnltQlJGUmFlWWZHdjk4dHc4TDA2bWhyaDN6c2I1ZFByNU1LRWhSU0NTNEs5YU5XR3MxWnFMc19IZ25lN2xtQlpOQ1Bwa3FhRE13NzB0eTJCTkxQd05LMGc?oc=5",
+     "published": "2026-11-11T23:41:24+00:00"
+    },
+    {
+     "title": "RUM: Record revenue and positive Adjusted EBITDA as Quake AI becomes the growth engine",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPNlFJR1lEaExnTEl4Vm9rbTdIVVRhMGFtVU9oOHkyYkgtUmZBNDNrOVozTXFuMm1MSi1vZ0xuYWxoMHJ5M2E4R1pPempMTUV2TE85OXl5TGk5ODVRdjRGdnJfSng5LXMyVERKSFlabThNVlp6Q2JRMnVVY3NDcTBxa21YeTlFRld1OHU3TEpZdlBtVXk4Y29FNHRJS0daQ2hnS2cyVFJ0WEQ3STFGWjRWcDljU0NXWURvRzlIU1AwYTdmajFKdUI2emhNWkVjZ0c3em10SmdtdmVBOWxVWnliOThyQjdhTDZhRDRGSzNvOWdsUVRTYTIwSkxRWnhvVll1YVE?oc=5",
+     "published": "2026-11-11T21:58:42+00:00"
+    },
+    {
+     "title": "RUM: Record revenue and first positive Adjusted EBITDA, with some 2027 capacity at risk of delay",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQV2JTZTFuOVgyY2xVVDczQkxvYlBfdC10cXBldGlhV2hScWlWak9ab2UyQzVWcnhBclhrdk9oRmRMeEFaWUh0NU9EYUdleVlVbkJYb01QaTdtVWcyU1VIQkQzTEJYR0dVd2pzbWpaLUpQWUFUUzdzdFUxdlFxb3hQaWF3TG51T2hRUTFDYkVzbWxRTVNEYWxzakJjTFdtVjFuNkdkdmQ0VUVMb18teGN0dnV1UmVVeTRsVm8zeUxKR3lGeTF5d1poQWxYVmpLdFl6Z3RCY0kzWnBvUzc0NDdkeE5hSEJ5bjEyV2tQeHVBdkVoTUxsclFXTnNvLUJCXzJPbkFmeC05NXM?oc=5",
+     "published": "2026-11-11T19:38:13+00:00"
+    },
+    {
+     "title": "RUM team works to deliver something unique, Chris Pavlovski says",
+     "source": "Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdTU3dVhkUmw4VDVOZFZxaWQyV1R5emFtS1RaeEp2SHczNkJ0VWYtcXFYY21nZklNT2pfMWVjTmQzems2MnZkYVQxZWZXak80N2lUckdVY1hNQWwxcTRRd1Z3Z3gtZWJXekd4SG83cVFjMEFzU012VDd2bDFtYTEyUVVaTGVjcms?oc=5",
+     "published": "2026-11-11T19:30:49+00:00"
+    },
+    {
+     "title": "Rumble (NASDAQ:RUM) Shares Up 11.8% - Here's Why",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRDNGWmNiY3hnSDlFSHI1ZGx1YXU2VHV6MjJfeVIwRzJpQmFwZEFoQ0ItQUxWX3U1dnVjT0VxRDd1cmw0WHRQdUl3WVFnajV1OHFPMDRERmFtcjBzSmJzVXlBelk2MTJHakFrd0IxMmtaTHduekFXQVRVTG00X1ZsbjZqa3RJeUF0UkxjRVlucWRnUm1IWmpsQUxTMXpYdzQ1RDBj?oc=5",
+     "published": "2026-11-11T18:17:26+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 1
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-11-11T08:30:00-05:00"
+   },
+   "score_parts": {
+    "move": 10.6,
+    "rvol": 3.5,
+    "catalyst": 25.5,
+    "close": 8.4,
+    "size": 1.9
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -67.82,
+    "ath": 18.52,
+    "ath_date": "2022-02-07",
+    "prior_ath": 18.52,
+    "listed_since": "2021-04-14",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 2,
+    "max": 9,
+    "piotroski": "5/9"
+   }
+  },
+  {
+   "symbol": "IFS",
+   "name": "Intercorp Financial Services Inc.",
+   "exchange": "NYSE",
+   "price": 51.56,
+   "day_high": 51.56,
+   "prev_close": 48.57,
+   "change_pct": 6.16,
+   "gap_pct": 0.64,
+   "close_strength": 1.0,
+   "volume": 530765,
+   "avg_volume": 209554,
+   "rvol": 2.53,
+   "dollar_volume": 27366243,
+   "market_cap": 5651491840,
+   "pe": 9.425961,
+   "pct_from_52w_high": -16.0,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1794258000,
+   "market_time": 1794430803,
+   "market_date": "2026-11-11",
+   "market_state": "POSTPOST",
+   "score": 46.4,
+   "news": [
+    {
+     "title": "Intercorp Financial Services Earnings Call Signals Strong Growth",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQW5ybnhNTGlibFc2VEs2QkZsSk5iNklNeFJDaWtvVVFqaFZHTm9RV29QSjBUdmFJRWZENEtpWE01NDk4OS1zS0xsLWd6Rnp1TUlpVlBOMTJUWHZjYnlfRHNPeGJoWUdpbnZHYV9leEZVZnlNWHJxVDZvU3NwcHJNNjlhR00tSURRWDJCZ0R5aUlWalVIbVd6X2RfdDRxZmw4VzNvdWxHdUxUWE91V1pFVFkzbS1CbWc?oc=5",
+     "published": "2026-11-12T00:15:39+00:00"
+    },
+    {
+     "title": "Intercorp Financial (IFS) Q3 2026 Earnings Call Transcript",
+     "source": "Motley Fool",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/intercorp-financial-ifs-q3-2026-041446322.html",
+     "published": "2026-11-11T04:14:46+00:00"
+    },
+    {
+     "title": "What Intercorp Financial Services (IFS) Said on Its Q3 Earnings Call",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcEk5XzM4bjdBUk1helExVzBubGtXMjc3dVpvdHJnMWtXTnZ1cUY4TVVBNU1vaV9SOWltY3FRc3dnLW9sLUZsRllpOHBNNDdEcHMxUUh6M2ZxUUNfa1ZLbC1fODhHZUlqLVJGQk04SURobDhQYVBpTTFGNGoxdEdmdm9CZzlsR3Z3NWxpdW9Za0ZCMko1X0x5b2FrNG1sbHdxcnpiVmJQNmRJQkRib3BiMnpzVW16MXlHcnVRd2M3a1ZzaC0xTlE?oc=5",
+     "published": "2026-11-10T21:15:22+00:00"
+    },
+    {
+     "title": "Intercorp Financial Services In (IFS) Q3 FY2026 earnings call transcript",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeHVIMzlVVUhrR3ltMWNiUGh4RHk3ampleVF2WW91NTBuNW4zbXJpSU5ud3pTNHlQaGYtNWYxMjFEWTBtM0dxQ3MzeWw0LWxCU19oWEJDdHNTTjZvY2JkMEdsVHhVM0lWYXFVOUN0WGR4Wng4ZGJwdEI2RlJXMDhVdl9SRDRDM05oUWc?oc=5",
+     "published": "2026-11-10T16:00:00+00:00"
+    },
+    {
+     "title": "Intercorp Financial Services Q3 2026 Earnings Call Is Live",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYmN0R3pNTVgtaEx5MDh0SkNDQTkwUFQtbGUxdFZlcVZQcEhXaTRNdTFtY3o4ZmlDcjgxRHZaVTRkSlNxR0c0VnVwSXZQLS0yeExOd3dPczhXVTlKd2xSQTJLQ1ROOEZLRUtHX1hYZjd0Mkc1ekI0TFduZVNUQmVIWVp6WnpHNVVpa0NRMXRYazJVMUtfYXRULWJHYmJqNDdXeFFWV1F1S096TlBwcG1IYXBfTFY5cndmNmR0SGI4U0tmR0R1aVE?oc=5",
+     "published": "2026-11-10T15:57:04+00:00"
+    },
+    {
+     "title": "Is Intercorp Financial Services Inc (IFS) Overvalued After 6.2% Rally? GF Value Says Overvalued",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNXoxaklQQnlJZXlvbmxIMllZRUJ0YjQybV9mOTd3ZDBob1RVYTdsQVVJNFJGUUdGQ3pfMG9nMGNiUlRsZnp6Sk9aWXZBNzhmTi15RlN5U1lRZmdsdk1hdXFCR0UxTm84OUpweEFLU2lSMS1FVjBvbmlpOGlCYjN1LXhvbzRsRzJ2eTE1MjFuWTBJUUVHS3FoOG1kbEVmSVFkQ2hUZXJ2bVhtY3hxUERIRUNfLWJkV2dEVGhRU3Z6Q0NMSm5nSmZIQg?oc=5",
+     "published": "2026-11-12T01:08:15+00:00"
+    },
+    {
+     "title": "Intercorp Financial Services (IFS) Stock Price, Chart & Analysis",
+     "source": "www.debelegger.nl",
+     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2YlEwalF3ZlZHdUp5b1VZWElWakZNMVZmNFhROVBLQWZHeGRUWVM1Tl9HRFlqc1ZBNW1GRGVBMzVMUjhqMUJvcEVfMzAwZk84ZDhn?oc=5",
+     "published": "2026-11-11T22:44:20+00:00"
+    },
+    {
+     "title": "Intercorp Financial Services Inc. Stock 12‑Month Price Target Cut to $67.86, Implies 42% Upside",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMkdKOXBEekFPV3J3TE9UY05Wc3g3bkd5T0ZFSkU3dzVBQTNXOGJBU3NDQ1V0QjJlZFdRWkw2cExVcDBSRHRsWGs5dFROTFdSMWhuSnE3d2RtX2FYWUxrSTNxX0dLLUFOWG9adWwxa2lxcHYxdWVvUU5lSlN2R0dJMU9RYnJvekR1X2poQTlnb011eEVneG1DOTFIM2tzOC1vMTVyN3VpbmtKSU1ZRFVmbER5dm9aR3h6eFVad2tkaXFkTWI1RC1WVWw0YUJZWUNSN29TcUpSV3ZvZ2JHY01KM3c1WjdJdUZG?oc=5",
+     "published": "2026-11-10T19:20:00+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 1
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-11-09T16:00:00-05:00"
+   },
+   "score_parts": {
+    "move": 0.2,
+    "rvol": 6.9,
+    "catalyst": 25.5,
+    "close": 10.0,
+    "size": 3.8
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -16.0,
+    "ath": 61.38,
+    "ath_date": "2026-07-14",
+    "prior_ath": 61.38,
+    "listed_since": "2019-07-01",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "A",
+    "points": 6,
+    "max": 7,
+    "piotroski": "6/7"
+   }
+  }
+ ],
+ "holding_up": {
+  "tracked": 94,
+  "items": [
+   {
+    "symbol": "REPL",
+    "name": "Replimune Group, Inc.",
+    "picked_on": "2026-10-28",
+    "picked_price": 16.06,
+    "price": 21.78,
+    "change_since_pct": 35.62,
+    "from_peak_pct": -6.44,
+    "sessions_since": 10,
+    "last_rvol": 0.93,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "FLY",
+    "name": "Firefly Aerospace Inc.",
+    "picked_on": "2026-11-06",
+    "picked_price": 20.76,
+    "price": 26.61,
+    "change_since_pct": 28.18,
+    "from_peak_pct": 0.0,
+    "sessions_since": 3,
+    "last_rvol": 1.83,
+    "catalyst_label": "Contrato / alianza",
+    "appearances": 1
+   },
+   {
+    "symbol": "XERS",
+    "name": "Xeris Biopharma Holdings, Inc.",
+    "picked_on": "2026-11-05",
+    "picked_price": 13.08,
+    "price": 16.52,
+    "change_since_pct": 26.3,
+    "from_peak_pct": 0.0,
+    "sessions_since": 4,
+    "last_rvol": 1.14,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "AXGN",
+    "name": "Axogen, Inc.",
+    "picked_on": "2026-10-28",
+    "picked_price": 49.25,
+    "price": 58.63,
+    "change_since_pct": 19.05,
+    "from_peak_pct": 0.0,
+    "sessions_since": 10,
+    "last_rvol": 2.42,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "LSCC",
+    "name": "Lattice Semiconductor Corporation",
+    "picked_on": "2026-11-03",
+    "picked_price": 105.92,
+    "price": 122.77,
+    "change_since_pct": 15.91,
+    "from_peak_pct": 0.0,
+    "sessions_since": 6,
+    "last_rvol": 1.18,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "VCEL",
+    "name": "Vericel Corporation",
+    "picked_on": "2026-11-05",
+    "picked_price": 51.78,
+    "price": 59.45,
+    "change_since_pct": 14.81,
+    "from_peak_pct": 0.0,
+    "sessions_since": 4,
+    "last_rvol": 0.92,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "FRVO",
+    "name": "Fervo Energy Company",
+    "picked_on": "2026-11-09",
+    "picked_price": 11.38,
+    "price": 12.94,
+    "change_since_pct": 13.71,
+    "from_peak_pct": 0.0,
+    "sessions_since": 2,
+    "last_rvol": 1.29,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "APP",
+    "name": "AppLovin Corporation",
+    "picked_on": "2026-11-05",
+    "picked_price": 356.1,
+    "price": 404.77,
+    "change_since_pct": 13.67,
+    "from_peak_pct": -1.28,
+    "sessions_since": 4,
+    "last_rvol": 0.8,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "CPRI",
+    "name": "Capri Holdings Limited",
+    "picked_on": "2026-10-30",
+    "picked_price": 18.68,
+    "price": 20.89,
+    "change_since_pct": 11.83,
+    "from_peak_pct": -3.87,
+    "sessions_since": 8,
+    "last_rvol": 0.81,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "UPBD",
+    "name": "Upbound Group, Inc.",
+    "picked_on": "2026-11-02",
+    "picked_price": 22.84,
+    "price": 25.27,
+    "change_since_pct": 10.64,
+    "from_peak_pct": 0.0,
+    "sessions_since": 7,
+    "last_rvol": 1.2,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 2
+   },
+   {
+    "symbol": "NXT",
+    "name": "Nextpower Inc.",
+    "picked_on": "2026-11-02",
+    "picked_price": 91.13,
+    "price": 100.59,
+    "change_since_pct": 10.38,
+    "from_peak_pct": -5.73,
+    "sessions_since": 7,
+    "last_rvol": 0.55,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "TMUS",
+    "name": "T-Mobile US, Inc.",
+    "picked_on": "2026-10-30",
+    "picked_price": 156.44,
+    "price": 172.16,
+    "change_since_pct": 10.05,
+    "from_peak_pct": 0.0,
+    "sessions_since": 8,
+    "last_rvol": 0.74,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "XMTR",
+    "name": "Xometry, Inc.",
+    "picked_on": "2026-11-03",
+    "picked_price": 111.29,
+    "price": 122.47,
+    "change_since_pct": 10.05,
+    "from_peak_pct": 0.0,
+    "sessions_since": 6,
+    "last_rvol": 1.2,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "FISV",
+    "name": "Fiserv, Inc.",
+    "picked_on": "2026-11-03",
+    "picked_price": 58.4,
+    "price": 63.9,
+    "change_since_pct": 9.42,
+    "from_peak_pct": 0.0,
+    "sessions_since": 6,
+    "last_rvol": 0.85,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "FROG",
+    "name": "JFrog Ltd.",
+    "picked_on": "2026-11-06",
+    "picked_price": 100.98,
+    "price": 109.51,
+    "change_since_pct": 8.45,
+    "from_peak_pct": 0.0,
+    "sessions_since": 3,
+    "last_rvol": 1.08,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "INSM",
+    "name": "Insmed Incorporated",
+    "picked_on": "2026-10-29",
+    "picked_price": 111.59,
+    "price": 120.75,
+    "change_since_pct": 8.21,
+    "from_peak_pct": 0.0,
+    "sessions_since": 9,
+    "last_rvol": 0.38,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "CVNA",
+    "name": "Carvana Co.",
+    "picked_on": "2026-10-29",
+    "picked_price": 68.31,
+    "price": 73.87,
+    "change_since_pct": 8.14,
+    "from_peak_pct": -4.76,
+    "sessions_since": 9,
+    "last_rvol": 0.53,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "ZETA",
+    "name": "Zeta Global Holdings Corp.",
+    "picked_on": "2026-11-10",
+    "picked_price": 35.07,
+    "price": 37.74,
+    "change_since_pct": 7.61,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 1.66,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "VRDN",
+    "name": "Viridian Therapeutics, Inc.",
+    "picked_on": "2026-11-04",
+    "picked_price": 29.06,
+    "price": 31.25,
+    "change_since_pct": 7.55,
+    "from_peak_pct": 0.0,
+    "sessions_since": 5,
+    "last_rvol": 0.94,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "TBBB",
+    "name": "BBB Foods Inc.",
+    "picked_on": "2026-11-03",
+    "picked_price": 62.97,
+    "price": 67.49,
+    "change_since_pct": 7.18,
+    "from_peak_pct": -0.5,
+    "sessions_since": 6,
+    "last_rvol": 0.89,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "CROX",
+    "name": "Crocs, Inc.",
+    "picked_on": "2026-10-29",
+    "picked_price": 150.26,
+    "price": 159.98,
+    "change_since_pct": 6.47,
+    "from_peak_pct": -0.16,
+    "sessions_since": 9,
+    "last_rvol": 0.88,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "KLAC",
+    "name": "KLA Corporation",
+    "picked_on": "2026-11-09",
+    "picked_price": 151.38,
+    "price": 161.01,
+    "change_since_pct": 6.36,
+    "from_peak_pct": 0.0,
+    "sessions_since": 2,
+    "last_rvol": 0.73,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "SECZ",
+    "name": "Securitize Corp.",
+    "picked_on": "2026-11-10",
+    "picked_price": 8.53,
+    "price": 9.06,
+    "change_since_pct": 6.21,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 1.05,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "MGNI",
+    "name": "Magnite, Inc.",
+    "picked_on": "2026-11-05",
+    "picked_price": 27.52,
+    "price": 29.21,
+    "change_since_pct": 6.14,
+    "from_peak_pct": 0.0,
+    "sessions_since": 4,
+    "last_rvol": 0.91,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "PRCH",
+    "name": "Porch Group, Inc.",
+    "picked_on": "2026-10-29",
+    "picked_price": 20.89,
+    "price": 22.14,
+    "change_since_pct": 5.98,
+    "from_peak_pct": 0.0,
+    "sessions_since": 9,
+    "last_rvol": 0.51,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "NBIX",
+    "name": "Neurocrine Biosciences, Inc.",
+    "picked_on": "2026-11-03",
+    "picked_price": 164.85,
+    "price": 174.41,
+    "change_since_pct": 5.8,
+    "from_peak_pct": 0.0,
+    "sessions_since": 6,
+    "last_rvol": 0.79,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "IMVT",
+    "name": "Immunovant, Inc.",
+    "picked_on": "2026-11-09",
+    "picked_price": 35.15,
+    "price": 37.04,
+    "change_since_pct": 5.38,
+    "from_peak_pct": 0.0,
+    "sessions_since": 2,
+    "last_rvol": 1.14,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "FDXF",
+    "name": "FedEx Freight Holding Company, Inc.",
+    "picked_on": "2026-10-30",
+    "picked_price": 126.04,
+    "price": 132.64,
+    "change_since_pct": 5.24,
+    "from_peak_pct": 0.0,
+    "sessions_since": 8,
+    "last_rvol": 0.5,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "HWM",
+    "name": "Howmet Aerospace Inc.",
+    "picked_on": "2026-11-02",
+    "picked_price": 212.84,
+    "price": 224.0,
+    "change_since_pct": 5.24,
+    "from_peak_pct": 0.0,
+    "sessions_since": 7,
+    "last_rvol": 0.59,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "ARDT",
+    "name": "Ardent Health, Inc.",
+    "picked_on": "2026-11-06",
+    "picked_price": 17.3,
+    "price": 18.19,
+    "change_since_pct": 5.14,
+    "from_peak_pct": 0.0,
+    "sessions_since": 3,
+    "last_rvol": 0.76,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 2
+   },
+   {
+    "symbol": "SIBN",
+    "name": "SI-BONE, Inc.",
+    "picked_on": "2026-11-03",
+    "picked_price": 23.77,
+    "price": 24.94,
+    "change_since_pct": 4.92,
+    "from_peak_pct": -2.58,
+    "sessions_since": 6,
+    "last_rvol": 0.58,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "IDXX",
+    "name": "IDEXX Laboratories, Inc.",
+    "picked_on": "2026-11-02",
+    "picked_price": 671.64,
+    "price": 702.59,
+    "change_since_pct": 4.61,
+    "from_peak_pct": -0.57,
+    "sessions_since": 7,
+    "last_rvol": 0.58,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "BLCO",
+    "name": "Bausch + Lomb Corporation",
+    "picked_on": "2026-10-28",
+    "picked_price": 20.4,
+    "price": 21.32,
+    "change_since_pct": 4.51,
+    "from_peak_pct": -0.23,
+    "sessions_since": 10,
+    "last_rvol": 0.64,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "MDLN",
+    "name": "Medline Inc.",
+    "picked_on": "2026-11-04",
+    "picked_price": 40.35,
+    "price": 42.16,
+    "change_since_pct": 4.49,
+    "from_peak_pct": 0.0,
+    "sessions_since": 5,
+    "last_rvol": 0.78,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "MARA",
+    "name": "MARA Holdings, Inc.",
+    "picked_on": "2026-11-10",
+    "picked_price": 7.34,
+    "price": 7.66,
+    "change_since_pct": 4.36,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 1.26,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "TMDX",
+    "name": "TransMedics Group, Inc.",
+    "picked_on": "2026-11-06",
+    "picked_price": 88.24,
+    "price": 92.01,
+    "change_since_pct": 4.27,
+    "from_peak_pct": -1.9,
+    "sessions_since": 3,
+    "last_rvol": 0.73,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "PRAX",
+    "name": "Praxis Precision Medicines, Inc.",
+    "picked_on": "2026-11-09",
+    "picked_price": 332.97,
+    "price": 346.21,
+    "change_since_pct": 3.98,
+    "from_peak_pct": 0.0,
+    "sessions_since": 2,
+    "last_rvol": 1.4,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "GDYN",
+    "name": "Grid Dynamics Holdings, Inc.",
+    "picked_on": "2026-10-30",
+    "picked_price": 13.36,
+    "price": 13.83,
+    "change_since_pct": 3.52,
+    "from_peak_pct": -1.64,
+    "sessions_since": 8,
+    "last_rvol": 0.69,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "GPN",
+    "name": "Global Payments Inc.",
+    "picked_on": "2026-10-30",
+    "picked_price": 96.84,
+    "price": 100.23,
+    "change_since_pct": 3.5,
+    "from_peak_pct": -1.34,
+    "sessions_since": 8,
+    "last_rvol": 0.92,
+    "catalyst_label": "OPA / la compran",
+    "appearances": 1
+   },
+   {
+    "symbol": "REGN",
+    "name": "Regeneron Pharmaceuticals, Inc.",
+    "picked_on": "2026-10-30",
+    "picked_price": 927.89,
+    "price": 959.41,
+    "change_since_pct": 3.4,
+    "from_peak_pct": -1.43,
+    "sessions_since": 8,
+    "last_rvol": 1.29,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "NCLH",
+    "name": "Norwegian Cruise Line Holdings Ltd.",
+    "picked_on": "2026-10-29",
+    "picked_price": 18.22,
+    "price": 18.82,
+    "change_since_pct": 3.29,
+    "from_peak_pct": 0.0,
+    "sessions_since": 9,
+    "last_rvol": 0.72,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "DFIN",
+    "name": "Donnelley Financial Solutions, Inc.",
+    "picked_on": "2026-10-30",
+    "picked_price": 66.89,
+    "price": 68.68,
+    "change_since_pct": 2.68,
+    "from_peak_pct": -1.32,
+    "sessions_since": 8,
+    "last_rvol": 0.65,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "RIVN",
+    "name": "Rivian Automotive, Inc.",
+    "picked_on": "2026-11-02",
+    "picked_price": 13.19,
+    "price": 13.54,
+    "change_since_pct": 2.65,
+    "from_peak_pct": -3.7,
+    "sessions_since": 7,
+    "last_rvol": 0.66,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 2
+   },
+   {
+    "symbol": "PCOR",
+    "name": "Procore Technologies, Inc.",
+    "picked_on": "2026-11-04",
+    "picked_price": 75.6,
+    "price": 77.52,
+    "change_since_pct": 2.54,
+    "from_peak_pct": 0.0,
+    "sessions_since": 5,
+    "last_rvol": 0.58,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "TDOC",
+    "name": "Teladoc Health, Inc.",
+    "picked_on": "2026-10-29",
+    "picked_price": 8.73,
+    "price": 8.94,
+    "change_since_pct": 2.41,
+    "from_peak_pct": -7.84,
+    "sessions_since": 9,
+    "last_rvol": 0.61,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "GKOS",
+    "name": "Glaukos Corporation",
+    "picked_on": "2026-10-29",
+    "picked_price": 242.48,
+    "price": 247.16,
+    "change_since_pct": 1.93,
+    "from_peak_pct": 0.0,
+    "sessions_since": 9,
+    "last_rvol": 0.44,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "LION",
+    "name": "Lionsgate Studios Corp.",
+    "picked_on": "2026-11-06",
+    "picked_price": 14.24,
+    "price": 14.51,
+    "change_since_pct": 1.9,
+    "from_peak_pct": 0.0,
+    "sessions_since": 3,
+    "last_rvol": 0.48,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "PHIN",
+    "name": "PHINIA Inc.",
+    "picked_on": "2026-11-02",
+    "picked_price": 70.79,
+    "price": 72.08,
+    "change_since_pct": 1.82,
+    "from_peak_pct": 0.0,
+    "sessions_since": 7,
+    "last_rvol": 0.69,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "DUOL",
+    "name": "Duolingo, Inc.",
+    "picked_on": "2026-11-04",
+    "picked_price": 161.27,
+    "price": 164.12,
+    "change_since_pct": 1.77,
+    "from_peak_pct": 0.0,
+    "sessions_since": 5,
+    "last_rvol": 1.1,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "FERG",
+    "name": "Ferguson Enterprises Inc.",
+    "picked_on": "2026-11-09",
+    "picked_price": 259.93,
+    "price": 264.5,
+    "change_since_pct": 1.76,
+    "from_peak_pct": 0.0,
+    "sessions_since": 2,
+    "last_rvol": 0.87,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "AAON",
+    "name": "AAON, Inc.",
+    "picked_on": "2026-11-10",
+    "picked_price": 75.01,
+    "price": 76.33,
+    "change_since_pct": 1.76,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 0.97,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "U",
+    "name": "Unity Software Inc.",
+    "picked_on": "2026-11-05",
+    "picked_price": 48.8,
+    "price": 49.65,
+    "change_since_pct": 1.74,
+    "from_peak_pct": -3.57,
+    "sessions_since": 4,
+    "last_rvol": 0.86,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "KD",
+    "name": "Kyndryl Holdings, Inc.",
+    "picked_on": "2026-11-04",
+    "picked_price": 16.84,
+    "price": 17.13,
+    "change_since_pct": 1.72,
+    "from_peak_pct": -0.81,
+    "sessions_since": 5,
+    "last_rvol": 0.59,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "TEM",
+    "name": "Tempus AI, Inc.",
+    "picked_on": "2026-11-02",
+    "picked_price": 78.48,
+    "price": 79.43,
+    "change_since_pct": 1.21,
+    "from_peak_pct": -5.93,
+    "sessions_since": 7,
+    "last_rvol": 0.63,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "CHH",
+    "name": "Choice Hotels International, Inc.",
+    "picked_on": "2026-11-02",
+    "picked_price": 118.61,
+    "price": 120.01,
+    "change_since_pct": 1.18,
+    "from_peak_pct": -0.27,
+    "sessions_since": 7,
+    "last_rvol": 0.52,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "AEHR",
+    "name": "Aehr Test Systems, Inc.",
+    "picked_on": "2026-11-03",
+    "picked_price": 65.11,
+    "price": 65.78,
+    "change_since_pct": 1.03,
+    "from_peak_pct": 0.0,
+    "sessions_since": 6,
+    "last_rvol": 0.89,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "MBLY",
+    "name": "Mobileye Global Inc.",
+    "picked_on": "2026-11-06",
+    "picked_price": 5.73,
+    "price": 5.78,
+    "change_since_pct": 0.87,
+    "from_peak_pct": -1.37,
+    "sessions_since": 3,
+    "last_rvol": 1.14,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "ADT",
+    "name": "ADT Inc.",
+    "picked_on": "2026-10-29",
+    "picked_price": 9.87,
+    "price": 9.92,
+    "change_since_pct": 0.51,
+    "from_peak_pct": -0.1,
+    "sessions_since": 9,
+    "last_rvol": 0.83,
+    "catalyst_label": "OPA / la compran",
+    "appearances": 1
+   },
+   {
+    "symbol": "GRDN",
+    "name": "Guardian Pharmacy Services, Inc.",
+    "picked_on": "2026-11-10",
+    "picked_price": 49.85,
+    "price": 49.98,
+    "change_since_pct": 0.26,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 1.33,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   }
+  ],
+  "window": 10
+ }
+}
