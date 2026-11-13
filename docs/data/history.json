@@ -15,12 +15,12 @@
    "returns": {
     "1": -1.49,
     "5": -3.08,
-    "20": null
+    "20": -0.93
    },
    "excess": {
     "1": -0.38,
     "5": -2.07,
-    "20": null
+    "20": 0.97
    },
    "ath_status": "rebound",
    "pct_from_ath": -91.86,
@@ -43,12 +43,12 @@
    "returns": {
     "1": 0.74,
     "5": 3.05,
-    "20": null
+    "20": -46.17
    },
    "excess": {
     "1": 1.85,
     "5": 4.06,
-    "20": null
+    "20": -44.27
    },
    "ath_status": "rebound",
    "pct_from_ath": -88.61,
@@ -71,12 +71,12 @@
    "returns": {
     "1": 0.2,
     "5": 0.05,
-    "20": null
+    "20": 0.59
    },
    "excess": {
     "1": 1.31,
     "5": 1.06,
-    "20": null
+    "20": 2.49
    },
    "ath_status": "mid",
    "pct_from_ath": -6.61,
@@ -99,12 +99,12 @@
    "returns": {
     "1": -0.35,
     "5": -2.13,
-    "20": null
+    "20": 2.13
    },
    "excess": {
     "1": 0.76,
     "5": -1.12,
-    "20": null
+    "20": 4.03
    },
    "ath_status": "rebound",
    "pct_from_ath": -57.74,
@@ -127,12 +127,12 @@
    "returns": {
     "1": -2.03,
     "5": 8.01,
-    "20": null
+    "20": -8.46
    },
    "excess": {
     "1": -0.92,
     "5": 9.02,
-    "20": null
+    "20": -6.56
    },
    "ath_status": "rebound",
    "pct_from_ath": -84.88,
@@ -155,12 +155,12 @@
    "returns": {
     "1": -2.83,
     "5": 1.61,
-    "20": null
+    "20": -0.69
    },
    "excess": {
     "1": -1.72,
     "5": 2.62,
-    "20": null
+    "20": 1.21
    },
    "ath_status": "mid",
    "pct_from_ath": -26.32,
@@ -183,12 +183,12 @@
    "returns": {
     "1": -7.45,
     "5": -10.3,
-    "20": null
+    "20": 3.33
    },
    "excess": {
     "1": -6.34,
     "5": -9.29,
-    "20": null
+    "20": 5.23
    },
    "ath_status": "rebound",
    "pct_from_ath": -71.31,
@@ -211,12 +211,12 @@
    "returns": {
     "1": -6.75,
     "5": -8.68,
-    "20": null
+    "20": -0.52
    },
    "excess": {
     "1": -5.64,
     "5": -7.67,
-    "20": null
+    "20": 1.38
    },
    "ath_status": "rebound",
    "pct_from_ath": -52.54,
@@ -239,12 +239,12 @@
    "returns": {
     "1": 2.31,
     "5": 3.26,
-    "20": null
+    "20": 3.19
    },
    "excess": {
     "1": 3.42,
     "5": 4.27,
-    "20": null
+    "20": 5.09
    },
    "ath_status": "mid",
    "pct_from_ath": -38.9,
@@ -267,12 +267,12 @@
    "returns": {
     "1": -1.34,
     "5": 2.19,
-    "20": null
+    "20": 11.2
    },
    "excess": {
     "1": -0.23,
     "5": 3.2,
-    "20": null
+    "20": 13.1
    },
    "ath_status": "mid",
    "pct_from_ath": -12.3,
@@ -4023,12 +4023,12 @@
    "quality": "A",
    "returns": {
     "1": 9.86,
-    "5": null,
+    "5": 10.55,
     "20": null
    },
    "excess": {
     "1": 9.55,
-    "5": null,
+    "5": 7.26,
     "20": null
    }
   },
@@ -4051,12 +4051,12 @@
    "quality": "B",
    "returns": {
     "1": 8.81,
-    "5": null,
+    "5": 11.19,
     "20": null
    },
    "excess": {
     "1": 8.5,
-    "5": null,
+    "5": 7.9,
     "20": null
    }
   },
@@ -4079,12 +4079,12 @@
    "quality": "A",
    "returns": {
     "1": -3.63,
-    "5": null,
+    "5": 0.23,
     "20": null
    },
    "excess": {
     "1": -3.94,
-    "5": null,
+    "5": -3.06,
     "20": null
    }
   },
@@ -4107,12 +4107,12 @@
    "quality": "B",
    "returns": {
     "1": 16.21,
-    "5": null,
+    "5": 27.29,
     "20": null
    },
    "excess": {
     "1": 15.9,
-    "5": null,
+    "5": 24.0,
     "20": null
    }
   },
@@ -4135,12 +4135,12 @@
    "quality": "C",
    "returns": {
     "1": 5.51,
-    "5": null,
+    "5": 2.83,
     "20": null
    },
    "excess": {
     "1": 5.2,
-    "5": null,
+    "5": -0.46,
     "20": null
    }
   },
@@ -4163,12 +4163,12 @@
    "quality": "B",
    "returns": {
     "1": -0.47,
-    "5": null,
+    "5": 6.61,
     "20": null
    },
    "excess": {
     "1": -0.78,
-    "5": null,
+    "5": 3.32,
     "20": null
    }
   },
@@ -4191,12 +4191,12 @@
    "quality": "A",
    "returns": {
     "1": 5.48,
-    "5": null,
+    "5": 10.89,
     "20": null
    },
    "excess": {
     "1": 5.17,
-    "5": null,
+    "5": 7.6,
     "20": null
    }
   },
@@ -4219,12 +4219,12 @@
    "quality": "B",
    "returns": {
     "1": -2.3,
-    "5": null,
+    "5": 2.49,
     "20": null
    },
    "excess": {
     "1": -2.61,
-    "5": null,
+    "5": -0.8,
     "20": null
    }
   },
@@ -4247,12 +4247,12 @@
    "quality": "B",
    "returns": {
     "1": -3.86,
-    "5": null,
+    "5": -1.13,
     "20": null
    },
    "excess": {
     "1": -4.17,
-    "5": null,
+    "5": -4.42,
     "20": null
    }
   },
@@ -4275,12 +4275,12 @@
    "quality": "A",
    "returns": {
     "1": -9.53,
-    "5": null,
+    "5": -12.93,
     "20": null
    },
    "excess": {
     "1": -9.84,
-    "5": null,
+    "5": -16.22,
     "20": null
    }
   },
@@ -5142,12 +5142,12 @@
    "spy_change": 1.32,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -6.86,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -6.51,
     "5": null,
     "20": null
    }
@@ -5170,12 +5170,12 @@
    "spy_change": 1.32,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -9.16,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -8.81,
     "5": null,
     "20": null
    }
@@ -5198,12 +5198,12 @@
    "spy_change": 1.32,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -6.7,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -6.35,
     "5": null,
     "20": null
    }
@@ -5226,12 +5226,12 @@
    "spy_change": 1.32,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -4.24,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -3.89,
     "5": null,
     "20": null
    }
@@ -5254,12 +5254,12 @@
    "spy_change": 1.32,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -4.98,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -4.63,
     "5": null,
     "20": null
    }
@@ -5282,12 +5282,12 @@
    "spy_change": 1.32,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -3.5,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -3.15,
     "5": null,
     "20": null
    }
@@ -5310,12 +5310,12 @@
    "spy_change": 1.32,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -4.89,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -4.54,
     "5": null,
     "20": null
    }
@@ -5338,12 +5338,12 @@
    "spy_change": 1.32,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -10.31,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -9.96,
     "5": null,
     "20": null
    }
@@ -5366,12 +5366,12 @@
    "spy_change": 1.32,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -4.19,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -3.84,
     "5": null,
     "20": null
    }
@@ -5393,6 +5393,286 @@
    "close_strength": 1.0,
    "spy_change": 1.32,
    "quality": "A",
+   "returns": {
+    "1": -0.39,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": -0.04,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "MBGL",
+   "name": "Mobility Global, Inc.",
+   "rank": 1,
+   "score": 56.0,
+   "price": 23.13,
+   "change_pct": 16.11,
+   "rvol": 1.88,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -11.04,
+   "close_strength": 0.92,
+   "spy_change": -0.35,
+   "quality": "A",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "BLTE",
+   "name": "Belite Bio, Inc",
+   "rank": 2,
+   "score": 50.4,
+   "price": 169.96,
+   "change_pct": 8.99,
+   "rvol": 2.72,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -15.02,
+   "close_strength": 0.96,
+   "spy_change": -0.35,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "DPC",
+   "name": "DPC Holdings PLC",
+   "rank": 3,
+   "score": 46.8,
+   "price": 34.33,
+   "change_pct": 8.36,
+   "rvol": 2.12,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -40.03,
+   "close_strength": 0.67,
+   "spy_change": -0.35,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "LUNR",
+   "name": "Intuitive Machines, Inc.",
+   "rank": 4,
+   "score": 41.0,
+   "price": 13.03,
+   "change_pct": 6.98,
+   "rvol": 3.37,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -90.42,
+   "close_strength": 0.04,
+   "spy_change": -0.35,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "FIGR",
+   "name": "Figure Technology Solutions, Inc.",
+   "rank": 5,
+   "score": 38.5,
+   "price": 25.67,
+   "change_pct": 6.12,
+   "rvol": 2.14,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -67.09,
+   "close_strength": 0.48,
+   "spy_change": -0.35,
+   "quality": "A",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "CHA",
+   "name": "Chagee Holdings Limited",
+   "rank": 6,
+   "score": 35.3,
+   "price": 13.51,
+   "change_pct": 9.57,
+   "rvol": 2.72,
+   "catalyst": "capital",
+   "catalyst_label": "Financiación / recompra",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -67.68,
+   "close_strength": 0.8,
+   "spy_change": -0.35,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "HUBS",
+   "name": "HubSpot, Inc.",
+   "rank": 7,
+   "score": 31.5,
+   "price": 215.84,
+   "change_pct": 6.39,
+   "rvol": 1.61,
+   "catalyst": "analyst",
+   "catalyst_label": "Mejora de analista",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -75.5,
+   "close_strength": 0.73,
+   "spy_change": -0.35,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "IBP",
+   "name": "Installed Building Products, Inc.",
+   "rank": 8,
+   "score": 29.6,
+   "price": 223.76,
+   "change_pct": 6.79,
+   "rvol": 1.65,
+   "catalyst": "acquisition",
+   "catalyst_label": "Compra / fusión con otra empresa",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -35.89,
+   "close_strength": 0.89,
+   "spy_change": -0.35,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "ATEX",
+   "name": "Anterix Inc.",
+   "rank": 9,
+   "score": 25.8,
+   "price": 82.69,
+   "change_pct": 8.05,
+   "rvol": 1.65,
+   "catalyst": "analyst",
+   "catalyst_label": "Mejora de analista",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -26.82,
+   "close_strength": 0.36,
+   "spy_change": -0.35,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "ADRX",
+   "name": "ADARx Pharmaceuticals, Inc.",
+   "rank": 10,
+   "score": 16.6,
+   "price": 14.91,
+   "change_pct": 12.11,
+   "rvol": 1.55,
+   "catalyst": "none",
+   "catalyst_label": "Sin noticia clara",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -35.76,
+   "close_strength": 0.61,
+   "spy_change": -0.35,
+   "quality": "B",
    "returns": {
     "1": null,
     "5": null,

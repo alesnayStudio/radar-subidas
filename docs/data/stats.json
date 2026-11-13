@@ -2,49 +2,61 @@
  "catalysts": {
   "all": {
    "label": "Todas",
-   "count": 193,
+   "count": 203,
    "horizons": {
     "1": {
-     "n": 183,
-     "avg": 0.59,
-     "median": 0.42,
-     "win_rate": 57.4,
-     "avg_excess": 0.68
+     "n": 193,
+     "avg": 0.27,
+     "median": 0.23,
+     "win_rate": 54.4,
+     "avg_excess": 0.38
     },
     "5": {
-     "n": 143,
-     "avg": 0.75,
-     "median": 0.67,
-     "win_rate": 55.9,
-     "avg_excess": 1.76
+     "n": 153,
+     "avg": 1.08,
+     "median": 0.98,
+     "win_rate": 57.5,
+     "avg_excess": 1.81
     },
-    "20": null
+    "20": {
+     "n": 10,
+     "avg": -3.63,
+     "median": 0.03,
+     "win_rate": 50.0,
+     "avg_excess": -1.73
+    }
    }
   },
   "earnings": {
    "label": "Resultados trimestrales",
-   "count": 92,
+   "count": 95,
    "horizons": {
     "1": {
-     "n": 85,
-     "avg": 1.17,
-     "median": 0.76,
-     "win_rate": 57.6,
-     "avg_excess": 1.19
+     "n": 92,
+     "avg": 0.72,
+     "median": 0.21,
+     "win_rate": 53.3,
+     "avg_excess": 0.77
     },
     "5": {
-     "n": 58,
-     "avg": 0.85,
-     "median": -0.04,
-     "win_rate": 48.3,
-     "avg_excess": 2.01
+     "n": 66,
+     "avg": 1.3,
+     "median": 0.13,
+     "win_rate": 51.5,
+     "avg_excess": 1.92
     },
-    "20": null
+    "20": {
+     "n": 1,
+     "avg": -0.93,
+     "median": -0.93,
+     "win_rate": 0.0,
+     "avg_excess": 0.97
+    }
    }
   },
   "none": {
    "label": "Sin noticia clara",
-   "count": 8,
+   "count": 9,
    "horizons": {
     "1": {
      "n": 8,
@@ -60,7 +72,13 @@
      "win_rate": 25.0,
      "avg_excess": -5.4
     },
-    "20": null
+    "20": {
+     "n": 2,
+     "avg": -23.35,
+     "median": -23.35,
+     "win_rate": 0.0,
+     "avg_excess": -21.45
+    }
    }
   },
   "takeover": {
@@ -81,19 +99,25 @@
      "win_rate": 81.8,
      "avg_excess": 1.99
     },
-    "20": null
+    "20": {
+     "n": 1,
+     "avg": 0.59,
+     "median": 0.59,
+     "win_rate": 100.0,
+     "avg_excess": 2.49
+    }
    }
   },
   "analyst": {
    "label": "Mejora de analista",
-   "count": 9,
+   "count": 11,
    "horizons": {
     "1": {
-     "n": 8,
-     "avg": -2.47,
-     "median": -0.84,
-     "win_rate": 37.5,
-     "avg_excess": -2.25
+     "n": 9,
+     "avg": -3.34,
+     "median": -1.34,
+     "win_rate": 33.3,
+     "avg_excess": -3.1
     },
     "5": {
      "n": 7,
@@ -102,7 +126,13 @@
      "win_rate": 28.6,
      "avg_excess": 0.24
     },
-    "20": null
+    "20": {
+     "n": 3,
+     "avg": 5.55,
+     "median": 3.33,
+     "win_rate": 100.0,
+     "avg_excess": 7.45
+    }
    }
   },
   "sector": {
@@ -123,7 +153,13 @@
      "win_rate": 100.0,
      "avg_excess": 5.92
     },
-    "20": null
+    "20": {
+     "n": 1,
+     "avg": -8.46,
+     "median": -8.46,
+     "win_rate": 0.0,
+     "avg_excess": -6.56
+    }
    }
   },
   "corporate": {
@@ -144,7 +180,13 @@
      "win_rate": 100.0,
      "avg_excess": 2.62
     },
-    "20": null
+    "20": {
+     "n": 1,
+     "avg": -0.69,
+     "median": -0.69,
+     "win_rate": 0.0,
+     "avg_excess": 1.21
+    }
    }
   },
   "contract": {
@@ -165,12 +207,18 @@
      "win_rate": 66.7,
      "avg_excess": 1.47
     },
-    "20": null
+    "20": {
+     "n": 1,
+     "avg": 3.19,
+     "median": 3.19,
+     "win_rate": 100.0,
+     "avg_excess": 5.09
+    }
    }
   },
   "capital": {
    "label": "Financiación / recompra",
-   "count": 2,
+   "count": 3,
    "horizons": {
     "1": {
      "n": 2,
@@ -212,21 +260,21 @@
   },
   "earnings_guidance": {
    "label": "Resultados + mejora de previsiones",
-   "count": 44,
+   "count": 46,
    "horizons": {
     "1": {
-     "n": 42,
-     "avg": 0.63,
-     "median": 0.22,
-     "win_rate": 57.1,
-     "avg_excess": 0.88
+     "n": 44,
+     "avg": 0.34,
+     "median": 0.12,
+     "win_rate": 54.5,
+     "avg_excess": 0.59
     },
     "5": {
-     "n": 33,
-     "avg": 1.79,
-     "median": 1.6,
-     "win_rate": 66.7,
-     "avg_excess": 2.94
+     "n": 35,
+     "avg": 2.3,
+     "median": 1.78,
+     "win_rate": 68.6,
+     "avg_excess": 3.19
     },
     "20": null
    }
@@ -254,7 +302,7 @@
   },
   "acquisition": {
    "label": "Compra / fusión con otra empresa",
-   "count": 3,
+   "count": 4,
    "horizons": {
     "1": {
      "n": 3,
@@ -277,23 +325,29 @@
  "appearance": {
   "first": {
    "label": "Primera aparición",
-   "count": 184,
+   "count": 194,
    "horizons": {
     "1": {
-     "n": 175,
-     "avg": 0.6,
-     "median": 0.42,
-     "win_rate": 57.7,
-     "avg_excess": 0.73
+     "n": 184,
+     "avg": 0.29,
+     "median": 0.23,
+     "win_rate": 54.9,
+     "avg_excess": 0.44
     },
     "5": {
-     "n": 139,
-     "avg": 0.67,
-     "median": 0.58,
-     "win_rate": 55.4,
-     "avg_excess": 1.7
+     "n": 149,
+     "avg": 1.02,
+     "median": 0.75,
+     "win_rate": 57.0,
+     "avg_excess": 1.76
     },
-    "20": null
+    "20": {
+     "n": 10,
+     "avg": -3.63,
+     "median": 0.03,
+     "win_rate": 50.0,
+     "avg_excess": -1.73
+    }
    }
   },
   "repeat": {
@@ -301,11 +355,11 @@
    "count": 9,
    "horizons": {
     "1": {
-     "n": 8,
-     "avg": 0.39,
-     "median": -0.14,
-     "win_rate": 50.0,
-     "avg_excess": -0.44
+     "n": 9,
+     "avg": -0.2,
+     "median": -1.03,
+     "win_rate": 44.4,
+     "avg_excess": -0.9
     },
     "5": {
      "n": 4,
@@ -321,11 +375,23 @@
  "hold_signal": {
   "held": {
    "label": "Aguantaban a las 5 sesiones",
-   "stats": null
+   "stats": {
+    "n": 6,
+    "avg": -9.33,
+    "median": -1.17,
+    "win_rate": 33.3,
+    "avg_excess": null
+   }
   },
   "faded": {
    "label": "Habían devuelto la subida",
-   "stats": null
+   "stats": {
+    "n": 4,
+    "avg": 7.68,
+    "median": 6.64,
+    "win_rate": 100.0,
+    "avg_excess": null
+   }
   }
  },
  "ath_buckets": {
@@ -341,11 +407,11 @@
      "avg_excess": -0.27
     },
     "5": {
-     "n": 7,
-     "avg": 0.62,
-     "median": -0.08,
-     "win_rate": 42.9,
-     "avg_excess": 2.06
+     "n": 8,
+     "avg": -1.08,
+     "median": -0.27,
+     "win_rate": 37.5,
+     "avg_excess": -0.22
     },
     "20": null
    }
@@ -373,72 +439,90 @@
   },
   "mid": {
    "label": "↗️ Entre un 5% y un 50% por debajo",
-   "count": 90,
+   "count": 96,
    "horizons": {
     "1": {
-     "n": 88,
-     "avg": 0.77,
-     "median": 0.26,
-     "win_rate": 59.1,
-     "avg_excess": 0.98
+     "n": 90,
+     "avg": 0.67,
+     "median": 0.22,
+     "win_rate": 57.8,
+     "avg_excess": 0.89
     },
     "5": {
-     "n": 73,
-     "avg": 0.4,
+     "n": 75,
+     "avg": 0.54,
      "median": 0.44,
-     "win_rate": 57.5,
-     "avg_excess": 1.44
+     "win_rate": 58.7,
+     "avg_excess": 1.46
     },
-    "20": null
+    "20": {
+     "n": 4,
+     "avg": 3.57,
+     "median": 1.89,
+     "win_rate": 75.0,
+     "avg_excess": 5.47
+    }
    }
   },
   "rebound": {
    "label": "↩️ Rebote (más de un 50% por debajo)",
-   "count": 87,
+   "count": 91,
    "horizons": {
     "1": {
-     "n": 79,
-     "avg": 0.35,
-     "median": 0.7,
-     "win_rate": 57.0,
-     "avg_excess": 0.37
+     "n": 87,
+     "avg": -0.23,
+     "median": 0.24,
+     "win_rate": 51.7,
+     "avg_excess": -0.19
     },
     "5": {
-     "n": 59,
-     "avg": 0.93,
-     "median": 0.58,
-     "win_rate": 52.5,
-     "avg_excess": 1.89
+     "n": 66,
+     "avg": 1.74,
+     "median": 1.09,
+     "win_rate": 56.1,
+     "avg_excess": 2.24
     },
-    "20": null
+    "20": {
+     "n": 6,
+     "avg": -8.44,
+     "median": -0.73,
+     "win_rate": 33.3,
+     "avg_excess": -6.54
+    }
    }
   }
  },
  "quality_buckets": {
   "A": {
    "label": "Calidad A",
-   "count": 34,
+   "count": 36,
    "horizons": {
     "1": {
-     "n": 33,
-     "avg": 1.65,
-     "median": 1.23,
-     "win_rate": 66.7,
-     "avg_excess": 1.76
+     "n": 34,
+     "avg": 1.59,
+     "median": 1.15,
+     "win_rate": 64.7,
+     "avg_excess": 1.7
     },
     "5": {
-     "n": 26,
-     "avg": -0.25,
-     "median": 0.08,
-     "win_rate": 53.8,
-     "avg_excess": 0.71
+     "n": 30,
+     "avg": 0.07,
+     "median": 0.18,
+     "win_rate": 56.7,
+     "avg_excess": 0.47
     },
-    "20": null
+    "20": {
+     "n": 3,
+     "avg": 0.6,
+     "median": -0.93,
+     "win_rate": 33.3,
+     "avg_excess": 2.5
+    }
    }
   },
   "B": {
    "label": "Calidad B",
-   "count": 65,
+   "count": 70,
    "horizons": {
     "1": {
      "n": 65,
@@ -448,34 +532,40 @@
      "avg_excess": 0.54
     },
     "5": {
-     "n": 50,
-     "avg": 1.08,
-     "median": 0.67,
-     "win_rate": 52.0,
-     "avg_excess": 2.21
+     "n": 55,
+     "avg": 1.83,
+     "median": 1.03,
+     "win_rate": 54.5,
+     "avg_excess": 2.56
     },
     "20": null
    }
   },
   "C": {
    "label": "Calidad C",
-   "count": 94,
+   "count": 97,
    "horizons": {
     "1": {
-     "n": 85,
-     "avg": 0.33,
-     "median": 0.4,
-     "win_rate": 56.5,
-     "avg_excess": 0.37
+     "n": 94,
+     "avg": -0.29,
+     "median": 0.1,
+     "win_rate": 51.1,
+     "avg_excess": -0.22
     },
     "5": {
-     "n": 67,
-     "avg": 0.89,
-     "median": 1.02,
-     "win_rate": 59.7,
-     "avg_excess": 1.83
+     "n": 68,
+     "avg": 0.92,
+     "median": 1.04,
+     "win_rate": 60.3,
+     "avg_excess": 1.79
     },
-    "20": null
+    "20": {
+     "n": 7,
+     "avg": -5.45,
+     "median": 0.59,
+     "win_rate": 57.1,
+     "avg_excess": -3.55
+    }
    }
   },
   "none": {
@@ -491,35 +581,41 @@
  "score_buckets": {
   "high": {
    "label": "Alta (55 o más)",
-   "count": 111,
+   "count": 112,
    "horizons": {
     "1": {
-     "n": 106,
-     "avg": 1.04,
-     "median": 0.54,
-     "win_rate": 58.5,
-     "avg_excess": 1.25
+     "n": 111,
+     "avg": 0.7,
+     "median": 0.24,
+     "win_rate": 55.9,
+     "avg_excess": 0.92
     },
     "5": {
-     "n": 74,
-     "avg": 0.63,
-     "median": 0.17,
-     "win_rate": 52.7,
-     "avg_excess": 1.94
+     "n": 84,
+     "avg": 1.25,
+     "median": 0.52,
+     "win_rate": 56.0,
+     "avg_excess": 2.0
     },
-    "20": null
+    "20": {
+     "n": 2,
+     "avg": -0.17,
+     "median": -0.17,
+     "win_rate": 50.0,
+     "avg_excess": 1.73
+    }
    }
   },
   "mid": {
    "label": "Media (40 a 55)",
-   "count": 55,
+   "count": 58,
    "horizons": {
     "1": {
-     "n": 50,
-     "avg": 0.1,
-     "median": 0.09,
-     "win_rate": 52.0,
-     "avg_excess": -0.01
+     "n": 55,
+     "avg": -0.33,
+     "median": -0.08,
+     "win_rate": 47.3,
+     "avg_excess": -0.4
     },
     "5": {
      "n": 43,
@@ -528,12 +624,18 @@
      "win_rate": 65.1,
      "avg_excess": 2.2
     },
-    "20": null
+    "20": {
+     "n": 5,
+     "avg": -9.97,
+     "median": -0.69,
+     "win_rate": 40.0,
+     "avg_excess": -8.07
+    }
    }
   },
   "low": {
    "label": "Baja (menos de 40)",
-   "count": 27,
+   "count": 33,
    "horizons": {
     "1": {
      "n": 27,
@@ -549,7 +651,13 @@
      "win_rate": 50.0,
      "avg_excess": 0.53
     },
-    "20": null
+    "20": {
+     "n": 3,
+     "avg": 4.62,
+     "median": 3.19,
+     "win_rate": 66.7,
+     "avg_excess": 6.52
+    }
    }
   }
  }
