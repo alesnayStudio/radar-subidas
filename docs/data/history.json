@@ -295,12 +295,12 @@
    "returns": {
     "1": -0.51,
     "5": 0.44,
-    "20": null
+    "20": -11.98
    },
    "excess": {
     "1": -0.93,
     "5": 0.87,
-    "20": null
+    "20": -10.82
    },
    "ath_status": "mid",
    "pct_from_ath": -29.92,
@@ -323,12 +323,12 @@
    "returns": {
     "1": 7.96,
     "5": 9.67,
-    "20": null
+    "20": -22.09
    },
    "excess": {
     "1": 7.54,
     "5": 10.1,
-    "20": null
+    "20": -20.93
    },
    "ath_status": "rebound",
    "pct_from_ath": -72.39,
@@ -351,12 +351,12 @@
    "returns": {
     "1": -1.02,
     "5": -4.21,
-    "20": null
+    "20": -8.48
    },
    "excess": {
     "1": -1.44,
     "5": -3.78,
-    "20": null
+    "20": -7.32
    },
    "ath_status": "mid",
    "pct_from_ath": -37.0,
@@ -4303,12 +4303,12 @@
    "quality": "A",
    "returns": {
     "1": 6.29,
-    "5": null,
+    "5": 3.56,
     "20": null
    },
    "excess": {
     "1": 3.92,
-    "5": null,
+    "5": 0.97,
     "20": null
    }
   },
@@ -4331,12 +4331,12 @@
    "quality": "B",
    "returns": {
     "1": 7.13,
-    "5": null,
+    "5": 12.5,
     "20": null
    },
    "excess": {
     "1": 4.76,
-    "5": null,
+    "5": 9.91,
     "20": null
    }
   },
@@ -4359,12 +4359,12 @@
    "quality": "C",
    "returns": {
     "1": 17.1,
-    "5": null,
+    "5": 21.44,
     "20": null
    },
    "excess": {
     "1": 14.73,
-    "5": null,
+    "5": 18.85,
     "20": null
    }
   },
@@ -4387,12 +4387,12 @@
    "quality": "B",
    "returns": {
     "1": 0.64,
-    "5": null,
+    "5": -10.85,
     "20": null
    },
    "excess": {
     "1": -1.73,
-    "5": null,
+    "5": -13.44,
     "20": null
    }
   },
@@ -4415,12 +4415,12 @@
    "quality": "B",
    "returns": {
     "1": 3.87,
-    "5": null,
+    "5": 2.89,
     "20": null
    },
    "excess": {
     "1": 1.5,
-    "5": null,
+    "5": 0.3,
     "20": null
    }
   },
@@ -4443,12 +4443,12 @@
    "quality": "C",
    "returns": {
     "1": 6.57,
-    "5": null,
+    "5": -5.78,
     "20": null
    },
    "excess": {
     "1": 4.2,
-    "5": null,
+    "5": -8.37,
     "20": null
    }
   },
@@ -4471,12 +4471,12 @@
    "quality": "C",
    "returns": {
     "1": 1.48,
-    "5": null,
+    "5": 2.44,
     "20": null
    },
    "excess": {
     "1": -0.89,
-    "5": null,
+    "5": -0.15,
     "20": null
    }
   },
@@ -4499,12 +4499,12 @@
    "quality": "C",
    "returns": {
     "1": -1.64,
-    "5": null,
+    "5": -2.09,
     "20": null
    },
    "excess": {
     "1": -4.01,
-    "5": null,
+    "5": -4.68,
     "20": null
    }
   },
@@ -4527,12 +4527,12 @@
    "quality": "C",
    "returns": {
     "1": 0.0,
-    "5": null,
+    "5": -1.47,
     "20": null
    },
    "excess": {
     "1": -2.37,
-    "5": null,
+    "5": -4.06,
     "20": null
    }
   },
@@ -4555,12 +4555,12 @@
    "quality": "B",
    "returns": {
     "1": 2.27,
-    "5": null,
+    "5": -2.97,
     "20": null
    },
    "excess": {
     "1": -0.1,
-    "5": null,
+    "5": -5.56,
     "20": null
    }
   },
@@ -5422,12 +5422,12 @@
    "spy_change": -0.35,
    "quality": "A",
    "returns": {
-    "1": null,
+    "1": 0.65,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.01,
     "5": null,
     "20": null
    }
@@ -5450,12 +5450,12 @@
    "spy_change": -0.35,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -3.3,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -2.94,
     "5": null,
     "20": null
    }
@@ -5478,12 +5478,12 @@
    "spy_change": -0.35,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -0.2,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 0.16,
     "5": null,
     "20": null
    }
@@ -5506,12 +5506,12 @@
    "spy_change": -0.35,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -0.23,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 0.13,
     "5": null,
     "20": null
    }
@@ -5534,12 +5534,12 @@
    "spy_change": -0.35,
    "quality": "A",
    "returns": {
-    "1": null,
+    "1": -1.75,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -1.39,
     "5": null,
     "20": null
    }
@@ -5562,12 +5562,12 @@
    "spy_change": -0.35,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": 6.37,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 6.73,
     "5": null,
     "20": null
    }
@@ -5590,12 +5590,12 @@
    "spy_change": -0.35,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": 0.65,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.01,
     "5": null,
     "20": null
    }
@@ -5618,12 +5618,12 @@
    "spy_change": -0.35,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": 2.34,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 2.7,
     "5": null,
     "20": null
    }
@@ -5646,12 +5646,12 @@
    "spy_change": -0.35,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": -3.08,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -2.72,
     "5": null,
     "20": null
    }
@@ -5673,6 +5673,286 @@
    "close_strength": 0.61,
    "spy_change": -0.35,
    "quality": "B",
+   "returns": {
+    "1": -4.76,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": -4.4,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "symbol": "LFTO",
+   "name": "Liftoff Mobile, Inc.",
+   "rank": 1,
+   "score": 92.4,
+   "price": 24.44,
+   "change_pct": 30.63,
+   "rvol": 11.91,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -18.8,
+   "close_strength": 0.93,
+   "spy_change": -0.36,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "symbol": "HAWK",
+   "name": "HawkEye 360, Inc.",
+   "rank": 2,
+   "score": 80.9,
+   "price": 18.16,
+   "change_pct": 23.79,
+   "rvol": 4.81,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -49.17,
+   "close_strength": 0.97,
+   "spy_change": -0.36,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "symbol": "NMAX",
+   "name": "Newsmax, Inc.",
+   "rank": 3,
+   "score": 75.5,
+   "price": 9.58,
+   "change_pct": 31.41,
+   "rvol": 4.83,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -96.38,
+   "close_strength": 0.73,
+   "spy_change": -0.36,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "symbol": "CBRS",
+   "name": "Cerebras Systems Inc.",
+   "rank": 4,
+   "score": 62.8,
+   "price": 108.72,
+   "change_pct": 11.22,
+   "rvol": 3.99,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -71.86,
+   "close_strength": 0.39,
+   "spy_change": -0.36,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "symbol": "MOD",
+   "name": "Modine Manufacturing Company",
+   "rank": 5,
+   "score": 60.6,
+   "price": 135.66,
+   "change_pct": 27.86,
+   "rvol": 5.17,
+   "catalyst": "takeover",
+   "catalyst_label": "OPA / la compran",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -58.03,
+   "close_strength": 0.28,
+   "spy_change": -0.36,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "symbol": "STN",
+   "name": "Stantec Inc.",
+   "rank": 6,
+   "score": 58.2,
+   "price": 85.69,
+   "change_pct": 14.06,
+   "rvol": 2.67,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -25.17,
+   "close_strength": 0.74,
+   "spy_change": -0.36,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "symbol": "NU",
+   "name": "Nu Holdings Ltd.",
+   "rank": 7,
+   "score": 52.5,
+   "price": 13.22,
+   "change_pct": 11.75,
+   "rvol": 1.87,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -30.35,
+   "close_strength": 0.97,
+   "spy_change": -0.36,
+   "quality": "A",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "symbol": "WWW",
+   "name": "Wolverine World Wide, Inc.",
+   "rank": 8,
+   "score": 49.9,
+   "price": 24.89,
+   "change_pct": 8.83,
+   "rvol": 3.01,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -44.37,
+   "close_strength": 0.99,
+   "spy_change": -0.36,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "symbol": "CGON",
+   "name": "CG Oncology, Inc.",
+   "rank": 9,
+   "score": 42.6,
+   "price": 74.4,
+   "change_pct": 6.06,
+   "rvol": 3.38,
+   "catalyst": "analyst",
+   "catalyst_label": "Mejora de analista",
+   "appearance": 2,
+   "ath_status": "mid",
+   "pct_from_ath": -8.11,
+   "close_strength": 0.79,
+   "spy_change": -0.36,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-13",
+   "symbol": "AGRO",
+   "name": "Adecoagro S.A.",
+   "rank": 10,
+   "score": 42.0,
+   "price": 9.11,
+   "change_pct": 7.56,
+   "rvol": 2.34,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -42.67,
+   "close_strength": 0.87,
+   "spy_change": -0.36,
+   "quality": "C",
    "returns": {
     "1": null,
     "5": null,
