@@ -752,11 +752,26 @@ function labOrderFor(rule, r) {
   ].filter(Boolean).join(" + ");
   const minNote = rule.gapMin != null ? ` Si en preapertura cotiza por debajo de ${money(c * (1 + rule.gapMin / 100))}, cancélala: la orden en apertura no puede exigir un mínimo.` : "";
   return `<div class="order-box">🧾 <b>Orden sugerida:</b> compra <b>«Limit on Open» (LOO) con límite ${money(limit)}</b> (cierre ${money(c)} +${gapMax}%), enviada el ${when}.
-    Si abre por encima, no se ejecuta y no hay operación.${minNote}
+    Duración <b>«Day»</b> (solo ese día): si abre por encima, no se ejecuta y no hay operación.${minNote}
     ${bracket ? `Al ejecutarse, pon una <b>bracket</b> sobre tu precio real de compra: ${bracket}.` : ""}
     Si no toca nada, vende al cierre de la sesión ${rule.days} (orden <b>MOC</b>).
-    <span class="dim">Tamaño según tu regla (capital ${usd(book)}): ≈ ${shares} acciones. Ajústalo a tu capital real.</span></div>`;
+    <span class="dim">Tamaño según tu regla (capital ${usd(book)}): ≈ ${shares} acciones. Ajústalo a tu capital real.</span>
+    ${bracket ? `<label class="order-calc" data-target="${rule.target ?? ""}" data-stop="${rule.stop ?? ""}">🧮 Tu precio real de compra:
+      <input type="number" class="calc-in" step="0.01" min="0" inputmode="decimal" placeholder="${c.toFixed(2)}">
+      <span class="calc-out">→ escribe el precio al que se ejecutó tu compra</span></label>` : ""}</div>`;
 }
+
+// Calculadora de la orden: stop y objetivo exactos sobre el precio real de compra
+function labCalcUpdate(input) {
+  const box = input.closest(".order-calc"), out = box.querySelector(".calc-out");
+  const buy = parseFloat(String(input.value).replace(",", "."));
+  if (!(buy > 0)) { out.innerHTML = "→ escribe el precio al que se ejecutó tu compra"; return; }
+  const parts = [];
+  if (box.dataset.target) parts.push(`objetivo (venta límite) <b class="pos">${(buy * (1 + box.dataset.target / 100)).toFixed(2)}</b>`);
+  if (box.dataset.stop) parts.push(`stop <b class="neg">${(buy * (1 - box.dataset.stop / 100)).toFixed(2)}</b>`);
+  out.innerHTML = "→ " + parts.join(" · ");
+}
+document.addEventListener("input", (e) => { if (e.target.classList?.contains("calc-in")) labCalcUpdate(e.target); });
 
 function labTodayPlan(r, i, day) {
   const slots = labSlots();

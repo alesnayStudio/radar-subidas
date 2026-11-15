@@ -315,3 +315,7 @@ tr:last-child td { border-bottom: 0; }
 
 .inline-num { width: 56px; background: var(--panel-2); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 2px 6px; font: inherit; font-size: 13px; }
 .order-box { margin-top: 6px; padding-top: 6px; border-top: 1px dashed color-mix(in srgb, var(--accent) 40%, transparent); }
+.order-calc { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; margin-top: 6px; font-size: 13px; }
+.order-calc .calc-in { width: 96px; background: var(--panel-2); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 4px 6px; font: inherit; font-size: 14px; }
+.order-calc .calc-out { color: var(--muted); }
+.order-calc .calc-out b { font-size: 14px; }
