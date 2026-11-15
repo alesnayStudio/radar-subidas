@@ -22,6 +22,9 @@ const LAB_PRESETS = [
   { name: "Solo empresas de calidad (A o B)", rule: { quality: ["A", "B"], target: 3, stop: 5, days: 5 } },
   // Candidata de la auditoría del 8-nov: se mantuvo en las dos mitades del periodo (validar con datos nuevos)
   { name: "Resultados + cierre fuerte · +3%/−5%/3s", rule: { cats: ["earnings", "earnings_guidance"], closeMin: 80, chgMax: 24.99, target: 3, stop: 5, days: 3 } },
+  // Variante de la auditoría del 15-nov: solo resultados (sin «mejora de previsiones») y subida < 15%.
+  // Mejor en los tres periodos (n=30), pero es una hipótesis: probarla en paralelo, no sustituir la anterior.
+  { name: "Resultados puros + subida <15% · +3%/−5%/3s", rule: { cats: ["earnings"], closeMin: 80, chgMax: 14.99, target: 3, stop: 5, days: 3 } },
 ];
 
 const ATH_LABELS = {
