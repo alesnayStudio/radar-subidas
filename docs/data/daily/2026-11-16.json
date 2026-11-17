@@ -1,0 +1,1239 @@
+{
+ "date": "2026-11-16",
+ "generated_at": "2026-11-17T04:04:14+00:00",
+ "market_state": "POSTPOST",
+ "filters": {
+  "min_change_pct": 6.0,
+  "min_market_cap": 1000000000,
+  "min_price": 5.0,
+  "min_dollar_volume": 10000000,
+  "min_rvol": 1.5
+ },
+ "universe": {
+  "raw_gainers": 8,
+  "passed_filters": 7
+ },
+ "market": {
+  "SPY": {
+   "label": "S&P 500",
+   "change_pct": -1.91
+  },
+  "QQQ": {
+   "label": "Nasdaq 100",
+   "change_pct": -2.67
+  },
+  "IWM": {
+   "label": "Russell 2000",
+   "change_pct": -1.66
+  }
+ },
+ "score_weights": {
+  "move": 20,
+  "rvol": 30,
+  "catalyst": 30,
+  "close": 10,
+  "size": 10
+ },
+ "top": [
+  {
+   "symbol": "CGON",
+   "name": "CG Oncology, Inc.",
+   "exchange": "NasdaqGS",
+   "price": 84.78,
+   "day_high": 93.95,
+   "prev_close": 74.4,
+   "change_pct": 13.95,
+   "gap_pct": 23.66,
+   "close_strength": 0.42,
+   "volume": 9881332,
+   "avg_volume": 999331,
+   "rvol": 9.89,
+   "dollar_volume": 837739327,
+   "market_cap": 7572457472,
+   "pe": null,
+   "pct_from_52w_high": -9.76,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1793971800,
+   "market_time": 1794862801,
+   "market_date": "2026-11-16",
+   "market_state": "POSTPOST",
+   "score": 61.5,
+   "news": [
+    {
+     "title": "CG Oncology's Bladder Cancer Therapy Cuts Recurrence Risk 68% in Phase 3, Setting Up Two FDA Filings",
+     "source": "BigGo Finance",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMdWhQQnJxdGxEQnoxd3JIMm53R0F5SGVwOW5nZHhjRVdnOGlHTG8zMW0tb1ZsUm9OQzdTaGtWRkpLT3dQVEkwZkN5Zmhjc0p1OUlNaWpwVmoxYjZfRkNBa2tCNy1GUnlkbEh5RVBGV09iTXVYZHc?oc=5",
+     "published": "2026-11-16T21:05:00+00:00"
+    },
+    {
+     "title": "CG Oncology drug delivers ‘exceptional’ results in key bladder cancer trial",
+     "source": "BioPharma Dive",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTmxFTjBsSzlwdnVrM21hWFJDRlN4SWhGdVdxRmZuQ2FpUjV1Um1yNGhVcnVWcHo1ZjR2bENyc2psY0VqRVRzOHRlMkROLXVMV1RJamNfV3pUQUtmN0U2V3FhdzlDWW9JUEE5QktYVmJnMmR2TS1qVVN3SlVpX0g2MlVlMnRpT2NGNjVOM2NHZTNQaW1HTkU1dEUxWVZuUnVJYnR2UTVFZzVQWFE?oc=5",
+     "published": "2026-11-16T17:41:12+00:00"
+    },
+    {
+     "title": "CG Oncology, Inc. Stock 12‑Month Price Target Raised to $99.85, Implies 34% Upside",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZ0NNdVFZU0pyQ2FUVU5McmstQzdhX2NiMko4VGdsYUxpLWQ4dDc2c3ZTNjg1TUVIR1pVSThSUVFMUDFWbmlhS29ObXR1emZrNVNwNUxEN1ZSbHVCS2p2bDctbFBndzFIdVpCUXVZUHBmVy1pMlNsM2pPb2l2bGgxbTdOMHg3b19lTkxRbmVIR3FJWU9DdkpMYkYyaGgtM0Jtai1BZld0YUVSVXN5M29GdHpkeUpRZjJrVlE4UVNwOHVUUGJ0T0wxNEFBS2lQYWNXcmZNRlBR?oc=5",
+     "published": "2026-11-16T22:20:00+00:00"
+    },
+    {
+     "title": "CG Oncology Exceeds Even The 'Most Bullish Conversations;' Shares Break Out",
+     "source": "Investor's Business Daily",
+     "link": "https://finance.yahoo.com/m/a9bbde04-d18d-37b0-bb80-0a948068666d/cg-oncology-exceeds-even-the.html",
+     "published": "2026-11-16T21:28:38+00:00"
+    },
+    {
+     "title": "CG Oncology Rips 23.7% to $92 on PIVOT-006’s 68% Recurrence Cut; $112 Upside Target in Play",
+     "source": "TradingNEWS",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVDZ0ZHZzODZRZ2pUcUJIN1dFa1Bia2l3YS1MMVlsRk5RS01nYlFvR0hSR1RSdEtKSHBsQU96U3N0cHhHUk92Yk5obThBMlVtQi1LakJoZVEwaDFyR3B4SzMtWTVaVEthS21abWRreGlDaTdFQm45dVJZclJUd0pZQnFtLUNiYUxBQXhUV2pPdGt0bVFUZUQyQU9WMk1UUE5QLUFoYkZwMkVBek0tVzg2bkZlQ011YUN5U3dTMWRVS3RyTGdpdzZDbDBwZ3BmUkU?oc=5",
+     "published": "2026-11-16T19:16:07+00:00"
+    },
+    {
+     "title": "Why Is CG Oncology Stock Soaring Today? - CG Oncology (NASDAQ:CGON)",
+     "source": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbUk0TG5wZHE3VzA2anFvOE9jdE5ibkRtRXlNazRiNXlhQkZLOUpnV0NVc1JSNDZ1RXFHV0tkWW5HU1A2cXlzNGFrQ1dVNlF4Unc4eXAzSzY5QjhZaExjcUZLd1l1RzROZ2lqRzk4cGRNa2RGNVZGeDR1djdGNVhxblVvVHJudGdUM1FIQWNZUkt3Rld1UHZQYnlxVTNfeVR2YmJWZWw3RE5sMW8zNTgzdEE4UkFDcTY2VVU5Vm92c0FvSjM5cElxV3dtcFg4cUsy?oc=5",
+     "published": "2026-11-16T18:09:22+00:00"
+    },
+    {
+     "title": "JonesTrading Maintains CG Oncology(CGON.US) With Buy Rating, Raises Target Price to $112",
+     "source": "Moomoo",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYTBzLUJOQnp3TFUteTBIYnhPSGRoM0tBNnBTSHhMUVRENHctbHp1Snk3MDNvejFwXzgxbEVuczd3by1ZNzdNYUt5OS00cHl0TTNTemxVNzN3QWlFQXVzcDZlS3RZU3U0M2J1RmRrLWltbHdXRjJfM3ZwV1FGcVJpYndIN08wbjdyVkcyVW9DTUV1Q2twd0JxSXpKcTYyQnQ5VHc3dnB5SzhPUW9Vd1U5RzFwaFVLUQ?oc=5",
+     "published": "2026-11-16T18:02:01+00:00"
+    },
+    {
+     "title": "CG Oncology, Inc. (CGON) Stock Price, News, Quote & History",
+     "source": "Yahoo! Finance Canada",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1kR0pkWmZ0a0x0U1d5WXhUMnYzZExwT0RBX1dnblJQVmdmS2txSUpwUlpJTVFqQjVja2RadmloSW1CVUVRVXI4ZXc1aEVQM2xvVXc?oc=5",
+     "published": "2026-11-16T17:45:37+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "fda",
+    "label": "Biotech / FDA / ensayo",
+    "quality": 0.5,
+    "note": "Muy volátil: puede revertir con fuerza.",
+    "confidence": 0.5
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 7.9,
+    "rvol": 30.0,
+    "catalyst": 15.0,
+    "close": 4.2,
+    "size": 4.4
+   },
+   "appearance": {
+    "count": 3,
+    "previous": [
+     "2026-11-13",
+     "2026-11-06"
+    ],
+    "window": 10
+   },
+   "ath": {
+    "status": "new_ath",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -9.76,
+    "ath": 93.95,
+    "ath_date": "2026-11-16",
+    "prior_ath": 80.97,
+    "listed_since": "2024-01-25",
+    "short_history": true
+   },
+   "quality": {
+    "grade": "C",
+    "points": 2,
+    "max": 9,
+    "piotroski": "2/9"
+   }
+  },
+  {
+   "symbol": "TU",
+   "name": "TELUS Corporation",
+   "exchange": "NYSE",
+   "price": 9.57,
+   "day_high": 9.73,
+   "prev_close": 8.53,
+   "change_pct": 12.19,
+   "gap_pct": 12.6,
+   "close_strength": 0.75,
+   "volume": 46345206,
+   "avg_volume": 6380864,
+   "rvol": 7.26,
+   "dollar_volume": 443523621,
+   "market_cap": 15216299008,
+   "pe": null,
+   "pct_from_52w_high": -34.27,
+   "above_sma50": true,
+   "above_sma200": false,
+   "earnings_ts": 1793971800,
+   "market_time": 1794862802,
+   "market_date": "2026-11-16",
+   "market_state": "POSTPOST",
+   "score": 58.6,
+   "news": [
+    {
+     "title": "Quebecor makes $31B bid to acquire rival, Telus",
+     "source": "CBC",
+     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1SOFJFWXMxNUY5SXZmT1hWd0g1SVJPbTQxNnM5aFpYUW9hT1dyQjVrQWJyZVN1N1pXOEo0ekEzUGlwOFpTN2U1SGRsZlFITFN2bkE2d3JpYnJVdw?oc=5",
+     "published": "2026-11-17T03:09:57+00:00"
+    },
+    {
+     "title": "Fiera backs Quebecor's C$31B bid for Telus",
+     "source": "Briefs Finance",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd0ZrUzVDMERULTN3TlFfRHBUQ1ZGY2lLak83cGt1bkhiMGF2YUsxUUlzTVZKQ3M1V0hNb3lzb0pUNG4yaHdCZ3NCZWEwRnJVbVVsSzVXT01VWkRMU1JWTjVNV1RPNXFqM0FBZ0dsbktCVWJqZDI1QzBPaWtBdU1vcEZUU2ZPYXlOUmFmV080UGxzQQ?oc=5",
+     "published": "2026-11-17T02:54:35+00:00"
+    },
+    {
+     "title": "Quebecor's C$31B Bid for Telus Shakes Market",
+     "source": "Briefs Finance",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZG9TREZpNTNvYXRIMWkwTmh4WG9rYjZUQVhqOExuWXJ0dXRQM0pTY1hKWmRWdFp0WHZYRW4zMlJFSjBjc0F5NEJxQTEtX2tlcllRQm84bV9QeWVzdkVEbEJkYXNhN0JONjZ6SGdZVm8zbGp6c2VXdGZpTGQwNDJvRjJHanJ1VXJCUTNrRlFqMFJGZw?oc=5",
+     "published": "2026-11-17T02:54:12+00:00"
+    },
+    {
+     "title": "Telus board pushes back on Québecor's $31 billion takeover bid as its shares jump",
+     "source": "Startup Fortune",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLXdpYklidG91dzR5MDZfdm43TkJMVTRHZTB4V3lzci1CSExBREU4N3dQUjlBcUNrTDdsZnNoMlpzQTh6NUMxYm5zZWRURjJicnhLa09MNWF4NE4wcWhrOXZZNjdhNkM4N0tMaWdfMm0wWk1BOW93R2dGSERLWkZVdG9TeHN6VVJrSzhvb3dnUE95a0dzUTVzYjhnalV6SGdyck1TNWx4SGJsdw?oc=5",
+     "published": "2026-11-17T02:08:51+00:00"
+    },
+    {
+     "title": "CEOs of Quebecor, Telus weigh in on takeover bid",
+     "source": "The Globe and Mail",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQR0lZREozT3RJR0RNYzBHcFhQajZiMzhBSW1DcnRFeXdhSHowblNVelhERnh3ckhPRl80RDFtdF9hWW5XZ1FQei1JM2l0ZGdENGFRYlllLXJ1bzFxaEtRaVVUTjdMcVZscGtIbFZ5aXhOWkdHaUFmMEd2b0RkU2JZSHlhNExtcmZSSEZlNjlTZkp2UUhyWndSMHRONWRvZw?oc=5",
+     "published": "2026-11-17T01:29:15+00:00"
+    },
+    {
+     "title": "TELUS (TSX:T) Drops Vancouver AI Data Centre Plans And Bets On Kamloops",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/technology/ai/articles/telus-tsx-t-drops-vancouver-031021614.html",
+     "published": "2026-11-17T03:10:21+00:00"
+    },
+    {
+     "title": "TELUS (TSX:T) Stock Trades Below Fair Value On Cash Flow Views",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/telus-tsx-t-stock-trades-020729514.html",
+     "published": "2026-11-17T02:07:29+00:00"
+    },
+    {
+     "title": "Telus Corporation (TU) Stock Forecasts",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUEh2OExjaFRQLXFrMlR5WVhFV2NDN1R3MmFKZS1yUDlLWUxrVFJjSjFiMWxDc1I1ZE9Zd1Y0TnBteFh6MElKT1d2RWFPdDRPRWp6MlBWUmV1QUlVSjdybUU5WklFZ1F3REJjakE2aUR0ZElMQm9Ual8zcy1QVllPQTEyWG44R1FKcUpfWA?oc=5",
+     "published": "2026-11-17T01:34:01+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "takeover",
+    "label": "OPA / la compran",
+    "quality": 0.3,
+    "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
+    "confidence": 1
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 6.2,
+    "rvol": 30.0,
+    "catalyst": 9.0,
+    "close": 7.5,
+    "size": 5.9
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -65.2,
+    "ath": 27.5,
+    "ath_date": "2022-04-08",
+    "prior_ath": 27.5,
+    "listed_since": "1996-06-11",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 4,
+    "max": 9,
+    "piotroski": "6/9"
+   }
+  },
+  {
+   "symbol": "HTHT",
+   "name": "H World Group Limited",
+   "exchange": "NasdaqGS",
+   "price": 54.88,
+   "day_high": 55.78,
+   "prev_close": 50.39,
+   "change_pct": 8.91,
+   "gap_pct": 3.35,
+   "close_strength": 0.76,
+   "volume": 3515828,
+   "avg_volume": 1601940,
+   "rvol": 2.19,
+   "dollar_volume": 192948641,
+   "market_cap": 17309480960,
+   "pe": 37.589043,
+   "pct_from_52w_high": -3.11,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1794835800,
+   "market_time": 1794862801,
+   "market_date": "2026-11-16",
+   "market_state": "POSTPOST",
+   "score": 51.3,
+   "news": [
+    {
+     "title": "H World Group (HTHT) Stock May Be 17% Undervalued On Raised 2026 Outlook",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/h-world-group-htht-stock-002143520.html",
+     "published": "2026-11-17T00:21:43+00:00"
+    },
+    {
+     "title": "H World Group Earnings Call Signals Strong Growth Ahead",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMFJSQzNMMDRaSXpLb1c3RVIxWXlGVjJYV3htbmVCc213NTFoYzFQWm5VV1ZWZ3ZDQ1RtX0V6QW44MmduOHF5bXZVaTNQRWJ2cE96TTJsVzdwSURmV1hqYktBenUtVGdiaEt4RnE5ZXB0TzVvZHJFekV1alY4U01FOVRaR2RlcHVoLTNtUE40aVNMdGFTOC1paW9FMEt4dXlVRUV3T0pFZFplNnM?oc=5",
+     "published": "2026-11-17T00:17:32+00:00"
+    },
+    {
+     "title": "H World Group Ltd (HTHT) (Q3 2026) Earnings Call Highlights: Rev",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQQ0ZEVDJYQzU1dGp5NXhBOUNudmkzQlhxZWxjVTM4QURHYlktbENxTjFnWlBXaFFXaXl6UlF5Z0NuWXFiS2ZiTTBXQTctcWdpb05Da09IaHpFZXE3VzJtUjNnYW5HWWI5SmxuRmF1N2J0dF9QT25fTkNkcXFDZ0s5Vl9vVFFHSzZFd3M0OWtkcWVYZ0lkZmhiVVFaZWpnSUQ5VXRqNWtjc3NQeWpyeXBNZlFETzFSbVBkMThvX1pfbXdLRG9CdE0yRmdadmN5SzA1c182NjVQMGtTUG9TTFA2dDhTSmpLRHVNaVlDMVJSWV9xcU0?oc=5",
+     "published": "2026-11-16T21:22:33+00:00"
+    },
+    {
+     "title": "H World Group Ltd (HTHT) (Q3 2026) Earnings Call Highlights: Revenue Up 11. ...",
+     "source": "GuruFocus.com",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/h-world-group-ltd-htht-190101638.html",
+     "published": "2026-11-16T19:01:01+00:00"
+    },
+    {
+     "title": "H World Group Ltd (HTHT) Stock Up 8.9% but GF Value Says Overvalued -- GF Score: 77/100",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxON0RSYzZqWk1tU2d0NTJITXRBQnc0Y2NVdGJ1ek1wWVVpVXZmMVFiVkgzOUo4SERvdC02RTBfWDg1LXFjUlpxekpGeGttRFpCb1U2VkRCNG4zUkUzNDdlREpDY2hJQzlyRmp1dkx1eXBqbFJyLTlub0NxUUFXNjVxY2lzSGZlUTc2TVpCMmZENjRwZjQ5NHdjRGF5c2xselRtR1JDTW9nS3hjZVFLNGlYWU1zNXFCWGt1?oc=5",
+     "published": "2026-11-17T00:41:48+00:00"
+    },
+    {
+     "title": "H World Group Limited Stock 12‑Month Price Target Raised to $61.89, Implies 23% Upside",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNDQ5alQxdl95d0lhSTNiUEFhejRjZU1sNk5odHgzZ2Mzb2ZhVVNfb0lSUEk3YVhiT0tIZ24tRXVKQ2ZZdzlmUXZoMm5XSGVxUm5NSlZnSGhlYU1LU3pJVlRXTnhxaHV1RUZmLUprZVo1Y2Qwb1ZycXpLdWpyeWNLR1V0bXNuM3ZwQnk2cENjdzlnZzZ4d2lNSUVPZHNqekxlUWVIT3d6Y2IxeWZIQnBObGhDcmpubU9qWUExc21QMzYwTE1LbFAwdXJLYmxtWHQ5UnFzNzlZNDZuYWtNZVE?oc=5",
+     "published": "2026-11-16T22:20:00+00:00"
+    },
+    {
+     "title": "H World Group: 3 Key Takeaways for Long-Term Investors",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVzEzejAzX0E1bkNvOWFTT1IwUUlmRnhPOWVuUkZLbWJqSDBiclBpeFZhck9TNVBLVXQyV3Bqc0dMa1pOLVpDbmxpNXJnS1RBZ2NGRmt3NXpsZC12MFk3Ti1ySWRxNzN0djI0QlVad1I5dGJNWWFIWlNIaF82TFZ1dHNMeGFTYzZDMm0yeQ?oc=5",
+     "published": "2026-11-16T20:18:02+00:00"
+    },
+    {
+     "title": "What Is Driving H World Group (NASDAQ:HTHT) After Its Latest Update?",
+     "source": "Kalkine Media",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeFNWTUJRQ2N1U1pIczFGTW00Q1BYYUtKZFZVZXlfQ0ZucHVfM3dOcVk0am9xanhJM0FuWG5BS3ZmUHdjM1FEWDl2UnhIZGUyVkZkZnctdGFjQUoyS3JKN0ZaRV9NdlJnM2pMYS1OajJUam91TV90OTRDWjVhSEkzUWJBa3hadVQzcl9BbUlhQ0pMbFlVU1JrZFhnVWtzeTFIRVAyUEhfTmNJV0xS?oc=5",
+     "published": "2026-11-16T19:09:00+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings_guidance",
+    "label": "Resultados + mejora de previsiones",
+    "quality": 1.0,
+    "note": "El catalizador con más continuidad histórica (post-earnings drift).",
+    "confidence": 0.3
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-11-16T08:30:00-05:00"
+   },
+   "score_parts": {
+    "move": 2.9,
+    "rvol": 4.6,
+    "catalyst": 30.0,
+    "close": 7.6,
+    "size": 6.2
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -14.95,
+    "ath": 64.53,
+    "ath_date": "2021-02-16",
+    "prior_ath": 64.53,
+    "listed_since": "2010-03-26",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 6,
+    "max": 9,
+    "piotroski": "8/9"
+   }
+  },
+  {
+   "symbol": "TSN",
+   "name": "Tyson Foods, Inc.",
+   "exchange": "NYSE",
+   "price": 63.95,
+   "day_high": 65.34,
+   "prev_close": 58.82,
+   "change_pct": 8.72,
+   "gap_pct": 3.54,
+   "close_strength": 0.72,
+   "volume": 8354419,
+   "avg_volume": 3523717,
+   "rvol": 2.37,
+   "dollar_volume": 534265095,
+   "market_cap": 22497705984,
+   "pe": 36.335228,
+   "pct_from_52w_high": -7.96,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1794835800,
+   "market_time": 1794862802,
+   "market_date": "2026-11-16",
+   "market_state": "POSTPOST",
+   "score": 48.0,
+   "news": [
+    {
+     "title": "Tyson Foods earnings beat by $0.01, revenue topped estimates",
+     "source": "Investing.com",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOa2NvMF9JRXIwbFo0MkNiSThvcFY1QUF5V3pkVDIzZ25aVkZsdTJKNVp3a2VMcnhuZzR0cEs0UWQyc2dJUHh5NHBYbkZjN3V1d0VoRzdEMmhhVGxadlFIbVJaQXItRERFdkpBV0RVbTFFZTNqSE5RZllMUzBkMEp6SVVzNkZWbGdwUUdvWU53SE8xTVR5RkxUUURCZnpTVGk3WHctN1ZvTndGclk5S2hfSXFtQmw?oc=5",
+     "published": "2026-11-17T02:00:47+00:00"
+    },
+    {
+     "title": "Tyson Foods Earnings Call Balances Growth With Pressure",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM0tYTjB5UTBkdk9SVGtVeXFMZTBVUW9HMWhLWWVqVWRFRUNoQzhUUkRTMGJmREZSNFBkWV9kWmV4RWlsSXJDZGxKS3dkcW1DYU94LTMwd0IxemZPWDVOeWFpVTlsUlBNS3VIZTkxdmMzVlRhM0d2YnhhT0RJMEl5cTAwTzk5bmxydWd5Nm5TNVJoNkpjVVhVdDNjcWhIUllMWnlyTDhJRkV4bWc?oc=5",
+     "published": "2026-11-17T00:07:32+00:00"
+    },
+    {
+     "title": "Tyson Foods Inc (TSN) (Q4 2026) Earnings Call Highlights: Beef L",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPT0dhRHBFRWVVN2swMzRaWVRGb2FLTXc0Q1J5N3p0Rkd2QXZGaGJCZ1BDak5nU1ltd0tGeVp1RTRoWFZfRVRYSElHbmZyWWNfRHpJMjRxUkxLV1I5WVhzRlByUWxzUXZrR1NRTndmS3lpWEZZM1o5aWlTUVVZU0JMQzMzSEwydmFOMHVTOUkyLUpYb3lZdEgwU0lNMi0ybE9CdV90UjFVN0k3YkNBM2xJOTFGODZMSUUyRWxhNnVOakYwSG5rbHk2NjctQkE1ZlV2ZkgxZnJQUjlCSXBsbU1VZU81ZXVHUU4tSEF3eFF5dmw?oc=5",
+     "published": "2026-11-16T22:15:51+00:00"
+    },
+    {
+     "title": "Tyson Foods, Inc. Q4 2026 Earnings Call Summary",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQmRYeFVvRHZIbFNGczB6SWVLODgyMmlQRXJFN1hZUHl2SXNGaXNDeVFCYjdiQ251Zm8tWUpFTlRRZDM2T3E2X1ZsYTdaQnUwdmhxaFZvNUl2ZmJhdGtsSDVBLWloay1ZTXExLTdhaHc5TkdUWHB6OHNKNW9wSUVYTlZJQWgzcWVLV2dqS2VBOUowZw?oc=5",
+     "published": "2026-11-16T21:57:53+00:00"
+    },
+    {
+     "title": "Tyson Foods (TSN) Q4 2026 Earnings Call Transcript",
+     "source": "The Globe and Mail",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbG5kd29OaTZFT2JLMmNIN3FfMENOeXZRSkZtU1RIczdrak5uNmJRRi1zZ2dESDVhS3Y3QjlPb1NCZW4zWWgzbnM5cmhqRk82Q1FpN2hDTTFSZUV0UjdRQi1kdDFjLU1jTlF2WGF5Y2ZPRlNOOWFPTGJKTU1xT19zZmhUa3puZ1ZoSFVCT3JweVRpMHZMUnZwYnNBNkdyck5TNlpjRjRhMFBBNkxEd2liZTNIU21tM1lKd3VTWnVvNzk2WlJwamVxQ3QtUHFXV28?oc=5",
+     "published": "2026-11-16T21:38:09+00:00"
+    },
+    {
+     "title": "US Stocks Today: Tyson Foods Jumps 7.46%, Small Caps Fall",
+     "source": "HDFC Sky",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbkpVendLclFsd0ctY194RkJ1X1JGWWJYbFpseDNxblhWUlVneWNnSW5sZF9zSDRCa0dBWEx1eXBZcm9RaWx6MFdPZHVUT0UxeHl6VkZQMHNhQ3hKZHZMWHVRNEJqV1R2OW5YTDU4WFgxdWxWYWV1U3ZCRW9PQk5pcTQyQ0pnNFN5LXFhb3NjR1dObW14UEFtZHF2cjNkdU5lVWRqXzZKakZvUFk5VFBDaWhHbUV3WHZRUkdqZDZ5QjVRRGJNdEhPYm1CN3BzZUh4QTRBQkdjM0huUDY5azlj?oc=5",
+     "published": "2026-11-17T03:17:33+00:00"
+    },
+    {
+     "title": "A Look at Tyson Foods Inc (TSN) After 8.7% Gain -- GF Value $60.",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTFg4N0txbWREd2hpQld6aGg2YXgxRlBlTXZPbnhJLTc2eXp3R2FGcVVqdzg2SVNHOFlmWnBCREFha1I3U3ZxdTJGTkRvaVNFYTZJTTlpOGEwT2NDRVRCVm1RVC1jUzFCNTQxNnBmLUpaSEY4MjMxNXJwdDd6a2RTSVA2Mnh0Yk0zN1JUaTdvNmV5b2pFNmJDMHdnbks0NWFxbnlEZ0JDM2FxbzNWanFJ?oc=5",
+     "published": "2026-11-17T00:03:29+00:00"
+    },
+    {
+     "title": "[New York Stock Market Highlights] Semiconductors and AI-related stocks weaken; Tyson Foods sees buying interest (16th)",
+     "source": "Moomoo",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRzJVLTZHelhMVndySFdaQTdWUElWaVc3VmVvQk1UVUZraUdtRUdCMjB4d3ROV0FvWUc2bnhzak9vczdCclZsMm9STGtmcG8zZWluaS02ZW5sX3piRXdNU1BxbzUySnFDaUVJVG5CZm40NGxrbzBvWnBJR0xNQUhZbWVzUGRDb21MVUxNV2V2TnlTREF6NDViMVZwbDFVS1FQbmxpX2JhWWViV0hEbHkzem9COA?oc=5",
+     "published": "2026-11-16T21:42:28+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 1
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-11-16T08:30:00-05:00"
+   },
+   "score_parts": {
+    "move": 2.7,
+    "rvol": 5.8,
+    "catalyst": 25.5,
+    "close": 7.2,
+    "size": 6.8
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -36.51,
+    "ath": 100.72,
+    "ath_date": "2022-02-08",
+    "prior_ath": 100.72,
+    "listed_since": "1980-03-17",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 3,
+    "max": 9,
+    "piotroski": "6/9"
+   }
+  },
+  {
+   "symbol": "HUBS",
+   "name": "HubSpot, Inc.",
+   "exchange": "NYSE",
+   "price": 231.98,
+   "day_high": 233.88,
+   "prev_close": 217.25,
+   "change_pct": 6.78,
+   "gap_pct": 2.22,
+   "close_strength": 0.91,
+   "volume": 2223915,
+   "avg_volume": 1466026,
+   "rvol": 1.52,
+   "dollar_volume": 515903802,
+   "market_cap": 11329081344,
+   "pe": 52.48416,
+   "pct_from_52w_high": -42.99,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1793826000,
+   "market_time": 1794862933,
+   "market_date": "2026-11-16",
+   "market_state": "POSTPOST",
+   "score": 30.3,
+   "news": [
+    {
+     "title": "HubSpot co-founder Brian Halligan buys $5 million of stock days after returning as CEO",
+     "source": "MLQ.ai",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN2RLd2thdFRpUW0xeGVrV1lrR2VLbF8xb0ZtVWlKVmZBem5UNE53ZWhhcHRRVW4zQU9RWmliWm4wSlVYc21rWGx4RXVSZUYyY202QkhseHB3MkNuZXUwdVZzbGdGVlMyaFBnU0ZMS19RYnRTa2Y1blVCV2xRVXlqUEFONThEbnV3d2FGdDRseVF5Z2JzZ1VaVGlCT19kY0VWNDJVanFEQ1hPUQ?oc=5",
+     "published": "2026-11-16T22:03:45+00:00"
+    },
+    {
+     "title": "HubSpot CEO Buys $5M of Stock, Will Pay HubSpot $450K",
+     "source": "FourWeekMBA",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdVdKcVdsU2E2VmtuVENIcW5RWkZhWnp0dlZpMUZOb0NrSDVmY2ZlLVRaeG5IVkhKbGFjZE5Jb0hTNGEwU2FlRERBM0RaQ1V6WXYwemtHblE3eDlRbmNydTdqaGkwY3BBQTJCRUwxcktMY012OHFGYTdiNElnNFFKM2JJYnU?oc=5",
+     "published": "2026-11-16T20:55:49+00:00"
+    },
+    {
+     "title": "HubSpot Inc (HUBS) Shares Surge 6.8% -- What GF Score of 74 Tells Investors",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOenlRbWwwX083RUdVR1hmZTVFMUJoYmZlVGcyOVptSkoxcHdXaXItLWNSVjM5UFJhaFpHZDNwN1hhOU1EYjB1UnNTSGFPalJTRzd0SUl0X0ZkOFVGYUxwOFlaSnhYeFZEWlhwQ1p1RGFud1J0QmVFQnYyVTM4cGdfa082Q3cwdmZXeDJEMW1SWHVrWG9xbE5KWUlaN2E2ZHhKTE1xRGxIOTl6cjA?oc=5",
+     "published": "2026-11-17T02:08:07+00:00"
+    },
+    {
+     "title": "HubSpot Stock What Changed As Co Founder Returns And New CFO Takes Over",
+     "source": "Simply Wall St",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQmtVM244cW5BWWx2bDU5ZEhsQnVZeGJ1UWg4YUhVX25iQ3B4SFRkMUxQckZ6Xy0wZTJIODZ3dHlVcWZoYmxMWVgtVjlWWi1yS1NySmpoZUZXekYxNjJ4c3BHWk1FaE5Ba1JpQ013OFlqTnZKN3dnR1dUQXNfcnQ3Q0swUFlBcUFsYTB6V29uTXJaQzIyYmhIZHZxMGRWR2t6SkloRlROcERYZUphWFJfUm9mSXdNNGRvdk4yNll6NEVpdw?oc=5",
+     "published": "2026-11-17T01:12:18+00:00"
+    },
+    {
+     "title": "HubSpot, Inc. (HUBS) Stock Price, News, Quote & History",
+     "source": "Yahoo! Finance Canada",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLN1VzZEhIdkVWaV9mUFkxMzlrTjlwV3NJdWk4eHZGWjlqZW4ta1cySmFTRjhQQmpHOHhXOU8taHNrd2c3cWNLdFZkRHN1RzhtY3c?oc=5",
+     "published": "2026-11-16T20:34:35+00:00"
+    },
+    {
+     "title": "HubSpot, Inc. (HUBS) stock price, news, quote and history",
+     "source": "Yahoo Finance Australia",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5kME1NR1FkcGt3YlZxNlBSMkFFUDJVQ0pPRTA2ZjVJVk85bkpKRlJlZ3k0RXR3V3MwcEFqOG54bElWbWVlYXdZOGx5UzJJWVpXYXc?oc=5",
+     "published": "2026-11-16T20:32:11+00:00"
+    },
+    {
+     "title": "CEO Halligan Backs His HubSpot Turnaround With $5 Million of Stock",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNM1M1SDRBYnBNM2s2TFlhTWVRbjZDUEQzOEN6cldoMUFQNWtDVTF6TXBTOFBKSXZwNTBLZ21pSUk2V3lySS1Mc29tYkg4MV9xWXJGamhqNlFQNXFkNVk1S0FnV3UwTXZWR0RwSmJHTEFqX2w4dG1DSVdBSnVybE1YU19RNVZsd3VsUDhIRkR0X1pTWXNRdjUxZWt3T2k0Zm9qYTBvWjVEM3BSVWJWd2tDMk9pR0RkWHdNWUxpZHlPdVNpTjQ?oc=5",
+     "published": "2026-11-16T19:46:07+00:00"
+    },
+    {
+     "title": "HubSpot (NYSE:HUBS) Shares Climb 6.1% on Insider Buying Activity",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSm9jVTdpNW02QzJleTN1YnhtUjNqQl93TjZrTHZ4cVcxa1doRFl5cHRKcVJFSmhyM0NjSlpuU3VfdFpNaFVfQU1ldGlmVVMtUWY4bFJ5ZXE3WkNqeG1PLUZZeHBBRVFRVXVGTVhSVTlUQlFwVnhCZzV4X0JuWGJXLVpFM0kwdlpNRU5SZWUyaW5mOF9mRllwNV9jWW9BVVRXYzllUVpSQTA2aFpGbEUzSGZfakJQQXdJZWl2Mg?oc=5",
+     "published": "2026-11-16T17:25:53+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "acquisition",
+    "label": "Compra / fusión con otra empresa",
+    "quality": 0.5,
+    "note": "El mercado premia la operación; vigila cómo se financia y si la aprueban reguladores.",
+    "confidence": 0.5
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 0.8,
+    "rvol": 0.1,
+    "catalyst": 15.0,
+    "close": 9.1,
+    "size": 5.3
+   },
+   "appearance": {
+    "count": 2,
+    "previous": [
+     "2026-11-12"
+    ],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -73.67,
+    "ath": 881.13,
+    "ath_date": "2025-02-13",
+    "prior_ath": 881.13,
+    "listed_since": "2014-10-09",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 6,
+    "max": 9,
+    "piotroski": "6/9"
+   }
+  },
+  {
+   "symbol": "MOH",
+   "name": "Molina Healthcare, Inc.",
+   "exchange": "NYSE",
+   "price": 233.09,
+   "day_high": 233.31,
+   "prev_close": 209.49,
+   "change_pct": 11.27,
+   "gap_pct": 1.76,
+   "close_strength": 0.99,
+   "volume": 1773883,
+   "avg_volume": 754985,
+   "rvol": 2.35,
+   "dollar_volume": 413474388,
+   "market_cap": 12167298048,
+   "pe": null,
+   "pct_from_52w_high": -4.82,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1792612800,
+   "market_time": 1794862802,
+   "market_date": "2026-11-16",
+   "market_state": "POSTPOST",
+   "score": 29.3,
+   "news": [
+    {
+     "title": "A Look at Molina Healthcare Inc (MOH) After 11.3% Gain -- GF Val",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdWxVN192Rm83VWRMTDMyTno2Ty1IUzJNUTdSeFBmMUc1M3hrZ25obG5ZMC1WTXNaUF9VOGcwR2Zwd3dVTFZVSjNvRnRXc3p2VnNSdHFtVlh5eUZIeU5NY1FHSWMwbjBWc0IzdFZCa1ZiX0JXSnNPRzZkcnZQYWJFMURDYkQ0RmZielhhVUhfS2hCLURZWldQSGNKOWktSUtSNmhfTFh2VmU5bkdqYmluYzE4WGZpTEh0dkJF?oc=5",
+     "published": "2026-11-17T01:09:55+00:00"
+    },
+    {
+     "title": "Molina Healthcare sues over $140M star ratings loss",
+     "source": "Modern Healthcare",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc2xqcm90VU9wOFJyWkE1T1I2cl8xVjJfWXJyX3RNVEJpcWZQc05qQlpVVXIyTlRTQ2NnZlM2YjVNY0d0Y2IwX2dMTk1Dd2NFdjVISWcxX194VkNwbEItYjBLNTl1ZmRzVWE2cl9GUldYb0Fmc0N2ckcyZW80SlRUOUtsT1hBemQ2cUhlWlhuZEZlb3c0a0VXUA?oc=5",
+     "published": "2026-11-16T21:00:48+00:00"
+    },
+    {
+     "title": "Molina Healthcare Jumps 7.5% Amid Sector-Wide Rally",
+     "source": "AlphaStreet",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNzNWVzVseDRXTWVUN09MTkVIRmVDeWZYaEM0c0Y0RVZrSnQ1LXlweHVZcTBZelVLTTJVYTlCbWQwZ3B5ZXJYdW1FclRscEMtUWF2NjVZTVZzamEzMmFIQ1lDRjJDVHRUdm5yRVE1clJtRkRGdHVralF5eHRoZGpzc2o5M0QzdEtMa0FnY9IBjAFBVV95cUxNNzNWVzVseDRXTWVUN09MTkVIRmVDeWZYaEM0c0Y0RVZrSnQ1LXlweHVZcTBZelVLTTJVYTlCbWQwZ3B5ZXJYdW1FclRscEMtUWF2NjVZTVZzamEzMmFIQ1lDRjJDVHRUdm5yRVE1clJtRkRGdHVralF5eHRoZGpzc2o5M0QzdEtMa0FnYw?oc=5",
+     "published": "2026-11-16T20:38:29+00:00"
+    },
+    {
+     "title": "Mizuho Securities Maintains Molina Healthcare(MOH.US) With Buy Rating, Maintains Target Price $255",
+     "source": "Moomoo",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMFc1X18yTHRyanF0WExRc0hnZ2pUV0FyOXA1TWc4a2QwVVdNeDBIMEdOdzZKWGoyT1BsQWQwcTcyQmVXUTV5eVJuZmg5YUdmbjhnUThTYTl1LTM1c2ZKUE1PMlE4dlItbS1uT1VEcC1qMUlHbzZlMWtGWE01M1VPaVNpOEYxZGVYdmNkSTl0enBQNWlLNVRZV1BzRUt2X2R0T3hidUpQbTZyQzZyNTVwc1BRR29FbDdMSVZrN0J3?oc=5",
+     "published": "2026-11-16T20:23:12+00:00"
+    },
+    {
+     "title": "Form 144 Molina Healthcare Inc. For: 16 November By Investing.com",
+     "source": "Investing.com Canada",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONzhDb1YyUHV0Q08xNTNuSjg2TVFIdTlWZnJxeTZ4YmJIcU1SaHprVld2RTlYNWM2NG1VR1VSYXJTbzB4UFl2dTI3NGVuUE1iWlBVRXR2WVpEN3lhYUlaSS0xb0lXSjJ1cmN4LWNJektVeVo0eW5vZGswRUlZQ1k4WW9pcHpzbUtVclByVTJIWmxZZzRCNkJYQXlONmtGQmxUOXExMk9fQVN6M0E?oc=5",
+     "published": "2026-11-16T19:13:36+00:00"
+    },
+    {
+     "title": "Molina Healthcare, Inc. (MOH) Stock Price, News, Quote & History",
+     "source": "Yahoo! Finance Canada",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBOSnQ3Vm1Fb1NIaGw2UlJOd3ExWVREbldfTElhTzNwYmhvZFNfLVJpckh0RmFmYTVGS0tWcTZWY1dYanNKQU5lMG5xUm8xd3Z2?oc=5",
+     "published": "2026-11-16T18:27:29+00:00"
+    },
+    {
+     "title": "Director Steven Orlando proposes selling 702 Molina Healthcare (MOH) shares.",
+     "source": "Stock Titan",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZDZINkhjZ3BUSmpNZ2wxMlRmWGxRWlJ6Z3ZSWHlNUEd5VnlkV05VdU1Dbkd2dXFBM1U4UFVYbzJCLXhCajcwdFk0VjR0TUxha2xQelVTdDZ2OVBUZkI0SDQ3QlRzdzhjbm5tM2k3bG1iaWM1V0VGSVdoZ2psMnloSEozRVpReV9YcUpKSEcxaE44cjY2UGZmXy1pelpuQQ?oc=5",
+     "published": "2026-11-16T18:24:27+00:00"
+    },
+    {
+     "title": "Molina Healthcare Inc (MHG.SG) Seasonal Returns Chart - Yahoo Finance",
+     "source": "Yahoo! Finance Canada",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Jank4TnFDZWh1dFJJWlpNREJqNlpHaU9SWno4VTk4WWxTd0FUSUxqbW9PU3loc1ZiRUlkMHppNG9ya1gtWE5hSzdnWnJHREhyUDZQd2t0TXdvcEVteXNZOHJScFE?oc=5",
+     "published": "2026-11-16T18:23:26+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 5.3,
+    "rvol": 5.7,
+    "catalyst": 3.0,
+    "close": 9.9,
+    "size": 5.4
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -45.02,
+    "ath": 423.92,
+    "ath_date": "2024-03-27",
+    "prior_ath": 423.92,
+    "listed_since": "2003-07-02",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 3,
+    "max": 9,
+    "piotroski": "4/9"
+   }
+  },
+  {
+   "symbol": "URGN",
+   "name": "UroGen Pharma Ltd.",
+   "exchange": "NasdaqGM",
+   "price": 28.1,
+   "day_high": 29.5,
+   "prev_close": 26.18,
+   "change_pct": 7.33,
+   "gap_pct": -7.94,
+   "close_strength": 0.78,
+   "volume": 3964623,
+   "avg_volume": 1014934,
+   "rvol": 3.91,
+   "dollar_volume": 111405906,
+   "market_cap": 1378243840,
+   "pe": null,
+   "pct_from_52w_high": -44.7,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1793799000,
+   "market_time": 1794862800,
+   "market_date": "2026-11-16",
+   "market_state": "POSTPOST",
+   "score": 28.9,
+   "news": [
+    {
+     "title": "UroGen Earnings Call Highlights Zosturi Growth, 2027 Pipeline",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSlVwdnl2OGRUQVlkZkVUem1GS1RvcFB2emwzNEpnOF8wUXRiX0pWMWd3b2o5Vzg3U2h1LXJtNEVmazdVb2FVUTVpdlNfb3BGb0VqR0daLU55MExjOHpUVE1Xa2h6ckhZbTZWdlI1MGdwR2xoWi0yRGR6aWFOVUhmRElxZjBhOTFlc04zSmFveVRPWEVsMHVFMHN5NkJtY1RpaEVSXzB4dlFiZ0k4M3hwRjdB?oc=5",
+     "published": "2026-11-15T03:24:27+00:00"
+    },
+    {
+     "title": "A Quick Look at Today's Ratings for UroGen Pharma Ltd(URGN.US), With a Forecast Between $58 to $75",
+     "source": "Moomoo",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPLXM3U1h3RC16ZjhaZVB5dE5PZWVyOTBVal85ZHFmUm44NzNkTUZvc19IRnhWWjRwWVdzRG1LOUNmOV9YWGNtVDlMOHBtRldyWnRqbWl5bUszZllVSkQ3S3c1N0lsVFBKTmZOZ0ZsRGl6Z0Z4cmIwa3NnYmdqYjZXOU52OExMclVlSVdJZHFnOFdQdDRFUTNyZg?oc=5",
+     "published": "2026-11-14T15:40:50+00:00"
+    },
+    {
+     "title": "UroGen Pharma Ltd. (URGN) stock price, news, quote and history",
+     "source": "Yahoo Finance UK",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9KZC1ZdGJnczdLYzgwTGhGRlNKVjRCaTVPX1h4SWZNNklGTlhWZGx4Tjg4Rm1vOC1MUjNOTXR6OVVvMTR1cHZIdGxfZ1JNSHZlX3c?oc=5",
+     "published": "2026-11-14T06:29:15+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 1.3,
+    "rvol": 16.1,
+    "catalyst": 3.0,
+    "close": 7.8,
+    "size": 0.7
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -59.61,
+    "ath": 69.57,
+    "ath_date": "2018-05-21",
+    "prior_ath": 69.57,
+    "listed_since": "2017-05-04",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 2,
+    "max": 8,
+    "piotroski": "1/9"
+   }
+  }
+ ],
+ "holding_up": {
+  "tracked": 94,
+  "items": [
+   {
+    "symbol": "XERS",
+    "name": "Xeris Biopharma Holdings, Inc.",
+    "picked_on": "2026-11-05",
+    "picked_price": 13.08,
+    "price": 16.7,
+    "change_since_pct": 27.68,
+    "from_peak_pct": 0.0,
+    "sessions_since": 7,
+    "last_rvol": 0.77,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "APP",
+    "name": "AppLovin Corporation",
+    "picked_on": "2026-11-05",
+    "picked_price": 356.1,
+    "price": 415.22,
+    "change_since_pct": 16.6,
+    "from_peak_pct": 0.0,
+    "sessions_since": 7,
+    "last_rvol": 0.78,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "CGON",
+    "name": "CG Oncology, Inc.",
+    "picked_on": "2026-11-13",
+    "picked_price": 74.4,
+    "price": 84.78,
+    "change_since_pct": 13.95,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 8.18,
+    "catalyst_label": "Mejora de analista",
+    "appearances": 2
+   },
+   {
+    "symbol": "VCEL",
+    "name": "Vericel Corporation",
+    "picked_on": "2026-11-05",
+    "picked_price": 51.78,
+    "price": 57.48,
+    "change_since_pct": 11.01,
+    "from_peak_pct": -3.31,
+    "sessions_since": 7,
+    "last_rvol": 1.07,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "XMTR",
+    "name": "Xometry, Inc.",
+    "picked_on": "2026-11-03",
+    "picked_price": 111.29,
+    "price": 122.13,
+    "change_since_pct": 9.74,
+    "from_peak_pct": -0.28,
+    "sessions_since": 9,
+    "last_rvol": 0.87,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "TBBB",
+    "name": "BBB Foods Inc.",
+    "picked_on": "2026-11-03",
+    "picked_price": 62.97,
+    "price": 68.9,
+    "change_since_pct": 9.42,
+    "from_peak_pct": -1.6,
+    "sessions_since": 9,
+    "last_rvol": 0.72,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "UPBD",
+    "name": "Upbound Group, Inc.",
+    "picked_on": "2026-11-02",
+    "picked_price": 22.84,
+    "price": 24.92,
+    "change_since_pct": 9.11,
+    "from_peak_pct": -1.39,
+    "sessions_since": 10,
+    "last_rvol": 0.89,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 2
+   },
+   {
+    "symbol": "FROG",
+    "name": "JFrog Ltd.",
+    "picked_on": "2026-11-06",
+    "picked_price": 100.98,
+    "price": 109.94,
+    "change_since_pct": 8.87,
+    "from_peak_pct": -3.22,
+    "sessions_since": 6,
+    "last_rvol": 0.69,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "FISV",
+    "name": "Fiserv, Inc.",
+    "picked_on": "2026-11-03",
+    "picked_price": 58.4,
+    "price": 63.32,
+    "change_since_pct": 8.42,
+    "from_peak_pct": -0.91,
+    "sessions_since": 9,
+    "last_rvol": 1.06,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "HUBS",
+    "name": "HubSpot, Inc.",
+    "picked_on": "2026-11-12",
+    "picked_price": 215.84,
+    "price": 231.98,
+    "change_since_pct": 7.48,
+    "from_peak_pct": 0.0,
+    "sessions_since": 2,
+    "last_rvol": 1.58,
+    "catalyst_label": "Mejora de analista",
+    "appearances": 1
+   },
+   {
+    "symbol": "U",
+    "name": "Unity Software Inc.",
+    "picked_on": "2026-11-05",
+    "picked_price": 48.8,
+    "price": 51.88,
+    "change_since_pct": 6.31,
+    "from_peak_pct": -1.76,
+    "sessions_since": 7,
+    "last_rvol": 0.78,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "DUOL",
+    "name": "Duolingo, Inc.",
+    "picked_on": "2026-11-04",
+    "picked_price": 161.27,
+    "price": 168.75,
+    "change_since_pct": 4.64,
+    "from_peak_pct": 0.0,
+    "sessions_since": 8,
+    "last_rvol": 1.4,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "ARDT",
+    "name": "Ardent Health, Inc.",
+    "picked_on": "2026-11-06",
+    "picked_price": 17.3,
+    "price": 18.1,
+    "change_since_pct": 4.62,
+    "from_peak_pct": -0.49,
+    "sessions_since": 6,
+    "last_rvol": 0.95,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 2
+   },
+   {
+    "symbol": "MGNI",
+    "name": "Magnite, Inc.",
+    "picked_on": "2026-11-05",
+    "picked_price": 27.52,
+    "price": 28.79,
+    "change_since_pct": 4.61,
+    "from_peak_pct": -1.87,
+    "sessions_since": 7,
+    "last_rvol": 0.85,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "TMDX",
+    "name": "TransMedics Group, Inc.",
+    "picked_on": "2026-11-06",
+    "picked_price": 88.24,
+    "price": 92.21,
+    "change_since_pct": 4.5,
+    "from_peak_pct": -1.68,
+    "sessions_since": 6,
+    "last_rvol": 0.46,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "IDXX",
+    "name": "IDEXX Laboratories, Inc.",
+    "picked_on": "2026-11-02",
+    "picked_price": 671.64,
+    "price": 700.65,
+    "change_since_pct": 4.32,
+    "from_peak_pct": -0.85,
+    "sessions_since": 10,
+    "last_rvol": 0.72,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "AAON",
+    "name": "AAON, Inc.",
+    "picked_on": "2026-11-10",
+    "picked_price": 75.01,
+    "price": 78.2,
+    "change_since_pct": 4.25,
+    "from_peak_pct": -2.55,
+    "sessions_since": 4,
+    "last_rvol": 0.69,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "PHIN",
+    "name": "PHINIA Inc.",
+    "picked_on": "2026-11-02",
+    "picked_price": 70.79,
+    "price": 73.7,
+    "change_since_pct": 4.11,
+    "from_peak_pct": 0.0,
+    "sessions_since": 10,
+    "last_rvol": 0.84,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "MBGL",
+    "name": "Mobility Global, Inc.",
+    "picked_on": "2026-11-12",
+    "picked_price": 23.13,
+    "price": 24.04,
+    "change_since_pct": 3.93,
+    "from_peak_pct": 0.0,
+    "sessions_since": 2,
+    "last_rvol": 2.53,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "IBP",
+    "name": "Installed Building Products, Inc.",
+    "picked_on": "2026-11-12",
+    "picked_price": 223.76,
+    "price": 231.97,
+    "change_since_pct": 3.67,
+    "from_peak_pct": 0.0,
+    "sessions_since": 2,
+    "last_rvol": 1.65,
+    "catalyst_label": "Compra / fusión con otra empresa",
+    "appearances": 1
+   },
+   {
+    "symbol": "CHA",
+    "name": "Chagee Holdings Limited",
+    "picked_on": "2026-11-12",
+    "picked_price": 13.51,
+    "price": 13.93,
+    "change_since_pct": 3.11,
+    "from_peak_pct": -3.06,
+    "sessions_since": 2,
+    "last_rvol": 1.06,
+    "catalyst_label": "Financiación / recompra",
+    "appearances": 1
+   },
+   {
+    "symbol": "PCOR",
+    "name": "Procore Technologies, Inc.",
+    "picked_on": "2026-11-04",
+    "picked_price": 75.6,
+    "price": 77.55,
+    "change_since_pct": 2.58,
+    "from_peak_pct": -0.09,
+    "sessions_since": 8,
+    "last_rvol": 0.91,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "VRDN",
+    "name": "Viridian Therapeutics, Inc.",
+    "picked_on": "2026-11-04",
+    "picked_price": 29.06,
+    "price": 29.8,
+    "change_since_pct": 2.56,
+    "from_peak_pct": -4.64,
+    "sessions_since": 8,
+    "last_rvol": 0.73,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "ZETA",
+    "name": "Zeta Global Holdings Corp.",
+    "picked_on": "2026-11-10",
+    "picked_price": 35.07,
+    "price": 35.85,
+    "change_since_pct": 2.22,
+    "from_peak_pct": -5.01,
+    "sessions_since": 4,
+    "last_rvol": 0.98,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "LSCC",
+    "name": "Lattice Semiconductor Corporation",
+    "picked_on": "2026-11-03",
+    "picked_price": 105.92,
+    "price": 108.17,
+    "change_since_pct": 2.12,
+    "from_peak_pct": -11.89,
+    "sessions_since": 9,
+    "last_rvol": 0.66,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "CHH",
+    "name": "Choice Hotels International, Inc.",
+    "picked_on": "2026-11-02",
+    "picked_price": 118.61,
+    "price": 120.95,
+    "change_since_pct": 1.97,
+    "from_peak_pct": 0.0,
+    "sessions_since": 10,
+    "last_rvol": 1.35,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "ADMA",
+    "name": "ADMA Biologics, Inc.",
+    "picked_on": "2026-11-05",
+    "picked_price": 13.21,
+    "price": 13.47,
+    "change_since_pct": 1.97,
+    "from_peak_pct": -1.54,
+    "sessions_since": 7,
+    "last_rvol": 0.74,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "HAWK",
+    "name": "HawkEye 360, Inc.",
+    "picked_on": "2026-11-13",
+    "picked_price": 18.16,
+    "price": 18.51,
+    "change_since_pct": 1.93,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 1.51,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "WWW",
+    "name": "Wolverine World Wide, Inc.",
+    "picked_on": "2026-11-13",
+    "picked_price": 24.89,
+    "price": 25.29,
+    "change_since_pct": 1.61,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 2.31,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "CEG",
+    "name": "Constellation Energy Corporation",
+    "picked_on": "2026-11-09",
+    "picked_price": 275.67,
+    "price": 277.82,
+    "change_since_pct": 0.78,
+    "from_peak_pct": -1.47,
+    "sessions_since": 5,
+    "last_rvol": 0.93,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "NBIX",
+    "name": "Neurocrine Biosciences, Inc.",
+    "picked_on": "2026-11-03",
+    "picked_price": 164.85,
+    "price": 165.31,
+    "change_since_pct": 0.28,
+    "from_peak_pct": -5.22,
+    "sessions_since": 9,
+    "last_rvol": 0.96,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "LFTO",
+    "name": "Liftoff Mobile, Inc.",
+    "picked_on": "2026-11-13",
+    "picked_price": 24.44,
+    "price": 24.46,
+    "change_since_pct": 0.08,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 3.34,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "HWM",
+    "name": "Howmet Aerospace Inc.",
+    "picked_on": "2026-11-02",
+    "picked_price": 212.84,
+    "price": 212.85,
+    "change_since_pct": 0.0,
+    "from_peak_pct": -4.98,
+    "sessions_since": 10,
+    "last_rvol": 0.46,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   }
+  ],
+  "window": 10
+ }
+}

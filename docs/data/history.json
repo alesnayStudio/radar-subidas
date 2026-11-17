@@ -379,12 +379,12 @@
    "returns": {
     "1": 0.7,
     "5": -1.61,
-    "20": null
+    "20": -2.96
    },
    "excess": {
     "1": 0.36,
     "5": -1.47,
-    "20": null
+    "20": 0.5
    },
    "ath_status": "rebound",
    "pct_from_ath": -86.21,
@@ -407,12 +407,12 @@
    "returns": {
     "1": -3.19,
     "5": -5.11,
-    "20": null
+    "20": -14.26
    },
    "excess": {
     "1": -3.53,
     "5": -4.97,
-    "20": null
+    "20": -10.8
    },
    "ath_status": "rebound",
    "pct_from_ath": -88.44,
@@ -435,12 +435,12 @@
    "returns": {
     "1": 0.15,
     "5": 1.02,
-    "20": null
+    "20": 1.12
    },
    "excess": {
     "1": -0.19,
     "5": 1.16,
-    "20": null
+    "20": 4.58
    },
    "ath_status": "mid",
    "pct_from_ath": -44.06,
@@ -463,12 +463,12 @@
    "returns": {
     "1": 6.82,
     "5": -1.26,
-    "20": null
+    "20": 12.23
    },
    "excess": {
     "1": 6.48,
     "5": -1.12,
-    "20": null
+    "20": 15.69
    },
    "ath_status": "mid",
    "pct_from_ath": -40.34,
@@ -491,12 +491,12 @@
    "returns": {
     "1": 2.92,
     "5": -0.25,
-    "20": null
+    "20": -14.86
    },
    "excess": {
     "1": 2.58,
     "5": -0.11,
-    "20": null
+    "20": -11.4
    },
    "ath_status": "mid",
    "pct_from_ath": -21.99,
@@ -519,12 +519,12 @@
    "returns": {
     "1": 3.95,
     "5": 12.36,
-    "20": null
+    "20": 4.72
    },
    "excess": {
     "1": 3.61,
     "5": 12.5,
-    "20": null
+    "20": 8.18
    },
    "ath_status": "mid",
    "pct_from_ath": -10.56,
@@ -547,12 +547,12 @@
    "returns": {
     "1": 4.99,
     "5": 5.59,
-    "20": null
+    "20": -13.61
    },
    "excess": {
     "1": 4.65,
     "5": 5.73,
-    "20": null
+    "20": -10.15
    },
    "ath_status": "rebound",
    "pct_from_ath": -74.86,
@@ -575,12 +575,12 @@
    "returns": {
     "1": 1.66,
     "5": 2.78,
-    "20": null
+    "20": 19.26
    },
    "excess": {
     "1": 1.32,
     "5": 2.92,
-    "20": null
+    "20": 22.72
    },
    "ath_status": "rebound",
    "pct_from_ath": -71.54,
@@ -603,12 +603,12 @@
    "returns": {
     "1": 2.52,
     "5": 1.16,
-    "20": null
+    "20": 4.96
    },
    "excess": {
     "1": 2.18,
     "5": 1.3,
-    "20": null
+    "20": 8.42
    },
    "ath_status": "rebound",
    "pct_from_ath": -58.56,
@@ -631,12 +631,12 @@
    "returns": {
     "1": 0.42,
     "5": -7.38,
-    "20": null
+    "20": -24.26
    },
    "excess": {
     "1": 0.08,
     "5": -7.24,
-    "20": null
+    "20": -20.8
    },
    "ath_status": "rebound",
    "pct_from_ath": -62.05,
@@ -4583,12 +4583,12 @@
    "quality": "C",
    "returns": {
     "1": -0.0,
-    "5": null,
+    "5": -3.51,
     "20": null
    },
    "excess": {
     "1": 0.37,
-    "5": null,
+    "5": -1.82,
     "20": null
    }
   },
@@ -4611,12 +4611,12 @@
    "quality": "B",
    "returns": {
     "1": -0.65,
-    "5": null,
+    "5": -0.39,
     "20": null
    },
    "excess": {
     "1": -0.28,
-    "5": null,
+    "5": 1.3,
     "20": null
    }
   },
@@ -4639,12 +4639,12 @@
    "quality": "B",
    "returns": {
     "1": -1.03,
-    "5": null,
+    "5": -13.17,
     "20": null
    },
    "excess": {
     "1": -0.66,
-    "5": null,
+    "5": -11.48,
     "20": null
    }
   },
@@ -4667,12 +4667,12 @@
    "quality": "C",
    "returns": {
     "1": -2.66,
-    "5": null,
+    "5": -7.97,
     "20": null
    },
    "excess": {
     "1": -2.29,
-    "5": null,
+    "5": -6.28,
     "20": null
    }
   },
@@ -4695,12 +4695,12 @@
    "quality": "C",
    "returns": {
     "1": 1.39,
-    "5": null,
+    "5": -6.82,
     "20": null
    },
    "excess": {
     "1": 1.76,
-    "5": null,
+    "5": -5.13,
     "20": null
    }
   },
@@ -4723,12 +4723,12 @@
    "quality": "B",
    "returns": {
     "1": -0.19,
-    "5": null,
+    "5": -2.59,
     "20": null
    },
    "excess": {
     "1": 0.18,
-    "5": null,
+    "5": -0.9,
     "20": null
    }
   },
@@ -4751,12 +4751,12 @@
    "quality": "C",
    "returns": {
     "1": 1.59,
-    "5": null,
+    "5": -5.32,
     "20": null
    },
    "excess": {
     "1": 1.96,
-    "5": null,
+    "5": -3.63,
     "20": null
    }
   },
@@ -4779,12 +4779,12 @@
    "quality": "C",
    "returns": {
     "1": -2.97,
-    "5": null,
+    "5": -9.08,
     "20": null
    },
    "excess": {
     "1": -2.6,
-    "5": null,
+    "5": -7.39,
     "20": null
    }
   },
@@ -4807,12 +4807,12 @@
    "quality": "A",
    "returns": {
     "1": 1.06,
-    "5": null,
+    "5": -4.76,
     "20": null
    },
    "excess": {
     "1": 1.43,
-    "5": null,
+    "5": -3.07,
     "20": null
    }
   },
@@ -4835,12 +4835,12 @@
    "quality": "B",
    "returns": {
     "1": -3.02,
-    "5": null,
+    "5": 0.78,
     "20": null
    },
    "excess": {
     "1": -2.65,
-    "5": null,
+    "5": 2.47,
     "20": null
    }
   },
@@ -5702,12 +5702,12 @@
    "spy_change": -0.36,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": 0.08,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.99,
     "5": null,
     "20": null
    }
@@ -5730,12 +5730,12 @@
    "spy_change": -0.36,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": 1.93,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 3.84,
     "5": null,
     "20": null
    }
@@ -5758,12 +5758,12 @@
    "spy_change": -0.36,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -7.72,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -5.81,
     "5": null,
     "20": null
    }
@@ -5786,12 +5786,12 @@
    "spy_change": -0.36,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": -7.11,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -5.2,
     "5": null,
     "20": null
    }
@@ -5814,12 +5814,12 @@
    "spy_change": -0.36,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": -3.77,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -1.86,
     "5": null,
     "20": null
    }
@@ -5842,12 +5842,12 @@
    "spy_change": -0.36,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": -1.88,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 0.03,
     "5": null,
     "20": null
    }
@@ -5870,12 +5870,12 @@
    "spy_change": -0.36,
    "quality": "A",
    "returns": {
-    "1": null,
+    "1": -4.08,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -2.17,
     "5": null,
     "20": null
    }
@@ -5898,12 +5898,12 @@
    "spy_change": -0.36,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": 1.61,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 3.52,
     "5": null,
     "20": null
    }
@@ -5926,12 +5926,12 @@
    "spy_change": -0.36,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": 13.95,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 15.86,
     "5": null,
     "20": null
    }
@@ -5952,6 +5952,202 @@
    "pct_from_ath": -42.67,
    "close_strength": 0.87,
    "spy_change": -0.36,
+   "quality": "C",
+   "returns": {
+    "1": -4.61,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": -2.7,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-16",
+   "symbol": "CGON",
+   "name": "CG Oncology, Inc.",
+   "rank": 1,
+   "score": 61.5,
+   "price": 84.78,
+   "change_pct": 13.95,
+   "rvol": 9.89,
+   "catalyst": "fda",
+   "catalyst_label": "Biotech / FDA / ensayo",
+   "appearance": 3,
+   "ath_status": "new_ath",
+   "pct_from_ath": -9.76,
+   "close_strength": 0.42,
+   "spy_change": -1.91,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-16",
+   "symbol": "TU",
+   "name": "TELUS Corporation",
+   "rank": 2,
+   "score": 58.6,
+   "price": 9.57,
+   "change_pct": 12.19,
+   "rvol": 7.26,
+   "catalyst": "takeover",
+   "catalyst_label": "OPA / la compran",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -65.2,
+   "close_strength": 0.75,
+   "spy_change": -1.91,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-16",
+   "symbol": "HTHT",
+   "name": "H World Group Limited",
+   "rank": 3,
+   "score": 51.3,
+   "price": 54.88,
+   "change_pct": 8.91,
+   "rvol": 2.19,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -14.95,
+   "close_strength": 0.76,
+   "spy_change": -1.91,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-16",
+   "symbol": "TSN",
+   "name": "Tyson Foods, Inc.",
+   "rank": 4,
+   "score": 48.0,
+   "price": 63.95,
+   "change_pct": 8.72,
+   "rvol": 2.37,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -36.51,
+   "close_strength": 0.72,
+   "spy_change": -1.91,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-16",
+   "symbol": "HUBS",
+   "name": "HubSpot, Inc.",
+   "rank": 5,
+   "score": 30.3,
+   "price": 231.98,
+   "change_pct": 6.78,
+   "rvol": 1.52,
+   "catalyst": "acquisition",
+   "catalyst_label": "Compra / fusión con otra empresa",
+   "appearance": 2,
+   "ath_status": "rebound",
+   "pct_from_ath": -73.67,
+   "close_strength": 0.91,
+   "spy_change": -1.91,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-16",
+   "symbol": "MOH",
+   "name": "Molina Healthcare, Inc.",
+   "rank": 6,
+   "score": 29.3,
+   "price": 233.09,
+   "change_pct": 11.27,
+   "rvol": 2.35,
+   "catalyst": "none",
+   "catalyst_label": "Sin noticia clara",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -45.02,
+   "close_strength": 0.99,
+   "spy_change": -1.91,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-16",
+   "symbol": "URGN",
+   "name": "UroGen Pharma Ltd.",
+   "rank": 7,
+   "score": 28.9,
+   "price": 28.1,
+   "change_pct": 7.33,
+   "rvol": 3.91,
+   "catalyst": "none",
+   "catalyst_label": "Sin noticia clara",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -59.61,
+   "close_strength": 0.78,
+   "spy_change": -1.91,
    "quality": "C",
    "returns": {
     "1": null,
