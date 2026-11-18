@@ -659,12 +659,12 @@
    "returns": {
     "1": 0.24,
     "5": 0.46,
-    "20": null
+    "20": 2.0
    },
    "excess": {
     "1": -0.29,
     "5": 0.38,
-    "20": null
+    "20": 6.76
    },
    "ath_status": "rebound",
    "pct_from_ath": -53.87,
@@ -687,12 +687,12 @@
    "returns": {
     "1": 4.09,
     "5": 8.04,
-    "20": null
+    "20": 8.06
    },
    "excess": {
     "1": 3.56,
     "5": 7.96,
-    "20": null
+    "20": 12.82
    },
    "ath_status": "mid",
    "pct_from_ath": -13.68,
@@ -715,12 +715,12 @@
    "returns": {
     "1": 4.36,
     "5": 0.33,
-    "20": null
+    "20": 13.09
    },
    "excess": {
     "1": 3.83,
     "5": 0.25,
-    "20": null
+    "20": 17.85
    },
    "ath_status": "mid",
    "pct_from_ath": -27.25,
@@ -743,12 +743,12 @@
    "returns": {
     "1": -0.55,
     "5": -0.47,
-    "20": null
+    "20": 2.13
    },
    "excess": {
     "1": -1.08,
     "5": -0.55,
-    "20": null
+    "20": 6.89
    },
    "ath_status": "mid",
    "pct_from_ath": -42.98,
@@ -771,12 +771,12 @@
    "returns": {
     "1": 1.2,
     "5": 1.03,
-    "20": null
+    "20": 1.55
    },
    "excess": {
     "1": 0.67,
     "5": 0.95,
-    "20": null
+    "20": 6.31
    },
    "ath_status": "rebound",
    "pct_from_ath": -67.84,
@@ -799,12 +799,12 @@
    "returns": {
     "1": -19.58,
     "5": -23.62,
-    "20": null
+    "20": -30.99
    },
    "excess": {
     "1": -20.11,
     "5": -23.7,
-    "20": null
+    "20": -26.23
    },
    "ath_status": "rebound",
    "pct_from_ath": -51.63,
@@ -827,12 +827,12 @@
    "returns": {
     "1": 4.55,
     "5": 3.85,
-    "20": null
+    "20": -28.99
    },
    "excess": {
     "1": 4.02,
     "5": 3.77,
-    "20": null
+    "20": -24.23
    },
    "ath_status": "mid",
    "pct_from_ath": -46.65,
@@ -855,12 +855,12 @@
    "returns": {
     "1": -5.72,
     "5": -4.57,
-    "20": null
+    "20": -10.01
    },
    "excess": {
     "1": -6.25,
     "5": -4.65,
-    "20": null
+    "20": -5.25
    },
    "ath_status": "rebound",
    "pct_from_ath": -54.65,
@@ -883,12 +883,12 @@
    "returns": {
     "1": 0.4,
     "5": -2.34,
-    "20": null
+    "20": 1.29
    },
    "excess": {
     "1": -0.13,
     "5": -2.42,
-    "20": null
+    "20": 6.05
    },
    "ath_status": "mid",
    "pct_from_ath": -39.52,
@@ -911,12 +911,12 @@
    "returns": {
     "1": 2.96,
     "5": 2.91,
-    "20": null
+    "20": 12.7
    },
    "excess": {
     "1": 2.43,
     "5": 2.83,
-    "20": null
+    "20": 17.46
    },
    "ath_status": "rebound",
    "pct_from_ath": -60.42,
@@ -4863,12 +4863,12 @@
    "quality": "C",
    "returns": {
     "1": 1.76,
-    "5": null,
+    "5": 4.93,
     "20": null
    },
    "excess": {
     "1": 0.44,
-    "5": null,
+    "5": 7.26,
     "20": null
    }
   },
@@ -4891,12 +4891,12 @@
    "quality": "C",
    "returns": {
     "1": -2.74,
-    "5": null,
+    "5": -8.96,
     "20": null
    },
    "excess": {
     "1": -4.06,
-    "5": null,
+    "5": -6.63,
     "20": null
    }
   },
@@ -4919,12 +4919,12 @@
    "quality": "C",
    "returns": {
     "1": 6.21,
-    "5": null,
+    "5": -18.76,
     "20": null
    },
    "excess": {
     "1": 4.89,
-    "5": null,
+    "5": -16.43,
     "20": null
    }
   },
@@ -4947,12 +4947,12 @@
    "quality": "C",
    "returns": {
     "1": -4.02,
-    "5": null,
+    "5": -17.63,
     "20": null
    },
    "excess": {
     "1": -5.34,
-    "5": null,
+    "5": -15.3,
     "20": null
    }
   },
@@ -4975,12 +4975,12 @@
    "quality": "C",
    "returns": {
     "1": -3.26,
-    "5": null,
+    "5": -2.77,
     "20": null
    },
    "excess": {
     "1": -4.58,
-    "5": null,
+    "5": -0.44,
     "20": null
    }
   },
@@ -5003,12 +5003,12 @@
    "quality": "A",
    "returns": {
     "1": 0.26,
-    "5": null,
+    "5": 0.96,
     "20": null
    },
    "excess": {
     "1": -1.06,
-    "5": null,
+    "5": 3.29,
     "20": null
    }
   },
@@ -5059,12 +5059,12 @@
    "quality": "B",
    "returns": {
     "1": 7.61,
-    "5": null,
+    "5": -4.36,
     "20": null
    },
    "excess": {
     "1": 6.29,
-    "5": null,
+    "5": -2.03,
     "20": null
    }
   },
@@ -5087,12 +5087,12 @@
    "quality": "C",
    "returns": {
     "1": 4.36,
-    "5": null,
+    "5": -12.53,
     "20": null
    },
    "excess": {
     "1": 3.04,
-    "5": null,
+    "5": -10.2,
     "20": null
    }
   },
@@ -5115,12 +5115,12 @@
    "quality": "C",
    "returns": {
     "1": -5.65,
-    "5": null,
+    "5": -23.19,
     "20": null
    },
    "excess": {
     "1": -6.97,
-    "5": null,
+    "5": -20.86,
     "20": null
    }
   },
@@ -5982,12 +5982,12 @@
    "spy_change": -1.91,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -6.89,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -5.88,
     "5": null,
     "20": null
    }
@@ -6010,12 +6010,12 @@
    "spy_change": -1.91,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -3.24,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -2.23,
     "5": null,
     "20": null
    }
@@ -6038,12 +6038,12 @@
    "spy_change": -1.91,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": -2.24,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -1.23,
     "5": null,
     "20": null
    }
@@ -6066,12 +6066,12 @@
    "spy_change": -1.91,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -0.47,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 0.54,
     "5": null,
     "20": null
    }
@@ -6094,12 +6094,12 @@
    "spy_change": -1.91,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": -6.76,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -5.75,
     "5": null,
     "20": null
    }
@@ -6122,12 +6122,12 @@
    "spy_change": -1.91,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -5.1,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -4.09,
     "5": null,
     "20": null
    }
@@ -6148,6 +6148,286 @@
    "pct_from_ath": -59.61,
    "close_strength": 0.78,
    "spy_change": -1.91,
+   "quality": "C",
+   "returns": {
+    "1": 6.3,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": 7.31,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "symbol": "SLS",
+   "name": "SELLAS Life Sciences Group, Inc.",
+   "rank": 1,
+   "score": 71.0,
+   "price": 19.15,
+   "change_pct": 156.36,
+   "rvol": 17.13,
+   "catalyst": "fda",
+   "catalyst_label": "Biotech / FDA / ensayo",
+   "appearance": 1,
+   "ath_status": null,
+   "pct_from_ath": -100.0,
+   "close_strength": 0.3,
+   "spy_change": -1.01,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "symbol": "LUXE",
+   "name": "LuxExperience B.V.",
+   "rank": 2,
+   "score": 57.7,
+   "price": 11.95,
+   "change_pct": 11.16,
+   "rvol": 3.92,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -67.03,
+   "close_strength": 0.98,
+   "spy_change": -1.01,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "symbol": "ENR",
+   "name": "Energizer Holdings, Inc.",
+   "rank": 3,
+   "score": 55.7,
+   "price": 27.4,
+   "change_pct": 12.57,
+   "rvol": 3.5,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -58.21,
+   "close_strength": 0.89,
+   "spy_change": -1.01,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "symbol": "BILL",
+   "name": "BILL Holdings, Inc.",
+   "rank": 4,
+   "score": 51.6,
+   "price": 64.88,
+   "change_pct": 12.58,
+   "rvol": 5.82,
+   "catalyst": "none",
+   "catalyst_label": "Sin noticia clara",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -81.38,
+   "close_strength": 0.95,
+   "spy_change": -1.01,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "symbol": "MNSO",
+   "name": "MINISO Group Holding Limited",
+   "rank": 5,
+   "score": 47.1,
+   "price": 12.18,
+   "change_pct": 8.36,
+   "rvol": 2.5,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -65.41,
+   "close_strength": 0.97,
+   "spy_change": -1.01,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "symbol": "ACM",
+   "name": "AECOM",
+   "rank": 6,
+   "score": 46.5,
+   "price": 80.53,
+   "change_pct": 11.08,
+   "rvol": 2.47,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -40.58,
+   "close_strength": 0.43,
+   "spy_change": -1.01,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "symbol": "SA",
+   "name": "Seabridge Gold Inc.",
+   "rank": 7,
+   "score": 41.6,
+   "price": 26.28,
+   "change_pct": 7.27,
+   "rvol": 3.07,
+   "catalyst": "analyst",
+   "catalyst_label": "Mejora de analista",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -34.4,
+   "close_strength": 0.95,
+   "spy_change": -1.01,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "symbol": "TME",
+   "name": "Tencent Music Entertainment Group",
+   "rank": 8,
+   "score": 41.1,
+   "price": 9.47,
+   "change_pct": 6.64,
+   "rvol": 1.8,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -70.63,
+   "close_strength": 0.71,
+   "spy_change": -1.01,
+   "quality": "A",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "symbol": "RYTM",
+   "name": "Rhythm Pharmaceuticals, Inc.",
+   "rank": 9,
+   "score": 37.5,
+   "price": 116.61,
+   "change_pct": 8.49,
+   "rvol": 2.52,
+   "catalyst": "fda",
+   "catalyst_label": "Biotech / FDA / ensayo",
+   "appearance": 3,
+   "ath_status": "near",
+   "pct_from_ath": -4.57,
+   "close_strength": 0.87,
+   "spy_change": -1.01,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "symbol": "SNAP",
+   "name": "Snap Inc.",
+   "rank": 10,
+   "score": 22.9,
+   "price": 5.5,
+   "change_pct": 8.06,
+   "rvol": 1.97,
+   "catalyst": "none",
+   "catalyst_label": "Sin noticia clara",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -93.4,
+   "close_strength": 0.98,
+   "spy_change": -1.01,
    "quality": "C",
    "returns": {
     "1": null,
