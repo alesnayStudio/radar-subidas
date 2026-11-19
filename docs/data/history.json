@@ -26,7 +26,8 @@
    "pct_from_ath": -91.86,
    "close_strength": 0.97,
    "spy_change": 0.28,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 66
   },
   {
    "date": "2026-10-15",
@@ -54,7 +55,8 @@
    "pct_from_ath": -88.61,
    "close_strength": 0.53,
    "spy_change": 0.28,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 66
   },
   {
    "date": "2026-10-15",
@@ -82,7 +84,8 @@
    "pct_from_ath": -6.61,
    "close_strength": 0.89,
    "spy_change": 0.28,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 66
   },
   {
    "date": "2026-10-15",
@@ -110,7 +113,8 @@
    "pct_from_ath": -57.74,
    "close_strength": 0.84,
    "spy_change": 0.28,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 66
   },
   {
    "date": "2026-10-15",
@@ -138,7 +142,8 @@
    "pct_from_ath": -84.88,
    "close_strength": 0.96,
    "spy_change": 0.28,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 66
   },
   {
    "date": "2026-10-15",
@@ -166,7 +171,8 @@
    "pct_from_ath": -26.32,
    "close_strength": 0.95,
    "spy_change": 0.28,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 66
   },
   {
    "date": "2026-10-15",
@@ -194,7 +200,8 @@
    "pct_from_ath": -71.31,
    "close_strength": 0.92,
    "spy_change": 0.28,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 66
   },
   {
    "date": "2026-10-15",
@@ -222,7 +229,8 @@
    "pct_from_ath": -52.54,
    "close_strength": 0.99,
    "spy_change": 0.28,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 66
   },
   {
    "date": "2026-10-15",
@@ -250,7 +258,8 @@
    "pct_from_ath": -38.9,
    "close_strength": 0.94,
    "spy_change": 0.28,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 66
   },
   {
    "date": "2026-10-15",
@@ -278,7 +287,8 @@
    "pct_from_ath": -12.3,
    "close_strength": 0.92,
    "spy_change": 0.28,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 66
   },
   {
    "date": "2026-10-16",
@@ -306,7 +316,8 @@
    "pct_from_ath": -29.92,
    "close_strength": 0.98,
    "spy_change": -1.11,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 30
   },
   {
    "date": "2026-10-16",
@@ -334,7 +345,8 @@
    "pct_from_ath": -72.39,
    "close_strength": 0.64,
    "spy_change": -1.11,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 30
   },
   {
    "date": "2026-10-16",
@@ -362,7 +374,8 @@
    "pct_from_ath": -37.0,
    "close_strength": 0.8,
    "spy_change": -1.11,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 30
   },
   {
    "date": "2026-10-19",
@@ -390,7 +403,8 @@
    "pct_from_ath": -86.21,
    "close_strength": 0.87,
    "spy_change": 0.42,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 40
   },
   {
    "date": "2026-10-19",
@@ -418,7 +432,8 @@
    "pct_from_ath": -88.44,
    "close_strength": 0.71,
    "spy_change": 0.42,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 40
   },
   {
    "date": "2026-10-19",
@@ -446,7 +461,8 @@
    "pct_from_ath": -44.06,
    "close_strength": 0.4,
    "spy_change": 0.42,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 40
   },
   {
    "date": "2026-10-19",
@@ -474,7 +490,8 @@
    "pct_from_ath": -40.34,
    "close_strength": 0.73,
    "spy_change": 0.42,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 40
   },
   {
    "date": "2026-10-19",
@@ -502,7 +519,8 @@
    "pct_from_ath": -21.99,
    "close_strength": 0.72,
    "spy_change": 0.42,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 40
   },
   {
    "date": "2026-10-19",
@@ -530,7 +548,8 @@
    "pct_from_ath": -10.56,
    "close_strength": 0.84,
    "spy_change": 0.42,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 40
   },
   {
    "date": "2026-10-19",
@@ -558,7 +577,8 @@
    "pct_from_ath": -74.86,
    "close_strength": 0.96,
    "spy_change": 0.42,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 40
   },
   {
    "date": "2026-10-19",
@@ -586,7 +606,8 @@
    "pct_from_ath": -71.54,
    "close_strength": 0.92,
    "spy_change": 0.42,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 40
   },
   {
    "date": "2026-10-19",
@@ -614,7 +635,8 @@
    "pct_from_ath": -58.56,
    "close_strength": 0.89,
    "spy_change": 0.42,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 40
   },
   {
    "date": "2026-10-19",
@@ -642,7 +664,8 @@
    "pct_from_ath": -62.05,
    "close_strength": 0.27,
    "spy_change": 0.42,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 40
   },
   {
    "date": "2026-10-20",
@@ -670,7 +693,8 @@
    "pct_from_ath": -53.87,
    "close_strength": 0.89,
    "spy_change": 0.34,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 51
   },
   {
    "date": "2026-10-20",
@@ -698,7 +722,8 @@
    "pct_from_ath": -13.68,
    "close_strength": 0.97,
    "spy_change": 0.34,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 51
   },
   {
    "date": "2026-10-20",
@@ -726,7 +751,8 @@
    "pct_from_ath": -27.25,
    "close_strength": 0.68,
    "spy_change": 0.34,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 51
   },
   {
    "date": "2026-10-20",
@@ -754,7 +780,8 @@
    "pct_from_ath": -42.98,
    "close_strength": 0.89,
    "spy_change": 0.34,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 51
   },
   {
    "date": "2026-10-20",
@@ -782,7 +809,8 @@
    "pct_from_ath": -67.84,
    "close_strength": 0.88,
    "spy_change": 0.34,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 51
   },
   {
    "date": "2026-10-20",
@@ -810,7 +838,8 @@
    "pct_from_ath": -51.63,
    "close_strength": 0.75,
    "spy_change": 0.34,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 51
   },
   {
    "date": "2026-10-20",
@@ -838,7 +867,8 @@
    "pct_from_ath": -46.65,
    "close_strength": 0.86,
    "spy_change": 0.34,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 51
   },
   {
    "date": "2026-10-20",
@@ -866,7 +896,8 @@
    "pct_from_ath": -54.65,
    "close_strength": 0.71,
    "spy_change": 0.34,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 51
   },
   {
    "date": "2026-10-20",
@@ -894,7 +925,8 @@
    "pct_from_ath": -39.52,
    "close_strength": 0.95,
    "spy_change": 0.34,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 51
   },
   {
    "date": "2026-10-20",
@@ -922,7 +954,8 @@
    "pct_from_ath": -60.42,
    "close_strength": 0.76,
    "spy_change": 0.34,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 51
   },
   {
    "date": "2026-10-21",
@@ -950,7 +983,8 @@
    "pct_from_ath": -2.27,
    "close_strength": 0.92,
    "spy_change": 0.53,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 60
   },
   {
    "date": "2026-10-21",
@@ -978,7 +1012,8 @@
    "pct_from_ath": -92.28,
    "close_strength": 0.96,
    "spy_change": 0.53,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 60
   },
   {
    "date": "2026-10-21",
@@ -1006,7 +1041,8 @@
    "pct_from_ath": -29.75,
    "close_strength": 0.85,
    "spy_change": 0.53,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 60
   },
   {
    "date": "2026-10-21",
@@ -1034,7 +1070,8 @@
    "pct_from_ath": -29.4,
    "close_strength": 0.26,
    "spy_change": 0.53,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 60
   },
   {
    "date": "2026-10-21",
@@ -1062,7 +1099,8 @@
    "pct_from_ath": -36.67,
    "close_strength": 0.76,
    "spy_change": 0.53,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 60
   },
   {
    "date": "2026-10-21",
@@ -1090,7 +1128,8 @@
    "pct_from_ath": -71.06,
    "close_strength": 0.19,
    "spy_change": 0.53,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 60
   },
   {
    "date": "2026-10-21",
@@ -1118,7 +1157,8 @@
    "pct_from_ath": -54.36,
    "close_strength": 0.94,
    "spy_change": 0.53,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 60
   },
   {
    "date": "2026-10-21",
@@ -1146,7 +1186,8 @@
    "pct_from_ath": -16.25,
    "close_strength": 0.9,
    "spy_change": 0.53,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 60
   },
   {
    "date": "2026-10-21",
@@ -1174,7 +1215,8 @@
    "pct_from_ath": -68.16,
    "close_strength": 0.85,
    "spy_change": 0.53,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 60
   },
   {
    "date": "2026-10-21",
@@ -1202,7 +1244,8 @@
    "pct_from_ath": -81.26,
    "close_strength": 0.88,
    "spy_change": 0.53,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 60
   },
   {
    "date": "2026-10-22",
@@ -1230,7 +1273,8 @@
    "pct_from_ath": -52.77,
    "close_strength": 0.97,
    "spy_change": -1.18,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 52
   },
   {
    "date": "2026-10-22",
@@ -1258,7 +1302,8 @@
    "pct_from_ath": -76.39,
    "close_strength": 0.11,
    "spy_change": -1.18,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 52
   },
   {
    "date": "2026-10-22",
@@ -1286,7 +1331,8 @@
    "pct_from_ath": -8.32,
    "close_strength": 0.87,
    "spy_change": -1.18,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 52
   },
   {
    "date": "2026-10-22",
@@ -1314,7 +1360,8 @@
    "pct_from_ath": -26.7,
    "close_strength": 0.89,
    "spy_change": -1.18,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 52
   },
   {
    "date": "2026-10-22",
@@ -1342,7 +1389,8 @@
    "pct_from_ath": -25.65,
    "close_strength": 0.8,
    "spy_change": -1.18,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 52
   },
   {
    "date": "2026-10-22",
@@ -1370,7 +1418,8 @@
    "pct_from_ath": -3.6,
    "close_strength": 0.86,
    "spy_change": -1.18,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 52
   },
   {
    "date": "2026-10-22",
@@ -1398,7 +1447,8 @@
    "pct_from_ath": -66.13,
    "close_strength": 0.99,
    "spy_change": -1.18,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 52
   },
   {
    "date": "2026-10-22",
@@ -1426,7 +1476,8 @@
    "pct_from_ath": -41.57,
    "close_strength": 0.96,
    "spy_change": -1.18,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 52
   },
   {
    "date": "2026-10-22",
@@ -1454,7 +1505,8 @@
    "pct_from_ath": -40.91,
    "close_strength": 0.99,
    "spy_change": -1.18,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 52
   },
   {
    "date": "2026-10-22",
@@ -1482,7 +1534,8 @@
    "pct_from_ath": -6.59,
    "close_strength": 0.97,
    "spy_change": -1.18,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 52
   },
   {
    "date": "2026-10-23",
@@ -1510,7 +1563,8 @@
    "pct_from_ath": -63.53,
    "close_strength": 0.79,
    "spy_change": -0.52,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 44
   },
   {
    "date": "2026-10-23",
@@ -1538,7 +1592,8 @@
    "pct_from_ath": -1.99,
    "close_strength": 0.79,
    "spy_change": -0.52,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 44
   },
   {
    "date": "2026-10-23",
@@ -1566,7 +1621,8 @@
    "pct_from_ath": -57.56,
    "close_strength": 0.88,
    "spy_change": -0.52,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 44
   },
   {
    "date": "2026-10-23",
@@ -1594,7 +1650,8 @@
    "pct_from_ath": -54.29,
    "close_strength": 0.99,
    "spy_change": -0.52,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 44
   },
   {
    "date": "2026-10-23",
@@ -1622,7 +1679,8 @@
    "pct_from_ath": -71.11,
    "close_strength": 0.9,
    "spy_change": -0.52,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 44
   },
   {
    "date": "2026-10-23",
@@ -1650,7 +1708,8 @@
    "pct_from_ath": -64.21,
    "close_strength": 0.93,
    "spy_change": -0.52,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 44
   },
   {
    "date": "2026-10-23",
@@ -1678,7 +1737,8 @@
    "pct_from_ath": -49.92,
    "close_strength": 0.9,
    "spy_change": -0.52,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 44
   },
   {
    "date": "2026-10-23",
@@ -1706,7 +1766,8 @@
    "pct_from_ath": -55.19,
    "close_strength": 0.98,
    "spy_change": -0.52,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 44
   },
   {
    "date": "2026-10-23",
@@ -1734,7 +1795,8 @@
    "pct_from_ath": -55.32,
    "close_strength": 0.9,
    "spy_change": -0.52,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 44
   },
   {
    "date": "2026-10-23",
@@ -1762,7 +1824,8 @@
    "pct_from_ath": -13.81,
    "close_strength": 0.97,
    "spy_change": -0.52,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 44
   },
   {
    "date": "2026-10-26",
@@ -1790,7 +1853,8 @@
    },
    "close_strength": 0.88,
    "spy_change": 0.71,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 47
   },
   {
    "date": "2026-10-26",
@@ -1818,7 +1882,8 @@
    },
    "close_strength": 0.98,
    "spy_change": 0.71,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 47
   },
   {
    "date": "2026-10-26",
@@ -1846,7 +1911,8 @@
    },
    "close_strength": 0.07,
    "spy_change": 0.71,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 47
   },
   {
    "date": "2026-10-26",
@@ -1874,7 +1940,8 @@
    },
    "close_strength": 0.88,
    "spy_change": 0.71,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 47
   },
   {
    "date": "2026-10-26",
@@ -1902,7 +1969,8 @@
    },
    "close_strength": 0.77,
    "spy_change": 0.71,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 47
   },
   {
    "date": "2026-10-26",
@@ -1930,7 +1998,8 @@
    },
    "close_strength": 0.74,
    "spy_change": 0.71,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 47
   },
   {
    "date": "2026-10-26",
@@ -1958,7 +2027,8 @@
    },
    "close_strength": 0.48,
    "spy_change": 0.71,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 47
   },
   {
    "date": "2026-10-26",
@@ -1986,7 +2056,8 @@
    },
    "close_strength": 0.94,
    "spy_change": 0.71,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 47
   },
   {
    "date": "2026-10-26",
@@ -2014,7 +2085,8 @@
    },
    "close_strength": 0.99,
    "spy_change": 0.71,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 47
   },
   {
    "date": "2026-10-26",
@@ -2042,7 +2114,8 @@
    },
    "close_strength": 0.76,
    "spy_change": 0.71,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 47
   },
   {
    "date": "2026-10-27",
@@ -2070,7 +2143,8 @@
    },
    "close_strength": 0.91,
    "spy_change": 0.56,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 59
   },
   {
    "date": "2026-10-27",
@@ -2098,7 +2172,8 @@
    },
    "close_strength": 0.82,
    "spy_change": 0.56,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 59
   },
   {
    "date": "2026-10-27",
@@ -2126,7 +2201,8 @@
    },
    "close_strength": 1.0,
    "spy_change": 0.56,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 59
   },
   {
    "date": "2026-10-27",
@@ -2154,7 +2230,8 @@
    },
    "close_strength": 0.67,
    "spy_change": 0.56,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 59
   },
   {
    "date": "2026-10-27",
@@ -2182,7 +2259,8 @@
    },
    "close_strength": 0.7,
    "spy_change": 0.56,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 59
   },
   {
    "date": "2026-10-27",
@@ -2210,7 +2288,8 @@
    },
    "close_strength": 0.92,
    "spy_change": 0.56,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 59
   },
   {
    "date": "2026-10-27",
@@ -2238,7 +2317,8 @@
    },
    "close_strength": 0.92,
    "spy_change": 0.56,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 59
   },
   {
    "date": "2026-10-27",
@@ -2266,7 +2346,8 @@
    },
    "close_strength": 0.91,
    "spy_change": 0.56,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 59
   },
   {
    "date": "2026-10-27",
@@ -2294,7 +2375,8 @@
    },
    "close_strength": 0.95,
    "spy_change": 0.56,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 59
   },
   {
    "date": "2026-10-27",
@@ -2322,7 +2404,8 @@
    },
    "close_strength": 0.56,
    "spy_change": 0.56,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 59
   },
   {
    "date": "2026-10-28",
@@ -2350,7 +2433,8 @@
    },
    "close_strength": 0.89,
    "spy_change": 0.34,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 57
   },
   {
    "date": "2026-10-28",
@@ -2378,7 +2462,8 @@
    },
    "close_strength": 0.98,
    "spy_change": 0.34,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 57
   },
   {
    "date": "2026-10-28",
@@ -2406,7 +2491,8 @@
    },
    "close_strength": 0.83,
    "spy_change": 0.34,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 57
   },
   {
    "date": "2026-10-28",
@@ -2434,7 +2520,8 @@
    },
    "close_strength": 0.96,
    "spy_change": 0.34,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 57
   },
   {
    "date": "2026-10-28",
@@ -2462,7 +2549,8 @@
    },
    "close_strength": 0.86,
    "spy_change": 0.34,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 57
   },
   {
    "date": "2026-10-28",
@@ -2490,7 +2578,8 @@
    },
    "close_strength": 0.93,
    "spy_change": 0.34,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 57
   },
   {
    "date": "2026-10-28",
@@ -2518,7 +2607,8 @@
    },
    "close_strength": 0.71,
    "spy_change": 0.34,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 57
   },
   {
    "date": "2026-10-28",
@@ -2546,7 +2636,8 @@
    },
    "close_strength": 0.86,
    "spy_change": 0.34,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 57
   },
   {
    "date": "2026-10-28",
@@ -2574,7 +2665,8 @@
    },
    "close_strength": 0.63,
    "spy_change": 0.34,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 57
   },
   {
    "date": "2026-10-28",
@@ -2602,7 +2694,8 @@
    },
    "close_strength": 0.84,
    "spy_change": 0.34,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 57
   },
   {
    "date": "2026-10-29",
@@ -2630,7 +2723,8 @@
    },
    "close_strength": 0.97,
    "spy_change": -0.38,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 61
   },
   {
    "date": "2026-10-29",
@@ -2658,7 +2752,8 @@
    },
    "close_strength": 0.91,
    "spy_change": -0.38,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 61
   },
   {
    "date": "2026-10-29",
@@ -2686,7 +2781,8 @@
    },
    "close_strength": 0.88,
    "spy_change": -0.38,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 61
   },
   {
    "date": "2026-10-29",
@@ -2714,7 +2810,8 @@
    },
    "close_strength": 0.76,
    "spy_change": -0.38,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 61
   },
   {
    "date": "2026-10-29",
@@ -2742,7 +2839,8 @@
    },
    "close_strength": 0.84,
    "spy_change": -0.38,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 61
   },
   {
    "date": "2026-10-29",
@@ -2770,7 +2868,8 @@
    },
    "close_strength": 0.73,
    "spy_change": -0.38,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 61
   },
   {
    "date": "2026-10-29",
@@ -2798,7 +2897,8 @@
    },
    "close_strength": 0.77,
    "spy_change": -0.38,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 61
   },
   {
    "date": "2026-10-29",
@@ -2826,7 +2926,8 @@
    },
    "close_strength": 0.14,
    "spy_change": -0.38,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 61
   },
   {
    "date": "2026-10-29",
@@ -2854,7 +2955,8 @@
    },
    "close_strength": 0.83,
    "spy_change": -0.38,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 61
   },
   {
    "date": "2026-10-29",
@@ -2882,7 +2984,8 @@
    },
    "close_strength": 0.94,
    "spy_change": -0.38,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 61
   },
   {
    "date": "2026-10-30",
@@ -2910,7 +3013,8 @@
    },
    "close_strength": 0.99,
    "spy_change": -1.77,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 46
   },
   {
    "date": "2026-10-30",
@@ -2938,7 +3042,8 @@
    },
    "close_strength": 0.92,
    "spy_change": -1.77,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 46
   },
   {
    "date": "2026-10-30",
@@ -2966,7 +3071,8 @@
    },
    "close_strength": 0.75,
    "spy_change": -1.77,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 46
   },
   {
    "date": "2026-10-30",
@@ -2994,7 +3100,8 @@
    },
    "close_strength": 0.64,
    "spy_change": -1.77,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 46
   },
   {
    "date": "2026-10-30",
@@ -3022,7 +3129,8 @@
    },
    "close_strength": 0.82,
    "spy_change": -1.77,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 46
   },
   {
    "date": "2026-10-30",
@@ -3050,7 +3158,8 @@
    },
    "close_strength": 1.0,
    "spy_change": -1.77,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 46
   },
   {
    "date": "2026-10-30",
@@ -3078,7 +3187,8 @@
    },
    "close_strength": 0.7,
    "spy_change": -1.77,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 46
   },
   {
    "date": "2026-10-30",
@@ -3106,7 +3216,8 @@
    },
    "close_strength": 0.85,
    "spy_change": -1.77,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 46
   },
   {
    "date": "2026-10-30",
@@ -3134,7 +3245,8 @@
    },
    "close_strength": 0.73,
    "spy_change": -1.77,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 46
   },
   {
    "date": "2026-10-30",
@@ -3162,7 +3274,8 @@
    },
    "close_strength": 0.94,
    "spy_change": -1.77,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 46
   },
   {
    "date": "2026-11-02",
@@ -3190,7 +3303,8 @@
    },
    "close_strength": 0.97,
    "spy_change": -0.48,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 46
   },
   {
    "date": "2026-11-02",
@@ -3218,7 +3332,8 @@
    },
    "close_strength": 0.69,
    "spy_change": -0.48,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 46
   },
   {
    "date": "2026-11-02",
@@ -3246,7 +3361,8 @@
    },
    "close_strength": 0.81,
    "spy_change": -0.48,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 46
   },
   {
    "date": "2026-11-02",
@@ -3274,7 +3390,8 @@
    },
    "close_strength": 0.91,
    "spy_change": -0.48,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 46
   },
   {
    "date": "2026-11-02",
@@ -3302,7 +3419,8 @@
    },
    "close_strength": 0.62,
    "spy_change": -0.48,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 46
   },
   {
    "date": "2026-11-02",
@@ -3330,7 +3448,8 @@
    },
    "close_strength": 0.94,
    "spy_change": -0.48,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 46
   },
   {
    "date": "2026-11-02",
@@ -3358,7 +3477,8 @@
    },
    "close_strength": 1.0,
    "spy_change": -0.48,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 46
   },
   {
    "date": "2026-11-02",
@@ -3386,7 +3506,8 @@
    },
    "close_strength": 0.52,
    "spy_change": -0.48,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 46
   },
   {
    "date": "2026-11-02",
@@ -3414,7 +3535,8 @@
    },
    "close_strength": 1.0,
    "spy_change": -0.48,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 46
   },
   {
    "date": "2026-11-02",
@@ -3442,7 +3564,8 @@
    },
    "close_strength": 0.87,
    "spy_change": -0.48,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 46
   },
   {
    "date": "2026-11-03",
@@ -3470,7 +3593,8 @@
    },
    "close_strength": 0.53,
    "spy_change": 0.3,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 50
   },
   {
    "date": "2026-11-03",
@@ -3498,7 +3622,8 @@
    },
    "close_strength": 0.97,
    "spy_change": 0.3,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 50
   },
   {
    "date": "2026-11-03",
@@ -3526,7 +3651,8 @@
    },
    "close_strength": 0.91,
    "spy_change": 0.3,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 50
   },
   {
    "date": "2026-11-03",
@@ -3554,7 +3680,8 @@
    },
    "close_strength": 0.93,
    "spy_change": 0.3,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 50
   },
   {
    "date": "2026-11-03",
@@ -3582,7 +3709,8 @@
    },
    "close_strength": 0.82,
    "spy_change": 0.3,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 50
   },
   {
    "date": "2026-11-03",
@@ -3610,7 +3738,8 @@
    },
    "close_strength": 0.44,
    "spy_change": 0.3,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 50
   },
   {
    "date": "2026-11-03",
@@ -3638,7 +3767,8 @@
    },
    "close_strength": 0.6,
    "spy_change": 0.3,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 50
   },
   {
    "date": "2026-11-03",
@@ -3666,7 +3796,8 @@
    },
    "close_strength": 0.98,
    "spy_change": 0.3,
-   "quality": "C"
+   "quality": "C",
+   "thermo": 50
   },
   {
    "date": "2026-11-03",
@@ -3694,7 +3825,8 @@
    },
    "close_strength": 0.97,
    "spy_change": 0.3,
-   "quality": "A"
+   "quality": "A",
+   "thermo": 50
   },
   {
    "date": "2026-11-03",
@@ -3722,7 +3854,8 @@
    },
    "close_strength": 0.8,
    "spy_change": 0.3,
-   "quality": "B"
+   "quality": "B",
+   "thermo": 50
   },
   {
    "date": "2026-11-04",
@@ -3750,7 +3883,8 @@
     "1": -0.7,
     "5": 2.25,
     "20": null
-   }
+   },
+   "thermo": 68
   },
   {
    "date": "2026-11-04",
@@ -3778,7 +3912,8 @@
     "1": 8.58,
     "5": 0.91,
     "20": null
-   }
+   },
+   "thermo": 68
   },
   {
    "date": "2026-11-04",
@@ -3806,7 +3941,8 @@
     "1": 1.77,
     "5": 2.68,
     "20": null
-   }
+   },
+   "thermo": 68
   },
   {
    "date": "2026-11-04",
@@ -3834,7 +3970,8 @@
     "1": -2.76,
     "5": -1.88,
     "20": null
-   }
+   },
+   "thermo": 68
   },
   {
    "date": "2026-11-04",
@@ -3862,7 +3999,8 @@
     "1": 2.67,
     "5": 8.46,
     "20": null
-   }
+   },
+   "thermo": 68
   },
   {
    "date": "2026-11-04",
@@ -3890,7 +4028,8 @@
     "1": 1.17,
     "5": -2.5,
     "20": null
-   }
+   },
+   "thermo": 68
   },
   {
    "date": "2026-11-04",
@@ -3918,7 +4057,8 @@
     "1": 0.31,
     "5": -1.27,
     "20": null
-   }
+   },
+   "thermo": 68
   },
   {
    "date": "2026-11-04",
@@ -3946,7 +4086,8 @@
     "1": 0.49,
     "5": 2.63,
     "20": null
-   }
+   },
+   "thermo": 68
   },
   {
    "date": "2026-11-04",
@@ -3974,7 +4115,8 @@
     "1": 2.95,
     "5": 5.4,
     "20": null
-   }
+   },
+   "thermo": 68
   },
   {
    "date": "2026-11-04",
@@ -4002,7 +4144,8 @@
     "1": 4.41,
     "5": 3.45,
     "20": null
-   }
+   },
+   "thermo": 68
   },
   {
    "date": "2026-11-05",
@@ -4030,7 +4173,8 @@
     "1": 9.55,
     "5": 7.26,
     "20": null
-   }
+   },
+   "thermo": 26
   },
   {
    "date": "2026-11-05",
@@ -4058,7 +4202,8 @@
     "1": 8.5,
     "5": 7.9,
     "20": null
-   }
+   },
+   "thermo": 26
   },
   {
    "date": "2026-11-05",
@@ -4086,7 +4231,8 @@
     "1": -3.94,
     "5": -3.06,
     "20": null
-   }
+   },
+   "thermo": 26
   },
   {
    "date": "2026-11-05",
@@ -4114,7 +4260,8 @@
     "1": 15.9,
     "5": 24.0,
     "20": null
-   }
+   },
+   "thermo": 26
   },
   {
    "date": "2026-11-05",
@@ -4142,7 +4289,8 @@
     "1": 5.2,
     "5": -0.46,
     "20": null
-   }
+   },
+   "thermo": 26
   },
   {
    "date": "2026-11-05",
@@ -4170,7 +4318,8 @@
     "1": -0.78,
     "5": 3.32,
     "20": null
-   }
+   },
+   "thermo": 26
   },
   {
    "date": "2026-11-05",
@@ -4198,7 +4347,8 @@
     "1": 5.17,
     "5": 7.6,
     "20": null
-   }
+   },
+   "thermo": 26
   },
   {
    "date": "2026-11-05",
@@ -4226,7 +4376,8 @@
     "1": -2.61,
     "5": -0.8,
     "20": null
-   }
+   },
+   "thermo": 26
   },
   {
    "date": "2026-11-05",
@@ -4254,7 +4405,8 @@
     "1": -4.17,
     "5": -4.42,
     "20": null
-   }
+   },
+   "thermo": 26
   },
   {
    "date": "2026-11-05",
@@ -4282,7 +4434,8 @@
     "1": -9.84,
     "5": -16.22,
     "20": null
-   }
+   },
+   "thermo": 26
   },
   {
    "date": "2026-11-06",
@@ -4310,7 +4463,8 @@
     "1": 3.92,
     "5": 0.97,
     "20": null
-   }
+   },
+   "thermo": 39
   },
   {
    "date": "2026-11-06",
@@ -4338,7 +4492,8 @@
     "1": 4.76,
     "5": 9.91,
     "20": null
-   }
+   },
+   "thermo": 39
   },
   {
    "date": "2026-11-06",
@@ -4366,7 +4521,8 @@
     "1": 14.73,
     "5": 18.85,
     "20": null
-   }
+   },
+   "thermo": 39
   },
   {
    "date": "2026-11-06",
@@ -4394,7 +4550,8 @@
     "1": -1.73,
     "5": -13.44,
     "20": null
-   }
+   },
+   "thermo": 39
   },
   {
    "date": "2026-11-06",
@@ -4422,7 +4579,8 @@
     "1": 1.5,
     "5": 0.3,
     "20": null
-   }
+   },
+   "thermo": 39
   },
   {
    "date": "2026-11-06",
@@ -4450,7 +4608,8 @@
     "1": 4.2,
     "5": -8.37,
     "20": null
-   }
+   },
+   "thermo": 39
   },
   {
    "date": "2026-11-06",
@@ -4478,7 +4637,8 @@
     "1": -0.89,
     "5": -0.15,
     "20": null
-   }
+   },
+   "thermo": 39
   },
   {
    "date": "2026-11-06",
@@ -4506,7 +4666,8 @@
     "1": -4.01,
     "5": -4.68,
     "20": null
-   }
+   },
+   "thermo": 39
   },
   {
    "date": "2026-11-06",
@@ -4534,7 +4695,8 @@
     "1": -2.37,
     "5": -4.06,
     "20": null
-   }
+   },
+   "thermo": 39
   },
   {
    "date": "2026-11-06",
@@ -4562,7 +4724,8 @@
     "1": -0.1,
     "5": -5.56,
     "20": null
-   }
+   },
+   "thermo": 39
   },
   {
    "date": "2026-11-09",
@@ -4590,7 +4753,8 @@
     "1": 0.37,
     "5": -1.82,
     "20": null
-   }
+   },
+   "thermo": 61
   },
   {
    "date": "2026-11-09",
@@ -4618,7 +4782,8 @@
     "1": -0.28,
     "5": 1.3,
     "20": null
-   }
+   },
+   "thermo": 61
   },
   {
    "date": "2026-11-09",
@@ -4646,7 +4811,8 @@
     "1": -0.66,
     "5": -11.48,
     "20": null
-   }
+   },
+   "thermo": 61
   },
   {
    "date": "2026-11-09",
@@ -4674,7 +4840,8 @@
     "1": -2.29,
     "5": -6.28,
     "20": null
-   }
+   },
+   "thermo": 61
   },
   {
    "date": "2026-11-09",
@@ -4702,7 +4869,8 @@
     "1": 1.76,
     "5": -5.13,
     "20": null
-   }
+   },
+   "thermo": 61
   },
   {
    "date": "2026-11-09",
@@ -4730,7 +4898,8 @@
     "1": 0.18,
     "5": -0.9,
     "20": null
-   }
+   },
+   "thermo": 61
   },
   {
    "date": "2026-11-09",
@@ -4758,7 +4927,8 @@
     "1": 1.96,
     "5": -3.63,
     "20": null
-   }
+   },
+   "thermo": 61
   },
   {
    "date": "2026-11-09",
@@ -4786,7 +4956,8 @@
     "1": -2.6,
     "5": -7.39,
     "20": null
-   }
+   },
+   "thermo": 61
   },
   {
    "date": "2026-11-09",
@@ -4814,7 +4985,8 @@
     "1": 1.43,
     "5": -3.07,
     "20": null
-   }
+   },
+   "thermo": 61
   },
   {
    "date": "2026-11-09",
@@ -4842,7 +5014,8 @@
     "1": -2.65,
     "5": 2.47,
     "20": null
-   }
+   },
+   "thermo": 61
   },
   {
    "date": "2026-11-10",
@@ -4870,7 +5043,8 @@
     "1": 0.44,
     "5": 7.26,
     "20": null
-   }
+   },
+   "thermo": 46
   },
   {
    "date": "2026-11-10",
@@ -4898,7 +5072,8 @@
     "1": -4.06,
     "5": -6.63,
     "20": null
-   }
+   },
+   "thermo": 46
   },
   {
    "date": "2026-11-10",
@@ -4926,7 +5101,8 @@
     "1": 4.89,
     "5": -16.43,
     "20": null
-   }
+   },
+   "thermo": 46
   },
   {
    "date": "2026-11-10",
@@ -4954,7 +5130,8 @@
     "1": -5.34,
     "5": -15.3,
     "20": null
-   }
+   },
+   "thermo": 46
   },
   {
    "date": "2026-11-10",
@@ -4982,7 +5159,8 @@
     "1": -4.58,
     "5": -0.44,
     "20": null
-   }
+   },
+   "thermo": 46
   },
   {
    "date": "2026-11-10",
@@ -5010,7 +5188,8 @@
     "1": -1.06,
     "5": 3.29,
     "20": null
-   }
+   },
+   "thermo": 46
   },
   {
    "date": "2026-11-10",
@@ -5038,7 +5217,8 @@
     "1": -1.4,
     "5": -75.03,
     "20": null
-   }
+   },
+   "thermo": 46
   },
   {
    "date": "2026-11-10",
@@ -5066,7 +5246,8 @@
     "1": 6.29,
     "5": -2.03,
     "20": null
-   }
+   },
+   "thermo": 46
   },
   {
    "date": "2026-11-10",
@@ -5094,7 +5275,8 @@
     "1": 3.04,
     "5": -10.2,
     "20": null
-   }
+   },
+   "thermo": 46
   },
   {
    "date": "2026-11-10",
@@ -5122,7 +5304,8 @@
     "1": -6.97,
     "5": -20.86,
     "20": null
-   }
+   },
+   "thermo": 46
   },
   {
    "date": "2026-11-11",
@@ -5150,7 +5333,8 @@
     "1": -6.51,
     "5": -17.39,
     "20": null
-   }
+   },
+   "thermo": 62
   },
   {
    "date": "2026-11-11",
@@ -5178,7 +5362,8 @@
     "1": -8.81,
     "5": -1.69,
     "20": null
-   }
+   },
+   "thermo": 62
   },
   {
    "date": "2026-11-11",
@@ -5206,7 +5391,8 @@
     "1": -6.35,
     "5": -0.19,
     "20": null
-   }
+   },
+   "thermo": 62
   },
   {
    "date": "2026-11-11",
@@ -5234,7 +5420,8 @@
     "1": -3.89,
     "5": -18.07,
     "20": null
-   }
+   },
+   "thermo": 62
   },
   {
    "date": "2026-11-11",
@@ -5262,7 +5449,8 @@
     "1": -4.63,
     "5": -2.92,
     "20": null
-   }
+   },
+   "thermo": 62
   },
   {
    "date": "2026-11-11",
@@ -5290,7 +5478,8 @@
     "1": -3.15,
     "5": -2.79,
     "20": null
-   }
+   },
+   "thermo": 62
   },
   {
    "date": "2026-11-11",
@@ -5318,7 +5507,8 @@
     "1": -4.54,
     "5": -19.25,
     "20": null
-   }
+   },
+   "thermo": 62
   },
   {
    "date": "2026-11-11",
@@ -5346,7 +5536,8 @@
     "1": -9.96,
     "5": 3.47,
     "20": null
-   }
+   },
+   "thermo": 62
   },
   {
    "date": "2026-11-11",
@@ -5374,7 +5565,8 @@
     "1": -3.84,
     "5": -14.56,
     "20": null
-   }
+   },
+   "thermo": 62
   },
   {
    "date": "2026-11-11",
@@ -5402,7 +5594,8 @@
     "1": -0.04,
     "5": 0.23,
     "20": null
-   }
+   },
+   "thermo": 62
   },
   {
    "date": "2026-11-12",
@@ -5430,7 +5623,8 @@
     "1": 1.01,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 55
   },
   {
    "date": "2026-11-12",
@@ -5458,7 +5652,8 @@
     "1": -2.94,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 55
   },
   {
    "date": "2026-11-12",
@@ -5486,7 +5681,8 @@
     "1": 0.16,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 55
   },
   {
    "date": "2026-11-12",
@@ -5514,7 +5710,8 @@
     "1": 0.13,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 55
   },
   {
    "date": "2026-11-12",
@@ -5542,7 +5739,8 @@
     "1": -1.39,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 55
   },
   {
    "date": "2026-11-12",
@@ -5570,7 +5768,8 @@
     "1": 6.73,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 55
   },
   {
    "date": "2026-11-12",
@@ -5598,7 +5797,8 @@
     "1": 1.01,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 55
   },
   {
    "date": "2026-11-12",
@@ -5626,7 +5826,8 @@
     "1": 2.7,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 55
   },
   {
    "date": "2026-11-12",
@@ -5654,7 +5855,8 @@
     "1": -2.72,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 55
   },
   {
    "date": "2026-11-12",
@@ -5682,7 +5884,8 @@
     "1": -4.4,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 55
   },
   {
    "date": "2026-11-13",
@@ -5710,7 +5913,8 @@
     "1": 1.99,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 53
   },
   {
    "date": "2026-11-13",
@@ -5738,7 +5942,8 @@
     "1": 3.84,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 53
   },
   {
    "date": "2026-11-13",
@@ -5766,7 +5971,8 @@
     "1": -5.81,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 53
   },
   {
    "date": "2026-11-13",
@@ -5794,7 +6000,8 @@
     "1": -5.2,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 53
   },
   {
    "date": "2026-11-13",
@@ -5822,7 +6029,8 @@
     "1": -1.86,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 53
   },
   {
    "date": "2026-11-13",
@@ -5850,7 +6058,8 @@
     "1": 0.03,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 53
   },
   {
    "date": "2026-11-13",
@@ -5878,7 +6087,8 @@
     "1": -2.17,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 53
   },
   {
    "date": "2026-11-13",
@@ -5906,7 +6116,8 @@
     "1": 3.52,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 53
   },
   {
    "date": "2026-11-13",
@@ -5934,7 +6145,8 @@
     "1": 15.86,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 53
   },
   {
    "date": "2026-11-13",
@@ -5962,7 +6174,8 @@
     "1": -2.7,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 53
   },
   {
    "date": "2026-11-16",
@@ -5990,7 +6203,8 @@
     "1": -5.88,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 24
   },
   {
    "date": "2026-11-16",
@@ -6018,7 +6232,8 @@
     "1": -2.23,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 24
   },
   {
    "date": "2026-11-16",
@@ -6046,7 +6261,8 @@
     "1": -1.23,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 24
   },
   {
    "date": "2026-11-16",
@@ -6074,7 +6290,8 @@
     "1": 0.54,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 24
   },
   {
    "date": "2026-11-16",
@@ -6102,7 +6319,8 @@
     "1": -5.75,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 24
   },
   {
    "date": "2026-11-16",
@@ -6130,7 +6348,8 @@
     "1": -4.09,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 24
   },
   {
    "date": "2026-11-16",
@@ -6158,7 +6377,8 @@
     "1": 7.31,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 24
   },
   {
    "date": "2026-11-17",
@@ -6186,7 +6406,8 @@
     "1": -5.96,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 18
   },
   {
    "date": "2026-11-17",
@@ -6214,7 +6435,8 @@
     "1": -1.53,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 18
   },
   {
    "date": "2026-11-17",
@@ -6242,7 +6464,8 @@
     "1": 3.56,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 18
   },
   {
    "date": "2026-11-17",
@@ -6270,7 +6493,8 @@
     "1": 2.05,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 18
   },
   {
    "date": "2026-11-17",
@@ -6298,7 +6522,8 @@
     "1": -3.63,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 18
   },
   {
    "date": "2026-11-17",
@@ -6326,7 +6551,8 @@
     "1": 2.61,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 18
   },
   {
    "date": "2026-11-17",
@@ -6354,7 +6580,8 @@
     "1": -2.47,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 18
   },
   {
    "date": "2026-11-17",
@@ -6382,7 +6609,8 @@
     "1": -0.96,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 18
   },
   {
    "date": "2026-11-17",
@@ -6410,7 +6638,8 @@
     "1": 2.39,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 18
   },
   {
    "date": "2026-11-17",
@@ -6438,7 +6667,8 @@
     "1": -0.78,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 18
   },
   {
    "date": "2026-11-18",
@@ -6466,7 +6696,8 @@
     "1": null,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 19
   },
   {
    "date": "2026-11-18",
@@ -6494,7 +6725,8 @@
     "1": null,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 19
   },
   {
    "date": "2026-11-18",
@@ -6522,7 +6754,8 @@
     "1": null,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 19
   },
   {
    "date": "2026-11-18",
@@ -6550,7 +6783,8 @@
     "1": null,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 19
   },
   {
    "date": "2026-11-18",
@@ -6578,7 +6812,8 @@
     "1": null,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 19
   },
   {
    "date": "2026-11-18",
@@ -6606,7 +6841,8 @@
     "1": null,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 19
   },
   {
    "date": "2026-11-18",
@@ -6634,7 +6870,8 @@
     "1": null,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 19
   },
   {
    "date": "2026-11-18",
@@ -6662,7 +6899,8 @@
     "1": null,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 19
   },
   {
    "date": "2026-11-18",
@@ -6690,7 +6928,8 @@
     "1": null,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 19
   },
   {
    "date": "2026-11-18",
@@ -6718,7 +6957,8 @@
     "1": null,
     "5": null,
     "20": null
-   }
+   },
+   "thermo": 19
   }
  ]
 }

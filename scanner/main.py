@@ -9,9 +9,9 @@ import argparse
 import json
 import sys
 from collections import Counter
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 
-from . import ath, catalysts, config, fundamentals, history, news, paths, scoring, screener
+from . import ath, catalysts, config, fundamentals, history, news, paths, scoring, screener, sentiment
 
 
 def write_json(path, data):
@@ -85,6 +85,16 @@ def run(save_history: bool = True):
         print(f"  [mercado] {type(e).__name__}: {e}")
         market = {}
 
+    try:
+        sd = date.fromisoformat(scan_date)
+        closes = sentiment.download(sd - timedelta(days=120), sd)
+        thermo = sentiment.compute(sd, closes, raw_count, h)
+    except Exception as e:  # que un fallo aquí no impida publicar el top del día
+        print(f"  [termómetro] {type(e).__name__}: {e}")
+        thermo = None
+    if thermo:
+        print(f"  Termómetro del mercado: {thermo['score']}/100 ({thermo['label']})")
+
     payload = {
         "date": scan_date,
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -96,6 +106,7 @@ def run(save_history: bool = True):
         },
         "universe": {"raw_gainers": raw_count, "passed_filters": len(candidates)},
         "market": market,
+        "sentiment": thermo,
         "score_weights": scoring.WEIGHTS,
         "top": top,
         "holding_up": {**holders, "window": config.HOLD_WINDOW},
@@ -106,7 +117,7 @@ def run(save_history: bool = True):
     print(f"  Guardado top {len(top)} del {scan_date}")
 
     if save_history:
-        h = history.add_picks(h, scan_date, top, market)
+        h = history.add_picks(h, scan_date, top, market, thermo)
         h = history.update_returns(h, date.fromisoformat(scan_date))
         history.save(h)
         history.compute_stats(h)

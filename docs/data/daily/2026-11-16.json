@@ -1235,5 +1235,42 @@
    }
   ],
   "window": 10
+ },
+ "sentiment": {
+  "score": 24,
+  "label": "Miedo",
+  "icon": "😨",
+  "parts": [
+   {
+    "key": "trend",
+    "label": "Tendencia",
+    "score": 3,
+    "text": "S&P 500 -2.3% vs media 20 sesiones, -3.1% vs media 50"
+   },
+   {
+    "key": "momentum",
+    "label": "Impulso",
+    "score": 29,
+    "text": "S&P 500 -1.7% en 5 sesiones"
+   },
+   {
+    "key": "fear",
+    "label": "Calma (VIX)",
+    "score": 42,
+    "text": "VIX 22.9 (menos de 15 = calma, más de 25 = miedo)"
+   },
+   {
+    "key": "breadth",
+    "label": "Amplitud",
+    "score": 0,
+    "text": "8 acciones subieron más del 6%"
+   },
+   {
+    "key": "follow",
+    "label": "Seguimiento",
+    "score": 44,
+    "text": "Las selecciones de las últimas 5 sesiones: -0.3% de media al día siguiente (50)"
+   }
+  ]
  }
 }

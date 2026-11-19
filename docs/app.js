@@ -134,6 +134,26 @@ function marketPill(m) {
     .map((x) => `${esc(x.label)} <b class="${signCls(x.change_pct)}">${fmtPct(x.change_pct, 2)}</b>`).join(" · ")}</span>`;
 }
 
+// Termómetro del mercado (scanner/sentiment.py): 0 = miedo, 100 = euforia
+function thermoPill(t) {
+  if (!t) return "";
+  const tip = t.parts.map((p) => `${p.label}: ${p.score}/100 (${p.text})`).join(" · ");
+  return `<span class="pill thermo" title="${esc(tip)}">${t.icon} Termómetro: <b>${t.score}/100</b> · ${esc(t.label)}
+    <button type="button" class="thermo-btn">ver detalle</button></span>`;
+}
+
+function thermoDetail(t) {
+  if (!t) return "";
+  return `<div class="thermo-box" hidden>
+    <div class="thermo-bar"><span style="left:${t.score}%"></span></div>
+    <div class="thermo-scale"><span>😨 Miedo</span><span>Neutral</span><span>Euforia ☀️</span></div>
+    <ul>${t.parts.map((p) => `<li><b>${esc(p.label)}</b> ${p.score}/100 <span class="dim">— ${esc(p.text)}</span></li>`).join("")}</ul>
+    <p class="hint">Mide el ambiente general del mercado (0 = miedo, 100 = euforia); no dice si mañana subirá.
+      Con los datos de octubre y noviembre, comprar al día siguiente de un termómetro <b>de 60 o más</b> salió peor (todas las selecciones: 43% de aciertos frente a 66%),
+      y tras días de miedo, mejor: una acción que sube fuerte en un día malo muestra fuerza de verdad.
+      Solo son 6 días de euforia: tómalo como aviso para ir con menos tamaño, no como regla. En el Laboratorio tienes el filtro «Termómetro» para comprobarlo.</p></div>`;
+}
+
 function earningsWarning(e) {
   if (!e || e.timing !== "upcoming") return "";
   const at = new Date(e.at);
@@ -151,10 +171,12 @@ function renderSummary(d) {
     <span class="pill">Última sesión cerrada: <b>${esc(fmtDate(d.date))}</b></span>
     ${isLatest && !provisional ? `<span class="pill" title="El escaneo se lanza 30 min después del cierre de Wall Street (22:00 h en España); GitHub suele retrasarlo 1-3 horas">Próxima: <b>${esc(fmtDate(nextSession(d.date)))}</b>, de madrugada (≈ 23:00–02:30 h)</span>` : ""}
     ${typeof labTodaySummary === "function" ? labTodaySummary(d) : ""}
+    ${thermoPill(d.sentiment)}
     ${marketPill(d.market)}
     <span class="pill"><b>${d.universe.raw_gainers}</b> suben &gt;${f.min_change_pct}% · <b>${d.universe.passed_filters}</b> pasan filtros</span>
     <span class="pill">Cap. &gt; ${fmtMoney(f.min_market_cap)} · Precio &gt; ${f.min_price}$ · RVOL &gt; ${f.min_rvol}</span>
-    ${provisional ? `<span class="pill warn">Datos provisionales: escaneo con el mercado abierto</span>` : ""}`;
+    ${provisional ? `<span class="pill warn">Datos provisionales: escaneo con el mercado abierto</span>` : ""}
+    ${thermoDetail(d.sentiment)}`;
   $("#updated").textContent = `Actualizado ${new Date(d.generated_at).toLocaleString("es-ES")}`;
 }
 
@@ -207,6 +229,12 @@ function rowsWithMore(rows, limit, noun) {
     `<tr class="more-toggle"><td colspan="99"><button type="button">Ver ${rows.length - limit} ${noun} más</button></td></tr>`;
 }
 document.addEventListener("click", (e) => {
+  if (e.target.classList.contains("thermo-btn")) {
+    const box = $("#summary .thermo-box");
+    box.hidden = !box.hidden;
+    e.target.textContent = box.hidden ? "ver detalle" : "ocultar";
+    return;
+  }
   if (e.target.classList.contains("rule-only-btn")) {
     const cls = `only-s${e.target.dataset.slot}`, cards = $("#cards");
     const on = !cards.classList.contains(cls);

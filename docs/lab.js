@@ -4,13 +4,13 @@
 
 const LAB_DEFAULT = {
   cats: [], ath: [], quality: [], dateFrom: null, dateTo: null, scoreMin: null, scoreMax: null, chgMin: null, chgMax: null, rvolMin: null, rvolMax: null,
-  rankMin: null, rankMax: null, closeMin: null, closeMax: null, market: "any",
+  rankMin: null, rankMax: null, closeMin: null, closeMax: null, market: "any", thermoMin: null, thermoMax: null,
   repeatOnly: false, entry: "next_open", gapMin: null, gapMax: null,
   target: null, stop: null, days: 5, cost: 0.2, sameBar: "stop",
   capital: 10000, sizing: "pct", size: 10, maxPos: 10, commission: 1,
 };
 const LAB_NUM = ["scoreMin", "scoreMax", "chgMin", "chgMax", "rvolMin", "rvolMax", "rankMin", "rankMax", "closeMin", "closeMax",
-  "gapMin", "gapMax", "target", "stop", "days", "cost", "capital", "size", "maxPos", "commission"];
+  "thermoMin", "thermoMax", "gapMin", "gapMax", "target", "stop", "days", "cost", "capital", "size", "maxPos", "commission"];
 
 const LAB_PRESETS = [
   { name: "Todo el top · 5 sesiones", rule: {} },
@@ -24,6 +24,8 @@ const LAB_PRESETS = [
   { name: "Resultados + cierre fuerte · +3%/−5%/3s", rule: { cats: ["earnings", "earnings_guidance"], closeMin: 80, chgMax: 24.99, target: 3, stop: 5, days: 3 } },
   // Variante de la auditoría del 15-nov: solo resultados (sin «mejora de previsiones») y subida < 15%.
   // Mejor en los tres periodos (n=30), pero es una hipótesis: probarla en paralelo, no sustituir la anterior.
+  // Auditoría del 19-nov: los contratos/alianzas han subido siempre (4 de 4). Muy pocos: solo para vigilar.
+  { name: "Contratos y alianzas · +3%/−5%/3s", rule: { cats: ["contract"], target: 3, stop: 5, days: 3 } },
   { name: "Resultados puros + subida <15% · +3%/−5%/3s", rule: { cats: ["earnings"], closeMin: 80, chgMax: 14.99, target: 3, stop: 5, days: 3 } },
 ];
 
@@ -75,7 +77,7 @@ function labRuleToForm(r) {
   f.elements.sizing.value = r.sizing || "pct";
   $("#lab-size-label").textContent = labSizeLabel(f.elements.sizing.value);
   // abre "Más filtros" si alguno está en uso, para que no queden filtros activos escondidos
-  const more = ["scoreMax", "rvolMax", "rankMin", "closeMin", "closeMax"].some((k) => r[k] != null) || (r.market && r.market !== "any");
+  const more = ["scoreMax", "rvolMax", "rankMin", "closeMin", "closeMax", "thermoMin", "thermoMax"].some((k) => r[k] != null) || (r.market && r.market !== "any");
   if (more) document.querySelector(".lab-more").open = true;
   f.elements.repeatOnly.checked = !!r.repeatOnly;
   document.querySelectorAll("#lab-catalysts input").forEach((i) => (i.checked = r.cats.includes(i.value)));
@@ -110,6 +112,8 @@ function labFilter(p, r) {
   if (r.rankMin != null && p.rank < r.rankMin) return false;
   if (r.closeMin != null && (p.close_strength == null || p.close_strength * 100 < r.closeMin)) return false;
   if (r.closeMax != null && (p.close_strength == null || p.close_strength * 100 > r.closeMax)) return false;
+  if ((r.thermoMin != null || r.thermoMax != null) &&
+      (p.thermo == null || (r.thermoMin != null && p.thermo < r.thermoMin) || (r.thermoMax != null && p.thermo > r.thermoMax))) return false;
   if (r.market && r.market !== "any") {
     if (p.spy_change == null) return false;
     const m = p.spy_change > 0.5 ? "up" : p.spy_change < -0.5 ? "down" : "flat";
@@ -471,6 +475,10 @@ const EXPLORE = [
     ["Bajista (< −0,5%)", (t) => mkt("down")(t.pick), { market: "down" }],
     ["Plano (±0,5%)", (t) => mkt("flat")(t.pick), { market: "flat" }],
     ["Alcista (> +0,5%)", (t) => mkt("up")(t.pick), { market: "up" }]] },
+  { name: "Termómetro del mercado ese día", groups: [
+    ["Miedo o débil (< 45)", (t) => rng(null, 45)(t.pick.thermo), { thermoMin: null, thermoMax: 44 }],
+    ["Neutral (45 a 59)", (t) => rng(45, 60)(t.pick.thermo), { thermoMin: 45, thermoMax: 59 }],
+    ["Bueno o euforia (≥ 60)", (t) => rng(60, null)(t.pick.thermo), { thermoMin: 60, thermoMax: null }]] },
   { name: "Aparición", groups: [
     ["Primera vez", (t) => (t.pick.appearance || 1) === 1, null],
     ["Repetidora", (t) => (t.pick.appearance || 1) >= 2, { repeatOnly: true }]] },
@@ -528,6 +536,7 @@ function labDescribe(r) {
     parts.push(`${name} ${lo != null ? `≥ ${lo}${u}` : ""}${lo != null && hi != null ? " y " : ""}${hi != null ? `≤ ${hi}${u}` : ""}`);
   range("puntuación", r.scoreMin, r.scoreMax); range("subida", r.chgMin, r.chgMax, "%"); range("vol. relativo", r.rvolMin, r.rvolMax, "×");
   range("puesto", r.rankMin, r.rankMax); range("cierre en rango", r.closeMin, r.closeMax, "%");
+  range("termómetro", r.thermoMin, r.thermoMax);
   if (r.dateFrom || r.dateTo) parts.push(`fechas ${r.dateFrom || "…"} a ${r.dateTo || "hoy"}`);
   if (r.market && r.market !== "any") parts.push({ up: "mercado alcista", flat: "mercado plano", down: "mercado bajista" }[r.market]);
   if (r.repeatOnly) parts.push("solo repetidoras");

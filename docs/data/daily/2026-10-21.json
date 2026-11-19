@@ -1342,5 +1342,42 @@
    "label": "Russell 2000",
    "change_pct": 0.25
   }
+ },
+ "sentiment": {
+  "score": 60,
+  "label": "Bueno",
+  "icon": "🌤️",
+  "parts": [
+   {
+    "key": "trend",
+    "label": "Tendencia",
+    "score": 58,
+    "text": "S&P 500 +0.3% vs media 20 sesiones, +0.7% vs media 50"
+   },
+   {
+    "key": "momentum",
+    "label": "Impulso",
+    "score": 56,
+    "text": "S&P 500 +0.5% en 5 sesiones"
+   },
+   {
+    "key": "fear",
+    "label": "Calma (VIX)",
+    "score": 78,
+    "text": "VIX 16.7 (menos de 15 = calma, más de 25 = miedo)"
+   },
+   {
+    "key": "breadth",
+    "label": "Amplitud",
+    "score": 53,
+    "text": "49 acciones subieron más del 6%"
+   },
+   {
+    "key": "follow",
+    "label": "Seguimiento",
+    "score": 56,
+    "text": "Las selecciones de las últimas 5 sesiones: +0.4% de media al día siguiente (23)"
+   }
+  ]
  }
 }

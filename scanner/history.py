@@ -35,7 +35,8 @@ def previous_appearances(history: list[dict], symbol: str, scan_date: str) -> li
     return sorted({p["date"] for p in history if p["symbol"] == symbol and p["date"] in window}, reverse=True)
 
 
-def add_picks(history: list[dict], scan_date: str, top: list[dict], market: dict | None = None) -> list[dict]:
+def add_picks(history: list[dict], scan_date: str, top: list[dict], market: dict | None = None,
+              thermo: dict | None = None) -> list[dict]:
     """Añade el top del día. Si ya había un escaneo de esa fecha se reemplaza (re-ejecuciones)."""
     spy = ((market or {}).get("SPY") or {}).get("change_pct")
     history = [p for p in history if p["date"] != scan_date]
@@ -49,6 +50,7 @@ def add_picks(history: list[dict], scan_date: str, top: list[dict], market: dict
             "pct_from_ath": (r.get("ath") or {}).get("pct_from_ath"),
             "close_strength": r.get("close_strength"),  # 1 = cerró en máximos del día
             "spy_change": spy,                          # qué hizo el S&P 500 ese día
+            "thermo": (thermo or {}).get("score"),      # termómetro del mercado 0-100 (sentiment.py)
             "quality": (r.get("quality") or {}).get("grade"),  # A/B/C (ficha financiera)
             "returns": {str(d): None for d in config.FOLLOW_UP_DAYS},
             "excess": {str(d): None for d in config.FOLLOW_UP_DAYS},
