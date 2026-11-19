@@ -6,7 +6,7 @@
   <title>Radar de Subidas</title>
   <meta name="robots" content="noindex">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%2316a34a'/><path d='M7 22l7-7 4 4 7-8' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
-  <link rel="stylesheet" href="style.css?v=2026-11-19a">
+  <link rel="stylesheet" href="style.css?v=2026-11-20a">
 </head>
 <body>
   <header class="top">
@@ -118,6 +118,8 @@
               <label title="Dónde cerró dentro del rango del día: 100% = en el máximo, 0% = en el mínimo">Cierre en el rango del día máx. %<input type="number" name="closeMax" min="0" max="100" step="10" placeholder="—"></label>
               <label title="Termómetro del mercado el día de la subida: 0 = miedo, 100 = euforia">Termómetro mín.<input type="number" name="thermoMin" min="0" max="100" step="5" placeholder="—"></label>
               <label title="Termómetro del mercado el día de la subida: 0 = miedo, 100 = euforia">Termómetro máx.<input type="number" name="thermoMax" min="0" max="100" step="5" placeholder="—"></label>
+              <label title="Cuánto abrió por encima del cierre anterior EL DÍA DE LA SUBIDA (el que sale en el top). Ej.: máx. 15 = descartar las que abrieron con un hueco de más del 15%">Hueco día subida mín. %<input type="number" name="dayGapMin" step="1" placeholder="—"></label>
+              <label title="Cuánto abrió por encima del cierre anterior EL DÍA DE LA SUBIDA (el que sale en el top). Ej.: máx. 15 = descartar las que abrieron con un hueco de más del 15%">Hueco día subida máx. %<input type="number" name="dayGapMax" step="1" placeholder="—"></label>
               <label title="Variación del S&amp;P 500 el día de la subida">Mercado ese día<select name="market">
                 <option value="any">Cualquiera</option>
                 <option value="up">Alcista (S&amp;P &gt; +0,5%)</option>
@@ -134,8 +136,8 @@
               <option value="next_open">Apertura del día siguiente (realista)</option>
               <option value="close">Cierre del día de la subida (teórico)</option>
             </select></label>
-            <label title="Hueco de la apertura respecto al cierre anterior. Ej.: máx. 3 = no comprar si abre más de un 3% por encima">Hueco de apertura mín. %<input type="number" name="gapMin" step="0.5" placeholder="sin límite"></label>
-            <label title="Hueco de la apertura respecto al cierre anterior. Ej.: máx. 3 = no comprar si abre más de un 3% por encima">Hueco de apertura máx. %<input type="number" name="gapMax" step="0.5" placeholder="sin límite"></label>
+            <label title="Hueco de la apertura respecto al cierre anterior. Ej.: máx. 3 = no comprar si abre más de un 3% por encima">Hueco al entrar (día siguiente) mín. %<input type="number" name="gapMin" step="0.5" placeholder="sin límite"></label>
+            <label title="Hueco de la apertura respecto al cierre anterior. Ej.: máx. 3 = no comprar si abre más de un 3% por encima">Hueco al entrar (día siguiente) máx. %<input type="number" name="gapMax" step="0.5" placeholder="sin límite"></label>
           </div>
         </fieldset>
         <fieldset>
@@ -230,9 +232,9 @@
     <span>Uso personal · No es asesoramiento financiero</span>
   </footer>
 
-  <script src="app.js?v=2026-11-19a"></script>
-  <script src="lab-engine.js?v=2026-11-19a"></script>
-  <script src="lab.js?v=2026-11-19a"></script>
-  <script src="fund.js?v=2026-11-19a"></script>
+  <script src="app.js?v=2026-11-20a"></script>
+  <script src="lab-engine.js?v=2026-11-20a"></script>
+  <script src="lab.js?v=2026-11-20a"></script>
+  <script src="fund.js?v=2026-11-20a"></script>
 </body>
 </html>

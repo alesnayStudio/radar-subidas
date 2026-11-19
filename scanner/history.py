@@ -49,6 +49,7 @@ def add_picks(history: list[dict], scan_date: str, top: list[dict], market: dict
             "ath_status": (r.get("ath") or {}).get("status"),
             "pct_from_ath": (r.get("ath") or {}).get("pct_from_ath"),
             "close_strength": r.get("close_strength"),  # 1 = cerró en máximos del día
+            "day_gap": r.get("gap_pct"),                # hueco de apertura el día de la subida (%)
             "spy_change": spy,                          # qué hizo el S&P 500 ese día
             "thermo": (thermo or {}).get("score"),      # termómetro del mercado 0-100 (sentiment.py)
             "quality": (r.get("quality") or {}).get("grade"),  # A/B/C (ficha financiera)
