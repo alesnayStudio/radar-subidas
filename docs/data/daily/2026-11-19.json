@@ -1,0 +1,1372 @@
+{
+ "date": "2026-11-19",
+ "generated_at": "2026-11-20T02:28:27+00:00",
+ "market_state": "POSTPOST",
+ "filters": {
+  "min_change_pct": 6.0,
+  "min_market_cap": 1000000000,
+  "min_price": 5.0,
+  "min_dollar_volume": 10000000,
+  "min_rvol": 1.5
+ },
+ "universe": {
+  "raw_gainers": 16,
+  "passed_filters": 12
+ },
+ "market": {
+  "SPY": {
+   "label": "S&P 500",
+   "change_pct": -1.96
+  },
+  "QQQ": {
+   "label": "Nasdaq 100",
+   "change_pct": -2.19
+  },
+  "IWM": {
+   "label": "Russell 2000",
+   "change_pct": -2.18
+  }
+ },
+ "sentiment": {
+  "score": 9,
+  "label": "Miedo",
+  "icon": "😨",
+  "parts": [
+   {
+    "key": "trend",
+    "label": "Tendencia",
+    "score": 0,
+    "text": "S&P 500 -4.7% vs media 20 sesiones, -6.0% vs media 50"
+   },
+   {
+    "key": "momentum",
+    "label": "Impulso",
+    "score": 0,
+    "text": "S&P 500 -5.4% en 5 sesiones"
+   },
+   {
+    "key": "fear",
+    "label": "Calma (VIX)",
+    "score": 9,
+    "text": "VIX 28.4 (menos de 15 = calma, más de 25 = miedo)"
+   },
+   {
+    "key": "breadth",
+    "label": "Amplitud",
+    "score": 20,
+    "text": "16 acciones subieron más del 6%"
+   },
+   {
+    "key": "follow",
+    "label": "Seguimiento",
+    "score": 16,
+    "text": "Las selecciones de las últimas 5 sesiones: -2.0% de media al día siguiente (47)"
+   }
+  ]
+ },
+ "score_weights": {
+  "move": 20,
+  "rvol": 30,
+  "catalyst": 30,
+  "close": 10,
+  "size": 10
+ },
+ "top": [
+  {
+   "symbol": "INSM",
+   "name": "Insmed Incorporated",
+   "exchange": "NasdaqGS",
+   "price": 144.46,
+   "day_high": 148.94,
+   "prev_close": 119.8,
+   "change_pct": 20.58,
+   "gap_pct": -0.25,
+   "close_strength": 0.86,
+   "volume": 14394641,
+   "avg_volume": 2808179,
+   "rvol": 5.13,
+   "dollar_volume": 2079449839,
+   "market_cap": 31691679744,
+   "pe": null,
+   "pct_from_52w_high": -32.1,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1793277000,
+   "market_time": 1795122000,
+   "market_date": "2026-11-19",
+   "market_state": "POSTPOST",
+   "score": 63.9,
+   "news": [
+    {
+     "title": "Insmed Soars 18% on Report That Sanofi Is Weighing a Takeover",
+     "source": "TIKR.com",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQc2xFSFdMemZnV2pZMVNXNjB0VnFwNkFzMHJUUGY3Y2IzUjFnazNNa2RjUFhwWWJFeFlxbV9BUFFLSldtQ1I2NU93amI4eUNmNGNwVW1yQ21GT1JxWlFaTFlqYXg3Z1ZianJpYjJPeFJ0VXpnRVlYc3FyVXZKR0liV1dZeERFRnpnRGxvS3lBSQ?oc=5",
+     "published": "2026-11-20T01:30:00+00:00"
+    },
+    {
+     "title": "Sanofi weighs a takeover of Insmed, maker of the lung drug Brinsupri, Bloomberg reports",
+     "source": "MLQ.ai",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNklQYk5rSE0td3RuRk5VTVl1clAwel8xaWFqX0ctNS1DUVN1Nk1KeDRkanpxSUpXcFFnb09vX3hUTWF2QkJQbFdSYkllbHNxZDdJTDhLM0FXeERRcTg4bVg5bThCMUJ1OHJPUmFjWTRxQ3luV1dzeW92QUJOSkRqZXhEYVloNHA0ZTlQX0NHekk2N2J3M1Z1eF9EcUhfUTNja2pjU2hqZ3U4Zw?oc=5",
+     "published": "2026-11-19T20:43:45+00:00"
+    },
+    {
+     "title": "ANT, INTU, AMD, INSM, GME: 5 Trending Stocks Today - Anthropic (NASDAQ:ANT)",
+     "source": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSVdON2YwNkFEN3NydUtWMEZ0ZXdVdWV5TG5HMmJsc21xTk5xeGhiX3NQQ0tRUGFBWk5xVXZDM2ZqdXlOUk9JcXI1UWNKMW14M2ZkWEV3c1NqZWl4UllSd25sckFXajY5WTRTeWx0Ym5jR1owY2FEY0JrR2dOOThtWmNEa0ZkT1dPQkRKdEZsZDdrbklfS3F4N2J3T1ZVbDZvcm9VXzNlRk9KZndwVVdSN1NUUzJud2tFUmN1X0YzR0gyWDN0RUZuLV8tZ2xrUDlpSl9XQ3hWZTRMSGhXZzdj?oc=5",
+     "published": "2026-11-20T01:10:56+00:00"
+    },
+    {
+     "title": "Form 144 INSMED INC For: 19 November By Investing.com",
+     "source": "Investing.com UK",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdXpQVjJNRGhXSDBDVXlYQXI2M0NHbVkwZ3k1QnkyeFlCUVJyT0dvamZiSi1oYVR1QWRwVnctVkdxY1EzYnk3aUlPMlJDMmwyeTVUVFJLdWJCZjdFcHVkUE52cm42MEY2QTNyX2prMmdydnZaMDJzaTdvVjFUZVJFNktzWnRFVmxPZklweEVqU0l6NjFGeVl0U041Wnc?oc=5",
+     "published": "2026-11-19T23:36:00+00:00"
+    },
+    {
+     "title": "Sanofi reportedly sizing up Insmed as it mulls mega deal",
+     "source": "FirstWord Pharma",
+     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12Zm56SUVMYjViczdPTEQ2eS1Pa2lvQVBONldIVHREUThuQ2c4clpIdE1GMW9nODRHS2ZJOW1lNGI1NC15N3FOSllQSl9oVU00aFJv?oc=5",
+     "published": "2026-11-19T23:19:34+00:00"
+    },
+    {
+     "title": "Form 144 INSMED Inc Filed by: Schaeffer Orlov S Nicole",
+     "source": "StreetInsider",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc3RGVWJpRmxUZXRWd2l4XzlDY3IyN2xIbms5bjJ4M0ZpTkg0TFRWS3hwUUd0eGpYLUYtdmtEOV9xdHRwRG9zVzdNemNDQnp3cVJtNERURnZFQW5wUGNyVDlya3pQWWxZRkdsY1VzLUU0OHB2NldTTnVxRzkybjBJVWR2dk5QMlVRYkozT3lyNXlUTjV0eFJFa0NhSVZfTWdGNUhhOFlrMVNVS04wYmIzYUR3?oc=5",
+     "published": "2026-11-19T23:03:21+00:00"
+    },
+    {
+     "title": "An officer at Insmed (INSM) proposes selling 101,100 shares acquired through a stock plan.",
+     "source": "Stock Titan",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPS3o3TXAzcF9mRk5BYXlSX1dmS3ZkLXh2Smk5S2V4WXU2dndwNlduOEs5bzgxcTRUTVNfTWh3bWNOMThUZHE1Ri1XeVdYQlkyZURaUExZNFBkV2J2enJ4aXNjc2U5TFNMbU42eTRfTzNPVEpWajNObW9WU0hFV0JCV180Vmg3NUlZQ3NyX0UxdUU?oc=5",
+     "published": "2026-11-19T23:02:56+00:00"
+    },
+    {
+     "title": "Top Movers: Insmed Surges 20% While StoneX Crumbles on Thursday",
+     "source": "Business Upturn",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMlVPVVdxcDQ0MXNkOHVvd2hLZUx5R21yb2hDQnBUb0x3VnFOa0NIajZTN3VNRXdZT3RFR1kyVV9HRDlhY2VYTWtwSHBEWkZyNTN4SWNxb1F2ZkJpU1ZuSXZTZi1ROFVzRUlUX2xGRm9mbUNHTURFWlVFZVc1MHhBVDdYVVkwUmtOSUtWNkN4eHh6V3pGdkY4eHNkTC1CZUlwc3R4ajFweEc5elM4bmZXNndmZVc?oc=5",
+     "published": "2026-11-19T21:25:00+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "takeover",
+    "label": "OPA / la compran",
+    "quality": 0.3,
+    "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
+    "confidence": 0.5
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 14.6,
+    "rvol": 24.2,
+    "catalyst": 9.0,
+    "close": 8.6,
+    "size": 7.5
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -32.1,
+    "ath": 212.75,
+    "ath_date": "2025-12-02",
+    "prior_ath": 212.75,
+    "listed_since": "2000-06-01",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 3,
+    "max": 9,
+    "piotroski": "4/9"
+   }
+  },
+  {
+   "symbol": "PDD",
+   "name": "PDD Holdings Inc.",
+   "exchange": "NasdaqGS",
+   "price": 86.0,
+   "day_high": 87.38,
+   "prev_close": 77.45,
+   "change_pct": 11.04,
+   "gap_pct": 6.61,
+   "close_strength": 0.74,
+   "volume": 22768681,
+   "avg_volume": 6181676,
+   "rvol": 3.68,
+   "dollar_volume": 1958106566,
+   "market_cap": 122412097536,
+   "pe": 9.67379,
+   "pct_from_52w_high": -31.4,
+   "above_sma50": true,
+   "above_sma200": false,
+   "earnings_ts": 1795095000,
+   "market_time": 1795122000,
+   "market_date": "2026-11-19",
+   "market_state": "POSTPOST",
+   "score": 62.4,
+   "news": [
+    {
+     "title": "PDD Posts Higher Q3 Income; Revenue Flat",
+     "source": "marketscreener.com",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNajB0bW41RjBldDZaSzZRTnZVN0xNNlRoeXhFZUk5ajl4SGdDMk9FWVduSlVEYndjWUM2Wm9TLV9lODQyR1h0N0xsRlNGemx4NlV4YzJGdUE2WmExTEd3YU9VbmtoYWRhcEVIRlRnUEFBT0QyRTRScU5TVnR1NFNHVFByOVBNbFZfU3RvRDdiMmtoRWw0MFdV?oc=5",
+     "published": "2026-11-20T01:21:26+00:00"
+    },
+    {
+     "title": "PDD Holdings posts $16.3b revenue, $4.43b profit in Q3",
+     "source": "Tech in Asia",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYTdDVFhqcldtNi1JdTg2UmdPZy1aNHlMM1AydmdlX0VTM2ktSW1xcGwzWVFIdVlGMFBIZGtPTGg2aFpWRGEySVk5cHRJM0l0MjBYUUZGcGcxb3VPU19QblRJNm44RXRTbHV3S19VbmZveV9KLXU4Y3dJeDI4NnBlWlk4a1pXcWQ4WUZR?oc=5",
+     "published": "2026-11-20T00:54:00+00:00"
+    },
+    {
+     "title": "PDD Holdings Earnings Call Highlights Profit and Investment",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaW9BTnpvY1g2S2taa1ItVWdZNEVtRUZuMGh1cHQ0X2ZGSTJjV3dObUFCODJxZGZ1ZURvTlhuMl9GWlFXVHcwQ29UckN3VmJ3dzdFQzc1SVYxa191TkRqS0xoX2R2cm9UdGZxWlVEakxhbVdENnhGcHBRUnBUejBoUDR1MWkxQ1djQXRxYWhvUkZHMjhRVDZDMjFWVC1KTDdqbEJhN3Nrc1p0cm02Y05Dbg?oc=5",
+     "published": "2026-11-20T00:17:36+00:00"
+    },
+    {
+     "title": "Is PDD Holdings (PDD) A Bargain After Flat Q3 Results And Fresh Temu Scrutiny?",
+     "source": "Simply Wall St",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdFBTVnN1UVcyTkdnX1dLdWlkeFJwZE43Rk9BeVhRcjhRdjRzVDRHaWtIUTgzU2FUQy10SWcxN2c3Q1VCb0EtZUJxZEhnVFNvMC16Y0VDc3d1T2pCSFlma0VVYjI3R0FseFQ2TC1OZjlpWFh1VnpicjRzbEJvcDYxWU9KUEp3cy1VUW1sQVlLeDdiS1ZCdHBlRmFXZkNvdGxIaVZ4VWt6ZmFTNmVWVVllSVV4LTNQMER6N2xCSDM3T1hBVWZHdlNzLUFzR3TSAcwBQVVfeXFMTXRQU1ZzdVFXMk5HZ19XS3VpZHhScGRON0ZPQXlYUXI4UXY0c1Q0R2lrSFE4M1NhVEMtdElnMTdnN0NVQm9BLWVCcWRIZ1RTbzAtemNFQ3N3dU9qQkhZZmtFVWIyN0dBbHhUNkwtTmY5aVhYdVZ6YnI0c2xCb3A2MVlPSlBKd3MtVVFtbEFZS3g3YktWQnRwZUZhV2ZDb3RsSGlWeFVremZhUzZlVlVZZUlVeC0zUDBEejdsQkgzN09YQVVmR3ZTcy1Bc0d0?oc=5",
+     "published": "2026-11-19T23:14:40+00:00"
+    },
+    {
+     "title": "PDD Holdings (PDD) Stock Price Prediction: Buyers Have Reclaimed the 7-Day Average, But Momentum Is Still Mixed",
+     "source": "blockchain.news",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWktyQ3E1RVJYOWdOM1hoN21WNldLWl84MEE4MUVEeEJuRHU3T2x6ZGJxd2hZUzJ5dzEzTTU3Unk5d1ZzTkh5ZWhIOW9LNU4yeDV2SEtHOEhfaXdRWmJMbHJlWTl1Vm9JV21OMktGN3p5cUQ2Tkt0ZFdyYzYwTVY3M3oxWFZMSEJBWmsxeXVpeXRkR1I1?oc=5",
+     "published": "2026-11-20T00:05:00+00:00"
+    },
+    {
+     "title": "Why PDD Holdings stock is up today",
+     "source": "The Globe and Mail",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeF9NT1FlV3NWT3QyMWNOelVFXzlJVjM0RTBPU1kwemk3bFFlN25ZZnFVdG1ETTdyc3JqSHhoQ2NUYm1KYnhWRzVTal9zc0pLWFNZNHd1RDlYQm1ncTctMUZxR1pkY004NjlQNVh4ZzR3WDFmUmRXak1zR1NzUVR3ZWQzNHhRdDFYQ0NKWWd2QXE5aGZRVEl1aXczSTZyaFdzRDF2alJpRzFXZEE4aHY1eUhSdlpMU0VhWHc?oc=5",
+     "published": "2026-11-19T22:58:10+00:00"
+    },
+    {
+     "title": "A Look at PDD Holdings Inc (PDD) After 11.0% Gain -- GF Value $1",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcF9adGRvQ1k1SmxZYkdJcXdIRkZqeUdaRU9UMmF0T0xTamdOZW1lTGw2QURxbnBpY2ZKZVBzQlBWdkZFU1VqZWU3eEFKc1RUa2xBdGd3TmNmZUpkYnV3MHgwMjAyOFZYMnMtZHMwaXppYXpVcm5FSm5nbTBqNmZ6LTdpVWpFMU9BcEpmbktxSEhxXzNyRDZMODN6Q2JIRXVJbW9vWHIxTEl5VnRqblVxaWRhMA?oc=5",
+     "published": "2026-11-19T22:57:30+00:00"
+    },
+    {
+     "title": "Why PDD Holdings Stock Jumped Today",
+     "source": "The Globe and Mail",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLXFSYk83ZzdQVVJNZkFmcmJZNFhoaXJyRVlUTnlFNzF5LTJ1ak80bFczWUs3RUN0QWZJWk1OMTJkNVFqX3ZKYlVPWFppYWFhSmN2UWczU3lQN0Q4VlhrczFPNUZ1bEg5LVdKQThrd2JhX1NHeWk0OEhYZHQ3MUhZcjY0VWhRbHA4cEF6SllTalFsdlhOelBfWkM3R0NKSUV1WjdaSUpQWDA3RmlEZGdjczlQQWx6Nk9GbmF6WThR?oc=5",
+     "published": "2026-11-19T22:52:30+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 1
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-11-19T08:30:00-05:00"
+   },
+   "score_parts": {
+    "move": 5.0,
+    "rvol": 14.5,
+    "catalyst": 25.5,
+    "close": 7.4,
+    "size": 10.0
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -59.55,
+    "ath": 212.6,
+    "ath_date": "2021-02-16",
+    "prior_ath": 212.6,
+    "listed_since": "2018-07-26",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "A",
+    "points": 7,
+    "max": 9,
+    "piotroski": "5/9"
+   }
+  },
+  {
+   "symbol": "BRBR",
+   "name": "BellRing Brands, Inc.",
+   "exchange": "NYSE",
+   "price": 15.11,
+   "day_high": 15.82,
+   "prev_close": 13.66,
+   "change_pct": 10.61,
+   "gap_pct": 0.81,
+   "close_strength": 0.72,
+   "volume": 11853373,
+   "avg_volume": 3817943,
+   "rvol": 3.1,
+   "dollar_volume": 179104466,
+   "market_cap": 1756963456,
+   "pe": 12.087999,
+   "pct_from_52w_high": -54.98,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1801575000,
+   "market_time": 1795122002,
+   "market_date": "2026-11-19",
+   "market_state": "POSTPOST",
+   "score": 53.7,
+   "news": [
+    {
+     "title": "BellRing Brands Q4 Results: Revenue up 6.8% to $692 million",
+     "source": "scanx.trade",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdnh2cTV5el84NE1jdUJjNUdtQVpuNnJzVkp4a2U1TC02aFIzN0YtaWFJYm1ZeEwzdE03VW4za3QtWFJVdzl5U19GdDE5eGo2M3ZXbXpFNk12emdDSUVrZlMxdHV5S0F2REdqUC1QUkR3amRHNTh5cXVTZ1l4NU9XbWdVMEY1bWw3TkhwdWZMeDBpYnNrMzZZU3ZGV0lYSU9XTllLMnp2Z3U3RXZXNk9z?oc=5",
+     "published": "2026-11-19T20:01:50+00:00"
+    },
+    {
+     "title": "These Analysts Boost Their Forecasts On BellRing Brands After Q4 Results",
+     "source": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZUh6MGdTWTlWX2xIZzQ5cFBkcTE0UHRFd0FJbERQZVlNWUpuLTBZdHI2TFRTVnExMW5nZVRvNEhKclBFc09IMl85RlJwNFd0Um1pb1RPR0pXQUZSTVZzd2FJNWZKZVl6OW9lX1REc3ZNR0Y5ZVY2eEJKSUVWMXlzMWlic2NpZWJuWHJaT25pVksxSlRuNE1vNV9ranFZNG0wQk5KTnpNOUpsYnFUWmJ6UElqMXNLc0NfZEduUDE2SGpHOFl0ZnV0MWdWOUd1R2c3N0xXWlpyZ25aMUZwWE45RA?oc=5",
+     "published": "2026-11-19T19:21:46+00:00"
+    },
+    {
+     "title": "BellRing Brands Appoints Interim Chair Amid Medical Leave",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNU1TUnNJOXFBbmgtaTk5cE16TElJYmEyWUtCdEl3NE0zeUdRUEM0Tk5Icnpyc3YxNzV1TlZYalNSeUo5Ny1RUnc2RDYzdFhaTTdoZnR0Z2JsMElKQmhRZ1R3bHJKbTF1a0dxMEZKV3VzMC0tby1Ka3A0TFlpcWd3N3dhWDBsbTVJMDlmU05xQnNDdjBjNTFkRXNOcUpFQWdua0J3OGMyZDEzS19fakE?oc=5",
+     "published": "2026-11-19T21:54:25+00:00"
+    },
+    {
+     "title": "BellRing Brands appoints interim chairperson as Robert Vitale takes medical leave",
+     "source": "Investing.com UK",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMFoxWnpQWEhYcklNTXlvbm5sUkZrRXRMZGJPRzVjZEhvRThHZldZUmdUaHgzaDU4UGlCc19VbnJsVkwxR2doZERUbEtvZm1Bd2w5RDB6RlJTZ01KQXBfYU9qSzJEalh0WVZaTDVWVVc0b2xrc1lGaGwzT0pwVWJndXg4ZzlRa0FES2FMdVNtc2dmWFljLWJ6T3JySl94ODlSbEhMV2lybENocHFhTGtZWVRHM1Fod1pyekxHakczS2RYSTlhcFFQc3pMUjVraFFmMGZGdTFidW5MZw?oc=5",
+     "published": "2026-11-19T21:44:00+00:00"
+    },
+    {
+     "title": "BRBR: BellRing Brands Inc. filed SEC Form 8-K: Other Events",
+     "source": "Quantisnow",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNU3QyYnNGeFNhSlV4QTk1RUNvLUpwVXc5Zmt4S2UwaU83LUN1TTRjeDR6VUswdkp3MWl5V0tNLWw2cl9lTHpjeWp4M2E0S0tQTEx3aUdob0lpVGpTRVFUc2xlck1UZWNsTWxPNEtCUmRtTFgxd21oN1Q0TkZoMGs5cHduOE9mV2Y3UHFTTDRnNmZWbjhr?oc=5",
+     "published": "2026-11-19T21:35:46+00:00"
+    },
+    {
+     "title": "UBS maintains BellRing Brands at Neutral, raises price target to $15 from $9.50",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNmRST2ZiLTdWZjZNQ0R1eEd2SjR1NDVVMnpTejhzTl9wRG5KVk1yb0VGUzZtMktIeEN2VldMLXNiVzVxTTU3WGM3eGY1dVpWMmdMaFpBbkEwcW1KWEdIblZJcm1lNTRJNWN0ZzRFa1JpYWs2VUtDQWhmRUxJdFQwNnFNa2hUY2ZTREM1Y2s2VzdMamwzWFBpUFdOY05mS0ZEaTVWckh2YnZHdXlPTlI0MC1fWnBlTmRkeGpYVWxFRUdaT1hzZEt3REFFcDgzRnRpdVdEWQ?oc=5",
+     "published": "2026-11-19T19:55:41+00:00"
+    },
+    {
+     "title": "BellRing Brands (NYSE:BRBR) Resets Its Plan After Protein Costs Squeeze Gross Margin",
+     "source": "kalkine.ca",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSkJ3QXc3Y0pPUDFmYklPcWU0b2NtcTVuZmJDcDI5bGpMS2FvZG5aQW5ma3lkYm5jOEZiUTZ1VzJ3dnQyRWJJYlNIN2lBdUZTVFBhQlZjNC1fSHVLcmNDQ2w1WmdnZFlBRmlGdW9VTi0tZFBRTFNnMXZuNTRLREJSQmJXR0pIdFNyRFN6S2F5dGEyN1VUb0ExU1BRV0cyUG0zcTVOeTRRXzlpeFVYNHUyYzl3RmY?oc=5",
+     "published": "2026-11-19T19:54:00+00:00"
+    },
+    {
+     "title": "JP Morgan maintains BellRing Brands at Overweight, raises price target to $18 from $15",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdVVkWkJ5U3FLOWN6ZmlkR2RCc0tqeUV3eUVhaU5CX21ma2J0ZzJKcmp3UFBxalJrNTdEV0JIV1Y3QUl4c0pMaEo4Uk5VZ1dRM2Z3dVVITDF2OGRCSXRmS01YdzZSeTY3VmlIYTkzVG01aGZkYXhKSDRuZEg3Ulk1MnJ2TjJLRmVIU0xiVGt5dUMyLUpmS2thOVQwTXEzMkNyZFA5cFdScnBsVkM2Ny1JXzlzUkpIU0IxS1N3V3hNNHhudEVJbm9EMC0yWTN6R3RZZGdPelBiUUNkblpKR2c?oc=5",
+     "published": "2026-11-19T18:33:45+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings_guidance",
+    "label": "Resultados + mejora de previsiones",
+    "quality": 1.0,
+    "note": "El catalizador con más continuidad histórica (post-earnings drift).",
+    "confidence": 0.06
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 4.6,
+    "rvol": 10.7,
+    "catalyst": 30.0,
+    "close": 7.2,
+    "size": 1.2
+   },
+   "appearance": {
+    "count": 2,
+    "previous": [
+     "2026-11-18"
+    ],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -81.27,
+    "ath": 80.67,
+    "ath_date": "2025-01-30",
+    "prior_ath": 80.67,
+    "listed_since": "2019-10-18",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 5,
+    "max": 8,
+    "piotroski": "5/9"
+   }
+  },
+  {
+   "symbol": "VVV",
+   "name": "Valvoline Inc.",
+   "exchange": "NYSE",
+   "price": 36.84,
+   "day_high": 38.0,
+   "prev_close": 33.37,
+   "change_pct": 10.4,
+   "gap_pct": 2.13,
+   "close_strength": 0.73,
+   "volume": 8923180,
+   "avg_volume": 2658770,
+   "rvol": 3.36,
+   "dollar_volume": 328729951,
+   "market_cap": 4698429440,
+   "pe": 45.48148,
+   "pct_from_52w_high": -10.32,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1795095000,
+   "market_time": 1795122002,
+   "market_date": "2026-11-19",
+   "market_state": "POSTPOST",
+   "score": 53.0,
+   "news": [
+    {
+     "title": "Valvoline (VVV) Reports Q4 Earnings: What Key Metrics Have to Say",
+     "source": "Zacks",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/valvoline-vvv-reports-q4-earnings-000002233.html",
+     "published": "2026-11-20T00:00:02+00:00"
+    },
+    {
+     "title": "Valvoline Inc. Q4 2026 Earnings Call Summary",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQzEweXlhQWR5bmQ1T0RocDlWNFlwWmhNSWk1RlRuYlVzWXNtbHJoTFg5V0hmR2F5cWlMSG40bjM4VmdOdHB1aEF0SzRXVnJ6UnExdjNXOVNza3NsNkdwS3dUeTNkc3FqSUFka3NkbFp5TUhZWWJBdHhRX2J0ejBLMDEtR3Foc05DUER1TjY4OXNJaVE5Q2FVYVA2UQ?oc=5",
+     "published": "2026-11-19T22:10:47+00:00"
+    },
+    {
+     "title": "Valvoline Earnings Call Highlights Growth, Cash Flow and Margin Risks",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSklWXzVPZTRqd0N1UXhNdlBJWW5rbDRVVWlSSUZNX3Y3VTI5X2J1dGtOdlJBUHBZRVNGaFNOc2hjQnBLY3lyZm1CZ2pwYnhKbkFpdzUtT0p2MXB2bHpRR3gtRFhqbmFjSm44V05UYmlsMVJjRTQtVFJxbEJDLThHX29WXzllU0tEZjlzN2JTU091aXdRMktZX0hHeWhDNzRzREdzU185NUxfRXRvSkgtOU5PQzhadm9rWkJxbg?oc=5",
+     "published": "2026-11-19T21:17:36+00:00"
+    },
+    {
+     "title": "Valvoline Inc (VVV) (Q4 2026) Earnings Call Highlights: Record S",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNLUphcjZ5TENnczVwQ3ZKcGhJMWhINlBEVkFRUWZOendLN25DMmtoNW9zcDM1SDgxZHROUW84em9xbllrRUc1XzdHS3pCLTlCS1dRNWp2Nk9wSjR0bFNvVnpJTnVUam5JRWVQd28ySk15R0J0MUNWRjQ2ZzNHVzFTZ0w2bl9nNm5ET1pxb0tHR1U2a1N2T1hURFRWRGk0LWxmbFdOeXpuZ05zSldHVlJiamxJSEhHUW9DM0tJWEJ5YkV5SGhTMkkyOGc0RXhLLUV5UUgzUlgtTGJjbXd3cmlsUDBqZkt2SkZUdDMxeXpZWHRRaWtjUThKeHhVRjBEb0Iw?oc=5",
+     "published": "2026-11-19T21:17:11+00:00"
+    },
+    {
+     "title": "Valvoline climbs 10% on fiscal 2027 outlook, Q4 results (VVV:NYSE)",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZ28tcGI0aHUwQmJHQWZ0YWdUMzJ5RjhXc0lqaUFEX1ppYVhqMXA0V0tQQUVsT2E3TzR0OXk4V1dqWHJ5U0wtb1pfLUM3Ul9wYnVWV200Rmc2bWlJR3R4Q2ZsblNKSlpWZ2V0UUg4N2dIRWp3NnRvSVdXNTVWZEMtVnNxUG9MVHRKVTYtWUNqWEV4bWlYT3dlaUFVd1F3YlRf?oc=5",
+     "published": "2026-11-19T21:12:17+00:00"
+    },
+    {
+     "title": "Valvoline Inc (VVV) (Q4 2026) Earnings Call Highlights: Record Same-Store Sales Growth and ...",
+     "source": "GuruFocus.com",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/valvoline-inc-vvv-q4-2026-210101054.html",
+     "published": "2026-11-19T21:01:01+00:00"
+    },
+    {
+     "title": "Valvoline earnings analysis: questions answered and next catalysts",
+     "source": "Investing.com",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/valvoline-earnings-analysis-questions-answered-205408284.html",
+     "published": "2026-11-19T20:54:08+00:00"
+    },
+    {
+     "title": "Form 10-K VALVOLINE INC For: Sep 30",
+     "source": "StreetInsider",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeUl4M2ZJcll4R2FURWUzdDVBSjVBdFZId1N0TDdsWXJpWVI3RFN2SHZVakJUeXVGb2VqLVZkR2hPX1U1Y1lZZWppU1MzR3ZQTE5yQUNWUEpQZVAtMGJsQi16cG1zYWRPOHBHd1B2cWxFc3FCdjk0eEVRNGVnQ1YySno3QVhuSEc1aVVXOEloZzZfeFZCdzVQSQ?oc=5",
+     "published": "2026-11-19T21:33:25+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 1
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-11-19T08:30:00-05:00"
+   },
+   "score_parts": {
+    "move": 4.4,
+    "rvol": 12.4,
+    "catalyst": 25.5,
+    "close": 7.3,
+    "size": 3.4
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -23.67,
+    "ath": 48.26,
+    "ath_date": "2024-07-17",
+    "prior_ath": 48.26,
+    "listed_since": "2016-09-23",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 5,
+    "max": 9,
+    "piotroski": "6/9"
+   }
+  },
+  {
+   "symbol": "TU",
+   "name": "TELUS Corporation",
+   "exchange": "NYSE",
+   "price": 10.78,
+   "day_high": 10.87,
+   "prev_close": 9.51,
+   "change_pct": 13.35,
+   "gap_pct": 5.42,
+   "close_strength": 0.9,
+   "volume": 28223340,
+   "avg_volume": 7519962,
+   "rvol": 3.75,
+   "dollar_volume": 304247605,
+   "market_cap": 17140199424,
+   "pe": null,
+   "pct_from_52w_high": -25.24,
+   "above_sma50": true,
+   "above_sma200": false,
+   "earnings_ts": 1793971800,
+   "market_time": 1795122002,
+   "market_date": "2026-11-19",
+   "market_state": "POSTPOST",
+   "score": 46.5,
+   "news": [
+    {
+     "title": "Quebecor's $31B bid to buy Telus: What it means for your phone bill",
+     "source": "CBC",
+     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHbWhycmR1MmJCeGdJcnhWQVVRaHRUeXdoTUIwZGw5ckdiNEY1TUtqT1VMWGhDbm9SS1NabVRlMTkzWkZsNmo0MEF1Z19ydVZObzRBTTY3d0tFdw?oc=5",
+     "published": "2026-11-20T01:33:32+00:00"
+    },
+    {
+     "title": "Bidding war for Telus expected, analysts say, as Quebecor calls out Bell",
+     "source": "Global News",
+     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wSkRLN0lmbVFjTzlDemY2SDJCMjhvRVpBRXdBdjdyWWFXcXZYVlZYOXFoQW42cWNGTGVCSW1kOTJiU2tReTh2MDFpbEI1dnZSNTlQdVVpak1qRktVVWJDVHlUZmhYZEdzeDl1cl9MT0s5V3FzWkJiWg?oc=5",
+     "published": "2026-11-19T19:30:59+00:00"
+    },
+    {
+     "title": "Quebecor’s bid to acquire Telus faces an uphill battle, but Ottawa isn’t shutting the door",
+     "source": "The Hill Times",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQV245S2w4QkY3Q2ZMY0h3MWI4Qk00OExVWHdVVHNvaE9EbklvcF9Xd29xYmVjN3RaaGR0ZWJnN1FnLTltN2o4M2ZxajVwNHk2Y29rdjFQalRhSy02WWlkb0VHalp2bUxJZjFscEx1YXloV2FpSzdiUTd1RHVTMDJzNkZMSk1QTkRCcWgyVkszUnBHSWxrY1ZtVTc2UW5ycDZOb3FJTmdsQmV4a2hIOXczYk9VMkNpUExvZWNqc3RBX2sxc25Rb2o3X3VBQWs?oc=5",
+     "published": "2026-11-19T19:04:54+00:00"
+    },
+    {
+     "title": "Enbridge vs. Telus: Which Stock Offers More Reliable Income Through 2030?",
+     "source": "The Motley Fool Canada",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNE0tS0xuMTJhTVpEY3l1Zi1YQ3k0WE5EMVZtYnozMS1SdDBRbkhLbGk0Q0Jta2pNbThfWGhvOEFBQzNKYWJua2pqWGhUWkYtYnl0cHJzNGdiVDUzSjF3bDhuajRRYjlmbWtNZzBYd1NaWHRRMFFSS3VOZ0xmSzIyckNLZ1A1elZhdXNHdTQ1QTVvanlXOUdsQmlLQ0ZBVlowTmFpbQ?oc=5",
+     "published": "2026-11-20T01:15:00+00:00"
+    },
+    {
+     "title": "Bell Explores Telus Deal as Quebecor Pursues 31 Billion Takeover",
+     "source": "cwibc.co.id",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Oc196ZElqTFdFcFl1UVBlUE56VC1BV3BKd0wzVjBhTFRFXzZDMTB0WkdNa1RTczBFVHljUERHQTZOc2dqekpPRlU5Qm02RHdyeFJRMHB5MXAteEZodTFfN0tNdUliQQ?oc=5",
+     "published": "2026-11-20T00:42:10+00:00"
+    },
+    {
+     "title": "Telus rises 13.72% in Thursday's session",
+     "source": "Global Banking & Finance Review",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE03SWNQb2ZsY2ZXZkE1NGFERXl1VzdOUml5WTBGMDRlWGw1d1VtZ3piOXBRMHc0eFMxY25BRWFjc1RaSE1BNUw1ZUUtZGVURVU4eE5XeGF2UjFmUVZpQWdtNWExcEJubEJJTDJJTVN4RlRLa3hheko0?oc=5",
+     "published": "2026-11-19T22:57:29+00:00"
+    },
+    {
+     "title": "Telus Buy One, Give One promo returns for Black Friday",
+     "source": "MobileSyrup",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOb2hLbUl1SmZJMVBVWXJQVl9kcjVWY3ZKeFliWGF0TGlWcnVYOGtYQUE3WWFfTVhadkkwNWlDVmVsMWJvRl9NR1BKbU5oRndhX3dYS0NYdnNTQk9DUHppeno2VC03ZGN2cXhIRmsySF9PRHBfSWVKWkVHTWFlalB5R1JQLVNmb0ZIQ28waVQwMzBHeDQ?oc=5",
+     "published": "2026-11-19T18:55:48+00:00"
+    },
+    {
+     "title": "BUSINESS BEAT – Talk on takeover of Telus continues to heat up",
+     "source": "ArmchairMayor.ca",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWHduUjZvdV9ZLUppWU8zcTFINXNQR2xKajdyWGVnZUh0NFk3VnVRdUlDZVd6RjZ5bk5zOEstcmptS1Y4aU9zOE94TDBSOVA2TjB2T0I2VFhvdFEySkFvZ1RYZ0JBOU5ZSFZEd180T1h6T0pQNlVDWXR5c2hYQVBKdnl2eG9rYmo2ZDdnV1NYaEFORHRRdTg0ZGJKQnJvUQ?oc=5",
+     "published": "2026-11-19T18:28:11+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "takeover",
+    "label": "OPA / la compran",
+    "quality": 0.3,
+    "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
+    "confidence": 1.0
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 7.3,
+    "rvol": 15.0,
+    "catalyst": 9.0,
+    "close": 9.0,
+    "size": 6.2
+   },
+   "appearance": {
+    "count": 2,
+    "previous": [
+     "2026-11-16"
+    ],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -60.8,
+    "ath": 27.5,
+    "ath_date": "2022-04-08",
+    "prior_ath": 27.5,
+    "listed_since": "1996-06-11",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 4,
+    "max": 9,
+    "piotroski": "6/9"
+   }
+  },
+  {
+   "symbol": "YMM",
+   "name": "Full Truck Alliance Co. Ltd.",
+   "exchange": "NYSE",
+   "price": 9.06,
+   "day_high": 9.07,
+   "prev_close": 8.38,
+   "change_pct": 8.11,
+   "gap_pct": 6.68,
+   "close_strength": 0.98,
+   "volume": 11215877,
+   "avg_volume": 7180173,
+   "rvol": 1.56,
+   "dollar_volume": 101615846,
+   "market_cap": 9475802112,
+   "pe": 15.894738,
+   "pct_from_52w_high": -25.19,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1795095000,
+   "market_time": 1795122002,
+   "market_date": "2026-11-19",
+   "market_state": "POSTPOST",
+   "score": 42.7,
+   "news": [
+    {
+     "title": "Full Truck Alliance Earnings Call Highlights Strong Growth",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVll0MHdpYm50TnBCNzhsbU9NN2swWVlLX0NEQUtCRzZvRk4ySGU5UjdnbkR1bkE3c3VWS041RWp5TjFhZHVKblpDcVJJcFFuMXZPTkpkamJRSm55ak5UZnFuVURpZUF5X3VjYmNaZFY4cnBkc3g3aHk5WlhUNTZUSGZDeHZnUmdjeXhpanU1Z25mbmtzajVSMXBDby1XZUNqckJNUENwb2JrdnhYbnhn?oc=5",
+     "published": "2026-11-19T21:14:42+00:00"
+    },
+    {
+     "title": "Full Truck Alliance (YMM): Q3 2026 net income up 49.0% to RMB1.37 billion",
+     "source": "Quantisnow",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOME9pT1NYekM4M2ZvN2YzZm81MXhJNUJFTlNHQXhtWjREZDV6WmhPbTRwYzFYbjRCczYwVUlnMjBfODgtV1ZhUWJOdG9MOUZaVlUteUx4SHJxbE95MHFNakxKS291U0RxY2dFNzdDS29UT3pFZTBHYXZ2RGd6QkJoTWFIOXZGeEY3SVp4YmhhSFB2ZFZFcUE?oc=5",
+     "published": "2026-11-19T21:10:11+00:00"
+    },
+    {
+     "title": "Full Truck Alliance Co Ltd (YMM) (Q3 2026) Earnings Call Highlig",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNHRUTkViOEs5a2w0d2FNMFdFTXNUQlI5UV9oQVRYMmVOek9YQURDYkRqcTFlWWFFbVFyQThGRWMxcEIwQ09URFdYUndBc0hoOGRPQXFWdFcyQm1lTXRJd0tqZXNYMzR6ZmhBUlpZRDdoY2g4OGhRMFpQc1JyQVBxVTBjNmtpNFJENDhwT2FEM3AxalJXQ1E3d3ZXQTJEdjV3WV9vMmItM0ZiQWVPVEZObFlHZmJjQy13WV9qS0pEQVdmWUFaV3JzSl9XNHV2UE9ZOE1USmExeVdFVVNyTlRHQ1JrbzExZkZwRzRJ?oc=5",
+     "published": "2026-11-19T19:18:45+00:00"
+    },
+    {
+     "title": "Full Truck Alliance Co Ltd (YMM) (Q3 2026) Earnings Call Highlights: Strong Profit Growth Amid ...",
+     "source": "GuruFocus.com",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/full-truck-alliance-co-ltd-190043179.html",
+     "published": "2026-11-19T19:00:43+00:00"
+    },
+    {
+     "title": "Full Truck Alliance Reports Third-Quarter 2026 Results",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa3daMjBMU0ZmaDdDQXBacVlQdVNmTXh3OUNIa1dQODFZQU5Ja2RSWkJNVUdlOWxZV3VsNXI5ODYza25yUWtCRWp4WXFrRzUxaWNQS3Q2ckRUdDYtWEFQZjZ6cHhIU1R0d19TVUtmN0Q2dlJJeWc2NE12emtUSXZ5NUxRSzY4T1JBbENQaS12Tko3YWI2ZHRhR2FOdnhfVFNXcUJXc3BuT3U1UQ?oc=5",
+     "published": "2026-11-19T17:31:46+00:00"
+    },
+    {
+     "title": "Full Truck Alliance Q3 Profit Rises 49% to RMB1.37B",
+     "source": "grafa.com",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTnJHWHN1bEI5RFlBdGNxTDh6andBVWw1SXdjNVJtajNlVlZtSVBaeHprUDNkTDFJRlRiOHNmc29jeWl5WlJYalJ4SnhUZHZCYUp4ZnVRNWlZdUNTNXdzeElyQnJremZuZk84RVVmNU02QnYwb2JsM3plTDBHWHh1MkdnQ1VXLVd0MTV0NVhrM3BET0tXTHc?oc=5",
+     "published": "2026-11-19T15:09:00+00:00"
+    },
+    {
+     "title": "Full Truck Alliance Co. Ltd. reports results for the quarter ended September 30 - Earnings Summary",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNYVBwNHRDbVZOMFByZVNoRThybmlfN0VZMWJqYkFvVU5NWHhvc1ZkMjczUkpkY3VubWV0cFpJb1B0bHE4bDU3LXk3YUVpUm9CSHpZUWEtNkhTWkR2WS1oNXpFM25TdEdNYVVaaFhhRldUaGhUWFNYbGJXMERmRmRUbWp5ZzFKLW5ueW9UZ004OU9ZNTVERFZZVXE0TnpHMm5TRnRrQjQ5WEw1QTJaaGtyN0U3OXZjZ0Z5RTVoZXlpSFE2bFZfakdWZ3NKS3Rta2pNVmpQaVlrelRGSzA4WTFXa2pvR0NtMnkyQ2d6dVZESTQwX1EwU2VF?oc=5",
+     "published": "2026-11-19T14:32:06+00:00"
+    },
+    {
+     "title": "Full Truck Alliance Q3 Earnings Call Highlights",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcUx6R3hoalRSdU5FalRiRU9sQVgxWHNxYXpPMHlLRE9fa3VZbWlsRzhYOVFQbVJUYmFxVTAxYkx5NktHZWVpZThyOER6WUs5Q1RNWVh2Rk80bHRZRzJzcGg2ejVyNnRCS0lVRll5WlVjYnJ4V0dzM3dZWlpfMjViRDhVNWVkc1pzU0pXQ2hlMzFTcGszTTFuYjY4Ymk?oc=5",
+     "published": "2026-11-19T13:13:01+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 1
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-11-19T08:30:00-05:00"
+   },
+   "score_parts": {
+    "move": 2.1,
+    "rvol": 0.4,
+    "catalyst": 25.5,
+    "close": 9.8,
+    "size": 4.9
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -57.86,
+    "ath": 21.5,
+    "ath_date": "2021-06-23",
+    "prior_ath": 21.5,
+    "listed_since": "2021-06-23",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "A",
+    "points": 8,
+    "max": 9,
+    "piotroski": "8/9"
+   }
+  },
+  {
+   "symbol": "PANW",
+   "name": "Palo Alto Networks, Inc.",
+   "exchange": "NasdaqGS",
+   "price": 361.73,
+   "day_high": 370.0,
+   "prev_close": 339.92,
+   "change_pct": 6.42,
+   "gap_pct": 4.67,
+   "close_strength": 0.58,
+   "volume": 19109488,
+   "avg_volume": 6324862,
+   "rvol": 3.02,
+   "dollar_volume": 6912475094,
+   "market_cap": 296174288896,
+   "pe": 904.325,
+   "pct_from_52w_high": -16.33,
+   "above_sma50": false,
+   "above_sma200": true,
+   "earnings_ts": 1802811600,
+   "market_time": 1795122000,
+   "market_date": "2026-11-19",
+   "market_state": "POSTPOST",
+   "score": 41.3,
+   "news": [
+    {
+     "title": "Palo Alto Networks Buys Applied Compute to Build, Not Just Guard, AI",
+     "source": "The Futurum Group",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUVVMOTVCQ3UwSDlZeG5qNWd6SC1QZjFDTmY4WW9XNWZOVWNtS3hKR3pvYlVYQldNYkdIZzF5VjRIVlFGcEdiQW9wVzZXS01yaEY0cVV2bmVBeFk1MlVLNEFfUnRLQXdzdnU5VU9KcjhQUGFEdnZVZERYaWlKbHFLVjZoRXBBMS1xLUNZYnJtRk4tODNpeHcwbjRpRkxFSEpob3Fr?oc=5",
+     "published": "2026-11-19T22:37:42+00:00"
+    },
+    {
+     "title": "Palo Alto (PANW) Is Turning Heads Again. Here’s Why",
+     "source": "Insider Monkey",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-panw-turning-heads-022336090.html",
+     "published": "2026-11-20T02:23:36+00:00"
+    },
+    {
+     "title": "Palo Alto Networks celebrates APJ partner achievements",
+     "source": "CRN Asia",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPc2NibGFleG56bWtwMlRsamhtbU1FRTRXRTRfSUtBZzN1ay1yOU9fWlZQek50b1NIc1JaLXNfNDQwU05rTUMyNmh2bF9JMDNkaFhGUWhDVjNUbWEyMTRKejZ5TENQS1RlV3VNR3ctVWNJX3FKbVJDSEdFeHk5bnI3c2k5cHQxN3phNkNERWMxVVUwTjRHSTlrYW9hNkViZXNHUFRyaQ?oc=5",
+     "published": "2026-11-20T02:12:21+00:00"
+    },
+    {
+     "title": "Palo Alto Networks to snap up AI model startup Applied Compute for $4.5B",
+     "source": "SDxCentral",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaDVTRDRMUVZOZzdJY0RPZzR5ajRCZjVDNlowaVEzQVFrbzNaRnJoOFBXSlZPLXFZUG9MZU1PZV9sT3BMMUtJZFN2RzlYTFpOUVhESW9yZHlPa1NuNk1tSGhiR3VfcmRrNlJrd09hemFNb29saExtaU5EN29ZVzFURzVieTR5dmZxOVktMlFLR3lPR1REV2R1MGtpUWY5ZVc5dGthVC1n?oc=5",
+     "published": "2026-11-20T00:30:09+00:00"
+    },
+    {
+     "title": "Palo Alto Networks (PANW) Stock Rallies After Q1 Earnings Revive Profit Story",
+     "source": "Simply Wall St",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMGlUVlFRbF9pU1lZSHlsc0UxaEZIZkw1Y3c3WXpjaWh4OU9udVA5ZVZxSklvR0FCRWlKaXlEUjlia0pGRWhTTWM0M2JQdXIxZndhSGtTQlliTnNVLTctdlhXd2hubFVLcnlqVHc0ZnU3M2FtczRXN29iZlQ3NGQ5S3lOTE9GMU9nM2JodGFER0xMeTlFcmNiejgzankyQ19EU3l4RFFOYmV0WTI0SEh2SWlQcDZsQUhEblFJNVJnN1hkNFNyOWlLLXZ6SkFFaDAtZDJN0gHYAUFVX3lxTE8yenFVMHRyX3E2Zk9NanQyMEhNZWJIQ2s1ZTk3X3czOVAtVXRxemVJUEY1ME43aWR2aDVEMjBGMFhWR2dzWm90MGg2S2FJUlVRWWZabWp2QUgtTVR1dWVOcXdIMHNyMUh0Qll6UHlPMU44cVJjUGZJNkgyY1g3Ty1JYXBzRERRQ3pfWm5peUlPMGVEem9CRGFNd2s5RVBQMXR1WnI0ekE5MFRIM2h2RmhiOXNPSVdJbnNkS0tRdENVNTVYT1JqUjdkWV9lOVQySXlXdHJiQnZBYw?oc=5",
+     "published": "2026-11-19T23:16:01+00:00"
+    },
+    {
+     "title": "Palo Alto Networks (PANW) Stock Jumps As Q1 Results Boost ARR Confidence",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaUd0S1k5NllyV2E5UllFUFZkdEp0RlBVYndwaVAteEZFUkJtWXZwcnp6WEhmY2h4Vnl5ZEg0UG5jQ2RhOUhYQ1hNd2pDMEFZZTdEaFZQajlub0NhMC1iczhILVhVdEZFT3lobzROYlVycVZYQ0VVYkEwSlJ1YWlFZUdTaGhCaGFXS3J0ZFloQU9sdXIyblBSUHln?oc=5",
+     "published": "2026-11-19T23:15:11+00:00"
+    },
+    {
+     "title": "Palo Alto’s CEO Says AI Security “Could Be Bigger Than What We Do Today.” Here’s the Math",
+     "source": "TIKR",
+     "link": "https://finance.yahoo.com/technology/ai/articles/palo-alto-ceo-says-ai-223732045.html",
+     "published": "2026-11-19T22:37:32+00:00"
+    },
+    {
+     "title": "Palo Alto Networks, Inc. Stock 12‑Month Price Target Raised to $414.98, Implies 22% Upside",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbnpERUI1MU0tNXlmUEdMWWt6ejN6b0JFcVBMTVUyYzJkUXIyLUNybUxUUlNFeGZiR2NYRGo3QnNtTXYtc09wV1lhQS1haXRSSlVPZkx2bFJZNTlwQmZxXzhNd0hNN0xUV0kyOGcwbm1WbVJhU0NwREdSLXcwTm93N05MZnYtakdfeVc4bHJtNUVORzkzUzNNZzd0eTl1NGVtdC1jMFRteEdwMVBlY19Fd0k5ZmxMMFVZZXlneEoyN1Vkdk1pY1MxMEI1M1N3cFZtZWJBM1laTllHN3ZMd2FQaQ?oc=5",
+     "published": "2026-11-19T22:20:00+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "acquisition",
+    "label": "Compra / fusión con otra empresa",
+    "quality": 0.5,
+    "note": "El mercado premia la operación; vigila cómo se financia y si la aprueban reguladores.",
+    "confidence": 0.2
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 0.4,
+    "rvol": 10.1,
+    "catalyst": 15.0,
+    "close": 5.8,
+    "size": 10.0
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -16.33,
+    "ath": 432.33,
+    "ath_date": "2026-10-06",
+    "prior_ath": 432.33,
+    "listed_since": "2012-07-20",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 5,
+    "max": 9,
+    "piotroski": "3/9"
+   }
+  },
+  {
+   "symbol": "SVRA",
+   "name": "Savara Inc.",
+   "exchange": "NasdaqGS",
+   "price": 5.21,
+   "day_high": 5.34,
+   "prev_close": 4.72,
+   "change_pct": 10.38,
+   "gap_pct": 1.91,
+   "close_strength": 0.79,
+   "volume": 12257826,
+   "avg_volume": 2416064,
+   "rvol": 5.07,
+   "dollar_volume": 63863273,
+   "market_cap": 1149448448,
+   "pe": null,
+   "pct_from_52w_high": -25.62,
+   "above_sma50": true,
+   "above_sma200": false,
+   "earnings_ts": 1794430800,
+   "market_time": 1795122000,
+   "market_date": "2026-11-19",
+   "market_state": "POSTPOST",
+   "score": 39.4,
+   "news": [
+    {
+     "title": "Why Is Savara Inc. (NASDAQ:SVRA) Up +4.03% in Pre-Market Trading on November 19, 2026?",
+     "source": "kalkine.com",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWnJXWGdoN1ZxV0tmSVZxSlBNODZGVUo3eXdndlppUEMtdDRlQWZqSE5lMGxQWUhEM0F3c1pVR2FBTXJ5Y0dEeUFOeUV4dkxvRjlWeGZ2OWNkeHJmczM5aHl3M1B5T1ZPOW9KWmR3U0VYMVlhOUQ2cWNRb0tIYnBZS2Y2ZXNQd09NdzRZLUNjWE54dUtHMDhoaUpfVTRsVFFjc1piWmdkTDdCUmdGWHJZb0Nfbw?oc=5",
+     "published": "2026-11-19T12:17:00+00:00"
+    },
+    {
+     "title": "Top 5 Biotech Gainers Before the Open on Wednesday, November 18, 2026: Cue Biopharma (NASDAQ:CUE) Up 9.52%, Savara (NASDAQ:SVRA) Up 9.37%, PepGen (NASDAQ:PEPG) Up 8.25%, Polaryx Therapeutics (NASDAQ:PLYX) Up 8.12%, Faeth Ther",
+     "source": "Kalkine",
+     "link": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxPbHdRRGYtT2hlQU9FR2JRZ0EtNko0alVGNGxHV2dRMmN3emxKVVhiNUxOXzBuTFd2dGdRVzRTaEJVOVM1dDJiVkFFMnkzazhxUzRCdUo2MVNnbnQ3NXNGN0RQdkZZS055cWg1c0tvV2RxRy1hZjQzU1loOF8yY296cHlXSVlHYmtPRzN6Uk5xUURRdlNVWDRPVm5raTBJeFhCRy1YdXV1Z0V2emhhTDNqSUg0bDFIajVSMlZNQkpvak15ZHpsb2s0eGVrb05qUzdnWEFCdHZPYV9jOE9QdWdIRlpETS1yakpnRDJVY0JvOWFXY25ETTQwZ09kM2pkbDcydHdJbWgtMmJnTmZQczlwVFdIT1dMR3hvOGVBS0gtU2VERmdack9XZTZSQWU5SDVEWXpNVnl6OVlRTGxvbUwtRmdBQVQtbVJOaE5aRktiTUw5RXFabmMyRm9tTGpPZk5LbDN3MFRzbXVWUXo3Mzc4YWFWcERDeEpVQl8w?oc=5",
+     "published": "2026-11-18T12:06:00+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 4.4,
+    "rvol": 23.8,
+    "catalyst": 3.0,
+    "close": 7.9,
+    "size": 0.3
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -69.69,
+    "ath": 17.19,
+    "ath_date": "2017-12-20",
+    "prior_ath": 17.19,
+    "listed_since": "2017-04-28",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 1,
+    "max": 6,
+    "piotroski": "2/8"
+   }
+  },
+  {
+   "symbol": "DPC",
+   "name": "DPC Holdings PLC",
+   "exchange": "NYSE",
+   "price": 34.18,
+   "day_high": 35.02,
+   "prev_close": 31.92,
+   "change_pct": 7.08,
+   "gap_pct": 2.76,
+   "close_strength": 0.62,
+   "volume": 2228863,
+   "avg_volume": 1476645,
+   "rvol": 1.51,
+   "dollar_volume": 76182537,
+   "market_cap": 5106253824,
+   "pe": null,
+   "pct_from_52w_high": -40.3,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1794490200,
+   "market_time": 1795122002,
+   "market_date": "2026-11-19",
+   "market_state": "POSTPOST",
+   "score": 28.9,
+   "news": [
+    {
+     "title": "Why Is DPC Holdings (NYSE:DPC) Up 9% With a USD 1 Billion Order Book and No New Release?",
+     "source": "Kalkine",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR0M1ak5jeUd3V1FPRE43NGtlNGRjWkVxZEhKV3BoaXdzREZnMkJDOW1tMEhRLXJjOVZVUGFCdTJzSUk0M1ZINnZHOThkMTlMZU55clhWbjhsM0xlSHdKUWJCc1R5QVlUcmw0VVVzOWJPQ2JfOUEwTm9HbVF1VkxpRVNaU0hmSzBxYmRBY3Y4N1E4clBWdXZSOFhlWVAwTzhzZDFYUkVqMU8xOTlQUzdXUjFZazR5akU4T0d3MDFMVk8?oc=5",
+     "published": "2026-11-19T18:05:00+00:00"
+    },
+    {
+     "title": "No inspection wait: Chandigarh owners can raise structures after DPC self-certification",
+     "source": "The Times of India",
+     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPcmdaeXRsQUVjbEw4MWJydXBsT3N0MVFSUW9leFpLbFEzSzg4ZzBpQ2ZBSEZ6bE1OSHRFMzk4bXZYNEYzYWpzOG41bTdDQUgyUjZFVnRoYnBEMWRmT2VlRVdVb2FIVW5iYTRJTUlzR1pjek5uU1N1X2FxZzhST3FGMjFmWTNRU3BRS204SXVQYVNoQmdkUzExQ2RFX3BoUjAwY1ZZZ1ViX1p0YjRWaG5OeHl6QnZkelhtWGFudVEzVVQza3NSNFI1c1B4dDFuVWVtNDdEbFZpUVhJb19QaGtoWGhjdHFrNmdzQjAwTXk4aWdDbENycnJR0gH8AUFVX3lxTFA2em5vTE1GYU83VkVOc0k1dkZqVXM1Y3VRNS13ODVHTEV0TDdRYlF4ckRXNkFLVUFJX0JSNGtVX0pSNUstRUhlWENCSmFEdTQwRWhrUHl6TDJhSWtCemU2WWsyd1VWMkEySTF2RjlrT2tIcG5OLXZLY3hHd2N2MlVLWDVNQ1EwT0Q3b29iSkJpSW5PdXVGRUpOTmVRdFRqZE1lY0kyV0JpSnNCaE94YmRFdkItVmhnZ3lONVNNTTlwUDBJUmpiT3lqQWNwajBxQWlTTGl3T1I2UnVsUXRkYW95NDYyOVFvQXJCeGpFXy1hYjNnZGRSU04wZ2JZTQ?oc=5",
+     "published": "2026-11-19T18:46:00+00:00"
+    },
+    {
+     "title": "DPC Holdings stock trades up, here is why",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZmJDdUpMU3dqZmc0b2VKdmNQUERvandPWTh5aGJ4SWM2MlluYXY2dGxhbEJkQklscEdMdjNaR3Rxb1VkSURrQWR4ZG10a2NFUlpvelc3cEtRcm9KcHVkaVJzdTVtZE9OeFpidHdueERvUjR5TmJGcThHSWt6ZHBRVHlZTzY2bHVnRm5hMzdpeFdUbW5TdHJvUzdmaGJzTVpjS0tJ?oc=5",
+     "published": "2026-11-19T18:15:42+00:00"
+    },
+    {
+     "title": "Why Did Atlas Energy Solutions (NYSE:AESI), Proficient Auto Logistics (NASDAQ:PAL), DPC Holdings (NYSE:DPC) and Unusual Machines (NYSEAMERICAN:UMAC) Rally as Much as 14.61%?",
+     "source": "kalkine.ca",
+     "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOeXRVbjBUWWtycldFU1loVTJld2lCbGNVNWM4OWtBaEpWbVkxTWZCUzBIQWNiQkdyVjJnUzdvNEJFMS1lZU5adEczdEo2UUhCWU5TeDdwaUZveGV3akRhVW9BdjJpd3dhcTZzcHNiaFY4amZfTzFFYmdsZFAzVzVNZE5WRjM3bU5GWE5CRUlnaS05eExQcnRqbEg3QjYyX0ltUEVGYlFIU0R1RThLN3RIbkJvZDF3c2QtQkYyOVJlU2NYQWNmd21BRm1zejJpckp3dS1yYTlPUVBlbW12ajlybU5pYmFMekExSzVCWHBtNFNBOTljNGRfeUJRYkVoZ2p6WmdnUm11cE1waHpOWno5Yk90dmZEMmItd3NGRQ?oc=5",
+     "published": "2026-11-19T18:05:00+00:00"
+    },
+    {
+     "title": "Why Did Atlas Energy Solutions (NYSE:AESI) Jump 14.61% While USA Rare Earth (NASDAQ:USAR), DPC Holdings (NYSE:DPC) and TTM Technologies (NASDAQ:TTMI) Also Gained?",
+     "source": "Kalkine",
+     "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPM3RNZmtzMFRwZUdIeVNQU0NKcHB4REhFdXc0SWJFR3JRTk5ZYjBkeGJZU0ZoREhIT3E0TkpPNUoyekVDaDBiajlraHMxRldUdHNWNDF2c2NUaTFEQlY0VjYwc2VHQWxJdl9WVHNQUDhod2dTWkp6YnVhV25qYUhsXzdvOHlJbjRDNzV6Y3VIdUg4V0dvZjVUbGwyMk5iRmxJUFpGLW1lV2YtbVE0dFBEN0doYkMxQ3pMVHZHTU9nTVNsLVhFQWJXUGR5TklxdUo2SVlJY19PalFWNkttNVdDRnF6eXBJOUs2a2NqVEtqNjV5emwzTnkyVmdNQWpITDlCTmFwRm1uTHRITU1lbEE?oc=5",
+     "published": "2026-11-19T18:05:00+00:00"
+    },
+    {
+     "title": "Why Did Atlas Energy Solutions (NYSE:AESI) Surge 14.61% While USA Rare Earth (NASDAQ:USAR), DPC Holdings (NYSE:DPC) and TTM Technologies (NASDAQ:TTMI) Also Gained?",
+     "source": "kalkine.ca",
+     "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPNkFTNHZ0TDdYRS1YU25Oekp4V1BEQjd1OHF5WDJjQ2tvNWczYWVQS3RBX0RsQnJVNGtoa0dydEUzRDNtcUN3Nl9pd0w3dm4xMGFQdzh1NjJaRkp3dl9WNk1uZFFha2Vpc2xPX1I3S0ZBZzAtQkI5SHhuUjZSc2ZWRnAzVm5EZ1Z0MjRzSFI5NXBTQjh4NDNfcmpmQmk2dk5haTNvUjlJTmt6Mmp6LUpvLVdQZEVsSmZrQU5CNUZscFdreW1LN3N2SHExQXRoTDBBRlY0UTdXd2lWeWZDazc0QkNWbVFBZGZPbmxfUzFZc2dUMmdqd3pOMjdrLVFnM05NTExSTnFVRVB4UQ?oc=5",
+     "published": "2026-11-19T18:05:00+00:00"
+    },
+    {
+     "title": "What Sits behind Gains of as Much as 14.61% at Unusual Machines (NYSEAMERICAN:UMAC), DPC Holdings (NYSE:DPC), Proficient Auto Logistics (NASDAQ:PAL) and Atlas Energy Solutions (NYSE:AESI)?",
+     "source": "Kalkine",
+     "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNWWk4dEx3RTllN3hGeTh0cGtZVEs4dVdFbEN3TVlzekZVM2Y2aE1NWmI5MWMycjJnUjlDLWJ4QXFuUkdwTkxGRDRzUHd4SWFreU5sU2NyOVoydElaSkd3WXVtZjBOUXRGT25uLVV3eU5DalZaMk1jdUFmSkFtZ3B2RnZaY3FrQ1d3SWhFUWFVcFA1RkJKdmF1TmxseElxM0pGZkpTcnN3UEpoUVg4cy1icTZJY3IwRmJuZDROaTgwbDdtYU53LW1OZmVJMnMtUmdBd2lSNFdvV1NxQUxNTjNZc0NmaXB1S19rUGlOeTkxM2QtVFZfVlV6U3dET3d0NkNpd2JaQThMNGNQN2o1Q2hIdXlra0xZSUs4SUV2Q2VqVm5lejVfNlZpak1mYXB4enhqemNwUjNn?oc=5",
+     "published": "2026-11-19T18:05:00+00:00"
+    },
+    {
+     "title": "North and Middle Andaman DPC Meeting Concludes with Focus on Future Development",
+     "source": "ANDAMAN SHEEKHA",
+     "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1UbFhBZ24xVTBPUkU2dVI2QTRNUENWUm9ub2lyUWJ0eW04SDhZV1BZWG85ejVjSEZJQzJCLTFVTzVQZC1xc0ViNWd3?oc=5",
+     "published": "2026-11-19T18:04:18+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "contract",
+    "label": "Contrato / alianza",
+    "quality": 0.6,
+    "note": "Valora el tamaño del contrato frente a los ingresos de la empresa.",
+    "confidence": 0.2
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 1.1,
+    "rvol": 0.1,
+    "catalyst": 18.0,
+    "close": 6.2,
+    "size": 3.5
+   },
+   "appearance": {
+    "count": 2,
+    "previous": [
+     "2026-11-12"
+    ],
+    "window": 10
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -40.3,
+    "ath": 57.25,
+    "ath_date": "2026-08-06",
+    "prior_ath": 57.25,
+    "listed_since": "2026-06-25",
+    "short_history": true
+   },
+   "quality": {
+    "grade": "C",
+    "points": 3,
+    "max": 8,
+    "piotroski": "6/9"
+   }
+  },
+  {
+   "symbol": "KRSA",
+   "name": "Korsana Biosciences, Inc.",
+   "exchange": "NasdaqCM",
+   "price": 35.45,
+   "day_high": 35.85,
+   "prev_close": 33.27,
+   "change_pct": 6.55,
+   "gap_pct": 0.87,
+   "close_strength": 0.88,
+   "volume": 311246,
+   "avg_volume": 111001,
+   "rvol": 2.8,
+   "dollar_volume": 11033671,
+   "market_cap": 1614441216,
+   "pe": null,
+   "pct_from_52w_high": -40.28,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": null,
+   "market_time": 1795122001,
+   "market_date": "2026-11-19",
+   "market_state": "POSTPOST",
+   "score": 22.0,
+   "news": [
+    {
+     "title": "Korsana Biosciences Shareholders Approve Redomestication to Cayman Islands",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNU3lMZWNxaE5xZWdReTRNR0MwNnVlSVVQZ21PZDB0SmRxRjBuamJma1gwNDFKMnBEWV9LZTgwRVZVeXZTVWM5a2xFRC1QdTY2MWpoWS0zMzZNOHlfaDVSTUZDSkFpZzBIbElBYWFQbERPR2Frd0pHR3Fjc042RUpHb01ySUh3N2ZNZ3h6VTFGYmJVQzQxTmVScUdTRmxVY0hOSkgzS3Z6TkJEVENzNzlxMG5JNDh4bXpoMFBxV05LUEdQTkVq?oc=5",
+     "published": "2026-11-19T17:20:33+00:00"
+    },
+    {
+     "title": "Korsana Biosciences at Jefferies Global Healthcare Conference: aims for best-in-class alzheimer’s drug",
+     "source": "Investing.com Nigeria",
+     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQLWtvZl9xYzlKQzBKMDhZV2pqMUVvcWlyc3VQb2VSS2ZvT0lzeW9jdDFpMmtyMHJrajRFbTRST3dyeklDUExQbnRPZE5oYTh1S1FWNTQ0eUhJMXRMVTFnNFBFc2lKR0x5NTFDTFdJYnVaeDF4Q09VUHp5VGtHLUtIQXlSbTFFVUpoNWRCTDkwdzltRTZfaTFibnhBVWw3em4yVnlRS29ROXB5NGVKal96UWNLOVdJXzBqVEdmeDN0YlhRd0Fha19xazR2Q1h6dUp6azRRZEMzNXppVXVCU09ycVVDSWhuR0hhZnNSTU50UDU?oc=5",
+     "published": "2026-11-17T17:21:01+00:00"
+    },
+    {
+     "title": "Cyclerion Therapeutics (NASDAQ:KRSA) Stock Breaks Above 50-Day Moving Average - Should You Sell?",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQR2RvenhqS3FCb3ZCYnBtb1dLcUxFTl9EX1M4bjNESTJXTldvbVo5MGtQZ21mSlRNdFoxUWQwVnphWDdvamNvX3dsWkw0cE9wWW9IOUxGaG1jaF9mUUZjN1ZhVllvdVZxa2JVM2hpMTVWTUpiYkRfUUhSVnhLdm9SX1MxTkJmQl9OSzFDV0dqQ1FjUHZmak9IYUJLU0ZaYTZDSDlCU010Qm80VElxd044cGwtUTNNX19nbDFwbmJidEVFLVhIQ3RRNTNkbVZMc2VTSW50STl2WHBNSWpyQUFHNW56M1VJZw?oc=5",
+     "published": "2026-11-17T09:04:51+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 0.5,
+    "rvol": 8.7,
+    "catalyst": 3.0,
+    "close": 8.8,
+    "size": 1.0
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": null,
+    "suspect": true,
+    "basis": "splits",
+    "pct_from_ath": -98.89,
+    "ath": 3199.0,
+    "ath_date": "2019-04-01",
+    "prior_ath": 3199.0,
+    "listed_since": "2019-03-18",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 1,
+    "max": 5,
+    "piotroski": "3/8"
+   }
+  }
+ ],
+ "holding_up": {
+  "tracked": 87,
+  "items": [
+   {
+    "symbol": "XERS",
+    "name": "Xeris Biopharma Holdings, Inc.",
+    "picked_on": "2026-11-05",
+    "picked_price": 13.08,
+    "price": 16.62,
+    "change_since_pct": 27.06,
+    "from_peak_pct": -2.18,
+    "sessions_since": 10,
+    "last_rvol": 0.75,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "URGN",
+    "name": "UroGen Pharma Ltd.",
+    "picked_on": "2026-11-16",
+    "picked_price": 28.1,
+    "price": 31.73,
+    "change_since_pct": 12.92,
+    "from_peak_pct": 0.0,
+    "sessions_since": 3,
+    "last_rvol": 1.25,
+    "catalyst_label": "Sin noticia clara",
+    "appearances": 1
+   },
+   {
+    "symbol": "TU",
+    "name": "TELUS Corporation",
+    "picked_on": "2026-11-16",
+    "picked_price": 9.57,
+    "price": 10.78,
+    "change_since_pct": 12.64,
+    "from_peak_pct": 0.0,
+    "sessions_since": 3,
+    "last_rvol": 2.91,
+    "catalyst_label": "OPA / la compran",
+    "appearances": 1
+   },
+   {
+    "symbol": "VCEL",
+    "name": "Vericel Corporation",
+    "picked_on": "2026-11-05",
+    "picked_price": 51.78,
+    "price": 58.26,
+    "change_since_pct": 12.51,
+    "from_peak_pct": -2.0,
+    "sessions_since": 10,
+    "last_rvol": 0.71,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "BRBR",
+    "name": "BellRing Brands, Inc.",
+    "picked_on": "2026-11-18",
+    "picked_price": 13.66,
+    "price": 15.11,
+    "change_since_pct": 10.61,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 2.89,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "FROG",
+    "name": "JFrog Ltd.",
+    "picked_on": "2026-11-06",
+    "picked_price": 100.98,
+    "price": 109.27,
+    "change_since_pct": 8.21,
+    "from_peak_pct": -4.47,
+    "sessions_since": 9,
+    "last_rvol": 1.25,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "TMDX",
+    "name": "TransMedics Group, Inc.",
+    "picked_on": "2026-11-06",
+    "picked_price": 88.24,
+    "price": 94.02,
+    "change_since_pct": 6.55,
+    "from_peak_pct": -2.5,
+    "sessions_since": 9,
+    "last_rvol": 0.8,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "APP",
+    "name": "AppLovin Corporation",
+    "picked_on": "2026-11-05",
+    "picked_price": 356.1,
+    "price": 379.02,
+    "change_since_pct": 6.44,
+    "from_peak_pct": -8.72,
+    "sessions_since": 10,
+    "last_rvol": 0.56,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "HROW",
+    "name": "Harrow, Inc.",
+    "picked_on": "2026-11-10",
+    "picked_price": 30.36,
+    "price": 32.13,
+    "change_since_pct": 5.83,
+    "from_peak_pct": -0.09,
+    "sessions_since": 7,
+    "last_rvol": 1.07,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "ENR",
+    "name": "Energizer Holdings, Inc.",
+    "picked_on": "2026-11-17",
+    "picked_price": 27.4,
+    "price": 28.27,
+    "change_since_pct": 3.18,
+    "from_peak_pct": -0.07,
+    "sessions_since": 2,
+    "last_rvol": 1.36,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "AAON",
+    "name": "AAON, Inc.",
+    "picked_on": "2026-11-10",
+    "picked_price": 75.01,
+    "price": 77.08,
+    "change_since_pct": 2.76,
+    "from_peak_pct": -3.95,
+    "sessions_since": 7,
+    "last_rvol": 0.63,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "ADMA",
+    "name": "ADMA Biologics, Inc.",
+    "picked_on": "2026-11-05",
+    "picked_price": 13.21,
+    "price": 13.34,
+    "change_since_pct": 0.98,
+    "from_peak_pct": -2.49,
+    "sessions_since": 10,
+    "last_rvol": 0.86,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "CHA",
+    "name": "Chagee Holdings Limited",
+    "picked_on": "2026-11-12",
+    "picked_price": 13.51,
+    "price": 13.63,
+    "change_since_pct": 0.89,
+    "from_peak_pct": -5.15,
+    "sessions_since": 5,
+    "last_rvol": 0.71,
+    "catalyst_label": "Financiación / recompra",
+    "appearances": 1
+   },
+   {
+    "symbol": "FIGR",
+    "name": "Figure Technology Solutions, Inc.",
+    "picked_on": "2026-11-12",
+    "picked_price": 25.67,
+    "price": 25.84,
+    "change_since_pct": 0.66,
+    "from_peak_pct": -0.84,
+    "sessions_since": 5,
+    "last_rvol": 0.74,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "WWW",
+    "name": "Wolverine World Wide, Inc.",
+    "picked_on": "2026-11-13",
+    "picked_price": 24.89,
+    "price": 24.99,
+    "change_since_pct": 0.4,
+    "from_peak_pct": -3.4,
+    "sessions_since": 4,
+    "last_rvol": 0.77,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "RYTM",
+    "name": "Rhythm Pharmaceuticals, Inc.",
+    "picked_on": "2026-11-17",
+    "picked_price": 116.61,
+    "price": 116.8,
+    "change_since_pct": 0.16,
+    "from_peak_pct": -1.88,
+    "sessions_since": 2,
+    "last_rvol": 0.56,
+    "catalyst_label": "Biotech / FDA / ensayo",
+    "appearances": 3
+   },
+   {
+    "symbol": "AKAM",
+    "name": "Akamai Technologies, Inc.",
+    "picked_on": "2026-11-18",
+    "picked_price": 91.7,
+    "price": 91.71,
+    "change_since_pct": 0.01,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 1.07,
+    "catalyst_label": "Mejora de analista",
+    "appearances": 1
+   }
+  ],
+  "window": 10
+ }
+}

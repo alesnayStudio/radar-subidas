@@ -1305,12 +1305,12 @@
    "returns": {
     "1": 2.15,
     "5": 1.52,
-    "20": null
+    "20": 0.06
    },
    "excess": {
     "1": 2.67,
     "5": 0.81,
-    "20": null
+    "20": 6.35
    },
    "ath_status": "rebound",
    "pct_from_ath": -52.77,
@@ -1335,12 +1335,12 @@
    "returns": {
     "1": -5.51,
     "5": 12.25,
-    "20": null
+    "20": -7.08
    },
    "excess": {
     "1": -4.99,
     "5": 11.54,
-    "20": null
+    "20": -0.79
    },
    "ath_status": "rebound",
    "pct_from_ath": -76.39,
@@ -1365,12 +1365,12 @@
    "returns": {
     "1": 0.93,
     "5": -1.57,
-    "20": null
+    "20": -2.21
    },
    "excess": {
     "1": 1.45,
     "5": -2.28,
-    "20": null
+    "20": 4.08
    },
    "ath_status": "mid",
    "pct_from_ath": -8.32,
@@ -1395,12 +1395,12 @@
    "returns": {
     "1": 0.44,
     "5": 3.08,
-    "20": null
+    "20": 6.13
    },
    "excess": {
     "1": 0.96,
     "5": 2.37,
-    "20": null
+    "20": 12.42
    },
    "ath_status": "mid",
    "pct_from_ath": -26.7,
@@ -1425,12 +1425,12 @@
    "returns": {
     "1": 0.1,
     "5": -4.53,
-    "20": null
+    "20": 0.03
    },
    "excess": {
     "1": 0.62,
     "5": -5.24,
-    "20": null
+    "20": 6.32
    },
    "ath_status": "mid",
    "pct_from_ath": -25.65,
@@ -1455,12 +1455,12 @@
    "returns": {
     "1": -1.7,
     "5": 1.1,
-    "20": null
+    "20": -3.27
    },
    "excess": {
     "1": -1.18,
     "5": 0.39,
-    "20": null
+    "20": 3.02
    },
    "ath_status": "near",
    "pct_from_ath": -3.6,
@@ -1485,12 +1485,12 @@
    "returns": {
     "1": 0.95,
     "5": 3.5,
-    "20": null
+    "20": 6.96
    },
    "excess": {
     "1": 1.47,
     "5": 2.79,
-    "20": null
+    "20": 13.25
    },
    "ath_status": "rebound",
    "pct_from_ath": -66.13,
@@ -1515,12 +1515,12 @@
    "returns": {
     "1": 1.07,
     "5": 0.03,
-    "20": null
+    "20": 3.27
    },
    "excess": {
     "1": 1.59,
     "5": -0.68,
-    "20": null
+    "20": 9.56
    },
    "ath_status": "mid",
    "pct_from_ath": -41.57,
@@ -1545,12 +1545,12 @@
    "returns": {
     "1": -0.66,
     "5": 1.56,
-    "20": null
+    "20": -1.39
    },
    "excess": {
     "1": -0.14,
     "5": 0.85,
-    "20": null
+    "20": 4.9
    },
    "ath_status": "mid",
    "pct_from_ath": -40.91,
@@ -1575,12 +1575,12 @@
    "returns": {
     "1": 2.02,
     "5": 5.71,
-    "20": null
+    "20": 6.48
    },
    "excess": {
     "1": 2.54,
     "5": 5.0,
-    "20": null
+    "20": 12.77
    },
    "ath_status": "mid",
    "pct_from_ath": -6.59,
@@ -5810,12 +5810,12 @@
    "quality": "A",
    "returns": {
     "1": 0.65,
-    "5": null,
+    "5": -3.5,
     "20": null
    },
    "excess": {
     "1": 1.01,
-    "5": null,
+    "5": 1.95,
     "20": null
    },
    "thermo": 55
@@ -5840,12 +5840,12 @@
    "quality": "C",
    "returns": {
     "1": -3.3,
-    "5": null,
+    "5": -11.14,
     "20": null
    },
    "excess": {
     "1": -2.94,
-    "5": null,
+    "5": -5.69,
     "20": null
    },
    "thermo": 55
@@ -5870,12 +5870,12 @@
    "quality": "C",
    "returns": {
     "1": -0.2,
-    "5": null,
+    "5": -0.44,
     "20": null
    },
    "excess": {
     "1": 0.16,
-    "5": null,
+    "5": 5.01,
     "20": null
    },
    "thermo": 55
@@ -5900,12 +5900,12 @@
    "quality": "C",
    "returns": {
     "1": -0.23,
-    "5": null,
+    "5": -24.94,
     "20": null
    },
    "excess": {
     "1": 0.13,
-    "5": null,
+    "5": -19.49,
     "20": null
    },
    "thermo": 55
@@ -5930,12 +5930,12 @@
    "quality": "A",
    "returns": {
     "1": -1.75,
-    "5": null,
+    "5": 0.66,
     "20": null
    },
    "excess": {
     "1": -1.39,
-    "5": null,
+    "5": 6.11,
     "20": null
    },
    "thermo": 55
@@ -5960,12 +5960,12 @@
    "quality": "B",
    "returns": {
     "1": 6.37,
-    "5": null,
+    "5": 0.89,
     "20": null
    },
    "excess": {
     "1": 6.73,
-    "5": null,
+    "5": 6.34,
     "20": null
    },
    "thermo": 55
@@ -5990,12 +5990,12 @@
    "quality": "B",
    "returns": {
     "1": 0.65,
-    "5": null,
+    "5": -11.05,
     "20": null
    },
    "excess": {
     "1": 1.01,
-    "5": null,
+    "5": -5.6,
     "20": null
    },
    "thermo": 55
@@ -6020,12 +6020,12 @@
    "quality": "B",
    "returns": {
     "1": 2.34,
-    "5": null,
+    "5": -0.76,
     "20": null
    },
    "excess": {
     "1": 2.7,
-    "5": null,
+    "5": 4.69,
     "20": null
    },
    "thermo": 55
@@ -6050,12 +6050,12 @@
    "quality": "B",
    "returns": {
     "1": -3.08,
-    "5": null,
+    "5": -7.76,
     "20": null
    },
    "excess": {
     "1": -2.72,
-    "5": null,
+    "5": -2.31,
     "20": null
    },
    "thermo": 55
@@ -6080,12 +6080,12 @@
    "quality": "B",
    "returns": {
     "1": -4.76,
-    "5": null,
+    "5": -5.03,
     "20": null
    },
    "excess": {
     "1": -4.4,
-    "5": null,
+    "5": 0.42,
     "20": null
    },
    "thermo": 55
@@ -6919,12 +6919,12 @@
    "spy_change": -0.31,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": 10.61,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 12.57,
     "5": null,
     "20": null
    },
@@ -6949,12 +6949,12 @@
    "spy_change": -0.31,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": -0.63,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.33,
     "5": null,
     "20": null
    },
@@ -6979,12 +6979,12 @@
    "spy_change": -0.31,
    "quality": "A",
    "returns": {
-    "1": null,
+    "1": -5.35,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -3.39,
     "5": null,
     "20": null
    },
@@ -7009,12 +7009,12 @@
    "spy_change": -0.31,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": -4.82,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -2.86,
     "5": null,
     "20": null
    },
@@ -7039,12 +7039,12 @@
    "spy_change": -0.31,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -5.81,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -3.85,
     "5": null,
     "20": null
    },
@@ -7069,12 +7069,12 @@
    "spy_change": -0.31,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": -14.49,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -12.53,
     "5": null,
     "20": null
    },
@@ -7099,12 +7099,12 @@
    "spy_change": -0.31,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": 0.01,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.97,
     "5": null,
     "20": null
    },
@@ -7129,12 +7129,12 @@
    "spy_change": -0.31,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": -3.67,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -1.71,
     "5": null,
     "20": null
    },
@@ -7159,12 +7159,12 @@
    "spy_change": -0.31,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": -2.41,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -0.45,
     "5": null,
     "20": null
    },
@@ -7189,6 +7189,37 @@
    "spy_change": -0.31,
    "quality": "B",
    "returns": {
+    "1": -6.5,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": -4.54,
+    "5": null,
+    "20": null
+   },
+   "thermo": 19
+  },
+  {
+   "date": "2026-11-19",
+   "symbol": "INSM",
+   "name": "Insmed Incorporated",
+   "rank": 1,
+   "score": 63.9,
+   "price": 144.46,
+   "change_pct": 20.58,
+   "rvol": 5.13,
+   "catalyst": "takeover",
+   "catalyst_label": "OPA / la compran",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -32.1,
+   "close_strength": 0.86,
+   "day_gap": -0.25,
+   "spy_change": -1.96,
+   "thermo": 9,
+   "quality": "C",
+   "returns": {
     "1": null,
     "5": null,
     "20": null
@@ -7197,8 +7228,277 @@
     "1": null,
     "5": null,
     "20": null
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "symbol": "PDD",
+   "name": "PDD Holdings Inc.",
+   "rank": 2,
+   "score": 62.4,
+   "price": 86.0,
+   "change_pct": 11.04,
+   "rvol": 3.68,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -59.55,
+   "close_strength": 0.74,
+   "day_gap": 6.61,
+   "spy_change": -1.96,
+   "thermo": 9,
+   "quality": "A",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
    },
-   "thermo": 19
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "symbol": "BRBR",
+   "name": "BellRing Brands, Inc.",
+   "rank": 3,
+   "score": 53.7,
+   "price": 15.11,
+   "change_pct": 10.61,
+   "rvol": 3.1,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 2,
+   "ath_status": "rebound",
+   "pct_from_ath": -81.27,
+   "close_strength": 0.72,
+   "day_gap": 0.81,
+   "spy_change": -1.96,
+   "thermo": 9,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "symbol": "VVV",
+   "name": "Valvoline Inc.",
+   "rank": 4,
+   "score": 53.0,
+   "price": 36.84,
+   "change_pct": 10.4,
+   "rvol": 3.36,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -23.67,
+   "close_strength": 0.73,
+   "day_gap": 2.13,
+   "spy_change": -1.96,
+   "thermo": 9,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "symbol": "TU",
+   "name": "TELUS Corporation",
+   "rank": 5,
+   "score": 46.5,
+   "price": 10.78,
+   "change_pct": 13.35,
+   "rvol": 3.75,
+   "catalyst": "takeover",
+   "catalyst_label": "OPA / la compran",
+   "appearance": 2,
+   "ath_status": "rebound",
+   "pct_from_ath": -60.8,
+   "close_strength": 0.9,
+   "day_gap": 5.42,
+   "spy_change": -1.96,
+   "thermo": 9,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "symbol": "YMM",
+   "name": "Full Truck Alliance Co. Ltd.",
+   "rank": 6,
+   "score": 42.7,
+   "price": 9.06,
+   "change_pct": 8.11,
+   "rvol": 1.56,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -57.86,
+   "close_strength": 0.98,
+   "day_gap": 6.68,
+   "spy_change": -1.96,
+   "thermo": 9,
+   "quality": "A",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "symbol": "PANW",
+   "name": "Palo Alto Networks, Inc.",
+   "rank": 7,
+   "score": 41.3,
+   "price": 361.73,
+   "change_pct": 6.42,
+   "rvol": 3.02,
+   "catalyst": "acquisition",
+   "catalyst_label": "Compra / fusión con otra empresa",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -16.33,
+   "close_strength": 0.58,
+   "day_gap": 4.67,
+   "spy_change": -1.96,
+   "thermo": 9,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "symbol": "SVRA",
+   "name": "Savara Inc.",
+   "rank": 8,
+   "score": 39.4,
+   "price": 5.21,
+   "change_pct": 10.38,
+   "rvol": 5.07,
+   "catalyst": "none",
+   "catalyst_label": "Sin noticia clara",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -69.69,
+   "close_strength": 0.79,
+   "day_gap": 1.91,
+   "spy_change": -1.96,
+   "thermo": 9,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "symbol": "DPC",
+   "name": "DPC Holdings PLC",
+   "rank": 9,
+   "score": 28.9,
+   "price": 34.18,
+   "change_pct": 7.08,
+   "rvol": 1.51,
+   "catalyst": "contract",
+   "catalyst_label": "Contrato / alianza",
+   "appearance": 2,
+   "ath_status": "mid",
+   "pct_from_ath": -40.3,
+   "close_strength": 0.62,
+   "day_gap": 2.76,
+   "spy_change": -1.96,
+   "thermo": 9,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-19",
+   "symbol": "KRSA",
+   "name": "Korsana Biosciences, Inc.",
+   "rank": 10,
+   "score": 22.0,
+   "price": 35.45,
+   "change_pct": 6.55,
+   "rvol": 2.8,
+   "catalyst": "none",
+   "catalyst_label": "Sin noticia clara",
+   "appearance": 1,
+   "ath_status": null,
+   "pct_from_ath": -98.89,
+   "close_strength": 0.88,
+   "day_gap": 0.87,
+   "spy_change": -1.96,
+   "thermo": 9,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
   }
  ]
 }
