@@ -1,0 +1,499 @@
+{
+ "date": "2026-11-20",
+ "generated_at": "2026-11-21T02:39:43+00:00",
+ "market_state": "POSTPOST",
+ "filters": {
+  "min_change_pct": 6.0,
+  "min_market_cap": 1000000000,
+  "min_price": 5.0,
+  "min_dollar_volume": 10000000,
+  "min_rvol": 1.5
+ },
+ "universe": {
+  "raw_gainers": 5,
+  "passed_filters": 3
+ },
+ "market": {
+  "SPY": {
+   "label": "S&P 500",
+   "change_pct": -3.64
+  },
+  "QQQ": {
+   "label": "Nasdaq 100",
+   "change_pct": -5.67
+  },
+  "IWM": {
+   "label": "Russell 2000",
+   "change_pct": -2.88
+  }
+ },
+ "sentiment": {
+  "score": 5,
+  "label": "Miedo",
+  "icon": "😨",
+  "parts": [
+   {
+    "key": "trend",
+    "label": "Tendencia",
+    "score": 0,
+    "text": "S&P 500 -7.8% vs media 20 sesiones, -9.2% vs media 50"
+   },
+   {
+    "key": "momentum",
+    "label": "Impulso",
+    "score": 0,
+    "text": "S&P 500 -8.6% en 5 sesiones"
+   },
+   {
+    "key": "fear",
+    "label": "Calma (VIX)",
+    "score": 0,
+    "text": "VIX 35.9 (menos de 15 = calma, más de 25 = miedo)"
+   },
+   {
+    "key": "breadth",
+    "label": "Amplitud",
+    "score": 0,
+    "text": "5 acciones subieron más del 6%"
+   },
+   {
+    "key": "follow",
+    "label": "Seguimiento",
+    "score": 24,
+    "text": "Las selecciones de las últimas 5 sesiones: -1.6% de media al día siguiente (47)"
+   }
+  ]
+ },
+ "score_weights": {
+  "move": 20,
+  "rvol": 30,
+  "catalyst": 30,
+  "close": 10,
+  "size": 10
+ },
+ "top": [
+  {
+   "symbol": "GAP",
+   "name": "The Gap, Inc.",
+   "exchange": "NYSE",
+   "price": 20.94,
+   "day_high": 22.16,
+   "prev_close": 18.79,
+   "change_pct": 11.44,
+   "gap_pct": 7.77,
+   "close_strength": 0.42,
+   "volume": 28018446,
+   "avg_volume": 7119673,
+   "rvol": 3.94,
+   "dollar_volume": 586706259,
+   "market_cap": 7355596800,
+   "pe": 6.66879,
+   "pct_from_52w_high": -28.68,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1795122000,
+   "market_time": 1795208403,
+   "market_date": "2026-11-20",
+   "market_state": "POSTPOST",
+   "score": 55.7,
+   "news": [
+    {
+     "title": "The Gap, Inc. 2026 Q3 - Results - Earnings Call Presentation (NYSE:GAP) 2026-11-20",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd2RDMDVnS09yeUR2LVFQUUNSWVphdEoxMmQ5SUUzb255WnRKSEVBbnVvRG14RnpEWnZqTkJuZk9ZSXNwWlpWek9TcjQ4RUc1cmxpLVA3V0VNNTRJMUhEVHktMjNEZ0YwOF9DLWFxUlYxanY1VlhSaGt3dldqOGhxVG43cTY5WTJOSklRMTlqTVk1cEVXRzJvSVJQSXd6WlRYSTQwZ3ZFSktlWVZZNTZnT0VCeXg3R0w0SkJuOQ?oc=5",
+     "published": "2026-11-21T01:00:57+00:00"
+    },
+    {
+     "title": "Why Is Gap (NYSE:GAP) Stock Surging 12% in US Trading After Q3 Earnings Despite Lower Guidance?",
+     "source": "Kalkine",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNG5yYVRvVUo3LWJXOERuVkNkWk1fUWlYbGJLQ0hSS3NoWDA0Z3prVmtsLWowd0tIU3lEM3ZZbUhmYzliTTM0WFlzQ0hZOGNXWHViMzJjMnZKcklRRjdPYWhCSXhLYnVlUnRGazNaLW9FX2hNeXIyNGR3b0xrbmdJUFQ5cjBHaGV1SUxlbGlQLXFvdjh5SzBsaUhBVGtjSFM2anB3eEhxRlZGZkt6ZlIxRllOWU1CNlVoUzBVTWNpMzBkbnc?oc=5",
+     "published": "2026-11-20T20:25:00+00:00"
+    },
+    {
+     "title": "GAP Q3 Earnings Beat Estimates on Cost Discipline, Sales Rise Y/Y",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeU5nNDNDcFJKZXNHSlRfNzFyTHU4SEJmbThmVEhuNHhUakZIODFCZjk4eDdTbVhRV3JLel9kb2hrblNhZC0yMVhtVnJYV3hORmprc2hkblpCWDBQTno0VVdROGNTOWZ5Q0JYck5xWTRtWXZzVU1PTVlPUkdhQXBobzNpUk5KT3lIREpVM0F5cFM2T0QtTXduUGlvX1pmYnJueW0zaF9FZk00aUtwX012VkpfLWo0VFJxRDRGSA?oc=5",
+     "published": "2026-11-20T14:49:00+00:00"
+    },
+    {
+     "title": "GAP (NYSE:GAP) Stock Price Target Lowered at Telsey Advisory Group",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQjQyZ0xzWDVsRmJKblNmenRyZXNLTmxoeTZQQVY1YU9wXzhUSEZqTUZXN2pCUkdxdXZ5RDlEeUx3T1I3SDAwTWdvMkNwNU5sM25OcG9nak1faUpyRUt1TUdzNEZwczBoZUo3ODBnVzRyOE82TFhJSU5FanJwcl84MDBtdXBTbnUxTUdoQTEwTERKVk5vY21uSlpqRFZEUHA5dWN6Z2JWNjAwZnpXeFVkck1FeElkZFdtUk1VNUxKT1l3Q0Rv?oc=5",
+     "published": "2026-11-20T20:08:30+00:00"
+    },
+    {
+     "title": "GAP (NYSE:GAP) Stock Price Target Cut by UBS Group",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPd0F2R3VlU1RxbzUxcTJQQTF2Z0p2Wmkyc2NqTjRSMEdXQjFVTlhTTmNzS3U0Snhwa2Y3eU9sTERrdjRwaDIwdHNEQm1XdlF3bWc5cTRjQ29uQWZSdGtBRVl2WDdJQThSb3ExbFJiZGVIZEpEaG52UlIxTER4dGhMTW15M2x3alNrdXRmMUs4Qk9xd3ItMEc5aGhaM0ZPSlBmYWdIUTd5UjZBeGlLWGZz?oc=5",
+     "published": "2026-11-20T18:56:06+00:00"
+    },
+    {
+     "title": "Bank of America Has Lowered Expectations for GAP (NYSE:GAP) Stock Price",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSTFVck1xVTVKZVJGNGZldzlXeUtSTkNMVUMxOUZ0SG1DNjFTSGRXWEVPbnd3TWlNcE8tRVpNbFNhdEV1OUJiajVMOVdnYnRtU2JETzZwVkxuOEFrcnBEY2dNMzdzeUVyNUJERGhqeE1WeUZsQUFVbUZpYnZnTklMUFpNdGZxNEhPcF93d25tb3E5NXNwMnU1VkNXUXF4VUFld3R1MGNnbmZGbXo3eS0tMmVVTnNKOGRQUDl5c1A4OVJyMWZKVWcyWXJnZw?oc=5",
+     "published": "2026-11-20T17:59:06+00:00"
+    },
+    {
+     "title": "Barclays Has Lowered Expectations for GAP (NYSE:GAP) Stock Price",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS21RSmp2NDNVaGdZLVI5WThWbHUycGRGZktNS1k3VEN6c0w1a0pMTHE0NWtzY3l2OXUtS2tzdjZCTEp0RHQ2Ulg4djJOY182cHNpamszNDAteV9BaWZkOUZZM3JWNktfUVZ5ZFR4SFc2ZkJFdDJHR3hBbWRwU3ktcVNOUG4yWDZuM0g3VWxYekNPQ3NDaW5vS1lTWXdNMnVmcVpyai04NENOdEpkcDlFWjZfdlA2dEdXWl9sZDdMbDYtdw?oc=5",
+     "published": "2026-11-20T15:57:58+00:00"
+    },
+    {
+     "title": "The Gap: Bad News Is In The Price (NYSE:GAP)",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE13SzdBNWpzWlptMGoxa1F5T2FDSi1ENU83QmM5OGdrX2p3djBQZlY0TEpRbC1lQUVfTDgzNHN6bmlySE5WYk5BcTgxdzdWZzJDUGZEamhucnRhQ0hubUhudHhvY2dIdzltbld2cUF4UTFBRVlkRl9CVnBwcw?oc=5",
+     "published": "2026-11-20T13:30:06+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 1
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-11-19T16:00:00-05:00"
+   },
+   "score_parts": {
+    "move": 5.4,
+    "rvol": 16.3,
+    "catalyst": 25.5,
+    "close": 4.2,
+    "size": 4.3
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -61.04,
+    "ath": 53.75,
+    "ath_date": "2000-02-04",
+    "prior_ath": 53.75,
+    "listed_since": "1980-03-17",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 6,
+    "max": 9,
+    "piotroski": "6/9"
+   }
+  },
+  {
+   "symbol": "GPN",
+   "name": "Global Payments Inc.",
+   "exchange": "NYSE",
+   "price": 91.83,
+   "day_high": 95.5,
+   "prev_close": 83.52,
+   "change_pct": 9.95,
+   "gap_pct": 0.59,
+   "close_strength": 0.7,
+   "volume": 9535931,
+   "avg_volume": 2858175,
+   "rvol": 3.34,
+   "dollar_volume": 875684544,
+   "market_cap": 24301506560,
+   "pe": 163.98215,
+   "pct_from_52w_high": -10.77,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1793885400,
+   "market_time": 1795208403,
+   "market_date": "2026-11-20",
+   "market_state": "POSTPOST",
+   "score": 39.1,
+   "news": [
+    {
+     "title": "Global Payments Jumps 10% as Largest Holder GTCR Weighs $50 Billion Buyout",
+     "source": "BigGo Finance",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpTXQ4U2o3QjJybUNUNWJodFZSTFRjaGNFNjdTTHlTRHY1V2pNcC05X0lqeU9nQ3NsM0Jzbk1zQ0lUX1ZYLUoxd0pfSGY1X0stR1ZqSnI3SXZ5VWhqdERjYU1VbmdXbUxLeU9LSE1vQWpJM3hMVEE?oc=5",
+     "published": "2026-11-20T23:35:00+00:00"
+    },
+    {
+     "title": "GTCR explores potential takeover of payments firm Global Payments",
+     "source": "Columbus Ledger-Enquirer",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5qb1lObFZwX3VHOGJ2cThwLVFCeWZVMWpFZXpYNHpILU5pSThWdGxSYTdQd3RmX3JMdVJmQ0VRbjV2UHBVTi11cmxkQWVhRG1NM01MU3JiYUtnMUZYbzVIbnlpcWNwcV9hcHg3V251RnZPQldNUUE?oc=5",
+     "published": "2026-11-20T23:34:06+00:00"
+    },
+    {
+     "title": "GTCR says it may propose to buy all of Global Payments, a week after reports it dropped its pursuit",
+     "source": "MLQ.ai",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQjZvR1VCZ2xyRUZnWWJHMHduMVFMNUNqNy0xTG9UUGhIVWxMSUNURUtza01LSnI2dW9IRktELVZKMUw2cmFvX3lOaWNzYS1XeDF3MDNFT0Uzel9aQ2tnMnctYTBpVW9WRHdfM3Y5S0xSU3hPZm81bTVkRWNTb3FhR0EtdS1SLXR3M2lWUkszdmtkRG81dEkxN09ubUZpdW1NSzY4TUh0ZE1TelJ1bTh5U0t0aUtuTjk5UDZj?oc=5",
+     "published": "2026-11-20T23:21:45+00:00"
+    },
+    {
+     "title": "GTCR W Aggregator LP Considers Buyout Proposal at Global Payments with 16.35% Stake",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQVZHWHdvN0lHSEhnaWdmajQ0MG9WTHpoRmFZQVpqc1pMMEZrVy14Q2g2ZFpqRFJIdkZpUVZ5ZU54MTMzdlV2TDVoVktIb3Nnc3lvVVdyR0tjZktSOG9fTDJxTkpRekZmRlE4VFI0Uk9FMG1UMWdETEI4MnQ5VU15NFM3dGtFODYwd2g4YW9jNFhxd0hYbFFiUzg0WVR3TU1PdzJMN3hGNFB2YmdFanFwazBiUU11NEt6QVUxQVc1VnF4aUVSd2ZNNjNZR3N1a29lUmUyeklrU2VDdVJH?oc=5",
+     "published": "2026-11-20T22:06:04+00:00"
+    },
+    {
+     "title": "An offer for all Global Payments (GPN) shares GTCR doesn’t own is among the options it’s weighing.",
+     "source": "Stock Titan",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNR3A2UGczaXJwSVFnQTRMZkFjVTBRZ3NraVZHMmNDYTl1X0ZrTE8taFZRUnUyMkszMmtMN1BfRlVhMV90bVAza1pOUWpjdFFJdmFwZk5hdjJYU3NPakxTbldVYkIxR1FhbHlCdmVveWZvN2NHV0U2bTVVQ25NbHNPMDl5bFJxNWpsSjZMWTRSLVlEQVE5RG13bE56ejZKWENZeWZTdE1NcjBjaXhEZmhIdmdOS0lGTVVCZGVac2wxQV9FQmM?oc=5",
+     "published": "2026-11-20T22:02:16+00:00"
+    },
+    {
+     "title": "A Look at Global Payments Inc (GPN) After 9.9% Gain -- GF Value $121.89 vs Price $91.83",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZllGaDE5RU55VE1Oa1BnTzVmYzJqdGdIekdpUmYteXUzakh5N3BVRVFGYU1tNXpYOG94Wk8tRUlzdW9WQVphVkw2WGptOFhmbmRCRmNTQ09nSHRtR09PVk1xLW01dkt5anR2amFmN1hGdFdzb2VDeWtxbFhvVkR6dC1iYzg2UnZQUjFNb2tGWEcyUUI0TEhlNmNuaV8yNXpxaXVMUXlnbTdBR09IdU5nRDd1dUgzQQ?oc=5",
+     "published": "2026-11-21T01:26:04+00:00"
+    },
+    {
+     "title": "GTCR weighs $50 billion Global Payments buyout",
+     "source": "Crain's Chicago Business",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd3UwallyamZYTXRYcVM1Vk93am93RG85MHpVUFlkTFJLd1BobjJRZzdETTVCQW91Vlh0cWJfeVZWUGIyOHV3OEplZm9sNXlfUi1rcUlJanRoczlmV3VWZkRqUmdpWVNURDFxNG9KTHZRaENQOWJFNVF2bGJKaXd6ZzJjZFRBSnBCbURrb1draWNoTjA?oc=5",
+     "published": "2026-11-21T00:52:53+00:00"
+    },
+    {
+     "title": "GTCR Is Said to Weigh $50 Billion Global Payments Buyout",
+     "source": "Bloomberg.com",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPR3RKOGNONDliQ213RjdVUjJjcUZyYzVQLUx3S0dZOUs1QTVjWEphcTQ4SFVfVlZDSDR3QTlJelFCOHhocEtYZm5ldUVMekRDUGFrVUgzWURDMm4xQXJyZzdDQVFkM3NZUVY0R0FMQmpSTzZYX1B2VzR2Q0dVQjFnUjc1NDFMSGQwTWdzd3NiSHAyOVJoZlhuX2FMbUVXN0F6WExucUZxdk53U0VCZEY1WXF3?oc=5",
+     "published": "2026-11-20T22:58:31+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "takeover",
+    "label": "OPA / la compran",
+    "quality": 0.3,
+    "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
+    "confidence": 1
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 3.9,
+    "rvol": 12.3,
+    "catalyst": 9.0,
+    "close": 7.0,
+    "size": 6.9
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -58.41,
+    "ath": 220.81,
+    "ath_date": "2021-04-26",
+    "prior_ath": 220.81,
+    "listed_since": "2001-01-16",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 5,
+    "max": 9,
+    "piotroski": "5/9"
+   }
+  },
+  {
+   "symbol": "SPB",
+   "name": "Spectrum Brands Holdings, Inc.",
+   "exchange": "NYSE",
+   "price": 80.65,
+   "day_high": 80.82,
+   "prev_close": 75.87,
+   "change_pct": 6.3,
+   "gap_pct": 0.51,
+   "close_strength": 0.96,
+   "volume": 655130,
+   "avg_volume": 348243,
+   "rvol": 1.88,
+   "dollar_volume": 52836234,
+   "market_cap": 1856382976,
+   "pe": 36.659092,
+   "pct_from_52w_high": -18.58,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1801747800,
+   "market_time": 1795208403,
+   "market_date": "2026-11-20",
+   "market_state": "POSTPOST",
+   "score": 16.7,
+   "news": [
+    {
+     "title": "Why Is Spectrum Brands (NYSE:SPB) Trading on Heavy Volume? Here Is What We Know",
+     "source": "kalkine.ca",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa2x6cWhnVEpqS1A1RTNHcVRKZGxNZ3JZTC1NVDVDQlQ1SExMTDdwXzNhbjNPbGZsWmZkZnBQTGVnalVZcG1mSlhmRngySnByWHBYRHpZM3ZSY0tJd3pyb3dzM3RFcmNkSDhqQ1NwcVIxZXRDZFZycW9ueW10b2Nwb2xscDJxQUhPQVVRRE5WQWowLWxCTWVFNWNmUC1LU3J0NGUxVmdGaHdoMno3?oc=5",
+     "published": "2026-11-20T20:57:00+00:00"
+    },
+    {
+     "title": "Why Is Spectrum Brands (NYSE:SPB) Stock Up 4% in US Trading After Its Rejected Helen of Troy Bid?",
+     "source": "Kalkine",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSmZTRDhaTGRaU192dDdSdWVTcy0yaHhkLVdqTjQ3WWVaN1V0dUxvQ0dLT0pkbk0yX3kta3dPdTRWeGFhM1VIelJfTV9WVHhCY0xwbkZvMi16S041OXZpeHB1UEZlM0RQNXF0dEtZd2NoaWNvc3lRYldwUmRkQW5Dd2x4dXM4QlotWTFxNFd5UmMzVS1FNUlTU0l4ckVSNnZzQ3NPbkRQOEh4V1l2dVo1M09zbkRTNjFaWUNpNjY2Sllsc3l2RXowWA?oc=5",
+     "published": "2026-11-20T20:25:00+00:00"
+    },
+    {
+     "title": "J. M. Smucker, Campbell's, Inter Parfums, Spectrum Brands, and Hormel Foods shares are soaring, what you need to know",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOMjBKZi1iVnNEMjdtS1BLOTJwSzFSWWFXeWlncG9jZklveGVJRkNuSVlTWHkxbmg1NXlzcG9FY1hoZGh4VHdpRVBRVmFkQ3AzLUkyNFdnS0lYMXp0ckxJNU50RXRpX1prNzJCX2NGQlg2U2IyNHZmRGlLSUFab1I1REZ4RlU3WG44by1MX0RDbzJOQ1NLdU5SaDFTUTRQSzQ2bkdpR2V0dy1VajJjVkx0bTIwUlNLYWZXeHFzUWVwcThTN1ctZnFDN1lycnY0Y1hqSWppc1d5WDRyNmFqRXh3cnRiai1JaU1lbHZ6MHBtLUw4LVRBaGV0dkpyeEEtMVVf?oc=5",
+     "published": "2026-11-20T20:10:36+00:00"
+    },
+    {
+     "title": "Spectrum Brands (NYSE:SPB) Stock Jumps 4.4% - What's Next?",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTDFUbGdaNjNISS1rYTNHY1cxMUlwckdITzNvSFoyR1FILTVSWUpaMDRVdFdXN1Z2NFNvZWtIZDk0bHhmVGtnT3EtaWRkeXIyOTExOWhDN1YzMTg4SG1FQzFVd2xYWmstdlNUQTdpWjVoVC1ENTZleWREUlFkek5Lb2VDa3NGUWFyTnp5N2RWeWxiSE9aT19pN3RheU9XSnNKN0haZkVER1BBQzR5czRV?oc=5",
+     "published": "2026-11-20T19:04:19+00:00"
+    },
+    {
+     "title": "Spectrum Brands Holdings (SPB) Could Be 24% Undervalued After Soft Earnings And 2027 Guidance",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcEFKcDl5M0RoYUlDWlVTTy16M1BoNmpxVlNXY0JXRWhoNlJXMWVOelhBZFcyN3J5VE1Xb1RGZEpaelJrUkR6SnJmcE1CLTYyTWoxdW94endwYUF2ai10V1doZXlldGp6dW1yc2pHS1BxeDJ3ajVJR2gwQmY4SVo3aUtWdDJtYXFXbDdnQnhQaXoxN3BsOXVvNkVrdnNZN1Yw?oc=5",
+     "published": "2026-11-20T16:12:01+00:00"
+    },
+    {
+     "title": "We Think You Can Look Beyond Spectrum Brands Holdings' (NYSE:SPB) Lackluster Earnings",
+     "source": "Simply Wall St",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQTDBLR2VlcDR3VDQtQnozUnA3R2NJS3J6WUd2ekMzX092bE82ckwxb1RHUm1OeTM0RWxYSEdPTXkxTDNGTWthai1aQ2RSYTJ1eGVmdkxKZjhIRm4wczFJWGRNZTNINkpJYTNyX0ZXSF9xeGFiQ3FobUZNaTJMWGU1NFVLMC1aQ29tUm1LQVY2NVhmT3FwZjItX1pQSW1aUFdxcmMyTWZtd01RTEU3ODYxeHFHMm16TWt2bTNmdGNmczA4aVNiZEhrZjgtYkc2ci14amhwOTVJQ3bSAd4BQVVfeXFMUFFyUjhEQXVzMW1fQkRiQjBLZEY3OFlFb01kQ3dMajNPc0RZOWw5SWNWVHhUWXpLdk9kUHVsN1loRDJyY25VdV9iSTE3NlRjbXp2a0lycTRGb0U3WmNYcGJId09Za241VldjYXQyUWJYUmxXc3pRQ2xWUThKZFVXaG14alEyQi1mcG1vdmVrUVBJVU4tZi14MHdRNHBiYkc0VHEzVVBuaThWckNrSnVpYTBSb21oenctQllsWE9OTUhKTzIzTE9kT2VldlJmU1ZNbExaMWlmZ0tBemdWZ2Vn?oc=5",
+     "published": "2026-11-20T10:07:11+00:00"
+    },
+    {
+     "title": "Spectrum Brands Holdings, Inc. (SPB) Stock Price, News, Quote & History",
+     "source": "Yahoo! Finance Canada",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBJd016dXZqLTlPWFMtRTFjOENzRVdfR21Pd05qSzVkVFgtYWJ5eWZ6MzVCeFpBbm5zLV9ZN1oyNmM4V0tZMENZbUFWYS1zQVFU?oc=5",
+     "published": "2026-11-19T20:53:06+00:00"
+    },
+    {
+     "title": "Spectrum Brands evp Zargar sells $2.44 million in shares By Investing.com",
+     "source": "Investing.com Nigeria",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQak1NdDkwUktJRlBtRUZxRFpVR19rcTkya3hCVVBlXzVDR0ZLQ25XN3BSQTB4MUlGZ0tlTWRYdWg5d2tUNzkyRFkzMHJsbTJVdVRaVXNXUnJveEhNMkphUXJzcjhNY0V6aFNYd3RhaG90SUc5UlJyN3dkdUNmUTE3SHJqaG9IbndxNEJ0WnAwQlJUa1JXLVNOR3EweHJfbDRWdGRfTEdYbHdka2k3UzRwT19vSkFhZw?oc=5",
+     "published": "2026-11-19T13:34:52+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 0.3,
+    "rvol": 2.5,
+    "catalyst": 3.0,
+    "close": 9.6,
+    "size": 1.3
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -94.72,
+    "ath": 1528.74,
+    "ath_date": "1981-01-06",
+    "prior_ath": 1528.74,
+    "listed_since": "1979-01-02",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 5,
+    "max": 9,
+    "piotroski": "6/9"
+   }
+  }
+ ],
+ "holding_up": {
+  "tracked": 86,
+  "items": [
+   {
+    "symbol": "KRSA",
+    "name": "Korsana Biosciences, Inc.",
+    "picked_on": "2026-11-19",
+    "picked_price": 35.45,
+    "price": 37.56,
+    "change_since_pct": 5.95,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 1.32,
+    "catalyst_label": "Sin noticia clara",
+    "appearances": 1
+   },
+   {
+    "symbol": "ENR",
+    "name": "Energizer Holdings, Inc.",
+    "picked_on": "2026-11-17",
+    "picked_price": 27.4,
+    "price": 28.56,
+    "change_since_pct": 4.23,
+    "from_peak_pct": 0.0,
+    "sessions_since": 3,
+    "last_rvol": 1.31,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "TU",
+    "name": "TELUS Corporation",
+    "picked_on": "2026-11-19",
+    "picked_price": 10.78,
+    "price": 11.07,
+    "change_since_pct": 2.69,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 1.71,
+    "catalyst_label": "OPA / la compran",
+    "appearances": 2
+   },
+   {
+    "symbol": "TSN",
+    "name": "Tyson Foods, Inc.",
+    "picked_on": "2026-11-16",
+    "picked_price": 63.95,
+    "price": 65.12,
+    "change_since_pct": 1.83,
+    "from_peak_pct": 0.0,
+    "sessions_since": 4,
+    "last_rvol": 1.73,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "AAON",
+    "name": "AAON, Inc.",
+    "picked_on": "2026-11-10",
+    "picked_price": 75.01,
+    "price": 75.21,
+    "change_since_pct": 0.27,
+    "from_peak_pct": -6.28,
+    "sessions_since": 8,
+    "last_rvol": 1.03,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "HROW",
+    "name": "Harrow, Inc.",
+    "picked_on": "2026-11-10",
+    "picked_price": 30.36,
+    "price": 30.41,
+    "change_since_pct": 0.16,
+    "from_peak_pct": -5.44,
+    "sessions_since": 8,
+    "last_rvol": 1.25,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   }
+  ],
+  "window": 10
+ }
+}
