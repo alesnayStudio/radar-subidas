@@ -154,6 +154,15 @@ function thermoDetail(t) {
       Solo son 6 días de euforia: tómalo como aviso para ir con menos tamaño, no como regla. En el Laboratorio tienes el filtro «Termómetro» para comprobarlo.</p></div>`;
 }
 
+// Auditoría 20/24-nov: hueco de apertura > 15% y cierre lejos del máximo del día -> las 2-3 sesiones
+// siguientes suelen ir mal (32% de aciertos con +3%/−5%/3s, n=19). Las OPAs no cuentan: se quedan planas.
+function gapWarning(r) {
+  if (r.gap_pct == null || r.gap_pct < 15 || r.close_strength == null || r.close_strength >= 0.8) return "";
+  if (["takeover", "acquisition"].includes(r.catalyst?.type)) return "";
+  return `<div class="warn-box">⚠️ <b>Abrió con un hueco de ${fmtPct(r.gap_pct)} y cerró lejos del máximo del día.</b>
+    La subida se hizo en la apertura y luego vendieron: en el histórico, este tipo acierta solo ~1 de cada 3 a +3%.</div>`;
+}
+
 function earningsWarning(e) {
   if (!e || e.timing !== "upcoming") return "";
   const at = new Date(e.at);
@@ -165,7 +174,8 @@ function earningsWarning(e) {
 
 function renderSummary(d) {
   const f = d.filters;
-  const provisional = d.market_state === "REGULAR" || d.market_state === "PRE";
+  // "PRE" tras medianoche de Nueva York es el premercado del día SIGUIENTE: el cierre ya es definitivo
+  const provisional = d.market_state === "REGULAR";
   const isLatest = $("#date-select").value === "" || $("#date-select").value === $("#date-select").options[0]?.value;
   $("#summary").innerHTML = `
     <span class="pill">Última sesión cerrada: <b>${esc(fmtDate(d.date))}</b></span>
@@ -303,6 +313,7 @@ function card(r, i) {
       <span class="note">${esc(c.note)}</span>
     </div>
     ${earningsWarning(r.earnings_event)}
+    ${gapWarning(r)}
     ${plan}
 
     ${scoreBar(r)}

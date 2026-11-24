@@ -114,7 +114,7 @@
     "label": "Resultados + mejora de previsiones",
     "quality": 1.0,
     "note": "El catalizador con más continuidad histórica (post-earnings drift).",
-    "confidence": 0.2
+    "confidence": 0.3
    },
    "earnings_event": {
     "timing": "reported",
@@ -801,7 +801,7 @@
     "label": "Mejora de analista",
     "quality": 0.6,
     "note": "Impulso moderado; suele diluirse si no hay más noticias.",
-    "confidence": 0.2
+    "confidence": 0.3
    },
    "earnings_event": null,
    "score_parts": {
@@ -913,7 +913,7 @@
     "label": "Compra / fusión con otra empresa",
     "quality": 0.5,
     "note": "El mercado premia la operación; vigila cómo se financia y si la aprueban reguladores.",
-    "confidence": 0.8
+    "confidence": 1
    },
    "earnings_event": null,
    "score_parts": {

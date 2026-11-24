@@ -97,6 +97,23 @@ class Catalysts(unittest.TestCase):
             "Crescent Energy Amends Credit Agreement to Back Devon Eagle Ford Deal"]), "capital")
 
 
+    def test_options_volume_is_not_a_contract(self):  # MU 23-nov
+        self.assertNotEqual(kind("MU", "Micron Technology, Inc.", [
+            "Micron Technology Options Spot-On: On November 23rd, 1.42 Million Contracts Were Traded, With 4.01 Million Open Interest",
+            "Micron (NASDAQ:MU) Stock Soars Nearly 20% as Nvidia's Comeback Sparks AI Memory Rally",
+            "Why Is Micron (MU) Stock Soaring Today? Nvidia's CEO Return Lifts Chip Stocks"], day="2026-11-23"), "contract")
+
+    def test_insider_buying_is_not_an_acquisition(self):  # HUBS 16-nov, SKHY 23-nov
+        self.assertNotEqual(kind("HUBS", "HubSpot, Inc.", [
+            "HubSpot co-founder Brian Halligan buys $5 million of stock days after returning as CEO",
+            "HubSpot CEO Buys $5M of Stock, Will Pay HubSpot $450K"], day="2026-11-16"), "acquisition")
+
+    def test_upgrade_servers_is_not_analyst(self):  # DELL 23-nov
+        self.assertNotEqual(kind("DELL", "Dell Technologies Inc.", [
+            "Dell Technologies: Earnings Growth Extends Beyond AI as Enterprises Upgrade Servers and Storage"],
+            day="2026-11-23"), "analyst")
+
+
 class EarningsTiming(unittest.TestCase):
     def test_timing(self):
         self.assertEqual(earnings_timing(ts("2026-10-20 08:30"), "2026-10-20")[0], "reported")   # antes de abrir

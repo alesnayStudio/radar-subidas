@@ -716,7 +716,7 @@ function labTodayPick(r, i, day) {
   return {
     catalyst: r.catalyst?.type, ath_status: r.ath?.status, quality: r.quality?.grade, score: r.score, change_pct: r.change_pct, rvol: r.rvol,
     rank: i + 1, appearance: r.appearance?.count || 1, close_strength: r.close_strength,
-    spy_change: day?.market?.SPY?.change_pct,
+    spy_change: day?.market?.SPY?.change_pct, thermo: day?.sentiment?.score, day_gap: r.gap_pct,
   };
 }
 
@@ -798,7 +798,10 @@ function labTodayPlan(r, i, day) {
 
 function labTodaySummary(day) {
   if (!day?.top?.length) return "";
-  return labSlots().map((slot, k) => {
+  const slots = labSlots();
+  const none = slots.some(Boolean) && day.top.every((r, i) => !labTodaySlots(r, i, day).length);
+  return (none ? `<span class="pill rule-none" title="Ninguna acción de este día cumple tus reglas guardadas">😴 Ninguna cumple tus reglas: <b>al día siguiente no toca operar</b></span>` : "") +
+    slots.map((slot, k) => {
     if (!slot) return "";
     const n = day.top.filter((r, i) => labTodaySlots(r, i, day).includes(k)).length;
     return `<span class="pill rule-pill" title="${esc(slot.desc)}">⭐${k + 1} ${esc(slot.name)}: <b>${n}</b> de ${day.top.length}

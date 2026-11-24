@@ -263,7 +263,7 @@
     "label": "OPA / la compran",
     "quality": 0.3,
     "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
-    "confidence": 0.4
+    "confidence": 0.6
    },
    "earnings_event": {
     "timing": "reported",
@@ -434,8 +434,26 @@
    "market_time": 1795467601,
    "market_date": "2026-11-23",
    "market_state": "PREPRE",
-   "score": 50.3,
+   "score": 44.3,
    "news": [
+    {
+     "title": "Micron Technology jumps 19% as AI sector reboun...",
+     "source": "Pluang",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdUg3SlViQW1FTjBsLUMzaERJSVplZXQ1ajdkNVlQTlItNjB0Z2FzcjZLNDUzeC1EdTZjUzYyLUs3SXE4R3BnQ18zSzkxSFVva2ROOTljOFNLRVFFaV9EaFBoWklQbnZ6ZnpzM2U0R1BKTGtSa1FFcEE2bl9wNjRoUkxtdk1sYzhZYUlBX29ORHlqWl9PSEhyenFpSDFNdlZSV0hIdA?oc=5",
+     "published": "2026-11-23T22:17:22+00:00"
+    },
+    {
+     "title": "Micron (NASDAQ:MU) Stock Soars Nearly 20% as Nvidia’s Comeback Sparks AI Memory Rally",
+     "source": "Stocks Down Under",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1abkg4OTBxMlNfODF3b2VCdy1DOUJjczlRTGFtM0tmSTBQcXI3cklFYTYwaGtPN0ZEUUdfQU4wcGMtVzJ3c3RaM0VLWURBbzM3bTlxYWFCQjFzWXMxcUZVSms4X2Q5VWh2cVRHeUdiNV9NOV9paFE?oc=5",
+     "published": "2026-11-23T19:58:07+00:00"
+    },
+    {
+     "title": "Why Is Micron (MU) Stock Soaring Today? Nvidia's CEO Return Lifts Chip Stocks",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQUi00eHQ1MU5RUTAwN2V6VWdZNUlXVmZvZmE5T1JkWWcwZVJ5UTlaNWc5YVVHcHNOUWxIUERPdEVuSUJYTnZUOV9BaVhTQ25XbF85WkktN0JnSldyLUVOVlNoX3hvbWxGU1ZVUzlkRlhVZjNQLXNycFhWUFVzb21PTFVSWHVoSkMybHFtR2FMY0p4UXJHYTdiSktkVWZSTjNhMF9iZmxSUmVyLXFEeHBDY3U2X09TQ0lRY015ZmxKU3k3dlktRk4zQVN5d0NMaEdqdWFUcnl4Y2hoWTljcUlTQ1h3WDhfR0Q5OUlNRmtBdmZvZmlBTWZBMFZ0LUVRY0lSSklCU1I3TG03eG5CNmd5SGpYa2k0djFuWG9kY1dCMS1UTmxkcnFhVm9FVllFX2puSUx2Ykw4UTFXMFJEZ1FZ?oc=5",
+     "published": "2026-11-23T18:03:55+00:00"
+    },
     {
      "title": "Micron Technology Options Spot-On: On November 23rd, 1.42 Million Contracts Were Traded, With 4.01 Million Open Interest",
      "source": "Moomoo",
@@ -455,48 +473,30 @@
      "published": "2026-11-23T22:20:02+00:00"
     },
     {
-     "title": "Micron Technology jumps 19% as AI sector reboun...",
-     "source": "Pluang",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdUg3SlViQW1FTjBsLUMzaERJSVplZXQ1ajdkNVlQTlItNjB0Z2FzcjZLNDUzeC1EdTZjUzYyLUs3SXE4R3BnQ18zSzkxSFVva2ROOTljOFNLRVFFaV9EaFBoWklQbnZ6ZnpzM2U0R1BKTGtSa1FFcEE2bl9wNjRoUkxtdk1sYzhZYUlBX29ORHlqWl9PSEhyenFpSDFNdlZSV0hIdA?oc=5",
-     "published": "2026-11-23T22:17:22+00:00"
-    },
-    {
      "title": "Micron Stock Jumps 19%. Why the Rally Has Legs.",
      "source": "Barrons.com",
      "link": "https://finance.yahoo.com/m/3f1f89c7-5433-3bc0-990f-eab9250e8983/micron-stock-jumps-19%25.-why.html",
      "published": "2026-11-23T22:17:00+00:00"
     },
     {
-     "title": "Micron (NASDAQ:MU) Stock Soars Nearly 20% as Nvidia’s Comeback Sparks AI Memory Rally",
-     "source": "Stocks Down Under",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1abkg4OTBxMlNfODF3b2VCdy1DOUJjczlRTGFtM0tmSTBQcXI3cklFYTYwaGtPN0ZEUUdfQU4wcGMtVzJ3c3RaM0VLWURBbzM3bTlxYWFCQjFzWXMxcUZVSms4X2Q5VWh2cVRHeUdiNV9NOV9paFE?oc=5",
-     "published": "2026-11-23T19:58:07+00:00"
-    },
-    {
      "title": "Is Micron Technology Stock a Buy at $700?",
      "source": "The Globe and Mail",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc2RSYWtrWUw0SGhUNDNMRFd2TG5RSUpLdDFzSnlGNU5YaWZKMDRUeG9nOVF0NDdGdTdOX01CeDcwYkNoTVdNejVkT19BWG13Umc4cVVra0N0OFhHaVI0V0psMjNmdnR0a1ZfSUNMRUhNR3djUlRtaHhOVzYwdEkxcFNsOWJ6dVNOQVFDUl9jQzFBYXJRQVYtSmZRa3ZxQlhFb2t2ZkRkeDRZRnpELXVsRzBLUVpOLXFJU25OYU05NA?oc=5",
      "published": "2026-11-23T19:30:45+00:00"
-    },
-    {
-     "title": "Why Is Micron (MU) Stock Soaring Today? Nvidia's CEO Return Lifts Chip Stocks",
-     "source": "GuruFocus",
-     "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQUi00eHQ1MU5RUTAwN2V6VWdZNUlXVmZvZmE5T1JkWWcwZVJ5UTlaNWc5YVVHcHNOUWxIUERPdEVuSUJYTnZUOV9BaVhTQ25XbF85WkktN0JnSldyLUVOVlNoX3hvbWxGU1ZVUzlkRlhVZjNQLXNycFhWUFVzb21PTFVSWHVoSkMybHFtR2FMY0p4UXJHYTdiSktkVWZSTjNhMF9iZmxSUmVyLXFEeHBDY3U2X09TQ0lRY015ZmxKU3k3dlktRk4zQVN5d0NMaEdqdWFUcnl4Y2hoWTljcUlTQ1h3WDhfR0Q5OUlNRmtBdmZvZmlBTWZBMFZ0LUVRY0lSSklCU1I3TG03eG5CNmd5SGpYa2k0djFuWG9kY1dCMS1UTmxkcnFhVm9FVllFX2puSUx2Ykw4UTFXMFJEZ1FZ?oc=5",
-     "published": "2026-11-23T18:03:55+00:00"
     }
    ],
    "catalyst": {
-    "type": "contract",
-    "label": "Contrato / alianza",
-    "quality": 0.6,
-    "note": "Valora el tamaño del contrato frente a los ingresos de la empresa.",
-    "confidence": 0.2
+    "type": "sector",
+    "label": "Movimiento sectorial / macro",
+    "quality": 0.4,
+    "note": "Sube con su sector; depende del contexto general.",
+    "confidence": 0.36
    },
    "earnings_event": null,
    "score_parts": {
     "move": 13.0,
     "rvol": 1.7,
-    "catalyst": 18.0,
+    "catalyst": 12.0,
     "close": 7.6,
     "size": 10.0
    },
@@ -546,7 +546,7 @@
    "market_time": 1795467601,
    "market_date": "2026-11-23",
    "market_state": "PREPRE",
-   "score": 47.9,
+   "score": 32.9,
    "news": [
     {
      "title": "CoreWeave Options Spot-On: On November 23rd, 462.28K Contracts Were Traded, With 4.42 Million Open Interest",
@@ -598,17 +598,17 @@
     }
    ],
    "catalyst": {
-    "type": "contract",
-    "label": "Contrato / alianza",
-    "quality": 0.6,
-    "note": "Valora el tamaño del contrato frente a los ingresos de la empresa.",
-    "confidence": 0.2
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
    },
    "earnings_event": null,
    "score_parts": {
     "move": 16.3,
     "rvol": 3.1,
-    "catalyst": 18.0,
+    "catalyst": 3.0,
     "close": 3.4,
     "size": 7.1
    },
@@ -660,7 +660,7 @@
    "market_time": 1795467897,
    "market_date": "2026-11-23",
    "market_state": "PREPRE",
-   "score": 47.6,
+   "score": 34.1,
    "news": [
     {
      "title": "Dell Technologies: Earnings Growth Extends Beyond AI as Enterprises Upgrade Servers and Storage",
@@ -712,11 +712,11 @@
     }
    ],
    "catalyst": {
-    "type": "analyst",
-    "label": "Mejora de analista",
-    "quality": 0.6,
-    "note": "Impulso moderado; suele diluirse si no hay más noticias.",
-    "confidence": 0.3
+    "type": "pre_earnings",
+    "label": "Subida antes de resultados",
+    "quality": 0.15,
+    "note": "Aún no ha presentado resultados: el día que los publique puede moverse ±10-20% en cualquier sentido.",
+    "confidence": 0.0
    },
    "earnings_event": {
     "timing": "upcoming",
@@ -725,7 +725,7 @@
    "score_parts": {
     "move": 14.5,
     "rvol": 2.9,
-    "catalyst": 18.0,
+    "catalyst": 4.5,
     "close": 2.2,
     "size": 10.0
    },
@@ -775,7 +775,7 @@
    "market_time": 1795467600,
    "market_date": "2026-11-23",
    "market_state": "PREPRE",
-   "score": 46.7,
+   "score": 31.7,
    "news": [
     {
      "title": "NEBIUS Options Spot-On: On November 23rd, 354.16K Contracts Were Traded, With 2.03 Million Open Interest",
@@ -827,17 +827,17 @@
     }
    ],
    "catalyst": {
-    "type": "contract",
-    "label": "Contrato / alianza",
-    "quality": 0.6,
-    "note": "Valora el tamaño del contrato frente a los ingresos de la empresa.",
-    "confidence": 0.3
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
    },
    "earnings_event": null,
    "score_parts": {
     "move": 14.3,
     "rvol": 5.7,
-    "catalyst": 18.0,
+    "catalyst": 3.0,
     "close": 1.4,
     "size": 7.3
    },
@@ -943,7 +943,7 @@
     "label": "Mejora de analista",
     "quality": 0.6,
     "note": "Impulso moderado; suele diluirse si no hay más noticias.",
-    "confidence": 0.2
+    "confidence": 0.3
    },
    "earnings_event": null,
    "score_parts": {
@@ -1001,7 +1001,7 @@
    "market_time": 1795467600,
    "market_date": "2026-11-23",
    "market_state": "PREPRE",
-   "score": 45.3,
+   "score": 33.3,
    "news": [
     {
      "title": "SK Hynix President Buys approximately $1.2 Million in Company Stock One Day Before Jensen Huang's Return Announcement, Books approximately $150,000 Paper Gain",
@@ -1053,17 +1053,17 @@
     }
    ],
    "catalyst": {
-    "type": "acquisition",
-    "label": "Compra / fusión con otra empresa",
-    "quality": 0.5,
-    "note": "El mercado premia la operación; vigila cómo se financia y si la aprueban reguladores.",
-    "confidence": 0.2
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
    },
    "earnings_event": null,
    "score_parts": {
     "move": 14.0,
     "rvol": 1.5,
-    "catalyst": 15.0,
+    "catalyst": 3.0,
     "close": 4.8,
     "size": 10.0
    },

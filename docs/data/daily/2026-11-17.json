@@ -114,7 +114,7 @@
     "label": "Biotech / FDA / ensayo",
     "quality": 0.5,
     "note": "Muy volátil: puede revertir con fuerza.",
-    "confidence": 0.8
+    "confidence": 0.9
    },
    "earnings_event": null,
    "score_parts": {
@@ -1004,7 +1004,7 @@
     "label": "Biotech / FDA / ensayo",
     "quality": 0.5,
     "note": "Muy volátil: puede revertir con fuerza.",
-    "confidence": 0.7
+    "confidence": 0.9
    },
    "earnings_event": null,
    "score_parts": {

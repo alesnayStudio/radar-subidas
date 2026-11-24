@@ -315,6 +315,7 @@ tr:last-child td { border-bottom: 0; }
 
 .inline-num { width: 56px; background: var(--panel-2); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 2px 6px; font: inherit; font-size: 13px; }
 .order-box { margin-top: 6px; padding-top: 6px; border-top: 1px dashed color-mix(in srgb, var(--accent) 40%, transparent); }
+.pill.rule-none { background: var(--panel); border-style: dashed; }
 .thermo-btn { background: none; border: 0; color: var(--accent); font: inherit; font-size: 12px; cursor: pointer; padding: 0 0 0 4px; }
 .thermo-box { flex-basis: 100%; background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; font-size: 13px; }
 .thermo-box ul { margin: 8px 0; padding-left: 18px; }

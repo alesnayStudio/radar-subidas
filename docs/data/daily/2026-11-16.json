@@ -114,7 +114,7 @@
     "label": "Biotech / FDA / ensayo",
     "quality": 0.5,
     "note": "Muy volátil: puede revertir con fuerza.",
-    "confidence": 0.5
+    "confidence": 0.6
    },
    "earnings_event": null,
    "score_parts": {
@@ -515,7 +515,7 @@
    "market_time": 1794862933,
    "market_date": "2026-11-16",
    "market_state": "POSTPOST",
-   "score": 30.3,
+   "score": 18.3,
    "news": [
     {
      "title": "HubSpot co-founder Brian Halligan buys $5 million of stock days after returning as CEO",
@@ -567,17 +567,17 @@
     }
    ],
    "catalyst": {
-    "type": "acquisition",
-    "label": "Compra / fusión con otra empresa",
-    "quality": 0.5,
-    "note": "El mercado premia la operación; vigila cómo se financia y si la aprueban reguladores.",
-    "confidence": 0.5
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
    },
    "earnings_event": null,
    "score_parts": {
     "move": 0.8,
     "rvol": 0.1,
-    "catalyst": 15.0,
+    "catalyst": 3.0,
     "close": 9.1,
     "size": 5.3
    },

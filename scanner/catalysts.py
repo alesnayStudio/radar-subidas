@@ -73,12 +73,12 @@ PATTERNS = {
     "acquisition": r"\bacquires?\b|\bto acquire\b|acquisition of|\bmerger\b|\bmerge\b|\bto buy\b|\bbuys\b",
     "capital": r"refinanc|credit (facilit|agreement)|amend\w* .{0,20}credit|term loan|\bbuyback\b|repurchase|special dividend|debt (deal|reduction|paydown)",
     "fda": r"\bfda\b|approv(al|es|ed)|phase\s*(1|2|3|i{1,3})\b|\btrial\b|clinical|topline|breakthrough therapy|\bema\b",
-    "analyst": r"\bupgrad|price target (raise|hike|boost)|raises? (price )?target|initiat\w* (coverage|at)|overweight|outperform|buy rating|bullish (call|on)|top pick"
+    "analyst": r"\bupgrad(?!\w* (their |its )?(servers|systems|devices|hardware|infrastructure|networks?|pcs?|fleet)\b)|price target (raise|hike|boost)|raises? (price )?target|initiat\w* (coverage|at)|overweight|outperform|buy rating|bullish (call|on)|top pick"
                # "Morgan Stanley Call Sends TeraWulf Stock Surging", "Goldman says ... mispriced"
                r"|\b(morgan stanley|goldman|jpmorgan|j\.?p\.? ?morgan|bank of america|bofa|citi(group)?|ubs|barclays|wells fargo|jefferies|bernstein|deutsche bank|evercore|piper sandler|raymond james|mizuho|btig|needham|wedbush|oppenheimer|cantor|truist|stifel|hsbc|kepler)\b.{0,40}\b(call|says|sees|names|picks|bullish|upgrade)",
     "contract": r"contract|partnership|partners with|(?<!credit )agreement|collaborat|awarded|\border\b|deal with|selected (by|as)",
     "corporate": r"spin-?off|completes? (the )?separation|separation from|begins (trading|operations) as|\bipo\b|trading debut|debut|added to (the )?(s&p|nasdaq|russell)|join(s|ing)? (the )?(s&p|nasdaq-100|russell)|index (inclusion|addition)",
-    "sector": r"sector|stocks (are )?(rall|surg|jump|soar|ris)\w*|peers|industry|rate cut|tariff|\bfed\b|broader|\brival\b|next (takeover )?target|sympathy",
+    "sector": r"sector|(ai|tech|chip|memory|hardware|semiconductor|neocloud|crypto|bank|energy|solar)\w*\s+(\w+\s+)?(rally|rebound|trade|selloff)\b|(market|broad|broader) rally|(lifts?|sparks?|ignites?|boosts?)\s+(\w+\s+){0,2}(stocks|shares|trade|rally)\b|stocks (are )?(rall|surg|jump|soar|ris)\w*|peers|industry|rate cut|tariff|\bfed\b|broader|\brival\b|next (takeover )?target|sympathy",
 }
 
 # Frases de "clickbait" que contienen "buy" pero no hablan de ninguna compra de empresa
@@ -88,6 +88,10 @@ _ANALYST_CHANGE = re.compile(r"\b(raise[sd]?|hikes?|boosts?|lifts?)\b.{0,20}targ
 _BUY_NOISE = re.compile(
     r"too late to buy|should you buy|(time|stocks?|reasons?|ways) to buy|buy (now|today|the dip)|"
     r"\ba buy\b|worth buying|buy or sell|buy rating|strong buy", re.I)
+# "Options Spot-On: ... Contracts Were Traded, With ... Open Interest" habla de opciones, no de un contrato
+_CONTRACT_NOISE = re.compile(r"\boptions?\b|contracts? (were )?traded|open interest", re.I)
+# Directivos o fondos que compran acciones ("President Buys $1.2 Million in Company Stock", "Cathie Wood Buys $24.7M")
+_INSIDER_BUY = re.compile(r"\b(buys?|bought|purchases?d?)\b.{0,45}\b(shares|stock)\b|cathie wood|\binsider\b", re.I)
 # Titulares que hablan de resultados FUTUROS (fecha, previa) y no de unos resultados publicados
 _EARNINGS_NOISE = re.compile(
     r"\bto (report|announce|release|host)\b|will (report|announce|release|consider)|schedul|board meeting|"
@@ -143,7 +147,11 @@ def classify(headlines: list[dict], earnings_ts: int | None, market_date: str | 
                 continue
             if k == "analyst" and _ANALYST_NOISE.search(title) and not _ANALYST_CHANGE.search(title):
                 continue
+            if k == "contract" and _CONTRACT_NOISE.search(title):
+                continue
             if k == "acquisition":
+                if _INSIDER_BUY.search(deal_title):
+                    continue
                 role = _deal_role(deal_title, company)
                 if role:
                     scores[role] += w * WEIGHT.get(role, 1.0)
