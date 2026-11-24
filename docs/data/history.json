@@ -1907,12 +1907,12 @@
    "returns": {
     "1": 0.47,
     "5": -0.56,
-    "20": null
+    "20": 14.24
    },
    "excess": {
     "1": -0.09,
     "5": 1.17,
-    "20": null
+    "20": 19.87
    },
    "close_strength": 0.88,
    "day_gap": 46.22,
@@ -1937,12 +1937,12 @@
    "returns": {
     "1": 5.27,
     "5": 1.7,
-    "20": null
+    "20": -11.0
    },
    "excess": {
     "1": 4.71,
     "5": 3.43,
-    "20": null
+    "20": -5.37
    },
    "close_strength": 0.98,
    "day_gap": 11.61,
@@ -1967,12 +1967,12 @@
    "returns": {
     "1": 2.78,
     "5": 1.64,
-    "20": null
+    "20": 20.53
    },
    "excess": {
     "1": 2.22,
     "5": 3.37,
-    "20": null
+    "20": 26.16
    },
    "close_strength": 0.07,
    "day_gap": 28.08,
@@ -1997,12 +1997,12 @@
    "returns": {
     "1": -1.31,
     "5": -5.4,
-    "20": null
+    "20": -6.47
    },
    "excess": {
     "1": -1.87,
     "5": -3.67,
-    "20": null
+    "20": -0.84
    },
    "close_strength": 0.88,
    "day_gap": -3.77,
@@ -2027,12 +2027,12 @@
    "returns": {
     "1": 3.57,
     "5": -3.54,
-    "20": null
+    "20": -6.8
    },
    "excess": {
     "1": 3.01,
     "5": -1.81,
-    "20": null
+    "20": -1.17
    },
    "close_strength": 0.77,
    "day_gap": 1.22,
@@ -2057,12 +2057,12 @@
    "returns": {
     "1": 6.07,
     "5": 5.65,
-    "20": null
+    "20": 9.21
    },
    "excess": {
     "1": 5.51,
     "5": 7.38,
-    "20": null
+    "20": 14.84
    },
    "close_strength": 0.74,
    "day_gap": 2.28,
@@ -2087,12 +2087,12 @@
    "returns": {
     "1": 5.59,
     "5": -14.72,
-    "20": null
+    "20": -24.65
    },
    "excess": {
     "1": 5.03,
     "5": -12.99,
-    "20": null
+    "20": -19.02
    },
    "close_strength": 0.48,
    "day_gap": -0.69,
@@ -2117,12 +2117,12 @@
    "returns": {
     "1": -1.84,
     "5": -17.15,
-    "20": null
+    "20": -14.22
    },
    "excess": {
     "1": -2.4,
     "5": -15.42,
-    "20": null
+    "20": -8.59
    },
    "close_strength": 0.94,
    "day_gap": -0.07,
@@ -2147,12 +2147,12 @@
    "returns": {
     "1": 0.91,
     "5": -1.58,
-    "20": null
+    "20": -4.98
    },
    "excess": {
     "1": 0.35,
     "5": 0.15,
-    "20": null
+    "20": 0.65
    },
    "close_strength": 0.99,
    "day_gap": 2.13,
@@ -2177,12 +2177,12 @@
    "returns": {
     "1": 2.1,
     "5": -1.32,
-    "20": null
+    "20": -21.53
    },
    "excess": {
     "1": 1.54,
     "5": 0.41,
-    "20": null
+    "20": -15.9
    },
    "close_strength": 0.76,
    "day_gap": 1.91,
@@ -6410,12 +6410,12 @@
    "quality": "C",
    "returns": {
     "1": -6.89,
-    "5": null,
+    "5": -1.5,
     "20": null
    },
    "excess": {
     "1": -5.88,
-    "5": null,
+    "5": 0.89,
     "20": null
    },
    "thermo": 24
@@ -6440,12 +6440,12 @@
    "quality": "C",
    "returns": {
     "1": -3.24,
-    "5": null,
+    "5": 9.72,
     "20": null
    },
    "excess": {
     "1": -2.23,
-    "5": null,
+    "5": 12.11,
     "20": null
    },
    "thermo": 24
@@ -6470,12 +6470,12 @@
    "quality": "B",
    "returns": {
     "1": -2.24,
-    "5": null,
+    "5": -5.7,
     "20": null
    },
    "excess": {
     "1": -1.23,
-    "5": null,
+    "5": -3.31,
     "20": null
    },
    "thermo": 24
@@ -6500,12 +6500,12 @@
    "quality": "C",
    "returns": {
     "1": -0.47,
-    "5": null,
+    "5": -1.56,
     "20": null
    },
    "excess": {
     "1": 0.54,
-    "5": null,
+    "5": 0.83,
     "20": null
    },
    "thermo": 24
@@ -6530,12 +6530,12 @@
    "quality": "B",
    "returns": {
     "1": -6.76,
-    "5": null,
+    "5": -14.77,
     "20": null
    },
    "excess": {
     "1": -5.75,
-    "5": null,
+    "5": -12.38,
     "20": null
    },
    "thermo": 24
@@ -6560,12 +6560,12 @@
    "quality": "C",
    "returns": {
     "1": -5.1,
-    "5": null,
+    "5": -15.38,
     "20": null
    },
    "excess": {
     "1": -4.09,
-    "5": null,
+    "5": -12.99,
     "20": null
    },
    "thermo": 24
@@ -6590,12 +6590,12 @@
    "quality": "C",
    "returns": {
     "1": 6.3,
-    "5": null,
+    "5": -0.91,
     "20": null
    },
    "excess": {
     "1": 7.31,
-    "5": null,
+    "5": 1.48,
     "20": null
    },
    "thermo": 24
@@ -7520,12 +7520,12 @@
    "thermo": 5,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": 3.87,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -0.84,
     "5": null,
     "20": null
    }
@@ -7550,12 +7550,12 @@
    "thermo": 5,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": -0.39,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -5.1,
     "5": null,
     "20": null
    }
@@ -7579,6 +7579,306 @@
    "spy_change": -3.64,
    "thermo": 5,
    "quality": "B",
+   "returns": {
+    "1": 1.03,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": -3.68,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "symbol": "KYMR",
+   "name": "Kymera Therapeutics, Inc.",
+   "rank": 1,
+   "score": 76.1,
+   "price": 150.37,
+   "change_pct": 30.41,
+   "rvol": 9.18,
+   "catalyst": "fda",
+   "catalyst_label": "Biotech / FDA / ensayo",
+   "appearance": 1,
+   "ath_status": "new_ath",
+   "pct_from_ath": -6.89,
+   "close_strength": 0.56,
+   "day_gap": 19.68,
+   "spy_change": 4.71,
+   "thermo": 30,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "symbol": "ZS",
+   "name": "Zscaler, Inc.",
+   "rank": 2,
+   "score": 62.2,
+   "price": 229.24,
+   "change_pct": 17.67,
+   "rvol": 6.48,
+   "catalyst": "takeover",
+   "catalyst_label": "OPA / la compran",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -39.05,
+   "close_strength": 0.36,
+   "day_gap": 22.8,
+   "spy_change": 4.71,
+   "thermo": 30,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "symbol": "NVDA",
+   "name": "NVIDIA Corporation",
+   "rank": 3,
+   "score": 58.9,
+   "price": 165.05,
+   "change_pct": 31.48,
+   "rvol": 4.55,
+   "catalyst": "none",
+   "catalyst_label": "Sin noticia clara",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -32.18,
+   "close_strength": 0.56,
+   "day_gap": 33.07,
+   "spy_change": 4.71,
+   "thermo": 30,
+   "quality": "A",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "symbol": "MU",
+   "name": "Micron Technology, Inc.",
+   "rank": 4,
+   "score": 50.3,
+   "price": 707.7,
+   "change_pct": 19.04,
+   "rvol": 1.75,
+   "catalyst": "contract",
+   "catalyst_label": "Contrato / alianza",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -43.61,
+   "close_strength": 0.76,
+   "day_gap": 16.18,
+   "spy_change": 4.71,
+   "thermo": 30,
+   "quality": "A",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "symbol": "CRWV",
+   "name": "CoreWeave, Inc.",
+   "rank": 5,
+   "score": 47.9,
+   "price": 48.33,
+   "change_pct": 22.32,
+   "rvol": 1.96,
+   "catalyst": "contract",
+   "catalyst_label": "Contrato / alianza",
+   "appearance": 2,
+   "ath_status": "rebound",
+   "pct_from_ath": -74.16,
+   "close_strength": 0.34,
+   "day_gap": 28.65,
+   "spy_change": 4.71,
+   "thermo": 30,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "symbol": "DELL",
+   "name": "Dell Technologies Inc.",
+   "rank": 6,
+   "score": 47.6,
+   "price": 334.91,
+   "change_pct": 20.46,
+   "rvol": 1.93,
+   "catalyst": "analyst",
+   "catalyst_label": "Mejora de analista",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -43.76,
+   "close_strength": 0.22,
+   "day_gap": 35.66,
+   "spy_change": 4.71,
+   "thermo": 30,
+   "quality": "A",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "symbol": "NBIS",
+   "name": "Nebius Group N.V.",
+   "rank": 7,
+   "score": 46.7,
+   "price": 97.8,
+   "change_pct": 20.28,
+   "rvol": 2.36,
+   "catalyst": "contract",
+   "catalyst_label": "Contrato / alianza",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -67.38,
+   "close_strength": 0.14,
+   "day_gap": 35.31,
+   "spy_change": 4.71,
+   "thermo": 30,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "symbol": "CBRS",
+   "name": "Cerebras Systems Inc.",
+   "rank": 8,
+   "score": 45.8,
+   "price": 98.51,
+   "change_pct": 19.16,
+   "rvol": 1.54,
+   "catalyst": "analyst",
+   "catalyst_label": "Mejora de analista",
+   "appearance": 2,
+   "ath_status": "rebound",
+   "pct_from_ath": -74.5,
+   "close_strength": 0.74,
+   "day_gap": 15.21,
+   "spy_change": 4.71,
+   "thermo": 30,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "symbol": "SKHY",
+   "name": "SK hynix Inc.",
+   "rank": 9,
+   "score": 45.3,
+   "price": 124.28,
+   "change_pct": 20.0,
+   "rvol": 1.72,
+   "catalyst": "acquisition",
+   "catalyst_label": "Compra / fusión con otra empresa",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -37.82,
+   "close_strength": 0.48,
+   "day_gap": 22.74,
+   "spy_change": 4.71,
+   "thermo": 30,
+   "quality": "A",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "symbol": "APH",
+   "name": "Amphenol Corporation",
+   "rank": 10,
+   "score": 43.9,
+   "price": 77.41,
+   "change_pct": 11.03,
+   "rvol": 1.84,
+   "catalyst": "analyst",
+   "catalyst_label": "Mejora de analista",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -13.92,
+   "close_strength": 0.86,
+   "day_gap": 8.29,
+   "spy_change": 4.71,
+   "thermo": 30,
+   "quality": "A",
    "returns": {
     "1": null,
     "5": null,
