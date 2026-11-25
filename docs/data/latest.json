@@ -1,7 +1,7 @@
 {
- "date": "2026-11-23",
- "generated_at": "2026-11-24T05:24:54+00:00",
- "market_state": "PREPRE",
+ "date": "2026-11-24",
+ "generated_at": "2026-11-25T04:25:28+00:00",
+ "market_state": "POSTPOST",
  "filters": {
   "min_change_pct": 6.0,
   "min_market_cap": 1000000000,
@@ -10,57 +10,57 @@
   "min_rvol": 1.5
  },
  "universe": {
-  "raw_gainers": 415,
-  "passed_filters": 84
+  "raw_gainers": 106,
+  "passed_filters": 37
  },
  "market": {
   "SPY": {
    "label": "S&P 500",
-   "change_pct": 4.71
+   "change_pct": -0.49
   },
   "QQQ": {
    "label": "Nasdaq 100",
-   "change_pct": 7.0
+   "change_pct": -1.99
   },
   "IWM": {
    "label": "Russell 2000",
-   "change_pct": 3.56
+   "change_pct": 0.53
   }
  },
  "sentiment": {
-  "score": 30,
-  "label": "Débil",
-  "icon": "🌧️",
+  "score": 27,
+  "label": "Miedo",
+  "icon": "😨",
   "parts": [
    {
     "key": "trend",
     "label": "Tendencia",
     "score": 0,
-    "text": "S&P 500 -3.1% vs media 20 sesiones, -4.9% vs media 50"
+    "text": "S&P 500 -3.3% vs media 20 sesiones, -5.2% vs media 50"
    },
    {
     "key": "momentum",
     "label": "Impulso",
-    "score": 20,
-    "text": "S&P 500 -2.4% en 5 sesiones"
+    "score": 27,
+    "text": "S&P 500 -1.9% en 5 sesiones"
    },
    {
     "key": "fear",
     "label": "Calma (VIX)",
-    "score": 20,
-    "text": "VIX 26.6 (menos de 15 = calma, más de 25 = miedo)"
+    "score": 21,
+    "text": "VIX 26.4 (menos de 15 = calma, más de 25 = miedo)"
    },
    {
     "key": "breadth",
     "label": "Amplitud",
-    "score": 100,
-    "text": "415 acciones subieron más del 6%"
+    "score": 75,
+    "text": "106 acciones subieron más del 6%"
    },
    {
     "key": "follow",
     "label": "Seguimiento",
     "score": 12,
-    "text": "Las selecciones de las últimas 5 sesiones: -2.3% de media al día siguiente (47)"
+    "text": "Las selecciones de las últimas 5 sesiones: -2.3% de media al día siguiente (40)"
    }
   ]
  },
@@ -73,93 +73,93 @@
  },
  "top": [
   {
-   "symbol": "KYMR",
-   "name": "Kymera Therapeutics, Inc.",
-   "exchange": "NasdaqGM",
-   "price": 150.37,
-   "day_high": 161.49,
-   "prev_close": 115.31,
-   "change_pct": 30.41,
-   "gap_pct": 19.68,
-   "close_strength": 0.56,
-   "volume": 7824537,
-   "avg_volume": 852460,
-   "rvol": 9.18,
-   "dollar_volume": 1176575629,
-   "market_cap": 12837297152,
-   "pe": null,
-   "pct_from_52w_high": -6.89,
+   "symbol": "AMTM",
+   "name": "Amentum Holdings, Inc.",
+   "exchange": "NYSE",
+   "price": 24.8,
+   "day_high": 25.35,
+   "prev_close": 20.65,
+   "change_pct": 20.1,
+   "gap_pct": 13.95,
+   "close_strength": 0.77,
+   "volume": 10302559,
+   "avg_volume": 1796092,
+   "rvol": 5.74,
+   "dollar_volume": 255503463,
+   "market_cap": 6063758848,
+   "pe": 24.8,
+   "pct_from_52w_high": -34.93,
    "above_sma50": true,
    "above_sma200": true,
-   "earnings_ts": 1793277000,
-   "market_time": 1795467601,
-   "market_date": "2026-11-23",
-   "market_state": "PREPRE",
-   "score": 76.1,
+   "earnings_ts": 1801602000,
+   "market_time": 1795554002,
+   "market_date": "2026-11-24",
+   "market_state": "POSTPOST",
+   "score": 63.0,
    "news": [
     {
-     "title": "Kymera Therapeutics Stock Gets A Lift From Eczema Trial Success",
+     "title": "Stephen A. Arnette Acquires 40,677 RSUs at Amentum Holdings (NYSE:AMTM)",
+     "source": "Kalkine Media",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObVdSbTVVbWF1eUltQUhiVE4wUHJQNmxQbFNpU1RpZkFvZURzbnp4OFUzSTRZVTA1b0s2M3JtRU44WUtzM3ZGZHpkbFpmTnJwdkQtYWNiZVZpX2R2STlLb2ZWSzlKNFFKaFpEeVJReXBxVm56UkR0eHJKZ2ZpWlpDVmZ1YTBqWk9BdXExb2h4eHZVb0xpaE5XaFlzbktROHJuQ3k0Z2ZfRUdlYm5WRjBDV09sYw?oc=5",
+     "published": "2026-11-25T02:25:10+00:00"
+    },
+    {
+     "title": "Amentum Holdings (AMTM) Reports Strong Fiscal 2026 Results and A",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbXJXeEZoOUlqQTY4WG9EZ1RvT3pxYi1SNlBtcGoxcUhncXBDZV85c2tuRmVCd0NfaDRySTdULWhEYlh6aGtINE8zRlpldUk4cmgwcHpaZXVDZXhwYzJSWHRmS08xaHVzS3lwWkN3b01zUlQxMHowM0F6TEFCTmV4YzdkREFSdUtBNU9sbkt5eHlBVlVaZmRCbnJKUExncjY3bDU3YWtDa0p5UkdYN05HTlBad2VXWVRzX2pfc2FLcw?oc=5",
+     "published": "2026-11-25T03:17:54+00:00"
+    },
+    {
+     "title": "Amentum Holdings (AMTM) Issues Fresh Guidance And Buyback, Is It Still 15% Below Fair Value?",
      "source": "Simply Wall St.",
-     "link": "https://finance.yahoo.com/healthcare/articles/kymera-therapeutics-stock-gets-lift-042552072.html",
-     "published": "2026-11-24T04:25:52+00:00"
+     "link": "https://finance.yahoo.com/markets/stocks/articles/amentum-holdings-amtm-issues-fresh-031508100.html",
+     "published": "2026-11-25T03:15:08+00:00"
     },
     {
-     "title": "Kymera Therapeutics (KYMR) Bounces Back Big After a Painful Losing Streak",
-     "source": "Insider Monkey",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUFpOcG1ZVUhGM0pxWkZxdFRKYjMwdDRXRl9ya045TFAydWpiaTBmcHo5WklHYkdHZE9xMHFjbVB6dGppRWs3dzhCQkYzUDVQdGVOREttUm16Uk1nd1kzWWdfblhhT1lPckR3ek4wOGlFRG5XNTRPc0laVUlBTmlYUzBlckJZelE4QU1UVWZSbVhMMUc1U0o3YUI1QlRodHliSV82b3BoNUNKWktGZXdBakFLSnJGUdIBvgFBVV95cUxNS0FVTmJ1b09QYzdkSVRVSHpLWXp4blVjME5KV2tIZzB4Ml9mZ1JPanNpaWYxWlc0Z28ycUR3NE5fZUNQSU1vaTRNVEJSaU0xTzVkZ1hCVTF2WndTYXlQcUZfM1hxcTluNWFNU0V4Wjg5Mk1mNllleVNMU0FYWXktdWVZU3BDVHV1cVVXV2xOTHFycVF6amlJZ3M5U2t5X1Jrb21YeUNmVHo5eFpQNXBLeW9tQ3RGdFlUUHdqZmdn?oc=5",
-     "published": "2026-11-24T04:43:18+00:00"
+     "title": "Amentum Earnings Call Signals Stronger Growth Ahead",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPblZkak9FR2VTMGN4SlFMWldFYjhlSlJHZkd0LTViQnBPWGszRFFqZHVlLXM4V0E5SXN3eU1PYzRxUVVRWUp0YTUzVG45VG5TdENreldleXJoWlYzaHJ4NWhCdktGZVVUSFV2cXRCRVNrbkUwaXNZTUNNV2ZWT1lYdnBWRE1zZ1R6ZjZvVFFCbHAtMGdSbUpKRkQ5MWU3Sm9ZV0daRDZ3?oc=5",
+     "published": "2026-11-25T00:14:16+00:00"
     },
     {
-     "title": "Kymera Therapeutics prices $1.75 billion public stock offering",
-     "source": "StreetInsider",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbndsdTBwQmo1NFNuWlJCTllTaVBLWGZvcVRnWkQ4YzFpV1N0TXRjd3IzYVR2MTNCV3J2M2R2U3BRdm9keDZYekQ2SmFHVHdvdTRreWRFTEYyQjdFcjJJODl0bzVVQXpaMUh1VlF1UThwRFF1bHk4OTVtZ3hhOU5sQlZXS3Q5TXVrM3F3YlR0ZHI1UVA5UFpxTDlkZy04enZXM2xmN2xXZWZMTXFTX1Zla0JPYzVkclR0Z0x3NEI1X1VkamM?oc=5",
-     "published": "2026-11-24T03:02:10+00:00"
+     "title": "Amentum Stock Jumps 20% as First Buyback of Up to $500 Million Overshadows Revenue Miss",
+     "source": "BigGo Finance",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTRzJfT3N3MG00NmZXbjFZanl0TmJpRVZ1aDFjT2pSank0MENQM2puNGdJOVdrN2xPVV9sUU9UeDBkOG5SZkpMN3ZGZnRLU3hWa1ZoUDlwMFZJbEdsaUpzTkx5czYzWXRuakxCMTZLRDBodXl5T2c?oc=5",
+     "published": "2026-11-24T23:56:00+00:00"
     },
     {
-     "title": "Kymera Therapeutics- Selling 11,638,000 Shares At $150.37 Per Share In Offering",
+     "title": "Amentum Holdings, Inc. Stock 12‑Month Price Target Cut to $29, Implies 40% Upside",
      "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNDN0elhYZzQ1dHBISE5YRWQ2emJRb09IUGlYOFQxLVRvaThMN1R5UUc1WThqQUJXRWZnNlI0OFZmUXdRaUFVdXdWUjhLcTlJNVY1RHRJaXFCMU9GYWVzQ2lSV1VvRDM2cU1GOG5fY2VlYmhPZVAzYUNqaGd1cEF3T3k1a0d5bDVlZE9Wd2dUMkYyb3pCYktEUlMyWHk3MkE3d2Nld005MGZMTDIwQ0I1enZOcWN0TV9SX0Y2T21lemUwU2ROSm1uaWNkQThmUEtPbFJrOXEzRzE5cUwzTmlCcA?oc=5",
-     "published": "2026-11-24T02:50:44+00:00"
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbnFjQ0VEZm5FVkhqOTFiQzNGaTJRTHJiYXp1V1FZakJVS3ktOGN2bDIzTGVfMjdNMm81M3NBVTFLSU5MVFZWN2JwNWRhZTlKeHRuenk2RTZpbUVOdXBkSmJ1UEFIWmQtRWJ5d2ZDX2gwdWpTamRIQnZsU05nSWswWmdRbUk5SU4xamd0ekE4bDN1RmxUMEJmWExEUlAxcGhwZXpqMVh0NXhaSUdveXBNajJ4REdzYms1YVlZWUZWdmpudjkwOFY2dXFydk0taE9hSnhyUw?oc=5",
+     "published": "2026-11-24T22:20:00+00:00"
     },
     {
-     "title": "Kymera Therapeutics Announces Pricing of Upsized $1.75 Billion Public Offering",
-     "source": "GlobeNewswire",
-     "link": "https://finance.yahoo.com/healthcare/articles/kymera-therapeutics-announces-pricing-upsized-025000118.html",
-     "published": "2026-11-24T02:50:00+00:00"
+     "title": "Amentum (NYSE:AMTM) Jumps 20% Despite a Revenue Miss as a First-Ever Buyback Steals the Show",
+     "source": "kalkine.com",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbVN1MHdudWNQbVBzZTR5X3dycXRHbnZibmRXelRHb1h0eUlpc0M5QW1POHd6Vm9xdmxoMzNadEtWZFg4WEFIdGhwS1FmcHpRR3U1aHFUSU02VXZjMGdoZGFudDVYU1F4MFhKa0NmWVdKVXYwQWdUSl9jWk9WeUd5VmEzb2pqTEtlR1lJRkg4M3FDSTFZUzlEcEIxNk5KWlYxcDFOUjRYc0N1NENuTXBscU0zNmRaMVN5c3h4U3I3c1Q1ZTA?oc=5",
+     "published": "2026-11-24T21:15:00+00:00"
     },
     {
-     "title": "Kymera Therapeutics (KYMR) Unveils Phase 2b KT 621 Atopic Dermatitis Results",
-     "source": "Simply Wall St.",
-     "link": "https://finance.yahoo.com/healthcare/articles/kymera-therapeutics-kymr-unveils-phase-021917552.html",
-     "published": "2026-11-24T02:19:17+00:00"
-    },
-    {
-     "title": "Nvidia, Dell, Oatly Group, Zoom Communications and Kymera Therapeutics: Why These 5 Stocks Are on Investors' Radars Today",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxORzVOdVFvLTRxbE5nd1FxZ3RnaTlPUUxVcV9sRENEd0RzSG5LeXNyYW1ianFLYkRLQVpEb1AtNkh6dDROZkFHYV9aTmNWelFncmY1MXE0TmFOVjhpZU1RX0UyWlJSeXd1YmhpQlhfanVWdE9DZExETEdQRVczTHN0akpMOXlKelZ5dlI5X3M1SWViMVZaSXZoZzNtNzhPOVUxbFM2MVNpT0xuLUdRTmZCSzFKRkpaeGw2d2hpX1AtNmxhRGoxX0V0REd1QU8zdGRHelZ5eFppVDlaREZCUl94VUNYeFo0azJ2MF84NzVvNmhBWHB1S1ZTZTJYRVVmYlRnOU1ad3NR?oc=5",
-     "published": "2026-11-24T01:02:00+00:00"
-    },
-    {
-     "title": "Kymera Therapeutics offers $1.5B in common stock",
-     "source": "Breakingthenews.net",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSTVpNDVHY0s0anp6WTVhbmNnYmgwVXNkQ0lLbVRZTEJMamRnU2pfb3hTTkVfZHNtSmE3R29haXhEY0lGdmw4ZlBWM3ZvY19kR2FXUEtyV0NaaTFGZ3Awd0pmTzNZTkE4aFh4V3dpYWx0VGI4c1JNaGJLUkxldkdXTHNIUF9MNVhyWHhZNXNvdGI0cEFuZDc2Vnl0VU56NWc?oc=5",
-     "published": "2026-11-23T23:46:00+00:00"
+     "title": "Why Is Amentum Stock Surging Today? - Amentum Holdings (NYSE:AMTM)",
+     "source": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQWFiRFlPV1JzNkhFLVV6al9tNmRKamFXTU85SjFEVFhzSzVSUkp2eXNyME1ZbG10cGxia1B3cjB4RF90ZUozUVgzQmE3dnV2MDhMR1FmNWZoZGFDdDk0Vzl4d2JCajhuY0o3SlREM0hIMFNDNzlqM0tZTzdFNmEyQ1NjWVNUVkhpdWVLQ0ZxRkVSQ0UtdzNYSkVfZHpxRzFYSzhKWmdRajRqUQ?oc=5",
+     "published": "2026-11-24T20:23:36+00:00"
     }
    ],
    "catalyst": {
-    "type": "fda",
-    "label": "Biotech / FDA / ensayo",
-    "quality": 0.5,
-    "note": "Muy volátil: puede revertir con fuerza.",
+    "type": "takeover",
+    "label": "OPA / la compran",
+    "quality": 0.3,
+    "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
     "confidence": 0.3
    },
    "earnings_event": null,
    "score_parts": {
-    "move": 20.0,
-    "rvol": 30.0,
-    "catalyst": 15.0,
-    "close": 5.6,
-    "size": 5.5
+    "move": 14.1,
+    "rvol": 28.3,
+    "catalyst": 9.0,
+    "close": 7.7,
+    "size": 3.9
    },
    "appearance": {
     "count": 1,
@@ -167,13 +167,698 @@
     "window": 10
    },
    "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -34.93,
+    "ath": 38.11,
+    "ath_date": "2026-02-06",
+    "prior_ath": 38.11,
+    "listed_since": "2024-09-24",
+    "short_history": true
+   },
+   "quality": {
+    "grade": "B",
+    "points": 5,
+    "max": 9,
+    "piotroski": "8/9"
+   }
+  },
+  {
+   "symbol": "ANF",
+   "name": "Abercrombie & Fitch Co.",
+   "exchange": "NYSE",
+   "price": 168.1,
+   "day_high": 178.38,
+   "prev_close": 140.45,
+   "change_pct": 19.69,
+   "gap_pct": 13.13,
+   "close_strength": 0.53,
+   "volume": 4697649,
+   "avg_volume": 1584712,
+   "rvol": 2.96,
+   "dollar_volume": 789674797,
+   "market_cap": 7133218816,
+   "pe": 12.1284275,
+   "pct_from_52w_high": -5.76,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1795527000,
+   "market_time": 1795554170,
+   "market_date": "2026-11-24",
+   "market_state": "POSTPOST",
+   "score": 63.0,
+   "news": [
+    {
+     "title": "Abercrombie & Fitch Stock Forecast — ANF ($174.95) $200 Upside Target on Record Q3 and $13.80 EPS Guide",
+     "source": "TradingNEWS",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOclFKM2tBOEtHeURKdkNhendmdzU1MzA5SGF2enV5YmpxNWFvdTRfQTNNck1rZzVFODlyeGJ0amhxQnpnbHRJSUxYV2NCU1Uzb3FJbHU2NmN3MG9BdV9vTDhWd0pKeUtZTnR2b19Xdm1Dd1NjTDNBYlBrSm5ZM1EzbDFWYW5QLUQtOHlkejh0WDZGXy1EaGtvRW85eVNMenNTdEljVWltMzY1Um5DZ0F6QTlEM2Fka1VyZlVfUUR3?oc=5",
+     "published": "2026-11-25T03:11:15+00:00"
+    },
+    {
+     "title": "Is Abercrombie & Fitch (ANF) Still Undervalued After Record Q3?",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-anf-still-undervalued-031115863.html",
+     "published": "2026-11-25T03:11:15+00:00"
+    },
+    {
+     "title": "[Abercrombie & Fitch Co. Q3 2026 Earnings Call] Abercrombie & Fitch Posts Record Q3 Sales of $1.44 Billion, Raises Full-Year Outlook as EPS Jumps 62% to $3.82",
+     "source": "BigGo Finance",
+     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBiR19NZWVqX0RBNkFtSlVvN1NNcmo1SUpsVHZxMWlSMDY3WF9xNk9CMGVvUEtQbFVBTGFMRW8zUF9ac3g4Y1IyWGJXNFhzRVZKUFBvdlNqNFRRZGdV?oc=5",
+     "published": "2026-11-25T01:44:00+00:00"
+    },
+    {
+     "title": "abercrombie & fitch co. Positive Earnings Pre-Announcements",
+     "source": "RTTNews",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdEd1TmkyaXllb2xlbEZZY3NWbjJzYVZhXzdaWGU4eXhYbDV0a1FRSm50Z3NsMWd6c2hhNlhOOHdrNWdqQXJNT1Vvby1yY2h1YktuVmYxbTRtUjJKQlA5QzJWQ2VzS2tVM25wQnQ4VHZfYXlCTlFXZ20xQVk3VkNDTXd0bnlqd0FGeExIb21RMmVqQUFsLWpj?oc=5",
+     "published": "2026-11-24T22:27:38+00:00"
+    },
+    {
+     "title": "Abercrombie & Fitch (ANF) Has Investors Rushing Back. Here’s Why",
+     "source": "Insider Monkey",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-fitch-anf-investors-rushing-021907432.html",
+     "published": "2026-11-25T02:19:07+00:00"
+    },
+    {
+     "title": "Sat Out Abercrombie & Fitch's Rally? Here Is What Holders Saw",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/sat-abercrombie-fitchs-rally-holders-010954016.html",
+     "published": "2026-11-25T01:09:54+00:00"
+    },
+    {
+     "title": "Abercrombie & Fitch Co (ANF) Stock Up 19.7% but GF Value Says Ov",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOUpNaWlHZ21pZWdySy1GTXg0eFR0b21Ca3JvN3pqMDJQQnRsZXhQVEI1SUNGcVBQV3BoSkdWbF9GOEtNNXR4MF90RGNBd1VyS0ZDNldOTVl3ZThDMmtwcnU5eG83RFVWaVZtVUREQ3UzRmJHNlAzRnRxTzhLeXJ3NXBRWFVZQ0lMNmFiZzZNd1ZYeEo4RkJKNEJxRFN2S1UzSHZKNWpIRms2SkRnVmpUaVFxTnExZklCekhtTg?oc=5",
+     "published": "2026-11-25T00:44:26+00:00"
+    },
+    {
+     "title": "Abercrombie: 3 Key Takeaways for Long-Term Investors",
+     "source": "Motley Fool",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/abercrombie-3-key-takeaways-long-231002148.html",
+     "published": "2026-11-24T23:10:02+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings_guidance",
+    "label": "Resultados + mejora de previsiones",
+    "quality": 1.0,
+    "note": "El catalizador con más continuidad histórica (post-earnings drift).",
+    "confidence": 0.2
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-11-24T08:30:00-05:00"
+   },
+   "score_parts": {
+    "move": 13.7,
+    "rvol": 9.7,
+    "catalyst": 30.0,
+    "close": 5.3,
+    "size": 4.3
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -14.67,
+    "ath": 196.99,
+    "ath_date": "2024-05-29",
+    "prior_ath": 196.99,
+    "listed_since": "1996-09-26",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 6,
+    "max": 9,
+    "piotroski": "6/9"
+   }
+  },
+  {
+   "symbol": "KSS",
+   "name": "Kohl's Corporation",
+   "exchange": "NYSE",
+   "price": 25.33,
+   "day_high": 25.44,
+   "prev_close": 21.2,
+   "change_pct": 19.48,
+   "gap_pct": 4.58,
+   "close_strength": 0.97,
+   "volume": 11531246,
+   "avg_volume": 4356057,
+   "rvol": 2.65,
+   "dollar_volume": 292086461,
+   "market_cap": 2871825408,
+   "pe": 10.871245,
+   "pct_from_52w_high": -1.05,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1795527000,
+   "market_time": 1795554173,
+   "market_date": "2026-11-24",
+   "market_state": "POSTPOST",
+   "score": 58.7,
+   "news": [
+    {
+     "title": "Kohl's Corporation Q3 2026 Earnings Call Summary",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSlZhTHFIUFQ0dWhQRi0yeEgxWE1jNS1DNGtqT2tiRmZnOVRzc0pFaXV4TDkwX0VEbkd0MUU1LS1iOGVIUVFObW9PQ1lrUklBQW9kQUt6RFB4a3p3ckRYNkxaODJnQmt4UE1JVUhyWnBzdUZlODQ3SU1KSVFLd0pDUGJIcWx6TFBOS1EyTXhCMnZYcHZjMWJsTVJrVjFBQkdl?oc=5",
+     "published": "2026-11-24T22:05:19+00:00"
+    },
+    {
+     "title": "Kohl's Corp | 8-K: Kohl's Reports Third Quarter Fiscal 2026 Financial Results",
+     "source": "Moomoo",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaVdTSEg1V3hCeVp0OVZudV9mYjMwSThwMUlYcVFZY2tZNUhaS3Y4c095NVBnWFl6Q3Uyd2d2dTg2cnhkdHg4TU1Ha0Q4WGowd25RUl9tV1FxRC00Wjk4MDVhX281UXNFa0NzOGlTdlk0MFluQ3Nab3NBTW02TTJuUzRlYzBodm5ydDVCQnZ5RlJYMTJ1a1dLbk9MaHlpelF4d29RU2NUWQ?oc=5",
+     "published": "2026-11-24T21:48:35+00:00"
+    },
+    {
+     "title": "Kohl's (KSS) Q3 2026 Earnings Call Transcript",
+     "source": "Motley Fool",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/kohls-kss-q3-2026-earnings-212838463.html",
+     "published": "2026-11-24T21:28:38+00:00"
+    },
+    {
+     "title": "Kohl’s Corp. (KSS) Delivers a Long-Awaited Surprise to Investors",
+     "source": "Insider Monkey",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/kohl-corp-kss-delivers-long-021418171.html",
+     "published": "2026-11-25T02:14:18+00:00"
+    },
+    {
+     "title": "Hello, I'm \"MK Signal,\" an AI reporter who analyzes U.S. stock hot issues.On the 24th, Kohl's KSS ac..",
+     "source": "매일경제",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kR3AxckNMMV9PcHpyc1ZvdXVhc0dVUWxYaDQyMUF3TmxEUkhFNFktMFZjYnpjdEx3LWlDNnRqRDF3MzdleDVpTHVzSDY1RUU?oc=5",
+     "published": "2026-11-25T01:04:05+00:00"
+    },
+    {
+     "title": "Kohl's: 3 Key Takeaways for Long-Term Investors",
+     "source": "Motley Fool",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/kohls-3-key-takeaways-long-010350723.html",
+     "published": "2026-11-25T01:03:50+00:00"
+    },
+    {
+     "title": "Kohl's (NYSE:KSS) Soars 16% on First Positive Comparable Sales in Years, but One-Time Items Flatter the Profit",
+     "source": "kalkine.com",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTmRzY3pOa0Vpc2FsSktxRlZZWG82TmlEQmsyNkw3VkNhTlJZSUo5MnJzRjdVQkwwTHVNZkpTQXRqMWtYWktVNXE4TTBXenZHWFJyd2RUTUlFbFhpbngtbEJyS0ZIbU4yNzhCb09fMHVTTnE5SGhVQTdQWEh5TC0zaldOaFBTR1RCMm8zQzE2aUhRcVRIUjVQLTJJRHZZRk9fRGlXSkhOb3VhV1NmV1NDSVJhYUdheVp3N0dmRlR6NEtfcGU5bElrRVgzVWFPRXY2YmVnMA?oc=5",
+     "published": "2026-11-24T21:15:00+00:00"
+    },
+    {
+     "title": "Kohl's stock soars after retailer posts sales growth for first time in 4 years",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObFkxaThXNW00SjRjaXhGSDd4UUJPRFRINUhpNExDLUkyM3BFX1IxOHhFb0lwZnY4VlFOTzRYR0p6eU1jWjFvRHBldDFjdVBXbGZrdGd4WU5LbUsyRVh4ekstQW45bkxsTnZEX3NodVBlUUtvakxLVHNvVlIxc1I4SUszbTU3TmdWM2YyZHRXWFc4SXI2eHpHVFRsdE9qZktuRlhXQTRoS0xvaS1fSjFZMktOQXhTVmxSZUdaUkxickxGTmUxSkJjWlVpM2dfQVBPaDNUVHJKeUw?oc=5",
+     "published": "2026-11-24T20:05:47+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 1
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-11-24T08:30:00-05:00"
+   },
+   "score_parts": {
+    "move": 13.5,
+    "rvol": 7.7,
+    "catalyst": 25.5,
+    "close": 9.7,
+    "size": 2.3
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -69.58,
+    "ath": 83.28,
+    "ath_date": "2018-11-12",
+    "prior_ath": 83.28,
+    "listed_since": "1992-05-19",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 4,
+    "max": 9,
+    "piotroski": "6/9"
+   }
+  },
+  {
+   "symbol": "DLTR",
+   "name": "Dollar Tree, Inc.",
+   "exchange": "NasdaqGS",
+   "price": 154.65,
+   "day_high": 156.89,
+   "prev_close": 139.1,
+   "change_pct": 11.18,
+   "gap_pct": 7.83,
+   "close_strength": 0.75,
+   "volume": 6395698,
+   "avg_volume": 2452018,
+   "rvol": 2.61,
+   "dollar_volume": 989094696,
+   "market_cap": 29017024512,
+   "pe": 16.938663,
+   "pct_from_52w_high": -1.43,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1795527000,
+   "market_time": 1795554001,
+   "market_date": "2026-11-24",
+   "market_state": "POSTPOST",
+   "score": 57.4,
+   "news": [
+    {
+     "title": "Dollar Tree, Inc. 2026 Q3 - Results - Earnings Call Presentation (NASDAQ:DLTR) 2026-11-24",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcTlncmsyX3FKbEk4bVZRaUZKbnJzdDRRMTdpVTB4djhmaVUyeEE5OUhMaHdxRHluX0UwSFpReHIwT1QyNkV5emhCYkdGeVJBZnF5c04xYmJKRUF2MVA1R1J0WkFBMTJaZU1iOE8yR1ZldDRvd1JDYXdZU0V4OWlIWFJ2bXVyTHFQcDFiVnYyX2pYa3RGWi1Nckw3V0pUU0lMc25WU0NGZEE3SzZnZGRwdlVQNjBmSVVwM2ZjYmZORE14Zw?oc=5",
+     "published": "2026-11-25T02:30:40+00:00"
+    },
+    {
+     "title": "Morning Movers: Dick’s Sporting and Dollar Tree gain following quarterly reports",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQVZxUFNSUldZQ18wQmdqM1hRYndMNlFLdE0xOGp1TGpqN0cwM2xqNVZJVVR3RDdHN0tNMjBLVHhZSEQwcnlQSWR5WFh2UW43V2JJdVR6TUNXVGI0Z2FxSjhHQVlPQ2FMY2x6djNUdXhRVjNXNDlCRXNybGRuYngtdzI2clk5dm95YXBzVXptX3JfQVFfTjU2U0VJZGFGVmFaeEE?oc=5",
+     "published": "2026-11-24T22:00:46+00:00"
+    },
+    {
+     "title": "Dollar Tree Raises Forecast After Strong Q3",
+     "source": "Briefs Finance",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQYlpDeFo0cWVUTFlkeXRZOURLUTBRd0ZnT0V6T25EWXNENENMUnhQbDMzMzdINDdISzJ6cGlYWnl4V3E1U3NwbzJhbHRXa3J5bHNMeU8zR3puLVh4UFlnN2dFV29wMHhjT1U1LWdHQUlheGpUcGs1V0dRc2tBNC1ERnVSalZpai1pX3FaUXBfams?oc=5",
+     "published": "2026-11-24T21:50:00+00:00"
+    },
+    {
+     "title": "Dollar Tree (DLTR) is On Fire After Hitting This Big Achievement",
+     "source": "Insider Monkey",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/dollar-tree-dltr-fire-hitting-014249646.html",
+     "published": "2026-11-25T01:42:49+00:00"
+    },
+    {
+     "title": "Dollar Tree: 3 Key Takeaways for Long-Term Investors",
+     "source": "Motley Fool",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/dollar-tree-3-key-takeaways-013215550.html",
+     "published": "2026-11-25T01:32:15+00:00"
+    },
+    {
+     "title": "Bring Back a 1980s Christmas With Dollar Tree’s $1.50 Colorful Solar Hanging Lights",
+     "source": "Yahoo",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeE5jcExWa0dCd3lnU1h4ZmdmTmlJei1RVGJLa3UwdVFld01aSnhJM3h5S1RUYVpGa1lyYThvSW5VNGg1czdKd0lKaTRMNURDd214Q3hPVGtYQWsxSG45cUhLZmNuUHNDZ3g4QW43aDhhbWZvNC1hYS1tYWp6akY2b3RPbXZfb0cxUVMyV1YzQXMxYzJsZGpjbjhyOFQtT3Rmc3l0WnRHNXJaaGc?oc=5",
+     "published": "2026-11-25T01:11:00+00:00"
+    },
+    {
+     "title": "Make the Coziest Holiday Throw Pillows From $1.50 Dollar Tree Placemats",
+     "source": "Dengarden",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPd3BUazlKUW5QQlR4eTNNMXZNSWpESUtRamZqeVVuLV9sVkN2RnJUZ3hSc0xkVVR2MlYySEJVNVlLUzI5SmJ4Zmxsb1ByVWNxSGRwY20xbWFlUGJSWlB5c1Iwb0JRbW9XdWUzdGV5eHBZblp4T19WcXR0ZGhQdko5cnpPdkIwejNCMlN6YzBNMjNNZw?oc=5",
+     "published": "2026-11-25T00:30:00+00:00"
+    },
+    {
+     "title": "Dollar Tree, Inc. (DLTR) Stock Forecasts",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV2JUWjVtamtBTVRkblgtaWxHaEp1dmtoOVp4dE9fdllnZ1VuZ2xNcktIMkhwWGUwQlAzNk5wRm15WHAyVGJXV0tOYi1FZkxZUEFSWEl2bkE1TnM1R3U4Vmc0cnkxUGpqM0gybHlvNDBwTFFIQ1NhZl96SEpvMEw2cDY1MWNJNVl1bDkydg?oc=5",
+     "published": "2026-11-24T22:48:52+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings_guidance",
+    "label": "Resultados + mejora de previsiones",
+    "quality": 1.0,
+    "note": "El catalizador con más continuidad histórica (post-earnings drift).",
+    "confidence": 0.2
+   },
+   "earnings_event": {
+    "timing": "reported",
+    "at": "2026-11-24T08:30:00-05:00"
+   },
+   "score_parts": {
+    "move": 5.2,
+    "rvol": 7.4,
+    "catalyst": 30.0,
+    "close": 7.5,
+    "size": 7.3
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -12.72,
+    "ath": 177.19,
+    "ath_date": "2022-04-21",
+    "prior_ath": 177.19,
+    "listed_since": "1995-03-07",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "B",
+    "points": 6,
+    "max": 9,
+    "piotroski": "8/9"
+   }
+  },
+  {
+   "symbol": "SNY",
+   "name": "Sanofi",
+   "exchange": "NasdaqGS",
+   "price": 51.9,
+   "day_high": 51.95,
+   "prev_close": 46.77,
+   "change_pct": 10.97,
+   "gap_pct": 7.6,
+   "close_strength": 0.97,
+   "volume": 13796007,
+   "avg_volume": 3426495,
+   "rvol": 4.03,
+   "dollar_volume": 716012763,
+   "market_cap": 124622938112,
+   "pe": 25.820896,
+   "pct_from_52w_high": -0.1,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1801143000,
+   "market_time": 1795554001,
+   "market_date": "2026-11-24",
+   "market_state": "POSTPOST",
+   "score": 56.6,
+   "news": [
+    {
+     "title": "Sanofi to acquire New Jersey’s Insmed for $41B",
+     "source": "Virginia Business",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdERDazBFNG9VTkRMTmdBTUFxZmMySVVvbTZZelV6alNzTERMSldQV2ctX2N5T1h4Z1dkQnp1ZkpYLS1jSDNBbFRsTnBNNUg4dkJpbXoyVnI3RVg4X0oxY2cxbF9MX2JQVHN3dWNrSllqRkwtMWQ5dXZtR3hhZE5KSUxlblRGWVN3Unc?oc=5",
+     "published": "2026-11-25T00:28:02+00:00"
+    },
+    {
+     "title": "Sanofi to Buy Insmed for $41 Billion: Lung Pill Brinsupri Cuts Flare-Ups 20% at $88,000 Yearly",
+     "source": "Tech Times",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRDh4aE1tV0t3SFJHVHRRWTFZdjNXd2hZSlJjZDFMck1ZWEF5NnBSUnZqc1dWVDVuczZwMTVxdXotWlVSTTVpQ3FxWXg0YlRJMnV5bk90UnpGRjhxYmhIZ0RORE00cWNBU00wUHlnVm53Z3pFZjhZVmZ2WWR2UC1qTGJtN2NtbjMzTlhfR2hEeGlPbWU2el93VFVTMHV3QlRfN3AteWZocDMxQ2hLYXBabDF1UV9uSDNKSTB2dnR5SjJ4Sm9vNHltS25oZHlQTlU?oc=5",
+     "published": "2026-11-24T23:27:52+00:00"
+    },
+    {
+     "title": "Moody's Changes Sanofi Outlook to Negative on Concerns Over Revenue, EBITDA",
+     "source": "www.marketscreener.com",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRThsbzhtd3RHQUlmYms2NjB1bXJIYVZDVmM4NWNyczFrbHh0YzRCUTNzcm9VS3NlVUtoSWxTeTBqcmlkbm1sMWF4dkFQS2JMZHV3dHcwMy1BNXpCUDUxc3ZSUDkydzMtWmtVOVlPN24zemZjVGpTZEM3eFh3WTIwb1dibFFXSV8zZlNrMUZsSmRQQVQxbFRXS1ZUX3BzOENiMGtGMVRRVVlGZGRCRGhBVV9iemJxd1hHMWw4Y3F0U3NuSHZwVnc?oc=5",
+     "published": "2026-11-25T04:18:14+00:00"
+    },
+    {
+     "title": "Sanofi (SNY) Stock Is Trending After Hours on $41 Billion Insmed Acquisition",
+     "source": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa3JEdmtBUFV1ajJXME1qZXdtQ0pGRkZ0bUNzeGkzNFFfazJiQVE5R1FraDlnRzd1YnZSMHFUR3JHalBFRHJwNHQzS2lleVV6c19VV0ZkZXRRNVFpQ1ZmTlpwVUpwN01McDRtaDJpbWRoNkpSTGRKOEdfektmM2VBNkV4Wnk2LUZCcVVWRUFYN2ZOeGJROWY4Q1BZUkRkTWNvLUhBWkdzVE4zQQ?oc=5",
+     "published": "2026-11-25T03:07:59+00:00"
+    },
+    {
+     "title": "Sanofi (SNY) Just Hit New Heights. Investors Love This Billion-Dollar Move",
+     "source": "Insider Monkey",
+     "link": "https://finance.yahoo.com/healthcare/articles/sanofi-sny-just-hit-heights-013741972.html",
+     "published": "2026-11-25T01:37:41+00:00"
+    },
+    {
+     "title": "Sanofi strikes $41 billion deal for Insmed as CEO Garijo makes her mark",
+     "source": "Reuters",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zQUJjamRaZWpUd2lCRW1VcDZMQnhPM2tiMkNTYXpNakVfNHNqTXB6S2hGSHk3Z1JPbWNUZHVRTFEtX2ZOLVRrWlVwT2JsVmN5bGp2NGlITERKTjdobVVEMXlDbzZIdjA?oc=5",
+     "published": "2026-11-24T22:44:42+00:00"
+    },
+    {
+     "title": "Sanofi Announces $41 Billion Deal to Purchase Insmed",
+     "source": "Pharmaceutical Executive",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdXlwaTJqbmFfT19pcG1EeURpTnN6NUVuZ2pReVR1dGZobFo2MWJWZHA2SGdpSzVmQ09EVmhlSTIwTTY2b0Y4VlFQZ2FMbU5nWG9qQVV0ZGx2YllSYlBhZTZLYzJEOFEzMXM5VE82LWlrYkp0MS1xVV9FbWRYMjJvWmhGSVRsODNrRGVCbGwtcXFIU056ZkdNdkJqa20?oc=5",
+     "published": "2026-11-24T21:52:33+00:00"
+    },
+    {
+     "title": "Sanofi SA Stock (SNY) Closed Up by 10.97% on Nov 24: What Investors Need To Know",
+     "source": "TradingKey",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNnRrSVdBRFFtVUI0OFpKRnZCRGFLdDFESzIzWTQyblplRDBhbHBFZ0FEZzdySU1wVXpBQzN5bjhaUERselZqWkVkbWhtMGhDMkRTc245eTFicEZfelBMSmtTZksxeVhUd0VQeXUzSjdXT0VLMk9RWVZfektScmtRcWV3eEVodkFaZWc?oc=5",
+     "published": "2026-11-24T21:15:43+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "acquisition",
+    "label": "Compra / fusión con otra empresa",
+    "quality": 0.5,
+    "note": "El mercado premia la operación; vigila cómo se financia y si la aprueban reguladores.",
+    "confidence": 0.4
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 5.0,
+    "rvol": 16.9,
+    "catalyst": 15.0,
+    "close": 9.7,
+    "size": 10.0
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -13.67,
+    "ath": 60.12,
+    "ath_date": "2025-03-10",
+    "prior_ath": 60.12,
+    "listed_since": "2002-07-01",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "A",
+    "points": 7,
+    "max": 9,
+    "piotroski": "7/9"
+   }
+  },
+  {
+   "symbol": "INSM",
+   "name": "Insmed Incorporated",
+   "exchange": "NasdaqGS",
+   "price": 170.15,
+   "day_high": 170.61,
+   "prev_close": 149.09,
+   "change_pct": 14.13,
+   "gap_pct": 14.35,
+   "close_strength": 0.1,
+   "volume": 78939191,
+   "avg_volume": 3136579,
+   "rvol": 25.17,
+   "dollar_volume": 13431503349,
+   "market_cap": 37327556608,
+   "pe": null,
+   "pct_from_52w_high": -20.02,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1802957400,
+   "market_time": 1795554000,
+   "market_date": "2026-11-24",
+   "market_state": "POSTPOST",
+   "score": 56.0,
+   "news": [
+    {
+     "title": "Sanofi to acquire New Jersey’s Insmed for $41B",
+     "source": "Virginia Business",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdERDazBFNG9VTkRMTmdBTUFxZmMySVVvbTZZelV6alNzTERMSldQV2ctX2N5T1h4Z1dkQnp1ZkpYLS1jSDNBbFRsTnBNNUg4dkJpbXoyVnI3RVg4X0oxY2cxbF9MX2JQVHN3dWNrSllqRkwtMWQ5dXZtR3hhZE5KSUxlblRGWVN3Unc?oc=5",
+     "published": "2026-11-25T00:28:02+00:00"
+    },
+    {
+     "title": "Sanofi to Buy Insmed for $41 Billion: Lung Pill Brinsupri Cuts Flare-Ups 20% at $88,000 Yearly",
+     "source": "Tech Times",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRDh4aE1tV0t3SFJHVHRRWTFZdjNXd2hZSlJjZDFMck1ZWEF5NnBSUnZqc1dWVDVuczZwMTVxdXotWlVSTTVpQ3FxWXg0YlRJMnV5bk90UnpGRjhxYmhIZ0RORE00cWNBU00wUHlnVm53Z3pFZjhZVmZ2WWR2UC1qTGJtN2NtbjMzTlhfR2hEeGlPbWU2el93VFVTMHV3QlRfN3AteWZocDMxQ2hLYXBabDF1UV9uSDNKSTB2dnR5SjJ4Sm9vNHltS25oZHlQTlU?oc=5",
+     "published": "2026-11-24T23:27:52+00:00"
+    },
+    {
+     "title": "Sanofi to acquire Insmed for $41 billion ahead of Dupixent patent expiry",
+     "source": "Chosunbiz",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdUl6YXZQSTdGUU5qYUZYUzh4RFhOa0t3QXpfOXVtc2Naaml3d09CNFNXUG9FaWtScllkRTEyYW93ci0wWTFkYmJ4ZmlmbGNuS0o3cjFYLXc1Nmo0YUQwUnIxc2dPVWpjTDZUZHFYV0dZdkM2ZjJpZGZLTUkzZGpGcNIBlAFBVV95cUxPZWxta3pJY056WXU1cUtsSzNXa3czNUs0enRzUVNXRnNfQXZhd3g3aEdJY2lCZGZyMGpHUHQtSlNaTU53QmZBcVkyeF9sMDhpbHpoWGJ4dXUxZ0lDaXZ3cUd1MUtoQmdEUDlGSzZ2X0E3U3FfTWUwa1BKRlVqVXNtWG9yeGptRHpWRG1MVkFxVkQ1ODR1?oc=5",
+     "published": "2026-11-24T23:04:00+00:00"
+    },
+    {
+     "title": "Insmed Incorporated (INSM) Sanofi - M&A Call - Slideshow",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZGlHczVJUXVUZVZzRkFEN00zSDNWUXFRRUFmbzJFeFF4WDk2MV9tcUZNcHg2QlJqS0huLWVpNlp4S196VVh6YTZ4ZjNHLXZsQV9BVEw2UHotNlh2SGJRaUU2UHV5R04xNjlBYnZXbThTTVBBYmRzRjRhOWppeGNfY3VrVmZoMGh0TG9yNVI3RVI2QVM2NlZRdWlMa1ZtemhhLUZiYzJUamRlQ194NXlnbDUzOWNETDl2akRVQg?oc=5",
+     "published": "2026-11-25T03:35:40+00:00"
+    },
+    {
+     "title": "Sanofi (SNY) Stock Is Trending After Hours on $41 Billion Insmed Acquisition",
+     "source": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa3JEdmtBUFV1ajJXME1qZXdtQ0pGRkZ0bUNzeGkzNFFfazJiQVE5R1FraDlnRzd1YnZSMHFUR3JHalBFRHJwNHQzS2lleVV6c19VV0ZkZXRRNVFpQ1ZmTlpwVUpwN01McDRtaDJpbWRoNkpSTGRKOEdfektmM2VBNkV4Wnk2LUZCcVVWRUFYN2ZOeGJROWY4Q1BZUkRkTWNvLUhBWkdzVE4zQQ?oc=5",
+     "published": "2026-11-25T03:07:59+00:00"
+    },
+    {
+     "title": "Insmed Inc. (INSM) Stages a Monster 14% Rally — Here’s What Sparked Buying",
+     "source": "Insider Monkey",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/insmed-inc-insm-stages-monster-020154811.html",
+     "published": "2026-11-25T02:01:54+00:00"
+    },
+    {
+     "title": "Sanofi strikes $41 billion deal for Insmed as CEO Garijo makes her mark",
+     "source": "Reuters",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zQUJjamRaZWpUd2lCRW1VcDZMQnhPM2tiMkNTYXpNakVfNHNqTXB6S2hGSHk3Z1JPbWNUZHVRTFEtX2ZOLVRrWlVwT2JsVmN5bGp2NGlITERKTjdobVVEMXlDbzZIdjA?oc=5",
+     "published": "2026-11-24T22:44:42+00:00"
+    },
+    {
+     "title": "Sanofi Announces $41 Billion Deal to Purchase Insmed",
+     "source": "Pharmaceutical Executive",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdXlwaTJqbmFfT19pcG1EeURpTnN6NUVuZ2pReVR1dGZobFo2MWJWZHA2SGdpSzVmQ09EVmhlSTIwTTY2b0Y4VlFQZ2FMbU5nWG9qQVV0ZGx2YllSYlBhZTZLYzJEOFEzMXM5VE82LWlrYkp0MS1xVV9FbWRYMjJvWmhGSVRsODNrRGVCbGwtcXFIU056ZkdNdkJqa20?oc=5",
+     "published": "2026-11-24T21:52:33+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "takeover",
+    "label": "OPA / la compran",
+    "quality": 0.3,
+    "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
+    "confidence": 0.6
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 8.1,
+    "rvol": 30.0,
+    "catalyst": 9.0,
+    "close": 1.0,
+    "size": 7.9
+   },
+   "appearance": {
+    "count": 2,
+    "previous": [
+     "2026-11-19"
+    ],
+    "window": 10
+   },
+   "ath": {
+    "status": "mid",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -20.02,
+    "ath": 212.75,
+    "ath_date": "2025-12-02",
+    "prior_ath": 212.75,
+    "listed_since": "2000-06-01",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 3,
+    "max": 9,
+    "piotroski": "4/9"
+   }
+  },
+  {
+   "symbol": "KYMR",
+   "name": "Kymera Therapeutics, Inc.",
+   "exchange": "NasdaqGM",
+   "price": 173.92,
+   "day_high": 179.8,
+   "prev_close": 150.37,
+   "change_pct": 15.66,
+   "gap_pct": 7.07,
+   "close_strength": 0.69,
+   "volume": 6518871,
+   "avg_volume": 968101,
+   "rvol": 6.73,
+   "dollar_volume": 1133762044,
+   "market_cap": 14847794176,
+   "pe": null,
+   "pct_from_52w_high": -3.27,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1793277000,
+   "market_time": 1795554001,
+   "market_date": "2026-11-24",
+   "market_state": "POSTPOST",
+   "score": 55.5,
+   "news": [
+    {
+     "title": "Form 144 KYMERA THERAPEUTICS For: 24 November By Investing.com",
+     "source": "Investing.com Nigeria",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdGNxQXJSMkdqYno5YUhtUkVGLXQ2T1cxVmhQUmFLd2Z2WUZYUmRnaG5hRDZzMzVDbl8wWC1ZejRTdndJdktPaHpVcUpPYXZCYW9oQ0JIS2didExCWWNFa3E1aUZXWjQtdUpEZTUtdDEzaFFCLUpWNXBoOFRrYXNZWGVMcWx2OHcwOWg3NEhDa3lWS2tHaGxOdnhVOFRXeWpWYWRSZWVlbmQ?oc=5",
+     "published": "2026-11-25T04:06:14+00:00"
+    },
+    {
+     "title": "Kymera Therapeutics (KYMR) Gets a Massive 16% Lift From Wall Street",
+     "source": "Insider Monkey",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQM2VJbUhlN0RuMlBKQkpMeFN4WHNpcndvWnFLQ193Rl9ZOVRxMUIxZFEyR2lSM2FmVmE0c3puTWhfSDE4UE9vNzB0TWhSZzlielFOX2YtWUMzZHgycmpCWHJpRzRlamQtczBaMmZCMjE3SmprSHFFamhpNkN5Q1YxcDlpbVBta2JEbUNLR3A1Qk0zSThORW1RRzNldHNHbWtmNWJzTmFXdkdNN3ZM?oc=5",
+     "published": "2026-11-25T02:08:04+00:00"
+    },
+    {
+     "title": "Merrill Lynch and BTIG are named in a proposed Kymera Therapeutics (KYMR) stock sale.",
+     "source": "Stock Titan",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNnJKRFU0T0VPQkdnQWhUTXBvUDdFU3dBZFR4czRDWWtJWXNkT3hjMlQxT0xrQmtCZDdCTlVwLUpwcklJNmlfQV9Bdk4zd1JpbVpUcVMxZ3F1ay10WGY0UWF6SWFVLVpyYUNLS2tmWDZuVnhDTmNTV3NjZkFLZTVwYm9WajhiNHpCak5JZjA5TlRoUjhyNWxTNGRrY2ZPUUxGTmc?oc=5",
+     "published": "2026-11-24T23:11:17+00:00"
+    },
+    {
+     "title": "Merrill Lynch and BTIG are the brokers for a proposed shareholder sale in Kymera Therapeutics (Nasdaq: KYMR).",
+     "source": "Stock Titan",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaUNhWmJtVEFnakI3eDJHRm1lN0xZR2dTbGhKSDVTSlFBVnVsR3p3OTBxT2ZVMWZzSkpFblhvc3gxLTBGRHFwM2RacEw2SHBLWHpGMXk1OXdVZFNlaDQ4Q3YweVdjbkhSSFFGaF9sLUNrc09ESmxON0U2NmJwXzFWT0drak80ajZLbnJfXzZ1eDJjTm5PT0pWQWVySGZ4d2VhblE?oc=5",
+     "published": "2026-11-24T23:11:15+00:00"
+    },
+    {
+     "title": "Kymera Therapeutics Raises $1.927 Billion in Follow-On Offering",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRHI5WlpDSFZiMWh3OHZJbHFnMkk1N1lyWXZKRDF4UUV5alB5ODRxWmVsRUhLV3dWdTJ6bndTM1NrWU5oRDNjZk5SdTNsNHQ3aWNaOGlqYWw5UGkwTVZBVWlIOW12aHFROUJmRXJIeG1lUEZQTHVQa1M5eU01OXpwVklUYmlTdGtnbm5WVnNscTktSFBfRnJfUHgtS1lITXN4eE9yT2ltcHAwbEVvZE1hdmI5eWE?oc=5",
+     "published": "2026-11-24T22:59:52+00:00"
+    },
+    {
+     "title": "Form 8K Kymera Therapeutics Inc For: 24 November By Investing.com",
+     "source": "Investing.com Canada",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQXUtTHNSY3JJT2FxZm5KVEVKdGFFdURJd0Nwc09rZEUtdklHMHBRRkhUbEc1SjhkT1N3aVZnNGdJaDZfTXczUXBKN29GYlcwYzdwWWRXbFdwcDNNcm1Oc1lMRkxvRGJlTTk5eHAycHp0MDlRU3ZNcWZ4azhXQlVXWWh2WWk1TWwtLUlrZzFvalppVG9waEMtQUxtOHhhYklIc0ZMTFE5RzNwcDRL?oc=5",
+     "published": "2026-11-24T22:55:45+00:00"
+    },
+    {
+     "title": "Kymera Therapeutics Raises $1.93 Billion in Follow-On Offering at $150.37 Per Share",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxObEM1Z3ZHcTVJUkY1VDNQbkVEMGtKVU5CQ2JGOWJkWUt2QzZodDhFQ0hQUm5tVnpsNlFjZUZZbXc4ZnJxcm5ydjBhLVlBaVFISkdIZHhEd3MtNTVFaU9MZjJ5X1hYY1BhbFFNWFFlVXpRTmZxWXRTUUJnR2wzdGVGLTB1REowUEpMdTBZNUgyZ2Q4WEJBendJanEtMzBBRUlleHFTM0l5R3VZZm41cEZDYmtpRnNMZk0xb19TSnpITXdTb29xTmlUX1F3eTdHVGx6YzhBRndYbURSbUE?oc=5",
+     "published": "2026-11-24T22:33:01+00:00"
+    },
+    {
+     "title": "Kymera Therapeutics prices $1.75B public offeri...",
+     "source": "Pluang",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUE1jemdYaE10Y0ppbllZeHNVM011SFl2TDJlX1pJZXVwUW5lelV6Z2dGLVBYa0E5eDBYaWhJSm8xQUlhaFRyRGlHczUwMkJnODFidnNhLTZ5NDJlVTh4cHZ3ZUFoWUswYWtzZ2pHaUpxWVAteWJnQjBsZk80eUQxZHZCSlBMR3F1VThjemJZZw?oc=5",
+     "published": "2026-11-24T22:19:24+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 9.7,
+    "rvol": 30.0,
+    "catalyst": 3.0,
+    "close": 6.9,
+    "size": 5.9
+   },
+   "appearance": {
+    "count": 2,
+    "previous": [
+     "2026-11-23"
+    ],
+    "window": 10
+   },
+   "ath": {
     "status": "new_ath",
     "suspect": false,
     "basis": "splits",
-    "pct_from_ath": -6.89,
-    "ath": 161.49,
-    "ath_date": "2026-11-23",
-    "prior_ath": 142.92,
+    "pct_from_ath": -3.38,
+    "ath": 180.0,
+    "ath_date": "2026-11-24",
+    "prior_ath": 161.49,
     "listed_since": "2020-08-21",
     "short_history": false
    },
@@ -185,96 +870,96 @@
    }
   },
   {
-   "symbol": "ZS",
-   "name": "Zscaler, Inc.",
-   "exchange": "NasdaqGS",
-   "price": 229.24,
-   "day_high": 247.9,
-   "prev_close": 194.82,
-   "change_pct": 17.67,
-   "gap_pct": 22.8,
-   "close_strength": 0.36,
-   "volume": 19201079,
-   "avg_volume": 2962278,
-   "rvol": 6.48,
-   "dollar_volume": 4401655350,
-   "market_cap": 37378662400,
-   "pe": null,
-   "pct_from_52w_high": -21.44,
+   "symbol": "DKS",
+   "name": "DICK'S Sporting Goods, Inc.",
+   "exchange": "NYSE",
+   "price": 153.17,
+   "day_high": 157.89,
+   "prev_close": 133.67,
+   "change_pct": 14.59,
+   "gap_pct": 11.28,
+   "close_strength": 0.48,
+   "volume": 5759236,
+   "avg_volume": 3442934,
+   "rvol": 1.67,
+   "dollar_volume": 882142178,
+   "market_cap": 13620881408,
+   "pe": 14.518483,
+   "pct_from_52w_high": -37.32,
    "above_sma50": true,
-   "above_sma200": true,
-   "earnings_ts": 1795440600,
-   "market_time": 1795467600,
-   "market_date": "2026-11-23",
-   "market_state": "PREPRE",
-   "score": 62.2,
+   "above_sma200": false,
+   "earnings_ts": 1795527000,
+   "market_time": 1795554002,
+   "market_date": "2026-11-24",
+   "market_state": "POSTPOST",
+   "score": 50.2,
    "news": [
     {
-     "title": "CrowdStrike to acquire Zscaler for $43.9 billion in cybersecurity deal",
-     "source": "Tech Wire Asia",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcFE3S1JOUlZuMUlBalBEaWtpT1pOMmdlNGs4THFfanJ4V0FIRWxtTlcxVXVFcXAxT1pUcXY0UFU1WHdqODl1S2RSUDUxaEFGd29ZVTNEdk9LQjBqOFJXcnpMLXJFUVptUVZxaXc3enM1V1gtOVB4YnZUQnIxRXRJTmRJZEVpRmgyaVhBNw?oc=5",
-     "published": "2026-11-24T04:14:06+00:00"
+     "title": "DICK'S Sporting Goods, Inc. 2026 Q3 - Results - Earnings Call Presentation (NYSE:DKS) 2026-11-24",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYzZVMjFFaG5uLUJuZ0FRT1N0T1hKSmFCY194b0RHVktRUFEzTzJPYUFSWEhVZW00RG82YWtNOUVacmltRmJDQ3NpYTFzQXNOWVVBLVY0bXdoTGl1WE9NMTdxTjNZMzAyelBjb0E2cDY2d0V5U2wxaURncGZ6cGlnYzRfQ25CSzB1X0Q5XzBZcHRiQlZFN3BzYTFnbFl5UXc1M1RjQy1JOFdydXhOY1c4LS0zVXIyRUVELW1PbGI2a194ZDVSRU03T1lyUDJZZw?oc=5",
+     "published": "2026-11-25T03:31:39+00:00"
     },
     {
-     "title": "CrowdStrike CEO on deal to buy Zscaler",
-     "source": "CNBC",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSUlEcjF0NjUyeVRtaVdNUGdiVm9vQW8wd1BNX1NKWVFKWDVoakhJNDdBeG1HbElfMWtpbEV2RWNuQ1FINnFWdElHNDBJWVk4akNJbWpoY0h5YVE3TnZXVHB0d05JOGdFMFdISkx5Ump1Q2Z6QkxpWWhmTC1aMEV0cE1lR3VKd21N?oc=5",
-     "published": "2026-11-24T01:02:08+00:00"
+     "title": "Dick's Sporting Goods lifts annual profit forecast as demand stays steady",
+     "source": "FashionNetwork France",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdE1JRHhQMUs1WXpLVFF0QmcySVJiUTAxSWFEY3B3LUJKQW9BaUhFSTVBeGN4VDhaZ2dwcVRrejVnMEdzdWlfNjU4T1g2QUR6OW1ENjB1WUdENHJiSG5ESzlpQm1BZTdzQjhhcXlaT0ZveERLODVqNVR2djNKT2xiX0NIT002Wk5scXJybVAySlR2bVNGc25BYUMwSnRsUi1saG5EVEpXcWxQNXM4Y3NzU0N1U2E2cHpWMTdFV1Nn?oc=5",
+     "published": "2026-11-25T03:05:58+00:00"
     },
     {
-     "title": "In Zscaler, CrowdStrike Finds Its Perfect Cybersecurity Partner",
-     "source": "The Daily Upside",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTl9fT2RnT1NTblphYzQyTTc2R2M0LTBfcTZieXZMMFhzQzRpVjhaSHJkX3o1WF81ZGtnbUhGR2pUaUtpcWRoOUhfRzFXaFpHaEJRTll2b3JfeW01cXBnSWF5UVJlUlNrQ1BTUi0za3NwRDRlQlJDSUNuM1NpbnFFSmU3QUhPUlhQQVdUNVlJZl9XRXdQZFJpYTFQcUphSUdOLUVHaWI2ZHFXM0hqUUZuVDZ4RlBsVmtzejAycjBDT2s4NWNZT3p6dA?oc=5",
-     "published": "2026-11-24T05:03:20+00:00"
+     "title": "DICK'S Sporting Goods (DKS) Beat Expectations, Is The Stock Still Below Fair Value?",
+     "source": "Simply Wall St",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZjZkaXFIaEtKa1BMN2E0REVyc1BFcUJ3ZDVHQkkweDE4eWpJNWc1TmRtbzNfZFVJcVBTdzYyaUU1M3NpNGp6MEhWSmlJcURSR1hyc2ZiODlDclpiRFVDN1pCZ0RKcTBFU0hIWFYtVEtZYk1SQlMtVHlPWmZkQmNwcEc5VHR2OEw0ZklQdVVhS0xEbVRDWXlWOVdvSGxMa1owNUt2RWNPV0Y4c3BTV3otbGlSZGFHTXRCLWV3WExMNVhpR083TjluYnM3QTZ5RlXSAdQBQVVfeXFMTmdSQ1lMa21aTGtZejBrQ3A0ZG02aVVMbGl2MmJDc3RIbjRUVVJwa2ZaMXlXVUVzSk14dXczZ2NzZ3hycEtiNUJwNnpEdWdWd093QVBabmk5Ny1oYkVGQlE1ZDJtS3B4RjhsSlMxZlBEdnVZbThtT29aUlphV29KbFFLa1dVNWRua19obHZtV3oybGNtRjVaUTdUN0c1U19QbjBWeF9yRnowSWdyYXVfODNXUzJzR2J5eFNMd0hUWW9lMm1JZ3JhSjBGUDNNdk1rTElRVjI?oc=5",
+     "published": "2026-11-25T01:09:01+00:00"
     },
     {
-     "title": "TD Cowen downgrades Zscaler stock rating on acquisition news By Investing.com",
-     "source": "Investing.com Nigeria",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdDdtZDBSU3FjMEZzZnN0YVJYNE1tRnFTVVRxZVNJak43ZXpIUXlQNzlfUXhqYzdRdEZCWU5sS0ltWlpmeEJvNkhvenJSSUFRUXZQZ2xiNy1LUjExeFhBRmViak9QV2g2aDktMnRUZWZ4OUxMeWtwLTIya1NFRGFqaTc4d01LbjNKT1FLTU1ubnpHbFphM3BtMUhMNm5UdkpsX0tsQ1JtT0lmZ25CWWxDTmxZLWdhSWx0S0dMQnlB?oc=5",
-     "published": "2026-11-24T05:00:53+00:00"
+     "title": "Dick’s Sporting Goods CEO Calls GameChanger App a Secret Weapon",
+     "source": "PYMNTS.com",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdVUwQWlqUHQ4MjJBMWJsdXB3WlRhV1NwRU1KNTJqNXI1SGNqZmJmRWZTV2RDd3VkNFllNkxJNTZScDhrTkNYOEtSd3l0N1p6U0JUM2FnVlRIU2V0ejRZS1cyN1haZVQyN1lqTDZyLWhVVnZNbWxHRFZEWHYxclhfeldFSWNudXZnQlVKSDBLTzZ5VUd4dkxMb3BJQklIcW9QQUE?oc=5",
+     "published": "2026-11-25T02:46:56+00:00"
     },
     {
-     "title": "CrowdStrike acquiring Zscaler in US$43.9 B deal",
-     "source": "Frontier Enterprise",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaE9Sam9PSERydmdGT01wd2JjckRLOG43YkdIN09MRGg5UWZrTmNYTEJ6cTZIbXRId0J0VmhyYUx1X0l2NGlNTy1mR2xTSmpNc1NLLW04TnVaeUl5MGFES0Jacm5xc1p3azJLc2ZKekpnSUV3QjhkR0ZXVFh1UF94UFNTZi1rNWlBR2ZZ?oc=5",
-     "published": "2026-11-24T04:53:22+00:00"
-    },
-    {
-     "title": "CrowdStrike CEO Sees $185B Opportunity, Says Zscaler Deal Will Create A ‘Winning Combination’ Amid Rising AI Threats",
+     "title": "DKS Stock Heads For Second Green Month: Dick’s Sporting Goods Chairman Points To Early Signs Of A Foot Locker Turnaround: ‘Newness Matters’",
      "source": "Stocktwits",
-     "link": "https://finance.yahoo.com/technology/articles/crowdstrike-ceo-sees-185b-opportunity-034603911.html",
-     "published": "2026-11-24T03:46:03+00:00"
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOM21lenZxU25GWmVVeC1GWVFkcXIzSm85ZmRHeW9OUkxGVXRNcF9ZeEh5dm1nSTJFVXV6azBUSlJpQmtGbU9PRzZYZ3Zsc2dsNDNydnRLeGs4emZsWE5kaU5wWXRhMUVFNEdBX2JKWWhQQzA2Y0thZHIzV3dHa0JjdGNFNmt0cDBxUlg3cTZKS01QWG1kUUo5UGppWEhWcXkyMDdsUWZsNFJSY0UxcC1Ud0NEWmNVTWtCSUtQSWxlRFN4UVlXSnl2TXJxcHVCeG5sNWdN?oc=5",
+     "published": "2026-11-25T02:28:00+00:00"
     },
     {
-     "title": "US Stocks Today: CrowdStrike, Zscaler, APLD in Focus",
-     "source": "HDFC Sky",
-     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPUWM4eXhrUGgwRmd4TTQ3dUVGUDJqZW03S3pIOTJaaW9oZWNXWXJvMWh6bkVodDdGUjIzVlU3VmsyMi1IRFpQckw3SFhFN0MxNXdDWGdvN1BGZmNIRzZIUUtlb2M4cFZSbDBXVzBQQ2JtdkN1OXE4cEo5WVU2UEx0b1hUbnVvLXMySHd4U09ZZDMtNi1RVXNXN3FGSnI4NWgwS21Bd25paUxCa3VoZVgzSno4dVQwMXF2R2s1V0ZwWm9QQjBfLTA2ay1BWWx5WlduV29Cek9ia3cweXNUb0VWcFdGb0RENGF4Q0lkOENtckRlUHh5U0k5a3MyTQ?oc=5",
-     "published": "2026-11-24T03:23:31+00:00"
+     "title": "DICK’S Sporting Goods (DICKS) Just Gave Investors a 14% Surprise",
+     "source": "Insider Monkey",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/dick-sporting-goods-dicks-just-020401763.html",
+     "published": "2026-11-25T02:04:01+00:00"
     },
     {
-     "title": "CEOs of CrowdStrike and Zscaler talk blockbuster deal with Jim Cramer",
-     "source": "CNBC",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYW5ieDY0TWVHX2lsdDFNQXdOUTN3WFU4Q241T3VqOVlkVGVzRzlUNnc0UHdmc3pwdmRKeFh3OGh0RVN1VXNRSVZnMEFJN3pramY2ZFI0NTg0MnhsMkhZdUZvWkpHcHVqbWVWTnNhUTJGLUR5RmNiQWcta3pWVk5tRi1ibVVQUUgyYVlVOTFpeDl5RVAwWFNab3g5TUxSV0JwWF9uQUFtTnNpRGNELV8ybk53Ri12NXBETzl2eXBxYWFsclR6?oc=5",
-     "published": "2026-11-24T01:09:41+00:00"
+     "title": "DICK'S: 3 Key Takeaways for Long-Term Investors",
+     "source": "Motley Fool",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/dicks-3-key-takeaways-long-012034570.html",
+     "published": "2026-11-25T01:20:34+00:00"
+    },
+    {
+     "title": "Dell, Ambarella, Kohl's, Dick's Sporting Goods and Anthropic: Why These 5 Stocks Are on Investors' Radars Today",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOQkt2cXBVRE8wTTk5NmpzWXpkaGlDM2ZLaV9LMGMteTAwb2V0R2ZranVyTkVkdTJZcDNEcWpLLWZFc2VuMXNZbTVUTFRzNXltSExxeVdCRFJ6VUdwSHZMQTQ1WHBfUGEwSXh2WVNUWlhKaWdBT2lycHJzMGFMZTRCeEhWRlNhenZXeDRHNzhKaG5kcUZPLXhCNmJQcEpMc1RXcTNPeFdnWmlHS3NVcmM3YkNLRlM1Vy1CZUFieEg4VzB3VVJoU3ZJMGdoaFF3S3lkZ1dlaDZmN1lPVnM2MGNLN3ktdVFURkFvRVQ4NjBrNUU5QmdLREdMSw?oc=5",
+     "published": "2026-11-25T01:07:00+00:00"
     }
    ],
    "catalyst": {
-    "type": "takeover",
-    "label": "OPA / la compran",
-    "quality": 0.3,
-    "note": "Si la compran, el precio se queda pegado al de la oferta: poco recorrido.",
-    "confidence": 0.6
+    "type": "earnings_guidance",
+    "label": "Resultados + mejora de previsiones",
+    "quality": 1.0,
+    "note": "El catalizador con más continuidad histórica (post-earnings drift).",
+    "confidence": 0.3
    },
    "earnings_event": {
     "timing": "reported",
-    "at": "2026-11-23T08:30:00-05:00"
+    "at": "2026-11-24T08:30:00-05:00"
    },
    "score_parts": {
-    "move": 11.7,
-    "rvol": 30.0,
-    "catalyst": 9.0,
-    "close": 3.6,
-    "size": 7.9
+    "move": 8.6,
+    "rvol": 1.1,
+    "catalyst": 30.0,
+    "close": 4.8,
+    "size": 5.7
    },
    "appearance": {
     "count": 1,
@@ -285,449 +970,223 @@
     "status": "mid",
     "suspect": false,
     "basis": "splits",
-    "pct_from_ath": -39.05,
-    "ath": 376.11,
-    "ath_date": "2021-11-19",
-    "prior_ath": 376.11,
-    "listed_since": "2018-03-16",
+    "pct_from_ath": -39.84,
+    "ath": 254.6,
+    "ath_date": "2025-01-24",
+    "prior_ath": 254.6,
+    "listed_since": "2002-10-16",
     "short_history": false
    },
    "quality": {
     "grade": "C",
-    "points": 3,
+    "points": 4,
     "max": 9,
     "piotroski": "4/9"
    }
   },
   {
-   "symbol": "NVDA",
-   "name": "NVIDIA Corporation",
+   "symbol": "COGT",
+   "name": "Cogent Biosciences, Inc.",
    "exchange": "NasdaqGS",
-   "price": 165.05,
-   "day_high": 171.5,
-   "prev_close": 125.53,
-   "change_pct": 31.48,
-   "gap_pct": 33.07,
-   "close_strength": 0.56,
-   "volume": 776225888,
-   "avg_volume": 170462129,
-   "rvol": 4.55,
-   "dollar_volume": 128116082814,
-   "market_cap": 3985462263808,
-   "pe": 13.484478,
-   "pct_from_52w_high": -32.18,
-   "above_sma50": false,
-   "above_sma200": false,
-   "earnings_ts": 1794949200,
-   "market_time": 1795467601,
-   "market_date": "2026-11-23",
-   "market_state": "PREPRE",
-   "score": 58.9,
-   "news": [
-    {
-     "title": "Markets soar as Huang returns as Nvidia CEO",
-     "source": "The Washington Post",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQakE1eld6Ynlnd3ExWkk3QndCd0RUM0E0M3I2eTFHREVyUG5ESEJoUmdJZFhYNG4xRi1VTGlHX0gwOXFMVm9zZl82MlRnZ1QzbU42Z3Fka2VIX0JTakE2b0FSOHBzU2xLaHpwVWMtS0Z5YjhtRnR5MHJLczJrdkh0aGpQT2hXanVWSWZuRkx4RGRwOUE?oc=5",
-     "published": "2026-11-24T05:22:26+00:00"
-    },
-    {
-     "title": "Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts",
-     "source": "CNBC",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5GbmZPRjRPRmxVWHJfcEFIckprbzBvaUY4YXpUSy1xRE9fc2ZqbXctQmppc1NXeDd5MEZVUEJFc2w3d2g3ZW5XZUNWQ192UDB3eDdtTzJSWjhZdW81bC1HWVlNekltZWplcG9mRnpneWwtYUQyWUHSAXtBVV95cUxQaHpua3dCd25aelk5dXVGQkR0QnlZemliWmtqemt5emFHaEpKNF9KU1NUMFJZWWFmZndFbmZJMWotOXRLb2FMLUVpVjJ6WDQtMHhYU29LY0ZHaTF4SGlGTEhENUt2R3VQbk9KMjBiY28wQWxCRTZKa0M4X28?oc=5",
-     "published": "2026-11-24T05:09:34+00:00"
-    },
-    {
-     "title": "Nvidia scandal lands on Southeast Asia as US blacklists Singapore's Megaspeed",
-     "source": "IntelliNews",
-     "link": "https://finance.yahoo.com/technology/articles/nvidia-scandal-lands-southeast-asia-045127582.html",
-     "published": "2026-11-24T04:51:27+00:00"
-    },
-    {
-     "title": "Nvidia Corp. (NVDA) Has Made Investors a Fortune — Is Now Time to Book Profits?",
-     "source": "Insider Monkey",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-corp-nvda-made-investors-044731067.html",
-     "published": "2026-11-24T04:47:31+00:00"
-    },
-    {
-     "title": "A shocked Washington preps expanded investigations as Huang returns to Nvidia",
-     "source": "The Washington Post",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRkZDczJvQ3Jka3NLdjY2a2VNekxxbm5lN0JQNnplQVp1bVNDLUdtbDh1T3Nlc1RVSU95eXU5TnRXcFR3Zk9JTGh5Q1JuTWxwY1JYNS16NFcxSVM3UUlLSGdZRWJESnZNQ1RYeFBaeTA3aWxxRXlBMnJ4REhuZ2E5b2RBTi1aTE16WFJQYUZKcmVUajNXdTVMWVIxbEV0UzVEa2Z5NnpPWldzZ084RWJmYk15NjZ0Unp5eTJickJB?oc=5",
-     "published": "2026-11-24T04:45:32+00:00"
-    },
-    {
-     "title": "Nvidia employee hugs Jensen Huang after comeback speech",
-     "source": "CNN",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaGZUejdJaXZIZWxQN3MxeUU3bjdXZy1yUHZtNGZhbENPZTRsaXFyV2ZnUFltSTVHYk5nckt6VXVqUkRUeUtmSms4TmxLRmZaZnZ5TzVMNDhWRENpUkFaUjNraXEtQ3JDdXNXUnJnZEtEOTk2b1ltV1hNcEJOS21VcW1QTWpvM2ZsMWFWcVFiVF9KSjUwdWJLSTFwODVGX2JLTG1ZdE4tcE9vZkEzbG9SZjV3?oc=5",
-     "published": "2026-11-24T04:14:04+00:00"
-    },
-    {
-     "title": "Nvidia reinstates Jensen Huang after Trump speaks ‘directly’ to board",
-     "source": "The Washington Post",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQmNHaTN2YnhWcEZ0QVVkbkdNamZzRU5VWFRYd0JhaDVpaEpveDRzc2F6X21RS1lqZjIxbVZUaXhsYllvelpqQjdfYWtuYm0yVUV4eEdoT00xNV9aalVLSm9SNFVReTZQVXpqU2Z5WXBwNHo0RDBfY2FuaENWUy16UHNPU1E0eV9pUGN5VlByS0RzM09BS1NVQ3FlbENIMjB6WkcyQ2lOb3BRUldJZHJBdW1Ebm8yZVk?oc=5",
-     "published": "2026-11-24T03:54:23+00:00"
-    },
-    {
-     "title": "Dow Jones Futures: Tech Stocks, Nvidia Snap Back On Jensen Huang's Return; Elon Musk-Led SpaceX, Tesla Rally",
-     "source": "Investor's Business Daily",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd1IzaXRYZ1Zmel9FV1BGMUVhdlVxcHhJZTR1aVZNSEFjMXUyUDdZMlhKME5qRHRYdjRmWlE2Rm1WR2s2N0RzcWpVQUdaNVREQlBzTWxCWHRha2FqZUZMYk5GcklEcE84MmlXNUwyb3pQSGVoSlB5QVNEbUFXMWZyVkVZNGRCbF8wYVM5cUZBbDBYcTNNTi1OLUEzQ0VIN3VYak02Nk14Qmx0M3J6aF85YWlQZHpEWU5uUkV1MTQ2d3o1R01nMWdwQWktQTA?oc=5",
-     "published": "2026-11-24T03:27:00+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "none",
-    "label": "Sin noticia clara",
-    "quality": 0.1,
-    "note": "Precaución: subida sin catalizador identificable.",
-    "confidence": 0.0
-   },
-   "earnings_event": null,
-   "score_parts": {
-    "move": 20.0,
-    "rvol": 20.3,
-    "catalyst": 3.0,
-    "close": 5.6,
-    "size": 10.0
-   },
-   "appearance": {
-    "count": 1,
-    "previous": [],
-    "window": 10
-   },
-   "ath": {
-    "status": "mid",
-    "suspect": false,
-    "basis": "splits",
-    "pct_from_ath": -32.18,
-    "ath": 243.37,
-    "ath_date": "2026-10-06",
-    "prior_ath": 243.37,
-    "listed_since": "1999-01-22",
-    "short_history": false
-   },
-   "quality": {
-    "grade": "A",
-    "points": 7,
-    "max": 9,
-    "piotroski": "4/9"
-   }
-  },
-  {
-   "symbol": "MU",
-   "name": "Micron Technology, Inc.",
-   "exchange": "NasdaqGS",
-   "price": 707.7,
-   "day_high": 720.69,
-   "prev_close": 594.51,
-   "change_pct": 19.04,
-   "gap_pct": 16.18,
-   "close_strength": 0.76,
-   "volume": 49402564,
-   "avg_volume": 28285271,
-   "rvol": 1.75,
-   "dollar_volume": 34962194543,
-   "market_cap": 800708231168,
-   "pe": 7.9984174,
-   "pct_from_52w_high": -43.61,
-   "above_sma50": false,
-   "above_sma200": false,
-   "earnings_ts": 1797541200,
-   "market_time": 1795467601,
-   "market_date": "2026-11-23",
-   "market_state": "PREPRE",
-   "score": 44.3,
-   "news": [
-    {
-     "title": "Micron Technology jumps 19% as AI sector reboun...",
-     "source": "Pluang",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdUg3SlViQW1FTjBsLUMzaERJSVplZXQ1ajdkNVlQTlItNjB0Z2FzcjZLNDUzeC1EdTZjUzYyLUs3SXE4R3BnQ18zSzkxSFVva2ROOTljOFNLRVFFaV9EaFBoWklQbnZ6ZnpzM2U0R1BKTGtSa1FFcEE2bl9wNjRoUkxtdk1sYzhZYUlBX29ORHlqWl9PSEhyenFpSDFNdlZSV0hIdA?oc=5",
-     "published": "2026-11-23T22:17:22+00:00"
-    },
-    {
-     "title": "Micron (NASDAQ:MU) Stock Soars Nearly 20% as Nvidia’s Comeback Sparks AI Memory Rally",
-     "source": "Stocks Down Under",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1abkg4OTBxMlNfODF3b2VCdy1DOUJjczlRTGFtM0tmSTBQcXI3cklFYTYwaGtPN0ZEUUdfQU4wcGMtVzJ3c3RaM0VLWURBbzM3bTlxYWFCQjFzWXMxcUZVSms4X2Q5VWh2cVRHeUdiNV9NOV9paFE?oc=5",
-     "published": "2026-11-23T19:58:07+00:00"
-    },
-    {
-     "title": "Why Is Micron (MU) Stock Soaring Today? Nvidia's CEO Return Lifts Chip Stocks",
-     "source": "GuruFocus",
-     "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQUi00eHQ1MU5RUTAwN2V6VWdZNUlXVmZvZmE5T1JkWWcwZVJ5UTlaNWc5YVVHcHNOUWxIUERPdEVuSUJYTnZUOV9BaVhTQ25XbF85WkktN0JnSldyLUVOVlNoX3hvbWxGU1ZVUzlkRlhVZjNQLXNycFhWUFVzb21PTFVSWHVoSkMybHFtR2FMY0p4UXJHYTdiSktkVWZSTjNhMF9iZmxSUmVyLXFEeHBDY3U2X09TQ0lRY015ZmxKU3k3dlktRk4zQVN5d0NMaEdqdWFUcnl4Y2hoWTljcUlTQ1h3WDhfR0Q5OUlNRmtBdmZvZmlBTWZBMFZ0LUVRY0lSSklCU1I3TG03eG5CNmd5SGpYa2k0djFuWG9kY1dCMS1UTmxkcnFhVm9FVllFX2puSUx2Ykw4UTFXMFJEZ1FZ?oc=5",
-     "published": "2026-11-23T18:03:55+00:00"
-    },
-    {
-     "title": "Micron Technology Options Spot-On: On November 23rd, 1.42 Million Contracts Were Traded, With 4.01 Million Open Interest",
-     "source": "Moomoo",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPN24yaF93bWEtY2dwUXZxU05pNkxuSGpGVHJBUDh4NEhaaGswNFB4LVVXdEpfczU2WVI1LVFfa3ZzVTZ0TExWa0RBcE01T0E2UkhzS3Q4eXQ5LWdpUHRyY0ZGQ2ZROXVUOWY2WFpMLWltcktlZk95UWtodWxNQjNleUZYZjdiaFhIcGp6NlRTelZiRGxocDVJTGM5R1Nlb3hT?oc=5",
-     "published": "2026-11-23T21:30:01+00:00"
-    },
-    {
-     "title": "Is It Too Late to Buy Micron Technology Inc (MU) After 19.0% Ral",
-     "source": "GuruFocus",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOVRzcGVPc3dRTTVrQlRiZjYyUVJYTklDM05zdWYyVFJUWkl5UU9LY09BOHVFN3oyNE4xSFpuUTY0dk9ZcHpWdmJFN0tmRzJ2VnpIZThJdE9tWGlRdVFYN1JWM0EzTmdYbzZTMmhPU3lUUkVEMmRSX05HN0FwWEZHdXgxTEpzQkp4R1l6OWFWLUpncTZMdFdVTlRYdjNPc0tFNTlOSFpkYjRqYkRzRFNObGgxczZ5Z3Z0UjBOb3hvckRMT0x0MWc?oc=5",
-     "published": "2026-11-23T23:22:59+00:00"
-    },
-    {
-     "title": "Stock Market Today, Nov. 23: Micron Surges 19% as Nvidia CEO Change Calms AI Spending Fears",
-     "source": "Motley Fool",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-23-222002074.html",
-     "published": "2026-11-23T22:20:02+00:00"
-    },
-    {
-     "title": "Micron Stock Jumps 19%. Why the Rally Has Legs.",
-     "source": "Barrons.com",
-     "link": "https://finance.yahoo.com/m/3f1f89c7-5433-3bc0-990f-eab9250e8983/micron-stock-jumps-19%25.-why.html",
-     "published": "2026-11-23T22:17:00+00:00"
-    },
-    {
-     "title": "Is Micron Technology Stock a Buy at $700?",
-     "source": "The Globe and Mail",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc2RSYWtrWUw0SGhUNDNMRFd2TG5RSUpLdDFzSnlGNU5YaWZKMDRUeG9nOVF0NDdGdTdOX01CeDcwYkNoTVdNejVkT19BWG13Umc4cVVra0N0OFhHaVI0V0psMjNmdnR0a1ZfSUNMRUhNR3djUlRtaHhOVzYwdEkxcFNsOWJ6dVNOQVFDUl9jQzFBYXJRQVYtSmZRa3ZxQlhFb2t2ZkRkeDRZRnpELXVsRzBLUVpOLXFJU25OYU05NA?oc=5",
-     "published": "2026-11-23T19:30:45+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "sector",
-    "label": "Movimiento sectorial / macro",
-    "quality": 0.4,
-    "note": "Sube con su sector; depende del contexto general.",
-    "confidence": 0.36
-   },
-   "earnings_event": null,
-   "score_parts": {
-    "move": 13.0,
-    "rvol": 1.7,
-    "catalyst": 12.0,
-    "close": 7.6,
-    "size": 10.0
-   },
-   "appearance": {
-    "count": 1,
-    "previous": [],
-    "window": 10
-   },
-   "ath": {
-    "status": "mid",
-    "suspect": false,
-    "basis": "splits",
-    "pct_from_ath": -43.61,
-    "ath": 1255.0,
-    "ath_date": "2026-06-25",
-    "prior_ath": 1255.0,
-    "listed_since": "1984-06-01",
-    "short_history": false
-   },
-   "quality": {
-    "grade": "A",
-    "points": 9,
-    "max": 9,
-    "piotroski": "8/9"
-   }
-  },
-  {
-   "symbol": "CRWV",
-   "name": "CoreWeave, Inc.",
-   "exchange": "NasdaqGS",
-   "price": 48.33,
-   "day_high": 51.9,
-   "prev_close": 39.51,
-   "change_pct": 22.32,
-   "gap_pct": 28.65,
-   "close_strength": 0.34,
-   "volume": 94607762,
-   "avg_volume": 48192165,
-   "rvol": 1.96,
-   "dollar_volume": 4572393137,
-   "market_cap": 26877556736,
+   "price": 33.01,
+   "day_high": 35.13,
+   "prev_close": 28.11,
+   "change_pct": 17.43,
+   "gap_pct": 3.52,
+   "close_strength": 0.65,
+   "volume": 7106000,
+   "avg_volume": 2079609,
+   "rvol": 3.42,
+   "dollar_volume": 234569060,
+   "market_cap": 5743556608,
    "pe": null,
-   "pct_from_52w_high": -65.04,
-   "above_sma50": false,
+   "pct_from_52w_high": -24.51,
+   "above_sma50": true,
    "above_sma200": false,
-   "earnings_ts": 1794344400,
-   "market_time": 1795467601,
-   "market_date": "2026-11-23",
-   "market_state": "PREPRE",
-   "score": 32.9,
+   "earnings_ts": 1802811600,
+   "market_time": 1795554001,
+   "market_date": "2026-11-24",
+   "market_state": "POSTPOST",
+   "score": 49.5,
    "news": [
     {
-     "title": "CoreWeave Options Spot-On: On November 23rd, 462.28K Contracts Were Traded, With 4.42 Million Open Interest",
-     "source": "Moomoo",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMU1hdVlwaGlkS01kZkRjdDlvbnhCdnJ3bzhoRThsVDM0UlhVeWpkck1lYW5HU3NzYy1lVGI3MkhaLUF5WkNBZWktbnMtN3prN3pBUzFkMnZqLWxHNGJnRmhKYXVzQ0pwX25fQVRoUVI5QVkxbmZHT0hxRlFMLWtNS1gzT2UwZERWbXhvQ0pBVGZpdXQ0MV9pY0hNQmdpQzJsc0J4aV8xRQ?oc=5",
-     "published": "2026-11-23T21:30:01+00:00"
+     "title": "Cogent Biosciences wins first FDA approval for Ekitna",
+     "source": "The Business Journals",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM2hRU25LN2FudmRNQllJSkNsejBkMUxjcVk1N0lPWkxfcHlVbC1pUThmVXBWWW9qNE9rcXBzNmJieHNvY3g0UWl1bFBWUkh4aldtWnAyT1B0OElEaHdxdy04eEZDNnJ1R0NlcThoMjktbTNBVlVTdG42WUJXMDY2dzBrLVBuajJSOTNoa3lEY044eWdMVHRDZG5WUUxlU3VtN2hwa2JZN0dhZw?oc=5",
+     "published": "2026-11-24T21:41:00+00:00"
     },
     {
-     "title": "CoreWeave Inc. (CRWV) Just Turned the Tables. What Changed?",
+     "title": "Cogent Biosciences (NASDAQ:COGT) Soars 21% as FDA Approves First New GIST Treatment Option in Over 20 Years",
+     "source": "kalkine.com",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSHhMQ0FtNWNLSGUtUlNmTG02T1kzMmhSeVNpUDQ1aHFQQ2pZTHhnVnJJazBidzVXME10TzFqOHY1UjlDZVl4SGx5emk0a2Y2VmZFN2JYaXdqMmZlbjVOS3ZPazdWUW0wVTZoZ3p4blluaTRSOTBTUVBMai1BenE5SnBqSGR2Ui1uT3gyaHhIdGlZaUlTWWg3NGlMRXUxZU5MUTZmM3JVdTdSLUR5UTRnbHpraGdmeGVOZGJsRFFwRWdoSXpOR21rLXVBYm02TTRKaGw5Y3JB?oc=5",
+     "published": "2026-11-24T21:15:00+00:00"
+    },
+    {
+     "title": "Cogent Biosciences Wins FDA Approval for First New Stomach Cancer Treatment in Over 20 Years",
+     "source": "Benzinga",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQYTdWc0M2THFsb0hsbnNsNFpEZllFeGs5NC1GdF94MGlEeGRwYm9USHFDSjF2R2lCTzlUNzBLemxUel9ITUsyNFFic3VrbkpUaUdBNmtiVzZHY0lBX05TSGdveUFBTWVoUnBqenM3UnJ1X2NTcWI0Z2tZZHBsTVBFazN3Q2s2TVJnQ0trYThTRUktc3VyTF9iMVJoYlZUdUp6bGhDWVhfNGhQdmlUWVJDbGQ5d2V5QXBhaTdsVURmTWZVOTJCU2hoZXJtZTBhN1FfbFN6WjB5ZWE?oc=5",
+     "published": "2026-11-24T18:15:55+00:00"
+    },
+    {
+     "title": "Cogent Biosciences (COGT) is Making a Monster Move After This Milestone",
      "source": "Insider Monkey",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/coreweave-inc-crwv-just-turned-031501579.html",
-     "published": "2026-11-24T03:15:01+00:00"
+     "link": "https://finance.yahoo.com/healthcare/articles/cogent-biosciences-cogt-making-monster-021057759.html",
+     "published": "2026-11-25T02:10:57+00:00"
     },
     {
-     "title": "CoreWeave (NASDAQ:CRWV) Shares Climb 22.3% - What's Next?",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTjlrODVlM1dUYmNXY2hsQnZ6MjYwNEVZc0dGQnJkTFNqbmhYSUdJM1M4enVZdHMzTWhRcnlaaGl3VTZpSW1wLW42TDI3ZEZfVlB6eU42T2cyR1Vua3EzbDNhZk9BRFRtN1pPc0pMaGVJYlpVdlFweXNpQ0RaYkVza3R2Q2N1czZucUczamdCT3dLY0ZtTDBsYnNKUzV5MGZHMjBiamc1d3l2ZElWenc?oc=5",
-     "published": "2026-11-23T22:24:58+00:00"
+     "title": "Cogent Biosciences (NASDAQ:COGT) Faces New Industry Challenges",
+     "source": "Kalkine Media",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNkdVbTc5QTRJYlkzZnh4cUFsZTBqMmNPQk1BR1ZBeE44bi04VG54LUlTOVE3dk40c29JTjl6cXRjcU1jczVUN0dVY1F1dHpXZ2s5aG9od2o0eXlmSVNNM3Uzb3hPWE1uV2pvWE1SNmprU183eWpNaVBYd3hFZFB0RU94aTFlSlU4NFBNU3JhTlVLWUdSYkFrMUlaVWxKeFRxbmZNSkhpSFk?oc=5",
+     "published": "2026-11-24T22:48:00+00:00"
     },
     {
-     "title": "Stock Market Today, Nov. 23: CoreWeave Surges 22% as Nvidia Reinstates Jensen Huang as CEO",
-     "source": "Motley Fool",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-23-220910824.html",
-     "published": "2026-11-23T22:09:10+00:00"
+     "title": "Cogent prepares for first commercial launch with GI tumor treatment",
+     "source": "Endpoints News",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTENDaUFnQmFES3U0SXd5WHNjN2xtOTVTenhQWVdteWppT3dFdXMwUjFzQmU1c1hJZVNhLTlfbGJqdDlGY01nSjNnNkhZdURSemZ6eXhRbS00YzBKRGp5RzdRNHRrcjM1Mi1ub1YxYWRmTEdsMDZFcjhlcktOMTdlcU1kSFhnQ0t6Q0RWRl9fRTgxdFFWTkE?oc=5",
+     "published": "2026-11-24T21:54:00+00:00"
     },
     {
-     "title": "CoreWeave surges 22% as Nvidia reinstates Jensen Huang as CEO",
-     "source": "Crypto Briefing",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeTNwWTl2VDZZRldHMXVVT2Q3dzZ3V3R2cllwN3AyX2pILS01RlIta2lCNUphakZBVXVLN1VQSHJSaFplTHFOMXVLNmZvbnFLQkR6blhsd3paSHlmSXJFc3FmQUZKNlBYYTdJOWJ1V1ZMMm9EQk5MVmZYMjFUSEJoUmV2VGU3eTRGUm5qYjJSQTFvUQ?oc=5",
-     "published": "2026-11-23T21:53:12+00:00"
+     "title": "Why Is Cogent Biosciences Stock (COGT) Up 18% Today?",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWC1HNXgyMzc5aWNTLWdaVklCLWtIQlhDWmFjNnY4aVlNV0UyM3U1a0pUMVZJRU1aclJoU3JHZFFjUTkwbjVrWllVNDRFaFlGRkJ5LVZ4S1B2RklWWDJaN2tTWk5FTS1PdGJSazNrOFZ2ZVp2VVVxUHl4TmhWMmlDbWI0Q3g?oc=5",
+     "published": "2026-11-24T20:24:02+00:00"
     },
     {
-     "title": "Oracle and CoreWeave stocks stage big gains as investors bet the AI cash will keep flowing",
-     "source": "MarketWatch",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeW9jY0FPY3diVXZnNHBYcWRodDlhY1NuUkhyXzZfZ1VwSUgzMnF6LXdqSTdldnNGUGVIUDFyV1JRbHNFQk1wU2xfTi16azJMZkpGSkEtREhGdEJVZU9icWdsNkN6cS1zSVVqcWJVaUUzTWlmMXFTWjhZX0J2QkVUSEVJMno3VzZ6Z2N0d2VMbFE0RDUxOEM1d1U0SzJMWTJ6MFdVSEQySlVReEEtZ0dfS2dwNXlJN0dCSnBna01hdXhKXy1tYm5BaE5aTll2Zw?oc=5",
-     "published": "2026-11-23T21:24:00+00:00"
-    },
-    {
-     "title": "CoreWeave Stock Forecast: 2 ETFs to Capture CRWV’s 172% Upside Potential as Cathie Wood Buys $24.7M",
-     "source": "Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNnphdUhhdXFHeDZnLTRKY3JieTFZQnM4eHJQSU5hUG4zTzBQb0NiTHBtejRIdUtuNEd5blBYOF9XQklCUmZmM0dHMGhTbXJmcUw5cEFyaE9FUFg0U1AzTzc5Wi1MaFYyZHhSejczdFNIMTU1N0pLME5pUktjSi1EYzlGeGUxUVZPTmJUcHJkenI5dDRrWjEzRkpJV0Y?oc=5",
-     "published": "2026-11-23T21:16:21+00:00"
-    },
-    {
-     "title": "SpaceX’s AI Unit Out-Earns CoreWeave: $7.6B a Quarter",
-     "source": "FourWeekMBA",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObXRNRGZQb0NSNm5fc24zSVZ3Wi1fS0MyLVZaYmFoZVVwbUtORmxlcTRpWnVnWUFDQ1Faanhaa0FxTTA2dW02LUZjRi05eWVWb24xdGM5VlZuZU9sSndDa1dnN1VpNFBnSjdkaDlDX2tjN1RiS0NDeE1xdGdGbWRqNjk4enc?oc=5",
-     "published": "2026-11-23T19:59:06+00:00"
+     "title": "Why Cogent Biosciences stock is up today",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVnJiQjZlWEFsMzVxSjZNc2plWGZGOHc5am4td0duLVc5Z3lhSDctdGpYMlpneDB2aEdlZWZZdElyd2FjODl2dGRLSHZmekpycU5ZTGVWWVd6RkJmUm01WTctRmFwQ1N4RVROSC1UOVJaWjJ2NWlHN0pOMldULWRYRHcySWFFUERVdVAwS0lFTDUyWDExSklUTGFXTl8yS1l5b0VR?oc=5",
+     "published": "2026-11-24T18:15:38+00:00"
     }
    ],
    "catalyst": {
-    "type": "none",
-    "label": "Sin noticia clara",
-    "quality": 0.1,
-    "note": "Precaución: subida sin catalizador identificable.",
-    "confidence": 0.0
+    "type": "fda",
+    "label": "Biotech / FDA / ensayo",
+    "quality": 0.5,
+    "note": "Muy volátil: puede revertir con fuerza.",
+    "confidence": 0.6
    },
    "earnings_event": null,
    "score_parts": {
-    "move": 16.3,
-    "rvol": 3.1,
-    "catalyst": 3.0,
-    "close": 3.4,
-    "size": 7.1
+    "move": 11.4,
+    "rvol": 12.8,
+    "catalyst": 15.0,
+    "close": 6.5,
+    "size": 3.8
    },
    "appearance": {
-    "count": 2,
-    "previous": [
-     "2026-11-11"
-    ],
+    "count": 1,
+    "previous": [],
     "window": 10
    },
    "ath": {
     "status": "rebound",
     "suspect": false,
     "basis": "splits",
-    "pct_from_ath": -74.16,
-    "ath": 187.0,
-    "ath_date": "2025-06-20",
-    "prior_ath": 187.0,
-    "listed_since": "2025-03-28",
-    "short_history": true
+    "pct_from_ath": -53.27,
+    "ath": 70.64,
+    "ath_date": "2018-08-07",
+    "prior_ath": 70.64,
+    "listed_since": "2018-03-29",
+    "short_history": false
    },
    "quality": {
     "grade": "C",
-    "points": 2,
-    "max": 9,
-    "piotroski": "5/9"
+    "points": 1,
+    "max": 6,
+    "piotroski": "3/8"
    }
   },
   {
-   "symbol": "DELL",
-   "name": "Dell Technologies Inc.",
-   "exchange": "NYSE",
-   "price": 334.91,
-   "day_high": 379.03,
-   "prev_close": 278.02,
-   "change_pct": 20.46,
-   "gap_pct": 35.66,
-   "close_strength": 0.22,
-   "volume": 16032854,
-   "avg_volume": 8308146,
-   "rvol": 1.93,
-   "dollar_volume": 5369563133,
-   "market_cap": 212940046336,
-   "pe": 19.471512,
-   "pct_from_52w_high": -43.76,
-   "above_sma50": false,
-   "above_sma200": false,
-   "earnings_ts": 1795554000,
-   "market_time": 1795467897,
-   "market_date": "2026-11-23",
-   "market_state": "PREPRE",
-   "score": 34.1,
+   "symbol": "MMED",
+   "name": "MiniMed Group, Inc.",
+   "exchange": "NasdaqGS",
+   "price": 19.07,
+   "day_high": 19.29,
+   "prev_close": 16.71,
+   "change_pct": 14.09,
+   "gap_pct": -0.15,
+   "close_strength": 0.92,
+   "volume": 12987358,
+   "avg_volume": 8552846,
+   "rvol": 1.52,
+   "dollar_volume": 247668917,
+   "market_cap": 5365342720,
+   "pe": null,
+   "pct_from_52w_high": -21.94,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1795527000,
+   "market_time": 1795554001,
+   "market_date": "2026-11-24",
+   "market_state": "POSTPOST",
+   "score": 46.5,
    "news": [
     {
-     "title": "Dell Technologies: Earnings Growth Extends Beyond AI as Enterprises Upgrade Servers and Storage",
-     "source": "kalkine.co.uk",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQblF4RjFLTVMycnpwbmRwNU1pVl9MVVI1RmNldGlpYlQtS0FxbXNPTHJwTU43SjBoZFlRSjJLQ1RvYkg2bTNXbm16cGZ4aUZNUm9mbV9VMnpiclBtd0dZdFlnSkU1N1B2OHhyc1gtSGVqcV90bjljU0lvb1pPemlZVDlLZlQzQV96X2RwelVrbllVdUxzVXFtZGc0bzhxVkZQeG1teFlsZUNXT2YxZFFsOThnV0RISUtfMi1MRC1OMUNuMkVna2dwZW5BZTM?oc=5",
-     "published": "2026-11-24T01:04:07+00:00"
+     "title": "MiniMed Group, Inc. 2027 Q2 - Results - Earnings Call Presentation (NASDAQ:MMED) 2026-11-24",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY3NBWkVON2VGWEpyZVdneEwtRkI2d2stWW5ReFpxZlNjWHRrZlg4ajlJb1lJVk9hU0owakVOTmE3MTVXbGFsV1h6VURwaWNvNFQwa3N6S05mYlJvdHlnOWdESU1HWXVDc1RpbmR4MEZLWGRVbU1aSThfRkQ4UTZUVVZFMzlLVmc4a0w4OHBSX29MeHltekZrRVAyeFhvaHVRRHc3SEZrc2pNM0JicEJUbl9wdmcta25MMDV4OHRRazdoQ0Z3?oc=5",
+     "published": "2026-11-25T03:32:18+00:00"
     },
     {
-     "title": "Dell Technologies (DELL) Roars Back, Gets 2 Major Catalysts Working in Its Favor",
-     "source": "Insider Monkey",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-roars-back-030939608.html",
-     "published": "2026-11-24T03:09:39+00:00"
+     "title": "MiniMed (MMED) Q2 2027 Earnings Call Transcript",
+     "source": "Motley Fool",
+     "link": "https://finance.yahoo.com/healthcare/articles/minimed-mmed-q2-2027-earnings-001311861.html",
+     "published": "2026-11-25T00:13:11+00:00"
     },
     {
-     "title": "Dell Technologies expands cooperation with AMD on AI infrastructure platform",
-     "source": "디지털투데이",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUkxXZkdnWVp5cGF3Unl0SGhqTm1nSlNVbzVzZm5ydGItWk81cEVEU182TmFpT2ptWWdqZEhrWTlPa19nVEU3aDBZLXhnMUxNV0JIbTl0MnBvRHFKN0wyUl85UlBiWW1ub29LWHpmaFRfVXA4RVRZN3JTR0MwUEptWFgzcXh1dG1jU3pleGJjSkRKZVk2WnpfSkRGQVZoVUFpYWhzOFJBMmpfT2E1azhvSWNkb0F3Q3V6NkhaNDNhTQ?oc=5",
-     "published": "2026-11-24T01:07:02+00:00"
-    },
-    {
-     "title": "Dell Technologies Inc (DELL) Shares Surge 20.5% -- What GF Score of 78 Tells Investors",
+     "title": "MiniMed Group (MMED) Reports Strong Q2 Organic Revenue Growth, S",
      "source": "GuruFocus",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcUxoRFE3QjQ5TUZXVFVRYUFrQzh6Q3ZJZ1dJajVmbXZqM1dfTnRTbjNfMmhtdnVJTGRyQXYzMjA0UXZ1ZzhaZmtkcGxlUVZQdk9rcnJiUUVTNW5Od1ZzZzVOS3pvRXpoNm1teE1MLURUaFJRUGdmRXgzbUh6V1RmV3NuTTItV1ZtYm9raXluS0d1M0VFakJZZ3FMS3YwNGFkT2VJTU5scEkxajJPVGFWbnJqVjVFWGZEalE?oc=5",
-     "published": "2026-11-23T23:03:33+00:00"
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLXhfQVdLVVJFc2dnN3Iyd0Y2eGdkNHFLOWFLVHdjd3hNM0hYWEgzZm1na0ZKY2JPSkN2eVZkZWxhRW9sMldBcmpSWmhwTzNFaFBxWWlZZUlXQ0VsTy1HWnZHNU5FeVdLOGlhNXF0ZVlLTmhJdXMzUUVhZEJrbXR5M3ViazhuZ3pUdDBUSHktU0lqV2JENVZockJQVmxlZW1uTkx6cHpuVXBGVmxTRm9nalg2ZUI2eUE3UXdlNjExZw?oc=5",
+     "published": "2026-11-24T23:36:41+00:00"
     },
     {
-     "title": "Dell Technologies (NYSE:DELL) Stock Jumps 20.6% - Still a Buy?",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb2FpVTZ5YzhXNU5WcDB4d0VIS2xKWjRXVW0yM1hDX2FsWGhTRktEeTRBQ0FmMnNPWW94eFFSZExnZVlGNTdEVEZsWDBoQnM0RDRlM2hMZHdrSjJkMVphejkxZDdkLW1ncU1uMzJFcUY1N2I5NzU5aFFzSDBGS2JCb1c0VTJzTHYwckpmWDM1M2tqOUc4UzhyTklaVVBIRWUyNGwydFlocmxEM3l1d3V5LXQ3enpIUQ?oc=5",
-     "published": "2026-11-23T22:23:14+00:00"
+     "title": "MiniMed stock surges on strong Q2 results and faster product rollout",
+     "source": "Quiver Quantitative",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRy1lYVV5d3dJTUxfaUgyT05BNWtZTXBkaENzTElfZ2RrSDRqWF9QX3ZyemRjZTdKTkFBLWpZY1UtNjJaX2FKMTJPM2NodGhyaEgxV25rdWhDcktHeDB0OElSaFUwMTdlc1Nwd0U2OHIwTE95NS1HdHliYUpHd3lSWjdBOFVIV1RQbjJwcmN3Si1yT180VUFHdTJNaERpYjJWUk9r?oc=5",
+     "published": "2026-11-24T21:21:00+00:00"
     },
     {
-     "title": "Dell Technologies Q3FY26 Results: Revenue up 84% YoY to $49.59 billion est.",
-     "source": "scanx.trade",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbVhQRC1QZ1hrUnhueFI5YWgwV2lmbVEwdVhNOHdoa0lBRHFrM2JKNlVEQkNuR0ZOZl9ZWllkQ29SWlJFSUFpNnhOY1FvLVhMd3NydzUzbFF6eHl1ZTNWaWNtMnlqYUpnVEJvY24tRmdOX0h4d21kQndMT3JESDNJR2RBY0EwWDVTaXJMMThSOVBieEt4Ym5VN256UndhVHUzeVlFREtzbjhTai13OER3X3lsVUtfeFdnZ2NXYm94dWQ3T00?oc=5",
-     "published": "2026-11-23T21:36:41+00:00"
+     "title": "MiniMed (NASDAQ:MMED) Misses Q2 Estimates as Diluted EPS Comes In at USD 0.08",
+     "source": "kalkine.ca",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbGhaMVlUNWZXU3hBZVJLd1JiZGpCQ2FjSDBMUExGaklNX3FFWll0cWRTQlY1bVg1V3dGOEhTOTVBMkpweHFzdHRfNGRtVG00Zlh3N24tMmd1NTdDNi1DNDEyWnlDUk1wS2FoN2R1dWotcFl6NnhLZXVWNHJLTmpaQU9nb1kwS3lpWFNYMGVQbk56eXEzTXJ5WlhVMHBkVGdoQkhxY05xaDZLYXBO?oc=5",
+     "published": "2026-11-24T19:45:00+00:00"
     },
     {
-     "title": "Nvidia, Dell, Micron, Anthropic, CrowdStrike, UnitedHealth, and More Stocks That Explain Today’s Market",
-     "source": "Barrons.com",
-     "link": "https://finance.yahoo.com/m/76a3103b-f3de-364f-8cd8-90e453a902d8/nvidia%2C-dell%2C-micron%2C.html",
-     "published": "2026-11-23T21:27:00+00:00"
+     "title": "MiniMed Group (MMED) is Turning Heads With This Massive Surge",
+     "source": "Insider Monkey",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/minimed-group-mmed-turning-heads-015714144.html",
+     "published": "2026-11-25T01:57:14+00:00"
     },
     {
-     "title": "Dell Stock Surges 23% Ahead of Earnings as AI Server Demand Faces Major Test",
-     "source": "CryptoRank",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQmd5WVJxRVh2Z19aVWJzZUk3SFVWOGVUNlZYMVdONlE2OGQ5enVRS0RPaWV0NXRjSGI5aUZ1a1VIelItbF95TTV0QWU2Wlp0aXR2M2pnaWtrVjNDblJfU2VXVTkyZEdFVGZTZ1lhSFM1d1hEMmZxdERtZ3dyM3hnOXFWV1lwSE9KV1lwSmRDSTZMRy1oSVNQaFBEZ3JZTWJmRkNscmZjYWp6bDJNRVJyZ19GUQ?oc=5",
-     "published": "2026-11-23T21:24:23+00:00"
+     "title": "MiniMed Group, Inc. (MMED) Stock Forecasts",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSGpaeGJpemFNVTJ3M0FaSFlEMGt3eTNrc1AtckZVcWJBaEJadmJKRS1jNU1ZSmVCUE11dWtZZjNXaFJ3LUdjLS1KTUNKU3gwbmdjbTdfcDFJMHozMFI5b095LW82QzBQa0RTZXZMWEFoVlVrTGVoRThRVW16c1UwMTV0ci0wQ0JtNFlpNw?oc=5",
+     "published": "2026-11-25T01:26:34+00:00"
+    },
+    {
+     "title": "MiniMed Group (NASDAQ:MMED) Climbs on An Upgrade. What's Next?",
+     "source": "Kalkine Media",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNHEyRHBGZXJXWm4wOTRtcHN1Z29JY2RjQ1JNbnRVNE9ITFhNZ09MQ2FFdkdwTFllY2FXUWIyM0NHREI3bzIyTXVHSk54UWNpMzNabDI4Y0RLdHBJU2M5MUJFbG9ieEtkZVp0TEk0eGxIeThNUGFLMzJJQW5UZjllanROZzFwYUh0bXJBdHcwQ2RhYnpQT1BKXy13RFdYWlVLeG5rRQ?oc=5",
+     "published": "2026-11-24T20:14:00+00:00"
     }
    ],
    "catalyst": {
-    "type": "pre_earnings",
-    "label": "Subida antes de resultados",
-    "quality": 0.15,
-    "note": "Aún no ha presentado resultados: el día que los publique puede moverse ±10-20% en cualquier sentido.",
-    "confidence": 0.0
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 1
    },
    "earnings_event": {
-    "timing": "upcoming",
-    "at": "2026-11-24T16:00:00-05:00"
+    "timing": "reported",
+    "at": "2026-11-24T08:30:00-05:00"
    },
    "score_parts": {
-    "move": 14.5,
-    "rvol": 2.9,
-    "catalyst": 4.5,
-    "close": 2.2,
-    "size": 10.0
+    "move": 8.1,
+    "rvol": 0.1,
+    "catalyst": 25.5,
+    "close": 9.2,
+    "size": 3.6
    },
    "appearance": {
     "count": 1,
@@ -738,511 +1197,61 @@
     "status": "mid",
     "suspect": false,
     "basis": "splits",
-    "pct_from_ath": -43.76,
-    "ath": 595.51,
-    "ath_date": "2026-09-18",
-    "prior_ath": 595.51,
-    "listed_since": "2016-08-17",
-    "short_history": false
-   },
-   "quality": {
-    "grade": "A",
-    "points": 6,
-    "max": 8,
-    "piotroski": "7/9"
-   }
-  },
-  {
-   "symbol": "NBIS",
-   "name": "Nebius Group N.V.",
-   "exchange": "NasdaqGS",
-   "price": 97.8,
-   "day_high": 110.03,
-   "prev_close": 81.31,
-   "change_pct": 20.28,
-   "gap_pct": 35.31,
-   "close_strength": 0.14,
-   "volume": 51398825,
-   "avg_volume": 21763639,
-   "rvol": 2.36,
-   "dollar_volume": 5026805085,
-   "market_cap": 28645855232,
-   "pe": null,
-   "pct_from_52w_high": -67.38,
-   "above_sma50": false,
-   "above_sma200": false,
-   "earnings_ts": 1802352600,
-   "market_time": 1795467600,
-   "market_date": "2026-11-23",
-   "market_state": "PREPRE",
-   "score": 31.7,
-   "news": [
-    {
-     "title": "NEBIUS Options Spot-On: On November 23rd, 354.16K Contracts Were Traded, With 2.03 Million Open Interest",
-     "source": "Moomoo",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMG84VktCckY2SHRoTl9FNFFnd3Q2dWlESmV5SWJna0dIR2g0MHlqR1Z2UWJIYVlHTmpoVGsxZEpvQThPMEpkVnhuS0lzb3ZXOFJ5NGdFSWZGVXZMLWgxNW1TeDNPZTEyYkxNYlZHN005ME5ZREhkM0ExSi1BSFloRUlfY0NoMDJUX01fbE9seThpaFlYVEo0VUdzNXNrZFNPVkM0?oc=5",
-     "published": "2026-11-23T21:30:01+00:00"
-    },
-    {
-     "title": "Nebius Stock: A 21% Rally, 134 New Megawatts, and the February Test That Matters Most",
-     "source": "ad-hoc-news.de",
-     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZDVnVUhiUER0V2QtRUY2T1dLamdUOFE5aHFMUlV4aWMyYkxUZXNKTXM1aU9wbExEdEpKSWhhX2VPQUpSYVJHcHBpeHJNR3kyN0hiZ3V1dlY4TGVXWDdqY3NyZXVOMTJFYjJ4eXN2NlpFaEZJNmRwRUZKcW1jbUY3WXB5RVF6ajVySE10RWZwZmljN19tc3lBMFhOYXRBdmxIWkFCUW9mSEo1QW9KWUtHWVh0eGstZlFISEwwbjYwVF9RTHNiQ1UySXExSURqakhuZ201QXNhQ0VNaWdwcWRTaGM5Z0tnM3Zt?oc=5",
-     "published": "2026-11-24T02:20:40+00:00"
-    },
-    {
-     "title": "Nebius Group (NASDAQ:NBIS) Shares Up 20.3% - Time to Buy?",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTkUxdWZSX0k1TWNNbmRKSUdpSFZjbDRnLVlkN1JNbDBqNngwVUpna1ZidHN2ZWgwanJub1MtYllOcDN4Q2tUWTRMaFVZSy16QnJzeFBHMF83ZVk4VExMa0pOczNDVEowSldUTHA2RjVqYnZqcjVpWFZ2dEg2VG9fTEdyLUw2QklubnpXQ3ZaTmtaUndKdVpuX2RMbEotcWpvQTZVdUxYNmJOZGh6RHdR?oc=5",
-     "published": "2026-11-23T22:23:17+00:00"
-    },
-    {
-     "title": "Nebius Stock Price Forecast — NBIS ($103) $115 Upside Target on Huang Return & $38.7B Backlog",
-     "source": "TradingNEWS",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVDVvZnQ2Y0JwZDlBNWp5c3lTbnpvMEM3eEtNLVUteHRJTl9tenNmSVdNYVUyNVB1aFFQSGVldUVCQTFsMF8yb0k0LXdMNGRLTnBNUEoxTHdaU1NLOGt5MnR6Z1dhcW1qWlFMcjRTR0RvUHpRYWV5RThFYUZhdDA0NEM5WUh6SndWWUxnWXBwU2hPRzNxQW50VjJHcjRmRmxYaklGR05YWEREZw?oc=5",
-     "published": "2026-11-23T21:20:22+00:00"
-    },
-    {
-     "title": "CoreWeave, Nebius lead neocloud stocks higher as Jensen Huang's Nvidia return lifts AI trade",
-     "source": "Yahoo Finance",
-     "link": "https://finance.yahoo.com/markets/article/coreweave-nebius-lead-neocloud-stocks-higher-as-jensen-huang-is-reinstated-as-ceo-of-nvidia-151417634.html",
-     "published": "2026-11-23T21:12:49+00:00"
-    },
-    {
-     "title": "Nebius & CoreWeave Jump 21% While Oracle Sees 12% Gains on Monday Following Jensen’s Return",
-     "source": "Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWVFUNjZwWjR3aldMOHpoN2QyV0hvOHdBQnczOFdraVVPVURxeExJaTh1WmFMajZXUmtWYk1XVnVPZVpsX3h5ZDBrbGFOVUU3UXR3QS0xTkxjaF80Ym0wdGtLUGtYYjdsNVNrMXpWdTRBaVRMRUtJM1ZTUk9MbjJEeDdNOA?oc=5",
-     "published": "2026-11-23T20:16:14+00:00"
-    },
-    {
-     "title": "Freedom Broker Maintains Buy on Nebius (NBIS) Despite Capacity E",
-     "source": "GuruFocus",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbzRpdk1TTXdmeUZwenBpUjk5aXVTWExhNUIzUno3MEVnU3dSdzRPa25nRzB2RXpRYmUzcmRqVm91NmVyb2lycE5hQlBKUk9lN0dVZlBjaFdZTjBpVElmWmZhazd2blJualVDdmRrdDBhNUVZeExmWDN5T2k4R3J1NUtrRTMwTUgtOXVTS2FicnBhNzVPeEZoNVJXYlhqbHdpdlVaUWtYV3QyNkhQTjdsenJxTmx4Zw?oc=5",
-     "published": "2026-11-23T20:14:36+00:00"
-    },
-    {
-     "title": "Freedom Capital Markets maintains Nebius Group at Buy, keeps price target at $314",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeUtXZm5KbUVmbHVEaVVyMDFRV0w5XzR2ZGlfOXJiaTFxUFdDc3hadWdtaHhhYTA5Nnp0NHY1c3NUaVZ6VHdmZC1pVWFyS2RpX05mRFNzSndGZS1hQ0xpS2lqcDZJU2lWM1JueWdoa3FGWF95R09UWmtCV1htRjk1Q24tNTA5Zlo4aktqbHozT1BfbkJxbTRsajFLTjlRU1RLeDhQY1dlSl80dS1iZlNXNkQ0RGJoN3M4Zm0tMmU1WWFfTjBxMzlGcmNKT0lOMjNFeTMxMFRRT18?oc=5",
-     "published": "2026-11-23T19:35:54+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "none",
-    "label": "Sin noticia clara",
-    "quality": 0.1,
-    "note": "Precaución: subida sin catalizador identificable.",
-    "confidence": 0.0
-   },
-   "earnings_event": null,
-   "score_parts": {
-    "move": 14.3,
-    "rvol": 5.7,
-    "catalyst": 3.0,
-    "close": 1.4,
-    "size": 7.3
-   },
-   "appearance": {
-    "count": 1,
-    "previous": [],
-    "window": 10
-   },
-   "ath": {
-    "status": "rebound",
-    "suspect": false,
-    "basis": "splits",
-    "pct_from_ath": -67.38,
-    "ath": 299.86,
-    "ath_date": "2026-06-22",
-    "prior_ath": 299.86,
-    "listed_since": "2024-10-21",
+    "pct_from_ath": -21.94,
+    "ath": 24.43,
+    "ath_date": "2026-09-02",
+    "prior_ath": 24.43,
+    "listed_since": "2026-03-06",
     "short_history": true
    },
    "quality": {
     "grade": "C",
     "points": 4,
     "max": 9,
-    "piotroski": "6/9"
-   }
-  },
-  {
-   "symbol": "CBRS",
-   "name": "Cerebras Systems Inc.",
-   "exchange": "NasdaqGS",
-   "price": 98.51,
-   "day_high": 100.59,
-   "prev_close": 82.67,
-   "change_pct": 19.16,
-   "gap_pct": 15.21,
-   "close_strength": 0.74,
-   "volume": 15068641,
-   "avg_volume": 9763767,
-   "rvol": 1.54,
-   "dollar_volume": 1484411825,
-   "market_cap": 23938260992,
-   "pe": null,
-   "pct_from_52w_high": -74.5,
-   "above_sma50": false,
-   "above_sma200": false,
-   "earnings_ts": 1794517200,
-   "market_time": 1795467601,
-   "market_date": "2026-11-23",
-   "market_state": "PREPRE",
-   "score": 45.8,
-   "news": [
-    {
-     "title": "What Lifted Cerebras Systems (NASDAQ:CBRS) 20.03% Alongside a Reported Buy Rating?",
-     "source": "kalkine.ca",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaGZNaHpBd1pGMl9WZFotZ2NOVFFKdlAyc0x2Q0k0b1JwbjdkNVE1Y1RhcnBMYUFHZjI2T01xWVlnMXNJR1ZOUUJjRHo0aEY2U1FZV3o4S0ZlUW8wdWx2V2lsOFVQVFNyR3NLX3Vub2szcnIxT1NDbHJNYk9OZzc1WVJXQlFDeklUQmFYV2JNc1VYdzZtelI4VVRyY2dOUGJISU1qaU5tR25pT0RMejRCdjhQc2szbkF6dG1Sd05uRUF1dw?oc=5",
-     "published": "2026-11-23T17:39:00+00:00"
-    },
-    {
-     "title": "Cerebras Systems (NASDAQ:CBRS) Stock Jumps 19.2% - Here's What Happened",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLWtGc2ZuakpTajVtS1g1VW5PTV9zeXdtbkhHdm1hcUN6aVlsN21mUXcxSEs4SUdkZ0tPenFNbm1heEdLUGV4cWdsSHF1NHdyUjU0bldWR3BvT3g5T1BMcGpqendXc1Qyb2lJY29ZSnl4SU5PY0Rtdk95aGtLMGNPWldCOTlULXBOanVoTXdHTGVsUHktZTNiRk9VYTNXQlpkNHl3cHh0WHBPM2RaLVNYX1d5c3J0TlZubUFnby1vX0JaZw?oc=5",
-     "published": "2026-11-23T22:23:14+00:00"
-    },
-    {
-     "title": "Cerebras Systems (CBRS) Shares Surge 18% Amid Market Rally, High",
-     "source": "GuruFocus",
-     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZmprRktDc2VlU0pjaThTTzlrOUNzV1pCamlMMC1ILWR2eWlNZm5kN1FRMmhGMWx5cTJ5OTJFb0VXZXdSSFM1MkhnWVNKV05VdTdzZEw5cU1PT3NqMWdLM181RHNZVmMxSnlLZ1JKU29td2RNSjhVLVBUOWM1d1JDTE1wZGdrS1NDck5GdG1veUtCa29jZUNteDloZm1ZcGRyR0lOLXIyclVRX2J6bkJ2bzFubXdfOU1fN1hSbmxDZEdwMi14dEQtWVRFdTdjTnlfRXBMTHdFOA?oc=5",
-     "published": "2026-11-23T21:12:48+00:00"
-    },
-    {
-     "title": "Freedom Capital Markets maintains Cerebras Systems at Buy, keeps price target at $209",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNEIxcmNUS0t1dEU0cmstUFRzLWVSNG4yNS1nTGhyNVQ0blZuSEFnMTdJV0YyR2NXcVlzcHlweHBRelFEY3puZGRmNGUta0hGeThROTNBX3VOX20wZldjbFVVci0zdmh5N1haeFExc3l2QUNDQjFaaDBZVjNnYUJUSFo5UXV4RWVJX2R4dDY4RTlKMEIyNDBCWkJrbU9OTEpoc29Gb1IwTklCYzdQU1Zjb3FTVHR5eFJKLWhjNGNrTWF6d1R1czFlWkNrX2R1MmFuV0Foa1ZnT181SVJscHc?oc=5",
-     "published": "2026-11-23T20:44:20+00:00"
-    },
-    {
-     "title": "Cerebras Systems climbs 21% as broad market rally lifts tech stocks (CBRS:NASDAQ)",
-     "source": "Seeking Alpha",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYjh5OXBFNXZpbXpRQlJhWFlsYjZqeDVEa3JNSldEaG1IbVNUQ01aTXN1UExiX3VaV0d3bkhrYnlyajNXdVNraG5MZkQwc2RJN3NxMkhVSFNoWXdwNkwxaFl6Njl0QW9MSXFQdXFNcnpsaTRfREFBNkptLXVyNXJDNWl0OTNaYjVnLUllN1Z0S0Y4ZEVMWENxdTU2elFXdC1HMm9kNjN4MA?oc=5",
-     "published": "2026-11-23T20:40:39+00:00"
-    },
-    {
-     "title": "Cerebras Systems’ 26.6x Sales Multiple Faces Scrutiny After 73% Stock Slide",
-     "source": "SSBCrack",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPV3dhWER4cUl0cnFsNjRKX3huRzlDNkxmYWtoUWZraVZfb0NKZFJyZmJ0czNwajZIQzRMczdsc0g1QlozdG45ZnBYQ0hoXzlkRTFEZ0ZfZndjdGtMRHVXT21wa0Q2NXRVbHpGRk1JOXgyNWZwdndxUnh3WDFuMGczYld1Rl9Kc1ZlSTZGZ2dyUHJXZjZNR0lDZ3l2cFRob1JFM1E?oc=5",
-     "published": "2026-11-23T17:58:13+00:00"
-    },
-    {
-     "title": "Rosenblatt maintains Cerebras Systems stock rating on inference tech By Investing.com",
-     "source": "Investing.com Australia",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMjRFQ1JtcjJ4MHMxeUdZQkFVU0dKemNQaDlXc0dEQWFOMzNDbWlkbEVsUnVkMkhzdmprZmROLWd6bEJELW84NjBmNTNhNFlIQnFHby1rUWtpYkQwa0dYWGlQMUJKTXFTbGNaVE9rUWdhdHZRellxS2tvcXhnTDFqOTFQWWRNNF9paktxNjZLMXNleU9YUUJ6LXFmZWl6eGdVdjJrTHBhUWlxRWZjV0xFaE5WTTdHWUpzajFENmVZd3NqLTN6MjlPcw?oc=5",
-     "published": "2026-11-23T17:52:05+00:00"
-    },
-    {
-     "title": "Cathie Wood Just Bought $21 Million of Cerebras Across 2 ARK Funds",
-     "source": "TIKR",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-just-bought-21-174457836.html",
-     "published": "2026-11-23T17:44:57+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "analyst",
-    "label": "Mejora de analista",
-    "quality": 0.6,
-    "note": "Impulso moderado; suele diluirse si no hay más noticias.",
-    "confidence": 0.3
-   },
-   "earnings_event": null,
-   "score_parts": {
-    "move": 13.2,
-    "rvol": 0.3,
-    "catalyst": 18.0,
-    "close": 7.4,
-    "size": 6.9
-   },
-   "appearance": {
-    "count": 2,
-    "previous": [
-     "2026-11-13"
-    ],
-    "window": 10
-   },
-   "ath": {
-    "status": "rebound",
-    "suspect": false,
-    "basis": "splits",
-    "pct_from_ath": -74.5,
-    "ath": 386.34,
-    "ath_date": "2026-05-14",
-    "prior_ath": 386.34,
-    "listed_since": "2026-05-14",
-    "short_history": true
-   },
-   "quality": {
-    "grade": "B",
-    "points": 4,
-    "max": 8,
     "piotroski": "5/9"
-   }
-  },
-  {
-   "symbol": "SKHY",
-   "name": "SK hynix Inc.",
-   "exchange": "NasdaqGS",
-   "price": 124.28,
-   "day_high": 128.1,
-   "prev_close": 103.57,
-   "change_pct": 20.0,
-   "gap_pct": 22.74,
-   "close_strength": 0.48,
-   "volume": 35354756,
-   "avg_volume": 20515114,
-   "rvol": 1.72,
-   "dollar_volume": 4393889076,
-   "market_cap": 876389335040,
-   "pe": 5.7298293,
-   "pct_from_52w_high": -37.82,
-   "above_sma50": false,
-   "above_sma200": false,
-   "earnings_ts": 1801083600,
-   "market_time": 1795467600,
-   "market_date": "2026-11-23",
-   "market_state": "PREPRE",
-   "score": 33.3,
-   "news": [
-    {
-     "title": "SK Hynix President Buys approximately $1.2 Million in Company Stock One Day Before Jensen Huang's Return Announcement, Books approximately $150,000 Paper Gain",
-     "source": "BigGo Finance",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DLVZ5d3pVVzRBelM5RHM5Q1UzbDA2QkZzeDJZeEJGQjAwSmdMRmFFc3lCVmk5M2Rnbm4xZThpVm5xUWlHV0NGNk9MMVdCYTY1alNfSHlnaWxTRFFfTnRBRENtMzR3cHBkZVdNcUZjajVxNU5ySFE?oc=5",
-     "published": "2026-11-24T00:55:00+00:00"
-    },
-    {
-     "title": "TSMC, SK Hynix, and Asian tech surge after Jensen Huang's return as Nvidia CEO (NVDA:NASDAQ)",
-     "source": "Seeking Alpha",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMlhJS3JlUm5rcHNSS09EV1VmTmMzclJMaDVYY0ZRQmh2UktXZHNLeFJZY1BSRVhuMTNJcER1VldEWEVUYmFCZVZMS0lXU3Z5TEh2MzRSTG5SVUFWLVZMQjRmZ0tYNzZyaExmUEdrNFZwM3V6NGxabE5BNzVRWGM0ZDZ3TzkwMC1SS2o5czRIdDJabEVta1lCMndGVFFkWUxULWtUa1p2b3ZrbHZpam1DQnVTaw?oc=5",
-     "published": "2026-11-24T04:15:11+00:00"
-    },
-    {
-     "title": "Nvidia’s Asian Suppliers Rally as Jensen Huang Returns as CEO: SK Hynix Jumps 8%, SoftBank Shares Rise in Tokyo",
-     "source": "AOL.com",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNm56ZGViMGtXb2FlUjNsVGJJaFFUcjkydy1pVEszYk5aY3RvckRsT2lReHVseUg5XzE4Uk0xZml1dDdTUnpKR0tyYUhmR05zWEpPMUQ0Ti1DOTB6a2MyNGs1WXNqUUlXME9JbzgzclNuay16RFlNNFRHZWVoZnBwendaVThDUQ?oc=5",
-     "published": "2026-11-24T03:22:00+00:00"
-    },
-    {
-     "title": "Samsung, SK Hynix Stocks Halve Amid AI Bubble Anxiety",
-     "source": "조선일보",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT1ZXaFFVNWllbDhtM2ROMS00d0pZXzNYd0tLU2NFOUQzVGo4c3IxdmZxQ0k2RTF5cVpXcndYMmRtank0R2tjZlJ1NjRXbWpoazBRX0M4QTI1ZTJ2OVoxRUI2NTl1anpuZDlkejlxblpZeW83dkF2Q2xTLW9vMjhwWG9MMWJfNXVz?oc=5",
-     "published": "2026-11-24T01:44:52+00:00"
-    },
-    {
-     "title": "Nvidia Soars 31.5%, Lifting Samsung and SK hynix 6-8%",
-     "source": "Seoul Economic Daily",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRnJYdnlDOXNxOFlyQ1FmalE4MGZjXzZNOFpVb1Z4b0gyNVZyR1lpZkpPMUdvSXgtWDZSb2R4TlM2VGs1eVkyN2phT2pCZWsxS3J0VWJ1TkM1dk1MZ2x1SFJudEhqWndScWlPcHkwVklDOFRjbGJnMXRIUHFaVVBXRlh0akdmaGtEUjJIQTB5X3pjR3FGODFfRG1VUUg?oc=5",
-     "published": "2026-11-24T00:53:15+00:00"
-    },
-    {
-     "title": "Jensen Huang's Return Ignites Japan, South Korea Stocks as Kospi Surges Over 6%, Nikkei 225 Gains Over 3%, SK Hynix Rallies Nearly 9%",
-     "source": "TradingKey",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTGY2MGxsdzZwLTEtNDhya2wyZkJ1THJKbHNDMHlnQ1RqRi1xY0p2YnN4WUdnalFsQ0pFdUVkR0Y2MDJmLVFHaTBVY1NENDJwb3hQaWtLM1ozNG9pUjJmTXo4TEdiT3BoREJjVHdpVlQ5RXo3cWVCMlY0cVlzVXR2NFE5WE90Q2pOVzBRS0lXVElfeVlsM0hNUFRHbGxxODNULUVKcV8tQ2d3T3QxV0xSOWpMOXhYVGtnTi1uZVV5MGlWS01IQjExNF9nOFM5Wl9mVnl2TTdB?oc=5",
-     "published": "2026-11-24T00:41:57+00:00"
-    },
-    {
-     "title": "SK hynix Soars 12%...Samsung Electronics Also Rises Nearly 10% [Stock NOW]",
-     "source": "파이낸셜뉴스",
-     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5HaHprRER0QUtVQ0VqNlU4cTRRR0wwRDUwRTdNeFFzclpyZ0hnazB2OERwZ2VuR2VBQ29yZ1RJQ1AzUklwRWZBc1dRck5oWlkweE5oVVJDM3U?oc=5",
-     "published": "2026-11-23T23:36:44+00:00"
-    },
-    {
-     "title": "SK hynix and Samsung shares surge after Nvidia reinstates Jensen Huang",
-     "source": "Chosunbiz",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTXVJamJ0TnVkNUZaeTZOazNDMHJNWmFQUEdXME0yT3BSV3NkZEE2MVl6QUlpN1ZDUHp3UkhtdkpjQmxVSTRLeXREN0owczR5WHk4a2NMaHhhNTZrWXY1M0hSU3BkSnUxVnVzdVlxanpPYUdLY3Y1WVBKTk83OXplRtIBlAFBVV95cUxObDhHeDlGbkl3Uno2c280MFduMzJ1clc3cDJYQ3Zza0FNY3NjYjRpSXNkYlpaU0ZxbHFoNG9yRWhQbFgxc2JMaENCOFRYMGYwa0dkak9NVlpSMnplaDFrTDhlWFFIUHRNTU51QUw0S2ZDT1FFeDFrVDFmT3ZKQ0kwVzMxaWhuS3dqNTNMeEE1Ui1VUXpp?oc=5",
-     "published": "2026-11-23T23:15:00+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "none",
-    "label": "Sin noticia clara",
-    "quality": 0.1,
-    "note": "Precaución: subida sin catalizador identificable.",
-    "confidence": 0.0
-   },
-   "earnings_event": null,
-   "score_parts": {
-    "move": 14.0,
-    "rvol": 1.5,
-    "catalyst": 3.0,
-    "close": 4.8,
-    "size": 10.0
-   },
-   "appearance": {
-    "count": 1,
-    "previous": [],
-    "window": 10
-   },
-   "ath": {
-    "status": "mid",
-    "suspect": false,
-    "basis": "splits",
-    "pct_from_ath": -37.82,
-    "ath": 199.87,
-    "ath_date": "2026-09-09",
-    "prior_ath": 199.87,
-    "listed_since": "2026-07-10",
-    "short_history": true
-   },
-   "quality": {
-    "grade": "A",
-    "points": 9,
-    "max": 9,
-    "piotroski": "7/9"
-   }
-  },
-  {
-   "symbol": "APH",
-   "name": "Amphenol Corporation",
-   "exchange": "NYSE",
-   "price": 77.41,
-   "day_high": 77.94,
-   "prev_close": 69.72,
-   "change_pct": 11.03,
-   "gap_pct": 8.29,
-   "close_strength": 0.86,
-   "volume": 23866643,
-   "avg_volume": 12981337,
-   "rvol": 1.84,
-   "dollar_volume": 1847516835,
-   "market_cap": 191145525248,
-   "pe": 30.238283,
-   "pct_from_52w_high": -13.92,
-   "above_sma50": false,
-   "above_sma200": true,
-   "earnings_ts": 1801056600,
-   "market_time": 1795467602,
-   "market_date": "2026-11-23",
-   "market_state": "PREPRE",
-   "score": 43.9,
-   "news": [
-    {
-     "title": "Amphenol Corp. Cl A stock outperforms competitors on strong trading day",
-     "source": "MarketWatch",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQd0dtSGFJMTh0YzlQRVlublY0WW5OWC1vZkt1cTB6VEdrNlpmVnVsNU1XdlRGYVZ0dWV6WmdEaU9SenhDS05uX0gyOGpvMG9nNldNWnNfanpUSlN2N0FDTW5wX2hEYnVlLXBHMzYxVjh2d0JKMTZDZXlzZGR1WkVDXzlxUWtXLS1DUVc0LWtwazlKZzA4RDdWWWszNGFPTk9GVFJneW5xN2NURFltYVk1Vlp5RlVqZTlSUXlyQmJJeENqaVE3QVVJMzZ3?oc=5",
-     "published": "2026-11-23T21:30:00+00:00"
-    },
-    {
-     "title": "A Look at Amphenol Corp (APH) After 11.0% Gain -- GF Value $91.34 vs Price $77.41",
-     "source": "GuruFocus",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdlpHOV9OelZLd3A2c0xkM0lWdkpUWkwwckpUci1zaDdQRTBBR3VLVUQtcG5oUzJRSGVRTWtLR1hjVVpxN3hUQTlITWRmM1d0ZnVKdlNhMm9kc2xfUkZuRXlSUWc3Ykg3Sm1SUnlWNWVRRi1uWnlPNG5lX2xodUc5Y2syMEdXSW9zNlZaSGpGY3BlTVI3X3dIaU5ZdVI1QnRKMWJzTzgyR3J5aFFrVXc?oc=5",
-     "published": "2026-11-23T23:03:33+00:00"
-    },
-    {
-     "title": "Why Amphenol (APH) Stock Is Up Today: AI Hardware Rally on Nvidi",
-     "source": "GuruFocus",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZjJkak1pMi13SlJUVGplaG5hSzYwVGF2S3pGY29sMWlVdmtfdE1IWmxRR2xWdXhPMFdsbWh1YkF5YVZ0Z3JCaWY4eXBwVHhrY1BILWszODczZndXazgyRnhveTBYT3hFd1N5bVBSTVNwa3l1MXVKMF9lVUdwanduTDVuTjRibEpTTWp5NEJjdEJSTHhhRzNOQzVzcUJKWVl4VGY1RHZra3hxQQ?oc=5",
-     "published": "2026-11-23T17:53:56+00:00"
-    },
-    {
-     "title": "Why Amphenol (APH) Stock Is Up Today: AI Hardware Rally on Nvidia News",
-     "source": "GuruFocus.com",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/why-amphenol-aph-stock-today-173033919.html",
-     "published": "2026-11-23T17:30:33+00:00"
-    },
-    {
-     "title": "3 Reasons Why Amphenol (APH) Is a Great Growth Stock",
-     "source": "Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcVdWYmJNaW5DbXZmRHpka2UzaTJlUWQ2Ul9sLUduZHhGaEZSUU4tRUN4QjlhUGF6VVV6TE1fNTVLNVRId2dYVk9qMGI3Zm9sN0kzYmpjQkNLLXlwUjFycVltM09STUZZY1dyMHBuamhQblNuendmYjllSDhzaHpYOHdyODFucWlKcHhvSl85YXk5WFBCbnc?oc=5",
-     "published": "2026-11-23T16:45:03+00:00"
-    },
-    {
-     "title": "Ethos Technologies, Mirion, Benchmark, Rogers, and Amphenol shares are soaring, what you need to know",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPZ19XRFpzWXhlWGh2Wkx3clVmbWk1bnJ4SC1weTM5RlZ2RjMwaWNqMDZUN2JqeHEwQlczb0tWM2o0OXlsRlh6ZVlBbnlVclk5b3p1Slh1R2hHWFJjM2p1SThfb2F5aHh0Rjg1alRQUlhvc1FPdjhic2ZSaHpYVjVXYnNNMkFsMnA0WThQSjBJcGdOdkcwY2lidVUzMlpUWEJQdlBrVEMzSGV2WGRuaWdZYkthY29PRUEta3JVNTlKQkl0LTdfbzhZSDU4SERsWXlSSU5Eak5ybHNpVjVZNUVBYk5zdnQtUVR1LUpjcUln?oc=5",
-     "published": "2026-11-23T16:20:43+00:00"
-    },
-    {
-     "title": "Amphenol jumps as investors revisit strong growth outlook",
-     "source": "Quiver Quantitative",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOWs2YWp2UGtXeDlLLXN6eXNhUldCRnNiTHlxZzdoTDcyVnBNd0I5THMxTENkRDZZdGN1T0FfRFJEeWRNM09iZTlMamxVdWpkNkVMbFZfX0NrcTdrRFpNUFBPSjJydnFnQU40VW15T1VqdEZqaUlSYTFPWkNGNE5kckRjd3BLUWNLdFp1S29oa2VkR29Z?oc=5",
-     "published": "2026-11-23T16:19:00+00:00"
-    },
-    {
-     "title": "Amphenol (APH) Dropped, So What Is Driving Attention Now?",
-     "source": "Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYlotSXBlUHZubG1ORmo1Yk10TWNReFdtOTBrOUx3Mk1SVENWeUNvbnFGZkM2SG4wNF9WT3RFbDNGOXRYMUd0OW9BY1lqcjh6b2JrUFdGSVpKaXBWUTdEUGc5TS1jQmlzWEdYY0VfdWNBbUx1Vm96WHhHYzh1OFFkMndtMGJObDMyNmlwR05IUXZ4YVJtY1k2dm5LV2JPb1FpckhyM25R?oc=5",
-     "published": "2026-11-23T16:11:05+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "analyst",
-    "label": "Mejora de analista",
-    "quality": 0.6,
-    "note": "Impulso moderado; suele diluirse si no hay más noticias.",
-    "confidence": 0.3
-   },
-   "earnings_event": null,
-   "score_parts": {
-    "move": 5.0,
-    "rvol": 2.3,
-    "catalyst": 18.0,
-    "close": 8.6,
-    "size": 10.0
-   },
-   "appearance": {
-    "count": 1,
-    "previous": [],
-    "window": 10
-   },
-   "ath": {
-    "status": "mid",
-    "suspect": false,
-    "basis": "splits",
-    "pct_from_ath": -13.92,
-    "ath": 89.93,
-    "ath_date": "2026-10-06",
-    "prior_ath": 89.93,
-    "listed_since": "1991-11-08",
-    "short_history": false
-   },
-   "quality": {
-    "grade": "A",
-    "points": 7,
-    "max": 9,
-    "piotroski": "6/9"
    }
   }
  ],
  "holding_up": {
-  "tracked": 83,
+  "tracked": 82,
   "items": [
+   {
+    "symbol": "INSM",
+    "name": "Insmed Incorporated",
+    "picked_on": "2026-11-19",
+    "picked_price": 144.46,
+    "price": 170.15,
+    "change_since_pct": 17.78,
+    "from_peak_pct": 0.0,
+    "sessions_since": 3,
+    "last_rvol": 17.73,
+    "catalyst_label": "OPA / la compran",
+    "appearances": 1
+   },
+   {
+    "symbol": "KYMR",
+    "name": "Kymera Therapeutics, Inc.",
+    "picked_on": "2026-11-23",
+    "picked_price": 150.37,
+    "price": 173.92,
+    "change_since_pct": 15.66,
+    "from_peak_pct": 0.0,
+    "sessions_since": 1,
+    "last_rvol": 4.67,
+    "catalyst_label": "Biotech / FDA / ensayo",
+    "appearances": 1
+   },
    {
     "symbol": "KRSA",
     "name": "Korsana Biosciences, Inc.",
     "picked_on": "2026-11-19",
     "picked_price": 35.45,
-    "price": 42.5,
-    "change_since_pct": 19.89,
-    "from_peak_pct": 0.0,
-    "sessions_since": 2,
-    "last_rvol": 1.77,
+    "price": 39.88,
+    "change_since_pct": 12.5,
+    "from_peak_pct": -6.16,
+    "sessions_since": 3,
+    "last_rvol": 1.37,
     "catalyst_label": "Sin noticia clara",
-    "appearances": 1
-   },
-   {
-    "symbol": "AAON",
-    "name": "AAON, Inc.",
-    "picked_on": "2026-11-10",
-    "picked_price": 75.01,
-    "price": 80.16,
-    "change_since_pct": 6.87,
-    "from_peak_pct": -0.11,
-    "sessions_since": 9,
-    "last_rvol": 0.6,
-    "catalyst_label": "Resultados + mejora de previsiones",
-    "appearances": 1
-   },
-   {
-    "symbol": "ENR",
-    "name": "Energizer Holdings, Inc.",
-    "picked_on": "2026-11-17",
-    "picked_price": 27.4,
-    "price": 28.97,
-    "change_since_pct": 5.73,
-    "from_peak_pct": 0.0,
-    "sessions_since": 4,
-    "last_rvol": 0.99,
-    "catalyst_label": "Resultados trimestrales",
     "appearances": 1
    },
    {
@@ -1250,38 +1259,64 @@
     "name": "The Gap, Inc.",
     "picked_on": "2026-11-20",
     "picked_price": 20.94,
-    "price": 21.75,
-    "change_since_pct": 3.87,
-    "from_peak_pct": 0.0,
-    "sessions_since": 1,
-    "last_rvol": 1.51,
-    "catalyst_label": "Resultados trimestrales",
-    "appearances": 1
-   },
-   {
-    "symbol": "WWW",
-    "name": "Wolverine World Wide, Inc.",
-    "picked_on": "2026-11-13",
-    "picked_price": 24.89,
-    "price": 25.79,
-    "change_since_pct": 3.62,
-    "from_peak_pct": -0.31,
-    "sessions_since": 6,
-    "last_rvol": 0.69,
-    "catalyst_label": "Resultados trimestrales",
-    "appearances": 1
-   },
-   {
-    "symbol": "INSM",
-    "name": "Insmed Incorporated",
-    "picked_on": "2026-11-19",
-    "picked_price": 144.46,
-    "price": 149.09,
-    "change_since_pct": 3.21,
+    "price": 22.64,
+    "change_since_pct": 8.12,
     "from_peak_pct": 0.0,
     "sessions_since": 2,
-    "last_rvol": 1.05,
-    "catalyst_label": "OPA / la compran",
+    "last_rvol": 1.3,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "URGN",
+    "name": "UroGen Pharma Ltd.",
+    "picked_on": "2026-11-16",
+    "picked_price": 28.1,
+    "price": 29.1,
+    "change_since_pct": 3.56,
+    "from_peak_pct": -8.29,
+    "sessions_since": 6,
+    "last_rvol": 0.82,
+    "catalyst_label": "Sin noticia clara",
+    "appearances": 1
+   },
+   {
+    "symbol": "CGON",
+    "name": "CG Oncology, Inc.",
+    "picked_on": "2026-11-16",
+    "picked_price": 84.78,
+    "price": 87.5,
+    "change_since_pct": 3.21,
+    "from_peak_pct": 0.0,
+    "sessions_since": 6,
+    "last_rvol": 1.47,
+    "catalyst_label": "Biotech / FDA / ensayo",
+    "appearances": 3
+   },
+   {
+    "symbol": "ENR",
+    "name": "Energizer Holdings, Inc.",
+    "picked_on": "2026-11-17",
+    "picked_price": 27.12,
+    "price": 27.98,
+    "change_since_pct": 3.19,
+    "from_peak_pct": -2.41,
+    "sessions_since": 5,
+    "last_rvol": 1.0,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "HROW",
+    "name": "Harrow, Inc.",
+    "picked_on": "2026-11-10",
+    "picked_price": 30.36,
+    "price": 31.32,
+    "change_since_pct": 3.16,
+    "from_peak_pct": -2.61,
+    "sessions_since": 10,
+    "last_rvol": 0.75,
+    "catalyst_label": "Resultados trimestrales",
     "appearances": 1
    },
    {
@@ -1289,12 +1324,38 @@
     "name": "Installed Building Products, Inc.",
     "picked_on": "2026-11-12",
     "picked_price": 223.76,
-    "price": 229.42,
-    "change_since_pct": 2.53,
-    "from_peak_pct": -2.23,
-    "sessions_since": 7,
-    "last_rvol": 0.58,
+    "price": 230.79,
+    "change_since_pct": 3.14,
+    "from_peak_pct": -1.65,
+    "sessions_since": 8,
+    "last_rvol": 0.76,
     "catalyst_label": "Compra / fusión con otra empresa",
+    "appearances": 1
+   },
+   {
+    "symbol": "GPN",
+    "name": "Global Payments Inc.",
+    "picked_on": "2026-11-20",
+    "picked_price": 91.83,
+    "price": 94.28,
+    "change_since_pct": 2.67,
+    "from_peak_pct": 0.0,
+    "sessions_since": 2,
+    "last_rvol": 0.91,
+    "catalyst_label": "OPA / la compran",
+    "appearances": 1
+   },
+   {
+    "symbol": "WWW",
+    "name": "Wolverine World Wide, Inc.",
+    "picked_on": "2026-11-13",
+    "picked_price": 24.89,
+    "price": 25.55,
+    "change_since_pct": 2.65,
+    "from_peak_pct": -1.24,
+    "sessions_since": 7,
+    "last_rvol": 0.7,
+    "catalyst_label": "Resultados trimestrales",
     "appearances": 1
    },
    {
@@ -1302,25 +1363,64 @@
     "name": "Valvoline Inc.",
     "picked_on": "2026-11-19",
     "picked_price": 36.84,
-    "price": 37.68,
-    "change_since_pct": 2.28,
+    "price": 37.81,
+    "change_since_pct": 2.63,
     "from_peak_pct": 0.0,
-    "sessions_since": 2,
-    "last_rvol": 1.45,
+    "sessions_since": 3,
+    "last_rvol": 1.05,
     "catalyst_label": "Resultados trimestrales",
     "appearances": 1
    },
    {
-    "symbol": "FIGR",
-    "name": "Figure Technology Solutions, Inc.",
-    "picked_on": "2026-11-12",
-    "picked_price": 25.67,
-    "price": 26.17,
-    "change_since_pct": 1.95,
+    "symbol": "TJX",
+    "name": "The TJX Companies, Inc.",
+    "picked_on": "2026-11-18",
+    "picked_price": 140.3,
+    "price": 143.86,
+    "change_since_pct": 2.54,
     "from_peak_pct": 0.0,
-    "sessions_since": 7,
-    "last_rvol": 0.87,
+    "sessions_since": 4,
+    "last_rvol": 0.94,
     "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "RYTM",
+    "name": "Rhythm Pharmaceuticals, Inc.",
+    "picked_on": "2026-11-17",
+    "picked_price": 116.61,
+    "price": 119.13,
+    "change_since_pct": 2.16,
+    "from_peak_pct": 0.0,
+    "sessions_since": 5,
+    "last_rvol": 0.91,
+    "catalyst_label": "Biotech / FDA / ensayo",
+    "appearances": 3
+   },
+   {
+    "symbol": "TTWO",
+    "name": "Take-Two Interactive Software, Inc.",
+    "picked_on": "2026-11-18",
+    "picked_price": 216.61,
+    "price": 220.41,
+    "change_since_pct": 1.75,
+    "from_peak_pct": 0.0,
+    "sessions_since": 4,
+    "last_rvol": 1.19,
+    "catalyst_label": "Sin noticia clara",
+    "appearances": 1
+   },
+   {
+    "symbol": "GRDN",
+    "name": "Guardian Pharmacy Services, Inc.",
+    "picked_on": "2026-11-10",
+    "picked_price": 49.85,
+    "price": 50.62,
+    "change_since_pct": 1.54,
+    "from_peak_pct": 0.0,
+    "sessions_since": 10,
+    "last_rvol": 2.68,
+    "catalyst_label": "Resultados + mejora de previsiones",
     "appearances": 1
    },
    {
@@ -1328,76 +1428,37 @@
     "name": "PDD Holdings Inc.",
     "picked_on": "2026-11-19",
     "picked_price": 86.0,
-    "price": 87.14,
-    "change_since_pct": 1.33,
+    "price": 87.22,
+    "change_since_pct": 1.42,
     "from_peak_pct": 0.0,
-    "sessions_since": 2,
-    "last_rvol": 1.75,
+    "sessions_since": 3,
+    "last_rvol": 1.39,
     "catalyst_label": "Resultados trimestrales",
     "appearances": 1
    },
    {
-    "symbol": "STN",
-    "name": "Stantec Inc.",
-    "picked_on": "2026-11-13",
-    "picked_price": 85.69,
-    "price": 86.67,
-    "change_since_pct": 1.14,
-    "from_peak_pct": 0.0,
-    "sessions_since": 6,
-    "last_rvol": 1.02,
-    "catalyst_label": "Resultados + mejora de previsiones",
-    "appearances": 1
-   },
-   {
-    "symbol": "SPB",
-    "name": "Spectrum Brands Holdings, Inc.",
-    "picked_on": "2026-11-20",
-    "picked_price": 80.65,
-    "price": 81.48,
-    "change_since_pct": 1.03,
+    "symbol": "ZS",
+    "name": "Zscaler, Inc.",
+    "picked_on": "2026-11-23",
+    "picked_price": 229.24,
+    "price": 231.62,
+    "change_since_pct": 1.04,
     "from_peak_pct": 0.0,
     "sessions_since": 1,
-    "last_rvol": 1.09,
-    "catalyst_label": "Sin noticia clara",
+    "last_rvol": 2.16,
+    "catalyst_label": "OPA / la compran",
     "appearances": 1
    },
    {
-    "symbol": "BRBR",
-    "name": "BellRing Brands, Inc.",
-    "picked_on": "2026-11-19",
-    "picked_price": 15.11,
-    "price": 15.22,
-    "change_since_pct": 0.73,
+    "symbol": "RSKD",
+    "name": "Riskified Ltd.",
+    "picked_on": "2026-11-11",
+    "picked_price": 10.37,
+    "price": 10.44,
+    "change_since_pct": 0.68,
     "from_peak_pct": 0.0,
-    "sessions_since": 2,
-    "last_rvol": 1.19,
-    "catalyst_label": "Resultados + mejora de previsiones",
-    "appearances": 2
-   },
-   {
-    "symbol": "HROW",
-    "name": "Harrow, Inc.",
-    "picked_on": "2026-11-10",
-    "picked_price": 30.36,
-    "price": 30.57,
-    "change_since_pct": 0.69,
-    "from_peak_pct": -4.94,
     "sessions_since": 9,
-    "last_rvol": 0.73,
-    "catalyst_label": "Resultados trimestrales",
-    "appearances": 1
-   },
-   {
-    "symbol": "ACM",
-    "name": "AECOM",
-    "picked_on": "2026-11-17",
-    "picked_price": 80.53,
-    "price": 80.75,
-    "change_since_pct": 0.27,
-    "from_peak_pct": -1.98,
-    "sessions_since": 4,
-    "last_rvol": 0.75,
+    "last_rvol": 0.88,
     "catalyst_label": "Resultados trimestrales",
     "appearances": 1
    },
@@ -1406,13 +1467,78 @@
     "name": "Viking Holdings Ltd",
     "picked_on": "2026-11-18",
     "picked_price": 100.37,
-    "price": 100.47,
-    "change_since_pct": 0.1,
+    "price": 100.87,
+    "change_since_pct": 0.5,
     "from_peak_pct": 0.0,
-    "sessions_since": 3,
-    "last_rvol": 1.0,
+    "sessions_since": 4,
+    "last_rvol": 0.68,
     "catalyst_label": "Resultados trimestrales",
     "appearances": 1
+   },
+   {
+    "symbol": "ACM",
+    "name": "AECOM",
+    "picked_on": "2026-11-17",
+    "picked_price": 80.53,
+    "price": 80.81,
+    "change_since_pct": 0.35,
+    "from_peak_pct": -1.91,
+    "sessions_since": 5,
+    "last_rvol": 0.73,
+    "catalyst_label": "Resultados trimestrales",
+    "appearances": 1
+   },
+   {
+    "symbol": "TU",
+    "name": "TELUS Corporation",
+    "picked_on": "2026-11-19",
+    "picked_price": 10.78,
+    "price": 10.8,
+    "change_since_pct": 0.19,
+    "from_peak_pct": -2.44,
+    "sessions_since": 3,
+    "last_rvol": 1.09,
+    "catalyst_label": "OPA / la compran",
+    "appearances": 2
+   },
+   {
+    "symbol": "STN",
+    "name": "Stantec Inc.",
+    "picked_on": "2026-11-13",
+    "picked_price": 85.69,
+    "price": 85.78,
+    "change_since_pct": 0.11,
+    "from_peak_pct": -1.03,
+    "sessions_since": 7,
+    "last_rvol": 1.45,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "AAON",
+    "name": "AAON, Inc.",
+    "picked_on": "2026-11-10",
+    "picked_price": 75.01,
+    "price": 75.05,
+    "change_since_pct": 0.05,
+    "from_peak_pct": -6.48,
+    "sessions_since": 10,
+    "last_rvol": 1.17,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 1
+   },
+   {
+    "symbol": "BRBR",
+    "name": "BellRing Brands, Inc.",
+    "picked_on": "2026-11-19",
+    "picked_price": 15.11,
+    "price": 15.11,
+    "change_since_pct": 0.0,
+    "from_peak_pct": -0.72,
+    "sessions_since": 3,
+    "last_rvol": 1.0,
+    "catalyst_label": "Resultados + mejora de previsiones",
+    "appearances": 2
    }
   ],
   "window": 10

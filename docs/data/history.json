@@ -2207,12 +2207,12 @@
    "returns": {
     "1": 6.48,
     "5": 8.94,
-    "20": null
+    "20": -13.02
    },
    "excess": {
     "1": 6.14,
     "5": 10.93,
-    "20": null
+    "20": -6.41
    },
    "close_strength": 0.91,
    "day_gap": 9.26,
@@ -2237,12 +2237,12 @@
    "returns": {
     "1": 6.7,
     "5": 4.59,
-    "20": null
+    "20": 15.16
    },
    "excess": {
     "1": 6.36,
     "5": 6.58,
-    "20": null
+    "20": 21.77
    },
    "close_strength": 0.82,
    "day_gap": 15.81,
@@ -2267,12 +2267,12 @@
    "returns": {
     "1": 2.47,
     "5": 1.05,
-    "20": null
+    "20": -13.42
    },
    "excess": {
     "1": 2.13,
     "5": 3.04,
-    "20": null
+    "20": -6.81
    },
    "close_strength": 1.0,
    "day_gap": -8.32,
@@ -2297,12 +2297,12 @@
    "returns": {
     "1": 4.51,
     "5": 2.26,
-    "20": null
+    "20": -21.59
    },
    "excess": {
     "1": 4.17,
     "5": 4.25,
-    "20": null
+    "20": -14.98
    },
    "close_strength": 0.67,
    "day_gap": 10.51,
@@ -2327,12 +2327,12 @@
    "returns": {
     "1": 8.41,
     "5": -6.0,
-    "20": null
+    "20": -28.89
    },
    "excess": {
     "1": 8.07,
     "5": -4.01,
-    "20": null
+    "20": -22.28
    },
    "close_strength": 0.7,
    "day_gap": 7.16,
@@ -2357,12 +2357,12 @@
    "returns": {
     "1": -0.75,
     "5": 1.43,
-    "20": null
+    "20": 1.91
    },
    "excess": {
     "1": -1.09,
     "5": 3.42,
-    "20": null
+    "20": 8.52
    },
    "close_strength": 0.92,
    "day_gap": 3.36,
@@ -2387,12 +2387,12 @@
    "returns": {
     "1": 3.34,
     "5": 11.94,
-    "20": null
+    "20": 14.42
    },
    "excess": {
     "1": 3.0,
     "5": 13.93,
-    "20": null
+    "20": 21.03
    },
    "close_strength": 0.92,
    "day_gap": 10.49,
@@ -2417,12 +2417,12 @@
    "returns": {
     "1": -4.18,
     "5": -23.12,
-    "20": null
+    "20": -60.39
    },
    "excess": {
     "1": -4.52,
     "5": -21.13,
-    "20": null
+    "20": -53.78
    },
    "close_strength": 0.91,
    "day_gap": 4.08,
@@ -2447,12 +2447,12 @@
    "returns": {
     "1": 5.68,
     "5": -5.81,
-    "20": null
+    "20": -20.36
    },
    "excess": {
     "1": 5.34,
     "5": -3.82,
-    "20": null
+    "20": -13.75
    },
    "close_strength": 0.95,
    "day_gap": 4.59,
@@ -2477,12 +2477,12 @@
    "returns": {
     "1": 0.14,
     "5": -0.65,
-    "20": null
+    "20": -0.68
    },
    "excess": {
     "1": -0.2,
     "5": 1.34,
-    "20": null
+    "20": 5.93
    },
    "close_strength": 0.56,
    "day_gap": 15.36,
@@ -6620,12 +6620,12 @@
    "quality": "C",
    "returns": {
     "1": -6.27,
-    "5": null,
+    "5": -30.81,
     "20": null
    },
    "excess": {
     "1": -5.96,
-    "5": null,
+    "5": -28.95,
     "20": null
    },
    "thermo": 18
@@ -6650,12 +6650,12 @@
    "quality": "C",
    "returns": {
     "1": -1.84,
-    "5": null,
+    "5": -6.03,
     "20": null
    },
    "excess": {
     "1": -1.53,
-    "5": null,
+    "5": -4.17,
     "20": null
    },
    "thermo": 18
@@ -6680,12 +6680,12 @@
    "quality": "B",
    "returns": {
     "1": 3.25,
-    "5": null,
+    "5": 3.19,
     "20": null
    },
    "excess": {
     "1": 3.56,
-    "5": null,
+    "5": 5.05,
     "20": null
    },
    "thermo": 18
@@ -6710,12 +6710,12 @@
    "quality": "C",
    "returns": {
     "1": 1.74,
-    "5": null,
+    "5": -5.29,
     "20": null
    },
    "excess": {
     "1": 2.05,
-    "5": null,
+    "5": -3.43,
     "20": null
    },
    "thermo": 18
@@ -6740,12 +6740,12 @@
    "quality": "B",
    "returns": {
     "1": -3.94,
-    "5": null,
+    "5": -18.97,
     "20": null
    },
    "excess": {
     "1": -3.63,
-    "5": null,
+    "5": -17.11,
     "20": null
    },
    "thermo": 18
@@ -6770,12 +6770,12 @@
    "quality": "B",
    "returns": {
     "1": 2.3,
-    "5": null,
+    "5": 0.35,
     "20": null
    },
    "excess": {
     "1": 2.61,
-    "5": null,
+    "5": 2.21,
     "20": null
    },
    "thermo": 18
@@ -6800,12 +6800,12 @@
    "quality": "C",
    "returns": {
     "1": -2.78,
-    "5": null,
+    "5": -30.56,
     "20": null
    },
    "excess": {
     "1": -2.47,
-    "5": null,
+    "5": -28.7,
     "20": null
    },
    "thermo": 18
@@ -6830,12 +6830,12 @@
    "quality": "A",
    "returns": {
     "1": -1.27,
-    "5": null,
+    "5": -3.06,
     "20": null
    },
    "excess": {
     "1": -0.96,
-    "5": null,
+    "5": -1.2,
     "20": null
    },
    "thermo": 18
@@ -6860,12 +6860,12 @@
    "quality": "C",
    "returns": {
     "1": 2.08,
-    "5": null,
+    "5": 2.16,
     "20": null
    },
    "excess": {
     "1": 2.39,
-    "5": null,
+    "5": 4.02,
     "20": null
    },
    "thermo": 18
@@ -6890,12 +6890,12 @@
    "quality": "C",
    "returns": {
     "1": -1.09,
-    "5": null,
+    "5": -11.09,
     "20": null
    },
    "excess": {
     "1": -0.78,
-    "5": null,
+    "5": -9.23,
     "20": null
    },
    "thermo": 18
@@ -7610,12 +7610,12 @@
    "thermo": 30,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": 15.66,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 16.15,
     "5": null,
     "20": null
    }
@@ -7640,12 +7640,12 @@
    "thermo": 30,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": 1.04,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.53,
     "5": null,
     "20": null
    }
@@ -7670,12 +7670,12 @@
    "thermo": 30,
    "quality": "A",
    "returns": {
-    "1": null,
+    "1": -5.86,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -5.37,
     "5": null,
     "20": null
    }
@@ -7700,12 +7700,12 @@
    "thermo": 30,
    "quality": "A",
    "returns": {
-    "1": null,
+    "1": -11.01,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -10.52,
     "5": null,
     "20": null
    }
@@ -7730,12 +7730,12 @@
    "thermo": 30,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -11.85,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -11.36,
     "5": null,
     "20": null
    }
@@ -7760,12 +7760,12 @@
    "thermo": 30,
    "quality": "A",
    "returns": {
-    "1": null,
+    "1": -11.83,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -11.34,
     "5": null,
     "20": null
    }
@@ -7790,12 +7790,12 @@
    "thermo": 30,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -10.73,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -10.24,
     "5": null,
     "20": null
    }
@@ -7820,12 +7820,12 @@
    "thermo": 30,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": -9.88,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -9.39,
     "5": null,
     "20": null
    }
@@ -7850,12 +7850,12 @@
    "thermo": 30,
    "quality": "A",
    "returns": {
-    "1": null,
+    "1": -9.9,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -9.41,
     "5": null,
     "20": null
    }
@@ -7879,6 +7879,306 @@
    "spy_change": 4.71,
    "thermo": 30,
    "quality": "A",
+   "returns": {
+    "1": -5.09,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": -4.6,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "AMTM",
+   "name": "Amentum Holdings, Inc.",
+   "rank": 1,
+   "score": 63.0,
+   "price": 24.8,
+   "change_pct": 20.1,
+   "rvol": 5.74,
+   "catalyst": "takeover",
+   "catalyst_label": "OPA / la compran",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -34.93,
+   "close_strength": 0.77,
+   "day_gap": 13.95,
+   "spy_change": -0.49,
+   "thermo": 27,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "ANF",
+   "name": "Abercrombie & Fitch Co.",
+   "rank": 2,
+   "score": 63.0,
+   "price": 168.1,
+   "change_pct": 19.69,
+   "rvol": 2.96,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -14.67,
+   "close_strength": 0.53,
+   "day_gap": 13.13,
+   "spy_change": -0.49,
+   "thermo": 27,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "KSS",
+   "name": "Kohl's Corporation",
+   "rank": 3,
+   "score": 58.7,
+   "price": 25.33,
+   "change_pct": 19.48,
+   "rvol": 2.65,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -69.58,
+   "close_strength": 0.97,
+   "day_gap": 4.58,
+   "spy_change": -0.49,
+   "thermo": 27,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "DLTR",
+   "name": "Dollar Tree, Inc.",
+   "rank": 4,
+   "score": 57.4,
+   "price": 154.65,
+   "change_pct": 11.18,
+   "rvol": 2.61,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -12.72,
+   "close_strength": 0.75,
+   "day_gap": 7.83,
+   "spy_change": -0.49,
+   "thermo": 27,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "SNY",
+   "name": "Sanofi",
+   "rank": 5,
+   "score": 56.6,
+   "price": 51.9,
+   "change_pct": 10.97,
+   "rvol": 4.03,
+   "catalyst": "acquisition",
+   "catalyst_label": "Compra / fusión con otra empresa",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -13.67,
+   "close_strength": 0.97,
+   "day_gap": 7.6,
+   "spy_change": -0.49,
+   "thermo": 27,
+   "quality": "A",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "INSM",
+   "name": "Insmed Incorporated",
+   "rank": 6,
+   "score": 56.0,
+   "price": 170.15,
+   "change_pct": 14.13,
+   "rvol": 25.17,
+   "catalyst": "takeover",
+   "catalyst_label": "OPA / la compran",
+   "appearance": 2,
+   "ath_status": "mid",
+   "pct_from_ath": -20.02,
+   "close_strength": 0.1,
+   "day_gap": 14.35,
+   "spy_change": -0.49,
+   "thermo": 27,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "KYMR",
+   "name": "Kymera Therapeutics, Inc.",
+   "rank": 7,
+   "score": 55.5,
+   "price": 173.92,
+   "change_pct": 15.66,
+   "rvol": 6.73,
+   "catalyst": "none",
+   "catalyst_label": "Sin noticia clara",
+   "appearance": 2,
+   "ath_status": "new_ath",
+   "pct_from_ath": -3.38,
+   "close_strength": 0.69,
+   "day_gap": 7.07,
+   "spy_change": -0.49,
+   "thermo": 27,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "DKS",
+   "name": "DICK'S Sporting Goods, Inc.",
+   "rank": 8,
+   "score": 50.2,
+   "price": 153.17,
+   "change_pct": 14.59,
+   "rvol": 1.67,
+   "catalyst": "earnings_guidance",
+   "catalyst_label": "Resultados + mejora de previsiones",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -39.84,
+   "close_strength": 0.48,
+   "day_gap": 11.28,
+   "spy_change": -0.49,
+   "thermo": 27,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "COGT",
+   "name": "Cogent Biosciences, Inc.",
+   "rank": 9,
+   "score": 49.5,
+   "price": 33.01,
+   "change_pct": 17.43,
+   "rvol": 3.42,
+   "catalyst": "fda",
+   "catalyst_label": "Biotech / FDA / ensayo",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -53.27,
+   "close_strength": 0.65,
+   "day_gap": 3.52,
+   "spy_change": -0.49,
+   "thermo": 27,
+   "quality": "C",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "MMED",
+   "name": "MiniMed Group, Inc.",
+   "rank": 10,
+   "score": 46.5,
+   "price": 19.07,
+   "change_pct": 14.09,
+   "rvol": 1.52,
+   "catalyst": "earnings",
+   "catalyst_label": "Resultados trimestrales",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -21.94,
+   "close_strength": 0.92,
+   "day_gap": -0.15,
+   "spy_change": -0.49,
+   "thermo": 27,
+   "quality": "C",
    "returns": {
     "1": null,
     "5": null,
