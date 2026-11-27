@@ -29,7 +29,7 @@
   },
   "earnings": {
    "label": "Resultados trimestrales",
-   "count": 119,
+   "count": 118,
    "horizons": {
     "1": {
      "n": 115,
@@ -191,7 +191,7 @@
   },
   "contract": {
    "label": "Contrato / alianza",
-   "count": 7,
+   "count": 8,
    "horizons": {
     "1": {
      "n": 7,
@@ -635,7 +635,7 @@
  "score_buckets": {
   "high": {
    "label": "Alta (55 o más)",
-   "count": 138,
+   "count": 137,
    "horizons": {
     "1": {
      "n": 137,
@@ -662,7 +662,7 @@
   },
   "mid": {
    "label": "Media (40 a 55)",
-   "count": 88,
+   "count": 87,
    "horizons": {
     "1": {
      "n": 83,
@@ -689,7 +689,7 @@
   },
   "low": {
    "label": "Baja (menos de 40)",
-   "count": 57,
+   "count": 59,
    "horizons": {
     "1": {
      "n": 53,

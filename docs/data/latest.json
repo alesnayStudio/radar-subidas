@@ -1,7 +1,7 @@
 {
  "date": "2026-11-25",
- "generated_at": "2026-11-26T03:41:44+00:00",
- "market_state": "POSTPOST",
+ "generated_at": "2026-11-27T03:42:26+00:00",
+ "market_state": "CLOSED",
  "filters": {
   "min_change_pct": 6.0,
   "min_market_cap": 1000000000,
@@ -11,7 +11,7 @@
  },
  "universe": {
   "raw_gainers": 51,
-  "passed_filters": 15
+  "passed_filters": 14
  },
  "market": {
   "SPY": {
@@ -73,121 +73,6 @@
  },
  "top": [
   {
-   "symbol": "LI",
-   "name": "Li Auto Inc.",
-   "exchange": "NasdaqGS",
-   "price": 11.88,
-   "day_high": 11.91,
-   "prev_close": 10.7,
-   "change_pct": 11.03,
-   "gap_pct": 7.1,
-   "close_strength": 0.98,
-   "volume": 10477747,
-   "avg_volume": 2932126,
-   "rvol": 3.57,
-   "dollar_volume": 124475634,
-   "market_cap": 11610020864,
-   "pe": null,
-   "pct_from_52w_high": -40.87,
-   "above_sma50": true,
-   "above_sma200": false,
-   "earnings_ts": 1795613400,
-   "market_time": 1795640402,
-   "market_date": "2026-11-25",
-   "market_state": "POSTPOST",
-   "score": 59.4,
-   "news": [
-    {
-     "title": "Li Auto's Q3 Earnings Report: Deliveries Are Back, Profits Are Yet to Return",
-     "source": "36Kr",
-     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12VU12QURjOU9ySVhhLXFSZ0ZEYWU4UXFZYjM0cEFmaV8zQ2UwS2FmWjlYTmZ2VkI3Mkp6XzBuWGxDSmRKTm93TWxjMk16M09jWmw0?oc=5",
-     "published": "2026-11-26T03:34:56+00:00"
-    },
-    {
-     "title": "Hong Kong Stocks Open Higher; LI AUTO Surges 8.5% on Earnings Beat",
-     "source": "KuCoin",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWXdJdXRWMUJQMVRGZUREQTZ3RXFMMnFmRXNTVnpjQy1GZXVJVEdQMGJqS2ZBVWRDWnB6TkYtb2d3NWRib3hfc3hDWmVNOEYyWVVDaXppUzNyeEo5bmRmR2U5ZzNwX29YNmZjZm1WTWNmdXRjOXkxLUJVcndoSkpYSlY1VDQ1U0hfOTFUYlFWa2lCcmlQdWFGOWdoMWp0X3M?oc=5",
-     "published": "2026-11-26T02:47:09+00:00"
-    },
-    {
-     "title": "Li Auto Inc. (LI US/2015 HK) - Margins Recover, Volume Catalysts Lag",
-     "source": "Smartkarma",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNODBubF9kUThHb053M1J5TFQ3QWRKaW5OeENXUU1TQ2FlSGxNcjdRYVE1VDlocG9sVnNYSWt4bVB2VFYzekF3a3dLaVFrSnNoMzktdnhwcXhmcTlxTkxXYWltY0IzWVdIY3JGb21EejMtblF4UjBHVlBqcVhzSHN4YjlyVE4yanh0X29jbldiRmJQVkNkMGswaktEVjNJQVJ1ZGtqMEFFc2ZRQTZTY1ZIa1MtSlVLekNZQ2NqVHEzb21oRzB4NlJ5cA?oc=5",
-     "published": "2026-11-26T01:05:39+00:00"
-    },
-    {
-     "title": "Li Auto Inc (LI) Shares Surge 11.0% -- What GF Score of 72 Tells Investors",
-     "source": "GuruFocus",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTkpnR2NhcnFpRmNUaS1JTml4SEdUWHRWNjROWVFsYnpSZGwwTnFsWVozSzZVSjV1Q0JEeW5WeUZQUEhpX05PeFdWQll5alZXVDFJM1F6NmdDbmNxaXRqanQ1T0NRNUlXa3VXMzQ1bUMxY1BrclV0TkNfRUMxZ19zN2xlOEdvZ21CdldHMHZqUXZwRWpmOF9PZXFZVnNUMVl4Sm1mNVU1M016Zw?oc=5",
-     "published": "2026-11-25T23:02:26+00:00"
-    },
-    {
-     "title": "Li Auto Inc. Stock 12‑Month Price Target Cut to $14.66, Implies 37% Upside",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNXItZE9KTy1DZlQ4WjhhOGxrNTR4UGJsaTVzTlVyZnVMTWRnemJKUEY3MDc0SHcwd3pfUjhLdTF1YlYwNjlXOC1PZWdoWGsybzl0bjdscS0zQkoweWpOVldyMGlHUEc4enR3cmpuV3l5WkZhZFBHRDZQYUNNOTdNZjFmZkU2TWpVVU9kMXh4TjNqMmFhczZrZnhvcUtpS0hNSkJYdmtXeEYxZEdxN2ZWc2NnbmVXSkY4YVhrdmkwM1pOODUyNmZQSW82T00?oc=5",
-     "published": "2026-11-25T22:20:00+00:00"
-    },
-    {
-     "title": "Li Auto Inc.: 12-Monats-Kursziel auf $14,66 gesenkt, Aufwärtspotenzial von 37%",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qbUZOUzIyZ2txVVRoT2ZTbV9BdTdsRVNMSTh6Rzd3YXl2UFNHUEdUdUJTQzdKT01MWF8wQTlsdjM5VHpKN2J6ZEhmU2Q4M004bFpJU2E2VEFLcHIwTjZ6QTZMaDdfcmtHV1lpTFNB?oc=5",
-     "published": "2026-11-25T22:20:00+00:00"
-    },
-    {
-     "title": "JPMorgan Upgrades Li Auto (LI) to Neutral",
-     "source": "StreetInsider",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ0FqM2ZnT1JUQnpBTVhvaFBHcm1KYkVOWHNPQmpWb0Y3QjNFelBsd0l3TlNRLThuVmJuQTkzUm9rcGZfVm1sR2dkdlB4eFV5RjhiUDMxSU9WU1daNWtQckVTRWVaOHh6dUpSZHR3VGlpZTlna2UwOFRXYU1icHVvQnhGLWpZT2ZZc1BQNS15dU5DcGx5RTlxaWR3LXByUDg?oc=5",
-     "published": "2026-11-25T21:25:56+00:00"
-    },
-    {
-     "title": "Li Auto (NASDAQ:LI) Stock Rating Raised to Neutral at JPMorgan Chase & Co.",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNX1FNTl9zel9LdHBPVF9LeDJVSURkc0xpT2JiSWZOeHJnV1MtdTFfc1p2empJM0ltWldBQlg3eDRaVDl3UDZNLWdieTcwaEw3Q0VWMXFUSzUwWXVGeF9fQ2o4ZUIzbzdTbXVIcDV6UGVQTmVGUGVnc3NaYmV5TXF6T3kwWWN4eXptOURtSDFHWWVWeUVLZ055V3hEZ1FwbWlWNTdhRzMtdXpiZnlsTmFuYVRmQlBuWDdxeUtORlItOW5qRV92MUlaNVJLSQ?oc=5",
-     "published": "2026-11-25T21:14:41+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "earnings",
-    "label": "Resultados trimestrales",
-    "quality": 0.85,
-    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 1
-   },
-   "earnings_event": {
-    "timing": "reported",
-    "at": "2026-11-25T08:30:00-05:00"
-   },
-   "score_parts": {
-    "move": 5.0,
-    "rvol": 13.8,
-    "catalyst": 25.5,
-    "close": 9.8,
-    "size": 5.3
-   },
-   "appearance": {
-    "count": 1,
-    "previous": [],
-    "window": 10
-   },
-   "ath": {
-    "status": "rebound",
-    "suspect": false,
-    "basis": "splits",
-    "pct_from_ath": -75.09,
-    "ath": 47.7,
-    "ath_date": "2020-11-24",
-    "prior_ath": 47.7,
-    "listed_since": "2020-07-30",
-    "short_history": false
-   },
-   "quality": {
-    "grade": "C",
-    "points": 2,
-    "max": 9,
-    "piotroski": "2/9"
-   }
-  },
-  {
    "symbol": "BSP",
    "name": "Bending Spoons S.p.A.",
    "exchange": "NasdaqGS",
@@ -198,19 +83,19 @@
    "gap_pct": -3.17,
    "close_strength": 0.98,
    "volume": 8184168,
-   "avg_volume": 2870540,
-   "rvol": 2.85,
+   "avg_volume": 2983170,
+   "rvol": 2.74,
    "dollar_volume": 378845137,
    "market_cap": 30400454656,
-   "pe": 100.63043,
+   "pe": 107.65116,
    "pct_from_52w_high": -22.2,
    "above_sma50": true,
    "above_sma200": true,
    "earnings_ts": 1802352600,
    "market_time": 1795640402,
    "market_date": "2026-11-25",
-   "market_state": "POSTPOST",
-   "score": 53.7,
+   "market_state": "CLOSED",
+   "score": 53.0,
    "news": [
     {
      "title": "Bending Spoons (NASDAQ:BSP) Stock in a Busy Session: Third Quarter 2026 Results, Acquisitions and Updated Guidance",
@@ -231,6 +116,12 @@
      "published": "2026-11-24T20:23:40+00:00"
     },
     {
+     "title": "Bending Spoons S.p.A. (BSP) Stock Price, News, Quote & History",
+     "source": "Yahoo! Finance Canada",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9vNExJeFB6ZXJJck92Q0hXX3prNjlOUmpwdm1DSW85aTM2UExHZkJjT2t2N0hORlN2RzdMdkhMRmxrcEd6RS1xOU1weE1waEVp?oc=5",
+     "published": "2026-11-25T20:02:45+00:00"
+    },
+    {
      "title": "How 2 Quick Calls Sealed Berkshire Hathaway’s $930M Bending Spoons Investment",
      "source": "Barrons.com",
      "link": "https://finance.yahoo.com/m/c0f5187b-4c48-3bdf-bace-f60bd53791d7/how-2-quick-calls-sealed.html",
@@ -241,12 +132,6 @@
      "source": "TradingView",
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYUFNYUl4b3dsQTh5WkhEaVRuWUFuT3BfQnF1YTR0Q182cEtwUExLY2tLUlNld0lCRXVjclozR0U2VTNaWEFGSG8tNExpdXRRWk5uQjd6ZnNaRnZuR1N2MmZRV25ycld5VXE1WWxOU3NkVTNUMGpZdEtFbGpfQ2xnUFZqSUhOWWIw?oc=5",
      "published": "2026-11-25T01:41:50+00:00"
-    },
-    {
-     "title": "Bending Spoons S.p.A. (BSP) stock price, news, quote and history",
-     "source": "Yahoo Finance UK",
-     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE53ajRBcnlMTjg0RTlTR09jMFdQcXZ0bXZDQzBDRmNtNENjS0lWQlp0VWJrRFFEd3c0U05uY1VaakMxVEJMajR0MmgtOUw2enZ4?oc=5",
-     "published": "2026-11-25T00:50:35+00:00"
     },
     {
      "title": "Bending Spoons (BSP) Stock Is Down 12.2% Today Without Company N",
@@ -271,7 +156,7 @@
    "earnings_event": null,
    "score_parts": {
     "move": 2.0,
-    "rvol": 9.0,
+    "rvol": 8.3,
     "catalyst": 25.5,
     "close": 9.8,
     "size": 7.4
@@ -310,8 +195,8 @@
    "gap_pct": 7.19,
    "close_strength": 0.62,
    "volume": 39060684,
-   "avg_volume": 14780006,
-   "rvol": 2.64,
+   "avg_volume": 15021196,
+   "rvol": 2.6,
    "dollar_volume": 1216740307,
    "market_cap": 28090787840,
    "pe": 11.889314,
@@ -321,56 +206,56 @@
    "earnings_ts": 1803416400,
    "market_time": 1795640403,
    "market_date": "2026-11-25",
-   "market_state": "POSTPOST",
-   "score": 52.0,
+   "market_state": "CLOSED",
+   "score": 51.7,
    "news": [
     {
-     "title": "HPQ earnings analysis: questions answered and next catalysts",
-     "source": "Investing.com",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/hpq-earnings-analysis-questions-answered-205027854.html",
-     "published": "2026-11-25T20:50:27+00:00"
-    },
-    {
-     "title": "HP (NYSE:HPQ) Climbs 12% After a Fiscal Fourth-Quarter Beat and Dividend Increase Calm Worries Over Memory Costs",
-     "source": "kalkine.ca",
-     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPN2h5VGY3RTlja0JMb05sZDNMMHJOVEVxMGw4RjBSZzJUOC1ucmJnTFpNS3FVVW4zQ2QtT25CUkZCb05SRmVOQmxoYmNWcnEtVkI0cURfZ0lDckl6anRrT2gzTDNWVTN6dlJHTWNoNzM0d0hEYjY3WXp4YjZjazJSRVliUVhrYVFTb0ZIS3FFQ2t4S3I0Rklyd25xMGlCb0dZQUY0RmVMM2JsM0hKZEZTbHFsN0lUYWV2NTJkMHU5b0t0eU1UOEVwV19jVWlYVy15Q1hYdC1mZEpRVlk?oc=5",
-     "published": "2026-11-25T20:36:00+00:00"
-    },
-    {
-     "title": "HP (HPQ) Q4 2026 Earnings Call Transcript",
-     "source": "The Motley Fool",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdklTQ1hldGZ3MVl4SGNCWFMyM0ZLYzBnRUZ6SWxhNThyTF94YTFLUlM3cng2STQ2TXB3cTRNY08zNEt4VDZzSFZLV0poQ2kwbnRNajR6RXlYWlRUeDY0ZGdTSmN4RW5tcmRVdkRsT1N1U3BGREFLS1hHMzY4aWJNRzc4SFJWa28yRnlxdlptMnR0QW9DQkNGSVU3X19sbzA?oc=5",
-     "published": "2026-11-25T15:23:28+00:00"
-    },
-    {
-     "title": "HP (HPQ) Q4 earnings: How key metrics compare to Wall Street estimates",
-     "source": "FXStreet",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbGJaQlkxWUhZRnp2V0tuNVhRNXFDcGdHb0g5V29GQU9OSFhrMEVmUW1mYXdzWTlqMlhxZ09fbE8yUElNWWhFYzlnWGJQejIzek1JSExQZ284LTRUdHlKRnpnWnE1Ym50UkFGaVVIMjgzYk1wcEotRTY1a0xOWmhoVXpQcTBGLWhCUEp6a1VDNUtnTEF5VlVDdFd0eUJCbHJId0V5N1RxbC1nbUVkS1pV?oc=5",
-     "published": "2026-11-25T07:35:36+00:00"
-    },
-    {
-     "title": "HP (HPQ) Q4 FY26 Earnings Beat Estimates; Revenue up 9%",
-     "source": "AlphaStreet",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbXpvdV9yWTJudTFMemhOcEkxQnl2bC15S2tSX2tzYTl2T0RaNVNYQms1UklQZE5NWXlLbFhzdGtqcEtyU1Y1VXhQTjZLVEoxUHVrb2U1WTBaaS10SHlpWC11b2prSW9mUmQ1OVJNY2ljenZMNUhhenlXemo1SmlueFRiam5qYlBV0gGIAUFVX3lxTFBtem91X3JZMm51MUx6aE5wSTFCeXZsLXlLa1Jfa3NhOXZPRFo1U1hCazVSSVBkTk1ZeUtsWHN0a2pwS3JTVjVVeFBONktUSjFQdWtvZTVZMFppLXRIeWlYLXVvamtJb2ZSZDU5Uk1jaWN6dkw1SGF6eVd6ajVKaW54VGJqbmpiUFU?oc=5",
-     "published": "2026-11-25T00:54:31+00:00"
-    },
-    {
-     "title": "HP (HPQ) Tops Q4 Earnings and Revenue Estimates",
+     "title": "HP (HPQ) Stock May Be 42% Undervalued After Earnings Focus Returns",
      "source": "Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQlVhZlR0Ulg5ZjZqVVV2cFdJN3BpaUNMVkM4NGFjN3Y4RHpuV3ZTd0h0STFkclkzM0RldU9KV1hWSXNtdmxDWkQweGxqR1NZTzZwSy1idjJpSWxvOFE0elNScTFVN0FLRzYtWkpyclA3Z2VYZHVsbUxwVF9Nd3d0N1lIdFBORDhVR05iSjN3UVdsZw?oc=5",
-     "published": "2026-11-24T21:35:02+00:00"
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWFhRWjA0Y1FUOUpHdXUzREo1cUJrT2RpeHZvZVo5SVJZc3JNVlJIelhBSXFsdlFHVzVHOTVLVXNiNTVUTmNISkhZSnpyeXRJblRpbE82dDNKcmtBX3ExRDVYeGtXU3ZzMTZUaUI4SFY2N1FLdTB5dUlmaU1ybUpQVFRyTzR1Q2lVWlFwdA?oc=5",
+     "published": "2026-11-26T11:14:00+00:00"
+    },
+    {
+     "title": "HPQ: HP Jumps More Than 11% as Earnings Beat Cuts Through Tech Selloff",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbVpJcnBGeGxPMTdLYWNFZ0JNSk16dlFXbXZjLWZiWmgyUnk0QTZoZDNrR2hDTzBnZVREU3lma3RDVFh2N04yY1pINzRzbnJTWkNCNXNkWEVJRmFLT2dpVWluRUtDWFoxQzZQUTlQNF9FTmViQjlTM0tydEpyMC1GQnVXZUVYSC1kSjNmaWN6LWVhYTZNTEpJNjVPN3MxMThiMUxiSzBrNUtpMjRVUHlrS3FOX3I0bTFlWTM0aTVkRk90dWl1cDI1QmR3?oc=5",
+     "published": "2026-11-26T07:42:00+00:00"
+    },
+    {
+     "title": "HP (NYSE:HPQ) Stock Surges Nearly 12% as Earnings Beat Defies Wall Street Tech Sellof",
+     "source": "Stocks Down Under",
+     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB3bGo1eE5HVVd1MlNNZzMyTjdCQWV4ankwRnBGRDF2UlFfOVRINzc1VWJoM3lzbTFVVkYtVWNEbG1Ub2JTR1NPVUxTZUNjc2phbkU4NzhZVU53aVNKcTJ6NTFjM3JNMjQ4ZThhMzZ0MXNUVU0?oc=5",
+     "published": "2026-11-25T21:01:07+00:00"
+    },
+    {
+     "title": "HP (HPQ) Q4 Earnings: How Key Metrics Compare to Wall Street Estimates",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQS3VYNVl1WkI2UXc1SE1qNC1iWmtHOU1VZl9ld01saEN1dmhhNFcza3J4MWxWM1NoUmxBUGNxaldVN2N5MDFZcy1ieHJRRTRVMU1vaEZlSnh5QU9aV190dkFyYzhHenludHg4LTlCaXRWb1dSNVlXN3VFVUhxY05SbXU2bV9SQmxNckQtUmVpNE0?oc=5",
+     "published": "2026-11-25T00:00:00+00:00"
+    },
+    {
+     "title": "HP (HPQ) Brings Marketplace Intelligence Into Multi Jet Fusion Software",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/technology/articles/hp-hpq-brings-marketplace-intelligence-071608618.html",
+     "published": "2026-11-26T07:16:08+00:00"
+    },
+    {
+     "title": "HSBC Downgrades HP, Inc. (HPQ) to Hold",
+     "source": "StreetInsider",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORUIzSHNlSFdFNTRjWGtVQV9TWkxNUFNlMkZONFU1NkFIbTVfb0ZjR2RkaFdwMTZqSDNnaW5iNDJGSlJmTTZuMWdfXzlHYml0WFJaLU52bFNUZzdNcWs3NG9KMUdGLV9lMlo3dThiX2p6UWdiU3RPdVg0akdNckVTSjFNemtySXVIRkFobmNEVV9nZ1BUcWtHVEJvZDhUSDczN0F2d0p4c2M?oc=5",
+     "published": "2026-11-26T06:49:58+00:00"
+    },
+    {
+     "title": "HP Inc. (HPQ) Explodes After Delivering This Double Dose of Good News",
+     "source": "Insider Monkey",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/hp-inc-hpq-explodes-delivering-061805487.html",
+     "published": "2026-11-26T06:18:05+00:00"
     },
     {
      "title": "HP Inc Stock (HPQ) Closed Up by 11.49% on Nov 25: What Signal Does It Send?",
      "source": "TradingKey",
      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMjJYenBtUHBIUmFpWlJabTR2VFM0LTZLdW5sVGtITnhTOWUtMFJfRGE4ZWFQWHFsdUI4SElUVzZuVks5NkhjcW03WjlTLVc2MUQyQks0eTkyMWdYMDljZy1SbkN1UHhMd2Q2b25UQlc3TXJ4TjQwLVB2blBzdUdiWU1lWllyalMzSHc?oc=5",
      "published": "2026-11-25T21:15:26+00:00"
-    },
-    {
-     "title": "HP Inc. (HPQ) 6200 contracts of December 4 weekly 31 puts trade",
-     "source": "StreetInsider",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdm5HRmFIWnlrSkZMQzQ0Y3lweVFST0taUkFYQ2dvR2FXOTFuTkJkNHpxNkZXZGhZSEpFOGVHVHk1dGJnUnp3RDI0cWxyQi1OSkZIcEhPR1RENlZydEtUMzNmZXVObmI4OE9Fa0ViY211dFdyME84UWZEWXZJZFZqWkFhNzVYT2lkVE8xallTbnhHN045cEV2LWM5NGp4VGFOMy1aTy1LeE16QXVGSXl2UTJxQnF0Tm5tcW8w?oc=5",
-     "published": "2026-11-25T19:55:56+00:00"
     }
    ],
    "catalyst": {
@@ -378,12 +263,12 @@
     "label": "Resultados trimestrales",
     "quality": 0.85,
     "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 0.42
+    "confidence": 0.3
    },
    "earnings_event": null,
    "score_parts": {
     "move": 5.5,
-    "rvol": 7.6,
+    "rvol": 7.3,
     "catalyst": 25.5,
     "close": 6.2,
     "size": 7.2
@@ -412,77 +297,77 @@
    }
   },
   {
-   "symbol": "ADI",
-   "name": "Analog Devices, Inc.",
+   "symbol": "LI",
+   "name": "Li Auto Inc.",
    "exchange": "NasdaqGS",
-   "price": 333.11,
-   "day_high": 333.22,
-   "prev_close": 312.95,
-   "change_pct": 6.44,
-   "gap_pct": -3.36,
-   "close_strength": 1.0,
-   "volume": 8602252,
-   "avg_volume": 4134460,
-   "rvol": 2.08,
-   "dollar_volume": 2865453152,
-   "market_cap": 160781926400,
-   "pe": 32.62537,
-   "pct_from_52w_high": -25.3,
-   "above_sma50": false,
+   "price": 11.88,
+   "day_high": 11.91,
+   "prev_close": 10.7,
+   "change_pct": 11.03,
+   "gap_pct": 7.1,
+   "close_strength": 0.98,
+   "volume": 10477747,
+   "avg_volume": 3047670,
+   "rvol": 3.44,
+   "dollar_volume": 124475634,
+   "market_cap": 11610020864,
+   "pe": null,
+   "pct_from_52w_high": -40.87,
+   "above_sma50": true,
    "above_sma200": false,
-   "earnings_ts": 1802871000,
+   "earnings_ts": 1804771800,
    "market_time": 1795640402,
    "market_date": "2026-11-25",
-   "market_state": "POSTPOST",
-   "score": 42.3,
+   "market_state": "CLOSED",
+   "score": 51.0,
    "news": [
     {
-     "title": "Analog Devices Inc. stock outperforms competitors on strong trading day",
-     "source": "MarketWatch",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbnF0Z2EtcGxvWUVmMGo5alFpTVRIdU9wWXlfSExvRmttODd4bnBQQVBKZXlSbGdCN19uSmp1YldvSnF5YUdWamh0cnBleFRZbE41cXQxMVF0SEdvd1VaMkxPTFpBNExNRWhFU05zWGNwT0lfUHBRZ016NGJsU3cyOTAwSUx4Z3JrbnBxekNQUnNPWDNBakV0TC03NUNLOEVFREpjYWVFRVh2ZWlyRkdySkdxQTBjVjEwZk5MTC1IaG1jNTlNTmJ5c29n?oc=5",
-     "published": "2026-11-25T21:30:00+00:00"
+     "title": "Li Auto: Profitability Inflection A Catalyst In 2027 (Rating Upgrade)",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWXJzSFNTaTVuNEtocnpZU2NKWm0tb2VZVmxPa3ktQlFBWl9OdnZBRlJMRkRvekZlSHUtLWtCYk9uTHRvWklrVndXbFJJSHZ4M25wMnNDWUtiNHBJeWZlUWJaS3ZsaDBCSjRyWDlrSWVXVnZWU1BLUjJHV3NlcXJYcGZxRzBFRGhnbUhvcWJ1TXdxdVkyaHFWd0ctcU9EaWUzTTMtby1yT0liYU1H?oc=5",
+     "published": "2026-11-27T02:50:29+00:00"
     },
     {
-     "title": "Analog Devices Price, ADIC Price, Live Charts, and Marketcap - Coinbase Brazil",
-     "source": "Coinbase",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ2lKWUN2aXphNHFuUDVCcnhWMWpFTmNuOUZvaDRTYWtnR0NPM19sZmlOZWlpN1MxZHJFaUltM1JOM3RSaFRTdG1aWmRhdEVEdEQxNVZGWThaOUhGWEtfdlIyZFFDZGhJZE5RdW90RmZ6RThSVlpsUXY1cHhJSnoxWlVfT21pcHRuYXZpcERDM21OU1BIdi11VHhqU3hGbHQ1YWRTUEhn?oc=5",
-     "published": "2026-11-26T00:25:26+00:00"
+     "title": "Li Auto Officially Announces 2-Year New Model Facelift Cycle – Is China’s Auto Industry Facelift Boom Coming to an End?",
+     "source": "eu.36kr.com",
+     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wRGhBOGZNYno4N01KV2NwSHFqYUk1VzFKSXNIWERNcVYzNGFhTDlkSnQyS2JsVFRsVHRBT2xPTU9wbXhpeUtUWGZGWFFOVlJFMXlJ?oc=5",
+     "published": "2026-11-27T03:01:02+00:00"
     },
     {
-     "title": "Analog Devices Q4 FY 2026: Optical Demand Drives Data Center Growth",
-     "source": "The Futurum Group",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdXh3dWRUN08xV0RfUGk1eGl5RnJxYnl1bnQtZ0tBRUNXVWR4OWZnZkozalYydUVKV1FZMndiNHZySUV2Z2tYRTZ6blFNd2RhNkluMjlwa3JQTHdBNGh1SS1KdTR0WVN1cmZpN1JJc3VWU1lRb3h1NEc0ZjhVc3p5d2JIRWUwNE1BcVBtYXhMTERTYVRfd2VhS0VXZEU5bzJTVXlV?oc=5",
-     "published": "2026-11-25T22:47:47+00:00"
+     "title": "Li Auto jumps 11% after its profit per car recovers and cash flow turns positive",
+     "source": "Quantisnow",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcnNFU0s5OHhwbGxBdTJOVnc1WXFNRHlZSmdOaElFb0hOTW1PWDBMdW5FbGZtUzZ2ZmhYc0czMTFKSThiVDFXcmJ4dWM5bUdXMjNVMTBFbmowTmlNcUNtUDVsNDdycWZMMXhjaE9mc3FUakhGYW53WTdwaWctMW5jRjhoMWdxZ0E3a1NtRXhNaUxTaW5jM0pUMWR1RExQRml6VkZRRjNR?oc=5",
+     "published": "2026-11-27T00:38:00+00:00"
     },
     {
-     "title": "Analog Devices Inc Stock (ADI) Moved Up by 4.40% on Nov 25: Facts Behind the Movement",
-     "source": "TradingKey",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMHg2LVA3WTFSTm9NaFRvLUNRaTY1OFR6V2Y4QXplS1dGWFFPTktSbXZQY21KVGcwcXFNODVzTUJQbWxmNnBOUzM2RlJ6VmZ2TFhhQ3NpeDF1OWZYUS1HNUM5LW5TSGRVWG1FdzU4dnA2d2Zod19ONDd1eGFtUDlxWUtRZ1NvNTBxVlE?oc=5",
-     "published": "2026-11-25T19:15:29+00:00"
+     "title": "Li Auto Inc. (LI) Stock Forecasts",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOLTVRMm9qRXNaV09MNXVZZjEtUVRqd1dXbXNfMjZxZm1CczY5WHBDWEpfd256TF9nYzM3VUNRWGNjMXVhZjNwRUFISGI2bDZLSFV1Q1l6a2xqUldCR0NjTkowa1psR0RtRzFFaGlfeWVPRm53Qm40ZGlEMVdSZzctMlFYSldWMm1hdktidERB?oc=5",
+     "published": "2026-11-26T23:26:15+00:00"
     },
     {
-     "title": "Texas Instruments faces sector-driven volatility after Analog Devices outlook: Can TXN sustain gains?",
-     "source": "Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUTI0UWVsbU9yM2hQN3REVEd2V2FLY0FfVXYxREtNWFZJdnE5aEhEYld5cEVSV25icURmQW9KdUZhYUtJaDEyb19MeWR6ZjhieWNEM0VSN1ROVWJYeHpFaHZQdHRDYkhpNU1SdXlfVmhxb3NBUFljTDBVSGJXU2p6UHJodEQ3VVZJUHhpRU1mVnlqZkE?oc=5",
-     "published": "2026-11-25T19:02:31+00:00"
+     "title": "Li Auto (LI) Stock: A Hidden Value Trap? Unpacking the Risks and Rewards",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbW1vbDRnTlhqQXgtSk9WTW9MQmFNV0RfejQ3NDlLdkNCX2J4U2FiQXBKeFA3Y2lseURPMTZ3Rnd5U0NZMkgtcjRBbDF2SndjWlE3NXg0YVZDOTVab2dkYjExSmdoNndnZk9UOHZFUmp6VnlOSk5XZTZhQ29veFEtVVUxUWYwenZEakRsQ25IZzFNSkxRLU9iQzRLb0JUNWI1eENvaFllTjRRNXM?oc=5",
+     "published": "2026-11-26T16:01:55+00:00"
     },
     {
-     "title": "Analog Devices Just Plunged After Earnings. Is Its Dividend Now a Bargain?",
-     "source": "24/7 Wall St.",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-just-plunged-earnings-184751144.html",
-     "published": "2026-11-25T18:47:51+00:00"
+     "title": "Li Auto’s Q3 Revenue Reaches 28.83 Billion Yuan, Free Cash Flow Turns Positive",
+     "source": "Gasgoo",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOV9Qc1RUdU52dTdROEdRY0xrdU5uZHhwbnlIX25tWkFVWVpTYWpvWFhkQkpZbXlfVTdJUFc3Q1FPSFBHMFBDTXo5YzhQMzREaTBVX2k0ZlZkM1l3ZkNsN3FlNDRxOUNjQlFwbEFDZ1FvVVowRmxEcDdONFI3dTR0Ri1OSmdQeWgtZldjenNEZEE5cjFkYjZCSmRpbWFXRjR0aU9mM2ZmQUJ3MkhfeUdJNlF3bXBCaWhidVYzTXJxaTBuSU5DTGZZQTQyNXVHcWpi?oc=5",
+     "published": "2026-11-26T13:04:52+00:00"
     },
     {
-     "title": "Analog Devices Analyst Cuts Forecast on Sector Valuation Reset",
-     "source": "Benzinga",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ0NvOVZPSWtqR2tnSzc3T0tjVUIxN0syZTZCZTJuWDZHN2xsZmhBZHZQZzVZb01rWVhVS2FvUnl6bHFMVG5wcDQ1c1FEUzZRYy0yM2xKY3dXVkdaVjlobWxWSC1jT1Q1dy1CWFdOb1F4NWg4dWdrVmZtc3p6YzlkNG11ZndnVDd6dVVqVGxUOHZrdXdHMnFrQnZOdkhRTGR0NUFsc3NKSFExV2hjclVoRTZDbmdKZw?oc=5",
-     "published": "2026-11-25T18:00:35+00:00"
+     "title": "Li Auto slows to two-year model cycles after six launches in under six months",
+     "source": "GlobalChinaEV",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMWVSeEk4dmNqOW1EMVVDM2tVcEhUb3c0OTg3czdTMVVycDJ0Zm5fbHFKVXNyMXJZdkY4OC1QX293aDZPemhXQTh2MllPOTQ1R0NxR3dPTGxwQWtXQ1FEdmtJSHZaQ3NidkF1bV9LeHlhNWlVS0VJNGl4QzI0NHp3ZHk0Ym5ZQU5kYTVXdUxIa0hpOVRVVHNTOFRlS0toNHhZc09kZ0k0amUwZF9YS3JSYzVR?oc=5",
+     "published": "2026-11-26T12:40:48+00:00"
     },
     {
-     "title": "TD Cowen maintains Analog Devices at Buy, lowers price target to $375 from $475",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQ3FYZ0ZZZkVEOUNnMTJJTTQ3bGplRWFta1pEaC1RNEdFTXhlZWd3MmEyLU40Mm9hN2puaDJiWDVWUllJZ1JCNjNfcW9iRVEwQ2hnOWRNRUk0ZFFrNWhtQ3lNRkp1QlhISkxxTm5XWHBlanQ5X1gzMV9tYlJ6XzRJYmh5emFnMThwQTN0LXZQWkhiNkY1UFJTTW5heEp0cTlwTU8xQnE3bVpYbnhKWDRVOGVPR3RWRHNlXzYxejM5Q1NJZVItTklSVzRtdklHbTFvQjlwcQ?oc=5",
-     "published": "2026-11-25T17:56:54+00:00"
+     "title": "Hong Kong Stocks Shake Off Losing Streak as Hang Seng Rises 1.19% to Reclaim 22,226 Points; Li Auto Leads Blue Chips After Earnings",
+     "source": "BigGo Finance",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIWnh6Y1RZeGZzdmRiVVFPdURtRDJ3UHA1YVlrcXJKVnZJRU50elRkVU01eVhGSVd2bHNhaW9XaklTMHVCbTJDdHphQTBUSGU4X3luVGJPUVh0M3Rza0VHWUduWjNET21VSndCWDlRWF9wTEtsdXc?oc=5",
+     "published": "2026-11-26T10:35:00+00:00"
     }
    ],
    "catalyst": {
@@ -494,9 +379,121 @@
    },
    "earnings_event": null,
    "score_parts": {
-    "move": 0.4,
-    "rvol": 3.9,
+    "move": 5.0,
+    "rvol": 12.9,
     "catalyst": 18.0,
+    "close": 9.8,
+    "size": 5.3
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -75.09,
+    "ath": 47.7,
+    "ath_date": "2020-11-24",
+    "prior_ath": 47.7,
+    "listed_since": "2020-07-30",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 2,
+    "max": 9,
+    "piotroski": "2/9"
+   }
+  },
+  {
+   "symbol": "ADI",
+   "name": "Analog Devices, Inc.",
+   "exchange": "NasdaqGS",
+   "price": 333.11,
+   "day_high": 333.22,
+   "prev_close": 312.95,
+   "change_pct": 6.44,
+   "gap_pct": -3.36,
+   "close_strength": 1.0,
+   "volume": 8602252,
+   "avg_volume": 4244210,
+   "rvol": 2.03,
+   "dollar_volume": 2865453152,
+   "market_cap": 160781926400,
+   "pe": 32.62537,
+   "pct_from_52w_high": -25.3,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1802871000,
+   "market_time": 1795640402,
+   "market_date": "2026-11-25",
+   "market_state": "CLOSED",
+   "score": 49.4,
+   "news": [
+    {
+     "title": "Analog Devices keeps UBS target despite softer earnings guidance",
+     "source": "Proactive financial news",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUjQ4LXgxeVZLbEtWWTZlZlBiZVBmWjdWemFvOEtDNWNPTnJBVVpjb254UzFySk04TUJIei1zX2JzNVJzYk5UM25yX2hqcm5kN2FTZTI2WnFwYmEyTlBEY1ZJS0FWY3p0WmdEMkdremo1MEVHc3BNTGNYTk1QSnUxYjctNmlENmhFQlV4azZya2lkTGw1bjY2bU1TbnhQT1ZWbmgwcTZFVmxZYUdIWGl1bVZGcFNZX2xsR3UxUHl2cmtIbUJmX01BWVc5Ty02QUhJ?oc=5",
+     "published": "2026-11-26T19:00:00+00:00"
+    },
+    {
+     "title": "Analog Devices Q426 Earnings Review. Not Just Another AI Growth Story",
+     "source": "Smartkarma",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOVBKZ1lTbUFBRVptcjdlR21RMDl0RHVRUDZzLWFSMElZN1RWejl1T3NHSmhYUmRYc2ZrRHR0aVR4WEhfNnBzRVhiZVlKMWlnTjJmZEpDRGZHTEV2VVBfdi0xalRyX2JlZENXUEs0WUZ4QlNwZVdqN0RHeExRbDh3V0RxdjY1b3VxS3ZoYzRkaVhOaGlkY0VTM1QybEN1ZlBfWmEwaUpoTHZkYlZNdDNOOWFWUV9xc2hSU3JCemJUY3ZudXFxOWRkbjR0MllFNkVT?oc=5",
+     "published": "2026-11-26T04:56:53+00:00"
+    },
+    {
+     "title": "Analog Devices Q4 FY 2026: Optical Demand Drives Data Center Growth",
+     "source": "The Futurum Group",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdXh3dWRUN08xV0RfUGk1eGl5RnJxYnl1bnQtZ0tBRUNXVWR4OWZnZkozalYydUVKV1FZMndiNHZySUV2Z2tYRTZ6blFNd2RhNkluMjlwa3JQTHdBNGh1SS1KdTR0WVN1cmZpN1JJc3VWU1lRb3h1NEc0ZjhVc3p5d2JIRWUwNE1BcVBtYXhMTERTYVRfd2VhS0VXZEU5bzJTVXlV?oc=5",
+     "published": "2026-11-25T22:47:47+00:00"
+    },
+    {
+     "title": "Analog Devices (ADI) Shares Fell 17% In Their Steepest Drop Since 1998",
+     "source": "Simply Wall St",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSlJ6c3JIRTVzLWdqTjMycDlDTEhpbU9qTF9obDJKeHYzMVh3Q3JUYTltbUwxVHAyVnRNek00S1FxZ0lYOEtsS0ZJVXU5ZmY0MEJpc0FvV3JwMzBCRkZSWC1IMDdaQ2ZQRUNHQUhIcFdROENueE84dl9aNlhrRS1BYmxzUzJiWWhkSWhsUXd0bVVtdnhHdTdyMDU0cF9HeEY2TkJKS2RPdTVoNGJQRTBpYXdwY1BGc2FRWGt5OTJ2clktZzNBYk44YmFLUjNBV0tpZzlkRtIB2gFBVV95cUxPZGJNVTdCN2pGWmFfc1o2TFNfaUVzemRwR1Y1OV9ReFJUVXRoT2FaMWRqaHRFMXFzWjlrbXFfU21WbXQtM0JyUXE2cS14dEQ5TGpxLUN6d0xVbjl1ZU5nblVoSHRPcExabUhxMjdCSlFPSlo4NkVTbmNoN1pDemNCOWRmcUM4SW9samNYZEk0cHgxakUwUWFfN1A1SElsd1FETG51ZzNOQ1RDZFRwNnpDcWdwOExxTGt5UzNiZUN4bkdkZTNoMHNMVVJScDltLU9VWjk1UGFWZDd0dw?oc=5",
+     "published": "2026-11-27T03:17:47+00:00"
+    },
+    {
+     "title": "Analog Devices drops 17% after a record quarter and a flat outlook",
+     "source": "Quantisnow",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb0RBWExna0V2YnhPT2V6MnlGa1NlUy10ZTIwWTNlYTZNVkRZM3RaN1JwWHVNQ2JCNllqQTJ4YmFsQTNsQi11V1hoN3U3STA1V1dPeDRVWUFjMTJtR2M3MWZvQl93VG1XT2lTSFEwVzgxeE9CQzI5UkhLRDdvLS1ubEF3R2ZqbzdSYmtJTVhiUUJFVGM3a0xBZ2cwTzlPODFQNGpORU1aWlA3WEk3RWtOdkpn?oc=5",
+     "published": "2026-11-26T22:08:31+00:00"
+    },
+    {
+     "title": "Analog Devices: More Than An AI Play As Secular Megatrends Drive Growth",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQTNWUjl0Qi1kdHpBZlJxUTl0TDlEaFl0UUhWdE5Cb2QxLW00dEhfSzlzQXNuZTF5NldtdHh6MzU2Y2hwN18yYUNzNDJxWndkYWxXRWp6ZVZET1lfcGZtTTZ2N3BtX21ZRWJIQUxwYktjbHp0b3JCMnVNckxZYktncV9neU5yMWRDbVRCWENlVUZDYnlFaGpOdFpxTGRPRWRDTzQweEtPdkVmOE5sNzNOYw?oc=5",
+     "published": "2026-11-26T09:13:46+00:00"
+    },
+    {
+     "title": "Analog Devices Price, ADIC Price, Live Charts, and Marketcap - Coinbase Brazil",
+     "source": "Coinbase",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ2lKWUN2aXphNHFuUDVCcnhWMWpFTmNuOUZvaDRTYWtnR0NPM19sZmlOZWlpN1MxZHJFaUltM1JOM3RSaFRTdG1aWmRhdEVEdEQxNVZGWThaOUhGWEtfdlIyZFFDZGhJZE5RdW90RmZ6RThSVlpsUXY1cHhJSnoxWlVfT21pcHRuYXZpcERDM21OU1BIdi11VHhqU3hGbHQ1YWRTUEhn?oc=5",
+     "published": "2026-11-26T00:25:26+00:00"
+    },
+    {
+     "title": "Analog Devices Inc. stock outperforms competitors on strong trading day",
+     "source": "MarketWatch",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbnF0Z2EtcGxvWUVmMGo5alFpTVRIdU9wWXlfSExvRmttODd4bnBQQVBKZXlSbGdCN19uSmp1YldvSnF5YUdWamh0cnBleFRZbE41cXQxMVF0SEdvd1VaMkxPTFpBNExNRWhFU05zWGNwT0lfUHBRZ016NGJsU3cyOTAwSUx4Z3JrbnBxekNQUnNPWDNBakV0TC03NUNLOEVFREpjYWVFRVh2ZWlyRkdySkdxQTBjVjEwZk5MTC1IaG1jNTlNTmJ5c29n?oc=5",
+     "published": "2026-11-25T21:30:00+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "earnings",
+    "label": "Resultados trimestrales",
+    "quality": 0.85,
+    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
+    "confidence": 0.21
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 0.4,
+    "rvol": 3.5,
+    "catalyst": 25.5,
     "close": 10.0,
     "size": 10.0
    },
@@ -524,100 +521,6 @@
    }
   },
   {
-   "symbol": "COMP",
-   "name": "Compass, Inc.",
-   "exchange": "NYSE",
-   "price": 10.61,
-   "day_high": 10.82,
-   "prev_close": 9.85,
-   "change_pct": 7.72,
-   "gap_pct": 0.71,
-   "close_strength": 0.84,
-   "volume": 23071985,
-   "avg_volume": 14750221,
-   "rvol": 1.56,
-   "dollar_volume": 244793761,
-   "market_cap": 8136646656,
-   "pe": 70.73333,
-   "pct_from_52w_high": -23.97,
-   "above_sma50": true,
-   "above_sma200": true,
-   "earnings_ts": 1793912400,
-   "market_time": 1795640402,
-   "market_date": "2026-11-25",
-   "market_state": "POSTPOST",
-   "score": 40.6,
-   "news": [
-    {
-     "title": "Compass Minerals International Q4 Earnings Call Highlights",
-     "source": "MarketBeat",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/compass-minerals-international-q4-earnings-171604650.html",
-     "published": "2026-11-24T17:16:04+00:00"
-    },
-    {
-     "title": "Compass Group Q4 Earnings Call Highlights",
-     "source": "MarketBeat",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/compass-group-q4-earnings-call-121346921.html",
-     "published": "2026-11-24T12:13:46+00:00"
-    },
-    {
-     "title": "Compass Minerals (CMP) Reports Q4 Loss, Beats Revenue Estimates",
-     "source": "Zacks",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/compass-minerals-cmp-reports-q4-213501311.html",
-     "published": "2026-11-23T21:35:01+00:00"
-    },
-    {
-     "title": "Compass (COMP) Stock Is Up 9.3% Today as Real Estate Stocks Rally",
-     "source": "GuruFocus.com",
-     "link": "https://finance.yahoo.com/real-estate/articles/compass-comp-stock-9-3-193017952.html",
-     "published": "2026-11-25T19:30:17+00:00"
-    },
-    {
-     "title": "Compass Group reports 12% profit growth as it weighs U.S. listing; shares gain",
-     "source": "Investing.com",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/compass-group-weighs-u-primary-081045171.html",
-     "published": "2026-11-24T08:10:45+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "earnings",
-    "label": "Resultados trimestrales",
-    "quality": 0.85,
-    "note": "Mira si además mejoran previsiones: es lo que sostiene la subida.",
-    "confidence": 0.24
-   },
-   "earnings_event": null,
-   "score_parts": {
-    "move": 1.7,
-    "rvol": 0.4,
-    "catalyst": 25.5,
-    "close": 8.4,
-    "size": 4.6
-   },
-   "appearance": {
-    "count": 1,
-    "previous": [],
-    "window": 10
-   },
-   "ath": {
-    "status": "rebound",
-    "suspect": false,
-    "basis": "splits",
-    "pct_from_ath": -52.01,
-    "ath": 22.11,
-    "ath_date": "2021-04-01",
-    "prior_ath": 22.11,
-    "listed_since": "2021-04-01",
-    "short_history": false
-   },
-   "quality": {
-    "grade": "C",
-    "points": 3,
-    "max": 9,
-    "piotroski": "5/9"
-   }
-  },
-  {
    "symbol": "COGT",
    "name": "Cogent Biosciences, Inc.",
    "exchange": "NasdaqGS",
@@ -628,8 +531,8 @@
    "gap_pct": 1.21,
    "close_strength": 0.92,
    "volume": 6127264,
-   "avg_volume": 2168885,
-   "rvol": 2.83,
+   "avg_volume": 2248051,
+   "rvol": 2.73,
    "dollar_volume": 221071685,
    "market_cap": 6277720064,
    "pe": null,
@@ -639,9 +542,15 @@
    "earnings_ts": 1802811600,
    "market_time": 1795640402,
    "market_date": "2026-11-25",
-   "market_state": "POSTPOST",
-   "score": 40.4,
+   "market_state": "CLOSED",
+   "score": 39.7,
    "news": [
+    {
+     "title": "Cogent Biosciences Wins FDA Approval for First Drug, Plans $49,000-a-Month Launch",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUS1HNG0xU3dfcVNBUWhybnIyZTRrQmFPcElXeUdjblJiYTFJVkhFWjhkTjlXSnpqQzg3Mjc4NEJvcDVtenVSTmF0ZGJHa0E4amF3ZUFUbXdka3VXQ0NhaWt6ZUhmek9FQ3lsLWZ3TnRBYkxGeVBFOGRHMjhVN05NSmEwN19KaE1DNWtCUlNGTFZKSEJIZ2lYRF9reVFjdw?oc=5",
+     "published": "2026-11-26T23:12:05+00:00"
+    },
     {
      "title": "FDA Approval for EKITNA issued to COGENT BIOSCIENCES INC",
      "source": "Quantisnow",
@@ -661,16 +570,10 @@
      "published": "2026-11-25T20:32:00+00:00"
     },
     {
-     "title": "Cogent Biosciences gains FDA approval for Ekitna combo in GIST",
-     "source": "Pharmaceutical Technology",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPenptQVp1YU5iZllSaW4yNktzZU4xWmx2Y1dhMHZhWkRBTXRvaV9rUEJsYzdTOTBOVlFPWFVrMDJzbHl5SmNvV3ZqTFVFakROTUJuQ2h6bW9WWFV6VzdsZUxWQnR5YmZ2ODdwUzlKX01sREh3UmF2dk4tVFpwRlVIMkt5WnVrWXN6d2NJcnEyN1F2Zw?oc=5",
-     "published": "2026-11-25T12:51:36+00:00"
-    },
-    {
-     "title": "Can a USD 41 Billion Sanofi Deal for Insmed (NASDAQ:INSM) Outshine the Launches at BridgeBio (NASDAQ:BBIO), Cogent Biosciences (NASDAQ:COGT) and Viridian Therapeutics (NASDAQ:VRDN)?",
-     "source": "kalkine.com",
-     "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOVVBiR09NTkREdzZPRUVES1ZtS2g5TVFKSXhjN0VOZEFiMHVJS3gzSFNsZGZWaTQ3MndiSENoTVNYeW5UNXZHU2toWmM3c2dxVEVCZzFWN2RrU21zZ2JFTmhkTEFQUjJrd04wUVFaUG5VX25UdW1XM2tWdEd3S0tkZDBLUEdDZHV1MnNub2lDY09aTmtEY2llbWpNangzOGFDQlgwblRJYmtJc0syaHctVVVKWngzUEJSWW1SNDU0al80WW90Y1d4YUZLVnpPTnVSVjlGTlJVSkdIdWtyd0xyS3hpNkI1VnpiOFNfRGg3Q3pfbE5RQk1XNWZUSVFLdkNqRlBTeU9RMjBsUVE5UFFfYVE5UFFra0J4MjJwYjRER3g5RWVreUtMZQ?oc=5",
-     "published": "2026-11-25T20:43:00+00:00"
+     "title": "Cogent Biosciences (COGT) Soars Again. What’s Driving Investor Interest?",
+     "source": "Insider Monkey",
+     "link": "https://finance.yahoo.com/healthcare/articles/cogent-biosciences-cogt-soars-again-041606716.html",
+     "published": "2026-11-26T04:16:06+00:00"
     },
     {
      "title": "Why is Cogent Biosciences stock soaring today",
@@ -701,7 +604,7 @@
    "earnings_event": null,
    "score_parts": {
     "move": 3.3,
-    "rvol": 8.9,
+    "rvol": 8.2,
     "catalyst": 15.0,
     "close": 9.2,
     "size": 4.0
@@ -732,230 +635,6 @@
    }
   },
   {
-   "symbol": "AXON",
-   "name": "Axon Enterprise, Inc.",
-   "exchange": "NasdaqGS",
-   "price": 343.05,
-   "day_high": 347.0,
-   "prev_close": 319.32,
-   "change_pct": 7.43,
-   "gap_pct": -2.61,
-   "close_strength": 0.91,
-   "volume": 2022901,
-   "avg_volume": 1257623,
-   "rvol": 1.61,
-   "dollar_volume": 693956188,
-   "market_cap": 27935490048,
-   "pe": 110.305466,
-   "pct_from_52w_high": -48.42,
-   "above_sma50": false,
-   "above_sma200": false,
-   "earnings_ts": 1793912400,
-   "market_time": 1795640401,
-   "market_date": "2026-11-25",
-   "market_state": "POSTPOST",
-   "score": 36.4,
-   "news": [
-    {
-     "title": "Axon Enterprise Inc. stock outperforms competitors on strong trading day",
-     "source": "MarketWatch",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVW16dUp4TjU4SUJsSUR2WTF5NTJ2T3puaXJiejZhY0NpVFFqZW1yU28xX1hQQ2pLVXdUdTYycmNSYVVPS29yNFNmZUtxMnVPNU9VakdWU0JYZEp5YUNpelQ0SUR1czAyVzFzUUJHSXh5S1Z0cmppUlJVXzgySU5yU1JIT3NlRTFVLTRLcTgydkVCWkNmOEFRNTVPUEtLNHMzV01oeS1oaU5tLWZoTE1Kc1VVcnhlMndVLUhLSVpCQXRxVTVhNE5wbFllMA?oc=5",
-     "published": "2026-11-25T21:30:00+00:00"
-    },
-    {
-     "title": "Axon Enterprise (AXON) Director Caitlin Kalinowski Resigns; Boar",
-     "source": "GuruFocus",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON2lOOFhudWRjYzFQTnNCeXJpU1pGeEZMNFpGOTVmeUJwWS1uQktUUjl4QmdhZEtqUGozRnpZY014VjZFcS1qOV9RQ0VITjFTM2JpZDM4VVBkaEpuTHBjVjJwa1NXeDBhekNTN0Q4MUNkbjFFaGVoMldMaENKWFhBRkRoRW8yLXVMdk9vZXlLMmxnWkFGQnpWUkdWWUkyVENJZEtiQTVmbFZQU25abjVGY0ltenpYT1NfbVUyZ0F3?oc=5",
-     "published": "2026-11-26T00:35:06+00:00"
-    },
-    {
-     "title": "Axon Enterprise Price, AXONC Price, Live Charts, and Marketcap - Coinbase Brazil",
-     "source": "Coinbase",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR0tGX2h4MlVlRzFzX0YySU1HRU5xbmdneTJPeTdSUEdSdGRUWk5feVNhdFk5S1VQVU5BMXBWOXFBRU5ZQ0dXWlVKZlVSYlRJUlRneGk1OGtKaERJNDRRMFNPenNyRml0WGlScThBTXFHWmNnaWw2UG9YZzFZV2VuV1ZXdlNRcnFsOUVvVENiLTVPdnkyQ0g0eWlhY3BlZGl1aDZkbllyRQ?oc=5",
-     "published": "2026-11-26T00:25:26+00:00"
-    },
-    {
-     "title": "Axon Enterprise (AXON) Stock: A Hidden Value Trap? Unpacking the Risks and Rewards",
-     "source": "GuruFocus",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLUFLMk9HS083UmdGME9CNWZUaUhaN25FVjFrTXFYemNnenNKWTBLZ0hSSTZZOFN0Zm1WcEUyLWZidDUwcTBhbmJ6OFJmT0VOcTlySkJab2lDSVJuSVdKYUxWTHlCOXhwblQzLWJOdVdRNkp5cHBTdDN3czUxUXhnU05MNVZNTS12YmEtbG9NTFZPWnRvSUdCaWxkZVZiV2pRNUxxUG01c19vQmt5UlVOTEdsRnBFSkFr?oc=5",
-     "published": "2026-11-25T23:36:42+00:00"
-    },
-    {
-     "title": "Axon Enterprise Board Reduces Size Following Director Resignation",
-     "source": "TipRanks",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPb3ZycnlWTTJwSVdVR1l3M3Z4Ql9WTWsxVW1qM21IRjNDaTFBclpOQjZVZ19HZjU2WXFUcm9vNzF2cVN5MzRLN2FORnZUMnJJd0NocGFRdGhLWktKWHZ0Q0Z5N0MyTTMwODVaVHJVZ3lORm1yOUUzaGxma0FiN1BsYjV3Tm9tWDkwUFdleWM0VHFvLTd6b0dpUk9YMldjRVdXWkZCU0J5ZjljMEFfTHRWX0FSNGdKbnVN?oc=5",
-     "published": "2026-11-25T21:28:20+00:00"
-    },
-    {
-     "title": "AXON: Director Caitlin Kalinowski resigned from Axon's board...",
-     "source": "Quantisnow",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORGt2blVBbEtWcE9DMU4ybE41cEUtdE9HSEZMbmRKejRYc3dXMktzOTVZRldOZldVeHdHNUVJVDRMaVl2NEZ1bmpBa0dycVJQMzFPYVZ5TllaN09MZGstN3I4RmxmTkVhZWpOTGtQclBpbGpWWmMxYjJsNEFHR3NjZXVURG1TU0VCZjJma3ptU3FtWGxWVlFsUWR5VGItblVR?oc=5",
-     "published": "2026-11-25T21:16:27+00:00"
-    },
-    {
-     "title": "Axon Enterprise Inc Stock (AXON) Closed Up by 7.43% on Nov 25: Facts Behind the Movement",
-     "source": "TradingKey",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY2NxQjlZcWlsMk1IaHdYQkR0WVVibFNHSmNGMUQ4c1g5M0k4Z05wcV9DcnYxY0JNMkVzbVdEZ1V2ZU1PSUJXRE9NWXo3UTNVYjdiQkJ1bGp3cnJxR1lVVldkVV9PbXlYWGdkc3V1Z0xfWFVCOWRnazByQy1WT2JEWnVPZEk0LVFtWnVj?oc=5",
-     "published": "2026-11-25T21:15:29+00:00"
-    },
-    {
-     "title": "Axon Enterprise (NASDAQ:AXON) Stock Jumps 5.7% - Here's Why",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeFU3S1VoaHBtNTFMUlpFcGhjLXNGVHlFZkw0SEwyTlpIdVJvZVhvWFU4RTNnb3hQZlVoSWZJVk8yeHE5RElHeU55d2NsUHJrTEoyZXpBWnBrRnVPR1NnYXVYVm0tSWNzNkpXRTZCWjR6UE1hM3pDUW9FbEMzUUpQUERFQTFuWk8zZWxPM1ZvNjBfZXFLWGtsZElWZzVINFhnaDU2cVhJczhiYTZUY0FmOUR3?oc=5",
-     "published": "2026-11-25T20:04:17+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "analyst",
-    "label": "Mejora de analista",
-    "quality": 0.6,
-    "note": "Impulso moderado; suele diluirse si no hay más noticias.",
-    "confidence": 0.2
-   },
-   "earnings_event": null,
-   "score_parts": {
-    "move": 1.4,
-    "rvol": 0.7,
-    "catalyst": 18.0,
-    "close": 9.1,
-    "size": 7.2
-   },
-   "appearance": {
-    "count": 1,
-    "previous": [],
-    "window": 10
-   },
-   "ath": {
-    "status": "rebound",
-    "suspect": false,
-    "basis": "splits",
-    "pct_from_ath": -61.28,
-    "ath": 885.92,
-    "ath_date": "2025-08-05",
-    "prior_ath": 885.92,
-    "listed_since": "2001-06-19",
-    "short_history": false
-   },
-   "quality": {
-    "grade": "C",
-    "points": 3,
-    "max": 8,
-    "piotroski": "4/8"
-   }
-  },
-  {
-   "symbol": "RKT",
-   "name": "Rocket Companies, Inc.",
-   "exchange": "NYSE",
-   "price": 15.3,
-   "day_high": 15.4,
-   "prev_close": 14.25,
-   "change_pct": 7.37,
-   "gap_pct": 1.75,
-   "close_strength": 0.92,
-   "volume": 59541943,
-   "avg_volume": 35529929,
-   "rvol": 1.68,
-   "dollar_volume": 910991728,
-   "market_cap": 43419815936,
-   "pe": null,
-   "pct_from_52w_high": -37.19,
-   "above_sma50": true,
-   "above_sma200": true,
-   "earnings_ts": 1803330000,
-   "market_time": 1795640402,
-   "market_date": "2026-11-25",
-   "market_state": "POSTPOST",
-   "score": 23.0,
-   "news": [
-    {
-     "title": "Rocket Companies Inc (RKT) Shares Surge 7.4% -- What GF Score of 67 Tells Investors",
-     "source": "GuruFocus",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS21hd2pERnFGVGVBamZWVkdMWEVWaVVtSGRqaEg2em5WdW9xNmhXQUJydzVxem11c0IzSWRsOWd0SHZKQ1BpcVFZb2JfcWkyREVtSllPWnVFOEg0ZXhzOHdYMkVpWUlWb1hRQnFzZF8yemt4NGFEQXh2NUQ3dWFRVnBkSFlyZ2c5SmZLc1pQNnNLcVRQY2hoVzQxWXQyUERoOEFPYVlKQWVpSVRSMG9UVG83SWhSQQ?oc=5",
-     "published": "2026-11-25T22:28:13+00:00"
-    },
-    {
-     "title": "Rocket Companies (NYSE:RKT) Stock Sees Elevated Volume: A Look at Third Quarter Results, Mortgage Volume and Fourth Quarter Outlook",
-     "source": "kalkine.com",
-     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNdmh4UWNZd0k3LWdhTUFQVGRCQVQzdHNoYWVES19STW9vMlRXaDNZRXQwVnVUd0RteWlEYU5ZRHdsQUxjYy1uT0Z4S0FiY3hsODVTbzdKUV9OOHN1bGhnVHlNdVhNZlZld0MyQlZBYkxaeGFLV2QwT2dzMVl5WFZDQWlQQXdzZV81NTZuSDI3NU5WRTdxV1Z1Vi0xNFRaMWkwYnN1R2ZIWVhOaDNaT1V0R3VINlJMaVFWVzh0LTZCbW9fR0RTVjJxLVBTVDRobGVyOVhDWnp4NDBoWXptYWNRdnZpNDloOE41aVJyNDNGeXdRNmM?oc=5",
-     "published": "2026-11-25T20:40:00+00:00"
-    },
-    {
-     "title": "Rocket Companies (NYSE:RKT) Trades on Elevated Volume as Third Quarter Results, Surging Mortgage Volume and a Fourth Quarter Outlook Land",
-     "source": "kalkine.ca",
-     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOZjl5alBWcWw2TjF5WGtNTlE0RDEwX25maU5JMVg1aWZ0Ym5VMlpleE9Qal94OTRPNndxYzNJMVpKNi1TMzBiRTFHcU53UTdvbTIwTFRPMHFzY1Z0UE5LdnM4VTlmNUdyNERqUW9Va3dwNkVwcWhoZS1jYlZ6aVBjWV8wU1JGRVpQSVRmWmtPMVk3TlBqZnhkd1pEeFFFRWstMzhWb2dFS3p2Q1RFWVJtQXd1ZnJKc2hsYUM3aFQ5VS1PTldya3JRNWxjVDh3UlRkTWRrMWFBaG1CZkN2RFlXcmgwMU1iYjZ3azY3SXN5dk5uNHpQa2M4V2RuUQ?oc=5",
-     "published": "2026-11-25T20:36:00+00:00"
-    },
-    {
-     "title": "Rocket Companies Inc Stock (RKT) Moved Up by 7.58% on Nov 25: What Signal Does It Send?",
-     "source": "TradingKey",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaDRPV2RvNTVKTGFna1BUV3hMd3N0b1A3OHJ6WThxSFlJQTV4UlhzZjFYSjhHV20wbTllOHh4V0drQzhuSnZRcG9xODB4Y3ZuUlRaVi05LUttRUx1RVJQaGN5QjZwck43aVV2d1ZDMVVkeGNxSE5PMW8wMW9LYTJTMXQ4eUdYdnVGd3c?oc=5",
-     "published": "2026-11-25T20:15:22+00:00"
-    },
-    {
-     "title": "Stock Yards Bank, Arbor Realty Trust, Rocket Companies, and Banco Bradesco shares are soaring, what you need to know",
-     "source": "TradingView",
-     "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOTTBhRF9zVmFySTljMlY1SkQyVEVINFV2ZGc2YUFobWJBQU1wQmJxWXR2R1JKRnhHenZnbndzLVRWN3EzMXNmalhGVFJYWTlHVDJsYng1cXRPTGk0dGczVFZ3YnV2NDBDYWJPcTRvM1dWLVhMYmdWdXYxQlowTzZCY2JBek94V21FMkNBN1JaRmpKSHc1NEJyYTVhdzhybXRhaUx3OGRkckRnZ3RxRWVTbkt1VzJzclJYelp2NS1mQXhtb2VncHVLTXpkZTZ4b3p6SnZWSlp6aXhOSTBaQkhockRualJTcG9IaldsQmVGeEd6YmJMZ0xWdllKTzc5d1ozZWtj?oc=5",
-     "published": "2026-11-25T19:50:43+00:00"
-    },
-    {
-     "title": "Reckitt (LSE:RKT) Stock May Be 32% Undervalued On Defensive Buying",
-     "source": "Simply Wall St",
-     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSGN4aDVvSVItalQwT1Yyc01qdWRoWmRJQ1JTRTlicnRDbzIxR3paNjU0ZTFzemI3bk9yODhKM3JxeGtUbkdNcjY3QnAzM1pkRERYbk9vc2phMVRmVXVoSnJmb21QLTM2TUVwZDgzUUpsOHdma1N1eGwyOFBmbklaZkNKVW13eHJSWFBfYi1tZlZhSkZWUERjT1Y4aFJ5ZEdSWnhVYVFsQVRSWUpVOGNva1VEeEhGazhhOHRiTnA5NU00dngtZnBPZUVmUllGam9jdzkyMldjVVE4X2xkMk530gHkAUFVX3lxTE11NDJmZ0U3bGN1RTUwcUhNcmJySlNRV0hEclV2TUk3VWpkN001b0l4c2Y2MmdNcExiUUYwdDExWW92QTl5bFozd0lRRnREZHdKTWxqM0dGZ0ZmMlR0VTBwNnVNQ2syZFQzUUV1czB6M08wdnJSWUtXZ1Q3R0xGWFg1R25ReXVTMFZpd0lXSXBZTUtQR2NXODVvZU8zeVlIRG5BTDdYZjhRMVAxQy1GN0pQa3d3VXg3LUhKUXhTdTVjQ2x6WkFSR3VRMWJUM0dTSDllTW9HLW9zVXM4cEJ3UXE3bTY5Rw?oc=5",
-     "published": "2026-11-25T19:11:38+00:00"
-    },
-    {
-     "title": "Rocket Companies (NYSE:RKT) Share Price Crosses Above Two Hundred Day Moving Average - Should You Sell?",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPd2ZKQi1rYXB6Rk1Kbm55X0xMelpqZG4zX0tOR1ZTSjJMV05JMVV1QUQzQWp1dVdYQlFYQ0trV1Fpa0d6VW5RdERhZWtCY01paEtYTDFfV2xReWs1NWJObEZzR21yMG9xemprdVB4emNWTUlpa0ktRVJJbldPelBiNWt3dWhxclBjVXJYVHFkaFE3RmFKVGNMN2xSWWRVTE9JWmRmOURSTHpkUUgyNUVpTE9QN00wNzJKZ1JWUVRjcGxIUjVZdzhtQURFRHpHdEZKbkNKR09pREpXYjZKMWRQUFBEb3RYMWRGeDRrM204Yw?oc=5",
-     "published": "2026-11-25T07:23:30+00:00"
-    },
-    {
-     "title": "Rocket Companies, Inc. (RKT) stock price, news, quote and history",
-     "source": "Yahoo Finance Singapore",
-     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5hbDhaZmlORHZKLUVPMmFudDNyaVFDNTc1eGg3NVdvbXNOdlhxOGdYU0N2VWt3VktMQkstYkNkT3dNRzZOVkhIRlotOVRaYTNU?oc=5",
-     "published": "2026-11-25T00:41:04+00:00"
-    }
-   ],
-   "catalyst": {
-    "type": "none",
-    "label": "Sin noticia clara",
-    "quality": 0.1,
-    "note": "Precaución: subida sin catalizador identificable.",
-    "confidence": 0.0
-   },
-   "earnings_event": null,
-   "score_parts": {
-    "move": 1.4,
-    "rvol": 1.2,
-    "catalyst": 3.0,
-    "close": 9.2,
-    "size": 8.2
-   },
-   "appearance": {
-    "count": 1,
-    "previous": [],
-    "window": 10
-   },
-   "ath": {
-    "status": "rebound",
-    "suspect": false,
-    "basis": "splits",
-    "pct_from_ath": -64.42,
-    "ath": 43.0,
-    "ath_date": "2021-03-02",
-    "prior_ath": 43.0,
-    "listed_since": "2020-08-06",
-    "short_history": false
-   },
-   "quality": {
-    "grade": "C",
-    "points": 1,
-    "max": 7,
-    "piotroski": "0/7"
-   }
-  },
-  {
    "symbol": "ASTS",
    "name": "AST SpaceMobile, Inc.",
    "exchange": "NasdaqGS",
@@ -966,8 +645,8 @@
    "gap_pct": -3.9,
    "close_strength": 0.85,
    "volume": 26322800,
-   "avg_volume": 15256998,
-   "rvol": 1.73,
+   "avg_volume": 15558151,
+   "rvol": 1.69,
    "dollar_volume": 684919256,
    "market_cap": 10426942464,
    "pe": null,
@@ -977,70 +656,70 @@
    "earnings_ts": 1794258000,
    "market_time": 1795640402,
    "market_date": "2026-11-25",
-   "market_state": "POSTPOST",
-   "score": 22.3,
+   "market_state": "CLOSED",
+   "score": 37.1,
    "news": [
     {
-     "title": "AST SpaceMobile (NASDAQ: ASTS) Burns Through Cash At $1.9B Annual Rate While Racing To Launch Satellite Network",
-     "source": "Foreign Policy Journal",
-     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQbVhTYjJ3VHRRejgtdzFQcERxeUlpUVpLYWhrQlQ5V0U4MzRrNG1xbTA3eXlXU0NQaDRzNHY3TUNERzU0V0QxUnNWUU8zRTlOWVo5QjAzVmt5aXB4dm5iZWt6dlRuVkIzTG9aTjZqWmJla01ReVc2QlFER0Zjb1NPOUlLRjFBa3AyWVNqak95NlRRVXJSQks0cjlGaDNfcDk1UnF0SG54cXdqaXZSbWFaMWV3MUpHMlZGdVEtd0lvaE91UFl2RFhmX0Y3VVdqMmY2VGktOUlTMHpvbFU3WUhzM1N5UkpCQnVPRkZPQQ?oc=5",
-     "published": "2026-11-25T23:42:00+00:00"
-    },
-    {
-     "title": "AST SpaceMobile (NASDAQ:ASTS) Stock Price Up 10.3% - Here's What Happened",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdEVFYTZSUjQwYzVoNkRoOGxOZTRCMV9kLWNiYjhmcmswUXFRVUJUZFhWU1RWeDMzdVR2Z1psUVZtaUtwbHFHU1hTbFZLNHVWem51YlJLaWljR0p3T3VGdzNGU3llTWRiUm55THBKakJ0YXpfQmxBU3N6dDNCVzI5N2lfQWdFSlhCT2xhVnpVeE9iVldkRWdsYWswZ3c2cTF6SGJtbFdQZUU0SEE0cWZULTZ3SWtxQkNCSkllUjJoMmsxbFZu?oc=5",
-     "published": "2026-11-25T22:27:08+00:00"
-    },
-    {
-     "title": "AST SpaceMobile Options Spot-On: On November 25th, 171.46K Contracts Were Traded, With 1.17 Million Open Interest",
-     "source": "Moomoo",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOamtzbFBHSWtZN2NCbUM2XzVJMDFUZ1ZCRmlTa2pRcHlvMXkxZ016aFFUMU04enRBZ0tMcDNzc0FCeWtzT0tYOTBteFhCbGZUbHRLZVJiN1VJeXpLNG9FNElwRWszTlFtTnZySXNsNG1BWFM5TWxvSGtLSWlfV1RORDU5ampIWE1zVUFVV2tDMEk4c2Y3eVE1UFNucXZHYUZTb0E?oc=5",
-     "published": "2026-11-25T21:30:00+00:00"
-    },
-    {
-     "title": "Why Is AST SpaceMobile Stock Up Today? Shares Jump 12% to $26.44 in a Dip-Buying Rebound",
-     "source": "Around Prague",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeW1FQ1BXNHRZcS01QU1ZeXZxUE1CaEF4WHVuemR2RWljRVRETldUUEZVMUsybktkMldJZWJ3eHh5ZEVsTWlqNi0tY3RZVlNkbmlfdndIZVVzWmNWY3dDLXJKMEhBQ09SVDdrMzJraHNOaENmaXk3eFVCSXQ5d2lUbDZtX2otT3N0N1k4N3BUaUJyQnM2SnNEdHhnUVJEeG5xZ2dqSmlHSTJGTmhXQlR4bDZB?oc=5",
-     "published": "2026-11-25T19:10:59+00:00"
-    },
-    {
-     "title": "AST SpaceMobile Surges 9%, Erasing Early Losses as Space Stocks Diverge; SpaceX Eases, Rocket Lab Holds Steady",
-     "source": "24/7 Wall St.",
-     "link": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-surges-9-erasing-190230845.html",
-     "published": "2026-11-25T19:02:30+00:00"
-    },
-    {
-     "title": "AST SpaceMobile Issued 10 Million Shares to Firefly. What Does That Buy?",
+     "title": "AST SpaceMobile Is Still Down 64% in 2026. Can Insider Buying and a B. Riley Upgrade Get ASTS Stock Back to $40?",
      "source": "Yahoo Finance",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPU19HbDBhNTdETjhCalBxUEE0eHBVYXB1LUh1WXg4V2MwakZmODBWbDVQa0c4bFJOUTZlZERJdFREc0xkcjRtdjhaU2pwRURfazBuU0t0RGJHcFBZdWhoSzBqRzc0LXVSV3ZyNXJ1U3k4R3k1YjFZbGo2eFRYZUsxZzFMbm9qb05rT1RGd3dENlM2V3hwNzA0R0ZNcE82d1k?oc=5",
-     "published": "2026-11-25T18:56:18+00:00"
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdmkzYWg1QVZfX3dtV2k3by0wWGFGSk9KbWgybjFiejN2OU1vbEtGVzlLOFkya0hGYmlaT0dIWjl6dExHLTdDZlljeFZiaHRmQURRY3FMZExaSUlaV3gtd2diSHVtOTloQWsyMVo3OWU3VE1sNWk3OHpycWNUdzhvdmVwMHZOSHhRRUhibURxWDdHNEh6blRQLVFB?oc=5",
+     "published": "2026-11-26T15:04:46+00:00"
     },
     {
-     "title": "Why is AST SpaceMobile stock down 1.9% today?",
-     "source": "Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVFJBQ29seUlLYnUzN2xWZ0IwT3BraUxSSk5pTDNGd3ZmTXVRSFozVlJPLWtFN3pIeTFrS0N3YnBxVGVtNVJWTzdGamRvVXJhQTdJOWItSUhWck0tYkYzUDdLbmZjSWVRdFZZNjZ4VDhjd3RTRjVZWVA1VURfYWZpbXJvelVpV1pVVUhRRFpxV3FzUDhoa0E?oc=5",
-     "published": "2026-11-25T15:15:34+00:00"
+     "title": "SpaceX Cleared to Deploy One Million Satellites, but AST SpaceMobile Leads Space Stocks With Nearly 12% Gain",
+     "source": "BigGo Finance",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE54Zm9LSFYwT0xHU1J5VGNDTjFoVWwxUGlOaENGUVJES0lMU29ua1JJMG1YRHRzWDV6YkV6SG8wa2dkQ3RSU194aHVSd2c0YUdmamhVMEZINFVyUHlKOUlLT2YwWVRfMUpGRnQ2dU14ejlxUUlYemc?oc=5",
+     "published": "2026-11-26T18:16:00+00:00"
     },
     {
-     "title": "Rocket Lab (NASDAQ: RKLB) CFO Signals Electron Price Surge As Space Sector Bounces Back; AST SpaceMobile (NASDAQ: ASTS) And SpaceX (NASDAQ: SPCX) Also Climb",
-     "source": "Foreign Policy Journal",
-     "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPSWlyX2g1Y3c4UFNvNXI4WG11NHdNLTY3Njk4MnRiMjZTa1UybG9zSWRFUjhRMDBtTmRzTFhNUVFSYVJxOHpUeGlfSERVb3lUT2ZjVGZpV2dsOEQ1RkFteW8xdDQxdmlUYmJkZjlMRFFSd0pReDk4Vnowc1RtZi1MZU9qejNqSFI4ZUk4NlhMTDVzNFdhY1d3OHgyOUg0Y1hIV2VCY2xMaUxKWnU3SmllTlViNDFQaXpRQlBCdldkVWxzNW1Tc3U4VXN6RjVvSTRtT0d6d3FRQ1BRb3ljZHBMQUw1WUdjYVVrbVFRbzlWT2xvTUxtN0NMTlZJa0dfVHJPN3FJNWJ4LWxjTldGX3pTTEZrS25hSHIweFVGY2FZUzg?oc=5",
-     "published": "2026-11-25T14:19:00+00:00"
+     "title": "AST SpaceMobile Is Down 80% From Its May High. Jim Cramer Calls It “A Very Hard Stock to Own”",
+     "source": "TIKR.com",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcU5BRnZZUFpTaTFKR0VqbENNVElrZm1MVndTRXFaTHZsZlYySVhRMTVnUXl2cVExLVhfNTZjU1dmZ2pjWUVXNnhuVmJFV2xYb2xaenFEZHVXZGZQU1NPaTM0SzJfYU1TMFVTMEFIQTV6YmhuNThzVkhnUWpRUHgxVmFheUozOW9oMFpLdFFZaHlJMXQxRG5HYnBIR05IQjRiVzlpYlVJZ1ZaRkVNUmRnakZRdndGRUcyV3pqcGotX2M3X3pSOE1N?oc=5",
+     "published": "2026-11-26T15:45:00+00:00"
+    },
+    {
+     "title": "AST SpaceMobile (ASTS) Stock: A Hidden Value Trap? Unpacking the Risks and Rewards",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVnlYNGQwMnIzUTQwdVh5NWJUSG5ka2U2MlJjb2FFY1o5Smc5b21JMVE3Z1Myb0FFVG5TRzU3M3pLNE13enZzWDRDM2dzaXUwcjVTNU9GNUNNdV8wenlXa25lVmhwQjJDVjd2UE5XWExqSzJnZjdQY3dLMDBxUm91VzEzMW00ajUyUnZZeTBVTkZScjZWQ2xTcGlTVzJ5QmdVWlR5UUIyTGlLQkRpNmMtOExGZ0NGQ1dm?oc=5",
+     "published": "2026-11-26T14:51:40+00:00"
+    },
+    {
+     "title": "AST SpaceMobile Jumps 10% as Director's $1.03 Million Buy Halts Slide; Analysts See 144% Upside",
+     "source": "BigGo Finance",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPcTZlU19qdm1YNkE3Si1wLWFkOUNxTWpjeC1jenUxbG04WEFIS3REdUpidFEtRm1fYWdBV1VpTWFDdEkxbF9wLVhERjVlX0RqQ2VZS0pPU2pIa0psSWoySkdPRTdFSU12NnhGTEx6TGlFRzFIalE?oc=5",
+     "published": "2026-11-26T14:05:00+00:00"
+    },
+    {
+     "title": "AST SpaceMobile (ASTS) Stock Surges After Insider Purchase, Wall Street Sees 144% Upside",
+     "source": "Blockonomi",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObzZiRjZxLXZaMDFQOUpjenNkcEJpVDM2d3o3VkVBN2ZpSWFEOWliOF9RNXVZR3BselVCYlB5TW1DWnE0MVNCSVNCTkVKd3NHTVlVRnB6c3gxUkxQY1NfRnQ2NDVhakJtNk9MWjZ5U2pGOC1Lak1KMHpuVThOYUpsUVlHZ3F0bzNDZGpBQndXazZ4d3FWcF9SUmR0UE03bkZDVHVuMHpwOFIyNTY0?oc=5",
+     "published": "2026-11-26T13:40:38+00:00"
+    },
+    {
+     "title": "AST SpaceMobile Outpaces SpaceX and Rocket Lab — Who Owns ASTS Stock Now?",
+     "source": "TipRanks",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZXJyckJ3cnljY0M5Y21qVFI4ZXFBVFhKc2EwRV9IYTc1VkVPc3ZmcWtpX19aUndEWUxuMXJpclRaQUowUkpqZk45dTkwSkd1Z2l5NGFuQ1JSb0wtbUlqSVRGcE5CaXlfc09RLUVORU1hZV9venBvTzZiV0Fod2ZvNnpHV3JDNVFFRWpYUWo2OXdBWHVmaktVSzdYdEM4ckFwNDVXZ25pVnYtOGJRRGM1QUVDdTY5aDRKWWpCb0Vn?oc=5",
+     "published": "2026-11-26T13:20:14+00:00"
+    },
+    {
+     "title": "State Street Corp Sells 6,186,478 Shares of AST SpaceMobile, Inc. $ASTS",
+     "source": "MarketBeat",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSTVUMFJmbHVrQ3JybUFpOGdtemJMZ3k2cmdBNklka1c3VE9JUWYzZDhORF9VdG5DZ3d6MjlIUENTTEo1MVRxeld5NWtnUHlDUTlXREtqek1fRWxtU0x4QldWZ3dpb1ZzSEFyOTJpUjh2VnVfNDhRdS12SUVzQUtONGptNFVoN1FPYVREblpVWkJNRG45NjZmd3owU2pORFVWR1JiNHBYRzNKc1Y4blpkX05ybHlYZnU4emFOZHMwa1M3RFk4Znc?oc=5",
+     "published": "2026-11-26T11:09:47+00:00"
     }
    ],
    "catalyst": {
-    "type": "none",
-    "label": "Sin noticia clara",
-    "quality": 0.1,
-    "note": "Precaución: subida sin catalizador identificable.",
-    "confidence": 0.0
+    "type": "analyst",
+    "label": "Mejora de analista",
+    "quality": 0.6,
+    "note": "Impulso moderado; suele diluirse si no hay más noticias.",
+    "confidence": 0.3
    },
    "earnings_event": null,
    "score_parts": {
     "move": 4.2,
-    "rvol": 1.5,
-    "catalyst": 3.0,
+    "rvol": 1.3,
+    "catalyst": 18.0,
     "close": 8.5,
     "size": 5.1
    },
@@ -1078,8 +757,8 @@
    "gap_pct": -1.78,
    "close_strength": 0.93,
    "volume": 21081578,
-   "avg_volume": 13717112,
-   "rvol": 1.54,
+   "avg_volume": 13884493,
+   "rvol": 1.52,
    "dollar_volume": 415517902,
    "market_cap": 11303838720,
    "pe": 82.125,
@@ -1089,70 +768,70 @@
    "earnings_ts": 1802379600,
    "market_time": 1795640466,
    "market_date": "2026-11-25",
-   "market_state": "POSTPOST",
-   "score": 18.4,
+   "market_state": "CLOSED",
+   "score": 33.2,
    "news": [
     {
-     "title": "Pinterest Shares Surge 20% as Executive Pay Filing Fuels Sale Rumors",
-     "source": "PYMNTS.com",
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWXlrakVRblZuQnBRUFk0NUJjaWs3eW1mdDV5dDM3dkc2VHRxZHk3Q3U4c0R3ZEVfMTU1Z1l1YmQ5c2o5NnR2UWFFVm9BYmNsVzRTODFrV1VfblNTcHFRRTRpcEJNVmJERkdFUlpUc0VWMjd3ZjZhRENCM2FwTHFSbmJYZG5YckJTc1ZmTDFPUS02S05FdWhCNVJ5VU5QNVlDclRlNjZwYlRISDFtQlRnSGFFOHc1OEpkY3hsZWNn?oc=5",
-     "published": "2026-11-26T03:36:26+00:00"
+     "title": "Pinterest Surges Over Six Percent Amid Advertising Partnership : 기업주식정보 : JKN",
+     "source": "재경일보",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5xcFVGUFpOWjVmQVFhb1REdmRROTRyZ3FMNVFsRHFucmJLaVZFdlNhRllCdUgwbk9FdWJwdi1TT0xzR3lVanp1M09BMUl1WWk0VEpKd2k5Rno2MnQ2eDJWLWRn?oc=5",
+     "published": "2026-11-26T15:06:00+00:00"
     },
     {
-     "title": "Pinterest widens change-in-control payouts for CEO Bill Ready and top executives",
-     "source": "MLQ.ai",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVHZFT3FxMFBiQ3pLMXRJa3VVY1lrTlUxYkF0OS1wcEtLbHl4V3dXcXJ1ZG5DcHNGajRzRmVKS3c1ZXlWX1RBZ05LbkFMSWs4T01RRHZ6SVdaYlR2RlUzZTd5T2wxdTU5TV90ZGswUjM3RWV1blZTZXRjTTFrcDZDYnc2Zk13c3FFMF9qN1F2czdKaWlnc2ZZUS1hZUtEaGZqREhV?oc=5",
-     "published": "2026-11-25T22:37:56+00:00"
+     "title": "Pinterest (NYSE:PINS) Strengthens Product Discovery With New AI Features",
+     "source": "Kalkine Media",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOWx1R2FJNERmaDBSLV9aTUdDRFgzTVVKakZiejJiX25YY1pmcV8xemdoTmlTQWdKbV9zdlpuUnkzYzRXRnhPMW8zRnlRbDhuLU5PRm83TXZDdDNxX2trNmxLN2RKNjc1cnZlRFptNkVSRHFjb29pUWZxM3NsNnNPcmJiekxwRlZIT3hiS0g3bDlqY1RPNk5tNGFBUDZtMWtkMWxpVWI5QkdJVjhGYTk2dlB0V1hFYk4xTFE?oc=5",
+     "published": "2026-11-26T21:17:00+00:00"
     },
     {
-     "title": "Pinterest (NYSE:PINS) Director Benjamin Silbermann Sells 46,875 Shares of Stock",
-     "source": "MarketBeat",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWjFQNjhaY3BCYmRoRXVLT2dIQ3lhSkk4QjRkS1NSU0tzdENPb1hzMW51bzR0NE15VXRpTzlmLXlpdVdPTjdaVkNjYThwbHNXU19kQmNsRTczQzZUN2NHZDBjMVRVRzNyQXJRYUlGZkRzVkEzamp4cjVRbUdLc3Jydm82bkRaMzF0b0xJX1h2ZXVjR2NnRk8tZmhBVnpKUWN2T3dPRkxtYXJ4OEd3WU9LU1FqSWx2bWk4a09UX0dpOWRoWW1fQ3pDZGs3bFc0QXoxVnhGWg?oc=5",
-     "published": "2026-11-25T22:11:40+00:00"
+     "title": "What Does Pinterest (PINS) Pay Overhaul Mean For Its Takeover Talk And Ad Push?",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOVpEWnRxbXczU0VSOGQ4TWI5WlhVV1FMRERBbnlKelNzRW5temVWcHZYSWhWWDNUUTB5b0NlWFdLN2hzRmlPaG5MUW83VElRbzFnSGdoSi1yU2ZlZG4xNFJqd1JzNUxrbnZxUDRQa0R1Ni1nRzB3UVo5SzhPNmpjYUFFLWp4d0dfaDRSSW1qejlVNXpzTC1HYXNtQTVlOEJUeWc?oc=5",
+     "published": "2026-11-26T17:14:47+00:00"
     },
     {
-     "title": "Pinterest director Benjamin Silbermann sells $1.69 million in stock",
-     "source": "Investing.com",
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeXZ5cXpVT2pKM1VBSjhWY0RGOHJQblZtd01udnN3emhnZlA5YktHbF82VkFOZlNlMTk2b0RXcUUxYjExNWtjSloxeTkzOURyQXRtel9IRFdIaUx3REFnRWVFV0UzSWJ2Vy1tTU5MOC1YU1ZnLWZ3eTVyZXJVdkhILW1XU3JWY2xvYzhrNUJUdVdGeTVvRlplV1otdVNnR2Z1T2ladzJEdy1Dc0loblBqX3R6TTNQMHlCNWtuTHFrS1dMRE1RamFEcDd3?oc=5",
-     "published": "2026-11-25T21:51:36+00:00"
+     "title": "Pinterest, Inc. Tokenized Stock (Coinbase) price today, PINSc to USD live price, marketcap and chart",
+     "source": "CoinMarketCap",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMkNRSE5aT3FQaWR4eXhWWEoxS3p4a1NiZzdtT3RJSTBtdXdILWwzblZjNVFhVEp3ZElwWDFFazF2eDFJc2lRcHBUWUlsSzdiRTRvM1B4bGxuMHhrNzVHSWVqVkZlQkxpU3JGUDRvVURuNjZwaWlHeEYzdjlmTXFWMjJn?oc=5",
+     "published": "2026-11-26T15:24:08+00:00"
     },
     {
-     "title": "Form 4 Pinterest Inc: Benjamin Silbermann (Director, 10% Owner) For: 24 November By Investing.com",
-     "source": "Investing.com India",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVFk4VzZteEVDdTJVMk5DSldzeUlCUHE0cFJ1TWYyanEyaFp5cDFKdGc5UFktWTN0UWYybmdsV28xTjVrR3R0Q0FvSGVYT19CeE40YzQtX1lEbkNsMHdrQ1RJUXhjbTAwUTlObFdDMXY1YkQ2Mi1RMVF1ZEduUDcyVGNXZF83NFBXRkZrV2RaRWR6QXJwWDBmRTYyQWJLcktsQ0x1bGllOE1mNDBjODhlb29RUFRSLS1uZHh5NnVDWFc3ZG9ZOEZJdlYwNWpPOGI5?oc=5",
-     "published": "2026-11-25T21:49:25+00:00"
-    },
-    {
-     "title": "A director and 10% stockholder of Pinterest (PINS) reports a proposed sale of founder shares.",
-     "source": "Stock Titan",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQX2NtZ0FQM3daZ096Zkc5Rl9qMGNTQmdnaVF4N09RSWRTTExoTVdRWnFHRzVBTlJKU2Rub2NMaFJJTWxSeC01YTEwS0poR09SZE9kZEVydEZ5M2NMWXlYSWxZeFhwVmN6WGdKbHFEYkZ3alprVDRKNGQ4Q0ZXZHdRcl9Zb0psa0cwcDFqTmZXVU93U1lX?oc=5",
-     "published": "2026-11-25T21:12:18+00:00"
-    },
-    {
-     "title": "Pinterest (PINS) Stock Climbs 20% Amid Acquisition Speculation F",
+     "title": "Pinterest (PINS) Stock: Significantly Undervalued Despite Recent Slide",
      "source": "GuruFocus",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQeWJIaXVwOFVuNTdkcmlOdjRidFBDRU5OclFWb3czVlJPdFU2aGJQbW5YUWlDQ3lfcXJiU0g3SEpDRm0yVTZfYjNEbmN2OVVFV2tRYU05QXV5X2VCYUFLdzNpNU5JZ200dS1LbHJQWU5SU2hxLUN3cWdWWlBya0dpd0t1aUZEUm9oc053TW9yS0N3Q1pPUFBybWQwWmJtb0NjUDlkRjROT0tCVDltbGNPUURPZDV0bW82Mkc3Mjg4QUR5Vng2ZUlVRl9HdE9fSjlh?oc=5",
-     "published": "2026-11-25T20:07:15+00:00"
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUXJZVUlkVGZhX1VNcWRCVGJBVm0wRHNPZ1dIWExLMEhRT1RyNnNLU0dQeUdBYUFuRVFfVU5samRHMG8zc0IxQVhUenF1Q3pfeUZQT1NXYkRzSTBMMHF5Mjg5TlhmS3o4ek1BTy1nMGtRd2JsSHRMSm9uYjJ6RGFxYndFVk4tczcwMGhEdURvY2dEaEIxeGU3ckhreUVmRzI0eUJpdWlTdG1VZw?oc=5",
+     "published": "2026-11-26T14:59:38+00:00"
     },
     {
-     "title": "Pinterest (PINS) Stock Could Trade At A Premium Despite Takeover Speculation",
-     "source": "Simply Wall St",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTXlIY1l0ME5JWHNMbEV3RFpWdnhEZk1jbDFnVkxTSmp2MElLenUyOWNKUVhnUnNRUGNucWxhSWZaZ280MlFydXFMYjdQZHh2a21mS0ZVZ2llemxSZkl0cUxqam5vMldtcnhnZ3hnQzBiWllpcV9WZTdOdzZOamtUUS1Ja3pXem1ITEFzZWxwTVdPYlFERVBRcENhMmtld2VqaVJOT0doR3BYZlZfQWo0Vk1SSC1UZ2pRXzdUZTFZaU7SAcYBQVVfeXFMT0hfNm5KYU9TdTl1UW1CMjU0MUQ3UHptV2NFNm1aZmhvSlZNMEJxOGR1SW9iYXRSX2Q1T3BBcFpuZ1BwN19acEJKMmhzaFRoc3BMN2JYSmhmLVlqb1JiNkdETFJCSXNBVW1CaFljbmtkelhQVmZNRlMxQzEwOWEyTW82cExxVUp5WXlIV0lWUndIdjRNNmg1Qzg5MWxUczAyUFA4WWRRWFlFalI5U09PYTQwRUNBZmhwbW0xdXJaT2RGbzc1aHR3?oc=5",
-     "published": "2026-11-25T18:09:22+00:00"
+     "title": "Pinterest Soars 11% in a Week as a Pay Change Sparks Takeover Talk. Is a Deal Really Coming?",
+     "source": "TIKR.com",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObXl0cDBsTGpWMFhfZEFoQTRrT09kRXYyQ1ZQVU5tR1RKVUVldl9TLUhRdC1SN1J2SXp2TXVESXNJTEIwQVdJYVdUWWNocmFhVFRpZjhlVmlELWh4Ym82VUM5WjlsM2xtd0YtRzJ6bXVtVVY5QVZkbGRZbWZ6ZUJ2amZKVFpZRWNsZmRhbm9zcVR6WmQ4cjlGQXF5X0gxRnVJMi1oeEZYekQ0MXd2TW44eDdnRncwdw?oc=5",
+     "published": "2026-11-26T14:06:11+00:00"
+    },
+    {
+     "title": "What Is Behind Pinterest (NYSE:PINS) Latest Market Buzz?",
+     "source": "Kalkine Media",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNVZZd19MUHpaWFFsTVRPMG91dTVkQTE3a3JmbVBGQWxRenN0RzFjOUdXZ0REZ3Q1czBBNkhJR1FiVEh4MzVDNmdfbkx0OFJvTGNuUnhFakstUFhSZXB0VThqSDJFcU1hSk1FeVFMY2x3QnQydWVaN3JqdnVXdkFSY29LS0dMYU1aMDdFeGtBU3RrcEIwUFhkeXNmT21Yay0wRG5v?oc=5",
+     "published": "2026-11-26T13:58:00+00:00"
+    },
+    {
+     "title": "Form 144 PINTEREST For: 26 November By Investing.com",
+     "source": "Investing.com India",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdW5Eamw2N3RmOXVGenpnX04wbXJSUFBwZ1l0NzFIa3FoT0hQX1BleUxMd21uTnpCZ3dKUzY0MEpIRmRNSW1ZZDJvZkZSSF9hOG85Y0UteVpnNjF2ZDEyVGZFTldpSWNlU3dIX0RuNTl4Wk9TckdtbWgzRFBIZ2Q5UUhOSUxWcVZsWFhJb2VPNE5NWE8wbGV6Zl85OA?oc=5",
+     "published": "2026-11-26T08:46:05+00:00"
     }
    ],
    "catalyst": {
-    "type": "none",
-    "label": "Sin noticia clara",
-    "quality": 0.1,
-    "note": "Precaución: subida sin catalizador identificable.",
-    "confidence": 0.0
+    "type": "contract",
+    "label": "Contrato / alianza",
+    "quality": 0.6,
+    "note": "Valora el tamaño del contrato frente a los ingresos de la empresa.",
+    "confidence": 0.2
    },
    "earnings_event": null,
    "score_parts": {
     "move": 0.5,
-    "rvol": 0.3,
-    "catalyst": 3.0,
+    "rvol": 0.1,
+    "catalyst": 18.0,
     "close": 9.3,
     "size": 5.3
    },
@@ -1177,6 +856,330 @@
     "points": 7,
     "max": 9,
     "piotroski": "7/9"
+   }
+  },
+  {
+   "symbol": "RKT",
+   "name": "Rocket Companies, Inc.",
+   "exchange": "NYSE",
+   "price": 15.3,
+   "day_high": 15.4,
+   "prev_close": 14.25,
+   "change_pct": 7.37,
+   "gap_pct": 1.75,
+   "close_strength": 0.92,
+   "volume": 59541943,
+   "avg_volume": 36233692,
+   "rvol": 1.64,
+   "dollar_volume": 910991728,
+   "market_cap": 43419815936,
+   "pe": null,
+   "pct_from_52w_high": -37.19,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1803330000,
+   "market_time": 1795640402,
+   "market_date": "2026-11-25",
+   "market_state": "CLOSED",
+   "score": 22.7,
+   "news": [
+    {
+     "title": "Rocket (RKT) Stock Valuation: Why the 175% Premium May Signal Ov",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRGVLaUptVW8xSHNybnkyb2M5RFExTTdtRmZUMmotX0xqUm9PVFBOZjE4RWJGZXVpakUxajhGVXhvak1zQ1p0QXZseDFraVBWX0NoZWJjSXhPdjV5amJZUWZGWGZJZ28zdXJQTllQN1hPU0JTc2RGREh0YWJmLWNkdzFPbmQwR29ZY3E5UElxU2Rtbl85aEFEakdPdjZfTGI4dWdhbmQ3U2N6d3p6X29n?oc=5",
+     "published": "2026-11-26T15:17:40+00:00"
+    },
+    {
+     "title": "Net change in cash of Rocket Companies, Inc. Class A – GETTEX:A2P9R6",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbVdqbXNtUl94VXVsWkRqS0FpRUd5cmJGVjRJNUlfOGtnck9KbTRSaEZlVXdmUHA0QXE2d1BtV0hXTzNVaFFhU3BlRUl5WG54ZHBJVXozYkVpLWlya2FxVVFiWmsxUGd5M3VPQ1BlZDE4SUNtRnF4THRNRUFWN25yX25jY0FMdUxDRVV4Y3NLRHg?oc=5",
+     "published": "2026-11-26T12:53:03+00:00"
+    },
+    {
+     "title": "Rocket Companies Inc (RKT) Shares Surge 7.4% -- What GF Score of 67 Tells Investors",
+     "source": "GuruFocus",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS21hd2pERnFGVGVBamZWVkdMWEVWaVVtSGRqaEg2em5WdW9xNmhXQUJydzVxem11c0IzSWRsOWd0SHZKQ1BpcVFZb2JfcWkyREVtSllPWnVFOEg0ZXhzOHdYMkVpWUlWb1hRQnFzZF8yemt4NGFEQXh2NUQ3dWFRVnBkSFlyZ2c5SmZLc1pQNnNLcVRQY2hoVzQxWXQyUERoOEFPYVlKQWVpSVRSMG9UVG83SWhSQQ?oc=5",
+     "published": "2026-11-25T22:28:13+00:00"
+    },
+    {
+     "title": "How Did Jefferson Capital (NASDAQ:JCAP) Lift Deployments 111% Versus Happen (NASDAQ:HAPN), Rocket Companies (NYSE:RKT) and Freedom Holding (NASDAQ:FRHC)?",
+     "source": "kalkine.com",
+     "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQa2NSNk10SUc1SU40WUhSR0tjQ2VrMHd5aGNPOXBjeEpCSHNGZmtJcWNySnhSTGFTQVNwMGpQMlo4ZGU3Y2FFZU1HSjl0NG92YU1rZ1dmMDZ5cEdpNkhJSjFwOFJxcG5kMHI3TkdSVHV5T0NEWlhLaFhGNVZlOW04dlNkdXVEOTg2VTJ1UjBRZ0c5XzhBOUNFTXhQenB2cEk3WHdBSndTRklwR2pfQVdXRkl4UE1RWHVTSWJKWG9uSHdrZHFWS2ZSclBjaUhSZnlqQ01PVHpMNlpOMFp4SW9ROFJweFpDVEhsSjlLX1BOSzN0SXpNREk3RmlNdW01YTRDeEE?oc=5",
+     "published": "2026-11-25T20:43:00+00:00"
+    },
+    {
+     "title": "Rocket Companies (NYSE:RKT) Stock Sees Elevated Volume: A Look at Third Quarter Results, Mortgage Volume and Fourth Quarter Outlook",
+     "source": "kalkine.com",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNdmh4UWNZd0k3LWdhTUFQVGRCQVQzdHNoYWVES19STW9vMlRXaDNZRXQwVnVUd0RteWlEYU5ZRHdsQUxjYy1uT0Z4S0FiY3hsODVTbzdKUV9OOHN1bGhnVHlNdVhNZlZld0MyQlZBYkxaeGFLV2QwT2dzMVl5WFZDQWlQQXdzZV81NTZuSDI3NU5WRTdxV1Z1Vi0xNFRaMWkwYnN1R2ZIWVhOaDNaT1V0R3VINlJMaVFWVzh0LTZCbW9fR0RTVjJxLVBTVDRobGVyOVhDWnp4NDBoWXptYWNRdnZpNDloOE41aVJyNDNGeXdRNmM?oc=5",
+     "published": "2026-11-25T20:40:00+00:00"
+    },
+    {
+     "title": "Rocket Companies (NYSE:RKT) Trades on Elevated Volume as Third Quarter Results, Surging Mortgage Volume and a Fourth Quarter Outlook Land",
+     "source": "kalkine.ca",
+     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOZjl5alBWcWw2TjF5WGtNTlE0RDEwX25maU5JMVg1aWZ0Ym5VMlpleE9Qal94OTRPNndxYzNJMVpKNi1TMzBiRTFHcU53UTdvbTIwTFRPMHFzY1Z0UE5LdnM4VTlmNUdyNERqUW9Va3dwNkVwcWhoZS1jYlZ6aVBjWV8wU1JGRVpQSVRmWmtPMVk3TlBqZnhkd1pEeFFFRWstMzhWb2dFS3p2Q1RFWVJtQXd1ZnJKc2hsYUM3aFQ5VS1PTldya3JRNWxjVDh3UlRkTWRrMWFBaG1CZkN2RFlXcmgwMU1iYjZ3azY3SXN5dk5uNHpQa2M4V2RuUQ?oc=5",
+     "published": "2026-11-25T20:36:00+00:00"
+    },
+    {
+     "title": "Rocket Companies Inc Stock (RKT) Moved Up by 7.58% on Nov 25: What Signal Does It Send?",
+     "source": "TradingKey",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaDRPV2RvNTVKTGFna1BUV3hMd3N0b1A3OHJ6WThxSFlJQTV4UlhzZjFYSjhHV20wbTllOHh4V0drQzhuSnZRcG9xODB4Y3ZuUlRaVi05LUttRUx1RVJQaGN5QjZwck43aVV2d1ZDMVVkeGNxSE5PMW8wMW9LYTJTMXQ4eUdYdnVGd3c?oc=5",
+     "published": "2026-11-25T20:15:22+00:00"
+    },
+    {
+     "title": "Stock Yards Bank, Arbor Realty Trust, Rocket Companies, and Banco Bradesco shares are soaring, what you need to know",
+     "source": "TradingView",
+     "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOTTBhRF9zVmFySTljMlY1SkQyVEVINFV2ZGc2YUFobWJBQU1wQmJxWXR2R1JKRnhHenZnbndzLVRWN3EzMXNmalhGVFJYWTlHVDJsYng1cXRPTGk0dGczVFZ3YnV2NDBDYWJPcTRvM1dWLVhMYmdWdXYxQlowTzZCY2JBek94V21FMkNBN1JaRmpKSHc1NEJyYTVhdzhybXRhaUx3OGRkckRnZ3RxRWVTbkt1VzJzclJYelp2NS1mQXhtb2VncHVLTXpkZTZ4b3p6SnZWSlp6aXhOSTBaQkhockRualJTcG9IaldsQmVGeEd6YmJMZ0xWdllKTzc5d1ozZWtj?oc=5",
+     "published": "2026-11-25T19:50:43+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 1.4,
+    "rvol": 0.9,
+    "catalyst": 3.0,
+    "close": 9.2,
+    "size": 8.2
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -64.42,
+    "ath": 43.0,
+    "ath_date": "2021-03-02",
+    "prior_ath": 43.0,
+    "listed_since": "2020-08-06",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 1,
+    "max": 7,
+    "piotroski": "0/7"
+   }
+  },
+  {
+   "symbol": "AXON",
+   "name": "Axon Enterprise, Inc.",
+   "exchange": "NasdaqGS",
+   "price": 343.05,
+   "day_high": 347.0,
+   "prev_close": 319.32,
+   "change_pct": 7.43,
+   "gap_pct": -2.61,
+   "close_strength": 0.91,
+   "volume": 2022901,
+   "avg_volume": 1282729,
+   "rvol": 1.58,
+   "dollar_volume": 693956188,
+   "market_cap": 27935490048,
+   "pe": 110.305466,
+   "pct_from_52w_high": -48.42,
+   "above_sma50": false,
+   "above_sma200": false,
+   "earnings_ts": 1793912400,
+   "market_time": 1795640401,
+   "market_date": "2026-11-25",
+   "market_state": "CLOSED",
+   "score": 21.2,
+   "news": [
+    {
+     "title": "Ken Fisher and 5 Other Big Funds Sold Axon Enterprise Last Quarter, While 9 Bought. Who’s Right?",
+     "source": "TIKR",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/ken-fisher-5-other-big-184147530.html",
+     "published": "2026-11-26T18:41:47+00:00"
+    },
+    {
+     "title": "Can Axon's Expanding Dedrone Platform Sustain Its Growth Momentum?",
+     "source": "Zacks",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/axons-expanding-dedrone-platform-sustain-165100620.html",
+     "published": "2026-11-26T16:51:00+00:00"
+    },
+    {
+     "title": "Is Trending Stock Axon Enterprise, Inc (AXON) a Buy Now?",
+     "source": "Zacks",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/trending-stock-axon-enterprise-inc-130005160.html",
+     "published": "2026-11-26T13:00:05+00:00"
+    },
+    {
+     "title": "Axon Is Down 47% From Its High. TD Cowen Still Sees $650",
+     "source": "TIKR",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/axon-down-47-high-td-020154496.html",
+     "published": "2026-11-26T02:01:54+00:00"
+    },
+    {
+     "title": "Axon Enterprise vs. Palantir Technologies: Which Law Enforcement Stock Is a Better Buy for 2027?",
+     "source": "Motley Fool",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/axon-enterprise-vs-palantir-technologies-202002083.html",
+     "published": "2026-11-24T20:20:02+00:00"
+    },
+    {
+     "title": "Are You Overpaying For Axon Stock Versus Its Peers?",
+     "source": "Trefis",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/overpaying-axon-stock-versus-peers-175229336.html",
+     "published": "2026-11-24T17:52:29+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 1.4,
+    "rvol": 0.5,
+    "catalyst": 3.0,
+    "close": 9.1,
+    "size": 7.2
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -61.28,
+    "ath": 885.92,
+    "ath_date": "2025-08-05",
+    "prior_ath": 885.92,
+    "listed_since": "2001-06-19",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 3,
+    "max": 8,
+    "piotroski": "4/8"
+   }
+  },
+  {
+   "symbol": "COMP",
+   "name": "Compass, Inc.",
+   "exchange": "NYSE",
+   "price": 10.61,
+   "day_high": 10.82,
+   "prev_close": 9.85,
+   "change_pct": 7.72,
+   "gap_pct": 0.71,
+   "close_strength": 0.84,
+   "volume": 23071985,
+   "avg_volume": 15019037,
+   "rvol": 1.54,
+   "dollar_volume": 244793761,
+   "market_cap": 8136646656,
+   "pe": 70.73333,
+   "pct_from_52w_high": -23.97,
+   "above_sma50": true,
+   "above_sma200": true,
+   "earnings_ts": 1793912400,
+   "market_time": 1795640402,
+   "market_date": "2026-11-25",
+   "market_state": "CLOSED",
+   "score": 18.0,
+   "news": [
+    {
+     "title": "Is Compass (COMP) Priced For Perfection After Its Big Run?",
+     "source": "Simply Wall St.",
+     "link": "https://finance.yahoo.com/markets/stocks/articles/compass-comp-priced-perfection-big-021334270.html",
+     "published": "2026-11-27T02:13:34+00:00"
+    },
+    {
+     "title": "The compass we cannot afford to lose",
+     "source": "Rising Kashmir",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSUJwZFUxZ3BIdWxMS3RweDJxU1JoM04zeFVYOE54bUtTRjJqb0FzOWJBa1dWQ2djRWJUUmlNVHhPVVdCbTJlZEcwdlZSS29OcmVmc1NHbHQ1WnU4eVR6Smo3NWQyMXFjRzgwRzBuRl9rRUF0b2tVTWRKbFJBLXZYNG96MzBsY19O?oc=5",
+     "published": "2026-11-26T22:30:37+00:00"
+    },
+    {
+     "title": "Compass Group Shares Close at One-Year High After Five Straight Gains",
+     "source": "AskTraders.com",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVGt5cHJfdEpDRFhLV1Fid0ppMlFxb2UyWDhTVWdmZTNKX3lBWmdvMjNnaHROYmlHM0pQV2gzTFJoSlMwVnUwdF83NUhBU21IdENyZE1LWGlRaldyY0Z6amFkdW1UUUVYQWgxVjdpSkQ5UGRYbFVtbm1ZcktrcGxLNFJWdWpaa29FWTBVbUU3X2Y5UWVTNGQzRF9oZGVFMm8zNm9CZlNkeV9Rdw?oc=5",
+     "published": "2026-11-26T21:54:23+00:00"
+    },
+    {
+     "title": "Compass (COMP) Jumped, But What Is Driving Attention Now?",
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZFBHeW9mblR3QWdHMG9kTVJwUlJydkRLWWt5b3JfLTlveDh6Tkk0LXdHSU9DM3Z4SlhvdUpTY1pIclhZZ2FZNHg3czlReUNvdkxsTHp4b2x0OHZTSjZMZzNYLVdZX1EyV3VydVFNR05MeUk4dlFDSkVkN0lrQzd4dWo1SGphZnpGcEcwSno0TjBCdC1tdkFnZ3VkX2NleHdkMFFRNg?oc=5",
+     "published": "2026-11-26T21:14:05+00:00"
+    },
+    {
+     "title": "INVESTOR ALERT: Pomerantz Law Firm Reminds Investors with Losses on their Investment in Compass, Inc. of Class Action Lawsuit and Upcoming Deadlines - COMP",
+     "source": "PR Newswire",
+     "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNZG4xTzY1ZVNRdVE2SmFhZ09XdUdEeWZNbU9ZWkZMUFVPLTdPd1BFZ2lOTkh1LU1jd0FTenFBSmhUSFZ3bTk3dzNaSG5VcmRMaTgzTmRJT1JJMG0zX3RuWmdqUnBDaW9rXzBKU3dyNzBWUXZkWktLMTBHc3JuZUxRakZfTnh3ZHgwelVfTERvWm1UVEUwWE5qYXpjOFN1QzYyOHdCSExRX1pwQnRILWVYVEI1T04tZ1BEX1RleUhWMDNPZ19xN21xMlRxcTkwZ1VvdGdJZ09rLWQ0djFNaTRXbFl3NzJIeXBQR2FSd29pYzMxVDRyUWY1VHNvMExkX1hwNVFsVE5zLThHUGtuVWFDSDhFNWZOTG8wdXVLek12T0gxU0owLUdaclZxeExzV3Ey?oc=5",
+     "published": "2026-11-26T15:00:00+00:00"
+    },
+    {
+     "title": "Compass Group: A Bull On Growth Acceleration And Favorable Corporate Actions (CMPGY)",
+     "source": "Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUW9BRU16MFJ1aFJSc1B5ckJzcEw0Q0hGSThFXy1SNkEwdFhxdnE1ZTVlZk1HRThod3hIMUpNdlFJbTJJaUxDN2Y1X25POUhTSFg0OGJYSnJFOGoxWTFNaGpfMFN1VC16WHc4R0g1N1JMTEJQWmQ4SUlLVURuY1dKWTNvM2ZKSkFOVmh4MTY3azZxV3BTZGNLYm5sTU0wNkluZEkxdXljeFFUTGV6SlYw?oc=5",
+     "published": "2026-11-26T14:31:22+00:00"
+    },
+    {
+     "title": "Compass could pause $380m ABS transaction due to investor rout after outage - report",
+     "source": "Data Center Dynamics",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNVZSS1k0Nnh3c1ctd1FnMElkMDRxZU5OMWRIZVpPU0RGMnk0SFZCd2p0aExUR3VxSXpEZ1g0T3JtSk9PWF8wdmg0Mi05Y3FoZ3RxQlRPaFo2OXVKRzdicm8tdTNFRk1wYjcyNHRyTS1rNEVfemdqZTU3Sy02VVVFNC1HeUlUa1ZpTDExamJJWDhLS05XSGNoSFNtbXQ3MnZtc2ZHY05GWG1NSE1WMzY2R095eUZuamItV05NdkxHSTlRT1k?oc=5",
+     "published": "2026-11-26T12:44:05+00:00"
+    },
+    {
+     "title": "Compass Gold Announces Retirement of Director James Henderson",
+     "source": "TMX Newsfile",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVDl1ZEJ0Ty1zWGN5ZHFWbUl3VVRjcldoRExyOWFDVFR0U0ZXUndjMVBTVFdsZFBQQzZjY1NFbmZ5a0Z0bEFJbGJPRnRnTEl4ZzgzSTBjOC1hSXFVaERwOEt3S1Z1a0NqNWhpS3ZSYXFvSTRzbXhYYTlhY2ZmRGtHODBEblhOUm8zQU9iU01XNGEwMFhoaHR0YVZXenZzeFVMcUVJZXc3Qjc?oc=5",
+     "published": "2026-11-26T12:00:00+00:00"
+    }
+   ],
+   "catalyst": {
+    "type": "none",
+    "label": "Sin noticia clara",
+    "quality": 0.1,
+    "note": "Precaución: subida sin catalizador identificable.",
+    "confidence": 0.0
+   },
+   "earnings_event": null,
+   "score_parts": {
+    "move": 1.7,
+    "rvol": 0.3,
+    "catalyst": 3.0,
+    "close": 8.4,
+    "size": 4.6
+   },
+   "appearance": {
+    "count": 1,
+    "previous": [],
+    "window": 10
+   },
+   "ath": {
+    "status": "rebound",
+    "suspect": false,
+    "basis": "splits",
+    "pct_from_ath": -52.01,
+    "ath": 22.11,
+    "ath_date": "2021-04-01",
+    "prior_ath": 22.11,
+    "listed_since": "2021-04-01",
+    "short_history": false
+   },
+   "quality": {
+    "grade": "C",
+    "points": 3,
+    "max": 9,
+    "piotroski": "5/9"
    }
   }
  ],
