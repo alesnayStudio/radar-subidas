@@ -2807,12 +2807,12 @@
    "returns": {
     "1": -2.01,
     "5": -9.28,
-    "20": null
+    "20": 8.9
    },
    "excess": {
     "1": -0.24,
     "5": -4.55,
-    "20": null
+    "20": 14.23
    },
    "close_strength": 0.97,
    "day_gap": 16.3,
@@ -2837,12 +2837,12 @@
    "returns": {
     "1": -7.97,
     "5": -10.66,
-    "20": null
+    "20": -2.69
    },
    "excess": {
     "1": -6.2,
     "5": -5.93,
-    "20": null
+    "20": 2.64
    },
    "close_strength": 0.91,
    "day_gap": 10.69,
@@ -2867,12 +2867,12 @@
    "returns": {
     "1": 0.17,
     "5": 1.78,
-    "20": null
+    "20": 7.83
    },
    "excess": {
     "1": 1.94,
     "5": 6.51,
-    "20": null
+    "20": 13.16
    },
    "close_strength": 0.88,
    "day_gap": 16.76,
@@ -2897,12 +2897,12 @@
    "returns": {
     "1": -2.52,
     "5": 7.79,
-    "20": null
+    "20": -8.36
    },
    "excess": {
     "1": -0.75,
     "5": 12.52,
-    "20": null
+    "20": -3.03
    },
    "close_strength": 0.76,
    "day_gap": 15.12,
@@ -2927,12 +2927,12 @@
    "returns": {
     "1": -1.58,
     "5": -2.78,
-    "20": null
+    "20": 6.37
    },
    "excess": {
     "1": 0.19,
     "5": 1.95,
-    "20": null
+    "20": 11.7
    },
    "close_strength": 0.84,
    "day_gap": 19.39,
@@ -2957,12 +2957,12 @@
    "returns": {
     "1": 0.89,
     "5": -2.54,
-    "20": null
+    "20": 52.74
    },
    "excess": {
     "1": 2.66,
     "5": 2.19,
-    "20": null
+    "20": 58.07
    },
    "close_strength": 0.73,
    "day_gap": 11.54,
@@ -2987,12 +2987,12 @@
    "returns": {
     "1": -3.57,
     "5": -2.52,
-    "20": null
+    "20": -6.86
    },
    "excess": {
     "1": -1.8,
     "5": 2.21,
-    "20": null
+    "20": -1.53
    },
    "close_strength": 0.77,
    "day_gap": 9.34,
@@ -3017,12 +3017,12 @@
    "returns": {
     "1": -0.1,
     "5": 0.3,
-    "20": null
+    "20": 0.81
    },
    "excess": {
     "1": 1.67,
     "5": 5.03,
-    "20": null
+    "20": 6.14
    },
    "close_strength": 0.14,
    "day_gap": 33.33,
@@ -3047,12 +3047,12 @@
    "returns": {
     "1": -0.03,
     "5": 5.52,
-    "20": null
+    "20": 2.59
    },
    "excess": {
     "1": 1.74,
     "5": 10.25,
-    "20": null
+    "20": 7.92
    },
    "close_strength": 0.83,
    "day_gap": 10.55,
@@ -3077,12 +3077,12 @@
    "returns": {
     "1": 3.6,
     "5": 24.52,
-    "20": null
+    "20": 44.34
    },
    "excess": {
     "1": 5.37,
     "5": 29.25,
-    "20": null
+    "20": 49.67
    },
    "close_strength": 0.94,
    "day_gap": 6.45,
@@ -7221,12 +7221,12 @@
    "quality": "C",
    "returns": {
     "1": -2.17,
-    "5": null,
+    "5": 17.98,
     "20": null
    },
    "excess": {
     "1": 1.47,
-    "5": null,
+    "5": 16.24,
     "20": null
    }
   },
@@ -7251,12 +7251,12 @@
    "quality": "A",
    "returns": {
     "1": -2.7,
-    "5": null,
+    "5": 2.83,
     "20": null
    },
    "excess": {
     "1": 0.94,
-    "5": null,
+    "5": 1.09,
     "20": null
    }
   },
@@ -7281,12 +7281,12 @@
    "quality": "B",
    "returns": {
     "1": -3.57,
-    "5": null,
+    "5": 6.42,
     "20": null
    },
    "excess": {
     "1": 0.07,
-    "5": null,
+    "5": 4.68,
     "20": null
    }
   },
@@ -7311,12 +7311,12 @@
    "quality": "B",
    "returns": {
     "1": -1.6,
-    "5": null,
+    "5": 4.78,
     "20": null
    },
    "excess": {
     "1": 2.04,
-    "5": null,
+    "5": 3.04,
     "20": null
    }
   },
@@ -7341,12 +7341,12 @@
    "quality": "C",
    "returns": {
     "1": 2.69,
-    "5": null,
+    "5": 0.09,
     "20": null
    },
    "excess": {
     "1": 6.33,
-    "5": null,
+    "5": -1.65,
     "20": null
    }
   },
@@ -7371,12 +7371,12 @@
    "quality": "A",
    "returns": {
     "1": -2.65,
-    "5": null,
+    "5": 0.66,
     "20": null
    },
    "excess": {
     "1": 0.99,
-    "5": null,
+    "5": -1.08,
     "20": null
    }
   },
@@ -7401,12 +7401,12 @@
    "quality": "B",
    "returns": {
     "1": -5.09,
-    "5": null,
+    "5": 1.39,
     "20": null
    },
    "excess": {
     "1": -1.45,
-    "5": null,
+    "5": -0.35,
     "20": null
    }
   },
@@ -7431,12 +7431,12 @@
    "quality": "C",
    "returns": {
     "1": -18.23,
-    "5": null,
+    "5": -10.56,
     "20": null
    },
    "excess": {
     "1": -14.59,
-    "5": null,
+    "5": -12.3,
     "20": null
    }
   },
@@ -7461,12 +7461,12 @@
    "quality": "C",
    "returns": {
     "1": -10.06,
-    "5": null,
+    "5": 2.22,
     "20": null
    },
    "excess": {
     "1": -6.42,
-    "5": null,
+    "5": 0.48,
     "20": null
    }
   },
@@ -7491,12 +7491,12 @@
    "quality": "C",
    "returns": {
     "1": 5.95,
-    "5": null,
+    "5": 13.88,
     "20": null
    },
    "excess": {
     "1": 9.59,
-    "5": null,
+    "5": 12.14,
     "20": null
    }
   },
@@ -8210,12 +8210,12 @@
    "thermo": 18,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": -2.72,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -4.34,
     "5": null,
     "20": null
    }
@@ -8240,12 +8240,12 @@
    "thermo": 18,
    "quality": "B",
    "returns": {
-    "1": null,
+    "1": 3.21,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.59,
     "5": null,
     "20": null
    }
@@ -8270,12 +8270,12 @@
    "thermo": 18,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": 4.55,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 2.93,
     "5": null,
     "20": null
    }
@@ -8300,12 +8300,12 @@
    "thermo": 18,
    "quality": "A",
    "returns": {
-    "1": null,
+    "1": 3.87,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 2.25,
     "5": null,
     "20": null
    }
@@ -8330,12 +8330,12 @@
    "thermo": 18,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -1.22,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -2.84,
     "5": null,
     "20": null
    }
@@ -8360,12 +8360,12 @@
    "thermo": 18,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": 3.19,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.57,
     "5": null,
     "20": null
    }
@@ -8390,12 +8390,12 @@
    "thermo": 18,
    "quality": "A",
    "returns": {
-    "1": null,
+    "1": 3.09,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 1.47,
     "5": null,
     "20": null
    }
@@ -8420,12 +8420,12 @@
    "thermo": 18,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": -1.57,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": -3.19,
     "5": null,
     "20": null
    }
@@ -8450,12 +8450,12 @@
    "thermo": 18,
    "quality": "C",
    "returns": {
-    "1": null,
+    "1": 5.96,
     "5": null,
     "20": null
    },
    "excess": {
-    "1": null,
+    "1": 4.34,
     "5": null,
     "20": null
    }
@@ -8478,6 +8478,96 @@
    "day_gap": 0.71,
    "spy_change": -0.29,
    "thermo": 18,
+   "quality": "C",
+   "returns": {
+    "1": 3.2,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": 1.58,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "XP",
+   "name": "XP Inc.",
+   "rank": 1,
+   "score": 37.0,
+   "price": 16.99,
+   "change_pct": 18.07,
+   "rvol": 1.79,
+   "catalyst": "capital",
+   "catalyst_label": "Financiación / recompra",
+   "appearance": 1,
+   "ath_status": "rebound",
+   "pct_from_ath": -67.99,
+   "close_strength": 0.49,
+   "day_gap": 20.15,
+   "spy_change": 1.62,
+   "thermo": 43,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "KNTK",
+   "name": "Kinetik Holdings Inc.",
+   "rank": 2,
+   "score": 26.7,
+   "price": 59.76,
+   "change_pct": 9.25,
+   "rvol": 1.9,
+   "catalyst": "takeover",
+   "catalyst_label": "OPA / la compran",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -42.98,
+   "close_strength": 0.68,
+   "day_gap": 7.29,
+   "spy_change": 1.62,
+   "thermo": 43,
+   "quality": "B",
+   "returns": {
+    "1": null,
+    "5": null,
+    "20": null
+   },
+   "excess": {
+    "1": null,
+    "5": null,
+    "20": null
+   }
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "GHRS",
+   "name": "GH Research PLC",
+   "rank": 3,
+   "score": 20.2,
+   "price": 20.49,
+   "change_pct": 9.87,
+   "rvol": 2.26,
+   "catalyst": "none",
+   "catalyst_label": "Sin noticia clara",
+   "appearance": 1,
+   "ath_status": "mid",
+   "pct_from_ath": -34.83,
+   "close_strength": 0.75,
+   "day_gap": 1.66,
+   "spy_change": 1.62,
+   "thermo": 43,
    "quality": "C",
    "returns": {
     "1": null,
